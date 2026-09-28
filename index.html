@@ -112,10 +112,10 @@
         <section class="mb-10 animate-fade-in" style="animation-delay: 0.1s;">
             <h3 class="text-xl font-bold mb-5 flex items-center text-gray-700"><i class="fas fa-brain text-blue-500 mr-3"></i> Inteligencia Artificial</h3>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <a href="oppo-ia.html" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-blue-50 transition"><i class="fas fa-cloud text-3xl text-blue-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Mind Space</h4></a>
-                <a href="oppo-ia.html" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-indigo-50 transition"><i class="fas fa-robot text-3xl text-indigo-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Mind Pilot</h4></a>
-                <a href="oppo-ia.html" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-green-50 transition"><i class="fas fa-chart-line text-3xl text-green-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Asistente</h4></a>
-                <a href="oppo-ia.html" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-purple-50 transition"><i class="fas fa-language text-3xl text-purple-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Traductor</h4></a>
+                <a href="oppo-ia.html#space" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-blue-50 transition"><i class="fas fa-cloud text-3xl text-blue-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Mind Space</h4></a>
+                <a href="oppo-ia.html#pilot" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-indigo-50 transition"><i class="fas fa-robot text-3xl text-indigo-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Mind Pilot</h4></a>
+                <a href="oppo-ia.html#asistente" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-green-50 transition"><i class="fas fa-chart-line text-3xl text-green-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Asistente</h4></a>
+                <a href="oppo-ia.html#traductor" class="glass-card p-5 text-center flex flex-col items-center justify-center hover:bg-purple-50 transition"><i class="fas fa-language text-3xl text-purple-500 mb-3"></i><h4 class="font-bold text-sm text-gray-800">Traductor</h4></a>
             </div>
         </section>
 
@@ -138,6 +138,25 @@
             </div>
         </section>
 
+            <!-- BUZON DE SUGERENCIAS -->
+        <section class="mt-12 mb-10 animate-fade-in" style="animation-delay: 0.3s;">
+            <div class="bg-gradient-to-r from-oppogreen to-teal-500 rounded-3xl p-8 text-white shadow-xl flex flex-col md:flex-row items-center justify-between relative overflow-hidden">
+                <div class="absolute inset-0 bg-black opacity-10"></div>
+                <div class="mb-6 md:mb-0 md:mr-8 text-center md:text-left relative z-10">
+                    <h3 class="text-2xl font-bold mb-2 text-white">¿De qué más te gustaría aprender?</h3>
+                    <p class="text-white opacity-90 text-sm md:text-base max-w-lg">Queremos escucharte. Ayúdanos a mejorar el Portal de Promotores dejando tus sugerencias sobre los próximos temas o dispositivos en los que te gustaría ser capacitado.</p>
+                </div>
+                <div class="flex flex-col items-center shrink-0 relative z-10">
+                    <div class="bg-white p-2 rounded-xl mb-3 shadow-md">
+                        <!-- El QR se generará dinámicamente cuando el usuario proporcione el link -->
+                        <img id="qrCode" src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=ENLACE_PENDIENTE" alt="Código QR" class="w-24 h-24">
+                    </div>
+                    <a id="sugerenciaLink" href="#" target="_blank" class="bg-white text-oppogreen font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition shadow-lg w-full text-center hover:scale-105 transform duration-200">
+                        Sugerir Temas
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script>
