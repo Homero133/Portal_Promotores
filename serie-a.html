@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Serie A | Portal Promotores</title>
+    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7' } } } }
+    </script>
+    <style>
+        body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7;}
+        .tab-btn.active{border-bottom:3px solid #05B670;color:#05B670;font-weight:bold;}
+        .content-section{display:none; animation: fadeIn 0.3s;}
+        .content-section.active{display:block;}
+        @keyframes fadeIn { from{opacity:0;} to{opacity:1;} } 
+        .hide-scrollbar::-webkit-scrollbar{display:none;}
+    </style>
+<style id="dark-theme-style">
+    body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+    body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+    body.dark-mode .text-gray-800 { color: #ffffff !important; }
+    body.dark-mode .text-gray-700 { color: #dddddd !important; }
+    body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+    body.dark-mode .text-gray-600 { color: #bbbbbb !important; }
+    body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
+    body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+    body.dark-mode .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5) !important; }
+    body.dark-mode .border-b { border-color: #333 !important; }
+    body.dark-mode .search-bar { background-color: #1e1e1e !important; }
+    body.dark-mode input { color: #fff !important; }
+    body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
+    body.dark-mode .tab-btn:not(.active) { color: #888 !important; }
+</style>
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        updateThemeIcon();
+    }
+    function initTheme() {
+        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+        updateThemeIcon();
+    }
+    function updateThemeIcon() {
+        const icon = document.getElementById('themeIcon');
+        if(icon) {
+            if(document.body.classList.contains('dark-mode')) {
+                icon.className = 'fas fa-sun text-yellow-400';
+            } else {
+                icon.className = 'fas fa-moon text-indigo-900';
+            }
+        }
+    }
+    document.addEventListener('DOMContentLoaded', initTheme);
+</script>
+</head>
+<body class="pb-24 text-gray-800">
+    <div class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center">
+            <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
+            <h1 class="text-2xl font-bold">Serie A</h1>
+        </div>
+        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6&#39;)">A6</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6c&#39;)">A6c</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6k&#39;)">A6k</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6t&#39;)">A6t</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6x&#39;)">A6x</button></div>
+    </div>
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        <div id="a6" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6</h2>    <a href="Recursos/01_Modelos/Serie_A/A6/Infografia_A6.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <i class="fas fa-download text-xl"></i>
+    </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;OGOiKpTwrGs&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/OGOiKpTwrGs/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">OPPO A6</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Conoce el diseño y especificaciones que posicionan al A6 como un súper ventas.</p>
+        </div>
+    </div>     <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;CkmlybnER0g&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/CkmlybnER0g/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">Certificación IP69 A6</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Demuestra cómo la protección militar salva el teléfono de agua y polvo.</p>
+        </div>
+    </div></div></div></div>
+<div id="a6c" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6c</h2>    <a href="Recursos/01_Modelos/Serie_A/A6c/Infografia_A6c.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <i class="fas fa-download text-xl"></i>
+    </a></div>
+<div id="a6k" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6K</h2>    <a href="Recursos/01_Modelos/Serie_A/A6k/Infografia_A6k.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <i class="fas fa-download text-xl"></i>
+    </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;AUELsBnxAE8&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/AUELsBnxAE8/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">Puntos Clave A6 K</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Aprende los diferenciadores para destacar el valor de este equipo.</p>
+        </div>
+    </div></div></div></div>
+<div id="a6t" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6T</h2>    <a href="Recursos/01_Modelos/Serie_A/A6t/Infografia_A6t.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <i class="fas fa-download text-xl"></i>
+    </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;q2pN7liYddo&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/q2pN7liYddo/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">Ventajas del A6T</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina las características únicas y preséntalo como la opción ideal.</p>
+        </div>
+    </div></div></div></div>
+<div id="a6x" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6x</h2>    <a href="Recursos/01_Modelos/Serie_A/A6x/Infografia_A6x.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <i class="fas fa-download text-xl"></i>
+    </a></div>
+    </main>
+    <!-- MODAL REPRODUCTOR -->
+    <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-4 backdrop-blur-sm">
+        <button onclick="closeModal()" class="absolute top-6 right-6 text-white/70 hover:text-white text-4xl p-2 w-12 h-12 flex items-center justify-center"><i class="fas fa-times"></i></button>
+        <div class="w-full max-w-[380px] aspect-[9/16] bg-black rounded-2xl overflow-hidden relative shadow-2xl">
+            <iframe id="modalIframe" src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script>
+        function switchTab(e, id) {
+            document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');
+            document.getElementById(id).classList.add('active');
+        }
+        function openVideo(id) {
+            document.getElementById('modalIframe').src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+            const modal = document.getElementById('videoModal');
+            modal.classList.remove('hidden'); modal.classList.add('flex');
+        }
+        function closeModal() {
+            const modal = document.getElementById('videoModal');
+            modal.classList.add('hidden'); modal.classList.remove('flex');
+            document.getElementById('modalIframe').src = '';
+        }
+    </script>
+</body></html>

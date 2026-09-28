@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>OPPO Inteligencia Artificial | Portal Promotores</title>
+    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7' } } } }
+    </script>
+    <style>
+        body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7;}
+        .tab-btn.active{border-bottom:3px solid #05B670;color:#05B670;font-weight:bold;}
+        .content-section{display:none; animation: fadeIn 0.3s;}
+        .content-section.active{display:block;}
+        @keyframes fadeIn { from{opacity:0;} to{opacity:1;} } 
+        .hide-scrollbar::-webkit-scrollbar{display:none;}
+    </style>
+<style id="dark-theme-style">
+    body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+    body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+    body.dark-mode .text-gray-800 { color: #ffffff !important; }
+    body.dark-mode .text-gray-700 { color: #dddddd !important; }
+    body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+    body.dark-mode .text-gray-600 { color: #bbbbbb !important; }
+    body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
+    body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+    body.dark-mode .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5) !important; }
+    body.dark-mode .border-b { border-color: #333 !important; }
+    body.dark-mode .search-bar { background-color: #1e1e1e !important; }
+    body.dark-mode input { color: #fff !important; }
+    body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
+    body.dark-mode .tab-btn:not(.active) { color: #888 !important; }
+</style>
+<script>
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        updateThemeIcon();
+    }
+    function initTheme() {
+        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+        updateThemeIcon();
+    }
+    function updateThemeIcon() {
+        const icon = document.getElementById('themeIcon');
+        if(icon) {
+            if(document.body.classList.contains('dark-mode')) {
+                icon.className = 'fas fa-sun text-yellow-400';
+            } else {
+                icon.className = 'fas fa-moon text-indigo-900';
+            }
+        }
+    }
+    document.addEventListener('DOMContentLoaded', initTheme);
+</script>
+</head>
+<body class="pb-24 text-gray-800">
+    <div class="bg-white shadow-sm sticky top-0 z-40">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center">
+            <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
+            <h1 class="text-2xl font-bold">OPPO Inteligencia Artificial</h1>
+        </div>
+        
+    </div>
+    <main class="max-w-4xl mx-auto px-4 mt-6">
+        <p class="text-gray-500 mb-6">Herramientas impulsadas por inteligencia artificial exclusivas de OPPO.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;8TwNL9GTPro&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/8TwNL9GTPro/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">Traductor de Menú AI</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Demuestra en vivo cómo la IA rompe las barreras del idioma al viajar.</p>
+        </div>
+    </div>
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;Xg-DvC2Od78&#39;)">
+        <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+            <!-- Portada automatica de YouTube -->
+            <img src="https://img.youtube.com/vi/Xg-DvC2Od78/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+            <!-- Icono Play superpuesto -->
+            <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300">
+                <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300">
+                    <i class="fas fa-play ml-1"></i>
+                </div>
+            </div>
+        </div>
+        <div class="p-5">
+            <h4 class="font-bold text-gray-800 text-lg leading-tight">AI Mind Space</h4>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Explica este asistente inteligente para organizar la vida del usuario.</p>
+        </div>
+    </div>
+</div>
+    </main>
+    <!-- MODAL REPRODUCTOR -->
+    <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-4 backdrop-blur-sm">
+        <button onclick="closeModal()" class="absolute top-6 right-6 text-white/70 hover:text-white text-4xl p-2 w-12 h-12 flex items-center justify-center"><i class="fas fa-times"></i></button>
+        <div class="w-full max-w-[380px] aspect-[9/16] bg-black rounded-2xl overflow-hidden relative shadow-2xl">
+            <iframe id="modalIframe" src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script>
+        function switchTab(e, id) {
+            document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
+            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');
+            document.getElementById(id).classList.add('active');
+        }
+        function openVideo(id) {
+            document.getElementById('modalIframe').src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+            const modal = document.getElementById('videoModal');
+            modal.classList.remove('hidden'); modal.classList.add('flex');
+        }
+        function closeModal() {
+            const modal = document.getElementById('videoModal');
+            modal.classList.add('hidden'); modal.classList.remove('flex');
+            document.getElementById('modalIframe').src = '';
+        }
+    </script>
+</body></html>

@@ -1,0 +1,9 @@
+﻿# Ignorar videos pesados y accesos directos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gdoc
+*.gsheet
+Thumbs.db
+.DS_Store
