@@ -170,7 +170,7 @@
         </div>
     </div>
     <script>
-        function swiTéhTab(e, id) {
+        function switchTab(e, id) {
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');

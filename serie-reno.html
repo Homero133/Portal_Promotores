@@ -59,7 +59,7 @@
             <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
             <h1 class="text-2xl font-bold">Serie Reno</h1>
         </div>
-        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;r16f&#39;)">R16 F</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;r165g&#39;)">R16 5G</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;r14f&#39;)">R14 F</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;r145g&#39;)">R14 5G</button></div>
+        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;r16f&#39;)">R16 F</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;r165g&#39;)">R16 5G</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;r14f&#39;)">R14 F</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;r145g&#39;)">R14 5G</button></div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
         <div id="r16f" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">Reno 16 F</h2>    <a href="Recursos/01_Modelos/Serie_Reno/Reno_16_F/Infografia_Reno_16_F.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
@@ -177,7 +177,7 @@
         </div>
     </div>
     <script>
-        function swiTéhTab(e, id) {
+        function switchTab(e, id) {
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');

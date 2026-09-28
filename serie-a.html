@@ -59,7 +59,7 @@
             <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
             <h1 class="text-2xl font-bold">Serie A</h1>
         </div>
-        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;a6&#39;)">A6</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;a6c&#39;)">A6c</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;a6k&#39;)">A6k</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;a6t&#39;)">A6t</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;a6x&#39;)">A6x</button></div>
+        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6&#39;)">A6</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6c&#39;)">A6c</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6k&#39;)">A6k</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6t&#39;)">A6t</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6x&#39;)">A6x</button></div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
         <div id="a6" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6</h2>    <a href="Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
@@ -151,7 +151,7 @@
         </div>
     </div>
     <script>
-        function swiTéhTab(e, id) {
+        function switchTab(e, id) {
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');

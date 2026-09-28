@@ -59,7 +59,7 @@
             <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
             <h1 class="text-2xl font-bold">Ventas y Procesos</h1>
         </div>
-        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;abordaje&#39;)">Abordaje</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;objeciones&#39;)">Objeciones</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="swiTéhTab(event, &#39;cierres&#39;)">Cierres</button></div>
+        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;abordaje&#39;)">Abordaje</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;objeciones&#39;)">Objeciones</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;cierres&#39;)">Cierres</button></div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
         <div id="abordaje" class="content-section active">
@@ -243,7 +243,7 @@
         </div>
     </div>
     <script>
-        function swiTéhTab(e, id) {
+        function switchTab(e, id) {
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');
