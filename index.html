@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -10,44 +10,43 @@
         tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7' } } } }
     </script>
     <style id="dark-theme-style">
-    body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
-    body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
-    body.dark-mode .text-gray-800 { color: #ffffff !important; }
-    body.dark-mode .text-gray-700 { color: #dddddd !important; }
-    body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
-    body.dark-mode .text-gray-600 { color: #bbbbbb !important; }
-    body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
-    body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
-    body.dark-mode .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5) !important; }
-    body.dark-mode .border-b { border-color: #333 !important; }
-    body.dark-mode .search-bar { background-color: #1e1e1e !important; }
-    body.dark-mode input { color: #fff !important; }
-    body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
-    body.dark-mode .tab-btn:not(.active) { color: #888 !important; }
-</style>
-<script>
-    function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
-        updateThemeIcon();
-    }
-    function initTheme() {
-        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
-        updateThemeIcon();
-    }
-    function updateThemeIcon() {
-        const icon = document.getElementById('themeIcon');
-        if(icon) {
-            if(document.body.classList.contains('dark-mode')) {
-                icon.className = 'fas fa-sun text-yellow-400';
-            } else {
-                icon.className = 'fas fa-moon text-indigo-900';
+        body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+        body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+        body.dark-mode .text-gray-800 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700 { color: #dddddd !important; }
+        body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+        body.dark-mode .text-gray-600 { color: #bbbbbb !important; }
+        body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+        body.dark-mode .shadow-sm { box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5) !important; }
+        body.dark-mode .border-b { border-color: #333 !important; }
+        body.dark-mode .search-bar { background-color: #1e1e1e !important; }
+        body.dark-mode input { color: #fff !important; }
+        body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
+        body.dark-mode .tab-btn:not(.active) { color: #888 !important; }
+    </style>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if(icon) {
+                if(document.body.classList.contains('dark-mode')) {
+                    icon.className = 'fas fa-sun text-yellow-400';
+                } else {
+                    icon.className = 'fas fa-moon text-indigo-900';
+                }
             }
         }
-    }
-    document.addEventListener('DOMContentLoaded', initTheme);
-</script>
-</head>
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f5f5f7; }
         .glass-card { background: white; border-radius: 1.25rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; border: 1px solid rgba(0,0,0,0.05); }
@@ -180,7 +179,10 @@
                 const a = document.createElement('a');
                 a.href = item.url;
                 a.className = "block p-5 border-b border-gray-100 hover:bg-green-50 dark:border-gray-700 dark:hover:bg-gray-800 transition";
-                a.innerHTML = <h4 class="font-bold text-oppogreen text-lg"> + item.title + </h4><p class="text-sm text-gray-500 mt-1"> + item.desc + </p>;
+                
+                // FIXED JAVASCRIPT STRING CONCATENATION HERE
+                a.innerHTML = '<h4 class="font-bold text-oppogreen text-lg">' + item.title + '</h4><p class="text-sm text-gray-500 mt-1">' + item.desc + '</p>';
+                
                 resultsBox.appendChild(a);
             });
         }
