@@ -26,10 +26,10 @@
             </button>
         </div>
         <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar">
-            <button id="btn-space" class="tab-btn active px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, 'space')">Mind Space</button>
-            <button id="btn-pilot" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, 'pilot')">Mind Pilot</button>
-            <button id="btn-asistente" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, 'asistente')">Asistente</button>
-            <button id="btn-traductor" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, 'traductor')">Traductor</button>
+            <button id="btn-space" class="tab-btn active px-5 py-3 font-medium whitespace-nowrap" onclick="swiTéhTab(event, 'space')">Mind Space</button>
+            <button id="btn-pilot" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="swiTéhTab(event, 'pilot')">Mind Pilot</button>
+            <button id="btn-asistente" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="swiTéhTab(event, 'asistente')">Asistente</button>
+            <button id="btn-traductor" class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="swiTéhTab(event, 'traductor')">Traductor</button>
         </div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
@@ -114,7 +114,7 @@
     
     <script>
         // Sistema de Pestañas
-        function switchTab(e, id) {
+        function swiTéhTab(e, id) {
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             
@@ -135,7 +135,7 @@
             if (window.location.hash) {
                 let tab = window.location.hash.substring(1); // Quitar el #
                 if (['space', 'pilot', 'asistente', 'traductor'].includes(tab)) {
-                    switchTab(null, tab);
+                    swiTéhTab(null, tab);
                 }
             }
         });

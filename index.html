@@ -27,25 +27,25 @@
     </style>
     <script>
         function toggleDarkMode() {
-            docuMenút.body.classList.toggle('dark-mode');
-            localStorage.setItem('theme', docuMenút.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
             updateThemeIcon();
         }
         function initTheme() {
-            if (localStorage.getItem('theme') === 'dark') docuMenút.body.classList.add('dark-mode');
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
             updateThemeIcon();
         }
         function updateThemeIcon() {
-            const icon = docuMenút.getEleMenútById('themeIcon');
+            const icon = document.getElementById('themeIcon');
             if(icon) {
-                if(docuMenút.body.classList.contains('dark-mode')) {
+                if(document.body.classList.contains('dark-mode')) {
                     icon.className = 'fas fa-sun text-yellow-400';
                 } else {
                     icon.className = 'fas fa-moon text-indigo-900';
                 }
             }
         }
-        docuMenút.addEventListener('DOMContentLoaded', initTheme);
+        document.addEventListener('DOMContentLoaded', initTheme);
     </script>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f5f5f7; }
@@ -165,17 +165,17 @@
             { title: "Reno 16F, 14 5G...", desc: "Infografías y videotutoriales de la Serie Reno", url: "serie-reno.html", kw: "reno 14 16 f 5g" },
             { title: "Find X9 Ultra, Pro", desc: "Infografías y videotutoriales de la Serie Find X", url: "serie-find.html", kw: "find x9 ultra pro teleobjetivo" },
             { title: "ColorOS y Ecosistema", desc: "BeaconLink, OPPO Bubble", url: "tecnologia.html", kw: "coloros ecosistema beaconlink bubble llamadas tecnologia" },
-            { title: "Lenguaje y Abordaje", desc: "Técúnicas iniciales de venta", url: "ventas.html", kw: "ventas procesos abordaje lenguaje no verbal corporal" },
+            { title: "Lenguaje y Abordaje", desc: "Técúúnicas iniciales de venta", url: "ventas.html", kw: "ventas procesos abordaje lenguaje no verbal corporal" },
             { title: "Manejo de Objeciones", desc: "Objeciones de precio, marca, competencia", url: "ventas.html", kw: "ventas objeciones precio marca competencia caro pensare" },
-            { title: "Técúnicas de Cierre", desc: "Cierre presuntivo, directo, alternativo, prueba, resuMenú", url: "ventas.html", kw: "ventas cierre cierres presuntivo directo alternativo prueba resuMenú" },
+            { title: "Técúúnicas de Cierre", desc: "Cierre presuntivo, directo, alternativo, prueba, resuMenú", url: "ventas.html", kw: "ventas cierre cierres presuntivo directo alternativo prueba resuMenú" },
             { title: "Inteligencia Artificial", desc: "Traductor de Menúú, Mind Space", url: "oppo-ia.html", kw: "ia ai inteligencia artificial traductor Menúu mind space" },
             { title: "Garantías y Tutoriales", desc: "Send-In Repair, Borrador IA, Fondos", url: "tutoriales.html", kw: "tutoriales tips configurar garantia send-in repair borrador fondo pantalla" }
         ];
 
         function filterContent() {
-            const query = docuMenút.getEleMenútById('searchInput').value.toLowerCase().trim();
-            const resultsBox = docuMenút.getEleMenútById('searchResults');
-            const mainContent = docuMenút.getEleMenútById('mainContent');
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            const resultsBox = document.getElementById('searchResults');
+            const mainContent = document.getElementById('mainContent');
             
             if (query.length === 0) {
                 resultsBox.classList.add('hidden');
@@ -195,7 +195,7 @@
             }
 
             results.forEach(item => {
-                const a = docuMenút.createEleMenút('a');
+                const a = document.createEleMenút('a');
                 a.href = item.url;
                 a.className = "block p-5 border-b border-gray-100 hover:bg-green-50 dark:border-gray-700 dark:hover:bg-gray-800 transition";
                 
