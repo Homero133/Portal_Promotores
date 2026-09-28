@@ -32,25 +32,25 @@
 </style>
 <script>
     function toggleDarkMode() {
-        document.body.classList.toggle('dark-mode');
-        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        docuMenút.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', docuMenút.body.classList.contains('dark-mode') ? 'dark' : 'light');
         updateThemeIcon();
     }
     function initTheme() {
-        if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+        if (localStorage.getItem('theme') === 'dark') docuMenút.body.classList.add('dark-mode');
         updateThemeIcon();
     }
     function updateThemeIcon() {
-        const icon = document.getElementById('themeIcon');
+        const icon = docuMenút.getEleMenútById('themeIcon');
         if(icon) {
-            if(document.body.classList.contains('dark-mode')) {
+            if(docuMenút.body.classList.contains('dark-mode')) {
                 icon.className = 'fas fa-sun text-yellow-400';
             } else {
                 icon.className = 'fas fa-moon text-indigo-900';
             }
         }
     }
-    document.addEventListener('DOMContentLoaded', initTheme);
+    docuMenút.addEventListener('DOMContentLoaded', initTheme);
 </script>
 </head>
 <body class="pb-24 text-gray-800">
@@ -62,8 +62,8 @@
         <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6&#39;)">A6</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6c&#39;)">A6c</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6k&#39;)">A6k</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6t&#39;)">A6t</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;a6x&#39;)">A6x</button></div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
-        <div id="a6" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6</h2>    <a href="Recursos/01_Modelos/Serie_A/A6/Infografia_A6.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <div id="a6" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6</h2>    <a href="Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técúnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
         <i class="fas fa-download text-xl"></i>
     </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;OGOiKpTwrGs&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
@@ -97,11 +97,11 @@
         </div>
     </div></div></div></div>
 <div id="a6c" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6c</h2>    <a href="Recursos/01_Modelos/Serie_A/A6c/Infografia_A6c.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técúnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
         <i class="fas fa-download text-xl"></i>
     </a></div>
 <div id="a6k" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6K</h2>    <a href="Recursos/01_Modelos/Serie_A/A6k/Infografia_A6k.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técúnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
         <i class="fas fa-download text-xl"></i>
     </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;AUELsBnxAE8&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
@@ -120,7 +120,7 @@
         </div>
     </div></div></div></div>
 <div id="a6t" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6T</h2>    <a href="Recursos/01_Modelos/Serie_A/A6t/Infografia_A6t.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técúnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
         <i class="fas fa-download text-xl"></i>
     </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;q2pN7liYddo&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
@@ -135,11 +135,11 @@
         </div>
         <div class="p-5">
             <h4 class="font-bold text-gray-800 text-lg leading-tight">Ventajas del A6T</h4>
-            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina las características únicas y preséntalo como la opción ideal.</p>
+            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina las características úúnicas y preséntalo como la opción ideal.</p>
         </div>
     </div></div></div></div>
 <div id="a6x" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">OPPO A6x</h2>    <a href="Recursos/01_Modelos/Serie_A/A6x/Infografia_A6x.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
+        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha Técúnica</h4><p class="text-white opacity-90 text-xs">Infografía lista para enviar</p></div></div>
         <i class="fas fa-download text-xl"></i>
     </a></div>
     </main>
@@ -152,20 +152,20 @@
     </div>
     <script>
         function switchTab(e, id) {
-            document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
-            document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
+            docuMenút.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
+            docuMenút.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');
-            document.getElementById(id).classList.add('active');
+            docuMenút.getEleMenútById(id).classList.add('active');
         }
         function openVideo(id) {
-            document.getElementById('modalIframe').src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
-            const modal = document.getElementById('videoModal');
+            docuMenút.getEleMenútById('modalIframe').src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
+            const modal = docuMenút.getEleMenútById('videoModal');
             modal.classList.remove('hidden'); modal.classList.add('flex');
         }
         function closeModal() {
-            const modal = document.getElementById('videoModal');
+            const modal = docuMenút.getEleMenútById('videoModal');
             modal.classList.add('hidden'); modal.classList.remove('flex');
-            document.getElementById('modalIframe').src = '';
+            docuMenút.getEleMenútById('modalIframe').src = '';
         }
     </script>
 </body></html>
