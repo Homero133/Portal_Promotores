@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Programa OLA | Portal Promotores</title>
+    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7', olablue: '#0055ff' } } } }</script>
+    <style id="dark-theme-style">
+        body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+        body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+        body.dark-mode .text-gray-800 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700 { color: #dddddd !important; }
+        body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+        body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+        body.dark-mode .border-b, body.dark-mode .border-gray-100 { border-color: #333 !important; }
+        body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
+    </style>
+    <style>
+        body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7;}
+        /* Animacion simple para el modal */
+        @keyframes zoomIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        .modal-animate { animation: zoomIn 0.3s ease-out forwards; }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6D6ZC9K790"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6D6ZC9K790');
+    </script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if(icon) {
+                if(document.body.classList.contains('dark-mode')) {
+                    icon.className = 'fas fa-sun text-yellow-400';
+                } else {
+                    icon.className = 'fas fa-moon text-gray-600 dark:text-yellow-400';
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="pb-24 text-gray-800 transition-colors duration-300">
+    <!-- NAVBAR -->
+    <div class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition"><i class="fas fa-arrow-left"></i></a>
+                <h1 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Programa OLA</h1>
+            </div>
+            <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
+                <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
+            </button>
+        </div>
+    </div>
+
+    <main class="max-w-4xl mx-auto px-4 mt-8">
+        <!-- HEADER OLA -->
+        <div class="bg-white rounded-3xl p-8 mb-10 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6">
+            <div class="w-32 h-32 shrink-0 bg-gray-50 rounded-2xl p-4 flex items-center justify-center shadow-inner">
+                <!-- LOGO OLA -->
+                <img src="Recursos/ola/logo.png" alt="Logo OLA" class="max-w-full max-h-full object-contain">
+            </div>
+            <div>
+                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wider mb-3">INCENTIVOS EXCLUSIVOS</span>
+                <h2 class="text-3xl font-black mb-3">Plataforma OLA</h2>
+                <p class="text-gray-500 max-w-lg leading-relaxed">Puntos e incentivos de ventas para nuestros aliados de Carrier. Selecciona la cadena comercial para ver la tabla de puntajes correspondiente a este mes.</p>
+            </div>
+        </div>
+
+        <!-- CADENAS COMERCIALES -->
+        
+        <!-- COPPEL -->
+        <div class="mb-8">
+            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-yellow-400 rounded-full mr-3"></div> COPPEL</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <button onclick="openImage('Recursos/ola/Coppel telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+                <button onclick="openImage('Recursos/ola/coppel att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+                <button onclick="openImage('Recursos/ola/coppel movistar.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Movistar</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- ELEKTRA -->
+        <div class="mb-8">
+            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-600 rounded-full mr-3"></div> ELEKTRA</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <button onclick="openImage('Recursos/ola/elektra telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+                <button onclick="openImage('Recursos/ola/elektra att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+                <button onclick="openImage('Recursos/ola/Elektra movistar.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Movistar</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- SEARS -->
+        <div class="mb-8">
+            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-700 rounded-full mr-3"></div> SEARS</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <button onclick="openImage('Recursos/ola/sears telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+                <button onclick="openImage('Recursos/ola/sears att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- SUBURBIA -->
+        <div class="mb-12">
+            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-purple-600 rounded-full mr-3"></div> SUBURBIA</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-1 md:w-1/2 gap-4">
+                <button onclick="openImage('Recursos/ola/suburbia telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
+                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- MODAL VISOR DE IMAGENES -->
+    <div id="imageModal" class="fixed inset-0 bg-black/90 z-[100] hidden flex-col items-center justify-center p-4 backdrop-blur-md">
+        <!-- Close Button -->
+        <button onclick="closeImage()" class="absolute top-6 right-6 text-white/70 hover:text-white text-4xl p-2 w-12 h-12 flex items-center justify-center z-50 transition"><i class="fas fa-times"></i></button>
+        
+        <!-- Image Container with zoom ability setup -->
+        <div class="w-full max-w-4xl max-h-[90vh] flex items-center justify-center modal-animate relative">
+            <img id="modalImg" src="" alt="Puntos OLA" class="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl">
+        </div>
+        
+        <!-- Hint Text -->
+        <div class="absolute bottom-6 text-white/60 text-sm">Pellizca la pantalla para hacer zoom</div>
+    </div>
+
+    <script>
+        function openImage(srcPath) {
+            document.getElementById('modalImg').src = srcPath;
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('hidden'); 
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden'; // Evitar scroll de fondo
+        }
+        function closeImage() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden'); 
+            modal.classList.remove('flex');
+            setTimeout(() => { document.getElementById('modalImg').src = ''; }, 300); // limpiar src tras cerrar
+            document.body.style.overflow = 'auto'; // Restaurar scroll
+        }
+        
+        // Cerrar al hacer clic fuera de la imagen
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeImage();
+            }
+        });
+    </script>
+</body>
+</html>
