@@ -7,3 +7,7 @@
 *.gsheet
 Thumbs.db
 .DS_Store
+
+desktop.ini
+*/desktop.ini
+**/desktop.ini

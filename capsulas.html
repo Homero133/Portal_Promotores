@@ -1,7 +1,12 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Cápsulas y Capacitaciones | Portal Promotores</title>
+    <!-- Preconexion a YouTube para reproduccion fluida sin trabas -->
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+    <link rel="dns-prefetch" href="https://i.ytimg.com">
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>C&aacute;psulas y Capacitaciones | Portal Promotores</title>
     <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script>tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7' } } } }</script>
     <style id="dark-theme-style">
@@ -89,24 +94,143 @@
         </div>
     </main>
 
-    <!-- MODAL REPRODUCTOR -->
-    <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-4 backdrop-blur-sm">
-        <button onclick="closeModal()" class="absolute top-6 right-6 text-white/70 hover:text-white text-4xl p-2 w-12 h-12 flex items-center justify-center"><i class="fas fa-times"></i></button>
-        <div class="w-full max-w-[380px] aspect-[9/16] bg-black rounded-2xl overflow-hidden relative shadow-2xl">
-            <iframe id="modalIframe" src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <!-- MODAL REPRODUCTOR FLUIDO (OPTIMIZADO PARA SESIONES EN VIVO) -->
+    <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-3 sm:p-5 backdrop-blur-md transition-opacity duration-300" onclick="if(event.target === this) closeModal()">
+        <!-- Barra de herramientas superior -->
+        <div class="w-full max-w-4xl flex items-center justify-between px-2 sm:px-4 py-2 mb-2 text-white/90 z-10">
+            <div class="flex items-center gap-2">
+                <span class="text-xs sm:text-sm font-semibold tracking-wide bg-white/10 px-3 py-1 rounded-full text-oppogreen flex items-center">
+                    <i class="fas fa-circle text-[8px] mr-1.5 animate-pulse text-red-500"></i> Video HD
+                </span>
+            </div>
+            <div class="flex items-center gap-2">
+                <!-- Boton Copiar Enlace para el chat de la sesion -->
+                <button id="copyVideoBtn" onclick="copyVideoLink()" title="Copiar enlace para el chat de la reuni&oacute;n" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium py-1.5 px-3 rounded-xl transition flex items-center gap-1.5 backdrop-blur-sm">
+                    <i class="fas fa-link"></i> <span id="copyBtnText" class="hidden sm:inline">Copiar Enlace</span>
+                </button>
+                <!-- Boton Abrir en YouTube directo (60 fps nativo sin lag) -->
+                <a id="externalVideoLink" href="#" target="_blank" rel="noopener noreferrer" title="Abrir en pesta&ntilde;a dedicada de YouTube (fluidez total en videollamada)" class="bg-red-600 hover:bg-red-700 text-white text-xs sm:text-sm font-medium py-1.5 px-3 rounded-xl transition flex items-center gap-1.5 shadow-lg">
+                    <i class="fab fa-youtube"></i> <span class="hidden sm:inline">Abrir en YouTube</span>
+                </a>
+                <!-- Boton Cambiar Formato (Vertical / Widescreen) -->
+                <button onclick="toggleVideoAspect()" title="Alternar formato horizontal / vertical" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium py-1.5 px-3 rounded-xl transition flex items-center gap-1.5">
+                    <i class="fas fa-expand-alt"></i> <span class="hidden sm:inline">Ajustar</span>
+                </button>
+                <!-- Boton Cerrar -->
+                <button onclick="closeModal()" title="Cerrar video (Esc)" class="text-white/70 hover:text-white text-2xl p-1.5 rounded-xl hover:bg-white/10 transition ml-1 w-9 h-9 flex items-center justify-center">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
         </div>
+
+        <!-- Contenedor adaptativo del reproductor -->
+        <div id="videoContainer" class="w-full max-w-4xl aspect-video max-h-[82vh] bg-black rounded-2xl overflow-hidden relative shadow-2xl transition-all duration-300 border border-white/10 flex items-center justify-center">
+            <!-- Spinner indicador de carga -->
+            <div id="videoSpinner" class="absolute inset-0 flex flex-col items-center justify-center bg-black/90 z-10 transition-opacity duration-300">
+                <div class="w-12 h-12 border-4 border-oppogreen/30 border-t-oppogreen rounded-full animate-spin mb-3"></div>
+                <span class="text-xs text-gray-300 tracking-wider">Cargando video sin cortes...</span>
+            </div>
+            
+            <iframe id="modalIframe" src="" class="absolute top-0 left-0 w-full h-full" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen loading="eager" referrerpolicy="strict-origin-when-cross-origin" onload="onIframeLoad()"></iframe>
+        </div>
+
+        <!-- Atajo y tip para presentaciones -->
+        <p class="text-white/40 text-xs mt-3 text-center hidden sm:block">
+            <i class="fas fa-info-circle mr-1"></i> Pulsa <kbd class="bg-white/10 px-1.5 py-0.5 rounded text-[10px]">Esc</kbd> o haz clic afuera para salir &bull; En videollamadas usa &laquo;Abrir en YouTube&raquo; para transmisi&oacute;n fluida
+        </p>
     </div>
+
     <script>
-        function openVideo(id) {
-            document.getElementById('modalIframe').src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1';
-            const modal = document.getElementById('videoModal');
-            modal.classList.remove('hidden'); modal.classList.add('flex');
+        const HORIZONTAL_VIDEOS = new Set([
+            'Am15k-VoQVA', '3CF9J189AhM', 'f1Yc9MXEZhw', 'duuHE3fQYrw', 'cbnkfMQ2b6E', 'JxotNm2qZGs',
+            'wuge6mbhoqA', '4J_a1p5ZGNY', 'yIsJYE4ISNk', 'cImwExhU0E8', 'dtBWua0FQYI'
+        ]);
+        let currentVideoId = '';
+        let isWidescreen = true;
+
+        function setVideoAspect(widescreen) {
+            isWidescreen = widescreen;
+            const container = document.getElementById('videoContainer');
+            if (!container) return;
+            if (widescreen) {
+                container.className = 'w-full max-w-4xl aspect-video max-h-[82vh] bg-black rounded-2xl overflow-hidden relative shadow-2xl transition-all duration-300 border border-white/10 flex items-center justify-center';
+            } else {
+                container.className = 'w-full max-w-[420px] aspect-[9/16] max-h-[82vh] bg-black rounded-2xl overflow-hidden relative shadow-2xl transition-all duration-300 border border-white/10 flex items-center justify-center';
+            }
         }
+
+        function toggleVideoAspect() {
+            setVideoAspect(!isWidescreen);
+        }
+
+        function openVideo(id) {
+            currentVideoId = id;
+            const modal = document.getElementById('videoModal');
+            const iframe = document.getElementById('modalIframe');
+            const spinner = document.getElementById('videoSpinner');
+            const extLink = document.getElementById('externalVideoLink');
+
+            setVideoAspect(HORIZONTAL_VIDEOS.has(id));
+
+            if (extLink) {
+                extLink.href = 'https://www.youtube.com/watch?v=' + id;
+            }
+
+            if (spinner) {
+                spinner.style.display = 'flex';
+                spinner.style.opacity = '1';
+            }
+
+            // Reproduccion optimizada: CDN directo de YouTube, playsinline, rel=0, hardware accel
+            const origin = encodeURIComponent(window.location.origin || window.location.href);
+            iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1&origin=' + origin;
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function onIframeLoad() {
+            const iframe = document.getElementById('modalIframe');
+            const spinner = document.getElementById('videoSpinner');
+            if (iframe && iframe.src && iframe.src !== 'about:blank') {
+                if (spinner) {
+                    spinner.style.opacity = '0';
+                    setTimeout(() => { spinner.style.display = 'none'; }, 300);
+                }
+            }
+        }
+
         function closeModal() {
             const modal = document.getElementById('videoModal');
-            modal.classList.add('hidden'); modal.classList.remove('flex');
-            document.getElementById('modalIframe').src = '';
+            if (!modal) return;
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            const iframe = document.getElementById('modalIframe');
+            if (iframe) {
+                iframe.src = 'about:blank';
+            }
+            document.body.style.overflow = '';
         }
+
+        function copyVideoLink() {
+            if (!currentVideoId) return;
+            const directUrl = 'https://youtu.be/' + currentVideoId;
+            navigator.clipboard.writeText(directUrl).then(() => {
+                const text = document.getElementById('copyBtnText');
+                if (text) {
+                    const prev = text.textContent;
+                    text.textContent = 'Copiado!';
+                    setTimeout(() => { text.textContent = prev; }, 2000);
+                }
+            }).catch(() => {
+                prompt('Copia este enlace para compartir:', directUrl);
+            });
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeModal();
+        });
     </script>
 </body>
 </html>
