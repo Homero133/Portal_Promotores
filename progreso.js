@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Sistema de Registro de Usuarios, Barra de Progreso, Gamificacion y Sincronizacion con Google Sheets
  * Portal de Promotores OPPO
  */
@@ -8,10 +8,10 @@
     // 1. CONFIGURACION DE GOOGLE SHEETS (OPCION 2)
     // =========================================================================
     // Pega aqui la URL de tu aplicacion web de Google Apps Script una vez publicada:
-    const DEFAULT_GOOGLE_SCRIPT_URL = ""; 
+    const DEFAULT_GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzUqBbRtaAC7yt4Byy2s54SoKEx62b3BNKzubFD5wpnUSyLi-Dm1I_25uu-R2-Mz0Om/exec"; 
 
     function getGoogleScriptUrl() {
-        return localStorage.getItem('oppo_google_script_url') || DEFAULT_GOOGLE_SCRIPT_URL;
+        return DEFAULT_GOOGLE_SCRIPT_URL || localStorage.getItem('oppo_google_script_url');
     }
 
     // =========================================================================
