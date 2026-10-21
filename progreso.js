@@ -186,7 +186,7 @@
             fecha: new Date().toLocaleString('es-MX'),
             timestamp: new Date().toISOString(),
             nombre: user.nombre,
-            idEmpleado: user.idEmpleado,
+            idEmpleado: user.telefono ? (user.idEmpleado + ' | Tel: ' + user.telefono) : user.idEmpleado,
             cadena: user.cadena,
             ciudad: user.ciudad,
             evento: tipoEvento,
@@ -250,10 +250,11 @@
             syncToGoogleSheets('Video Completado', info.module, info.title);
 
             const stats = getStats();
-            if (stats.percentage === 100 && !data.completed100Notified) {
+            if (stats.percentage === 100 && data.lastCompletedTotal !== stats.TOTAL_VIDEOS) {
                 data.completed100Notified = true;
+                data.lastCompletedTotal = stats.TOTAL_VIDEOS;
                 saveProgressData(data);
-                syncToGoogleSheets('Capacitacion 100% Completada', 'Academia OPPO', 'Certificado Desbloqueado');
+                syncToGoogleSheets('Capacitacion 100% Completada', 'Academia OPPO', 'Certificado Desbloqueado (' + stats.TOTAL_VIDEOS + ' videos)');
                 setTimeout(function () {
                     openCertificateModal();
                 }, 1200);
@@ -369,12 +370,15 @@
                                 '<span class="text-xs font-bold px-2.5 py-0.5 rounded-full border ' + stats.rank.bgBadge + '">' +
                                     '<i class="fas ' + stats.rank.icon + ' mr-1"></i> ' + stats.rank.title +
                                 '</span>' +
+                                '<span class="text-xs font-bold text-white bg-oppogreen/30 border border-oppogreen/50 px-2.5 py-0.5 rounded-full">' +
+                                    '<i class="fas fa-id-card mr-1 text-oppogreen"></i> ID: ' + escapeHtml(user.idEmpleado) +
+                                '</span>' +
                                 '<span class="text-xs text-gray-300 bg-white/10 px-2.5 py-0.5 rounded-full">' +
                                     '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(user.cadena) +
                                 '</span>' +
                             '</div>' +
                             '<h3 class="text-xl font-black leading-tight">' + escapeHtml(user.nombre) + '</h3>' +
-                            '<p class="text-xs text-gray-400">' + escapeHtml(user.ciudad) + ' &bull; ID: ' + escapeHtml(user.idEmpleado) + '</p>' +
+                            '<p class="text-xs text-gray-400">' + escapeHtml(user.ciudad) + (user.telefono ? ' &bull; Tel: ' + escapeHtml(user.telefono) : '') + '</p>' +
                         '</div>' +
                     '</div>' +
                     '<div class="flex items-center gap-2 self-start md:self-center">' +
@@ -450,7 +454,7 @@
 
         const globalStats = getStats();
         const user = getUserProfile();
-        const userLabel = user ? escapeHtml(user.nombre.split(' ')[0]) : 'Registrarme';
+        const userLabel = user ? (escapeHtml(user.nombre.split(' ')[0]) + ' (ID: ' + escapeHtml(user.idEmpleado) + ')') : 'Registrarme';
 
         bar.innerHTML =
             '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">' +
@@ -562,15 +566,21 @@
                     '</div>' +
                     '<p class="text-xs sm:text-sm text-gray-500 mb-5">Ingresa tus datos para sincronizar tu barra de progreso y emitir tu Certificado OPPO.</p>' +
                     '<form id="oppoProfileForm" onsubmit="window.oppoProgress.submitProfileForm(event)" class="space-y-4">' +
+                        '<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">' +
+                            '<div>' +
+                                '<label class="block text-xs font-bold text-gray-700 uppercase mb-1"><i class="fas fa-id-card text-oppogreen mr-1"></i> ID de Promotor *</label>' +
+                                '<input type="text" id="oppoInputId" required placeholder="Ej. OPPO-1024" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm font-semibold focus:outline-none focus:border-oppogreen">' +
+                            '</div>' +
+                            '<div>' +
+                                '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">Tel&eacute;fono / WhatsApp</label>' +
+                                '<input type="tel" id="oppoInputTelefono" placeholder="Ej. 5512345678" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
+                            '</div>' +
+                        '</div>' +
                         '<div>' +
                             '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">Nombre y Apellido *</label>' +
                             '<input type="text" id="oppoInputNombre" required placeholder="Ej. Carlos Mendoza" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
                         '</div>' +
                         '<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">' +
-                            '<div>' +
-                                '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">ID o Tel&eacute;fono *</label>' +
-                                '<input type="text" id="oppoInputId" required placeholder="Ej. 5512345678" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
-                            '</div>' +
                             '<div>' +
                                 '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">Cadena / Punto *</label>' +
                                 '<select id="oppoInputCadena" required class="w-full px-3 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
@@ -587,10 +597,10 @@
                                     '<option value="Otra Cadena">Otra Cadena</option>' +
                                 '</select>' +
                             '</div>' +
-                        '</div>' +
-                        '<div>' +
-                            '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">Ciudad / Sucursal *</label>' +
-                            '<input type="text" id="oppoInputCiudad" required placeholder="Ej. CDMX - Centro" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
+                            '<div>' +
+                                '<label class="block text-xs font-bold text-gray-700 uppercase mb-1">Ciudad / Sucursal *</label>' +
+                                '<input type="text" id="oppoInputCiudad" required placeholder="Ej. CDMX - Centro" class="w-full px-4 py-3 rounded-xl border border-gray-200 bg-gray-50 text-gray-800 text-sm focus:outline-none focus:border-oppogreen">' +
+                            '</div>' +
                         '</div>' +
                         '<button type="submit" class="w-full bg-oppogreen hover:bg-emerald-600 text-white font-bold py-3.5 rounded-xl shadow-lg transition transform hover:scale-[1.01] text-sm mt-2">' +
                             '<i class="fas fa-save mr-2"></i> Guardar y Activar Mi Progreso' +
@@ -634,6 +644,8 @@
         if (user) {
             document.getElementById('oppoInputNombre').value = user.nombre || '';
             document.getElementById('oppoInputId').value = user.idEmpleado || '';
+            const telInput = document.getElementById('oppoInputTelefono');
+            if (telInput) telInput.value = user.telefono || '';
             document.getElementById('oppoInputCadena').value = user.cadena || '';
             document.getElementById('oppoInputCiudad').value = user.ciudad || '';
         }
@@ -652,6 +664,8 @@
         e.preventDefault();
         const nombre = document.getElementById('oppoInputNombre').value.trim();
         const idEmpleado = document.getElementById('oppoInputId').value.trim();
+        const telInput = document.getElementById('oppoInputTelefono');
+        const telefono = telInput ? telInput.value.trim() : '';
         const cadena = document.getElementById('oppoInputCadena').value.trim();
         const ciudad = document.getElementById('oppoInputCiudad').value.trim();
         if (!nombre || !idEmpleado || !cadena || !ciudad) return;
@@ -660,6 +674,7 @@
         const profile = {
             nombre: nombre,
             idEmpleado: idEmpleado,
+            telefono: telefono,
             cadena: cadena,
             ciudad: ciudad,
             fechaRegistro: existing ? existing.fechaRegistro : new Date().toISOString()
@@ -667,8 +682,8 @@
         saveUserProfile(profile);
         closeProfileModal();
         refreshProgressUI();
-        showToast('Bienvenido/a, ' + nombre.split(' ')[0]);
-        syncToGoogleSheets(existing ? 'Actualizacion de Perfil' : 'Nuevo Registro', 'Perfil Promotor', cadena + ' - ' + ciudad);
+        showToast('Bienvenido/a, ' + nombre.split(' ')[0] + ' (ID: ' + idEmpleado + ')');
+        syncToGoogleSheets(existing ? 'Actualizacion de Perfil' : 'Nuevo Registro', 'Perfil Promotor', 'ID: ' + idEmpleado + ' | ' + cadena + ' - ' + ciudad);
     }
 
     function openCertificateModal() {
@@ -717,7 +732,7 @@
         });
 
         const shareText = encodeURIComponent(
-            'Hola! Soy ' + user.nombre + ' (' + user.cadena + ' - ' + user.ciudad + '). ' +
+            'Hola! Soy ' + user.nombre + ' (ID: ' + user.idEmpleado + ' | ' + user.cadena + ' - ' + user.ciudad + '). ' +
             'Llevo un ' + stats.percentage + '% de avance (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos) ' +
             'en el Portal de Capacitacion OPPO Pro. Rango actual: ' + stats.rank.title + '.'
         );
