@@ -91,7 +91,7 @@
                     <i class="fas fa-balance-scale"></i> Benchmark Interactivo
                 </button>
                 <button onclick="switchTab(event, 'capacitacion')" class="tab-btn py-3 px-2 whitespace-nowrap text-sm text-gray-500 transition flex items-center gap-2">
-                    <i class="fas fa-play-circle"></i> Argumentos y Videos CTC
+                    <i class="fas fa-play-circle"></i> Fichas y Entrenamiento CTC
                 </button>
             </div>
         </div>
@@ -111,7 +111,7 @@
                         <span class="w-7 h-7 rounded-full bg-oppogreen text-white font-black text-xs flex items-center justify-center shadow">1</span>
                         <h2 class="text-base sm:text-lg font-extrabold text-gray-800">Elige tu modelo OPPO a defender</h2>
                     </div>
-                    <span class="text-xs text-gray-400 hidden sm:inline">Filtra autom&aacute;ticamente su segmento competitivo</span>
+                    <span class="text-xs text-gray-400 hidden sm:inline">Filtra autom&aacute;ticamente sus competidores directos</span>
                 </div>
                 <div id="oppoModelSelector" class="grid grid-cols-2 sm:grid-cols-4 gap-3"></div>
             </div>
@@ -122,17 +122,17 @@
                     <div class="flex items-center gap-2.5">
                         <span class="w-7 h-7 rounded-full bg-gray-900 text-white font-black text-xs flex items-center justify-center shadow">2</span>
                         <div>
-                            <h2 class="text-base sm:text-lg font-extrabold text-gray-800">Selecciona 1, 2 o los 3 competidores directos</h2>
-                            <p class="text-xs text-gray-500">Solo mostramos los equipos que compiten en la misma gama y rango de precio.</p>
+                            <h2 class="text-base sm:text-lg font-extrabold text-gray-800">Selecciona 1, 2 o hasta 3 competidores directos</h2>
+                            <p class="text-xs text-gray-500">La tabla filtra autom&aacute;ticamente los puntos clave donde OPPO supera a tu selecci&oacute;n.</p>
                         </div>
                     </div>
                     <div class="flex items-center gap-2 self-end sm:self-center">
-                        <button onclick="selectAllRivals()" class="text-xs font-bold text-oppogreen bg-emerald-500/10 hover:bg-emerald-500/20 px-3 py-1.5 rounded-xl transition">
-                            <i class="fas fa-check-double mr-1"></i> Comparar los 3
+                        <button onclick="selectFirstThreeRivals()" class="text-xs font-bold text-oppogreen bg-emerald-500/10 hover:bg-emerald-500/20 px-3 py-1.5 rounded-xl transition">
+                            <i class="fas fa-layer-group mr-1"></i> Comparar Top 3
                         </button>
                     </div>
                 </div>
-                <div id="rivalSelectorContainer" class="grid grid-cols-1 sm:grid-cols-3 gap-3"></div>
+                <div id="rivalSelectorContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
             </div>
 
             <!-- PASO 3: INFOGRAFIA DINAMICA DE BENCHMARK (SOLO PUNTOS GANADORES OPPO) -->
@@ -141,24 +141,75 @@
         </div>
 
         <!-- ============================================================== -->
-        <!-- SECCION 2: CAPACITACION Y VIDEOS DE COMPETENCIA                -->
+        <!-- SECCION 2: CAPACITACION, FICHAS OFICIALES Y VIDEOS CTC         -->
         <!-- ============================================================== -->
         <div id="capacitacion" class="content-section">
             <div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 text-white shadow-xl mb-8 relative overflow-hidden">
                 <div class="relative z-10 max-w-xl">
                     <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-xs font-bold tracking-wider mb-3">ENTRENAMIENTO &Eacute;LITE</span>
                     <h2 class="text-2xl sm:text-3xl font-black mb-2">Domina el Rebate en Punto de Venta</h2>
-                    <p class="text-gray-300 text-sm leading-relaxed">Aqu&iacute; encontrar&aacute;s las c&aacute;psulas en video, fichas profundas y demostraciones pr&aacute;cticas de por qu&eacute; cada modelo de OPPO supera a su competencia directa.</p>
+                    <p class="text-gray-300 text-sm leading-relaxed">Descarga las infograf&iacute;as oficiales de nuestros 4 modelos clave y repasa sus ventajas frente a cada competidor directo.</p>
                 </div>
                 <i class="fas fa-chess-knight text-8xl text-white/10 absolute right-6 bottom-4"></i>
+            </div>
+
+            <h3 class="text-sm font-black uppercase tracking-wider text-gray-500 mb-4 px-1">Infograf&iacute;as Oficiales OPPO (Descarga Directa)</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                <a href="Recursos/01_Modelos/Serie_Reno/Reno_16_F/Infografia_Reno_16_F.png" download class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-oppogreen transition group">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-xl"><i class="fas fa-file-image"></i></div>
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block">Serie Reno</span>
+                            <h4 class="font-black text-gray-800 text-base">OPPO Reno 16 F 5G</h4>
+                            <p class="text-xs text-gray-500">7000 mAh | 80W | IP69K | Selfie 50MP 100&deg;</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-download text-gray-400 group-hover:text-oppogreen transition"></i>
+                </a>
+
+                <a href="Recursos/01_Modelos/Serie_Reno/Reno_16_5G/Infografia_Reno_16_5G.png" download class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-oppogreen transition group">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-xl"><i class="fas fa-file-image"></i></div>
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block">Serie Reno</span>
+                            <h4 class="font-black text-gray-800 text-base">OPPO Reno 16 5G</h4>
+                            <p class="text-xs text-gray-500">Zoom Retrato 3.5x OIS | 6700 mAh | 80W | IP69K</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-download text-gray-400 group-hover:text-oppogreen transition"></i>
+                </a>
+
+                <a href="Recursos/01_Modelos/Serie_A/A7_Pro_5G/Infografia_A7_Pro_5G.png" download class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-oppogreen transition group">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-xl"><i class="fas fa-file-image"></i></div>
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block">Serie A</span>
+                            <h4 class="font-black text-gray-800 text-base">OPPO A7 Pro 5G</h4>
+                            <p class="text-xs text-gray-500">8000 mAh | IP69K + MIL-STD-810H | Selfie 50MP</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-download text-gray-400 group-hover:text-oppogreen transition"></i>
+                </a>
+
+                <a href="Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg" download class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-oppogreen transition group">
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-xl"><i class="fas fa-file-image"></i></div>
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block">Serie A</span>
+                            <h4 class="font-black text-gray-800 text-base">OPPO A6</h4>
+                            <p class="text-xs text-gray-500">6550 mAh | 45W | IP69 Sumergible | VC 3900 mm&sup2;</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-download text-gray-400 group-hover:text-oppogreen transition"></i>
+                </a>
             </div>
 
             <div class="bg-white rounded-3xl p-8 text-center border border-dashed border-gray-200">
                 <div class="w-16 h-16 rounded-2xl bg-oppogreen/10 text-oppogreen flex items-center justify-center text-2xl mx-auto mb-3">
                     <i class="fas fa-film"></i>
                 </div>
-                <h3 class="text-lg font-bold text-gray-800 mb-1">Materiales Multimedia CTC en Preparaci&oacute;n</h3>
-                <p class="text-sm text-gray-500 max-w-md mx-auto">Conforme se incorporen los videos comparativos y fichas de entrenamiento por modelo, aparecer&aacute;n organizados en esta secci&oacute;n.</p>
+                <h3 class="text-lg font-bold text-gray-800 mb-1">C&aacute;psulas en Video CTC</h3>
+                <p class="text-sm text-gray-500 max-w-md mx-auto">Conforme se incorporen los videos comparativos y demostraciones pr&aacute;cticas frente a la competencia, aparecer&aacute;n organizados en esta secci&oacute;n.</p>
             </div>
         </div>
 
@@ -179,224 +230,417 @@
             document.getElementById(id).classList.add('active');
         }
 
+        // Intenta cargar .png, si no existe prueba .jpg y .webp automaticamente antes del icono fallback
+        function handleCutoutError(imgEl) {
+            const currentSrc = imgEl.getAttribute('src') || '';
+            const tried = imgEl.getAttribute('data-tried') || '';
+            if (currentSrc.endsWith('.png') && tried.indexOf('jpg') === -1) {
+                imgEl.setAttribute('data-tried', tried + 'jpg,');
+                imgEl.src = currentSrc.replace(/\.png$/i, '.jpg');
+                return;
+            }
+            if ((currentSrc.endsWith('.jpg') || currentSrc.endsWith('.png')) && tried.indexOf('webp') === -1) {
+                imgEl.setAttribute('data-tried', tried + 'webp,');
+                imgEl.src = currentSrc.replace(/\.(png|jpg)$/i, '.webp');
+                return;
+            }
+            imgEl.style.display = 'none';
+            if (imgEl.nextElementSibling) {
+                imgEl.nextElementSibling.classList.remove('hidden');
+            }
+        }
+
         // =====================================================================
-        // BASE DE DATOS ESTRUCTURADA DE BENCHMARK (SOLO PUNTOS GANADORES OPPO)
-        // Ruta sugerida de imagenes recortadas: Recursos/CTC/[nombre_archivo].png
+        // BASE DE DATOS OFICIAL DE BENCHMARK (SOLO PUNTOS DONDE OPPO GANA)
+        // Carpeta de imagenes recortadas: Recursos/CTC/
         // =====================================================================
         const BENCHMARK_DB = {
-            'reno16': {
-                id: 'reno16',
-                name: 'OPPO Reno 16 5G',
-                segment: 'Gama Media-Alta Premium',
-                image: 'Recursos/CTC/oppo_reno16.png',
-                tagline: 'Experto en Retrato AI, Resistencia IP69K y Ecosistema Completo',
+            // 1. OPPO RENO 16 F 5G VS 6 RIVALES
+            'reno16f': {
+                id: 'reno16f',
+                name: 'OPPO Reno 16 F 5G',
+                segment: '6 Rivales Directos | 7000 mAh + 80W',
+                image: 'Recursos/CTC/oppo_reno16f.png',
+                infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_F/Infografia_Reno_16_F.png',
+                tagline: '7000 mAh + 80W SUPERVOOC, IP69K, Selfie 50MP 100&deg; y Zoom Retrato 3.5x',
                 rivals: [
                     {
                         id: 'samsung_a57',
                         brand: 'Samsung',
-                        name: 'Galaxy A57 / A56',
-                        image: 'Recursos/CTC/Samsung_A57.png',
-                        killerPitch: 'Samsung no incluye cargador en la caja y tarda mas del doble en cargar. Reno 16 incluye cargador SuperVOOC en caja, certificacion IP69K contra agua caliente a 80 grados y funciones de IA sin suscripcion.'
+                        name: 'Galaxy A57 5G',
+                        image: 'Recursos/CTC/samsung_a57.png',
+                        killerPitch: 'Reno 16 F aplasta en autonomia con 7,000 mAh (2,000 mAh mas que los 5,000 mAh del A57), carga casi al doble de potencia con 80W SUPERVOOC e INCLUYE cargador en caja (Samsung A57 es de 45W y no trae cargador). Ademas, Reno 16 F tiene Selfie de 50 MP 100&deg;, Zoom Retrato 3.5x y resistencia IP69K contra agua caliente a 80&deg;C.'
                     },
                     {
-                        id: 'honor_60',
+                        id: 'redmi_note17_promax',
+                        brand: 'Xiaomi',
+                        name: 'Redmi Note 17 Pro Max 5G',
+                        image: 'Recursos/CTC/redmi_note17_promax.png',
+                        killerPitch: 'El Reno 16 F carga mas rapido con 80W SUPERVOOC (vs 67W de Redmi), ofrece una Selfie Ultra Gran Angular muy superior de 50 MP con 100&deg; FOV + Collage Remix AI, blindaje IP69K contra chorros de alta presion a 80&deg;C, ranura microSD expandible y ColorOS 16 limpio sin publicidad con 6 anos de fluidez certificada.'
+                    },
+                    {
+                        id: 'vivo_v80_lite',
+                        brand: 'Vivo',
+                        name: 'Vivo V80 Lite 5G',
+                        image: 'Recursos/CTC/vivo_v80_lite.png',
+                        killerPitch: 'Frente al Vivo V80 Lite (carga de 44W y 6,500 mAh), el OPPO Reno 16 F entrega casi el DOBLE de velocidad de carga con 80W SUPERVOOC, mayor bateria de 7,000 mAh, blindaje termico IP69K a 80&deg;C, Zoom Retrato Pro 3.5x y 6 anos de fluidez garantizada en ColorOS 16.'
+                    },
+                    {
+                        id: 'honor_600e',
                         brand: 'Honor',
-                        name: 'Honor 60 / 200',
-                        image: 'Recursos/CTC/Honor_60.png',
-                        killerPitch: 'Frente a Honor, el Reno 16 domina con certificacion extrema IP69K sumergible y resistente a chorros de alta presion, conexion sin senal BeaconLink y transferencia directa con iPhone (OPPO Bubble).'
+                        name: 'Honor 600e',
+                        image: 'Recursos/CTC/honor_600e.png',
+                        killerPitch: 'El Reno 16 F domina en fotografia social y retrato con su Selfie Ultra Gran Angular de 50 MP (100&deg; FOV), Zoom Retrato Pro 3.5x y Collage Remix AI, sumando certificacion extrema IP69K contra agua caliente a 80&deg;C, conexion nativa con iPhone/Mac (OPPO Bubble) y llamadas sin senal BeaconLink.'
                     },
                     {
-                        id: 'honor_magic8',
+                        id: 'honor_magic8_lite',
                         brand: 'Honor',
                         name: 'Honor Magic 8 Lite',
-                        image: 'Recursos/CTC/Honor_Magic8.png',
-                        killerPitch: 'El Reno 16 ofrece un procesador superior en fotografia nocturna (Flash Fiesta), proteccion anticaidas de grado militar con certificacion IP69K real y estabilidad garantizada por ColorOS.'
+                        image: 'Recursos/CTC/honor_magic8_lite.png',
+                        killerPitch: 'Mientras el Magic 8 Lite tiene una camara frontal basica de 16 MP y carga de 66W, el OPPO Reno 16 F triplica la resolucion frontal con un lente Selfie Ultra Gran Angular de 50 MP (100&deg; FOV), carga mas rapido a 80W SUPERVOOC, ofrece Zoom Retrato Pro 3.5x, ranura microSD y 6 anos de fluidez ColorOS 16.'
+                    },
+                    {
+                        id: 'moto_edge70_swarovski',
+                        brand: 'Motorola',
+                        name: 'Edge 70 Swarovski',
+                        image: 'Recursos/CTC/moto_edge70_swarovski.png',
+                        killerPitch: 'El Motorola Edge 70 sacrifica bateria quedando en apenas 4,800 mAh y solo ofrece 3 anos de soporte. El OPPO Reno 16 F le saca 2,200 mAh de ventaja con su bateria de 7,000 mAh (hasta 2.88 dias de uso), carga mas rapido a 80W SUPERVOOC (vs 68W), resiste chorros a 80&deg;C (IP69K) y garantiza el DOBLE de vida util con 6 anos de fluidez ColorOS 16.'
                     }
                 ],
-                // Filas donde OPPO gana contundentemente frente a estos rivales
                 winningSpecs: [
                     {
-                        category: 'Resistencia y Certificacion',
-                        icon: 'fa-shield-alt',
-                        oppoValue: 'IP69K + IP68 + Grado Militar (Resiste agua a 80&deg;C y chorros a presion)',
-                        oppoBadge: 'Superioridad Total',
-                        rivalValues: {
-                            'samsung_a57': 'IP67 basico (No soporta agua caliente ni alta presion)',
-                            'honor_60': 'Sin certificacion IP69K (Vulnerable a inmersiones severas)',
-                            'honor_magic8': 'Resistencia a salpicaduras menor que IP69K'
-                        }
-                    },
-                    {
-                        category: 'Carga Rapida y Caja Completa',
+                        category: 'Carga Ultrarr&aacute;pida 80W SUPERVOOC + Cargador en Caja',
                         icon: 'fa-bolt',
-                        oppoValue: 'SuperVOOC Ultra Rapida + Cargador Original INCLUIDO en caja',
-                        oppoBadge: 'Ahorro Inmediato',
+                        oppoValue: '80W SUPERVOOC (100% en 62 min para 7,000 mAh) + Cargador Original INCLUIDO',
+                        oppoBadge: 'Potencia Superior',
                         rivalValues: {
-                            'samsung_a57': 'Carga lenta y NO incluye cargador en la caja (Gasto extra)',
-                            'honor_60': 'Menor eficiencia termica durante carga intensiva',
-                            'honor_magic8': 'Velocidad de carga inferior en ciclos completos'
+                            'samsung_a57': 'Solo 45W y NO incluye cargador en la caja (Gasto extra para el cliente)',
+                            'redmi_note17_promax': '67W (Menor potencia de carga frente a los 80W SUPERVOOC de OPPO)',
+                            'vivo_v80_lite': 'Solo 44W FlashCharge (Casi la mitad de potencia que los 80W de OPPO)',
+                            'honor_600e': 'Sin tecnologia SUPERVOOC de 80W con proteccion termica inteligente',
+                            'honor_magic8_lite': '66W (Menor velocidad de carga frente a los 80W SUPERVOOC de OPPO)',
+                            'moto_edge70_swarovski': '68W TurboPower (Inferior a los 80W SUPERVOOC del Reno 16 F)'
                         }
                     },
                     {
-                        category: 'Inteligencia Artificial y Ecosistema',
+                        category: 'C&aacute;mara Selfie Ultra Gran Angular 50 MP + Retrato 3.5x',
+                        icon: 'fa-camera-retro',
+                        oppoValue: 'Selfie 50 MP Ultra Gran Angular (100&deg; FOV) + Zoom Retrato Pro 3.5x + Collage Remix AI',
+                        oppoBadge: 'Rey del Retrato',
+                        rivalValues: {
+                            'samsung_a57': 'Selfie estandar de menor resolucion y sin Zoom Retrato Pro 3.5x ni Collage Remix AI',
+                            'redmi_note17_promax': 'Selfie de 20 MP / 32 MP (Sin lente frontal de 50 MP 100&deg; ni Collage Remix AI)',
+                            'vivo_v80_lite': 'Sin Zoom Retrato Pro 3.5x dedicado ni suite Collage Remix AI en tiempo real',
+                            'honor_600e': 'Sin Selfie Ultra Gran Angular de 50 MP (100&deg;) ni Video 4K con Auto-Enderezado',
+                            'honor_magic8_lite': 'Selfie basica de solo 16 MP (OPPO ofrece mas del TRIPLE de resolucion frontal: 50 MP 100&deg;)',
+                            'moto_edge70_swarovski': 'Sin Collage Remix AI interactivo ni angulo grupal nativo de 100&deg; con retoque natural AI'
+                        }
+                    },
+                    {
+                        category: 'Blindaje Extremo IP69K + IP68 (Agua Caliente a 80&deg;C)',
+                        icon: 'fa-shield-alt',
+                        oppoValue: 'Certificaci&oacute;n IP69K + IP68 (Resiste chorros de alta presi&oacute;n y temperatura hasta 80&deg;C)',
+                        oppoBadge: 'M&aacute;ximo Blindaje',
+                        rivalValues: {
+                            'samsung_a57': 'Solo IP68 estandar (No tiene certificacion IP69K contra agua caliente a 80&deg;C ni alta presion)',
+                            'redmi_note17_promax': 'Solo IP68 estandar (No soporta chorros termicos de alta presion IP69K a 80&deg;C)',
+                            'vivo_v80_lite': 'IP68 / IP69 sin ecosistema de sellado termico extremo IP69K + Splash & Glove Touch de OPPO',
+                            'honor_600e': 'Menor blindaje frente a chorros industriales de alta presion y temperatura IP69K',
+                            'honor_magic8_lite': 'Enfoque en caidas pero sin la suite completa de fotografia acuatica + Splash/Glove Touch de Reno',
+                            'moto_edge70_swarovski': 'Acabado delicado con cristales incrustados; sin certificacion IP69K contra chorros a 80&deg;C'
+                        }
+                    },
+                    {
+                        category: 'S&uacute;per Bater&iacute;a de 7,000 mAh (Hasta 2.88 D&iacute;as de Uso)',
+                        icon: 'fa-battery-full',
+                        oppoValue: '7,000 mAh de Ultra Densidad (Hasta 2.88 d&iacute;as de autonom&iacute;a en cuerpo delgado)',
+                        oppoBadge: '+2,000 mAh Ventaja',
+                        // Se muestra dinamicamente cuando se compara contra rivales con menor bateria
+                        rivalValues: {
+                            'samsung_a57': 'Solo 5,000 mAh (OPPO Reno 16 F ofrece 2,000 mAh MAS de bateria)',
+                            'vivo_v80_lite': '6,500 mAh (OPPO Reno 16 F ofrece 500 mAh mas de capacidad y carga casi al doble de rapido)',
+                            'moto_edge70_swarovski': 'Solo 4,800 mAh (OPPO Reno 16 F ofrece 2,200 mAh MAS de bateria real)'
+                        }
+                    },
+                    {
+                        category: 'Longevidad 6 A&ntilde;os + Ecosistema iPhone y Memoria Expandible',
                         icon: 'fa-wand-magic-sparkles',
-                        oppoValue: 'Borrador AI 2.0 + AI Mind Space + Compatibilidad nativa con iPhone / Mac',
+                        oppoValue: 'ColorOS 16 con 6 A&ntilde;os de Fluidez (72 meses) + MicroSD Expandible + Conexi&oacute;n con iPhone y BeaconLink',
                         oppoBadge: 'Exclusivo OPPO',
                         rivalValues: {
-                            'samsung_a57': 'Funciones AI recortadas respecto a la linea Galaxy S',
-                            'honor_60': 'Sin transferencia nativa universal con ecosistema Apple',
-                            'honor_magic8': 'Herramientas de edicion generativa mas limitadas'
-                        }
-                    },
-                    {
-                        category: 'Comunicacion Sin Senal',
-                        icon: 'fa-broadcast-tower',
-                        oppoValue: 'BeaconLink (Llamadas por Bluetooth sin cobertura celular ni Wi-Fi)',
-                        oppoBadge: 'Unico en su Gama',
-                        rivalValues: {
-                            'samsung_a57': 'No cuenta con llamadas sin red celular',
-                            'honor_60': 'No disponible',
-                            'honor_magic8': 'No disponible'
+                            'samsung_a57': 'Sin ranura microSD para expandir memoria y sin llamadas sin senal BeaconLink',
+                            'redmi_note17_promax': 'HyperOS con publicidad en apps, sin ranura microSD y sin conexion nativa con iPhone/Mac',
+                            'vivo_v80_lite': 'Sin llamadas por Bluetooth sin red (BeaconLink) ni certificacion de 72 meses de fluidez ColorOS',
+                            'honor_600e': 'Sin transferencia directa con iPhone/Mac (OPPO Bubble) ni llamadas sin cobertura BeaconLink',
+                            'honor_magic8_lite': 'Sin ranura microSD expandible ni comunicacion sin senal celular BeaconLink',
+                            'moto_edge70_swarovski': 'Solo 3 anos de soporte de sistema (OPPO garantiza el DOBLE: 6 anos de fluidez) y sin microSD'
                         }
                     }
                 ]
             },
 
+            // 2. OPPO RENO 16 5G VS 4 RIVALES
+            'reno16': {
+                id: 'reno16',
+                name: 'OPPO Reno 16 5G',
+                segment: '4 Rivales Directos | Telefoto 3.5x OIS',
+                image: 'Recursos/CTC/oppo_reno16.png',
+                infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_5G/Infografia_Reno_16_5G.png',
+                tagline: 'Zoom Retrato Pro 3.5x OIS (hasta 60x), 6700 mAh + 80W, IP69K y Aluminio Aeroespacial',
+                rivals: [
+                    {
+                        id: 'honor_600',
+                        brand: 'Honor',
+                        name: 'Honor 600',
+                        image: 'Recursos/CTC/honor_600.png',
+                        killerPitch: 'El OPPO Reno 16 5G supera al Honor 600 en optica de retrato gracias a su Telefoto Periscopico con Zoom Optico 3.5x + OIS de 2 ejes (y zoom hasta 60x) junto con Vibe Retro Pop Cam. Ademas, ofrece chasis de Aluminio Aeroespacial con certificacion IP69K, 6 anos de fluidez en ColorOS 16, envio directo a iPhone/Mac (OPPO Bubble) y llamadas sin red BeaconLink.'
+                    },
+                    {
+                        id: 'xiaomi_17t_pro',
+                        brand: 'Xiaomi',
+                        name: 'Xiaomi 17T Pro',
+                        image: 'Recursos/CTC/xiaomi_17t_pro.png',
+                        killerPitch: 'El Reno 16 5G le gana al Xiaomi 17T Pro en autonomia con 6,700 mAh (1,200 mAh mas que los 5,500 mAh de Xiaomi), en resistencia extrema con certificacion IP69K contra agua caliente a 80&deg;C (Xiaomi se queda en IP68), en camara Selfie con su lente Ultra Gran Angular de 50 MP (100&deg; FOV vs 32 MP) y en un sistema ColorOS 16 limpio, sin anuncios y compatible con iPhone.'
+                    },
+                    {
+                        id: 'samsung_s26',
+                        brand: 'Samsung',
+                        name: 'Galaxy S26',
+                        image: 'Recursos/CTC/samsung_s26.png',
+                        killerPitch: 'La diferencia en bateria y carga es abismal: el OPPO Reno 16 5G tiene 6,700 mAh (2,400 mAh MAS que los 4,300 mAh del Galaxy S26) y carga a 80W SUPERVOOC con cargador INCLUIDO en caja (vs solo 25W del S26 sin cargador). Ademas, Reno 16 5G tiene Selfie de 50 MP 100&deg; (vs 12 MP del S26), Zoom Optico 3.5x (vs 3x) y blindaje IP69K.'
+                    },
+                    {
+                        id: 'samsung_s26_plus',
+                        brand: 'Samsung',
+                        name: 'Galaxy S26+',
+                        image: 'Recursos/CTC/samsung_s26_plus.png',
+                        killerPitch: 'Frente al costoso Galaxy S26+ (4,900 mAh y 45W sin cargador), el OPPO Reno 16 5G entrega 1,800 mAh MAS de bateria (6,700 mAh), carga casi al doble de potencia con 80W SUPERVOOC (cargador incluido en caja), cuatruplica la resolucion Selfie con 50 MP 100&deg; FOV (vs 12 MP), ofrece Zoom Retrato 3.5x OIS y certificacion IP69K contra agua a 80&deg;C.'
+                    }
+                ],
+                winningSpecs: [
+                    {
+                        category: 'C&aacute;mara Selfie Ultra Gran Angular 50 MP + Retrato Pro 3.5x OIS',
+                        icon: 'fa-camera',
+                        oppoValue: 'Selfie 50 MP (100&deg; FOV) + Telefoto Retrato Pro 3.5x OIS de 2 ejes (hasta 60x) + Vibe Retro Pop Cam',
+                        oppoBadge: 'Estudio Port&aacute;til',
+                        rivalValues: {
+                            'honor_600': 'Menor alcance de zoom optico nativo para retrato y sin Vibe Retro Pop Cam de 9 estilos clasicos',
+                            'xiaomi_17t_pro': 'Camara frontal de 32 MP (Menor resolucion y menor angulo grupal que los 50 MP 100&deg; de OPPO)',
+                            'samsung_s26': 'Selfie de solo 12 MP (OPPO ofrece mas de 4 VECES mas resolucion frontal: 50 MP) y zoom optico 3x',
+                            'samsung_s26_plus': 'Selfie de solo 12 MP (vs 50 MP Ultra Gran Angular 100&deg; de OPPO) y zoom optico 3x (vs 3.5x OIS)'
+                        }
+                    },
+                    {
+                        category: 'Blindaje IP69K + Chasis de Aluminio Aeroespacial',
+                        icon: 'fa-gem',
+                        oppoValue: 'Certificaci&oacute;n IP69K (Agua a 80&deg;C y alta presi&oacute;n) + Aluminio Aeroespacial + Dise&ntilde;o Gal&aacute;ctico 3D',
+                        oppoBadge: 'Construcci&oacute;n &Eacute;lite',
+                        rivalValues: {
+                            'honor_600': 'Sin grabado litografico Galactico 3D Holografico ni blindaje termico IP69K con Splash Touch',
+                            'xiaomi_17t_pro': 'Solo IP68 estandar (No cuenta con certificacion IP69K contra chorros de agua caliente a 80&deg;C)',
+                            'samsung_s26': 'Solo IP68 (No resiste chorros de alta presion ni agua caliente a 80&deg;C con certificacion IP69K)',
+                            'samsung_s26_plus': 'Solo IP68 (Sin certificacion IP69K contra alta temperatura y presion industrial)'
+                        }
+                    },
+                    {
+                        category: 'S&uacute;per Bater&iacute;a de 6,700 mAh + Carga 80W SUPERVOOC en Caja',
+                        icon: 'fa-battery-full',
+                        oppoValue: '6,700 mAh + Carga 80W SUPERVOOC con Cargador Original INCLUIDO en la caja',
+                        oppoBadge: 'Autonom&iacute;a R&eacute;cord',
+                        // Se muestra cuando se compara con Xiaomi 17T Pro, S26 o S26+
+                        rivalValues: {
+                            'xiaomi_17t_pro': '5,500 mAh (El OPPO Reno 16 5G le saca 1,200 mAh MAS de bateria en un diseno mas compacto)',
+                            'samsung_s26': 'Solo 4,300 mAh y carga lenta de 25W SIN cargador en caja (OPPO tiene +2,400 mAh y 80W incluido)',
+                            'samsung_s26_plus': 'Solo 4,900 mAh y 45W SIN cargador en caja (OPPO tiene +1,800 mAh y cargador de 80W incluido)'
+                        }
+                    },
+                    {
+                        category: 'Ecosistema OPPO Bubble (iPhone/Mac), BeaconLink y 6 A&ntilde;os de Fluidez',
+                        icon: 'fa-broadcast-tower',
+                        oppoValue: 'ColorOS 16 (6 A&ntilde;os de Fluidez) + Env&iacute;o nativo con iPhone/Mac (OPPO Bubble) + Llamadas sin se&ntilde;al BeaconLink',
+                        oppoBadge: 'Conectividad Total',
+                        rivalValues: {
+                            'honor_600': 'Sin conexion nativa OPPO Bubble para compartir con iPhone/Mac ni llamadas sin red BeaconLink',
+                            'xiaomi_17t_pro': 'HyperOS con bloatware/anuncios y sin llamadas por Bluetooth sin cobertura BeaconLink',
+                            'samsung_s26': 'Cerrado al ecosistema Samsung; sin envio nativo directo a iPhone ni llamadas sin red BeaconLink',
+                            'samsung_s26_plus': 'Sin comunicacion de emergencia sin senal BeaconLink ni compatibilidad directa con iPhone'
+                        }
+                    }
+                ]
+            },
+
+            // 3. OPPO A7 PRO 5G VS 4 RIVALES
             'a7pro': {
                 id: 'a7pro',
                 name: 'OPPO A7 Pro 5G',
-                segment: 'Gama Media de Alta Durabilidad',
+                segment: '4 Rivales Directos | 8000 mAh + Grado Militar',
                 image: 'Recursos/CTC/oppo_a7pro.png',
-                tagline: 'Tanque de Grado Militar, IP69K y Carga Reversible para 5 equipos',
+                infographic: 'Recursos/01_Modelos/Serie_A/A7_Pro_5G/Infografia_A7_Pro_5G.png',
+                tagline: '8000 mAh (6 A&ntilde;os Vida &Uacute;til), IP69K + Grado Militar SGS, Selfie 50MP y Chip S1 (+151% Se&ntilde;al)',
                 rivals: [
                     {
-                        id: 'honor_x8b',
+                        id: 'honor_magic8_lite',
                         brand: 'Honor',
-                        name: 'Honor Magic 6 Lite / X8b',
-                        image: 'Recursos/CTC/Honor_X8b.png',
-                        killerPitch: 'El A7 Pro 5G no solo resiste golpes en pantalla (prueba rompiendo dulces), sino que suma IP69K contra cafe hirviendo a 80 grados y carga reversible capaz de alimentar hasta 5 dispositivos.'
+                        name: 'Honor Magic 8 Lite',
+                        image: 'Recursos/CTC/honor_magic8_lite.png',
+                        killerPitch: 'El OPPO A7 Pro 5G supera al Honor Magic 8 Lite en capacidad de bateria con 8,000 mAh y 6 anos de vida util, le gana por goleada en camara frontal con 50 MP Ultra Gran Angular 100&deg; (vs solo 16 MP de Honor), e incorpora Camara de Vapor VC de 4,300 mm&sup2; + Chip dedicado NetworkBoost S1 (+151% senal) y carga inversa para hasta 5 dispositivos.'
                     },
                     {
-                        id: 'samsung_a35',
+                        id: 'samsung_a57',
                         brand: 'Samsung',
-                        name: 'Galaxy A35 5G',
-                        image: 'Recursos/CTC/Samsung_A35.png',
-                        killerPitch: 'Samsung A35 no trae cargador en la caja, no tiene certificacion de grado militar contra impactos extremos ni cuenta con carga reversible de alta potencia.'
+                        name: 'Galaxy A57 5G',
+                        image: 'Recursos/CTC/samsung_a57.png',
+                        killerPitch: 'Frente a los 5,000 mAh del Samsung A57 (que no incluye cargador), el OPPO A7 Pro 5G ofrece una descomunal bateria de 8,000 mAh (3,000 mAh MAS, hasta 36 dias en espera) con cargador 45W SUPERVOOC incluido y carga inversa para 5 equipos, ademas de Grado Militar MIL-STD-810H (16 pruebas SGS) + IP69K contra agua caliente a 80&deg;C.'
                     },
                     {
-                        id: 'moto_g84',
+                        id: 'honor_600_elite',
+                        brand: 'Honor',
+                        name: 'Honor 600 Elite 5G',
+                        image: 'Recursos/CTC/honor_600_elite.png',
+                        killerPitch: 'El OPPO A7 Pro 5G domina en durabilidad extrema con su bateria lider de 8,000 mAh (con 6 anos de vida saludable), Triple Certificacion IP69K / IP68 / IP66 + Grado Militar MIL-STD-810H (16 pruebas SGS), Chip dedicado NetworkBoost S1 que incrementa la senal en +151% y funcion AI Call Guard contra llamadas spam/fraude.'
+                    },
+                    {
+                        id: 'moto_edge70_fusion',
                         brand: 'Motorola',
-                        name: 'Moto G84 5G',
-                        image: 'Recursos/CTC/Moto_G84.png',
-                        killerPitch: 'Mientras que Motorola solo tiene repelencia basica a salpicaduras, el OPPO A7 Pro 5G ofrece blindaje triple IP69K + IP68 + IP66 y chasis con amortiguacion bionica.'
+                        name: 'Edge 70 Fusion',
+                        image: 'Recursos/CTC/moto_edge70_fusion.png',
+                        killerPitch: 'El OPPO A7 Pro 5G supera al Motorola Edge 70 Fusion con su gigantesca bateria de 8,000 mAh (hasta 26.6 h de video continuo y 6 anos de vida util), su camara Selfie Ultra Gran Angular de 50 MP 100&deg; (vs 32 MP de Motorola), su Chip dedicado NetworkBoost S1 (+151% senal) y su blindaje militar SGS de 16 pruebas + IP69K.'
                     }
                 ],
                 winningSpecs: [
                     {
-                        category: 'Blindaje Contra Agua y Temperatura',
-                        icon: 'fa-mug-hot',
-                        oppoValue: 'Triple Certificacion IP69K / IP68 / IP66 (Soporta cafe a 80&deg;C)',
-                        oppoBadge: 'Lider Indiscutible',
-                        rivalValues: {
-                            'honor_x8b': 'Solo salpicaduras basicas (No sumergible en agua caliente)',
-                            'samsung_a35': 'IP67 estandar (Sin resistencia a chorros termicos IP69K)',
-                            'moto_g84': 'IP54 basico (Solo polvo y gotas ligeras)'
-                        }
-                    },
-                    {
-                        category: 'Resistencia a Impactos',
-                        icon: 'fa-hammer',
-                        oppoValue: 'Certificacion de Grado Militar + Pantalla de ultra dureza',
-                        oppoBadge: 'Prueba Extrema',
-                        rivalValues: {
-                            'honor_x8b': 'Sin blindaje integral para agua hirviendo + caida combinada',
-                            'samsung_a35': 'Trasera y marco susceptibles a fractura en caida dura',
-                            'moto_g84': 'Sin certificacion militar contra caidas extremas'
-                        }
-                    },
-                    {
-                        category: 'Bateria y Carga Reversible',
+                        category: 'Bater&iacute;a Gigante de 8,000 mAh (6 A&ntilde;os de Vida &Uacute;til) + Carga Inversa',
                         icon: 'fa-battery-full',
-                        oppoValue: 'Gran autonomia + Carga Reversible OTG (Carga hasta 5 dispositivos)',
-                        oppoBadge: 'PowerBank Integrado',
+                        oppoValue: '8,000 mAh (36 d&iacute;as en espera / 26.6h video) + 45W SUPERVOOC + Carga Inversa para 5 dispositivos',
+                        oppoBadge: 'L&iacute;der Absoluto 8,000 mAh',
                         rivalValues: {
-                            'honor_x8b': 'Sin funcion destacada de estacion de energia multi-dispositivo',
-                            'samsung_a35': 'Carga limitada a 25W y sin cargador incluido en caja',
-                            'moto_g84': 'Menor capacidad de suministro reversible'
+                            'honor_magic8_lite': '7,500 mAh (OPPO A7 Pro 5G ofrece +500 mAh mas llegando a 8,000 mAh y estacion de carga inversa OTG)',
+                            'samsung_a57': 'Solo 5,000 mAh y SIN cargador en caja (OPPO A7 Pro tiene 3,000 mAh MAS y cargador incluido)',
+                            'honor_600_elite': 'Menor capacidad frente a los 8,000 mAh con 6 anos de salud garantizada del A7 Pro 5G',
+                            'moto_edge70_fusion': '5,200 / 7,000 mAh (Inferior a los 8,000 mAh con 6 anos de vida util del OPPO A7 Pro 5G)'
+                        }
+                    },
+                    {
+                        category: 'Triple Blindaje IP69K / IP68 / IP66 + Grado Militar (16 Pruebas SGS)',
+                        icon: 'fa-shield-alt',
+                        oppoValue: 'IP69K (Agua a 80&deg;C y 10,000 kPa) + MIL-STD-810H (16 pruebas militares certificadas por SGS)',
+                        oppoBadge: 'Tanque Todo Terreno',
+                        rivalValues: {
+                            'honor_magic8_lite': 'Sin el paquete completo de 16 pruebas militares SGS combinadas con chorros termicos a 10,000 kPa',
+                            'samsung_a57': 'Solo IP68 (Carece de Grado Militar MIL-STD-810H contra caidas severas y de IP69K a 80&deg;C)',
+                            'honor_600_elite': 'Sin certificacion militar de 16 pruebas SGS contra impactos extremos, barro y corrosion',
+                            'moto_edge70_fusion': 'Pantalla curva mas expuesta a impactos laterales frente al bisel ultrarresistente de 1.67mm de OPPO'
+                        }
+                    },
+                    {
+                        category: 'C&aacute;mara Selfie Ultra Gran Angular 50 MP (100&deg; FOV) + Sensor Principal 1/2"',
+                        icon: 'fa-camera',
+                        oppoValue: 'Selfie 50 MP (100&deg; FOV: zoom 0.6x, 1x y 2x) + Principal 50 MP Ultra-Luminoso (+70% entrada de luz)',
+                        oppoBadge: 'Mejor Selfie del Segmento',
+                        rivalValues: {
+                            'honor_magic8_lite': 'Selfie basica de solo 16 MP (OPPO A7 Pro ofrece mas del TRIPLE de resolucion frontal: 50 MP 100&deg;)',
+                            'samsung_a57': 'Camara frontal de menor resolucion y sin zoom frontal triple (0.6x, 1x, 2x) de 100&deg; FOV',
+                            'honor_600_elite': 'Sin el sensor frontal Ultra Gran Angular de 50 MP (100&deg;) con encuadre grupal inteligente',
+                            'moto_edge70_fusion': 'Selfie de 32 MP (Inferior a los 50 MP Ultra Gran Angular de 100&deg; del OPPO A7 Pro 5G)'
+                        }
+                    },
+                    {
+                        category: 'Chip Dedicado NetworkBoost S1 (+151% Se&ntilde;al) + C&aacute;mara de Vapor VC 4,300 mm&sup2;',
+                        icon: 'fa-signal',
+                        oppoValue: 'Chip NetworkBoost S1 + AI LinkBoost (+151% se&ntilde;al) + Enfriamiento VC 4,300 mm&sup2; + AI Call Guard',
+                        oppoBadge: 'Potencia y Se&ntilde;al',
+                        rivalValues: {
+                            'honor_magic8_lite': 'Sin chip dedicado NetworkBoost S1 (+151% senal) ni Camara de Vapor VC de 4,300 mm&sup2;',
+                            'samsung_a57': 'Menor recepcion en sotanos/elevadores (Sin chip dedicado S1 ni AI Call Guard antispam)',
+                            'honor_600_elite': 'Sin chip dedicado NetworkBoost S1 (+151% senal) ni proteccion nativa AI Call Guard',
+                            'moto_edge70_fusion': 'Sin chip dedicado de antena S1 (+151% fuerza de senal) ni ColorOS 16 con 5 anos de fluidez'
                         }
                     }
                 ]
             },
 
+            // 4. OPPO A6 VS 3 RIVALES
             'a6': {
                 id: 'a6',
-                name: 'OPPO A6 / Serie A6',
-                segment: 'Gama de Entrada - Media Competitiva',
+                name: 'OPPO A6',
+                segment: '3 Rivales Directos | 6550 mAh + IP69',
                 image: 'Recursos/CTC/oppo_a6.png',
-                tagline: 'Fluidez garantizada, proteccion IP69 y bateria interminable',
+                infographic: 'Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg',
+                tagline: '6550 mAh + 45W SUPERVOOC, IP69/IP68/IP66, Fotograf&iacute;a Acu&aacute;tica y Ultra Volumen 300%',
                 rivals: [
                     {
-                        id: 'samsung_a36',
+                        id: 'honor_x7e',
+                        brand: 'Honor',
+                        name: 'Honor X7e / X7d',
+                        image: 'Recursos/CTC/honor_x7e.png',
+                        killerPitch: 'El OPPO A6 supera por completo al Honor X7e/X7d: mientras Honor solo tiene IP65 (salpicaduras) y carga de 35W con pantalla de 90Hz, el OPPO A6 es totalmente sumergible con Triple Certificacion IP69 / IP68 / IP66 (incluso agua caliente a 80&deg;C y modo Fotografia Acuatica), carga mas rapido a 45W SUPERVOOC, tiene pantalla de 120 Hz (1125 nits) y Enfriamiento VC de 3,900 mm&sup2;.'
+                    },
+                    {
+                        id: 'samsung_a37',
                         brand: 'Samsung',
-                        name: 'Galaxy A36 / A25',
-                        image: 'Recursos/CTC/Samsung_A36.png',
-                        killerPitch: 'En este segmento el cliente cuida su bolsillo: con OPPO A6 ya lleva cargador rapido y funda en la caja, ademas de proteccion superior contra agua y 4 anos de fluidez.'
+                        name: 'Galaxy A37 5G',
+                        image: 'Recursos/CTC/samsung_a37.png',
+                        killerPitch: 'En el bolsillo del cliente el OPPO A6 gana de inmediato: tiene 6,550 mAh de bateria (1,550 mAh MAS que los 5,000 mAh del Samsung A37), INCLUYE su cargador rapido de 45W SUPERVOOC en la caja (Samsung A37 no trae cargador), suma certificacion IP69 contra agua a 80&deg;C, Fotografia Acuatica dedicada, Camara de Vapor VC de 3,900 mm&sup2; y Ultra Volumen al 300%.'
                     },
                     {
-                        id: 'moto_g54',
-                        brand: 'Motorola',
-                        name: 'Moto G54 / G34',
-                        image: 'Recursos/CTC/Moto_G54.png',
-                        killerPitch: 'El OPPO A6 supera por completo a Motorola en durabilidad al agua, brillo de pantalla bajo el sol y garantia con servicio Send-In Repair.'
-                    },
-                    {
-                        id: 'redmi_note13',
-                        brand: 'Xiaomi',
-                        name: 'Redmi Note 13',
-                        image: 'Recursos/CTC/Redmi_Note13.png',
-                        killerPitch: 'ColorOS no tiene publicidad intrusiva ni bloqueos como HyperOS/MIUI, y la resistencia fisica del OPPO A6 protege la inversion del cliente por anos.'
+                        id: 'samsung_a57',
+                        brand: 'Samsung',
+                        name: 'Galaxy A57 5G',
+                        image: 'Recursos/CTC/samsung_a57.png',
+                        killerPitch: 'Incluso frente a un modelo de precio mucho mayor como el Samsung A57 (5,000 mAh y sin cargador en caja), el OPPO A6 entrega 1,550 mAh MAS de bateria (6,550 mAh con hasta 950 horas en espera), incluye cargador 45W SUPERVOOC en caja sin gastar un peso extra, ofrece certificacion IP69 contra agua caliente a 80&deg;C, Carga Inversa y Bocinas Dual Stereo con Ultra Volumen 300%.'
                     }
                 ],
                 winningSpecs: [
                     {
-                        category: 'Proteccion al Agua y Polvo',
-                        icon: 'fa-tint',
-                        oppoValue: 'Proteccion superior con sellado de grado militar',
-                        oppoBadge: 'Mayor Vida Util',
+                        category: 'Bater&iacute;a de 6,550 mAh + 45W SUPERVOOC con Cargador en Caja',
+                        icon: 'fa-battery-full',
+                        oppoValue: '6,550 mAh (Hasta 950h en espera) + 45W SUPERVOOC con Cargador INCLUIDO + Carga Inversa',
+                        oppoBadge: 'M&aacute;xima Autonom&iacute;a y Ahorro',
                         rivalValues: {
-                            'samsung_a36': 'Menor resistencia a impactos en bordes',
-                            'moto_g54': 'Solo repelente a salpicaduras simples',
-                            'redmi_note13': 'IP54 basico (No sumergible)'
+                            'honor_x7e': 'Carga mas lenta de 35W (vs 45W SUPERVOOC de OPPO) y menor eficiencia energetica',
+                            'samsung_a37': 'Solo 5,000 mAh (OPPO tiene +1,550 mAh MAS) y NO incluye cargador en la caja (Gasto extra)',
+                            'samsung_a57': 'Solo 5,000 mAh (OPPO tiene +1,550 mAh MAS) y NO incluye cargador en la caja'
                         }
                     },
                     {
-                        category: 'Accesorios Incluidos en Caja',
-                        icon: 'fa-box-open',
-                        oppoValue: 'Cargador Rapido SuperVOOC + Cable + Funda protectora incluidos',
-                        oppoBadge: 'Cero Gastos Extra',
+                        category: 'Triple Blindaje IP69 / IP68 / IP66 + Modo Fotograf&iacute;a Acu&aacute;tica',
+                        icon: 'fa-water',
+                        oppoValue: 'IP69 (Agua caliente a 80&deg;C) + IP68 (Inmersi&oacute;n 1.5m por 30 min) + Fotograf&iacute;a Acu&aacute;tica con botones f&iacute;sicos',
+                        oppoBadge: 'Sumergible y T&eacute;rmico',
                         rivalValues: {
-                            'samsung_a36': 'Sin cargador y sin funda en la caja ($500+ MXN extra)',
-                            'moto_g54': 'Carga mas lenta en el uso diario',
-                            'redmi_note13': 'Sistema operativo con anuncios preinstalados'
+                            'honor_x7e': 'Solo IP65 (Resiste salpicaduras pero NO es sumergible IP68 ni resiste agua caliente IP69 a 80&deg;C)',
+                            'samsung_a37': 'Solo IP68 basico (No tiene certificacion IP69 contra chorros a 80&deg;C ni modo Fotografia Acuatica)',
+                            'samsung_a57': 'Solo IP68 basico (No soporta agua caliente a 80&deg;C IP69 ni modo dedicado de Fotografia Acuatica)'
                         }
                     },
                     {
-                        category: 'Estabilidad del Sistema y Garantia',
+                        category: 'C&aacute;mara de Vapor VC 3,900 mm&sup2; + Dual Stereo Ultra Volumen 300%',
+                        icon: 'fa-volume-up',
+                        oppoValue: 'Enfriamiento VC de 3,900 mm&sup2; + Pantalla 120 Hz (1125 nits) + Bocinas Dual Stereo al 300%',
+                        oppoBadge: 'Potencia Fresca',
+                        rivalValues: {
+                            'honor_x7e': 'Pantalla de solo 90 Hz con menor brillo bajo el sol y sin Camara de Vapor VC de 3,900 mm&sup2;',
+                            'samsung_a37': 'Sin sistema de enfriamiento por Camara de Vapor VC de 3,900 mm&sup2; ni modo Ultra Volumen 300%',
+                            'samsung_a57': 'Sin amplificacion acustica Ultra Volumen 300% para entornos ruidosos ni caja completa con accesorios'
+                        }
+                    },
+                    {
+                        category: '5 A&ntilde;os de Fluidez Garantizada (Trinity Engine)',
                         icon: 'fa-check-circle',
-                        oppoValue: 'ColorOS limpio, sin anuncios + Garantia Send-In Repair OPPO',
-                        oppoBadge: 'Respaldo Total',
+                        oppoValue: 'ColorOS con Trinity Engine + Certificaci&oacute;n de 5 A&ntilde;os de Fluidez + Garant&iacute;a Send-In Repair',
+                        oppoBadge: 'Inversi&oacute;n Segura',
                         rivalValues: {
-                            'samsung_a36': 'One UI Core pesado con el paso de los meses',
-                            'moto_g54': 'Menos herramientas de IA y personalizacion',
-                            'redmi_note13': 'Publicidad en aplicaciones del sistema'
+                            'honor_x7e': 'Menor longevidad de fluidez certificada frente al motor Trinity Engine de 5 anos de OPPO',
+                            'samsung_a37': 'Interfaz mas pesada con el paso de los anos y sin accesorios de proteccion incluidos en caja',
+                            'samsung_a57': 'Mayor costo inicial y gasto adicional obligatorio en cargador original y funda'
                         }
                     }
                 ]
             }
         };
 
-        let activeOppoId = 'reno16';
-        let activeRivalIds = ['samsung_a57', 'honor_60']; // Por defecto muestra 2 seleccionados, puede elegir 1, 2 o 3
+        let activeOppoId = 'reno16f';
+        let activeRivalIds = ['samsung_a57', 'redmi_note17_promax']; // Por defecto inicia mostrando 2 competidores
 
         function renderOppoModels() {
             const container = document.getElementById('oppoModelSelector');
@@ -423,7 +667,6 @@
         function selectOppoModel(modelId) {
             if (!BENCHMARK_DB[modelId]) return;
             activeOppoId = modelId;
-            // Por defecto pre-activamos el primer competidor directo para vista inmediata
             const rivals = BENCHMARK_DB[modelId].rivals;
             activeRivalIds = rivals.length > 0 ? [rivals[0].id] : [];
             renderOppoModels();
@@ -434,20 +677,22 @@
         function toggleRival(rivalId) {
             const idx = activeRivalIds.indexOf(rivalId);
             if (idx > -1) {
-                // Evitar dejar 0 seleccionados para que siempre haya al menos 1 en pantalla
+                // Mantiene al menos 1 competidor seleccionado
                 if (activeRivalIds.length > 1) {
                     activeRivalIds.splice(idx, 1);
                 }
             } else {
-                if (activeRivalIds.length < 3) {
-                    activeRivalIds.push(rivalId);
+                // Permite hasta 3 simultaneos; si ya hay 3 y elige un 4to, reemplaza el mas antiguo
+                if (activeRivalIds.length >= 3) {
+                    activeRivalIds.shift();
                 }
+                activeRivalIds.push(rivalId);
             }
             renderRivalSelector();
             renderBenchmarkOutput();
         }
 
-        function selectAllRivals() {
+        function selectFirstThreeRivals() {
             const model = BENCHMARK_DB[activeOppoId];
             if (!model) return;
             activeRivalIds = model.rivals.slice(0, 3).map(function (r) { return r.id; });
@@ -462,20 +707,21 @@
 
             let html = '';
             model.rivals.forEach(function (r, index) {
-                const isSelected = activeRivalIds.indexOf(r.id) > -1;
+                const selOrder = activeRivalIds.indexOf(r.id);
+                const isSelected = selOrder > -1;
                 html +=
-                    '<button onclick="toggleRival(\'' + r.id + '\')" class="rival-chip ' + (isSelected ? 'rival-active' : 'bg-gray-50 border-gray-200 hover:border-gray-300') + ' border-2 rounded-2xl p-4 text-left transition-all flex items-center justify-between group">' +
-                        '<div class="flex items-center gap-3">' +
-                            '<div class="w-10 h-10 rounded-xl ' + (isSelected ? 'bg-oppogreen text-white' : 'bg-white text-gray-500 border border-gray-200') + ' flex items-center justify-center font-black text-sm shrink-0 transition">' +
+                    '<button onclick="toggleRival(\'' + r.id + '\')" class="rival-chip ' + (isSelected ? 'rival-active' : 'bg-gray-50 border-gray-200 hover:border-gray-300') + ' border-2 rounded-2xl p-3.5 text-left transition-all flex items-center justify-between group">' +
+                        '<div class="flex items-center gap-3 min-w-0">' +
+                            '<div class="w-9 h-9 rounded-xl ' + (isSelected ? 'bg-oppogreen text-white' : 'bg-white text-gray-500 border border-gray-200') + ' flex items-center justify-center font-black text-xs shrink-0 transition">' +
                                 (isSelected ? '<i class="fas fa-check"></i>' : (index + 1)) +
                             '</div>' +
-                            '<div>' +
+                            '<div class="truncate">' +
                                 '<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400 block">' + r.brand + '</span>' +
-                                '<span class="font-extrabold text-sm sm:text-base text-gray-800">' + r.name + '</span>' +
+                                '<span class="font-extrabold text-sm text-gray-800 truncate block">' + r.name + '</span>' +
                             '</div>' +
                         '</div>' +
-                        '<span class="text-[11px] font-bold px-2.5 py-1 rounded-full ' + (isSelected ? 'bg-oppogreen text-white' : 'bg-gray-200/70 text-gray-500') + '">' +
-                            (isSelected ? 'Activo' : 'Comparar') +
+                        '<span class="text-[10px] font-bold px-2.5 py-1 rounded-full shrink-0 ml-2 ' + (isSelected ? 'bg-oppogreen text-white' : 'bg-gray-200/70 text-gray-500') + '">' +
+                            (isSelected ? ('Rival #' + (selOrder + 1)) : 'Comparar') +
                         '</span>' +
                     '</button>';
             });
@@ -487,7 +733,7 @@
             const iconColor = isOppo ? 'text-oppogreen' : 'text-gray-400';
             return (
                 '<div class="w-24 h-28 sm:w-28 sm:h-36 mx-auto mb-3 rounded-2xl bg-gradient-to-b ' + borderGlow + ' border flex flex-col items-center justify-center p-2 relative overflow-hidden">' +
-                    '<img src="' + imagePath + '" alt="' + modelName + '" class="phone-cutout max-h-full max-w-full object-contain z-10" onerror="this.style.display=\'none\'; this.nextElementSibling.classList.remove(\'hidden\');">' +
+                    '<img src="' + imagePath + '" alt="' + modelName + '" class="phone-cutout max-h-full max-w-full object-contain z-10" onerror="handleCutoutError(this)">' +
                     '<div class="hidden flex flex-col items-center justify-center text-center">' +
                         '<i class="fas fa-mobile-screen-button text-4xl ' + iconColor + ' mb-1"></i>' +
                         '<span class="text-[9px] text-gray-400 font-semibold leading-tight px-1">' + modelName + '</span>' +
@@ -501,9 +747,10 @@
             const model = BENCHMARK_DB[activeOppoId];
             if (!container || !model) return;
 
-            const selectedRivals = model.rivals.filter(function (r) {
-                return activeRivalIds.indexOf(r.id) > -1;
-            });
+            // Mantiene el orden en que el promotor selecciono los rivales
+            const selectedRivals = activeRivalIds.map(function (rid) {
+                return model.rivals.find(function (r) { return r.id === rid; });
+            }).filter(Boolean);
 
             if (selectedRivals.length === 0) {
                 container.innerHTML = '';
@@ -514,13 +761,20 @@
 
             // 1. Cabecera Visual de Equipos (Showcase de Imagenes Recortadas)
             let headerColsHtml =
-                '<div class="bg-gradient-to-b from-emerald-950 to-gray-900 text-white rounded-2xl p-4 text-center border-2 border-oppogreen shadow-lg relative">' +
-                    '<span class="inline-block bg-oppogreen text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full mb-2">' +
-                        '<i class="fas fa-crown mr-1"></i> Nuestro Equipo' +
-                    '</span>' +
-                    getPhoneVisualHtml(model.image, model.name, true) +
-                    '<h4 class="font-black text-base sm:text-lg text-white leading-tight">' + model.name + '</h4>' +
-                    '<p class="text-[11px] text-emerald-300 mt-1">' + model.tagline + '</p>' +
+                '<div class="bg-gradient-to-b from-emerald-950 to-gray-900 text-white rounded-2xl p-4 text-center border-2 border-oppogreen shadow-lg relative flex flex-col justify-between">' +
+                    '<div>' +
+                        '<span class="inline-block bg-oppogreen text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full mb-2">' +
+                            '<i class="fas fa-crown mr-1"></i> Nuestro Equipo' +
+                        '</span>' +
+                        getPhoneVisualHtml(model.image, model.name, true) +
+                        '<h4 class="font-black text-base sm:text-lg text-white leading-tight">' + model.name + '</h4>' +
+                        '<p class="text-[11px] text-emerald-300 mt-1 leading-snug">' + model.tagline + '</p>' +
+                    '</div>' +
+                    (model.infographic ? (
+                        '<a href="' + model.infographic + '" download class="mt-3 inline-flex items-center justify-center gap-1.5 text-[11px] font-bold bg-white/10 hover:bg-white/20 text-white py-1.5 px-3 rounded-xl transition">' +
+                            '<i class="fas fa-download text-oppogreen"></i> Descargar Ficha Oficial' +
+                        '</a>'
+                    ) : '') +
                 '</div>';
 
             selectedRivals.forEach(function (r) {
@@ -542,12 +796,18 @@
                 totalCols === 3 ? 'grid-cols-1 sm:grid-cols-3' :
                 'grid-cols-2 lg:grid-cols-4';
 
-            // 2. Filas Comparativas donde OPPO es Superior
+            // 2. Filas Comparativas donde OPPO es Superior frente a los rivales seleccionados
             let specsRowsHtml = '';
             model.winningSpecs.forEach(function (spec) {
+                // Solo muestra la fila si OPPO supera a TODOS los rivales actualmente seleccionados en ese punto
+                const appliesToSelection = selectedRivals.every(function (r) {
+                    return Boolean(spec.rivalValues && spec.rivalValues[r.id]);
+                });
+                if (!appliesToSelection) return;
+
                 let rivalCellsHtml = '';
                 selectedRivals.forEach(function (r) {
-                    const val = spec.rivalValues[r.id] || 'Especificacion inferior en el segmento';
+                    const val = spec.rivalValues[r.id];
                     rivalCellsHtml +=
                         '<div class="bg-gray-50 rounded-xl p-3.5 border border-gray-100 flex flex-col justify-between">' +
                             '<span class="text-[10px] font-bold uppercase tracking-wider text-gray-400 mb-1 block">' + r.brand + ' ' + r.name + '</span>' +
@@ -564,7 +824,7 @@
                                 '</div>' +
                                 '<h5 class="font-extrabold text-sm sm:text-base text-gray-800">' + spec.category + '</h5>' +
                             '</div>' +
-                            '<span class="text-[11px] font-extrabold bg-emerald-500/15 text-oppogreen px-2.5 py-0.5 rounded-full flex items-center gap-1">' +
+                            '<span class="text-[11px] font-extrabold bg-emerald-500/15 text-oppogreen px-2.5 py-0.5 rounded-full flex items-center gap-1 shrink-0">' +
                                 '<i class="fas fa-trophy text-[10px]"></i> ' + spec.oppoBadge +
                             '</span>' +
                         '</div>' +
@@ -586,7 +846,7 @@
                 pitchesHtml +=
                     '<div class="bg-white/10 rounded-2xl p-4 border border-white/10">' +
                         '<div class="flex items-center gap-2 mb-1.5">' +
-                            '<span class="bg-oppogreen text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-md">Vs ' + r.brand + ' ' + r.name + '</span>' +
+                            '<span class="bg-oppogreen text-white text-[10px] font-black uppercase px-2 py-0.5 rounded-md">Rebate Directo vs ' + r.brand + ' ' + r.name + '</span>' +
                         '</div>' +
                         '<p class="text-xs sm:text-sm text-gray-200 leading-relaxed">' + r.killerPitch + '</p>' +
                     '</div>';
@@ -604,7 +864,7 @@
                         '<h3 class="text-sm sm:text-base font-black uppercase tracking-wider text-gray-500 flex items-center gap-2">' +
                             '<i class="fas fa-bolt text-oppogreen"></i> Puntos Clave donde ' + model.name + ' Gana' +
                         '</h3>' +
-                        '<span class="text-xs text-gray-400">Mostrando ' + selectedRivals.length + (selectedRivals.length === 1 ? ' competidor' : ' competidores') + '</span>' +
+                        '<span class="text-xs text-gray-400">Comparando contra ' + selectedRivals.length + (selectedRivals.length === 1 ? ' competidor' : ' competidores') + '</span>' +
                     '</div>' +
                     '<div class="space-y-3">' +
                         specsRowsHtml +
