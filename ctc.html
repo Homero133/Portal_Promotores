@@ -716,6 +716,14 @@
             activeOppoId = modelId;
             const rivals = BENCHMARK_DB[modelId].rivals;
             activeRivalIds = rivals.length > 0 ? [rivals[0].id] : [];
+            if (typeof window.gtag === 'function') {
+                try {
+                    window.gtag('event', 'ctc_benchmark_modelo', {
+                        event_category: 'CTC Benchmark',
+                        event_label: BENCHMARK_DB[modelId].name
+                    });
+                } catch (e) {}
+            }
             renderOppoModels();
             renderRivalSelector();
             renderBenchmarkOutput();
@@ -732,6 +740,15 @@
                     activeRivalIds.shift();
                 }
                 activeRivalIds.push(rivalId);
+                if (typeof window.gtag === 'function' && BENCHMARK_DB[activeOppoId]) {
+                    try {
+                        const rivalObj = BENCHMARK_DB[activeOppoId].rivals.find(function (r) { return r.id === rivalId; });
+                        window.gtag('event', 'ctc_benchmark_competidor', {
+                            event_category: 'CTC Benchmark',
+                            event_label: BENCHMARK_DB[activeOppoId].name + ' vs ' + (rivalObj ? (rivalObj.brand + ' ' + rivalObj.name) : rivalId)
+                        });
+                    } catch (e) {}
+                }
             }
             renderRivalSelector();
             renderBenchmarkOutput();
