@@ -910,7 +910,6 @@
                         '<h4 id="oppoWebCapsuleTitle" class="text-xs sm:text-sm font-bold text-white/90 truncate">C&aacute;psula Interactiva OPPO</h4>' +
                     '</div>' +
                     '<div class="flex items-center gap-2 shrink-0">' +
-                        '<span id="oppoWebWatchStatus" class="text-[11px] font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1.5"></span>' +
                         '<a id="oppoWebCapsuleExtLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-oppogreen hover:bg-emerald-600 text-white text-xs font-bold py-1.5 px-3 rounded-xl transition flex items-center gap-1.5 shadow">' +
                             '<i class="fas fa-external-link-alt"></i> <span class="hidden sm:inline">Abrir en Pesta&ntilde;a Completa</span>' +
                         '</a>' +
@@ -919,12 +918,15 @@
                         '</button>' +
                     '</div>' +
                 '</div>' +
-                '<div class="w-full max-w-6xl h-[84vh] bg-gray-900 rounded-2xl overflow-hidden relative shadow-2xl border border-white/15">' +
+                '<div class="w-full max-w-6xl h-[80vh] bg-gray-900 rounded-2xl overflow-hidden relative shadow-2xl border border-white/15">' +
                     '<div id="oppoWebCapsuleSpinner" class="absolute inset-0 flex flex-col items-center justify-center bg-gray-950 z-10 transition-opacity duration-300">' +
                         '<div class="w-12 h-12 border-4 border-oppogreen/30 border-t-oppogreen rounded-full animate-spin mb-3"></div>' +
                         '<span class="text-xs text-gray-300 tracking-wider">Cargando experiencia interactiva OPPO...</span>' +
                     '</div>' +
                     '<iframe id="oppoWebCapsuleIframe" src="about:blank" class="w-full h-full border-0 bg-white" allow="fullscreen; clipboard-write; autoplay" onload="window.oppoProgress.onWebCapsuleLoad()"></iframe>' +
+                '</div>' +
+                '<div id="oppoWebWatchStatus" class="mt-2.5 text-xs font-semibold px-3.5 py-1 rounded-full bg-white/10 text-gray-200 border border-white/15 flex items-center gap-1.5">' +
+                    '<i class="fas fa-info-circle text-oppogreen"></i> <span>Para completar, m&iacute;ralo hasta el final</span>' +
                 '</div>' +
             '</div>' +
 
@@ -1138,28 +1140,27 @@
         if (!modal) return null;
         let badge = document.getElementById('oppoVideoWatchStatus');
         if (!badge) {
-            const topBarLeft = modal.querySelector('.flex.items-center.gap-2');
-            if (topBarLeft) {
-                badge = document.createElement('span');
-                badge.id = 'oppoVideoWatchStatus';
-                topBarLeft.appendChild(badge);
+            const videoContainer = document.getElementById('videoContainer');
+            badge = document.createElement('div');
+            badge.id = 'oppoVideoWatchStatus';
+            if (videoContainer && videoContainer.parentNode) {
+                videoContainer.parentNode.insertBefore(badge, videoContainer.nextSibling);
+            } else {
+                modal.appendChild(badge);
             }
         }
         return badge;
     }
 
-    function renderVideoStatusBadge(state, detailText) {
+    function renderVideoStatusBadge(state) {
         const badge = ensureVideoStatusBadge();
         if (!badge) return;
         if (state === 'completed') {
-            badge.className = 'text-xs font-extrabold tracking-wide bg-oppogreen text-white px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg transition-all';
-            badge.innerHTML = '<i class="fas fa-check-circle"></i> <span>' + (detailText || '&iexcl;Video Acreditado!') + '</span>';
-        } else if (state === 'warning') {
-            badge.className = 'text-xs font-bold tracking-wide bg-red-500/25 text-red-300 border border-red-400/40 px-3 py-1 rounded-full flex items-center gap-1.5 transition-all';
-            badge.innerHTML = '<i class="fas fa-exclamation-triangle"></i> <span>' + (detailText || 'Sin adelantar: mira el video completo') + '</span>';
+            badge.className = 'mt-2.5 text-xs font-extrabold tracking-wide bg-oppogreen text-white px-4 py-1.5 rounded-full flex items-center justify-center gap-1.5 shadow-lg transition-all';
+            badge.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;Completado!</span>';
         } else {
-            badge.className = 'text-xs font-bold tracking-wide bg-amber-500/20 text-amber-300 border border-amber-400/40 px-3 py-1 rounded-full flex items-center gap-1.5 transition-all';
-            badge.innerHTML = '<i class="fas fa-hourglass-half animate-pulse"></i> <span>' + (detailText || 'Mira hasta el final para acreditar') + '</span>';
+            badge.className = 'mt-2.5 text-xs font-semibold tracking-wide bg-white/10 text-gray-200 border border-white/15 px-4 py-1.5 rounded-full flex items-center justify-center gap-1.5 transition-all';
+            badge.innerHTML = '<i class="fas fa-info-circle text-oppogreen"></i> <span>Para completar, m&iacute;ralo hasta el final</span>';
         }
     }
 
@@ -1171,11 +1172,6 @@
         if (tracker.intervalId) clearInterval(tracker.intervalId);
         if (tracker.handshakeId) clearInterval(tracker.handshakeId);
         if (tracker.msgHandler) window.removeEventListener('message', tracker.msgHandler);
-
-        const alreadySaved = !!getProgressData().videos[tracker.id];
-        if (wasClosedByUser && !tracker.completed && !alreadySaved) {
-            showToast('Video incompleto: debes mirarlo hasta el final para acreditarlo en tu progreso.', true);
-        }
     }
 
     function startVideoCompletionTracker(videoId) {
@@ -1183,11 +1179,11 @@
 
         const alreadyWatched = !!getProgressData().videos[videoId];
         if (alreadyWatched) {
-            renderVideoStatusBadge('completed', 'Ya acreditado en tu progreso');
+            renderVideoStatusBadge('completed');
             return;
         }
 
-        renderVideoStatusBadge('watching', 'Viendo: 0% (mira hasta el final para acreditar)');
+        renderVideoStatusBadge('watching');
 
         // Si se abre en protocolo local file://, limpiar &origin= para permitir comunicacion postMessage con YouTube
         const iframe = document.getElementById('modalIframe');
@@ -1242,9 +1238,6 @@
                 const minRequired = Math.max(4, Math.min(tracker.duration * 0.78, tracker.duration - 3));
                 if (tracker.activeWatchedSeconds >= minRequired) {
                     completeTrackedVideo(tracker);
-                } else {
-                    const pct = Math.min(95, Math.round((tracker.activeWatchedSeconds / tracker.duration) * 100));
-                    renderVideoStatusBadge('warning', 'Adelantaste el video: debes mirarlo completo (' + pct + '%)');
                 }
             }
         };
@@ -1268,7 +1261,7 @@
             } catch (err) {}
         }, 800);
 
-        // Reloj de verificacion segundo a segundo
+        // Reloj de verificacion interna silenciosa segundo a segundo
         tracker.intervalId = setInterval(function () {
             if (!activeVideoTracker || activeVideoTracker.id !== videoId || tracker.completed) return;
 
@@ -1279,41 +1272,22 @@
             }
 
             if (tracker.ytConnected && tracker.duration > 0) {
-                // Solo suma tiempo cuando el video esta activamente en reproduccion (playerState === 1)
                 if (tracker.playerState === 1 && !document.hidden) {
                     tracker.activeWatchedSeconds += 1;
                 }
 
                 const minRequired = Math.max(4, Math.min(tracker.duration * 0.80, tracker.duration - 2.5));
-                const effectiveWatched = Math.min(tracker.currentTime, tracker.activeWatchedSeconds + 3);
-                const pct = Math.min(99, Math.max(0, Math.round((effectiveWatched / tracker.duration) * 100)));
-
-                // Verificar si el usuario adelanto la barra sin haber visto el video
-                if (tracker.currentTime > tracker.activeWatchedSeconds + 12 && tracker.activeWatchedSeconds < minRequired) {
-                    const realPct = Math.min(95, Math.round((tracker.activeWatchedSeconds / tracker.duration) * 100));
-                    renderVideoStatusBadge('warning', 'Sin adelantar: mira el video completo (' + realPct + '%)');
-                    return;
-                }
-
-                // Acreditar al llegar al final habiendo cumplido el tiempo real de reproduccion
                 if ((tracker.playerState === 0 || tracker.currentTime >= tracker.duration - 1.5) && tracker.activeWatchedSeconds >= minRequired) {
                     completeTrackedVideo(tracker);
-                    return;
                 }
-
-                const stateLabel = (tracker.playerState === 2) ? 'En pausa: ' : 'Viendo: ';
-                renderVideoStatusBadge('watching', stateLabel + pct + '% (mira hasta el final para acreditar)');
             } else {
                 // Modo respaldo (ej. archivo local file:// sin respuesta de API)
                 if (!document.hidden) {
                     tracker.fallbackSeconds += 1;
                 }
                 const REQUIRED_FALLBACK = 35;
-                const pctFallback = Math.min(99, Math.round((tracker.fallbackSeconds / REQUIRED_FALLBACK) * 100));
                 if (tracker.fallbackSeconds >= REQUIRED_FALLBACK) {
                     completeTrackedVideo(tracker);
-                } else {
-                    renderVideoStatusBadge('watching', 'Viendo: ' + pctFallback + '% (mira hasta el final para acreditar)');
                 }
             }
         }, 1000);
@@ -1326,7 +1300,7 @@
         if (tracker.handshakeId) clearInterval(tracker.handshakeId);
         if (tracker.msgHandler) window.removeEventListener('message', tracker.msgHandler);
 
-        renderVideoStatusBadge('completed', '&iexcl;Video Completado y Acreditado!');
+        renderVideoStatusBadge('completed');
         markVideoWatched(tracker.id);
     }
 
@@ -1335,11 +1309,6 @@
         const tracker = activeWebTracker;
         activeWebTracker = null;
         if (tracker.intervalId) clearInterval(tracker.intervalId);
-
-        const alreadySaved = !!getProgressData().videos[tracker.id];
-        if (wasClosedByUser && !tracker.completed && !alreadySaved) {
-            showToast('Capsula incompleta: explorala hasta completar el tiempo de lectura para acreditarla.', true);
-        }
     }
 
     function startWebCapsuleCompletionTracker(capsuleId) {
@@ -1349,8 +1318,8 @@
         const alreadyWatched = !!getProgressData().videos[capsuleId];
         if (alreadyWatched) {
             if (statusEl) {
-                statusEl.className = 'text-[11px] font-extrabold px-3 py-1 rounded-full bg-oppogreen text-white flex items-center gap-1.5 shadow';
-                statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>Ya acreditada</span>';
+                statusEl.className = 'mt-2.5 text-xs font-extrabold px-4 py-1.5 rounded-full bg-oppogreen text-white flex items-center justify-center gap-1.5 shadow';
+                statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;Completado!</span>';
             }
             return;
         }
@@ -1365,8 +1334,8 @@
         activeWebTracker = tracker;
 
         if (statusEl) {
-            statusEl.className = 'text-[11px] font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/40 flex items-center gap-1.5';
-            statusEl.innerHTML = '<i class="fas fa-book-reader animate-pulse"></i> <span>Explorando: 0% (30s para acreditar)</span>';
+            statusEl.className = 'mt-2.5 text-xs font-semibold px-4 py-1.5 rounded-full bg-white/10 text-gray-200 border border-white/15 flex items-center justify-center gap-1.5';
+            statusEl.innerHTML = '<i class="fas fa-info-circle text-oppogreen"></i> <span>Para completar, m&iacute;ralo hasta el final</span>';
         }
 
         tracker.intervalId = setInterval(function () {
@@ -1379,19 +1348,15 @@
             if (!document.hidden) {
                 tracker.elapsed += 1;
             }
-            const pct = Math.min(100, Math.round((tracker.elapsed / REQUIRED_WEB_SECONDS) * 100));
-            const remaining = Math.max(0, REQUIRED_WEB_SECONDS - tracker.elapsed);
 
             if (tracker.elapsed >= REQUIRED_WEB_SECONDS) {
                 tracker.completed = true;
                 clearInterval(tracker.intervalId);
                 if (statusEl) {
-                    statusEl.className = 'text-[11px] font-extrabold px-3 py-1 rounded-full bg-oppogreen text-white flex items-center gap-1.5 shadow';
-                    statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;C&aacute;psula Acreditada!</span>';
+                    statusEl.className = 'mt-2.5 text-xs font-extrabold px-4 py-1.5 rounded-full bg-oppogreen text-white flex items-center justify-center gap-1.5 shadow';
+                    statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;Completado!</span>';
                 }
                 markVideoWatched(capsuleId);
-            } else if (statusEl) {
-                statusEl.innerHTML = '<i class="fas fa-book-reader animate-pulse"></i> <span>Explorando: ' + pct + '% (' + remaining + 's para acreditar)</span>';
             }
         }, 1000);
     }
