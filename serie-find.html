@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <!-- Preconexion a YouTube para reproduccion fluida sin trabas -->
@@ -72,13 +72,36 @@
             <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
             <h1 class="text-2xl font-bold">Serie Find X</h1>
         </div>
-        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;fultra&#39;)">Find X9 Ultra</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;fpro&#39;)">Find X9 Pro</button></div>
+        <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar">
+            <button class="tab-btn active px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, &#39;fultra&#39;)">Find X9 Ultra</button>
+            <button class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, &#39;fpro&#39;)">Find X9 Pro</button>
+            <button class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, &#39;fx9&#39;)">Find X9</button>
+            <button class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, &#39;fx10promax&#39;)">Find X10 Pro Max</button>
+            <button class="tab-btn text-gray-500 px-5 py-3 font-medium whitespace-nowrap" onclick="switchTab(event, &#39;fx10&#39;)">Find X10</button>
+        </div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
-        <div id="fultra" class="content-section active"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">Find X9 Ultra</h2>    <a href="Recursos/01_Modelos/Serie_Find/Find_X9_Ultra/Infografia_Find_X9_Ultra.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha T&eacute;cnica</h4><p class="text-white opacity-90 text-xs">Infograf&iacute;a lista para enviar</p></div></div>
-        <i class="fas fa-download text-xl"></i>
-    </a> <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;iQlywdNl50M&#39;)">
+        <div id="fultra" class="content-section active">
+            <!-- VITRINA 360 GIF FIND X9 ULTRA -->
+            <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 mb-6 text-white shadow-xl border border-oppogreen/30 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex-1 text-center md:text-left">
+                    <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-[11px] font-extrabold uppercase tracking-wider mb-2"><i class="fas fa-cube mr-1"></i> Vista Din&aacute;mica 360&deg;</span>
+                    <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X9 Ultra</h2>
+                    <p class="text-gray-300 text-xs sm:text-sm mb-4">El m&aacute;ximo exponente en fotograf&iacute;a profesional con teleobjetivo perisc&oacute;pico y dise&ntilde;o insignia.</p>
+                    <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                        <a href="Recursos/01_Modelos/Serie_Find/Find_X9_Ultra/Infografia_Find_X9_Ultra.png" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                            <i class="fas fa-file-image"></i> Descargar Ficha T&eacute;cnica
+                        </a>
+                        <a href="Recursos/GIFs/find_x9_ultra.gif" download class="bg-white/10 hover:bg-white/20 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 border border-white/15 transition">
+                            <i class="fas fa-download text-oppogreen"></i> Descargar GIF
+                        </a>
+                    </div>
+                </div>
+                <div class="w-full md:w-64 shrink-0 flex justify-center">
+                    <img src="Recursos/GIFs/find_x9_ultra.gif" alt="OPPO Find X9 Ultra 360" class="w-56 sm:w-64 h-auto rounded-2xl shadow-2xl border-2 border-oppogreen/40 bg-black/40 p-1">
+                </div>
+            </div>
+            <div class="mt-8"><h3 class="font-bold text-gray-500 mb-4 text-xs uppercase tracking-wider">Videotutoriales</h3><div class="grid grid-cols-1 md:grid-cols-2 gap-x-6">    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;iQlywdNl50M&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
             <!-- Portada automatica de YouTube -->
             <img src="https://img.youtube.com/vi/iQlywdNl50M/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
@@ -109,10 +132,81 @@
             <p class="text-sm text-gray-500 mt-2 leading-relaxed">Vende el poder del zoom &oacute;ptico y retratos profesionales.</p>
         </div>
     </div></div></div></div>
-<div id="fpro" class="content-section"><h2 class="text-2xl font-black mb-4 uppercase text-gray-800">Find X9 Pro</h2>    <a href="Recursos/01_Modelos/Serie_Find/Find_X9_Pro/Infografia_Find_X9_Pro.png" download class="bg-oppogreen text-white p-5 rounded-2xl shadow-sm flex items-center justify-between mb-6 hover:shadow-md transition">
-        <div class="flex items-center"><i class="fas fa-file-image text-2xl mr-4"></i><div><h4 class="font-bold text-lg leading-tight">Ficha T&eacute;cnica</h4><p class="text-white opacity-90 text-xs">Infograf&iacute;a lista para enviar</p></div></div>
-        <i class="fas fa-download text-xl"></i>
-    </a></div>
+<div id="fpro" class="content-section">
+    <!-- VITRINA 360 GIF FIND X9 PRO -->
+    <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 mb-6 text-white shadow-xl border border-oppogreen/30 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-[11px] font-extrabold uppercase tracking-wider mb-2"><i class="fas fa-cube mr-1"></i> Vista Din&aacute;mica 360&deg;</span>
+            <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X9 Pro</h2>
+            <p class="text-gray-300 text-xs sm:text-sm mb-4">Potencia extrema, fotograf&iacute;a maestra y dise&ntilde;o en movimiento de 360&deg;.</p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="Recursos/01_Modelos/Serie_Find/Find_X9_Pro/Infografia_Find_X9_Pro.png" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-file-image"></i> Descargar Ficha T&eacute;cnica
+                </a>
+                <a href="Recursos/GIFs/find_x9_pro.gif" download class="bg-white/10 hover:bg-white/20 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 border border-white/15 transition">
+                    <i class="fas fa-download text-oppogreen"></i> Descargar GIF
+                </a>
+            </div>
+        </div>
+        <div class="w-full md:w-64 shrink-0 flex justify-center">
+            <img data-gif="Recursos/GIFs/find_x9_pro.gif" alt="OPPO Find X9 Pro 360" class="w-56 sm:w-64 h-auto rounded-2xl shadow-2xl border-2 border-oppogreen/40 bg-black/40 p-1">
+        </div>
+    </div>
+</div>
+<div id="fx9" class="content-section">
+    <!-- VITRINA 360 GIF FIND X9 -->
+    <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 mb-6 text-white shadow-xl border border-oppogreen/30 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-[11px] font-extrabold uppercase tracking-wider mb-2"><i class="fas fa-cube mr-1"></i> Vista Din&aacute;mica 360&deg;</span>
+            <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X9</h2>
+            <p class="text-gray-300 text-xs sm:text-sm mb-4">Elegancia compacta de gama alta con sistema de c&aacute;maras de nivel profesional.</p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="Recursos/GIFs/find_x9.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Descargar GIF 360&deg;
+                </a>
+            </div>
+        </div>
+        <div class="w-full md:w-64 shrink-0 flex justify-center">
+            <img data-gif="Recursos/GIFs/find_x9.gif" alt="OPPO Find X9 360" class="w-56 sm:w-64 h-auto rounded-2xl shadow-2xl border-2 border-oppogreen/40 bg-black/40 p-1">
+        </div>
+    </div>
+</div>
+<div id="fx10promax" class="content-section">
+    <!-- VITRINA 360 GIF FIND X10 PRO MAX -->
+    <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 mb-6 text-white shadow-xl border border-oppogreen/30 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-[11px] font-extrabold uppercase tracking-wider mb-2"><i class="fas fa-cube mr-1"></i> Vista Din&aacute;mica 360&deg;</span>
+            <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X10 Pro Max</h2>
+            <p class="text-gray-300 text-xs sm:text-sm mb-4">Vitrina 360&deg; de nueva generaci&oacute;n con tecnolog&iacute;a insignia OPPO.</p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="Recursos/GIFs/find_x10_pro_max.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Descargar GIF 360&deg;
+                </a>
+            </div>
+        </div>
+        <div class="w-full md:w-64 shrink-0 flex justify-center">
+            <img data-gif="Recursos/GIFs/find_x10_pro_max.gif" alt="OPPO Find X10 Pro Max 360" class="w-56 sm:w-64 h-auto rounded-2xl shadow-2xl border-2 border-oppogreen/40 bg-black/40 p-1">
+        </div>
+    </div>
+</div>
+<div id="fx10" class="content-section">
+    <!-- VITRINA 360 GIF FIND X10 -->
+    <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 mb-6 text-white shadow-xl border border-oppogreen/30 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-[11px] font-extrabold uppercase tracking-wider mb-2"><i class="fas fa-cube mr-1"></i> Vista Din&aacute;mica 360&deg;</span>
+            <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X10</h2>
+            <p class="text-gray-300 text-xs sm:text-sm mb-4">Explora cada &aacute;ngulo del dise&ntilde;o Find X10 en alta definici&oacute;n.</p>
+            <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="Recursos/GIFs/find_x10.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-download"></i> Descargar GIF 360&deg;
+                </a>
+            </div>
+        </div>
+        <div class="w-full md:w-64 shrink-0 flex justify-center">
+            <img data-gif="Recursos/GIFs/find_x10.gif" alt="OPPO Find X10 360" class="w-56 sm:w-64 h-auto rounded-2xl shadow-2xl border-2 border-oppogreen/40 bg-black/40 p-1">
+        </div>
+    </div>
+</div>
     </main>
         <!-- MODAL REPRODUCTOR FLUIDO (OPTIMIZADO PARA SESIONES EN VIVO) -->
     <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-3 sm:p-5 backdrop-blur-md transition-opacity duration-300" onclick="if(event.target === this) closeModal()">
@@ -164,7 +258,15 @@
             document.querySelectorAll('.tab-btn').forEach(b => { b.classList.remove('active'); b.classList.add('text-gray-500'); });
             document.querySelectorAll('.content-section').forEach(s => s.classList.remove('active'));
             e.currentTarget.classList.add('active'); e.currentTarget.classList.remove('text-gray-500');
-            document.getElementById(id).classList.add('active');
+            const targetSection = document.getElementById(id);
+            if (targetSection) {
+                targetSection.classList.add('active');
+                targetSection.querySelectorAll('img[data-gif]').forEach(img => {
+                    if (!img.getAttribute('src')) {
+                        img.src = img.getAttribute('data-gif');
+                    }
+                });
+            }
         }
         const HORIZONTAL_VIDEOS = new Set([
             'Am15k-VoQVA', '3CF9J189AhM', 'f1Yc9MXEZhw', 'duuHE3fQYrw', 'cbnkfMQ2b6E', 'JxotNm2qZGs',

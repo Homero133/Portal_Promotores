@@ -297,6 +297,7 @@
                 name: 'OPPO Reno 16 F 5G',
                 segment: '6 Rivales Directos | 7000 mAh + 80W',
                 image: 'Recursos/CTC/oppo_reno16f.webp',
+                gif: 'Recursos/GIFs/reno_16f.gif',
                 infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_F/Infografia_Reno_16_F.png',
                 tagline: '7000 mAh + 80W SUPERVOOC, IP69K, Selfie 50MP 100&deg; y Zoom Retrato 3.5x',
                 rivals: [
@@ -422,6 +423,7 @@
                 name: 'OPPO Reno 16 5G',
                 segment: '4 Rivales Directos | Cu&aacute;druple 50MP + 3.5x OIS',
                 image: 'Recursos/CTC/oppo_reno16.webp',
+                gif: 'Recursos/GIFs/reno_16_5g.gif',
                 infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_5G/Infografia_Reno_16_5G.png',
                 tagline: 'Cu&aacute;druple C&aacute;mara 50MP (Telefoto 3.5x OIS), 6700 mAh + 80W, IP69K y 3 A&ntilde;os Garant&iacute;a OPPO Protect',
                 rivals: [
@@ -523,6 +525,7 @@
                 name: 'OPPO A7 Pro 5G',
                 segment: '4 Rivales Directos | 8000 mAh + Grado Militar',
                 image: 'Recursos/CTC/oppo_a7pro.webp',
+                gif: 'Recursos/GIFs/a7_pro.gif',
                 infographic: 'Recursos/01_Modelos/Serie_A/A7 pro/Infografia_A7_Pro_5G.png',
                 tagline: '8000 mAh (6 A&ntilde;os Vida &Uacute;til), IP69K + Grado Militar SGS, Selfie 50MP y Chip S1 (+151% Se&ntilde;al)',
                 rivals: [
@@ -612,6 +615,7 @@
                 name: 'OPPO A6',
                 segment: '3 Rivales Directos | 6550 mAh + IP69',
                 image: 'Recursos/CTC/oppo_a6.webp',
+                gif: 'Recursos/GIFs/a6.gif',
                 infographic: 'Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg',
                 tagline: '6550 mAh + 45W SUPERVOOC, IP69/IP68/IP66, C&aacute;mara de Vapor VC y 60 Meses de Fluidez',
                 rivals: [
@@ -818,14 +822,22 @@
 
             const totalCols = 1 + selectedRivals.length; // 2, 3 o 4 columnas
 
-            // 1. Cabecera Visual de Equipos (Showcase de Imagenes Recortadas .webp)
+            // 1. Cabecera Visual de Equipos (Showcase de Imagenes Recortadas .webp + Boton Giro 360 GIF)
+            const oppoVisualSrc = (window.oppo360Active && model.gif) ? model.gif : model.image;
             let headerColsHtml =
                 '<div class="bg-gradient-to-b from-emerald-950 to-gray-900 text-white rounded-2xl p-4 text-center border-2 border-oppogreen shadow-lg relative flex flex-col justify-between">' +
                     '<div>' +
-                        '<span class="inline-block bg-oppogreen text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full mb-2">' +
-                            '<i class="fas fa-crown mr-1"></i> Nuestro Equipo' +
-                        '</span>' +
-                        getPhoneVisualHtml(model.image, model.name, true, model.id) +
+                        '<div class="flex items-center justify-center gap-1.5 mb-2 flex-wrap">' +
+                            '<span class="inline-block bg-oppogreen text-white text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-full">' +
+                                '<i class="fas fa-crown mr-1"></i> Nuestro Equipo' +
+                            '</span>' +
+                            (model.gif ? (
+                                '<button onclick="window.oppo360Active = !window.oppo360Active; renderBenchmarkOutput();" class="text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-0.5 rounded-full border transition ' + (window.oppo360Active ? 'bg-white text-gray-900 border-white' : 'bg-white/10 text-emerald-300 border-oppogreen/40 hover:bg-white/20') + '">' +
+                                    '<i class="fas fa-cube mr-1"></i> ' + (window.oppo360Active ? 'Ver Fijo' : 'Giro 360&deg;') +
+                                '</button>'
+                            ) : '') +
+                        '</div>' +
+                        getPhoneVisualHtml(oppoVisualSrc, model.name, true, model.id) +
                         '<h4 class="font-black text-base sm:text-lg text-white leading-tight">' + model.name + '</h4>' +
                         '<p class="text-[11px] text-emerald-300 mt-1 leading-snug">' + model.tagline + '</p>' +
                     '</div>' +
