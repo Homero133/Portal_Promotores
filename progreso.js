@@ -15,7 +15,7 @@
     }
 
     // =========================================================================
-    // 2. CATALOGO OFICIAL DE RECURSOS DE CAPACITACION (41 VIDEOS + 12 FICHAS)
+    // 2. CATALOGO OFICIAL DE RECURSOS DE CAPACITACION (45 VIDEOS + 4 CAPSULAS WEB + 12 FICHAS)
     // =========================================================================
     const CATALOGO_VIDEOS = {
         // Serie A (4)
@@ -38,10 +38,14 @@
         '0MFl15Ztm48': { page: 'oppo-ia.html', module: 'OPPO IA', title: 'Funciones de Mind Pilot' },
         'Oso4-p7EMyQ': { page: 'oppo-ia.html', module: 'OPPO IA', title: 'Asistente Financiero AI' },
         '8TwNL9GTPro': { page: 'oppo-ia.html', module: 'OPPO IA', title: 'Traductor de Menu AI' },
-        // Tecnologia y Ecosistema (2)
+        // Tecnologia y Ecosistema (4)
         'B7oOMGf5IVI': { page: 'tecnologia.html', module: 'Ecosistema', title: 'Vende OPPO Bubble' },
         'X8rAR_8X9Gs': { page: 'tecnologia.html', module: 'Ecosistema', title: 'Llamadas BeaconLink' },
-        // Ventas (10)
+        'bRwK9ZDr1eo': { page: 'tecnologia.html', module: 'Ecosistema', title: 'O+ Connect: Envio Directo con iPhone y Mac' },
+        'PXOuUyj2OU0': { page: 'tecnologia.html', module: 'Ecosistema', title: 'ColorOS: Fluidez e Inteligencia Garantizada' },
+        // Ventas (12)
+        'W94H_4fYjrg': { page: 'ventas.html', module: 'Ventas', title: 'Aprende a leer a cualquier persona en 60s' },
+        'mUbzZ8WnJMQ': { page: 'ventas.html', module: 'Ventas', title: 'La Venta Consultiva' },
         'eSLuPJJWjDA': { page: 'ventas.html', module: 'Ventas', title: 'Lenguaje no verbal' },
         'EPsShS_ndKU': { page: 'ventas.html', module: 'Ventas', title: 'Objecion: El Precio' },
         '0KKUK3nD76g': { page: 'ventas.html', module: 'Ventas', title: 'Objecion: La Marca' },
@@ -59,9 +63,37 @@
         'duuHE3fQYrw': { page: 'tutoriales.html', module: 'Tutoriales', title: 'Activar BeaconLink' },
         'cbnkfMQ2b6E': { page: 'tutoriales.html', module: 'Tutoriales', title: 'Borrador IA' },
         'JxotNm2qZGs': { page: 'tutoriales.html', module: 'Tutoriales', title: 'Tramite de Garantia' },
-        // Capsulas (2)
+        // Capsulas de Video y Web Interactivas (6)
         'wuge6mbhoqA': { page: 'capsulas.html', module: 'Capsulas', title: 'Domina el Efecto WOW' },
         '4J_a1p5ZGNY': { page: 'capsulas.html', module: 'Capsulas', title: 'Capacitacion OPPO Bubble' },
+        'web_neuroventas': {
+            page: 'capsulas.html',
+            module: 'Capsulas Web',
+            title: 'Neuroventas: Neurobiologia de la Decision de Compra',
+            isWeb: true,
+            url: 'https://neuro-ventas-oppo.saules-alejandroh.workers.dev/'
+        },
+        'web_reno16_opcion': {
+            page: 'capsulas.html',
+            module: 'Capsulas Web',
+            title: 'Reno 16: La Camara Mas Facil de Usar del Mercado',
+            isWeb: true,
+            url: 'https://homero133.github.io/Reno-16-tu-mejor-opci-n-/'
+        },
+        'web_natural_divertido': {
+            page: 'capsulas.html',
+            module: 'Capsulas Web',
+            title: 'OPPO Reno 16: Real, Natural y Divertido',
+            isWeb: true,
+            url: 'https://homero133.github.io/Nautural_y_Divertido/'
+        },
+        'web_popcam': {
+            page: 'capsulas.html',
+            module: 'Capsulas Web',
+            title: 'OPPO Reno 16: Vibe Retro Pop Cam',
+            isWeb: true,
+            url: 'https://homero133.github.io/POPCAM/'
+        },
         // Lanzamiento A7 Pro 5G (5)
         'eMzoj1D8BuE': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Resistencia Grado Militar' },
         'yIsJYE4ISNk': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Carga Reversible (5 Dispositivos)' },
@@ -69,6 +101,205 @@
         'dtBWua0FQYI': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Prueba de Caida Extrema' },
         'ppXGDoyd6io': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Rompiendo Dulces (Resistencia)' }
     };
+
+    // Rubricas de Conocimiento ("En esta capsula vas a aprender a...")
+    const RUBRICAS_DETALLE = {
+        // 4 Capsulas Web Interactivas
+        'web_neuroventas': {
+            badge: 'C&aacute;psula Interactiva Web &bull; Neuroventas',
+            titleHtml: 'Neuroventas: Neurobiolog&iacute;a de la Decisi&oacute;n de Compra',
+            learnings: [
+                'Activar el <strong>sistema l&iacute;mbico y reptiliano</strong> del cliente en los primeros Segundos de oro con est&iacute;mulos visuales y t&aacute;ctiles.',
+                'Traducir caracter&iacute;sticas t&eacute;cnicas complejas en <strong>beneficios emocionales inmediatos</strong> (seguridad, estatus, tranquilidad y pertenencia).',
+                'Aplicar gatillos mentales y micro-compromisos que reducen la fricci&oacute;n del precio y aceleran el <strong>cierre natural en piso de venta</strong>.'
+            ],
+            impact: 'Incrementa tu tasa de cierre entendiendo por qu&eacute; el 85% de la decisi&oacute;n de compra de un smartphone es subconsciente.'
+        },
+        'web_reno16_opcion': {
+            badge: 'C&aacute;psula Interactiva Web &bull; Serie Reno 16',
+            titleHtml: 'Reno 16: La C&aacute;mara M&aacute;s F&aacute;cil de Usar del Mercado',
+            learnings: [
+                'Demostrar por qu&eacute; el <strong>OPPO Reno 16</strong> entrega resultados profesionales al primer toque sin que el cliente tenga que configurar par&aacute;metros complicados.',
+                'Realizar la prueba en vivo de <strong>Retrato Experto, Livephoto IA y Borrador AI</strong> en menos de 30 segundos frente al mostrador.',
+                'Rebatir con pruebas visuales directas a clientes que buscan c&aacute;mara en Samsung Serie A o iPhone de generaci&oacute;n anterior.'
+            ],
+            impact: 'Convierte la prueba de c&aacute;mara en tu argumento m&aacute;s demoledor: cuando el cliente se ve incre&iacute;ble en la pantalla del Reno 16, la venta est&aacute; hecha.'
+        },
+        'web_natural_divertido': {
+            badge: 'C&aacute;psula Interactiva Web &bull; Experiencia Reno 16',
+            titleHtml: 'OPPO Reno 16: Real, Natural y Divertido',
+            learnings: [
+                'Explicar la ciencia de <strong>Tonos de Piel Naturales</strong> de OPPO que evita el aspecto artificial o sobreprocesado de otros competidores.',
+                'Conectar con clientes j&oacute;venes y creadores de contenido mostrando funciones din&aacute;micas, creativas y listas para redes sociales.',
+                'Guiar al cliente para que tome una selfie o retrato en tienda y compruebe por s&iacute; mismo la textura, luz y naturalidad del sensor.'
+            ],
+            impact: 'Ideal para enamorar a usuarios de Instagram y TikTok que buscan autenticidad y diversi&oacute;n instant&aacute;nea en cada disparo.'
+        },
+        'web_popcam': {
+            badge: 'C&aacute;psula Interactiva Web &bull; Tendencia Creativa',
+            titleHtml: 'OPPO Reno 16: Vibe Retro Pop Cam',
+            learnings: [
+                'Dominar la experiencia <strong>Pop Cam y est&eacute;tica Retro</strong> del OPPO Reno 16 para sorprender a clientes que buscan estilo y originalidad.',
+                'Combinar el poder del <strong>Flash Fiesta / iluminaci&oacute;n de retrato</strong> con filtros creativos que simulan c&aacute;maras cl&aacute;sicas con calidad de estudio.',
+                'Crear un momento memorable (Efecto WOW) en el punto de venta entregando al cliente una muestra visual &uacute;nica que ninguna otra marca ofrece.'
+            ],
+            impact: 'Diferencia de inmediato al OPPO Reno 16 frente a tel&eacute;fonos aburridos y gen&eacute;ricos de la competencia.'
+        },
+        // 4 Nuevos Videos de Entrenamiento
+        'W94H_4fYjrg': {
+            badge: 'Videoc&aacute;psula &bull; Psicolog&iacute;a y Abordaje',
+            titleHtml: 'Aprende a leer a cualquier persona en 60 segundos',
+            learnings: [
+                'Identificar en el primer minuto si tu cliente es <strong>visual, auditivo o kinest&eacute;sico</strong>, y si compra por estatus, seguridad, ahorro o innovaci&oacute;n.',
+                'Detectar micro-expresiones, postura corporal y tono de voz para saber exactamente <strong>qu&eacute; modelo OPPO presentarle primero</strong>.',
+                'Adaptar tu velocidad de habla y argumentos para generar empat&iacute;a instant&aacute;nea (Rapport) y derribar la barrera del &laquo;solo estoy viendo&raquo;.'
+            ],
+            impact: 'Ahorra tiempo en piso de venta y enfoca tu demostraci&oacute;n exactamente en el dolor o deseo real del cliente desde el primer minuto.'
+        },
+        'mUbzZ8WnJMQ': {
+            badge: 'Videoc&aacute;psula &bull; Metodolog&iacute;a de Ventas',
+            titleHtml: 'La Venta Consultiva en Piso de Venta',
+            learnings: [
+                'Cambiar el rol de &laquo;vendedor que recita fichas t&eacute;cnicas&raquo; a <strong>Asesor Experto OPPO</strong> que diagnostica antes de recomendar.',
+                'Formular las <strong>3 preguntas estrat&eacute;gicas de sondeo</strong> que revelan para qu&eacute; usa su celular el cliente y qu&eacute; le frustra de su equipo actual.',
+                'Conectar cada respuesta del cliente con el diferenciador exacto de OPPO (bater&iacute;a Titan, IP69K, Retrato IA o fluidez ColorOS) para un cierre sin presi&oacute;n.'
+            ],
+            impact: 'Eleva tu ticket promedio llevando al cliente de gama de entrada hacia Serie A Pro o Serie Reno con argumentos basados en sus propias necesidades.'
+        },
+        'bRwK9ZDr1eo': {
+            badge: 'Videoc&aacute;psula &bull; Ecosistema sin Barreras',
+            titleHtml: 'O+ Connect: Env&iacute;o Directo con iPhone y Mac',
+            learnings: [
+                'Demostrar en vivo c&oacute;mo <strong>O+ Connect</strong> permite transferir fotos, videos y Livephotos entre OPPO y iPhone sin cables y sin perder calidad.',
+                'Derribar la objeci&oacute;n n&uacute;mero 1 de los usuarios de Apple: <em>&laquo;Toda mi familia usa iPhone y nos pasamos fotos por AirDrop&raquo;</em>.',
+                'Guiar paso a paso la conexi&oacute;n instant&aacute;nea para que el cliente compruebe que cambiarse a OPPO es 100% compatible con su entorno.'
+            ],
+            impact: 'Tu arma secreta para conquistar usuarios de iPhone o clientes indecisos que conviven con ecosistemas Apple en casa o trabajo.'
+        },
+        'PXOuUyj2OU0': {
+            badge: 'Videoc&aacute;psula &bull; Tecnolog&iacute;a y Software',
+            titleHtml: 'ColorOS: Fluidez e Inteligencia Garantizada',
+            learnings: [
+                'Explicar con seguridad c&oacute;mo el motor <strong>Trinity Engine de ColorOS</strong> mantiene el tel&eacute;fono tan r&aacute;pido como el primer d&iacute;a durante a&ntilde;os.',
+                'Demostrar en segundos la multitarea inteligente, ventanas flotantes, Barra Inteligente y animaciones ultra fluidas sin trabas.',
+                'Convertir la certificaci&oacute;n de fluidez de OPPO en una garant&iacute;a de inversi&oacute;n a largo plazo frente a equipos de la competencia que se vuelven lentos.'
+            ],
+            impact: 'Da certeza absoluta al cliente que busca un smartphone durable que no se congele al abrir sus apps bancarias, juegos o redes sociales.'
+        },
+        // Capsulas existentes
+        'wuge6mbhoqA': {
+            badge: 'Videoc&aacute;psula &bull; Demostraci&oacute;n de Impacto',
+            titleHtml: 'Domina el Efecto WOW en menos de 10 segundos',
+            learnings: [
+                'Capturar la atenci&oacute;n total del cliente en los primeros 10 segundos con una demostraci&oacute;n f&iacute;sica o visual inesperada.',
+                'Poner el equipo OPPO en las manos del cliente activando el sentido del tacto (dise&ntilde;o, delgadez, brillo de pantalla y c&aacute;mara).',
+                'Transformar la curiosidad inicial en deseo de compra inmediato antes de hablar de precios o mensualidades.'
+            ],
+            impact: 'Un cliente sorprendido en los primeros 10 segundos escucha con el triple de atenci&oacute;n todo tu argumento comercial.'
+        },
+        '4J_a1p5ZGNY': {
+            badge: 'Videoc&aacute;psula &bull; Experiencia ColorOS',
+            titleHtml: 'Capacitaci&oacute;n Completa: Domina OPPO Bubble',
+            learnings: [
+                'Mostrar c&oacute;mo los servicios din&aacute;micos de <strong>OPPO Bubble</strong> mantienen visible la informaci&oacute;n clave (m&uacute;sica, grabadora, temporizador y apps) sin interrumpir lo que haces.',
+                'Realizar una demostraci&oacute;n interactiva tocando y deslizando la c&aacute;psula superior para que el cliente sienta la modernidad de ColorOS.',
+                'Usar OPPO Bubble como gancho visual frente a clientes que buscan una interfaz premium estilo gama alta.'
+            ],
+            impact: 'Hace que cualquier equipo OPPO luzca tecnol&oacute;gicamente superior y m&aacute;s moderno en la vitrina.'
+        }
+    };
+
+    function getRubricForItem(id) {
+        if (RUBRICAS_DETALLE[id]) {
+            return RUBRICAS_DETALLE[id];
+        }
+        const item = CATALOGO_VIDEOS[id] || { module: 'Academia OPPO', title: 'Capsula de Entrenamiento' };
+        const mod = item.module || 'Academia OPPO';
+        const title = escapeHtml(item.title || 'Capsula OPPO');
+
+        if (mod === 'Serie A' || mod === 'A7 Pro 5G') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; ' + escapeHtml(mod),
+                titleHtml: title,
+                learnings: [
+                    'Dominar los puntos fuertes de <strong>' + title + '</strong> (resistencia IP69/IP69K, bater&iacute;a de larga duraci&oacute;n y carga SUPERVOOC).',
+                    'Ejecutar una demostraci&oacute;n pr&aacute;ctica en el piso de venta que transmita confianza total en la durabilidad del equipo.',
+                    'Rebatir a competidores directos de su rango de precio destacando el valor superior y garant&iacute;a de OPPO.'
+                ],
+                impact: 'Cierra ventas con clientes que buscan un smartphone ultra resistente, confiable y con bater&iacute;a para todo el d&iacute;a.'
+            };
+        }
+        if (mod === 'Serie Reno') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; Serie Reno',
+                titleHtml: title,
+                learnings: [
+                    'Presentar a <strong>' + title + '</strong> como el Experto en Retrato con Inteligencia Artificial y dise&ntilde;o ic&oacute;nico.',
+                    'Realizar una comparativa visual directa en tienda destacando c&aacute;mara, pantalla AMOLED de 120Hz y certificaci&oacute;n IP69.',
+                    'Posicionar la Serie Reno como la mejor alternativa frente a gamas medias-altas tradicionales e iPhone de entrada.'
+                ],
+                impact: 'Aumenta tus cierres en gama media-alta enamorando al cliente con fotograf&iacute;a profesional y dise&ntilde;o premium.'
+            };
+        }
+        if (mod === 'Serie Find') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; Serie Find Flagship',
+                titleHtml: title,
+                learnings: [
+                    'Dominar la ingenier&iacute;a fotogr&aacute;fica y el sistema de teleobjetivo de <strong>' + title + '</strong>.',
+                    'Transmitir exclusividad, potencia extrema y tecnolog&iacute;a de vanguardia a clientes de perfil exigente o ejecutivo.',
+                    'Demostrar en vivo el zoom &oacute;ptico y procesamiento de imagen que supera a cualquier flagship tradicional.'
+                ],
+                impact: 'Domina el segmento premium con argumentos de nivel experto.'
+            };
+        }
+        if (mod === 'OPPO IA') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; Inteligencia Artificial OPPO',
+                titleHtml: title,
+                learnings: [
+                    'Explicar de forma sencilla y pr&aacute;ctica c&oacute;mo funciona <strong>' + title + '</strong> en la vida diaria del usuario.',
+                    'Realizar una demostraci&oacute;n en vivo de menos de 20 segundos que deje al cliente sorprendido con la IA de OPPO.',
+                    'Traducir la Inteligencia Artificial en ahorro de tiempo, productividad y fotograf&iacute;as perfectas para el cliente.'
+                ],
+                impact: 'Posiciona a OPPO como l&iacute;der en innovaci&oacute;n f&aacute;cil de usar para cualquier persona.'
+            };
+        }
+        if (mod === 'Ventas') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; Cl&iacute;nica de Ventas',
+                titleHtml: title,
+                learnings: [
+                    'Identificar el momento exacto en la conversaci&oacute;n para aplicar la t&eacute;cnica de <strong>' + title + '</strong>.',
+                    'Responder con seguridad, empat&iacute;a y argumentos de valor sin entrar en confrontaci&oacute;n con el cliente.',
+                    'Guiar al comprador hacia una decisi&oacute;n afirmativa manteniendo el control consultivo de la venta.'
+                ],
+                impact: 'Convierte la indecisi&oacute;n y las objeciones cotidianas en cierres efectivos todos los d&iacute;as.'
+            };
+        }
+        if (mod === 'Tutoriales' || mod === 'Ecosistema') {
+            return {
+                badge: 'R&uacute;brica de Conocimiento &bull; ' + escapeHtml(mod),
+                titleHtml: title,
+                learnings: [
+                    'Configurar y mostrar paso a paso la funci&oacute;n <strong>' + title + '</strong> en menos de 30 segundos.',
+                    'Resolver dudas frecuentes del cliente en mostrador agregando valor post-venta y confianza en la marca.',
+                    'Usar esta herramienta oculta de ColorOS como diferenciador sorpresa durante tu demostraci&oacute;n.'
+                ],
+                impact: 'Genera confianza inmediata al demostrar dominio total del sistema operativo y soporte OPPO.'
+            };
+        }
+        return {
+            badge: 'R&uacute;brica de Conocimiento &bull; ' + escapeHtml(mod),
+            titleHtml: title,
+            learnings: [
+                'Comprender los conceptos clave de <strong>' + title + '</strong> y su aplicaci&oacute;n pr&aacute;ctica en tienda.',
+                'Demostrar con fluidez y seguridad los beneficios exclusivos del ecosistema OPPO frente al cliente.',
+                'Aplicar lo aprendido para incrementar tu tasa de cierre y avanzar hacia tu Certificaci&oacute;n Master OPPO.'
+            ],
+            impact: 'Fortalece tu perfil como Promotor Certificado OPPO Pro.'
+        };
+    }
 
     const TOTAL_VIDEOS = Object.keys(CATALOGO_VIDEOS).length; // 41
     const TOTAL_DOWNLOADS = 12;
@@ -478,10 +709,10 @@
 
     function updateVideoCardBadges() {
         const progress = getProgressData();
-        const cards = document.querySelectorAll('[onclick*="openVideo"]');
+        const cards = document.querySelectorAll('[onclick*="openVideo"], [onclick*="openWebCapsule"]');
         cards.forEach(function (card) {
             const onclickAttr = card.getAttribute('onclick') || '';
-            const match = onclickAttr.match(/openVideo\(['"]([^'"]+)['"]\)/);
+            const match = onclickAttr.match(/(?:openVideo|openWebCapsule)\(['"]([^'"]+)['"]\)/);
             if (!match) return;
             const videoId = match[1];
             const isWatched = !!progress.videos[videoId];
@@ -496,7 +727,7 @@
 
             if (isWatched) {
                 badge.className = 'oppo-video-status-badge absolute top-3 right-3 z-20 px-3 py-1 rounded-full text-xs font-bold shadow-md bg-oppogreen text-white flex items-center gap-1';
-                badge.innerHTML = '<i class="fas fa-check-circle"></i> Visto';
+                badge.innerHTML = '<i class="fas fa-check-circle"></i> Completado';
                 card.classList.add('ring-2', 'ring-oppogreen/40');
             } else {
                 badge.className = 'oppo-video-status-badge absolute top-3 right-3 z-20 px-2.5 py-1 rounded-full text-[11px] font-semibold shadow bg-black/60 text-white/90 backdrop-blur-sm flex items-center gap-1';
@@ -616,6 +847,74 @@
                         '<i class="fas fa-times"></i>' +
                     '</button>' +
                     '<div id="oppoCertificateContent"></div>' +
+                '</div>' +
+            '</div>' +
+
+            '<!-- MODAL DE RUBRICA PREVIA DE CONOCIMIENTO -->' +
+            '<div id="oppoRubricModal" class="fixed inset-0 bg-black/85 z-[115] hidden items-center justify-center p-4 backdrop-blur-md overflow-y-auto" onclick="if(event.target === this) window.oppoProgress.closeRubricModal()">' +
+                '<div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-7 shadow-2xl relative border border-oppogreen/30 my-6 animate-fade-in">' +
+                    '<button onclick="window.oppoProgress.closeRubricModal()" title="Cerrar" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-xl w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center transition">' +
+                        '<i class="fas fa-times"></i>' +
+                    '</button>' +
+                    '<div class="flex items-center gap-3 mb-4 pr-8">' +
+                        '<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-oppogreen to-emerald-600 text-white flex items-center justify-center text-xl shadow-md shrink-0">' +
+                            '<i class="fas fa-clipboard-check"></i>' +
+                        '</div>' +
+                        '<div>' +
+                            '<span id="oppoRubricBadge" class="inline-block text-[10px] font-extrabold uppercase tracking-wider bg-emerald-500/15 text-oppogreen px-2.5 py-0.5 rounded-full border border-oppogreen/25">R&uacute;brica de Conocimiento</span>' +
+                            '<h3 id="oppoRubricTitle" class="text-lg sm:text-xl font-black text-gray-900 leading-tight mt-1">Objetivo de Aprendizaje</h3>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="bg-gray-50 rounded-2xl p-4 sm:p-5 border border-gray-200/80 mb-4">' +
+                        '<p class="text-xs font-extrabold uppercase tracking-wider text-oppogreen mb-3 flex items-center gap-1.5">' +
+                            '<i class="fas fa-bullseye"></i> En esta c&aacute;psula vas a aprender a:' +
+                        '</p>' +
+                        '<ul id="oppoRubricList" class="space-y-2.5 text-xs sm:text-sm text-gray-700 leading-relaxed"></ul>' +
+                    '</div>' +
+                    '<div class="bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white rounded-2xl p-3.5 sm:p-4 mb-5 flex items-start gap-3 border border-oppogreen/30">' +
+                        '<div class="w-8 h-8 rounded-xl bg-oppogreen/20 border border-oppogreen/40 text-oppogreen flex items-center justify-center shrink-0 mt-0.5">' +
+                            '<i class="fas fa-bolt text-sm"></i>' +
+                        '</div>' +
+                        '<div>' +
+                            '<span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block">Impacto en Piso de Venta</span>' +
+                            '<p id="oppoRubricImpact" class="text-xs text-gray-200 leading-relaxed mt-0.5"></p>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div class="flex flex-col gap-2.5">' +
+                        '<button id="oppoRubricConfirmBtn" onclick="window.oppoProgress.confirmRubricAndStart()" class="w-full bg-oppogreen hover:bg-emerald-600 text-white font-black py-3.5 px-5 rounded-2xl shadow-lg transition transform hover:scale-[1.01] text-sm flex items-center justify-center gap-2">' +
+                            '<i class="fas fa-play-circle text-lg"></i> <span id="oppoRubricConfirmText">&iexcl;Estoy listo! Iniciar C&aacute;psula</span>' +
+                        '</button>' +
+                        '<a id="oppoRubricExternalBtn" href="#" target="_blank" rel="noopener noreferrer" onclick="window.oppoProgress.markExternalWebStarted()" class="hidden w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-2.5 px-4 rounded-xl text-xs text-center items-center justify-center gap-1.5 transition">' +
+                            '<i class="fas fa-external-link-alt text-oppogreen"></i> <span>Abrir directamente en pesta&ntilde;a completa</span>' +
+                        '</a>' +
+                    '</div>' +
+                '</div>' +
+            '</div>' +
+
+            '<!-- MODAL VISOR INTERACTIVO DE CAPSULA WEB -->' +
+            '<div id="oppoWebCapsuleModal" class="fixed inset-0 bg-black/95 z-[118] hidden flex-col items-center justify-center p-2 sm:p-4 backdrop-blur-md" onclick="if(event.target === this) window.oppoProgress.closeWebCapsuleModal()">' +
+                '<div class="w-full max-w-6xl flex items-center justify-between px-2 sm:px-4 py-2 mb-2 text-white z-10">' +
+                    '<div class="flex items-center gap-2.5 truncate pr-2">' +
+                        '<span class="bg-oppogreen text-white text-[10px] sm:text-xs font-extrabold uppercase px-2.5 py-1 rounded-full flex items-center gap-1.5 shrink-0">' +
+                            '<i class="fas fa-laptop-code"></i> C&aacute;psula Web' +
+                        '</span>' +
+                        '<h4 id="oppoWebCapsuleTitle" class="text-xs sm:text-sm font-bold text-white/90 truncate">C&aacute;psula Interactiva OPPO</h4>' +
+                    '</div>' +
+                    '<div class="flex items-center gap-2 shrink-0">' +
+                        '<a id="oppoWebCapsuleExtLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-oppogreen hover:bg-emerald-600 text-white text-xs font-bold py-1.5 px-3 rounded-xl transition flex items-center gap-1.5 shadow">' +
+                            '<i class="fas fa-external-link-alt"></i> <span class="hidden sm:inline">Abrir en Pesta&ntilde;a Completa</span>' +
+                        '</a>' +
+                        '<button onclick="window.oppoProgress.closeWebCapsuleModal()" title="Cerrar c&aacute;psula (Esc)" class="bg-white/10 hover:bg-white/20 text-white text-lg w-9 h-9 rounded-xl flex items-center justify-center transition">' +
+                            '<i class="fas fa-times"></i>' +
+                        '</button>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="w-full max-w-6xl h-[84vh] bg-gray-900 rounded-2xl overflow-hidden relative shadow-2xl border border-white/15">' +
+                    '<div id="oppoWebCapsuleSpinner" class="absolute inset-0 flex flex-col items-center justify-center bg-gray-950 z-10 transition-opacity duration-300">' +
+                        '<div class="w-12 h-12 border-4 border-oppogreen/30 border-t-oppogreen rounded-full animate-spin mb-3"></div>' +
+                        '<span class="text-xs text-gray-300 tracking-wider">Cargando experiencia interactiva OPPO...</span>' +
+                    '</div>' +
+                    '<iframe id="oppoWebCapsuleIframe" src="about:blank" class="w-full h-full border-0 bg-white" allow="fullscreen; clipboard-write; autoplay" onload="window.oppoProgress.onWebCapsuleLoad()"></iframe>' +
                 '</div>' +
             '</div>' +
 
@@ -806,19 +1105,170 @@
     }
 
     // =========================================================================
-    // 8. HOOK AUTOMATICO A openVideo() Y EVENTOS DEL DOM
+    // 8. RUBRICA PREVIA DE CONOCIMIENTO, VISOR DE CAPSULAS WEB Y HOOK A openVideo()
     // =========================================================================
+    let pendingRubricItem = null;
+    let rawOpenVideoFn = null;
+
+    function openRubricModal(id, type) {
+        const modal = document.getElementById('oppoRubricModal');
+        if (!modal) {
+            // Fallback por si el DOM aun no inyecta el modal
+            if (type === 'web') {
+                launchWebCapsuleModal(id);
+            } else if (typeof rawOpenVideoFn === 'function') {
+                rawOpenVideoFn(id);
+            }
+            markVideoWatched(id);
+            return;
+        }
+
+        pendingRubricItem = { id: id, type: type };
+        const rubric = getRubricForItem(id);
+        const item = CATALOGO_VIDEOS[id] || {};
+
+        const badgeEl = document.getElementById('oppoRubricBadge');
+        const titleEl = document.getElementById('oppoRubricTitle');
+        const listEl = document.getElementById('oppoRubricList');
+        const impactEl = document.getElementById('oppoRubricImpact');
+        const confirmTextEl = document.getElementById('oppoRubricConfirmText');
+        const extBtn = document.getElementById('oppoRubricExternalBtn');
+
+        if (badgeEl) badgeEl.innerHTML = rubric.badge;
+        if (titleEl) titleEl.innerHTML = rubric.titleHtml;
+        if (listEl) {
+            listEl.innerHTML = (rubric.learnings || []).map(function (point) {
+                return '<li class="flex items-start gap-2.5">' +
+                    '<i class="fas fa-check-circle text-oppogreen mt-1 shrink-0"></i>' +
+                    '<span>' + point + '</span>' +
+                '</li>';
+            }).join('');
+        }
+        if (impactEl) impactEl.innerHTML = rubric.impact || '';
+
+        if (confirmTextEl) {
+            confirmTextEl.innerHTML = (type === 'web')
+                ? '&iexcl;Estoy listo! Explorar C&aacute;psula Interactiva'
+                : '&iexcl;Estoy listo! Reproducir Videoc&aacute;psula';
+        }
+
+        if (extBtn) {
+            if (type === 'web' && item.url) {
+                extBtn.href = item.url;
+                extBtn.classList.remove('hidden');
+                extBtn.classList.add('flex');
+            } else {
+                extBtn.classList.add('hidden');
+                extBtn.classList.remove('flex');
+            }
+        }
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+    }
+
+    function closeRubricModal() {
+        const modal = document.getElementById('oppoRubricModal');
+        if (!modal) return;
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+    }
+
+    function confirmRubricAndStart() {
+        if (!pendingRubricItem) return;
+        const target = pendingRubricItem;
+        pendingRubricItem = null;
+        closeRubricModal();
+        markVideoWatched(target.id);
+
+        if (target.type === 'web') {
+            launchWebCapsuleModal(target.id);
+        } else if (typeof rawOpenVideoFn === 'function') {
+            rawOpenVideoFn(target.id);
+        }
+    }
+
+    function markExternalWebStarted() {
+        if (!pendingRubricItem) return;
+        const target = pendingRubricItem;
+        pendingRubricItem = null;
+        closeRubricModal();
+        markVideoWatched(target.id);
+    }
+
+    function launchWebCapsuleModal(id) {
+        const item = CATALOGO_VIDEOS[id];
+        if (!item || !item.url) return;
+
+        const modal = document.getElementById('oppoWebCapsuleModal');
+        const iframe = document.getElementById('oppoWebCapsuleIframe');
+        const spinner = document.getElementById('oppoWebCapsuleSpinner');
+        const titleEl = document.getElementById('oppoWebCapsuleTitle');
+        const extLink = document.getElementById('oppoWebCapsuleExtLink');
+
+        if (!modal || !iframe) {
+            window.open(item.url, '_blank', 'noopener');
+            return;
+        }
+
+        const rubric = getRubricForItem(id);
+        if (titleEl) titleEl.innerHTML = rubric.titleHtml || escapeHtml(item.title);
+        if (extLink) extLink.href = item.url;
+
+        if (spinner) {
+            spinner.style.display = 'flex';
+            spinner.style.opacity = '1';
+        }
+
+        iframe.src = item.url;
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function onWebCapsuleLoad() {
+        const iframe = document.getElementById('oppoWebCapsuleIframe');
+        const spinner = document.getElementById('oppoWebCapsuleSpinner');
+        if (iframe && iframe.src && iframe.src !== 'about:blank') {
+            if (spinner) {
+                spinner.style.opacity = '0';
+                setTimeout(function () { spinner.style.display = 'none'; }, 300);
+            }
+        }
+    }
+
+    function closeWebCapsuleModal() {
+        const modal = document.getElementById('oppoWebCapsuleModal');
+        if (!modal) return;
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        const iframe = document.getElementById('oppoWebCapsuleIframe');
+        if (iframe) {
+            iframe.src = 'about:blank';
+        }
+        document.body.style.overflow = '';
+    }
+
     function hookOpenVideo() {
         if (typeof window.openVideo === 'function' && !window.openVideo._oppoHooked) {
-            const originalOpenVideo = window.openVideo;
+            rawOpenVideoFn = window.openVideo;
             const wrapped = function (id) {
-                originalOpenVideo(id);
-                markVideoWatched(id);
+                openRubricModal(id, 'video');
             };
             wrapped._oppoHooked = true;
             window.openVideo = wrapped;
         }
+        window.openWebCapsule = function (id) {
+            openRubricModal(id, 'web');
+        };
     }
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') {
+            closeRubricModal();
+            closeWebCapsuleModal();
+        }
+    });
 
     document.addEventListener('DOMContentLoaded', function () {
         injectProgressUI();
@@ -832,6 +1282,12 @@
         submitProfileForm: submitProfileForm,
         openCertificateModal: openCertificateModal,
         closeCertificateModal: closeCertificateModal,
+        openRubricModal: openRubricModal,
+        closeRubricModal: closeRubricModal,
+        confirmRubricAndStart: confirmRubricAndStart,
+        markExternalWebStarted: markExternalWebStarted,
+        closeWebCapsuleModal: closeWebCapsuleModal,
+        onWebCapsuleLoad: onWebCapsuleLoad,
         markVideoWatched: markVideoWatched,
         setGoogleScriptUrl: function (url) {
             localStorage.setItem('oppo_google_script_url', url);

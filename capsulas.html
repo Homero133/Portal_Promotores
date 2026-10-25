@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <!-- Preconexion a YouTube para reproduccion fluida sin trabas -->
@@ -16,7 +16,7 @@
         body.dark-mode .text-gray-700 { color: #dddddd !important; }
         body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
         body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
-        body.dark-mode .border-b { border-color: #333 !important; }
+        body.dark-mode .border-b, body.dark-mode .border-gray-100 { border-color: #333 !important; }
         body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
     </style>
     <style>
@@ -58,43 +58,257 @@
         <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500"><i class="fas fa-arrow-left"></i></a>
-                <h1 class="text-xl md:text-2xl font-bold">C&aacute;psulas y Capacitaciones</h1>
+                <div>
+                    <span class="text-[10px] font-extrabold uppercase tracking-widest text-oppogreen block">Academia &Eacute;lite OPPO</span>
+                    <h1 class="text-xl md:text-2xl font-bold leading-tight">C&aacute;psulas y Capacitaciones</h1>
+                </div>
             </div>
             <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
                 <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
             </button>
         </div>
     </div>
+
     <main class="max-w-4xl mx-auto px-4 mt-8">
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
-            <!-- Video 1 -->
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('wuge6mbhoqA')">
-                <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
-                    <img src="https://img.youtube.com/vi/wuge6mbhoqA/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300"><div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div></div>
-                </div>
-                <div class="p-5">
-                    <h4 class="font-bold text-gray-800 text-lg leading-tight">Domina el Efecto WOW</h4>
-                    <p class="text-sm text-gray-500 mt-2 leading-relaxed">Aprende t&eacute;cnicas infalibles para sorprender a tus clientes y cerrar m&aacute;s ventas en piso.</p>
+
+        <!-- ============================================================== -->
+        <!-- SECCION 1: CAPSULAS INTERACTIVAS WEB (EXPERIENCIAS INMERSIVAS) -->
+        <!-- ============================================================== -->
+        <div class="mb-10">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-xl bg-oppogreen text-white flex items-center justify-center text-sm shadow">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-lg sm:text-xl font-black text-gray-800">C&aacute;psulas Interactivas Web</h2>
+                        <p class="text-xs text-gray-500">Toca cualquier c&aacute;psula para revisar su r&uacute;brica de aprendizaje e iniciar la experiencia interactiva.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Video 2 -->
-            <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('4J_a1p5ZGNY')">
-                <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
-                    <img src="https://img.youtube.com/vi/4J_a1p5ZGNY/hqdefault.jpg" alt="Miniatura" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-                    <div class="absolute inset-0 bg-black/10 flex items-center justify-center group-hover:bg-black/30 transition duration-300"><div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div></div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Web 1: Neuroventas -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-xl hover:border-oppogreen/40 transition duration-300" onclick="openWebCapsule('web_neuroventas')">
+                    <div class="relative w-full aspect-video bg-gray-900 overflow-hidden">
+                        <img src="Recursos/Capsulas/portada_neuroventas.jpg" alt="Neuroventas OPPO" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-between p-4">
+                            <span class="self-start bg-purple-600 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full shadow flex items-center gap-1.5">
+                                <i class="fas fa-brain"></i> C&aacute;psula Web Interactiva
+                            </span>
+                            <div class="flex items-center justify-between text-white">
+                                <span class="text-xs font-bold bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                                    <i class="fas fa-clipboard-check text-oppogreen mr-1"></i> Incluye R&uacute;brica
+                                </span>
+                                <div class="w-11 h-11 bg-oppogreen rounded-full flex items-center justify-center shadow-xl text-white text-sm transform group-hover:scale-110 transition">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-purple-600 block mb-1">Psicolog&iacute;a del Consumidor</span>
+                            <h4 class="font-bold text-gray-800 text-lg leading-tight">Neuroventas: Neurobiolog&iacute;a de la Decisi&oacute;n de Compra</h4>
+                            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina c&oacute;mo decide la mente del cliente, el lenguaje corporal en tienda y c&oacute;mo activar dopamina para cerrar ventas.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="p-5">
-                    <h4 class="font-bold text-gray-800 text-lg leading-tight">OPPO Bubble</h4>
-                    <p class="text-sm text-gray-500 mt-2 leading-relaxed">Descubre los secretos y casos de uso pr&aacute;cticos de la herramienta OPPO Bubble.</p>
+
+                <!-- Web 2: Reno 16 Tu Mejor Opcion (La camara mas facil de usar) -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-xl hover:border-oppogreen/40 transition duration-300" onclick="openWebCapsule('web_reno16_opcion')">
+                    <div class="relative w-full aspect-video bg-gray-900 overflow-hidden">
+                        <img src="Recursos/Capsulas/portada_reno16_camara.jpg" alt="OPPO Reno 16 Tu Mejor Opcion" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-between p-4">
+                            <span class="self-start bg-oppogreen text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full shadow flex items-center gap-1.5">
+                                <i class="fas fa-camera-retro"></i> C&aacute;psula Web Interactiva
+                            </span>
+                            <div class="flex items-center justify-between text-white">
+                                <span class="text-xs font-bold bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                                    <i class="fas fa-clipboard-check text-oppogreen mr-1"></i> Incluye R&uacute;brica
+                                </span>
+                                <div class="w-11 h-11 bg-oppogreen rounded-full flex items-center justify-center shadow-xl text-white text-sm transform group-hover:scale-110 transition">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Fotograf&iacute;a Serie Reno 16</span>
+                            <h4 class="font-bold text-gray-800 text-lg leading-tight">Reno 16: La C&aacute;mara M&aacute;s F&aacute;cil de Usar del Mercado</h4>
+                            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Aprende a demostrar el Teleobjetivo 3.5x Pro, la Selfie Gran Angular 100&deg; y por qu&eacute; Reno 16 es la mejor opci&oacute;n.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web 3: Natural y Divertido -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-xl hover:border-oppogreen/40 transition duration-300" onclick="openWebCapsule('web_natural_divertido')">
+                    <div class="relative w-full aspect-video bg-gray-900 overflow-hidden">
+                        <img src="Recursos/Capsulas/portada_natural_divertido.jpg" alt="OPPO Reno 16 Natural y Divertido" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-between p-4">
+                            <span class="self-start bg-teal-600 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full shadow flex items-center gap-1.5">
+                                <i class="fas fa-wand-magic-sparkles"></i> C&aacute;psula Web Interactiva
+                            </span>
+                            <div class="flex items-center justify-between text-white">
+                                <span class="text-xs font-bold bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                                    <i class="fas fa-clipboard-check text-oppogreen mr-1"></i> Incluye R&uacute;brica
+                                </span>
+                                <div class="w-11 h-11 bg-oppogreen rounded-full flex items-center justify-center shadow-xl text-white text-sm transform group-hover:scale-110 transition">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-teal-600 block mb-1">Creaci&oacute;n de Contenido IA</span>
+                            <h4 class="font-bold text-gray-800 text-lg leading-tight">OPPO Reno 16: Real, Natural y Divertido</h4>
+                            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Explora Collage Remix AI, efecto Popout 3D y nitidez natural para enamorar a creadores de contenido en tienda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web 4: POPCAM -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-xl hover:border-oppogreen/40 transition duration-300" onclick="openWebCapsule('web_popcam')">
+                    <div class="relative w-full aspect-video bg-gray-900 overflow-hidden">
+                        <img src="Recursos/Capsulas/portada_popcam.webp" alt="Vibe Retro Pop Cam" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/25 to-transparent flex flex-col justify-between p-4">
+                            <span class="self-start bg-amber-600 text-white text-[10px] font-extrabold uppercase tracking-wider px-2.5 py-1 rounded-full shadow flex items-center gap-1.5">
+                                <i class="fas fa-film"></i> C&aacute;psula Web Interactiva
+                            </span>
+                            <div class="flex items-center justify-between text-white">
+                                <span class="text-xs font-bold bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                                    <i class="fas fa-clipboard-check text-oppogreen mr-1"></i> Incluye R&uacute;brica
+                                </span>
+                                <div class="w-11 h-11 bg-oppogreen rounded-full flex items-center justify-center shadow-xl text-white text-sm transform group-hover:scale-110 transition">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-5 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase tracking-wider text-amber-600 block mb-1">Est&eacute;tica Retro Exclusiva</span>
+                            <h4 class="font-bold text-gray-800 text-lg leading-tight">OPPO Reno 16: Vibe Retro Pop Cam</h4>
+                            <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina los modos Digicam, Instant Film y Fuga de Luz para crear postales con est&eacute;tica retro en un solo toque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- SECCION 2: VIDEOCAPSULAS Y MASTERCLASSES EN VIDEO              -->
+        <!-- ============================================================== -->
+        <div>
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-2.5">
+                    <div class="w-8 h-8 rounded-xl bg-red-600 text-white flex items-center justify-center text-sm shadow">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-lg sm:text-xl font-black text-gray-800">Videoc&aacute;psulas de Entrenamiento &Eacute;lite</h2>
+                        <p class="text-xs text-gray-500">Revisa la r&uacute;brica de objetivos antes de cada video para dominar la t&eacute;cnica en piso de venta.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-6">
+                <!-- Video Nuevo 1: Aprende a leer a cualquier persona en 60s -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('W94H_4fYjrg')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/W94H_4fYjrg/hqdefault.jpg" alt="Aprende a leer a cualquier persona en 60s" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Lectura de Cliente &bull; Abordaje</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">Aprende a leer a cualquier persona en 60s</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Identifica en un minuto el perfil psicol&oacute;gico de tu cliente para adaptar tu discurso y cerrar m&aacute;s r&aacute;pido.</p>
+                    </div>
+                </div>
+
+                <!-- Video Nuevo 2: La Venta Consultiva -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('mUbzZ8WnJMQ')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/mUbzZ8WnJMQ/hqdefault.jpg" alt="La Venta Consultiva" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Metodolog&iacute;a Comercial</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">La Venta Consultiva</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Pasa de despachar equipos a diagnosticar necesidades reales mediante preguntas inteligentes de alto valor.</p>
+                    </div>
+                </div>
+
+                <!-- Video Nuevo 3: O+ Connect -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('bRwK9ZDr1eo')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/bRwK9ZDr1eo/hqdefault.jpg" alt="O+ Connect" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Interoperabilidad Apple</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">O+ Connect: Env&iacute;o Directo con iPhone y Mac</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Domina la transferencia instant&aacute;nea de archivos entre OPPO y el ecosistema iOS para convencer a usuarios de iPhone.</p>
+                    </div>
+                </div>
+
+                <!-- Video Nuevo 4: ColorOS -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('PXOuUyj2OU0')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/PXOuUyj2OU0/hqdefault.jpg" alt="ColorOS" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Sistema Operativo OPPO</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">ColorOS: Fluidez e Inteligencia Garantizada</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Descubre por qu&eacute; ColorOS ofrece hasta 6 a&ntilde;os de fluidez certificada, cero anuncios y herramientas IA nativas.</p>
+                    </div>
+                </div>
+
+                <!-- Video Existente 5: Domina el Efecto WOW -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('wuge6mbhoqA')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/wuge6mbhoqA/hqdefault.jpg" alt="Domina el Efecto WOW" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Demostraci&oacute;n en Piso</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">Domina el Efecto WOW</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Aprende t&eacute;cnicas infalibles para sorprender a tus clientes y cerrar m&aacute;s ventas en piso.</p>
+                    </div>
+                </div>
+
+                <!-- Video Existente 6: OPPO Bubble -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo('4J_a1p5ZGNY')">
+                    <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
+                        <img src="https://img.youtube.com/vi/4J_a1p5ZGNY/hqdefault.jpg" alt="OPPO Bubble" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                        <div class="absolute inset-0 bg-black/15 flex items-center justify-center group-hover:bg-black/35 transition duration-300">
+                            <div class="w-14 h-14 bg-white/95 rounded-full flex items-center justify-center shadow-xl text-red-600 text-xl transform group-hover:scale-110 transition duration-300"><i class="fas fa-play ml-1"></i></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <span class="text-[10px] font-extrabold uppercase tracking-wider text-oppogreen block mb-1">Ecosistema Interactivo</span>
+                        <h4 class="font-bold text-gray-800 text-lg leading-tight">Capacitaci&oacute;n OPPO Bubble</h4>
+                        <p class="text-sm text-gray-500 mt-2 leading-relaxed">Descubre los secretos y casos de uso pr&aacute;cticos de la herramienta OPPO Bubble.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
-        <!-- MODAL REPRODUCTOR FLUIDO (OPTIMIZADO PARA SESIONES EN VIVO) -->
+    <!-- MODAL REPRODUCTOR FLUIDO (OPTIMIZADO PARA SESIONES EN VIVO) -->
     <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-3 sm:p-5 backdrop-blur-md transition-opacity duration-300" onclick="if(event.target === this) closeModal()">
         <!-- Barra de herramientas superior -->
         <div class="w-full max-w-4xl flex items-center justify-between px-2 sm:px-4 py-2 mb-2 text-white/90 z-10">
@@ -143,7 +357,8 @@
     <script>
         const HORIZONTAL_VIDEOS = new Set([
             'Am15k-VoQVA', '3CF9J189AhM', 'f1Yc9MXEZhw', 'duuHE3fQYrw', 'cbnkfMQ2b6E', 'JxotNm2qZGs',
-            'wuge6mbhoqA', '4J_a1p5ZGNY', 'yIsJYE4ISNk', 'cImwExhU0E8', 'dtBWua0FQYI'
+            'wuge6mbhoqA', '4J_a1p5ZGNY', 'yIsJYE4ISNk', 'cImwExhU0E8', 'dtBWua0FQYI',
+            'W94H_4fYjrg', 'bRwK9ZDr1eo', 'mUbzZ8WnJMQ', 'PXOuUyj2OU0'
         ]);
         let currentVideoId = '';
         let isWidescreen = true;
@@ -181,7 +396,6 @@
                 spinner.style.opacity = '1';
             }
 
-            // Reproduccion optimizada: CDN directo de YouTube, playsinline, rel=0, hardware accel
             const origin = encodeURIComponent(window.location.origin || window.location.href);
             iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1&playsinline=1&rel=0&modestbranding=1&enablejsapi=1&origin=' + origin;
 
