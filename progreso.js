@@ -902,7 +902,7 @@
 
             '<!-- MODAL VISOR INTERACTIVO DE CAPSULA WEB -->' +
             '<div id="oppoWebCapsuleModal" class="fixed inset-0 bg-black/95 z-[118] hidden flex-col items-center justify-center p-2 sm:p-4 backdrop-blur-md" onclick="if(event.target === this) window.oppoProgress.closeWebCapsuleModal()">' +
-                '<div class="w-full max-w-6xl flex items-center justify-between px-2 sm:px-4 py-2 mb-2 text-white z-10">' +
+                '<div class="w-full max-w-6xl flex items-center justify-between px-2 sm:px-4 py-2 mb-2 text-white z-10 gap-2">' +
                     '<div class="flex items-center gap-2.5 truncate pr-2">' +
                         '<span class="bg-oppogreen text-white text-[10px] sm:text-xs font-extrabold uppercase px-2.5 py-1 rounded-full flex items-center gap-1.5 shrink-0">' +
                             '<i class="fas fa-laptop-code"></i> C&aacute;psula Web' +
@@ -910,6 +910,7 @@
                         '<h4 id="oppoWebCapsuleTitle" class="text-xs sm:text-sm font-bold text-white/90 truncate">C&aacute;psula Interactiva OPPO</h4>' +
                     '</div>' +
                     '<div class="flex items-center gap-2 shrink-0">' +
+                        '<span id="oppoWebWatchStatus" class="text-[11px] font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center gap-1.5"></span>' +
                         '<a id="oppoWebCapsuleExtLink" href="#" target="_blank" rel="noopener noreferrer" class="bg-oppogreen hover:bg-emerald-600 text-white text-xs font-bold py-1.5 px-3 rounded-xl transition flex items-center gap-1.5 shadow">' +
                             '<i class="fas fa-external-link-alt"></i> <span class="hidden sm:inline">Abrir en Pesta&ntilde;a Completa</span>' +
                         '</a>' +
@@ -928,8 +929,8 @@
             '</div>' +
 
             '<!-- TOAST DE NOTIFICACION -->' +
-            '<div id="oppoProgressToast" class="fixed bottom-6 right-6 z-[120] hidden items-center gap-3 bg-gray-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-oppogreen/40 text-xs sm:text-sm font-semibold">' +
-                '<i class="fas fa-check-circle text-oppogreen text-lg"></i>' +
+            '<div id="oppoProgressToast" class="fixed bottom-6 right-6 z-[125] hidden items-center gap-3 bg-gray-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-oppogreen/40 text-xs sm:text-sm font-semibold">' +
+                '<i id="oppoProgressToastIcon" class="fas fa-check-circle text-oppogreen text-lg"></i>' +
                 '<span id="oppoProgressToastText">Progreso actualizado</span>' +
             '</div>';
 
@@ -1091,18 +1092,25 @@
     }
 
     let toastTimeout = null;
-    function showToast(message) {
+    function showToast(message, isWarning) {
         const toast = document.getElementById('oppoProgressToast');
         const text = document.getElementById('oppoProgressToastText');
+        const icon = document.getElementById('oppoProgressToastIcon');
         if (!toast || !text) return;
         text.textContent = message;
-        toast.classList.remove('hidden');
-        toast.classList.add('flex');
+        if (icon) {
+            icon.className = isWarning
+                ? 'fas fa-exclamation-triangle text-amber-400 text-lg'
+                : 'fas fa-check-circle text-oppogreen text-lg';
+        }
+        toast.className = isWarning
+            ? 'fixed bottom-6 right-6 z-[125] flex items-center gap-3 bg-gray-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-amber-500/60 text-xs sm:text-sm font-semibold'
+            : 'fixed bottom-6 right-6 z-[125] flex items-center gap-3 bg-gray-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-oppogreen/40 text-xs sm:text-sm font-semibold';
         if (toastTimeout) clearTimeout(toastTimeout);
         toastTimeout = setTimeout(function () {
             toast.classList.add('hidden');
             toast.classList.remove('flex');
-        }, 3200);
+        }, 3800);
     }
 
     function escapeHtml(str) {
@@ -1114,21 +1122,290 @@
     }
 
     // =========================================================================
-    // 8. RUBRICA PREVIA DE CONOCIMIENTO, VISOR DE CAPSULAS WEB Y HOOK A openVideo()
+    // 8. RUBRICA PREVIA, VERIFICACION DE VIDEO COMPLETO Y VISOR DE CAPSULAS WEB
     // =========================================================================
     let pendingRubricItem = null;
     let rawOpenVideoFn = null;
+    let rawCloseModalFn = null;
+
+    // Estado del rastreador de reproduccion de video
+    let activeVideoTracker = null;
+    // Estado del rastreador de capsula web
+    let activeWebTracker = null;
+
+    function ensureVideoStatusBadge() {
+        const modal = document.getElementById('videoModal');
+        if (!modal) return null;
+        let badge = document.getElementById('oppoVideoWatchStatus');
+        if (!badge) {
+            const topBarLeft = modal.querySelector('.flex.items-center.gap-2');
+            if (topBarLeft) {
+                badge = document.createElement('span');
+                badge.id = 'oppoVideoWatchStatus';
+                topBarLeft.appendChild(badge);
+            }
+        }
+        return badge;
+    }
+
+    function renderVideoStatusBadge(state, detailText) {
+        const badge = ensureVideoStatusBadge();
+        if (!badge) return;
+        if (state === 'completed') {
+            badge.className = 'text-xs font-extrabold tracking-wide bg-oppogreen text-white px-3 py-1 rounded-full flex items-center gap-1.5 shadow-lg transition-all';
+            badge.innerHTML = '<i class="fas fa-check-circle"></i> <span>' + (detailText || '&iexcl;Video Acreditado!') + '</span>';
+        } else if (state === 'warning') {
+            badge.className = 'text-xs font-bold tracking-wide bg-red-500/25 text-red-300 border border-red-400/40 px-3 py-1 rounded-full flex items-center gap-1.5 transition-all';
+            badge.innerHTML = '<i class="fas fa-exclamation-triangle"></i> <span>' + (detailText || 'Sin adelantar: mira el video completo') + '</span>';
+        } else {
+            badge.className = 'text-xs font-bold tracking-wide bg-amber-500/20 text-amber-300 border border-amber-400/40 px-3 py-1 rounded-full flex items-center gap-1.5 transition-all';
+            badge.innerHTML = '<i class="fas fa-hourglass-half animate-pulse"></i> <span>' + (detailText || 'Mira hasta el final para acreditar') + '</span>';
+        }
+    }
+
+    function stopVideoCompletionTracker(wasClosedByUser) {
+        if (!activeVideoTracker) return;
+        const tracker = activeVideoTracker;
+        activeVideoTracker = null;
+
+        if (tracker.intervalId) clearInterval(tracker.intervalId);
+        if (tracker.handshakeId) clearInterval(tracker.handshakeId);
+        if (tracker.msgHandler) window.removeEventListener('message', tracker.msgHandler);
+
+        const alreadySaved = !!getProgressData().videos[tracker.id];
+        if (wasClosedByUser && !tracker.completed && !alreadySaved) {
+            showToast('Video incompleto: debes mirarlo hasta el final para acreditarlo en tu progreso.', true);
+        }
+    }
+
+    function startVideoCompletionTracker(videoId) {
+        stopVideoCompletionTracker(false);
+
+        const alreadyWatched = !!getProgressData().videos[videoId];
+        if (alreadyWatched) {
+            renderVideoStatusBadge('completed', 'Ya acreditado en tu progreso');
+            return;
+        }
+
+        renderVideoStatusBadge('watching', 'Viendo: 0% (mira hasta el final para acreditar)');
+
+        // Si se abre en protocolo local file://, limpiar &origin= para permitir comunicacion postMessage con YouTube
+        const iframe = document.getElementById('modalIframe');
+        if (iframe && window.location.protocol === 'file:' && iframe.src && iframe.src.indexOf('&origin=') !== -1) {
+            iframe.src = iframe.src.replace(/&origin=[^&]+/, '');
+        }
+
+        const tracker = {
+            id: videoId,
+            completed: false,
+            ytConnected: false,
+            duration: 0,
+            currentTime: 0,
+            playerState: -1,
+            activeWatchedSeconds: 0,
+            fallbackSeconds: 0,
+            intervalId: null,
+            handshakeId: null,
+            msgHandler: null
+        };
+        activeVideoTracker = tracker;
+
+        tracker.msgHandler = function (e) {
+            if (!activeVideoTracker || activeVideoTracker.id !== videoId) return;
+            if (!e.origin || (e.origin.indexOf('youtube.com') === -1 && e.origin.indexOf('youtube-nocookie.com') === -1)) return;
+            let data = null;
+            try {
+                data = typeof e.data === 'string' ? JSON.parse(e.data) : e.data;
+            } catch (err) {
+                return;
+            }
+            if (!data) return;
+
+            if (data.event === 'infoDelivery' && data.info) {
+                tracker.ytConnected = true;
+                if (typeof data.info.duration === 'number' && data.info.duration > 0) {
+                    tracker.duration = data.info.duration;
+                }
+                if (typeof data.info.currentTime === 'number') {
+                    tracker.currentTime = data.info.currentTime;
+                }
+                if (typeof data.info.playerState === 'number') {
+                    tracker.playerState = data.info.playerState;
+                }
+            } else if (data.event === 'onStateChange' && typeof data.info === 'number') {
+                tracker.ytConnected = true;
+                tracker.playerState = data.info;
+            }
+
+            // Si el reproductor reporta estado 0 (ENDED = finalizado)
+            if (tracker.playerState === 0 && tracker.duration > 0) {
+                const minRequired = Math.max(4, Math.min(tracker.duration * 0.78, tracker.duration - 3));
+                if (tracker.activeWatchedSeconds >= minRequired) {
+                    completeTrackedVideo(tracker);
+                } else {
+                    const pct = Math.min(95, Math.round((tracker.activeWatchedSeconds / tracker.duration) * 100));
+                    renderVideoStatusBadge('warning', 'Adelantaste el video: debes mirarlo completo (' + pct + '%)');
+                }
+            }
+        };
+
+        window.addEventListener('message', tracker.msgHandler);
+
+        // Enviar handshake periodico al iframe de YouTube
+        tracker.handshakeId = setInterval(function () {
+            const frame = document.getElementById('modalIframe');
+            if (!frame || !frame.contentWindow) return;
+            try {
+                frame.contentWindow.postMessage(JSON.stringify({
+                    event: 'listening',
+                    id: 'oppo_yt_tracker'
+                }), '*');
+                frame.contentWindow.postMessage(JSON.stringify({
+                    event: 'command',
+                    func: 'addEventListener',
+                    args: ['onStateChange']
+                }), '*');
+            } catch (err) {}
+        }, 800);
+
+        // Reloj de verificacion segundo a segundo
+        tracker.intervalId = setInterval(function () {
+            if (!activeVideoTracker || activeVideoTracker.id !== videoId || tracker.completed) return;
+
+            const modal = document.getElementById('videoModal');
+            if (!modal || modal.classList.contains('hidden')) {
+                stopVideoCompletionTracker(true);
+                return;
+            }
+
+            if (tracker.ytConnected && tracker.duration > 0) {
+                // Solo suma tiempo cuando el video esta activamente en reproduccion (playerState === 1)
+                if (tracker.playerState === 1 && !document.hidden) {
+                    tracker.activeWatchedSeconds += 1;
+                }
+
+                const minRequired = Math.max(4, Math.min(tracker.duration * 0.80, tracker.duration - 2.5));
+                const effectiveWatched = Math.min(tracker.currentTime, tracker.activeWatchedSeconds + 3);
+                const pct = Math.min(99, Math.max(0, Math.round((effectiveWatched / tracker.duration) * 100)));
+
+                // Verificar si el usuario adelanto la barra sin haber visto el video
+                if (tracker.currentTime > tracker.activeWatchedSeconds + 12 && tracker.activeWatchedSeconds < minRequired) {
+                    const realPct = Math.min(95, Math.round((tracker.activeWatchedSeconds / tracker.duration) * 100));
+                    renderVideoStatusBadge('warning', 'Sin adelantar: mira el video completo (' + realPct + '%)');
+                    return;
+                }
+
+                // Acreditar al llegar al final habiendo cumplido el tiempo real de reproduccion
+                if ((tracker.playerState === 0 || tracker.currentTime >= tracker.duration - 1.5) && tracker.activeWatchedSeconds >= minRequired) {
+                    completeTrackedVideo(tracker);
+                    return;
+                }
+
+                const stateLabel = (tracker.playerState === 2) ? 'En pausa: ' : 'Viendo: ';
+                renderVideoStatusBadge('watching', stateLabel + pct + '% (mira hasta el final para acreditar)');
+            } else {
+                // Modo respaldo (ej. archivo local file:// sin respuesta de API)
+                if (!document.hidden) {
+                    tracker.fallbackSeconds += 1;
+                }
+                const REQUIRED_FALLBACK = 35;
+                const pctFallback = Math.min(99, Math.round((tracker.fallbackSeconds / REQUIRED_FALLBACK) * 100));
+                if (tracker.fallbackSeconds >= REQUIRED_FALLBACK) {
+                    completeTrackedVideo(tracker);
+                } else {
+                    renderVideoStatusBadge('watching', 'Viendo: ' + pctFallback + '% (mira hasta el final para acreditar)');
+                }
+            }
+        }, 1000);
+    }
+
+    function completeTrackedVideo(tracker) {
+        if (!tracker || tracker.completed) return;
+        tracker.completed = true;
+        if (tracker.intervalId) clearInterval(tracker.intervalId);
+        if (tracker.handshakeId) clearInterval(tracker.handshakeId);
+        if (tracker.msgHandler) window.removeEventListener('message', tracker.msgHandler);
+
+        renderVideoStatusBadge('completed', '&iexcl;Video Completado y Acreditado!');
+        markVideoWatched(tracker.id);
+    }
+
+    function stopWebCapsuleCompletionTracker(wasClosedByUser) {
+        if (!activeWebTracker) return;
+        const tracker = activeWebTracker;
+        activeWebTracker = null;
+        if (tracker.intervalId) clearInterval(tracker.intervalId);
+
+        const alreadySaved = !!getProgressData().videos[tracker.id];
+        if (wasClosedByUser && !tracker.completed && !alreadySaved) {
+            showToast('Capsula incompleta: explorala hasta completar el tiempo de lectura para acreditarla.', true);
+        }
+    }
+
+    function startWebCapsuleCompletionTracker(capsuleId) {
+        stopWebCapsuleCompletionTracker(false);
+
+        const statusEl = document.getElementById('oppoWebWatchStatus');
+        const alreadyWatched = !!getProgressData().videos[capsuleId];
+        if (alreadyWatched) {
+            if (statusEl) {
+                statusEl.className = 'text-[11px] font-extrabold px-3 py-1 rounded-full bg-oppogreen text-white flex items-center gap-1.5 shadow';
+                statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>Ya acreditada</span>';
+            }
+            return;
+        }
+
+        const REQUIRED_WEB_SECONDS = 30;
+        const tracker = {
+            id: capsuleId,
+            completed: false,
+            elapsed: 0,
+            intervalId: null
+        };
+        activeWebTracker = tracker;
+
+        if (statusEl) {
+            statusEl.className = 'text-[11px] font-bold px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-400/40 flex items-center gap-1.5';
+            statusEl.innerHTML = '<i class="fas fa-book-reader animate-pulse"></i> <span>Explorando: 0% (30s para acreditar)</span>';
+        }
+
+        tracker.intervalId = setInterval(function () {
+            if (!activeWebTracker || activeWebTracker.id !== capsuleId || tracker.completed) return;
+            const modal = document.getElementById('oppoWebCapsuleModal');
+            if (!modal || modal.classList.contains('hidden')) {
+                stopWebCapsuleCompletionTracker(true);
+                return;
+            }
+            if (!document.hidden) {
+                tracker.elapsed += 1;
+            }
+            const pct = Math.min(100, Math.round((tracker.elapsed / REQUIRED_WEB_SECONDS) * 100));
+            const remaining = Math.max(0, REQUIRED_WEB_SECONDS - tracker.elapsed);
+
+            if (tracker.elapsed >= REQUIRED_WEB_SECONDS) {
+                tracker.completed = true;
+                clearInterval(tracker.intervalId);
+                if (statusEl) {
+                    statusEl.className = 'text-[11px] font-extrabold px-3 py-1 rounded-full bg-oppogreen text-white flex items-center gap-1.5 shadow';
+                    statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;C&aacute;psula Acreditada!</span>';
+                }
+                markVideoWatched(capsuleId);
+            } else if (statusEl) {
+                statusEl.innerHTML = '<i class="fas fa-book-reader animate-pulse"></i> <span>Explorando: ' + pct + '% (' + remaining + 's para acreditar)</span>';
+            }
+        }, 1000);
+    }
 
     function openRubricModal(id, type) {
         const modal = document.getElementById('oppoRubricModal');
         if (!modal) {
-            // Fallback por si el DOM aun no inyecta el modal
             if (type === 'web') {
                 launchWebCapsuleModal(id);
+                startWebCapsuleCompletionTracker(id);
             } else if (typeof rawOpenVideoFn === 'function') {
                 rawOpenVideoFn(id);
+                startVideoCompletionTracker(id);
             }
-            markVideoWatched(id);
             return;
         }
 
@@ -1188,12 +1465,13 @@
         const target = pendingRubricItem;
         pendingRubricItem = null;
         closeRubricModal();
-        markVideoWatched(target.id);
 
         if (target.type === 'web') {
             launchWebCapsuleModal(target.id);
+            startWebCapsuleCompletionTracker(target.id);
         } else if (typeof rawOpenVideoFn === 'function') {
             rawOpenVideoFn(target.id);
+            startVideoCompletionTracker(target.id);
         }
     }
 
@@ -1202,7 +1480,8 @@
         const target = pendingRubricItem;
         pendingRubricItem = null;
         closeRubricModal();
-        markVideoWatched(target.id);
+        launchWebCapsuleModal(target.id);
+        startWebCapsuleCompletionTracker(target.id);
     }
 
     function launchWebCapsuleModal(id) {
@@ -1247,6 +1526,7 @@
     }
 
     function closeWebCapsuleModal() {
+        stopWebCapsuleCompletionTracker(true);
         const modal = document.getElementById('oppoWebCapsuleModal');
         if (!modal) return;
         modal.classList.add('hidden');
@@ -1267,6 +1547,15 @@
             wrapped._oppoHooked = true;
             window.openVideo = wrapped;
         }
+        if (typeof window.closeModal === 'function' && !window.closeModal._oppoHooked) {
+            rawCloseModalFn = window.closeModal;
+            const wrappedClose = function () {
+                stopVideoCompletionTracker(true);
+                rawCloseModalFn();
+            };
+            wrappedClose._oppoHooked = true;
+            window.closeModal = wrappedClose;
+        }
         window.openWebCapsule = function (id) {
             openRubricModal(id, 'web');
         };
@@ -1275,7 +1564,10 @@
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') {
             closeRubricModal();
-            closeWebCapsuleModal();
+            const webModal = document.getElementById('oppoWebCapsuleModal');
+            if (webModal && !webModal.classList.contains('hidden')) {
+                closeWebCapsuleModal();
+            }
         }
     });
 
