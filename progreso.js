@@ -41,11 +41,11 @@
         // Tecnologia y Ecosistema (4)
         'B7oOMGf5IVI': { page: 'tecnologia.html', module: 'Ecosistema', title: 'Vende OPPO Bubble' },
         'X8rAR_8X9Gs': { page: 'tecnologia.html', module: 'Ecosistema', title: 'Llamadas BeaconLink' },
-        'bRwK9ZDr1eo': { page: 'tecnologia.html', module: 'Ecosistema', title: 'O+ Connect: Envio Directo con iPhone y Mac' },
-        'PXOuUyj2OU0': { page: 'tecnologia.html', module: 'Ecosistema', title: 'ColorOS: Fluidez e Inteligencia Garantizada' },
+        'bRwK9ZDr1eo': { page: 'tecnologia.html', extraPages: ['capsulas.html'], module: 'Ecosistema', title: 'O+ Connect: Envio Directo con iPhone y Mac' },
+        'PXOuUyj2OU0': { page: 'tecnologia.html', extraPages: ['capsulas.html'], module: 'Ecosistema', title: 'ColorOS: Fluidez e Inteligencia Garantizada' },
         // Ventas (12)
-        'W94H_4fYjrg': { page: 'ventas.html', module: 'Ventas', title: 'Aprende a leer a cualquier persona en 60s' },
-        'mUbzZ8WnJMQ': { page: 'ventas.html', module: 'Ventas', title: 'La Venta Consultiva' },
+        'W94H_4fYjrg': { page: 'ventas.html', extraPages: ['capsulas.html'], module: 'Ventas', title: 'Aprende a leer a cualquier persona en 60s' },
+        'mUbzZ8WnJMQ': { page: 'ventas.html', extraPages: ['capsulas.html'], module: 'Ventas', title: 'La Venta Consultiva' },
         'eSLuPJJWjDA': { page: 'ventas.html', module: 'Ventas', title: 'Lenguaje no verbal' },
         'EPsShS_ndKU': { page: 'ventas.html', module: 'Ventas', title: 'Objecion: El Precio' },
         '0KKUK3nD76g': { page: 'ventas.html', module: 'Ventas', title: 'Objecion: La Marca' },
@@ -301,7 +301,7 @@
         };
     }
 
-    const TOTAL_VIDEOS = Object.keys(CATALOGO_VIDEOS).length; // 41
+    const TOTAL_VIDEOS = Object.keys(CATALOGO_VIDEOS).length; // 49 (45 videos + 4 capsulas web)
     const TOTAL_DOWNLOADS = 12;
 
     const STORAGE_USER_KEY = 'oppo_promotor_profile_v1';
@@ -389,15 +389,21 @@
 
     function getModuleStats(pageName) {
         const progress = getProgressData();
-        const moduleIds = Object.keys(CATALOGO_VIDEOS).filter(id => CATALOGO_VIDEOS[id].page === pageName);
+        const moduleIds = Object.keys(CATALOGO_VIDEOS).filter(function (id) {
+            const item = CATALOGO_VIDEOS[id];
+            return item.page === pageName || (item.extraPages && item.extraPages.indexOf(pageName) !== -1);
+        });
         if (moduleIds.length === 0) return null;
-        const watchedInModule = moduleIds.filter(id => progress.videos[id]).length;
+        const watchedInModule = moduleIds.filter(function (id) { return progress.videos[id]; }).length;
         const pct = Math.round((watchedInModule / moduleIds.length) * 100);
+        const modName = (pageName === 'capsulas.html')
+            ? 'C&aacute;psulas y Capacitaciones'
+            : CATALOGO_VIDEOS[moduleIds[0]].module;
         return {
             watched: watchedInModule,
             total: moduleIds.length,
             percentage: pct,
-            moduleName: CATALOGO_VIDEOS[moduleIds[0]].module
+            moduleName: modName
         };
     }
 
@@ -572,7 +578,7 @@
                     '<div class="mt-5 pt-4 border-t border-white/10">' +
                         '<div class="flex justify-between text-xs text-gray-300 mb-1.5">' +
                             '<span>Tu avance actual en este dispositivo</span>' +
-                            '<span class="font-bold text-oppogreen">' + stats.watchedCount + ' de ' + stats.TOTAL_VIDEOS + ' videos (' + stats.percentage + '%)</span>' +
+                            '<span class="font-bold text-oppogreen">' + stats.watchedCount + ' de ' + stats.TOTAL_VIDEOS + ' videos y c&aacute;psulas (' + stats.percentage + '%)</span>' +
                         '</div>' +
                         '<div class="w-full h-2.5 bg-white/10 rounded-full overflow-hidden">' +
                             '<div class="h-full bg-gradient-to-r from-oppogreen to-teal-400 rounded-full transition-all duration-700" style="width: ' + stats.percentage + '%"></div>' +
@@ -627,7 +633,7 @@
                             '<i class="fas fa-chart-line text-oppogreen mr-2"></i> Progreso General de Capacitaci&oacute;n' +
                         '</span>' +
                         '<div class="flex items-center gap-3">' +
-                            '<span class="text-gray-300"><strong class="text-white">' + stats.watchedCount + '</strong>/' + stats.TOTAL_VIDEOS + ' videos</span>' +
+                            '<span class="text-gray-300"><strong class="text-white">' + stats.watchedCount + '</strong>/' + stats.TOTAL_VIDEOS + ' videos y c&aacute;psulas</span>' +
                             '<span class="bg-oppogreen text-white font-black px-2.5 py-0.5 rounded-lg text-xs">' + stats.percentage + '%</span>' +
                         '</div>' +
                     '</div>' +
@@ -647,6 +653,8 @@
             const modStats = getModuleStats(href);
             if (!modStats) return;
 
+            const unitLabel = (href === 'capsulas.html') ? 'c&aacute;psulas' : 'videos';
+
             let badge = link.querySelector('.oppo-mod-badge');
             if (!badge) {
                 badge = document.createElement('div');
@@ -660,10 +668,10 @@
                 badge.innerHTML = '<i class="fas fa-check-circle mr-1"></i> Completado (' + modStats.watched + '/' + modStats.total + ')';
             } else if (modStats.watched > 0) {
                 badge.className = 'oppo-mod-badge mt-2 inline-flex items-center text-[11px] font-bold px-2.5 py-0.5 rounded-full bg-amber-500/15 text-amber-600 border border-amber-500/30';
-                badge.innerHTML = '<i class="fas fa-play-circle mr-1"></i> En curso (' + modStats.watched + '/' + modStats.total + ' videos)';
+                badge.innerHTML = '<i class="fas fa-play-circle mr-1"></i> En curso (' + modStats.watched + '/' + modStats.total + ' ' + unitLabel + ')';
             } else {
                 badge.className = 'oppo-mod-badge mt-2 inline-flex items-center text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-gray-200/70 text-gray-600';
-                badge.innerHTML = '<i class="far fa-circle mr-1"></i> ' + modStats.total + ' videos';
+                badge.innerHTML = '<i class="far fa-circle mr-1"></i> ' + modStats.total + ' ' + unitLabel;
             }
         });
     }
@@ -686,6 +694,7 @@
         const globalStats = getStats();
         const user = getUserProfile();
         const userLabel = user ? (escapeHtml(user.nombre.split(' ')[0]) + ' (ID: ' + escapeHtml(user.idEmpleado) + ')') : 'Registrarme';
+        const unitLabel = (pageName === 'capsulas.html') ? 'c&aacute;psulas y videos' : 'videos';
 
         bar.innerHTML =
             '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">' +
@@ -693,9 +702,9 @@
                     '<div class="flex items-center justify-between text-xs font-bold mb-1.5">' +
                         '<span class="text-gray-700 flex items-center">' +
                             '<i class="fas fa-check-double text-oppogreen mr-1.5"></i> Avance en ' + modStats.moduleName + ': ' +
-                            '<span class="text-oppogreen ml-1">' + modStats.watched + ' de ' + modStats.total + ' videos (' + modStats.percentage + '%)</span>' +
+                            '<span class="text-oppogreen ml-1">' + modStats.watched + ' de ' + modStats.total + ' ' + unitLabel + ' (' + modStats.percentage + '%)</span>' +
                         '</span>' +
-                        '<span class="text-gray-400">Total Global: ' + globalStats.percentage + '%</span>' +
+                        '<span class="text-gray-400">Total Global: ' + globalStats.watchedCount + '/' + globalStats.TOTAL_VIDEOS + ' (' + globalStats.percentage + '%)</span>' +
                     '</div>' +
                     '<div class="w-full h-2 bg-gray-100 rounded-full overflow-hidden">' +
                         '<div class="h-full bg-gradient-to-r from-oppogreen to-teal-400 rounded-full transition-all duration-500" style="width: ' + modStats.percentage + '%"></div>' +
@@ -1032,7 +1041,7 @@
 
         const shareText = encodeURIComponent(
             'Hola! Soy ' + user.nombre + ' (ID: ' + user.idEmpleado + ' | ' + user.cadena + ' - ' + user.ciudad + '). ' +
-            'Llevo un ' + stats.percentage + '% de avance (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos) ' +
+            'Llevo un ' + stats.percentage + '% de avance (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos y capsulas) ' +
             'en el Portal de Capacitacion OPPO Pro. Rango actual: ' + stats.rank.title + '.'
         );
 
@@ -1056,7 +1065,7 @@
                     '</div>' +
                 '</div>' +
                 '<div class="text-left mt-3 bg-white rounded-xl p-3 border border-gray-100 max-h-48 overflow-y-auto">' +
-                    '<div class="text-[11px] font-bold uppercase text-gray-400 mb-1">Desglose por M&oacute;dulo (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos)</div>' +
+                    '<div class="text-[11px] font-bold uppercase text-gray-400 mb-1">Desglose por M&oacute;dulo (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos y c&aacute;psulas)</div>' +
                     modulesHtml +
                 '</div>' +
                 '<p class="text-[11px] text-gray-400 mt-3">Emitido el ' + fechaHoy + '</p>' +
