@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6D6ZC9K790"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6D6ZC9K790');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capacita en tu Piso de Venta | Portal Elite</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
+    <link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        oppoblack: '#000000',
+                        oppogreen: '#05B670',
+                        oppolight: '#f5f5f7'
+                    }
+                }
+            }
+        }
+    </script>
+    <style id="dark-theme-style">
+        body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+        body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+        body.dark-mode .text-gray-800, body.dark-mode .text-gray-900 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700 { color: #dddddd !important; }
+        body.dark-mode .text-gray-600 { color: #bbbbbb !important; }
+        body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+        body.dark-mode .bg-gray-50 { background-color: #252525 !important; border-color: #333333 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+        body.dark-mode .border-b, body.dark-mode .border-gray-100, body.dark-mode .border-gray-200 { border-color: #333333 !important; }
+    </style>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-in { animation: fadeIn 0.35s ease-out forwards; }
+    </style>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if (icon) {
+                if (document.body.classList.contains('dark-mode')) {
+                    icon.className = 'fas fa-sun text-yellow-400';
+                } else {
+                    icon.className = 'fas fa-moon text-gray-600';
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="pb-24 text-gray-800 transition-colors duration-300">
+
+    <!-- NAVBAR -->
+    <div class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition"><i class="fas fa-arrow-left"></i></a>
+                <div>
+                    <span class="text-[10px] font-extrabold uppercase tracking-widest text-oppogreen block">Entrenamiento F2F &bull; Portal Elite</span>
+                    <h1 class="text-xl md:text-2xl font-black leading-tight">Capacita en tu Piso de Venta</h1>
+                </div>
+            </div>
+            <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center transition">
+                <i id="themeIcon" class="fas fa-moon text-gray-600"></i>
+            </button>
+        </div>
+    </div>
+
+    <main class="max-w-4xl mx-auto px-4 mt-8">
+
+        <!-- ============================================================== -->
+        <!-- 1. OBJETIVO Y PRIORIDAD ESTRATEGICA: OPPO A7 PRO 5G            -->
+        <!-- ============================================================== -->
+        <section class="bg-gradient-to-br from-gray-900 via-gray-800 to-emerald-950 rounded-3xl p-6 md:p-8 mb-8 text-white shadow-2xl relative overflow-hidden border border-amber-400/30 animate-fade-in">
+            <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-2 mb-3">
+                        <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-amber-400 text-gray-950 text-xs font-black uppercase tracking-wider shadow">
+                            <i class="fas fa-star"></i> Prioridad: OPPO A7 Pro 5G
+                        </span>
+                        <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-oppogreen/25 border border-oppogreen/50 text-emerald-300 text-xs font-bold uppercase tracking-wider">
+                            <i class="fas fa-chalkboard-teacher"></i> Misi&oacute;n F2F Aliados
+                        </span>
+                    </div>
+
+                    <h2 class="text-2xl md:text-3xl font-black mb-2 leading-tight">Objetivo: Capacita a tus aliados sobre nuestro producto</h2>
+                    <p class="text-gray-300 text-sm md:text-base mb-5 leading-relaxed">
+                        Multiplica nuestras ventas en tienda convirtiendo a cada asesor aliado en un embajador del <strong class="text-white">OPPO A7 Pro 5G</strong>. Gu&iacute;alos con el One Page oficial y registra tu capacitaci&oacute;n F2F.
+                    </p>
+
+                    <!-- Puntos clave express para mostrar al aliado -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mb-6 text-left">
+                        <div class="bg-white/10 border border-white/10 rounded-2xl p-3">
+                            <div class="text-oppogreen font-black text-xs uppercase flex items-center gap-1.5 mb-1">
+                                <i class="fas fa-battery-full"></i> 8,000 mAh + 45W
+                            </div>
+                            <p class="text-[11px] text-gray-300 leading-snug">3 a 5 d&iacute;as de uso continuo, 6 a&ntilde;os de durabilidad y carga reversible.</p>
+                        </div>
+                        <div class="bg-white/10 border border-white/10 rounded-2xl p-3">
+                            <div class="text-amber-400 font-black text-xs uppercase flex items-center gap-1.5 mb-1">
+                                <i class="fas fa-shield-alt"></i> IP69K + Militar
+                            </div>
+                            <p class="text-[11px] text-gray-300 leading-snug">Resiste chorros a 80&deg;C, agua a presi&oacute;n y ca&iacute;das de grado militar.</p>
+                        </div>
+                        <div class="bg-white/10 border border-white/10 rounded-2xl p-3">
+                            <div class="text-cyan-300 font-black text-xs uppercase flex items-center gap-1.5 mb-1">
+                                <i class="fas fa-camera"></i> Selfie 50MP + S1
+                            </div>
+                            <p class="text-[11px] text-gray-300 leading-snug">Ultra Gran Angular 100&deg;, AMOLED 120Hz, Chip S1 y OPPO Protect.</p>
+                        </div>
+                    </div>
+
+                    <!-- Botones One Page A7 Pro 5G -->
+                    <div class="flex flex-wrap items-center gap-3">
+                        <a href="Recursos/OnePages/OnePage_A7_Pro_5G.jpg" download onclick="trackF2FEvent('descarga_onepage_a7pro')" class="bg-oppogreen hover:bg-emerald-500 text-white font-black py-3 px-5 rounded-2xl shadow-lg hover:scale-[1.02] transition flex items-center gap-2 text-xs sm:text-sm">
+                            <i class="fas fa-download text-base"></i> Descargar One Page A7 Pro 5G
+                        </a>
+                        <button onclick="openOnePagePreview()" class="bg-white/15 hover:bg-white/25 text-white font-bold py-3 px-5 rounded-2xl border border-white/20 transition flex items-center gap-2 text-xs sm:text-sm">
+                            <i class="fas fa-eye text-amber-400"></i> Mostrar One Page en Pantalla
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Vitrina 360 A7 Pro -->
+                <div class="w-48 sm:w-56 shrink-0 flex justify-center">
+                    <img src="Recursos/GIFs/a7_pro.gif" alt="OPPO A7 Pro 5G" class="w-full h-auto rounded-2xl shadow-2xl border-2 border-amber-400/40 bg-black/40 p-1">
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================== -->
+        <!-- 2. INSTRUCCIONES PASO A PASO                                   -->
+        <!-- ============================================================== -->
+        <section class="mb-8 animate-fade-in">
+            <h3 class="text-lg font-black text-gray-800 mb-4 flex items-center gap-2">
+                <i class="fas fa-list-ol text-oppogreen"></i> Instrucciones para tu Capacitaci&oacute;n F2F
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex items-start gap-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-oppogreen text-white font-black flex items-center justify-center shrink-0 shadow">1</div>
+                    <div>
+                        <h4 class="font-bold text-gray-800 text-sm mb-1">Descarga el One Page</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Descarga el One Page oficial de <strong>OPPO A7 Pro 5G</strong> o &aacute;brelo en pantalla completa desde el bot&oacute;n superior.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex items-start gap-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-oppogreen text-white font-black flex items-center justify-center shrink-0 shadow">2</div>
+                    <div>
+                        <h4 class="font-bold text-gray-800 text-sm mb-1">Presenta los Puntos Clave</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Mu&eacute;strales a tus aliados los argumentos ganadores del equipo (bater&iacute;a 8,000 mAh, IP69K, Selfie 50MP y garant&iacute;a).</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 flex items-start gap-3.5">
+                    <div class="w-9 h-9 rounded-xl bg-amber-500 text-white font-black flex items-center justify-center shrink-0 shadow">3</div>
+                    <div>
+                        <h4 class="font-bold text-gray-800 text-sm mb-1">Escanea y Env&iacute;a Evaluaci&oacute;n</h4>
+                        <p class="text-xs text-gray-500 leading-relaxed">Escanea el c&oacute;digo QR de tu cadena o abre el enlace directo, llena los campos y env&iacute;a la evaluaci&oacute;n F2F.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================== -->
+        <!-- 3. SUBSECCION DINAMICA POR CADENA (QR + ENLACE DIRECTO F2F)    -->
+        <!-- ============================================================== -->
+        <section class="mb-10 animate-fade-in">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+                <h3 class="text-lg font-black text-gray-800 flex items-center gap-2">
+                    <i class="fas fa-qrcode text-oppogreen"></i> Evaluaci&oacute;n F2F de tu Cadena
+                </h3>
+                <button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="text-xs font-bold text-oppogreen hover:underline flex items-center gap-1.5 self-start sm:self-auto">
+                    <i class="fas fa-id-badge"></i> <span>Mi Perfil / Cadena Asignada</span>
+                </button>
+            </div>
+
+            <!-- Contenedor dinamico que depende de la cadena registrada en el perfil del promotor -->
+            <div id="f2fDynamicContainer"></div>
+
+            <!-- Selector exclusivo para supervisores / capacitadores OPPO Elite cuya cadena registrada no sea Elektra, AT&T/Movistar o Coppel -->
+            <div id="f2fChainSelectorBox" class="hidden mt-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-200">
+                <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+                    <p class="text-xs sm:text-sm font-bold text-gray-700">
+                        <i class="fas fa-user-shield text-oppogreen mr-1.5"></i> Vista Supervisor / Capacitador: elige la cadena del piso que visitas:
+                    </p>
+                    <button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="text-xs font-bold bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-1.5 rounded-xl transition">
+                        <i class="fas fa-user-edit text-oppogreen mr-1"></i> Cambiar Cadena en Perfil
+                    </button>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <button onclick="selectManualChain('elektra')" class="p-3.5 rounded-2xl border-2 border-red-500/30 hover:border-red-500 bg-red-50/40 text-left transition flex items-center justify-between group">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase text-red-600 block">Canal Retail</span>
+                            <span class="font-black text-gray-800 text-sm">F2F ELEKTRA</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-red-500 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                    <button onclick="selectManualChain('att_movistar')" class="p-3.5 rounded-2xl border-2 border-sky-500/30 hover:border-sky-500 bg-sky-50/40 text-left transition flex items-center justify-between group">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase text-sky-600 block">Carriers</span>
+                            <span class="font-black text-gray-800 text-sm">F2F AT&amp;T y MOVISTAR</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-sky-500 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                    <button onclick="selectManualChain('coppel')" class="p-3.5 rounded-2xl border-2 border-amber-500/30 hover:border-amber-500 bg-amber-50/40 text-left transition flex items-center justify-between group">
+                        <div>
+                            <span class="text-[10px] font-extrabold uppercase text-amber-600 block">Canal Retail</span>
+                            <span class="font-black text-gray-800 text-sm">F2F COPPEL</span>
+                        </div>
+                        <i class="fas fa-chevron-right text-amber-500 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- MODAL VISOR DE ONE PAGE EN PANTALLA COMPLETA -->
+    <div id="onePageModal" class="fixed inset-0 bg-black/90 z-[115] hidden flex-col items-center justify-center p-3 sm:p-6 backdrop-blur-md" onclick="if(event.target === this) closeOnePagePreview()">
+        <div class="w-full max-w-3xl flex items-center justify-between text-white mb-3 px-2">
+            <div class="flex items-center gap-2">
+                <span class="bg-oppogreen text-white text-[10px] font-extrabold uppercase px-2.5 py-1 rounded-full">One Page Oficial</span>
+                <h4 class="font-bold text-sm sm:text-base">OPPO A7 Pro 5G</h4>
+            </div>
+            <div class="flex items-center gap-2">
+                <a href="Recursos/OnePages/OnePage_A7_Pro_5G.jpg" download onclick="trackF2FEvent('descarga_onepage_modal')" class="bg-oppogreen hover:bg-emerald-500 text-white text-xs font-bold py-1.5 px-3.5 rounded-xl flex items-center gap-1.5 shadow">
+                    <i class="fas fa-download"></i> <span>Descargar</span>
+                </a>
+                <button onclick="closeOnePagePreview()" class="bg-white/10 hover:bg-white/20 text-white w-9 h-9 rounded-xl flex items-center justify-center text-lg">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="w-full max-w-3xl max-h-[84vh] overflow-y-auto rounded-2xl bg-gray-900 border border-white/15 shadow-2xl p-2">
+            <img src="Recursos/OnePages/OnePage_A7_Pro_5G.jpg" alt="One Page OPPO A7 Pro 5G" class="w-full h-auto rounded-xl">
+        </div>
+    </div>
+
+    <script>
+        const F2F_CATALOG = {
+            elektra: {
+                key: 'elektra',
+                title: 'F2F ELEKTRA',
+                subtitle: 'Evaluaci&oacute;n exclusiva para aliados de piso de venta en Elektra',
+                badgeBg: 'bg-red-600 text-white',
+                borderAccent: 'border-red-500/30',
+                gradientHeader: 'from-red-600 to-rose-700',
+                btnClass: 'bg-red-600 hover:bg-red-700 text-white',
+                icon: 'fa-bolt',
+                url: 'https://forms.gle/qpLfWPTnGZVCciBF8'
+            },
+            att_movistar: {
+                key: 'att_movistar',
+                title: 'F2F AT&amp;T Y MOVISTAR',
+                subtitle: 'Evaluaci&oacute;n exclusiva para aliados y ejecutivos en AT&amp;T y Movistar',
+                badgeBg: 'bg-sky-600 text-white',
+                borderAccent: 'border-sky-500/30',
+                gradientHeader: 'from-sky-600 to-indigo-700',
+                btnClass: 'bg-sky-600 hover:bg-sky-700 text-white',
+                icon: 'fa-signal',
+                url: 'https://forms.gle/SUhykDiu1FVxrkwt8'
+            },
+            coppel: {
+                key: 'coppel',
+                title: 'F2F COPPEL',
+                subtitle: 'Evaluaci&oacute;n exclusiva para aliados de piso de venta en Coppel',
+                badgeBg: 'bg-amber-500 text-gray-950',
+                borderAccent: 'border-amber-500/40',
+                gradientHeader: 'from-amber-500 to-yellow-600',
+                btnClass: 'bg-amber-500 hover:bg-amber-600 text-gray-950',
+                icon: 'fa-shopping-bag',
+                url: 'https://forms.gle/qUkSsQivjjMvr9Pt6'
+            }
+        };
+
+        let manualOverrideKey = sessionStorage.getItem('oppo_f2f_chain_override') || null;
+
+        function getStoredProfile() {
+            try {
+                const raw = localStorage.getItem('oppo_promotor_profile_v1');
+                return raw ? JSON.parse(raw) : null;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function mapCadenaToF2FKey(cadena) {
+            if (!cadena) return null;
+            const norm = cadena.toLowerCase().trim();
+            if (norm.indexOf('elektra') !== -1) return 'elektra';
+            if (norm.indexOf('at&t') !== -1 || norm.indexOf('att') !== -1 || norm.indexOf('movistar') !== -1) return 'att_movistar';
+            if (norm.indexOf('coppel') !== -1) return 'coppel';
+            return null;
+        }
+
+        function renderF2FSection() {
+            const container = document.getElementById('f2fDynamicContainer');
+            const selectorBox = document.getElementById('f2fChainSelectorBox');
+            if (!container) return;
+
+            const profile = getStoredProfile();
+            const profileChainKey = profile ? mapCadenaToF2FKey(profile.cadena) : null;
+
+            // Si el promotor aun no se ha registrado en Portal Elite, pedirle su registro primero
+            if (!profile) {
+                if (selectorBox) selectorBox.classList.add('hidden');
+                container.innerHTML =
+                    '<div class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border-2 border-dashed border-oppogreen/40 text-center">' +
+                        '<div class="w-14 h-14 rounded-2xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-2xl mx-auto mb-3">' +
+                            '<i class="fas fa-id-badge"></i>' +
+                        '</div>' +
+                        '<h4 class="text-lg sm:text-xl font-black text-gray-800 mb-1.5">Registra tu Perfil para Desbloquear tu QR F2F</h4>' +
+                        '<p class="text-xs sm:text-sm text-gray-500 max-w-lg mx-auto mb-5 leading-relaxed">' +
+                            'Esta subsecci&oacute;n depende directamente de la cadena comercial a la que perteneces (<strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> o <strong>Coppel</strong>). Completa tu registro en <strong>Portal Elite</strong> para mostrar autom&aacute;ticamente tu QR y enlace directo.' +
+                        '</p>' +
+                        '<button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="bg-oppogreen hover:bg-emerald-600 text-white font-black py-3 px-6 rounded-2xl text-xs sm:text-sm shadow-lg transition transform hover:scale-105 inline-flex items-center gap-2">' +
+                            '<i class="fas fa-user-check"></i> Registrar mi Perfil y Cadena' +
+                        '</button>' +
+                    '</div>';
+                return;
+            }
+
+            // Si su perfil es de Elektra, AT&T, Movistar o Coppel, depende 100% de su cadena registrada
+            const activeKey = profileChainKey || manualOverrideKey;
+
+            if (!activeKey) {
+                // Caso: perfil registrado como OPPO Elite (supervisor/capacitador) u otra cadena sin liga F2F propia
+                container.innerHTML =
+                    '<div class="bg-white rounded-3xl p-6 shadow-sm border-2 border-dashed border-amber-400/50 text-center">' +
+                        '<div class="w-14 h-14 rounded-2xl bg-amber-400/15 text-amber-500 flex items-center justify-center text-2xl mx-auto mb-3">' +
+                            '<i class="fas fa-store"></i>' +
+                        '</div>' +
+                        '<h4 class="text-lg font-black text-gray-800 mb-1">Perfil registrado en: ' + profile.cadena + '</h4>' +
+                        '<p class="text-xs sm:text-sm text-gray-500 max-w-lg mx-auto mb-4">' +
+                            'Las evaluaciones F2F activas est&aacute;n segmentadas para <strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> y <strong>Coppel</strong>. Si perteneces a una de ellas, actualiza tu perfil; o si eres supervisor/capacitador, selecciona abajo la cadena que est&aacute;s visitando.' +
+                        '</p>' +
+                        '<button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="bg-oppogreen hover:bg-emerald-600 text-white font-bold py-2.5 px-5 rounded-xl text-xs sm:text-sm shadow transition inline-flex items-center gap-2">' +
+                            '<i class="fas fa-user-edit"></i> Actualizar Cadena en mi Perfil' +
+                        '</button>' +
+                    '</div>';
+
+                if (selectorBox) selectorBox.classList.remove('hidden');
+                return;
+            }
+
+            // Si tiene cadena propia asignada en su perfil, ocultar el selector manual
+            if (profileChainKey && selectorBox) {
+                selectorBox.classList.add('hidden');
+            } else if (!profileChainKey && selectorBox) {
+                selectorBox.classList.remove('hidden');
+            }
+
+            const cfg = F2F_CATALOG[activeKey];
+            const qrUrl = 'https://api.qrserver.com/v1/create-qr-code/?size=260x260&margin=10&data=' + encodeURIComponent(cfg.url);
+            const sourceBadge = profileChainKey
+                ? '<span class="inline-flex items-center gap-1.5 text-[11px] font-bold bg-emerald-500/15 text-oppogreen border border-oppogreen/30 px-3 py-1 rounded-full">' +
+                    '<i class="fas fa-check-circle"></i> Vinculado a tu cadena registrada: ' + profile.cadena +
+                  '</span>'
+                : '<span class="inline-flex items-center gap-1.5 text-[11px] font-bold bg-amber-500/15 text-amber-600 border border-amber-500/30 px-3 py-1 rounded-full">' +
+                    '<i class="fas fa-user-shield"></i> Vista Supervisor (' + profile.cadena + '): ' + cfg.title +
+                  '</span>';
+
+            container.innerHTML =
+                '<div class="bg-white rounded-3xl shadow-lg border-2 ' + cfg.borderAccent + ' overflow-hidden animate-fade-in">' +
+                    '<div class="bg-gradient-to-r ' + cfg.gradientHeader + ' px-6 py-4 text-white flex flex-wrap items-center justify-between gap-2">' +
+                        '<div class="flex items-center gap-3">' +
+                            '<div class="w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center text-lg backdrop-blur-sm">' +
+                                '<i class="fas ' + cfg.icon + '"></i>' +
+                            '</div>' +
+                            '<div>' +
+                                '<span class="text-[10px] font-extrabold uppercase tracking-widest opacity-90 block">Formulario Oficial de Evaluaci&oacute;n</span>' +
+                                '<h4 class="text-xl font-black leading-tight">' + cfg.title + '</h4>' +
+                            '</div>' +
+                        '</div>' +
+                        '<span class="text-xs font-extrabold bg-black/25 px-3 py-1 rounded-full">Prioridad: OPPO A7 Pro 5G</span>' +
+                    '</div>' +
+
+                    '<div class="p-6 md:p-8 flex flex-col md:flex-row items-center gap-8">' +
+                        '<!-- Codigo QR listo para escanear -->' +
+                        '<div class="shrink-0 flex flex-col items-center">' +
+                            '<div class="bg-white p-3.5 rounded-3xl shadow-md border-2 border-gray-100">' +
+                                '<img src="' + qrUrl + '" alt="QR ' + cfg.title + '" class="w-48 h-48 sm:w-52 sm:h-52 object-contain">' +
+                            '</div>' +
+                            '<span class="text-[11px] font-bold text-gray-400 mt-2.5 flex items-center gap-1">' +
+                                '<i class="fas fa-camera text-oppogreen"></i> Pide a tu aliado escanear este QR' +
+                            '</span>' +
+                        '</div>' +
+
+                        '<!-- Acciones y enlace directo -->' +
+                        '<div class="flex-1 text-center md:text-left">' +
+                            '<div class="mb-3">' + sourceBadge + '</div>' +
+                            '<h5 class="text-xl font-black text-gray-800 mb-2">' + cfg.subtitle + '</h5>' +
+                            '<p class="text-xs sm:text-sm text-gray-500 mb-5 leading-relaxed">' +
+                                'Una vez que hayas mostrado los puntos clave del <strong>One Page de OPPO A7 Pro 5G</strong>, escanea el c&oacute;digo QR con el celular del aliado o abre directamente el formulario para completar y enviar la evaluaci&oacute;n.' +
+                            '</p>' +
+
+                            '<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-4">' +
+                                '<a href="' + cfg.url + '" target="_blank" rel="noopener noreferrer" onclick="trackF2FEvent(\'abrir_form_' + cfg.key + '\')" class="' + cfg.btnClass + ' font-black py-3.5 px-6 rounded-2xl shadow-lg transition transform hover:scale-[1.02] text-sm flex items-center justify-center gap-2">' +
+                                    '<i class="fas fa-external-link-alt"></i> Abrir Evaluaci&oacute;n ' + cfg.title +
+                                '</a>' +
+                                '<button onclick="copyF2FLink(\'' + cfg.url + '\')" class="bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-3.5 px-5 rounded-2xl transition text-xs sm:text-sm flex items-center justify-center gap-2">' +
+                                    '<i class="fas fa-copy text-oppogreen"></i> <span id="copyF2FBtnText">Copiar Enlace</span>' +
+                                '</button>' +
+                            '</div>' +
+
+                            '<div class="bg-gray-50 rounded-xl px-3.5 py-2.5 border border-gray-200/80 text-xs text-gray-500 flex items-center justify-between gap-2">' +
+                                '<span class="truncate font-mono">' + cfg.url + '</span>' +
+                                '<i class="fas fa-lock text-oppogreen shrink-0" title="Enlace oficial verificado"></i>' +
+                            '</div>' +
+                        '</div>' +
+                    '</div>' +
+                '</div>';
+        }
+
+        function selectManualChain(key) {
+            manualOverrideKey = key;
+            sessionStorage.setItem('oppo_f2f_chain_override', key);
+            const selectorBox = document.getElementById('f2fChainSelectorBox');
+            if (selectorBox) selectorBox.classList.add('hidden');
+            renderF2FSection();
+            trackF2FEvent('seleccion_manual_' + key);
+        }
+
+        function openChainPickerOrProfile() {
+            const selectorBox = document.getElementById('f2fChainSelectorBox');
+            if (selectorBox) {
+                selectorBox.classList.toggle('hidden');
+            }
+        }
+
+        function copyF2FLink(url) {
+            navigator.clipboard.writeText(url).then(function () {
+                const lbl = document.getElementById('copyF2FBtnText');
+                if (lbl) {
+                    lbl.textContent = 'Enlace Copiado!';
+                    setTimeout(function () { lbl.textContent = 'Copiar Enlace'; }, 2200);
+                }
+            }).catch(function () {
+                prompt('Copia este enlace directo:', url);
+            });
+            trackF2FEvent('copiar_enlace_f2f');
+        }
+
+        function openOnePagePreview() {
+            const modal = document.getElementById('onePageModal');
+            if (!modal) return;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+            trackF2FEvent('vista_previa_onepage_a7pro');
+        }
+
+        function closeOnePagePreview() {
+            const modal = document.getElementById('onePageModal');
+            if (!modal) return;
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        function trackF2FEvent(actionName) {
+            if (typeof window.gtag === 'function') {
+                try {
+                    const profile = getStoredProfile();
+                    window.gtag('event', 'capacita_piso_f2f', {
+                        event_category: 'F2F Piso de Venta',
+                        event_label: actionName,
+                        promotor_cadena: profile ? profile.cadena : 'Sin Registrar'
+                    });
+                } catch (e) {}
+            }
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') closeOnePagePreview();
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            renderF2FSection();
+            // Actualizar automaticamente si el promotor guarda o edita su perfil en esta misma pantalla
+            const origSetItem = localStorage.setItem;
+            localStorage.setItem = function (key, val) {
+                origSetItem.apply(this, arguments);
+                if (key === 'oppo_promotor_profile_v1') {
+                    manualOverrideKey = null;
+                    sessionStorage.removeItem('oppo_f2f_chain_override');
+                    setTimeout(renderF2FSection, 50);
+                }
+            };
+        });
+    </script>
+    <script src="progreso.js?v=20261029_2"></script>
+</body>
+</html>

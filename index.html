@@ -120,13 +120,13 @@
 
     <main id="mainContent" class="max-w-4xl mx-auto px-5 mt-14">
         <!-- A7 Pro Promo Banner -->
-        <a href="a7-pro-5g.html" class="block bg-gradient-to-r from-teal-900 to-gray-900 rounded-3xl p-6 mb-8 text-white shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden group">
+        <a href="a7-pro-5g.html" class="block bg-gradient-to-r from-teal-900 to-gray-900 rounded-3xl p-6 mb-6 text-white shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden group">
             <div class="absolute right-0 top-0 h-full w-1/3 bg-oppogreen opacity-20 transform skew-x-12 translate-x-8 group-hover:translate-x-0 transition-transform duration-500"></div>
             <div class="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between">
                 <div>
                     <span class="inline-block py-1 px-3 rounded-full bg-oppogreen text-xs font-bold tracking-wider mb-2 animate-pulse-slow">&iexcl;NUEVO LANZAMIENTO!</span>
                     <h3 class="text-2xl font-black mb-1">OPPO A7 Pro 5G</h3>
-                    <p class="text-gray-300 text-sm">Resistencia de grado militar y certificaci&oacute;n IP69K.</p>
+                    <p class="text-gray-300 text-sm">Resistencia de grado militar, certificaci&oacute;n IP69K y One Page oficial.</p>
                 </div>
                 <div class="mt-4 sm:mt-0 bg-white/10 p-3 rounded-xl flex items-center group-hover:bg-white/20 transition-colors">
                     <span class="mr-2 font-bold text-sm">Ver Capacitaci&oacute;n</span>
@@ -134,6 +134,37 @@
                 </div>
             </div>
         </a>
+
+        <!-- NUEVA SECCION: CAPACITA EN TU PISO DE VENTA (F2F ALIADOS) -->
+        <section class="mb-10 animate-fade-in">
+            <a href="capacita-piso.html" class="block bg-gradient-to-br from-gray-950 via-gray-900 to-emerald-950 rounded-3xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden group border border-amber-400/35">
+                <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-5">
+                    <div class="flex items-start gap-4">
+                        <div class="w-14 h-14 rounded-2xl bg-amber-400/15 border border-amber-400/40 text-amber-400 flex items-center justify-center text-2xl shrink-0 group-hover:scale-110 transition-transform">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div>
+                            <div class="flex flex-wrap items-center gap-2 mb-1.5">
+                                <span class="inline-flex items-center gap-1 py-0.5 px-2.5 rounded-full bg-amber-400 text-gray-950 text-[10px] font-black uppercase tracking-wider">
+                                    <i class="fas fa-star"></i> Prioridad: A7 Pro 5G
+                                </span>
+                                <span class="inline-flex items-center gap-1 py-0.5 px-2.5 rounded-full bg-oppogreen/25 border border-oppogreen/40 text-emerald-300 text-[10px] font-bold uppercase tracking-wider">
+                                    <i class="fas fa-qrcode"></i> QR F2F por Cadena
+                                </span>
+                            </div>
+                            <h3 class="text-xl sm:text-2xl font-black leading-tight mb-1">Capacita en tu Piso de Venta</h3>
+                            <p class="text-gray-300 text-xs sm:text-sm leading-relaxed max-w-xl">
+                                Capacita a tus aliados sobre el <strong class="text-white">OPPO A7 Pro 5G</strong> con su One Page oficial y registra tu evaluaci&oacute;n F2F seg&uacute;n tu cadena (Elektra, AT&amp;T / Movistar o Coppel).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-amber-400 group-hover:bg-amber-300 text-gray-950 font-black py-3 px-5 rounded-2xl flex items-center justify-center gap-2 shrink-0 text-xs sm:text-sm shadow-lg transition">
+                        <span>Iniciar F2F</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+        </section>
         
         <!-- MODELOS -->
         <section class="mb-10 animate-fade-in">
@@ -238,6 +269,7 @@
 
     <script>
         const searchDB = [
+            { title: "Capacita en tu Piso de Venta (F2F Aliados)", desc: "Prioridad OPPO A7 Pro 5G: descarga el One Page y abre el QR / evaluaci&oacute;n F2F de Elektra, AT&amp;T / Movistar o Coppel", url: "capacita-piso.html", kw: "capacita piso de venta f2f aliados prioridad a7 pro 5g one page qr evaluacion elektra att at&t movistar coppel" },
             { title: "CTC (Conoce Tu Competencia)", desc: "Benchmark interactivo: Reno 16F, Reno 16 5G, A7 Pro 5G y A6 vs Samsung, Honor, Xiaomi, Vivo y Motorola", url: "ctc.html", kw: "ctc conoce tu competencia benchmark comparativa vs samsung honor motorola xiaomi vivo a57 a37 s26 s26+ redmi note 17 pro max 17t v80 lite 600 600e 600 elite magic 8 x7e x7d edge 70 swarovski fusion" },
             { title: "Programa OLA (Incentivos)", desc: "Puntos en Coppel, Elektra, Sears, Suburbia", url: "ola.html", kw: "ola incentivos puntos coppel elektra sears suburbia carrier telcel att movistar" },
             { title: "Lanzamiento A7 Pro 5G", desc: "Resistencia, IP69K, Carga reversible", url: "a7-pro-5g.html", kw: "a7 pro 5g militar ip69k" },
@@ -287,6 +319,6 @@
             });
         }
     </script>
-    <script src="progreso.js?v=20261029_1"></script>
+    <script src="progreso.js?v=20261029_2"></script>
 </body>
 </html>

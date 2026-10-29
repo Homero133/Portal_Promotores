@@ -302,7 +302,7 @@
     }
 
     const TOTAL_VIDEOS = Object.keys(CATALOGO_VIDEOS).length; // 49 (45 videos + 4 capsulas web)
-    const TOTAL_DOWNLOADS = 12;
+    const TOTAL_DOWNLOADS = 26; // 12 fichas tecnicas + 14 one pages oficiales
 
     const STORAGE_USER_KEY = 'oppo_promotor_profile_v1';
     const STORAGE_PROGRESS_KEY = 'oppo_promotor_progress_v1';
@@ -678,7 +678,7 @@
         const links = document.querySelectorAll('a[href$=".html"]');
         links.forEach(function (link) {
             const href = link.getAttribute('href');
-            if (!href || href === 'index.html' || href === 'ola.html') return;
+            if (!href || href === 'index.html' || href === 'ola.html' || href === 'capacita-piso.html') return;
 
             const modStats = getModuleStats(href);
             if (!modStats) return;
@@ -707,7 +707,7 @@
     }
 
     function injectInternalPageBar(pageName) {
-        if (pageName === 'ola.html') return;
+        if (pageName === 'ola.html' || pageName === 'capacita-piso.html') return;
         const modStats = getModuleStats(pageName);
         if (!modStats) return;
 
