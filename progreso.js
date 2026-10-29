@@ -1,6 +1,6 @@
 /**
  * Sistema de Registro de Usuarios, Barra de Progreso, Gamificacion y Sincronizacion con Google Sheets
- * Portal de Promotores OPPO
+ * Portal Elite - Entrenamiento Oficial OPPO
  */
 
 (function () {
@@ -213,8 +213,8 @@
         if (RUBRICAS_DETALLE[id]) {
             return RUBRICAS_DETALLE[id];
         }
-        const item = CATALOGO_VIDEOS[id] || { module: 'Academia OPPO', title: 'Capsula de Entrenamiento' };
-        const mod = item.module || 'Academia OPPO';
+        const item = CATALOGO_VIDEOS[id] || { module: 'Portal Elite', title: 'Capsula de Entrenamiento' };
+        const mod = item.module || 'Portal Elite';
         const title = escapeHtml(item.title || 'Capsula OPPO');
 
         if (mod === 'Serie A' || mod === 'A7 Pro 5G') {
@@ -297,7 +297,7 @@
                 'Demostrar con fluidez y seguridad los beneficios exclusivos del ecosistema OPPO frente al cliente.',
                 'Aplicar lo aprendido para incrementar tu tasa de cierre y avanzar hacia tu Certificaci&oacute;n Master OPPO.'
             ],
-            impact: 'Fortalece tu perfil como Promotor Certificado OPPO Pro.'
+            impact: 'Fortalece tu perfil como Promotor Certificado Portal Elite.'
         };
     }
 
@@ -491,7 +491,7 @@
                 data.completed100Notified = true;
                 data.lastCompletedTotal = stats.TOTAL_VIDEOS;
                 saveProgressData(data);
-                syncToGoogleSheets('Capacitacion 100% Completada', 'Academia OPPO', 'Certificado Desbloqueado (' + stats.TOTAL_VIDEOS + ' videos)');
+                syncToGoogleSheets('Capacitacion 100% Completada', 'Portal Elite', 'Certificado Desbloqueado (' + stats.TOTAL_VIDEOS + ' recursos)');
                 setTimeout(function () {
                     openCertificateModal();
                 }, 1200);
@@ -526,12 +526,44 @@
         return page === '' ? 'index.html' : page;
     }
 
+    function injectInternalNavbarBrand() {
+        if (document.getElementById('portalEliteNavBadge')) return;
+        const stickyHeader = document.querySelector('.sticky.top-0');
+        if (!stickyHeader) return;
+
+        const badge = document.createElement('a');
+        badge.id = 'portalEliteNavBadge';
+        badge.href = 'index.html';
+        badge.title = 'Inicio - Portal Elite';
+        badge.className = 'inline-flex items-center gap-2 bg-[#121318] text-white px-2.5 py-1.5 rounded-full border border-amber-400/35 shadow-sm hover:scale-105 transition shrink-0';
+        badge.innerHTML =
+            '<img src="Recursos/Logo/favicon.png" alt="Portal Elite" class="w-6 h-6 rounded-full object-cover border border-amber-400/40">' +
+            '<span class="text-xs font-extrabold tracking-wide pr-1 hidden sm:inline">Portal <span class="text-amber-400">Elite</span></span>';
+
+        const themeBtn = stickyHeader.querySelector('button[onclick*="toggleDarkMode"]');
+        if (themeBtn && themeBtn.parentNode) {
+            const rightGroup = document.createElement('div');
+            rightGroup.className = 'flex items-center gap-2 shrink-0';
+            themeBtn.parentNode.insertBefore(rightGroup, themeBtn);
+            rightGroup.appendChild(badge);
+            rightGroup.appendChild(themeBtn);
+            return;
+        }
+
+        const backLink = stickyHeader.querySelector('a[href="index.html"]');
+        if (backLink && backLink.parentNode) {
+            badge.classList.add('ml-auto');
+            backLink.parentNode.appendChild(badge);
+        }
+    }
+
     function injectProgressUI() {
         const page = getCurrentPageName();
         if (page === 'index.html') {
             injectHomeDashboard();
             updateHomeModuleBadges();
         } else {
+            injectInternalNavbarBrand();
             injectInternalPageBar(page);
             updateVideoCardBadges();
             updateDownloadBadges();
@@ -559,16 +591,14 @@
 
         if (!user) {
             container.innerHTML =
-                '<div class="bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-3xl p-6 text-white shadow-xl border border-oppogreen/30 relative overflow-hidden">' +
+                '<div class="bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-3xl p-6 text-white shadow-xl border border-amber-400/30 relative overflow-hidden">' +
                     '<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 relative z-10">' +
                         '<div class="flex items-center gap-4">' +
-                            '<div class="w-14 h-14 rounded-2xl bg-oppogreen/20 border border-oppogreen/40 flex items-center justify-center text-oppogreen text-2xl shrink-0">' +
-                                '<i class="fas fa-user-check"></i>' +
-                            '</div>' +
+                            '<img src="Recursos/Logo/favicon.png" alt="Portal Elite" class="w-14 h-14 rounded-2xl object-cover border border-amber-400/50 shadow-lg shrink-0">' +
                             '<div>' +
-                                '<span class="inline-block text-[11px] font-bold uppercase tracking-wider bg-oppogreen text-white px-2.5 py-0.5 rounded-full mb-1">Academia OPPO Pro</span>' +
+                                '<span class="inline-block text-[11px] font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/30 px-2.5 py-0.5 rounded-full mb-1">Portal Elite</span>' +
                                 '<h3 class="text-xl font-black">Reg&iacute;strate para guardar tu progreso</h3>' +
-                                '<p class="text-gray-300 text-xs sm:text-sm">Lleva el control de tus videos vistos y desbloquea tu Certificado Digital.</p>' +
+                                '<p class="text-gray-300 text-xs sm:text-sm">Lleva el control de tus c&aacute;psulas completadas y desbloquea tu Certificado Digital Elite.</p>' +
                             '</div>' +
                         '</div>' +
                         '<button onclick="window.oppoProgress.openProfileModal()" class="w-full sm:w-auto bg-oppogreen hover:bg-emerald-500 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transition transform hover:scale-105 text-sm shrink-0">' +
@@ -1045,15 +1075,15 @@
         const shareText = encodeURIComponent(
             'Hola! Soy ' + user.nombre + ' (ID: ' + user.idEmpleado + ' | ' + user.cadena + ' - ' + user.ciudad + '). ' +
             'Llevo un ' + stats.percentage + '% de avance (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos y capsulas) ' +
-            'en el Portal de Capacitacion OPPO Pro. Rango actual: ' + stats.rank.title + '.'
+            'en Portal Elite. Rango actual: ' + stats.rank.title + '.'
         );
 
         content.innerHTML =
-            '<div class="text-center border-2 border-oppogreen/30 rounded-2xl p-5 bg-gradient-to-b from-emerald-50/40 to-white">' +
-                '<div class="w-16 h-16 rounded-full bg-oppogreen text-white flex items-center justify-center text-3xl mx-auto mb-3 shadow-lg">' +
-                    '<i class="fas ' + stats.rank.icon + '"></i>' +
+            '<div class="text-center border-2 border-amber-400/40 rounded-2xl p-5 bg-gradient-to-b from-amber-50/30 via-emerald-50/20 to-white">' +
+                '<div class="w-36 mx-auto mb-3 rounded-2xl overflow-hidden border border-amber-400/40 shadow-lg bg-[#121318] p-1">' +
+                    '<img src="Recursos/Logo/logo_portal_elite.jpg" alt="Portal Elite" class="w-full h-auto rounded-xl object-contain">' +
                 '</div>' +
-                '<span class="text-[11px] font-extrabold uppercase tracking-widest text-oppogreen">Constancia de Progreso OPPO</span>' +
+                '<span class="text-[11px] font-extrabold uppercase tracking-widest text-oppogreen">Constancia Oficial &bull; Portal Elite</span>' +
                 '<h3 class="text-2xl font-black text-gray-800 mt-1">' + escapeHtml(user.nombre) + '</h3>' +
                 '<p class="text-xs text-gray-500 mt-0.5">' + escapeHtml(user.cadena) + ' &bull; ' + escapeHtml(user.ciudad) + ' &bull; ID: ' + escapeHtml(user.idEmpleado) + '</p>' +
                 '<div class="my-4 inline-flex items-center gap-3 bg-gray-900 text-white px-5 py-2.5 rounded-2xl shadow">' +

@@ -16,7 +16,9 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPPO | Portal Promotores</title>
+    <title>Portal Elite | Capacitaci&oacute;n Oficial</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
+    <link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script>
@@ -64,7 +66,7 @@
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f5f5f7; }
         .glass-card { background: white; border-radius: 1.25rem; box-shadow: 0 4px 15px rgba(0,0,0,0.03); transition: all 0.3s ease; border: 1px solid rgba(0,0,0,0.05); }
         .glass-card:hover { transform: translateY(-3px); box-shadow: 0 12px 25px rgba(5, 182, 112, 0.15); border-color: #05B670; }
-        .gradient-bg { background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%); }
+        .gradient-bg { background: linear-gradient(135deg, #0e0f14 0%, #171922 100%); }
         .search-bar:focus-within { box-shadow: 0 0 0 2px #05B670; }
         .animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
@@ -73,18 +75,37 @@
 <body class="text-gray-800 antialiased pb-24 transition-colors duration-300">
 
     <!-- Hero -->
-    <div class="gradient-bg text-white pt-12 pb-24 px-6 rounded-b-[2.5rem] shadow-xl relative z-20">
+    <div class="gradient-bg text-white pt-10 pb-24 px-6 rounded-b-[2.5rem] shadow-xl relative z-20 border-b border-amber-400/20">
         <div class="max-w-4xl mx-auto">
-            <div class="flex justify-between items-center mb-8">
-                <h1 class="text-3xl font-extrabold tracking-tight">OPPO <span class="text-oppogreen">Pro</span></h1>
+            <div class="flex justify-between items-center mb-6">
+                <div class="flex items-center gap-3">
+                    <img src="Recursos/Logo/favicon.png" alt="Logo Portal Elite" class="w-11 h-11 rounded-2xl object-cover border border-amber-400/40 shadow-lg">
+                    <div>
+                        <h1 class="text-2xl sm:text-3xl font-black tracking-tight leading-none">Portal <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-amber-500">Elite</span></h1>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-oppogreen">Entrenamiento Oficial OPPO</span>
+                    </div>
+                </div>
                 <div class="flex gap-4">
                     <button onclick="toggleDarkMode()" class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition">
                         <i id="themeIcon" class="fas fa-moon text-white"></i>
                     </button>
                 </div>
             </div>
-            <h2 class="text-4xl md:text-5xl font-bold mb-4">Capacitaci&oacute;n Total.</h2>
-            <p class="text-gray-300 text-lg mb-8 max-w-xl">Todos los recursos, videos y fichas para brillar en el piso de venta.</p>
+
+            <div class="flex flex-col-reverse md:flex-row items-center justify-between gap-6 mb-6">
+                <div class="text-center md:text-left flex-1">
+                    <span class="inline-flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-widest bg-amber-400/15 text-amber-300 border border-amber-400/30 px-3 py-1 rounded-full mb-3">
+                        <i class="fas fa-crown text-amber-400"></i> Academia de Alto Rendimiento
+                    </span>
+                    <h2 class="text-4xl md:text-5xl font-black mb-3 leading-tight">Capacitaci&oacute;n Total.</h2>
+                    <p class="text-gray-300 text-base sm:text-lg max-w-xl">Todos los recursos, videos, c&aacute;psulas interactivas y herramientas para brillar en el piso de venta.</p>
+                </div>
+                <div class="shrink-0 flex justify-center">
+                    <div class="rounded-3xl overflow-hidden border border-amber-400/30 shadow-[0_0_35px_rgba(245,158,11,0.2)] bg-[#121318] p-1.5">
+                        <img src="Recursos/Logo/logo_portal_elite.jpg" alt="Portal Elite Logo Oficial" class="w-52 sm:w-60 md:w-64 h-auto rounded-2xl object-contain">
+                    </div>
+                </div>
+            </div>
 
             <div class="relative w-full max-w-2xl mx-auto top-6">
                 <div class="search-bar bg-white rounded-full flex items-center px-5 py-4 shadow-2xl relative z-30">
@@ -200,7 +221,7 @@
                 <div class="absolute inset-0 bg-black opacity-10"></div>
                 <div class="mb-6 md:mb-0 md:mr-8 text-center md:text-left relative z-10">
                     <h3 class="text-2xl font-bold mb-2 text-white">&iquest;De qu&eacute; m&aacute;s te gustar&iacute;a aprender?</h3>
-                    <p class="text-white opacity-90 text-sm md:text-base max-w-lg">Queremos escucharte. Ay&uacute;danos a mejorar el Portal de Promotores dejando tus sugerencias sobre los pr&oacute;ximos temas o dispositivos en los que te gustar&iacute;a ser capacitado.</p>
+                    <p class="text-white opacity-90 text-sm md:text-base max-w-lg">Queremos escucharte. Ay&uacute;danos a mejorar Portal Elite dejando tus sugerencias sobre los pr&oacute;ximos temas o dispositivos en los que te gustar&iacute;a ser capacitado.</p>
                 </div>
                 <div class="flex flex-col items-center shrink-0 relative z-10">
                     <div class="bg-white p-2 rounded-xl mb-3 shadow-md">
@@ -266,6 +287,6 @@
             });
         }
     </script>
-    <script src="progreso.js?v=20261025_4"></script>
+    <script src="progreso.js?v=20261029_1"></script>
 </body>
 </html>
