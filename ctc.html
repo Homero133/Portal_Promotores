@@ -299,6 +299,7 @@
                 image: 'Recursos/CTC/oppo_reno16f.webp',
                 gif: 'Recursos/GIFs/reno_16f.gif',
                 infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_F/Infografia_Reno_16_F.png',
+                onePage: 'Recursos/OnePages/OnePage_Reno_16_F.pdf',
                 tagline: '7000 mAh + 80W SUPERVOOC, IP69K, Selfie 50MP 100&deg; y Zoom Retrato 3.5x',
                 rivals: [
                     {
@@ -425,6 +426,7 @@
                 image: 'Recursos/CTC/oppo_reno16.webp',
                 gif: 'Recursos/GIFs/reno_16_5g.gif',
                 infographic: 'Recursos/01_Modelos/Serie_Reno/Reno_16_5G/Infografia_Reno_16_5G.png',
+                onePage: 'Recursos/OnePages/OnePage_Reno_16_5G.pdf',
                 tagline: 'Cu&aacute;druple C&aacute;mara 50MP (Telefoto 3.5x OIS), 6700 mAh + 80W, IP69K y 3 A&ntilde;os Garant&iacute;a OPPO Protect',
                 rivals: [
                     {
@@ -527,6 +529,7 @@
                 image: 'Recursos/CTC/oppo_a7pro.webp',
                 gif: 'Recursos/GIFs/a7_pro.gif',
                 infographic: 'Recursos/01_Modelos/Serie_A/A7 pro/Infografia_A7_Pro_5G.png',
+                onePage: 'Recursos/OnePages/OnePage_A7_Pro_5G.jpg',
                 tagline: '8000 mAh (6 A&ntilde;os Vida &Uacute;til), IP69K + Grado Militar SGS, Selfie 50MP y Chip S1 (+151% Se&ntilde;al)',
                 rivals: [
                     {
@@ -617,6 +620,7 @@
                 image: 'Recursos/CTC/oppo_a6.webp',
                 gif: 'Recursos/GIFs/a6.gif',
                 infographic: 'Recursos/01_Modelos/Serie_A/A6/Infografia_A6.jpg',
+                onePage: 'Recursos/OnePages/OnePage_A6.jpg',
                 tagline: '6550 mAh + 45W SUPERVOOC, IP69/IP68/IP66, C&aacute;mara de Vapor VC y 60 Meses de Fluidez',
                 rivals: [
                     {
@@ -841,11 +845,18 @@
                         '<h4 class="font-black text-base sm:text-lg text-white leading-tight">' + model.name + '</h4>' +
                         '<p class="text-[11px] text-emerald-300 mt-1 leading-snug">' + model.tagline + '</p>' +
                     '</div>' +
-                    (model.infographic ? (
-                        '<a href="' + model.infographic + '" download class="mt-3 inline-flex items-center justify-center gap-1.5 text-[11px] font-bold bg-white/10 hover:bg-white/20 text-white py-1.5 px-3 rounded-xl transition">' +
-                            '<i class="fas fa-download text-oppogreen"></i> Descargar Ficha Oficial' +
-                        '</a>'
-                    ) : '') +
+                    '<div class="mt-3 flex flex-wrap items-center justify-center gap-1.5">' +
+                        (model.infographic ? (
+                            '<a href="' + model.infographic + '" download class="inline-flex items-center justify-center gap-1 text-[11px] font-bold bg-white/10 hover:bg-white/20 text-white py-1.5 px-2.5 rounded-xl transition">' +
+                                '<i class="fas fa-download text-oppogreen"></i> Ficha T&eacute;cnica' +
+                            '</a>'
+                        ) : '') +
+                        (model.onePage ? (
+                            '<a href="' + model.onePage + '" download class="inline-flex items-center justify-center gap-1 text-[11px] font-extrabold bg-amber-400 hover:bg-amber-300 text-gray-950 py-1.5 px-2.5 rounded-xl transition">' +
+                                '<i class="fas fa-file-alt"></i> One Page' +
+                            '</a>'
+                        ) : '') +
+                    '</div>' +
                 '</div>';
 
             selectedRivals.forEach(function (r) {
