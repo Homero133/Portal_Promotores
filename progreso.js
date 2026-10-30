@@ -558,6 +558,13 @@
             return;
         }
 
+        if (cleanId !== 'sin_registrar' && user.nombre && user.nombre !== 'Sin Registrar') {
+            const syncFingerprint = [cleanId, user.nombre, user.cadena || '', user.ciudad || '', stats.watchedCount, stats.downloadCount].join('|');
+            try {
+                localStorage.setItem('oppo_sheets_autosync_v1', syncFingerprint);
+            } catch (e) {}
+        }
+
         try {
             fetch(scriptUrl, {
                 method: 'POST',
@@ -568,6 +575,24 @@
                 body: JSON.stringify(payload)
             }).catch(function () {});
         } catch (e) {}
+    }
+
+    function autoSyncExistingProfileToSheets() {
+        const user = getUserProfile();
+        if (!user || !user.idEmpleado || String(user.idEmpleado).trim() === '' || String(user.idEmpleado).trim() === '-') {
+            return;
+        }
+        const cleanId = String(user.idEmpleado).trim();
+        const stats = getStats();
+        const syncFingerprint = [cleanId, user.nombre || '', user.cadena || '', user.ciudad || '', stats.watchedCount, stats.downloadCount].join('|');
+        let lastSynced = null;
+        try {
+            lastSynced = localStorage.getItem('oppo_sheets_autosync_v1');
+        } catch (e) {}
+
+        if (lastSynced !== syncFingerprint) {
+            syncToGoogleSheets('Respaldo Automatico de Perfil', 'Portal Elite', 'Sincronizacion de Promotor Activo');
+        }
     }
 
     // =========================================================================
@@ -1730,6 +1755,7 @@
         injectProgressUI();
         hookOpenVideo();
         syncGA4UserIdentity(true);
+        autoSyncExistingProfileToSheets();
     });
 
     // Exponer API global para los botones del UI
