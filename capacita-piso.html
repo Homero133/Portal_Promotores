@@ -481,10 +481,16 @@
             if (typeof window.gtag === 'function') {
                 try {
                     const profile = getStoredProfile();
+                    const cleanId = (profile && profile.idEmpleado) ? String(profile.idEmpleado).trim() : 'sin_registrar';
                     window.gtag('event', 'capacita_piso_f2f', {
                         event_category: 'F2F Piso de Venta',
                         event_label: actionName,
-                        promotor_cadena: profile ? profile.cadena : 'Sin Registrar'
+                        tipo_evento: 'Accion F2F',
+                        modulo: 'Capacita Piso de Venta',
+                        recurso: actionName,
+                        promotor_id: cleanId,
+                        promotor_cadena: profile ? profile.cadena : 'Sin Registrar',
+                        promotor_ciudad: profile ? profile.ciudad : '-'
                     });
                 } catch (e) {}
             }
@@ -508,6 +514,6 @@
             };
         });
     </script>
-    <script src="progreso.js?v=20261029_2"></script>
+    <script src="progreso.js?v=20261030_1"></script>
 </body>
 </html>

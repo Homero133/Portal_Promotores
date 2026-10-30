@@ -751,9 +751,19 @@
                 if (typeof window.gtag === 'function' && BENCHMARK_DB[activeOppoId]) {
                     try {
                         const rivalObj = BENCHMARK_DB[activeOppoId].rivals.find(function (r) { return r.id === rivalId; });
+                        const compLabel = BENCHMARK_DB[activeOppoId].name + ' vs ' + (rivalObj ? (rivalObj.brand + ' ' + rivalObj.name) : rivalId);
+                        let profile = null;
+                        try { profile = JSON.parse(localStorage.getItem('oppo_promotor_profile_v1') || 'null'); } catch (err) {}
+                        const cleanId = (profile && profile.idEmpleado) ? String(profile.idEmpleado).trim() : 'sin_registrar';
                         window.gtag('event', 'ctc_benchmark_competidor', {
                             event_category: 'CTC Benchmark',
-                            event_label: BENCHMARK_DB[activeOppoId].name + ' vs ' + (rivalObj ? (rivalObj.brand + ' ' + rivalObj.name) : rivalId)
+                            event_label: compLabel,
+                            tipo_evento: 'Comparativa CTC',
+                            modulo: 'CTC Benchmark',
+                            recurso: compLabel,
+                            promotor_id: cleanId,
+                            promotor_cadena: profile ? profile.cadena : 'Sin Registrar',
+                            promotor_ciudad: profile ? profile.ciudad : '-'
                         });
                     } catch (e) {}
                 }
@@ -975,6 +985,6 @@
             renderBenchmarkOutput();
         });
     </script>
-    <script src="progreso.js?v=20261029_2"></script>
+    <script src="progreso.js?v=20261030_1"></script>
 </body>
 </html>

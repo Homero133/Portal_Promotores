@@ -306,10 +306,33 @@
 
     const STORAGE_USER_KEY = 'oppo_promotor_profile_v1';
     const STORAGE_PROGRESS_KEY = 'oppo_promotor_progress_v1';
+    const STORAGE_PRIVACY_KEY = 'oppo_promotor_privacy_v1';
+    const GA_MEASUREMENT_ID = 'G-6D6ZC9K790';
 
     // =========================================================================
-    // 3. GESTION DE ESTADO LOCAL (LOCALSTORAGE)
+    // 3. GESTION DE ESTADO LOCAL (LOCALSTORAGE) Y PRIVACIDAD
     // =========================================================================
+    function isPrivacyModeEnabled() {
+        return localStorage.getItem(STORAGE_PRIVACY_KEY) === '1';
+    }
+
+    function togglePrivacyMode() {
+        const next = !isPrivacyModeEnabled();
+        localStorage.setItem(STORAGE_PRIVACY_KEY, next ? '1' : '0');
+        refreshProgressUI();
+        const certModal = document.getElementById('oppoCertificateModal');
+        if (certModal && !certModal.classList.contains('hidden')) {
+            openCertificateModal();
+        }
+        showToast(next ? 'Privacidad activa: tus datos estan ocultos para captura' : 'Tus datos de perfil ahora son visibles');
+    }
+
+    function maskPromotorName(fullName) {
+        const parts = String(fullName || '').trim().split(/\s+/).filter(Boolean);
+        if (parts.length === 0) return 'Promotor';
+        if (parts.length === 1) return parts[0];
+        return parts[0] + ' ' + parts[1].charAt(0).toUpperCase() + '.';
+    }
     function getUserProfile() {
         try {
             const raw = localStorage.getItem(STORAGE_USER_KEY);
@@ -408,8 +431,80 @@
     }
 
     // =========================================================================
-    // 4.ENVIO A GOOGLE SHEETS Y GOOGLE ANALYTICS (OPCION 2)
+    // 4. VINCULACION DE USER-ID EN GOOGLE ANALYTICS 4 Y ENVIO A GOOGLE SHEETS
     // =========================================================================
+    function syncGA4UserIdentity(sendSessionIdentifyEvent) {
+        if (typeof window.gtag !== 'function') return;
+        const user = getUserProfile();
+        if (!user || !user.idEmpleado) return;
+
+        const cleanId = String(user.idEmpleado).trim();
+        if (!cleanId || cleanId === '-') return;
+
+        const stats = getStats();
+        try {
+            // Vincular User-ID oficial en GA4 (sin PII como nombre o telefono)
+            window.gtag('config', GA_MEASUREMENT_ID, {
+                user_id: cleanId,
+                send_page_view: false
+            });
+            window.gtag('set', {
+                user_id: cleanId
+            });
+            window.gtag('set', 'user_properties', {
+                promotor_id: cleanId,
+                promotor_cadena: user.cadena || '-',
+                promotor_ciudad: user.ciudad || '-',
+                promotor_rango: stats.rank.title,
+                promotor_avance_pct: String(stats.percentage)
+            });
+
+            // Evento automatico de sesion para detectar en GA4 a promotores ya registrados con solo abrir el portal
+            if (sendSessionIdentifyEvent) {
+                const sessionKey = 'oppo_ga4_uid_sent_' + cleanId;
+                if (!sessionStorage.getItem(sessionKey)) {
+                    sessionStorage.setItem(sessionKey, '1');
+                    window.gtag('event', 'promotor_identificado', {
+                        promotor_id: cleanId,
+                        promotor_cadena: user.cadena || '-',
+                        promotor_ciudad: user.ciudad || '-',
+                        promotor_rango: stats.rank.title,
+                        videos_vistos: stats.watchedCount,
+                        fichas_descargadas: stats.downloadCount,
+                        avance_pct: stats.percentage,
+                        pagina_entrada: getCurrentPageName()
+                    });
+                }
+            }
+        } catch (e) {}
+    }
+
+    function trackGA4CourseStart(itemId, itemType) {
+        if (typeof window.gtag !== 'function') return;
+        const user = getUserProfile();
+        const cleanId = (user && user.idEmpleado) ? String(user.idEmpleado).trim() : 'sin_registrar';
+        const info = CATALOGO_VIDEOS[itemId] || {
+            module: document.title.split('|')[0].trim(),
+            title: itemId
+        };
+        const stats = getStats();
+        syncGA4UserIdentity(false);
+        try {
+            window.gtag('event', 'inicio_recurso', {
+                event_category: info.module,
+                event_label: info.title,
+                tipo_evento: itemType === 'web' ? 'Inicio Capsula Web' : 'Inicio Video',
+                modulo: info.module,
+                recurso: info.title,
+                recurso_id: itemId,
+                promotor_id: cleanId,
+                promotor_cadena: user ? user.cadena : 'Sin Registrar',
+                promotor_ciudad: user ? user.ciudad : '-',
+                avance_pct: stats.percentage
+            });
+        } catch (e) {}
+    }
+
     function syncToGoogleSheets(tipoEvento, modulo, detalleRecurso) {
         const user = getUserProfile() || {
             nombre: 'Sin Registrar',
@@ -418,6 +513,7 @@
             ciudad: '-'
         };
         const stats = getStats();
+        const cleanId = (user.idEmpleado && user.idEmpleado !== '-') ? String(user.idEmpleado).trim() : 'sin_registrar';
 
         const payload = {
             fecha: new Date().toLocaleString('es-MX'),
@@ -435,14 +531,24 @@
             rango: stats.rank.title
         };
 
-        // Enviar tambien a Google Analytics 4 si esta activo
+        // Actualizar identidad User-ID y enviar evento enriquecido a Google Analytics 4 (sin PII)
         if (typeof window.gtag === 'function') {
+            syncGA4UserIdentity(false);
             try {
                 window.gtag('event', 'progreso_capacitacion', {
                     event_category: modulo,
                     event_label: tipoEvento + ': ' + detalleRecurso,
-                    value: stats.percentage,
-                    promotor_cadena: user.cadena
+                    tipo_evento: tipoEvento,
+                    modulo: modulo,
+                    recurso: detalleRecurso,
+                    promotor_id: cleanId,
+                    promotor_cadena: user.cadena || 'Sin Registrar',
+                    promotor_ciudad: user.ciudad || '-',
+                    promotor_rango: stats.rank.title,
+                    videos_vistos: stats.watchedCount,
+                    fichas_descargadas: stats.downloadCount,
+                    avance_pct: stats.percentage,
+                    value: stats.percentage
                 });
             } catch (e) {}
         }
@@ -625,6 +731,30 @@
             .map(function (n) { return n[0].toUpperCase(); })
             .join('');
 
+        const hideData = isPrivacyModeEnabled();
+        const displayName = hideData ? escapeHtml(maskPromotorName(user.nombre)) : escapeHtml(user.nombre);
+        const badgesExtraHtml = hideData
+            ? '<span class="text-xs font-bold text-amber-300 bg-amber-400/15 border border-amber-400/35 px-2.5 py-0.5 rounded-full">' +
+                  '<i class="fas fa-eye-slash mr-1 text-amber-400"></i> Datos ocultos' +
+              '</span>'
+            : '<span class="text-xs font-bold text-white bg-oppogreen/30 border border-oppogreen/50 px-2.5 py-0.5 rounded-full">' +
+                  '<i class="fas fa-id-card mr-1 text-oppogreen"></i> ID: ' + escapeHtml(user.idEmpleado) +
+              '</span>' +
+              '<span class="text-xs text-gray-300 bg-white/10 px-2.5 py-0.5 rounded-full">' +
+                  '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(user.cadena) +
+              '</span>';
+
+        const subtitleHtml = hideData
+            ? 'ID: &bull;&bull;&bull;&bull;&bull;&bull;' + (user.telefono ? ' &bull; Tel: &bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;' : '') + ' &bull; Cadena y sucursal protegidas'
+            : escapeHtml(user.ciudad) + (user.telefono ? ' &bull; Tel: ' + escapeHtml(user.telefono) : '');
+
+        const eyeBtnClass = hideData
+            ? 'bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 border border-amber-400/40'
+            : 'bg-white/10 hover:bg-white/20 text-white border border-white/10';
+        const eyeIcon = hideData ? 'fa-eye-slash' : 'fa-eye';
+        const eyeTitle = hideData ? 'Mostrar mis datos de registro' : 'Ocultar mis datos para tomar captura';
+        const eyeLabel = hideData ? 'Mostrar datos' : 'Ocultar datos';
+
         container.innerHTML =
             '<div class="bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-3xl p-6 text-white shadow-xl border border-white/10 relative overflow-hidden">' +
                 '<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-white/10">' +
@@ -637,20 +767,18 @@
                                 '<span class="text-xs font-bold px-2.5 py-0.5 rounded-full border ' + stats.rank.bgBadge + '">' +
                                     '<i class="fas ' + stats.rank.icon + ' mr-1"></i> ' + stats.rank.title +
                                 '</span>' +
-                                '<span class="text-xs font-bold text-white bg-oppogreen/30 border border-oppogreen/50 px-2.5 py-0.5 rounded-full">' +
-                                    '<i class="fas fa-id-card mr-1 text-oppogreen"></i> ID: ' + escapeHtml(user.idEmpleado) +
-                                '</span>' +
-                                '<span class="text-xs text-gray-300 bg-white/10 px-2.5 py-0.5 rounded-full">' +
-                                    '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(user.cadena) +
-                                '</span>' +
+                                badgesExtraHtml +
                             '</div>' +
-                            '<h3 class="text-xl font-black leading-tight">' + escapeHtml(user.nombre) + '</h3>' +
-                            '<p class="text-xs text-gray-400">' + escapeHtml(user.ciudad) + (user.telefono ? ' &bull; Tel: ' + escapeHtml(user.telefono) : '') + '</p>' +
+                            '<h3 class="text-xl font-black leading-tight">' + displayName + '</h3>' +
+                            '<p class="text-xs text-gray-400">' + subtitleHtml + '</p>' +
                         '</div>' +
                     '</div>' +
-                    '<div class="flex items-center gap-2 self-start md:self-center">' +
+                    '<div class="flex flex-wrap items-center gap-2 self-start md:self-center">' +
                         '<button onclick="window.oppoProgress.openCertificateModal()" class="bg-oppogreen hover:bg-emerald-500 text-white text-xs sm:text-sm font-bold py-2.5 px-4 rounded-xl shadow transition flex items-center gap-1.5">' +
                             '<i class="fas fa-award"></i> <span>Mi Avance / Certificado</span>' +
+                        '</button>' +
+                        '<button onclick="window.oppoProgress.togglePrivacyMode()" title="' + eyeTitle + '" class="' + eyeBtnClass + ' text-xs sm:text-sm font-semibold py-2.5 px-3 rounded-xl transition flex items-center gap-1.5">' +
+                            '<i class="fas ' + eyeIcon + '"></i> <span class="text-xs">' + eyeLabel + '</span>' +
                         '</button>' +
                         '<button onclick="window.oppoProgress.openProfileModal()" title="Editar mis datos" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium py-2.5 px-3 rounded-xl transition">' +
                             '<i class="fas fa-user-edit"></i>' +
@@ -723,8 +851,16 @@
 
         const globalStats = getStats();
         const user = getUserProfile();
-        const userLabel = user ? (escapeHtml(user.nombre.split(' ')[0]) + ' (ID: ' + escapeHtml(user.idEmpleado) + ')') : 'Registrarme';
+        const hideData = isPrivacyModeEnabled();
+        const userLabel = user
+            ? (hideData ? escapeHtml(maskPromotorName(user.nombre)) : (escapeHtml(user.nombre.split(' ')[0]) + ' (ID: ' + escapeHtml(user.idEmpleado) + ')'))
+            : 'Registrarme';
         const unitLabel = (pageName === 'capsulas.html') ? 'c&aacute;psulas y videos' : 'videos';
+        const internalEyeBtn = user
+            ? '<button onclick="window.oppoProgress.togglePrivacyMode()" title="' + (hideData ? 'Mostrar mis datos' : 'Ocultar mis datos para captura') + '" class="text-xs font-bold ' + (hideData ? 'bg-amber-100 text-amber-700 border border-amber-300' : 'bg-gray-100 hover:bg-gray-200 text-gray-600') + ' px-2.5 py-2 rounded-xl transition flex items-center justify-center shrink-0">' +
+                  '<i class="fas ' + (hideData ? 'fa-eye-slash' : 'fa-eye') + '"></i>' +
+              '</button>'
+            : '';
 
         bar.innerHTML =
             '<div class="bg-white rounded-2xl p-4 shadow-sm border border-gray-100 flex flex-col sm:flex-row sm:items-center justify-between gap-3">' +
@@ -740,9 +876,12 @@
                         '<div class="h-full bg-gradient-to-r from-oppogreen to-teal-400 rounded-full transition-all duration-500" style="width: ' + modStats.percentage + '%"></div>' +
                     '</div>' +
                 '</div>' +
-                '<button onclick="window.oppoProgress.openProfileModal()" class="self-end sm:self-center text-xs font-bold bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-2 rounded-xl transition flex items-center gap-1.5 shrink-0">' +
-                    '<i class="fas fa-user-circle text-oppogreen text-sm"></i> <span>' + userLabel + '</span>' +
-                '</button>' +
+                '<div class="flex items-center gap-1.5 self-end sm:self-center shrink-0">' +
+                    internalEyeBtn +
+                    '<button onclick="window.oppoProgress.openProfileModal()" class="text-xs font-bold bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-2 rounded-xl transition flex items-center gap-1.5 shrink-0">' +
+                        '<i class="fas fa-user-circle text-oppogreen text-sm"></i> <span>' + userLabel + '</span>' +
+                    '</button>' +
+                '</div>' +
             '</div>';
     }
 
@@ -1072,20 +1211,39 @@
                 '</div>';
         });
 
+        const hideData = isPrivacyModeEnabled();
+        const certNameHtml = hideData ? escapeHtml(maskPromotorName(user.nombre)) : escapeHtml(user.nombre);
+        const certSubHtml = hideData
+            ? 'Datos de registro protegidos &bull; ID: &bull;&bull;&bull;&bull;&bull;&bull;'
+            : escapeHtml(user.cadena) + ' &bull; ' + escapeHtml(user.ciudad) + ' &bull; ID: ' + escapeHtml(user.idEmpleado);
+
+        const shareIdentity = hideData
+            ? maskPromotorName(user.nombre)
+            : (user.nombre + ' (ID: ' + user.idEmpleado + ' | ' + user.cadena + ' - ' + user.ciudad + ')');
+
         const shareText = encodeURIComponent(
-            'Hola! Soy ' + user.nombre + ' (ID: ' + user.idEmpleado + ' | ' + user.cadena + ' - ' + user.ciudad + '). ' +
+            'Hola! Soy ' + shareIdentity + '. ' +
             'Llevo un ' + stats.percentage + '% de avance (' + stats.watchedCount + '/' + stats.TOTAL_VIDEOS + ' videos y capsulas) ' +
             'en Portal Elite. Rango actual: ' + stats.rank.title + '.'
         );
 
+        const certEyeBtn =
+            '<div class="flex justify-center mb-3">' +
+                '<button onclick="window.oppoProgress.togglePrivacyMode()" class="inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-full border transition ' + (hideData ? 'bg-amber-100 text-amber-800 border-amber-300 hover:bg-amber-200' : 'bg-gray-100 text-gray-600 border-gray-200 hover:bg-gray-200') + '">' +
+                    '<i class="fas ' + (hideData ? 'fa-eye-slash text-amber-600' : 'fa-eye text-oppogreen') + '"></i>' +
+                    '<span>' + (hideData ? 'Datos ocultos (toca para mostrar)' : 'Ocultar mis datos para captura') + '</span>' +
+                '</button>' +
+            '</div>';
+
         content.innerHTML =
+            certEyeBtn +
             '<div class="text-center border-2 border-amber-400/40 rounded-2xl p-5 bg-gradient-to-b from-amber-50/30 via-emerald-50/20 to-white">' +
                 '<div class="w-36 mx-auto mb-3 rounded-2xl overflow-hidden border border-amber-400/40 shadow-lg bg-[#121318] p-1">' +
                     '<img src="Recursos/Logo/logo_portal_elite.jpg" alt="Portal Elite" class="w-full h-auto rounded-xl object-contain">' +
                 '</div>' +
                 '<span class="text-[11px] font-extrabold uppercase tracking-widest text-oppogreen">Constancia Oficial &bull; Portal Elite</span>' +
-                '<h3 class="text-2xl font-black text-gray-800 mt-1">' + escapeHtml(user.nombre) + '</h3>' +
-                '<p class="text-xs text-gray-500 mt-0.5">' + escapeHtml(user.cadena) + ' &bull; ' + escapeHtml(user.ciudad) + ' &bull; ID: ' + escapeHtml(user.idEmpleado) + '</p>' +
+                '<h3 class="text-2xl font-black text-gray-800 mt-1">' + certNameHtml + '</h3>' +
+                '<p class="text-xs text-gray-500 mt-0.5">' + certSubHtml + '</p>' +
                 '<div class="my-4 inline-flex items-center gap-3 bg-gray-900 text-white px-5 py-2.5 rounded-2xl shadow">' +
                     '<div class="text-left">' +
                         '<div class="text-[10px] uppercase text-gray-400">Nivel Alcanzado</div>' +
@@ -1460,6 +1618,7 @@
         const target = pendingRubricItem;
         pendingRubricItem = null;
         closeRubricModal();
+        trackGA4CourseStart(target.id, target.type);
 
         if (target.type === 'web') {
             launchWebCapsuleModal(target.id);
@@ -1475,6 +1634,7 @@
         const target = pendingRubricItem;
         pendingRubricItem = null;
         closeRubricModal();
+        trackGA4CourseStart(target.id, 'web');
         launchWebCapsuleModal(target.id);
         startWebCapsuleCompletionTracker(target.id);
     }
@@ -1569,6 +1729,7 @@
     document.addEventListener('DOMContentLoaded', function () {
         injectProgressUI();
         hookOpenVideo();
+        syncGA4UserIdentity(true);
     });
 
     // Exponer API global para los botones del UI
@@ -1578,6 +1739,7 @@
         submitProfileForm: submitProfileForm,
         openCertificateModal: openCertificateModal,
         closeCertificateModal: closeCertificateModal,
+        togglePrivacyMode: togglePrivacyMode,
         openRubricModal: openRubricModal,
         closeRubricModal: closeRubricModal,
         confirmRubricAndStart: confirmRubricAndStart,
@@ -1585,6 +1747,7 @@
         closeWebCapsuleModal: closeWebCapsuleModal,
         onWebCapsuleLoad: onWebCapsuleLoad,
         markVideoWatched: markVideoWatched,
+        syncGA4UserIdentity: syncGA4UserIdentity,
         setGoogleScriptUrl: function (url) {
             localStorage.setItem('oppo_google_script_url', url);
             showToast('URL de Google Sheets configurada');
