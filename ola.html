@@ -1,7 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Programa OLA | Portal Elite</title><link rel="icon" type="image/png" href="Recursos/Logo/favicon.png"><link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Olipuntos y Programa OLA | Portal Elite</title><link rel="icon" type="image/png" href="Recursos/Logo/favicon.png"><link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <script>tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7', olablue: '#0055ff' } } } }</script>
     <style id="dark-theme-style">
@@ -17,7 +17,6 @@
     </style>
     <style>
         body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7;}
-        /* Animacion simple para el modal */
         @keyframes zoomIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
         .modal-animate { animation: zoomIn 0.3s ease-out forwards; }
     </style>
@@ -58,7 +57,7 @@
         <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
             <div class="flex items-center">
                 <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition"><i class="fas fa-arrow-left"></i></a>
-                <h1 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Programa OLA</h1>
+                <h1 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Programa OLA &bull; Olipuntos</h1>
             </div>
             <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
                 <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
@@ -67,93 +66,231 @@
     </div>
 
     <main class="max-w-4xl mx-auto px-4 mt-8">
-        <!-- HEADER OLA -->
-        <div class="bg-white rounded-3xl p-8 mb-10 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6">
+        <!-- HEADER OLA / OLIPUNTOS -->
+        <div class="bg-white rounded-3xl p-8 mb-8 shadow-sm border border-gray-100 flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-6">
             <div class="w-32 h-32 shrink-0 bg-gray-50 rounded-2xl p-4 flex items-center justify-center shadow-inner">
-                <!-- LOGO OLA -->
                 <img src="Recursos/ola/logo.png" alt="Logo OLA" class="max-w-full max-h-full object-contain">
             </div>
-            <div>
-                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wider mb-3">INCENTIVOS EXCLUSIVOS</span>
-                <h2 class="text-3xl font-black mb-3">Plataforma OLA</h2>
-                <p class="text-gray-500 max-w-lg leading-relaxed">Puntos e incentivos de ventas para nuestros aliados de Carrier. Selecciona la cadena comercial para ver la tabla de puntajes correspondiente a este mes.</p>
+            <div class="flex-1">
+                <div class="flex flex-wrap items-center gap-2 mb-3 justify-center md:justify-start">
+                    <span class="inline-block py-1 px-3 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold tracking-wider">NOVIEMBRE 2026 &bull; VIGENTE</span>
+                    <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-blue-700 text-xs font-bold tracking-wider">OLIPUNTOS</span>
+                </div>
+                <h2 class="text-3xl font-black mb-3">Olipuntos Noviembre 2026</h2>
+                <p class="text-gray-500 max-w-xl leading-relaxed mb-4">Tablas oficiales de incentivos y puntos por modelo participante para nuestros aliados de Carrier y Cadenas Comerciales. Vigencia del 01 al 30 de Noviembre de 2026.</p>
+                
+                <!-- BOTON HISTORICO OCTUBRE -->
+                <div class="flex items-center gap-3 pt-2 justify-center md:justify-start">
+                    <button id="btnOctubre" onclick="toggleOctubre()" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold bg-gray-100 hover:bg-gray-200 text-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-300 transition-all border border-gray-200 dark:border-gray-700 shadow-sm cursor-pointer">
+                        <i class="fas fa-calendar-alt text-blue-500"></i>
+                        <span>Ver promociones de Octubre</span>
+                        <i id="iconoOctubre" class="fas fa-chevron-down text-[10px] text-gray-400 transition-transform duration-200"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <!-- CADENAS COMERCIALES -->
-        
-        <!-- COPPEL -->
-        <div class="mb-8">
-            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-yellow-400 rounded-full mr-3"></div> COPPEL</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <button onclick="openImage('Recursos/ola/Coppel telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
-                <button onclick="openImage('Recursos/ola/coppel att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
-                <button onclick="openImage('Recursos/ola/coppel movistar.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Movistar</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
+        <!-- SECCION PRINCIPAL: NOVIEMBRE 2026 (PROTAGONISTA) -->
+        <div id="seccionNoviembre">
+            <div class="flex items-center justify-between mb-6">
+                <div class="flex items-center gap-2">
+                    <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
+                    <h3 class="text-lg font-black tracking-wide text-gray-700 dark:text-gray-300 uppercase">Tablas de Olipuntos &bull; Noviembre 2026</h3>
+                </div>
+                <span class="text-xs text-gray-400 font-semibold">16 Cadenas y Carriers</span>
+            </div>
+
+            <!-- COPPEL -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-yellow-400 rounded-full mr-3"></div> COPPEL</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <button onclick="openImage('Recursos/ola/noviembre/coppel-telcel.jpeg', 'Coppel Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/coppel-att.jpeg', 'Coppel AT&T - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">AT&T</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/coppel-movistar.jpeg', 'Coppel Movistar - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Movistar</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ELEKTRA -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-600 rounded-full mr-3"></div> ELEKTRA</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <button onclick="openImage('Recursos/ola/noviembre/elektra-telcel.jpeg', 'Elektra Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/elektra-att.jpeg', 'Elektra AT&T - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">AT&T</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/elektra-movistar.jpeg', 'Elektra Movistar - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Movistar</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- SEARS -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-700 rounded-full mr-3"></div> SEARS</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <button onclick="openImage('Recursos/ola/noviembre/sears-telcel.jpeg', 'Sears Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/sears-att.jpeg', 'Sears AT&T - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">AT&T</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- SUBURBIA Y SANBORNS -->
+            <div class="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-purple-600 rounded-full mr-3"></div> SUBURBIA</h4>
+                    <button onclick="openImage('Recursos/ola/noviembre/suburbia-telcel.jpeg', 'Suburbia Telcel - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-orange-600 rounded-full mr-3"></div> SANBORNS</h4>
+                    <button onclick="openImage('Recursos/ola/noviembre/sanborns-telcel.jpeg', 'Sanborns Telcel - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- OTRAS CADENAS (TELCEL) -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-teal-500 rounded-full mr-3"></div> OTRAS CADENAS (TELCEL)</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <button onclick="openImage('Recursos/ola/noviembre/sams-telcel.jpeg', 'Sam s Club Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-store"></i></div><div><span class="font-bold block text-left">Sam&apos;s Club</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/walmart-telcel.jpeg', 'Walmart Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-shopping-cart"></i></div><div><span class="font-bold block text-left">Walmart</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/palacio-hierro-telcel.jpeg', 'Palacio de Hierro Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-gem"></i></div><div><span class="font-bold block text-left text-sm">Palacio Hierro</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/noviembre/chedraui-telcel.jpeg', 'Chedraui Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-shopping-basket"></i></div><div><span class="font-bold block text-left">Chedraui</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- DISTRIBUIDORES CARRIERS (AT&T / MOVISTAR) -->
+            <div class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-blue-500 rounded-full mr-3"></div> AT&T DISTRIBUIDORES</h4>
+                    <button onclick="openImage('Recursos/ola/noviembre/att-distribuidores.jpeg', 'AT&T Distribuidores - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-network-wired"></i></div><div class="text-left"><span class="font-bold block">CAE y Distribuidores</span><span class="text-xs text-gray-500 font-normal">Excepto Prime y Num Uno &bull; Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-emerald-500 rounded-full mr-3"></div> MOVISTAR</h4>
+                    <button onclick="openImage('Recursos/ola/noviembre/movistar-general.jpeg', 'Movistar General - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                        <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center mr-3 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition"><i class="fas fa-chart-line"></i></div><div class="text-left"><span class="font-bold block">Puntos Movistar</span><span class="text-xs text-gray-500 font-normal">Vendedor y Gerente &bull; Noviembre</span></div></div>
+                        <i class="fas fa-chevron-right text-gray-300 group-hover:text-emerald-500 transition"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <!-- ELEKTRA -->
-        <div class="mb-8">
-            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-600 rounded-full mr-3"></div> ELEKTRA</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <button onclick="openImage('Recursos/ola/elektra telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
-                <button onclick="openImage('Recursos/ola/elektra att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
-                <button onclick="openImage('Recursos/ola/Elektra movistar.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Movistar</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
+        <!-- SECCION HISTORICA: OCTUBRE 2026 (COLAPSADA POR DEFECTO) -->
+        <div id="seccionOctubre" class="hidden mt-10 pt-8 border-t-2 border-dashed border-gray-200 dark:border-gray-800">
+            <div class="bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900 rounded-2xl p-4 mb-6 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-history text-amber-600 dark:text-amber-400 text-lg"></i>
+                    <div>
+                        <span class="font-bold text-amber-800 dark:text-amber-200 text-sm block">Hist&oacute;rico &bull; Promociones de Octubre 2026</span>
+                        <span class="text-xs text-amber-700/80 dark:text-amber-300/80">Estas promociones concluyeron el 31 de Octubre de 2026.</span>
+                    </div>
+                </div>
+                <button onclick="toggleOctubre()" class="text-xs font-semibold text-amber-800 dark:text-amber-300 hover:underline px-2 py-1 cursor-pointer">
+                    <i class="fas fa-times mr-1"></i> Cerrar
                 </button>
             </div>
-        </div>
 
-        <!-- SEARS -->
-        <div class="mb-8">
-            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-700 rounded-full mr-3"></div> SEARS</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <button onclick="openImage('Recursos/ola/sears telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
-                <button onclick="openImage('Recursos/ola/sears att.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">AT&T</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
+            <!-- COPPEL OCTUBRE -->
+            <div class="mb-8 opacity-90">
+                <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-yellow-400 rounded-full mr-2"></div> COPPEL (Octubre)</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <button onclick="openImage('Recursos/ola/octubre/Coppel telcel.jpg', 'Coppel Telcel - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">Telcel (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/octubre/coppel att.jpg', 'Coppel AT&T - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">AT&T (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/octubre/coppel movistar.jpg', 'Coppel Movistar - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">Movistar (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <!-- SUBURBIA -->
-        <div class="mb-12">
-            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-purple-600 rounded-full mr-3"></div> SUBURBIA</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-1 md:w-1/2 gap-4">
-                <button onclick="openImage('Recursos/ola/suburbia telcel.jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><span class="font-bold">Telcel</span></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
+            <!-- ELEKTRA OCTUBRE -->
+            <div class="mb-8 opacity-90">
+                <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-red-600 rounded-full mr-2"></div> ELEKTRA (Octubre)</h4>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                    <button onclick="openImage('Recursos/ola/octubre/elektra telcel.jpg', 'Elektra Telcel - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">Telcel (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/octubre/elektra att.jpg', 'Elektra AT&T - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">AT&T (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                    <button onclick="openImage('Recursos/ola/octubre/Elektra movistar.jpg', 'Elektra Movistar - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <div class="flex items-center"><i class="fas fa-mobile-alt text-gray-400 mr-2.5"></i><span class="text-sm font-semibold">Movistar (Oct)</span></div>
+                        <i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                </div>
             </div>
-        </div>
 
-        <!-- AT&T DISTRIBUIDORES -->
-        <div class="mb-12">
-            <h3 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-blue-500 rounded-full mr-3"></div> AT&T DISTRIBUIDORES</h3>
-            <div class="grid grid-cols-1 sm:grid-cols-1 md:w-1/2 gap-4">
-                <button onclick="openImage('Recursos/ola/ATT cae y distribuidores  (excepto prime y num uno).jpg')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group">
-                    <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div class="text-left"><span class="font-bold block">CAE y Distribuidores</span><span class="text-xs text-gray-500 font-normal">Excepto Prime y Num Uno</span></div></div>
-                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
-                </button>
+            <!-- SEARS, SUBURBIA Y DISTRIBUIDORES OCTUBRE -->
+            <div class="mb-8 opacity-90 grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                    <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-red-700 rounded-full mr-2"></div> SEARS (Oct)</h4>
+                    <div class="space-y-2">
+                        <button onclick="openImage('Recursos/ola/octubre/sears telcel.jpg', 'Sears Telcel - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                            <span class="text-sm font-semibold">Telcel</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                        </button>
+                        <button onclick="openImage('Recursos/ola/octubre/sears att.jpg', 'Sears AT&T - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                            <span class="text-sm font-semibold">AT&T</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-purple-600 rounded-full mr-2"></div> SUBURBIA (Oct)</h4>
+                    <button onclick="openImage('Recursos/ola/octubre/suburbia telcel.jpg', 'Suburbia Telcel - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <span class="text-sm font-semibold">Telcel</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                </div>
+                <div>
+                    <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-blue-500 rounded-full mr-2"></div> AT&T DIST. (Oct)</h4>
+                    <button onclick="openImage('Recursos/ola/octubre/ATT cae y distribuidores  (excepto prime y num uno).jpg', 'AT&T Distribuidores - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
+                        <span class="text-sm font-semibold">CAE y Distribuidores</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -162,40 +299,72 @@
     <!-- MODAL VISOR DE IMAGENES -->
     <div id="imageModal" class="fixed inset-0 bg-black/90 z-[100] hidden flex-col items-center justify-center p-4 backdrop-blur-md">
         <!-- Close Button -->
-        <button onclick="closeImage()" class="absolute top-6 right-6 text-white/70 hover:text-white text-4xl p-2 w-12 h-12 flex items-center justify-center z-50 transition"><i class="fas fa-times"></i></button>
+        <button onclick="closeImage()" class="absolute top-6 right-6 text-white/70 hover:text-white text-3xl p-2 w-12 h-12 flex items-center justify-center z-50 transition cursor-pointer" title="Cerrar"><i class="fas fa-times"></i></button>
         
-        <!-- Image Container with zoom ability setup -->
-        <div class="w-full max-w-4xl max-h-[90vh] flex items-center justify-center modal-animate relative">
-            <img id="modalImg" src="" alt="Puntos OLA" class="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl">
+        <!-- Image Container -->
+        <div class="w-full max-w-4xl max-h-[85vh] flex flex-col items-center justify-center modal-animate relative">
+            <div id="modalTitle" class="text-white/80 text-sm font-medium mb-2 text-center"></div>
+            <img id="modalImg" src="" alt="Puntos OLA" class="max-w-full max-h-[80vh] object-contain rounded-xl shadow-2xl border border-white/10">
         </div>
         
         <!-- Hint Text -->
-        <div class="absolute bottom-6 text-white/60 text-sm">Pellizca la pantalla para hacer zoom</div>
+        <div class="absolute bottom-5 text-white/60 text-xs tracking-wide">Pellizca o haz doble toque en la pantalla para hacer zoom</div>
     </div>
 
     <script>
-        function openImage(srcPath) {
+        function toggleOctubre() {
+            const sec = document.getElementById('seccionOctubre');
+            const btn = document.getElementById('btnOctubre');
+            const icon = document.getElementById('iconoOctubre');
+            const label = btn.querySelector('span');
+            if (sec.classList.contains('hidden')) {
+                sec.classList.remove('hidden');
+                sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                if (icon) icon.classList.add('rotate-180');
+                if (label) label.innerText = 'Ocultar Octubre';
+                btn.classList.add('bg-blue-50', 'text-blue-700', 'border-blue-300');
+            } else {
+                sec.classList.add('hidden');
+                if (icon) icon.classList.remove('rotate-180');
+                if (label) label.innerText = 'Ver promociones de Octubre';
+                btn.classList.remove('bg-blue-50', 'text-blue-700', 'border-blue-300');
+            }
+        }
+
+        function openImage(srcPath, title) {
             document.getElementById('modalImg').src = srcPath;
+            document.getElementById('modalTitle').innerText = title || '';
             const modal = document.getElementById('imageModal');
             modal.classList.remove('hidden'); 
             modal.classList.add('flex');
-            document.body.style.overflow = 'hidden'; // Evitar scroll de fondo
+            document.body.style.overflow = 'hidden';
+
+            if (typeof gtag === 'function') {
+                gtag('event', 'ver_tabla_puntos', {
+                    recurso: srcPath,
+                    titulo: title || 'Olipuntos',
+                    modulo: 'Programa OLA'
+                });
+            }
         }
+
         function closeImage() {
             const modal = document.getElementById('imageModal');
             modal.classList.add('hidden'); 
             modal.classList.remove('flex');
-            setTimeout(() => { document.getElementById('modalImg').src = ''; }, 300); // limpiar src tras cerrar
-            document.body.style.overflow = 'auto'; // Restaurar scroll
+            setTimeout(() => { 
+                document.getElementById('modalImg').src = ''; 
+                document.getElementById('modalTitle').innerText = '';
+            }, 300);
+            document.body.style.overflow = 'auto';
         }
         
-        // Cerrar al hacer clic fuera de la imagen
         document.getElementById('imageModal').addEventListener('click', function(e) {
             if (e.target === this) {
                 closeImage();
             }
         });
     </script>
-    <script src="progreso.js?v=20261030_2"></script>
+    <script src="progreso.js?v=20261105"></script>
 </body>
 </html>
