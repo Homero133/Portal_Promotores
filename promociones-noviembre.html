@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Promociones Noviembre &bull; Buen Fin 2026 | Portal Elite</title><link rel="icon" type="image/png" href="Recursos/Logo/favicon.png"><link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7', buenfinred: '#E11D48', buenfingold: '#F59E0B' } } } }</script>
+    <style id="dark-theme-style">
+        body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+        body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+        body.dark-mode .text-gray-800 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700 { color: #dddddd !important; }
+        body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+        body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
+        body.dark-mode .border-b, body.dark-mode .border-gray-100 { border-color: #333 !important; }
+        body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
+    </style>
+    <style>
+        body{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#f5f5f7;}
+        @keyframes zoomIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+        .modal-animate { animation: zoomIn 0.25s ease-out forwards; }
+        .chain-btn.active { background: #E11D48 !important; color: #ffffff !important; border-color: #E11D48 !important; box-shadow: 0 4px 14px rgba(225, 29, 72, 0.35); }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6D6ZC9K790"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6D6ZC9K790');
+    </script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if(icon) {
+                if(document.body.classList.contains('dark-mode')) {
+                    icon.className = 'fas fa-sun text-yellow-400';
+                } else {
+                    icon.className = 'fas fa-moon text-gray-600 dark:text-yellow-400';
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="pb-24 text-gray-800 transition-colors duration-300">
+    <!-- NAVBAR -->
+    <div class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition"><i class="fas fa-arrow-left"></i></a>
+                <div>
+                    <h1 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-rose-600 via-red-600 to-amber-600">Promociones Noviembre</h1>
+                    <span class="text-xs text-gray-400 font-semibold block sm:inline">Especial Buen Fin 2026</span>
+                </div>
+            </div>
+            <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
+                <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
+            </button>
+        </div>
+    </div>
+
+    <main class="max-w-5xl mx-auto px-4 mt-8">
+        <!-- HEADER HERO -->
+        <div class="bg-gradient-to-r from-gray-950 via-rose-950 to-gray-900 rounded-3xl p-6 sm:p-8 mb-8 text-white shadow-xl relative overflow-hidden border border-rose-500/20">
+            <div class="absolute right-0 top-0 h-full w-1/3 bg-rose-600 opacity-15 transform skew-x-12 translate-x-10"></div>
+            <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div class="flex-1">
+                    <div class="flex flex-wrap items-center gap-2 mb-3">
+                        <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-rose-600 text-white text-xs font-black tracking-wider uppercase animate-pulse">
+                            <i class="fas fa-tag"></i> BUEN FIN 2026
+                        </span>
+                        <span class="inline-block py-1 px-3 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-300 text-xs font-bold tracking-wider">
+                            VIGENCIAS DE NOVIEMBRE
+                        </span>
+                        <span class="inline-block py-1 px-3 rounded-full bg-white/10 text-gray-300 text-xs font-bold tracking-wider">
+                            70 PROMOCIONES OFICIALES
+                        </span>
+                    </div>
+                    <h2 class="text-2xl sm:text-4xl font-black mb-2">Cat&aacute;logo de Promociones</h2>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed max-w-2xl">
+                        Consulta los precios promocionales, descuentos y vigencias oficiales del Buen Fin por cadena comercial y carrier. Selecciona una cadena a continuaci&oacute;n para desplegar sus ofertas correspondientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELECTOR DE CADENAS COMERCIALES -->
+        <div class="mb-8">
+            <div class="flex items-center justify-between mb-4">
+                <h3 class="text-sm font-black text-gray-500 uppercase tracking-wider flex items-center gap-2">
+                    <i class="fas fa-th-large text-rose-500"></i> Selecciona una Cadena o Carrier
+                </h3>
+                <span id="promosCountLabel" class="text-xs text-gray-400 font-semibold">Mostrando todas las cadenas</span>
+            </div>
+
+            <!-- Botones de Cadenas -->
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2.5" id="chainButtonsContainer">
+                <button onclick="filterChain('todas')" id="btn-todas" class="chain-btn active p-3 rounded-2xl bg-white border border-gray-200 text-left transition-all hover:border-rose-400 cursor-pointer flex flex-col justify-between">
+                    <div class="text-xs font-bold mb-1 flex items-center justify-between"><span>Ver Todas</span><i class="fas fa-globe text-xs"></i></div>
+                    <span class="text-[10px] opacity-75 font-semibold">70 ofertas</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- BANNER INFORMATIVO DE LA CADENA SELECCIONADA -->
+        <div id="selectedChainHeader" class="bg-white rounded-2xl p-5 mb-6 border border-gray-200 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div id="chainIconBadge" class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
+                    <i class="fas fa-store"></i>
+                </div>
+                <div>
+                    <h4 id="chainTitle" class="text-lg font-black text-gray-900">Todas las Cadenas</h4>
+                    <p id="chainDesc" class="text-xs text-gray-500">Explorando las 70 promociones oficiales de Noviembre</p>
+                </div>
+            </div>
+            <div id="chainVigenciaBadge" class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-amber-50 text-amber-900 text-xs font-bold border border-amber-200 self-start sm:self-auto">
+                <i class="fas fa-calendar-alt text-amber-600"></i>
+                <span id="chainVigenciaText">Vigencias de Noviembre 2026</span>
+            </div>
+        </div>
+
+        <!-- GRID DE TARJETAS DE PROMOCION -->
+        <div id="promosGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <!-- Inyectado dinamicamente con JS -->
+        </div>
+
+        <!-- MENSAJE VACIO -->
+        <div id="emptyMessage" class="hidden text-center py-16">
+            <i class="fas fa-search text-gray-300 text-5xl mb-4"></i>
+            <h4 class="text-lg font-bold text-gray-700 mb-1">No se encontraron promociones</h4>
+            <p class="text-sm text-gray-400">Selecciona otra cadena o haz clic en "Ver Todas".</p>
+        </div>
+    </main>
+
+    <!-- MODAL VISOR DE IMAGENES -->
+    <div id="imageModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-3 sm:p-5 backdrop-blur-md">
+        <!-- Close Button -->
+        <button onclick="closeImage()" class="absolute top-4 right-4 sm:top-6 sm:right-6 text-white/70 hover:text-white text-3xl p-2 w-12 h-12 flex items-center justify-center z-50 transition cursor-pointer" title="Cerrar"><i class="fas fa-times"></i></button>
+        
+        <!-- Info Top Bar -->
+        <div class="w-full max-w-4xl text-center mb-2 px-4 z-50">
+            <span id="modalChainTag" class="inline-block py-0.5 px-2.5 rounded-full bg-rose-600 text-white text-[11px] font-bold uppercase tracking-wider mb-1"></span>
+            <h4 id="modalTitle" class="text-white text-base sm:text-lg font-black leading-tight"></h4>
+            <p id="modalVigencia" class="text-amber-300 text-xs font-semibold"></p>
+        </div>
+
+        <!-- Image Container -->
+        <div class="w-full max-w-4xl max-h-[78vh] flex items-center justify-center modal-animate relative">
+            <img id="modalImg" src="" alt="Promoci&oacute;n Noviembre" class="max-w-full max-h-[78vh] object-contain rounded-xl shadow-2xl border border-white/10">
+        </div>
+        
+        <!-- Hint Text -->
+        <div class="mt-3 text-white/60 text-xs tracking-wide">Pellizca o haz doble toque en la pantalla para hacer zoom</div>
+    </div>
+
+    <script>
+        const allPromos = [{"id": "pdf_01", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO Reno16 5G", "vigencia": "del 6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p01.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$14,399", "precio_antes": "$18,999", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_02", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO Reno16 F 5G", "vigencia": "Vigencia del 6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p02.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$13,999", "precio_antes": "$15,999", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_03", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO A6 256GB", "vigencia": "6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p03.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$9,499", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_04", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO A6k", "vigencia": "6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p04.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$7,499", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_05", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO A6x", "vigencia": "6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p05.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$3,699", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_06", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO A7 Pro 5G", "vigencia": "6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p06.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$9,999", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_07", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO Reno13 F\n5G", "vigencia": "Vigencia del 6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p07.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$10,999", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_08", "cadena_slug": "liverpool", "cadena_nombre": "Liverpool", "modelo": "OPPO A6 Pro 5G", "vigencia": "6 al 17 de noviembre", "img": "Recursos/promociones/noviembre/liverpool/liverpool-p08.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$9,499", "meta": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}}, {"id": "pdf_09", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO Reno 16 F 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p09.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$13,699", "precio_antes": "$15,999", "ahorro": "Ahorra $2,300", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_10", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO A7 Pro 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p10.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$11,049", "precio_antes": "$12,999", "ahorro": "Ahorra $1,950", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_11", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO A6 256GB", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p11.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$6,799", "precio_antes": "$8,499", "ahorro": "Ahorra $1,700", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_12", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO A6k", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p12.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$5,599", "precio_antes": "$6,999", "ahorro": "Ahorra $1,400", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_13", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO A6t", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p13.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$4,799", "precio_antes": "$6,999", "ahorro": "Ahorra $2,200", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_14", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO Reno14 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p14.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$11,999", "precio_antes": "$14,999", "ahorro": "Ahorra $3,000", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_15", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO Reno 14 F 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p15.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,999", "precio_antes": "$9,999", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_16", "cadena_slug": "sears", "cadena_nombre": "Sears", "modelo": "OPPO A6 Pro 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sears/sears-p16.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,599", "precio_antes": "$9,499", "ahorro": "Ahorra $1,900", "meta": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_17", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO A6 256 GB", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p17.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,899", "precio_antes": "$9,999", "ahorro": "Ahorra $2,100", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_18", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO A6k", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p18.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$6,499", "precio_antes": "$7,499", "ahorro": "Ahorra $1,000", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_19", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO A6t", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p19.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$4,999", "precio_antes": "$6,999", "ahorro": "Ahorra $2,000", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_20", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO A6x", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p20.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$2,959", "precio_antes": "$3,699", "ahorro": "Ahorra $740", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_21", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO Reno 14 F 5G", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p21.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$8,999", "precio_antes": "$9,999", "ahorro": "Ahorra $1,000", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_22", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO A5 256 GB", "vigencia": "VIGENCIA DEL 7 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p22.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$3,699", "precio_antes": "$4,499", "ahorro": "Ahorra $800", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_23", "cadena_slug": "suburbia", "cadena_nombre": "Suburbia", "modelo": "OPPO Reno 16 F", "vigencia": "VIGENCIA DEL 5 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/suburbia/suburbia-p23.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$14,999", "meta": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}}, {"id": "pdf_24", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO Reno 16 F 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p24.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$13,699", "precio_antes": "$15,999", "ahorro": "Ahorra $2,300", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_25", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO A7 Pro 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p25.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$11,049", "precio_antes": "$12,999", "ahorro": "Ahorra $1,950", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_26", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO A6 256 GB", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p26.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$6,799", "precio_antes": "$8,499", "ahorro": "Ahorra $1,700", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_27", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO A6k", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p27.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$5,599", "precio_antes": "$6,999", "ahorro": "Ahorra $1,400", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_28", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO A6t", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p28.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$4,799", "precio_antes": "$6,999", "ahorro": "Ahorra $2,200", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_29", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO Reno 14 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p29.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$11,999", "precio_antes": "$14,999", "ahorro": "Ahorra $3,000", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_30", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO Reno 14 F 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p30.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,999", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_31", "cadena_slug": "sanborns", "cadena_nombre": "Sanborns", "modelo": "OPPO A6 Pro 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sanborns/sanborns-p31.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,599", "precio_antes": "$9,499", "ahorro": "Ahorra $1,900", "meta": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}}, {"id": "pdf_32", "cadena_slug": "palacio-hierro", "cadena_nombre": "El Palacio de Hierro", "modelo": "OPPO Reno16 5G", "vigencia": "VIGENCIA DEL 9 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/palacio-hierro/palacio-hierro-p32.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$15,299", "precio_antes": "$18,999", "ahorro": "Ahorra $3,700", "meta": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}}, {"id": "pdf_33", "cadena_slug": "palacio-hierro", "cadena_nombre": "El Palacio de Hierro", "modelo": "OPPO A6 256GB", "vigencia": "VIGENCIA DEL 9 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/palacio-hierro/palacio-hierro-p33.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,224", "precio_antes": "$8,499", "ahorro": "Ahorra $1,275", "meta": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}}, {"id": "pdf_34", "cadena_slug": "palacio-hierro", "cadena_nombre": "El Palacio de Hierro", "modelo": "OPPO A6k", "vigencia": "VIGENCIA DEL 9 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/palacio-hierro/palacio-hierro-p34.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$5,949", "precio_antes": "$6,999", "ahorro": "Ahorra $1,050", "meta": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}}, {"id": "pdf_35", "cadena_slug": "palacio-hierro", "cadena_nombre": "El Palacio de Hierro", "modelo": "OPPO Reno14 F 5G", "vigencia": "VIGENCIA DEL 9 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/palacio-hierro/palacio-hierro-p35.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$8,499", "precio_antes": "$9,999", "ahorro": "Ahorra $1,500", "meta": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}}, {"id": "pdf_36", "cadena_slug": "palacio-hierro", "cadena_nombre": "El Palacio de Hierro", "modelo": "OPPO A6 Pro 5G", "vigencia": "VIGENCIA DEL 9 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/palacio-hierro/palacio-hierro-p36.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$8,074", "precio_antes": "$9,499", "ahorro": "Ahorra $1,425", "meta": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}}, {"id": "pdf_37", "cadena_slug": "walmart", "cadena_nombre": "Walmart", "modelo": "OPPO A6k", "vigencia": "VIGENCIA: 5 AL 19 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/walmart/walmart-p37.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$5,999", "precio_antes": "$7,499", "ahorro": "Ahorra $1,500", "meta": {"nombre": "Walmart", "color": "sky", "icon": "fa-shopping-cart", "desc": "Precios de Buen Fin en tiendas y web", "vig": "5 al 19 de Noviembre"}}, {"id": "pdf_38", "cadena_slug": "walmart", "cadena_nombre": "Walmart", "modelo": "OPPO A6 Pro 5G", "vigencia": "VIGENCIA: 5 AL 19 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/walmart/walmart-p38.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$7,499", "precio_antes": "$9,499", "ahorro": "Ahorra $2,000", "meta": {"nombre": "Walmart", "color": "sky", "icon": "fa-shopping-cart", "desc": "Precios de Buen Fin en tiendas y web", "vig": "5 al 19 de Noviembre"}}, {"id": "pdf_39", "cadena_slug": "walmart", "cadena_nombre": "Walmart", "modelo": "OPPO A5 Pro 5G", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/walmart/walmart-p39.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$2,999", "precio_antes": "$5,999", "ahorro": "Ahorra $3,000", "meta": {"nombre": "Walmart", "color": "sky", "icon": "fa-shopping-cart", "desc": "Precios de Buen Fin en tiendas y web", "vig": "5 al 19 de Noviembre"}}, {"id": "pdf_40", "cadena_slug": "walmart", "cadena_nombre": "Walmart", "modelo": "OPPO A5 256GB", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/walmart/walmart-p40.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$1,999", "precio_antes": "$4,499", "ahorro": "Ahorra $2,500", "meta": {"nombre": "Walmart", "color": "sky", "icon": "fa-shopping-cart", "desc": "Precios de Buen Fin en tiendas y web", "vig": "5 al 19 de Noviembre"}}, {"id": "pdf_41", "cadena_slug": "sams", "cadena_nombre": "Sam's Club", "modelo": "OPPO A6\n256 GB", "vigencia": "VIGENCIA: 13 AL 18 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sams/sams-p41.jpg", "fuente": "PDF Otros Canales", "precio_antes": "$9,499", "ahorro": "Ahorra $1,500", "meta": {"nombre": "Sam's Club", "color": "indigo", "icon": "fa-boxes", "desc": "Precios especiales para socios", "vig": "13 al 18 de Noviembre"}}, {"id": "pdf_42", "cadena_slug": "sams", "cadena_nombre": "Sam's Club", "modelo": "OPPO A5 Pro 5G", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sams/sams-p42.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$5,599", "precio_antes": "$7,999", "ahorro": "Ahorra $2,400", "meta": {"nombre": "Sam's Club", "color": "indigo", "icon": "fa-boxes", "desc": "Precios especiales para socios", "vig": "13 al 18 de Noviembre"}}, {"id": "pdf_43", "cadena_slug": "sams", "cadena_nombre": "Sam's Club", "modelo": "OPPO A5 256GB", "vigencia": "VIGENCIA DEL 6 AL 17 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/sams/sams-p43.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$3,149", "precio_antes": "$4,499", "ahorro": "Ahorra $1,350", "meta": {"nombre": "Sam's Club", "color": "indigo", "icon": "fa-boxes", "desc": "Precios especiales para socios", "vig": "13 al 18 de Noviembre"}}, {"id": "pdf_44", "cadena_slug": "b-hermanos", "cadena_nombre": "B Hermanos", "modelo": "OPPO Reno14 F 5G", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/b-hermanos/b-hermanos-p44.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$6,999", "precio_antes": "$9,999", "meta": {"nombre": "B Hermanos", "color": "orange", "icon": "fa-users", "desc": "Promociones exclusivas para tu fuerza de ventas", "vig": "1 al 30 de Noviembre"}}, {"id": "pdf_45", "cadena_slug": "b-hermanos", "cadena_nombre": "B Hermanos", "modelo": "OPPO A6 Pro 5G", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/b-hermanos/b-hermanos-p45.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$6,999", "precio_antes": "$9,499", "meta": {"nombre": "B Hermanos", "color": "orange", "icon": "fa-users", "desc": "Promociones exclusivas para tu fuerza de ventas", "vig": "1 al 30 de Noviembre"}}, {"id": "pdf_46", "cadena_slug": "b-hermanos", "cadena_nombre": "B Hermanos", "modelo": "OPPO A5 Pro 5G", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/b-hermanos/b-hermanos-p46.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$4,799", "precio_antes": "$7,999", "meta": {"nombre": "B Hermanos", "color": "orange", "icon": "fa-users", "desc": "Promociones exclusivas para tu fuerza de ventas", "vig": "1 al 30 de Noviembre"}}, {"id": "pdf_47", "cadena_slug": "b-hermanos", "cadena_nombre": "B Hermanos", "modelo": "OPPO A40", "vigencia": "VIGENCIA: 1 AL 30 DE NOVIEMBRE", "img": "Recursos/promociones/noviembre/b-hermanos/b-hermanos-p47.jpg", "fuente": "PDF Otros Canales", "precio_promo": "$2,399", "precio_antes": "$3,999", "meta": {"nombre": "B Hermanos", "color": "orange", "icon": "fa-users", "desc": "Promociones exclusivas para tu fuerza de ventas", "vig": "1 al 30 de Noviembre"}}, {"id": "pptx_01", "cadena_slug": "telcel-cac", "cadena_nombre": "Telcel CAC", "modelo": "Portada Promociones Telcel CAC - Buen Fin", "vigencia": "5 al 18 de noviembre de 2026", "img": "Recursos/promociones/noviembre/telcel-cac/telcel-cac-slide-1.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}}, {"id": "pptx_02", "cadena_slug": "telcel-cac", "cadena_nombre": "Telcel CAC", "modelo": "Serie Reno: Reno14 5G, Reno14 F y Reno16 F", "vigencia": "5 al 18 de noviembre de 2026", "img": "Recursos/promociones/noviembre/telcel-cac/telcel-cac-slide-2.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}}, {"id": "pptx_03", "cadena_slug": "telcel-cac", "cadena_nombre": "Telcel CAC", "modelo": "Serie A: A6 256GB, A6k, A6t y A6x", "vigencia": "5 al 18 de noviembre de 2026", "img": "Recursos/promociones/noviembre/telcel-cac/telcel-cac-slide-3.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}}, {"id": "pptx_04", "cadena_slug": "telcel-cac", "cadena_nombre": "Telcel CAC", "modelo": "OPPO A7 Pro 5G: Oferta Especial", "vigencia": "5 al 18 de noviembre de 2026", "img": "Recursos/promociones/noviembre/telcel-cac/telcel-cac-slide-4.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}}, {"id": "pptx_05", "cadena_slug": "telcel-cac", "cadena_nombre": "Telcel CAC", "modelo": "Find X Series & Ecosistema", "vigencia": "5 al 18 de noviembre de 2026", "img": "Recursos/promociones/noviembre/telcel-cac/telcel-cac-slide-5.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}}, {"id": "pptx_06", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Portada Promociones AT&T - Buen Fin", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-6.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_07", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Reno16 Series: Reno16 5G y Reno16 F 5G", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-7.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_08", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Reno14 Series: Reno14 5G y Reno14 F 5G", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-8.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_09", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "OPPO A7 Pro 5G - Grado Militar", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-9.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_10", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Serie A: A6 256GB y A6k", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-10.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_11", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Serie A: A6t y A6x", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-11.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_12", "cadena_slug": "att", "cadena_nombre": "AT&T", "modelo": "Planes y Equipos a Credito AT&T", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/att/att-slide-12.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_13", "cadena_slug": "elektra", "cadena_nombre": "Elektra", "modelo": "Portada Promociones Elektra - Buen Fin", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/elektra/elektra-slide-13.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_14", "cadena_slug": "elektra", "cadena_nombre": "Elektra", "modelo": "Reno16 F y Reno14 F", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/elektra/elektra-slide-14.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_15", "cadena_slug": "elektra", "cadena_nombre": "Elektra", "modelo": "OPPO A7 Pro 5G y A6 256GB", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/elektra/elektra-slide-15.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_16", "cadena_slug": "elektra", "cadena_nombre": "Elektra", "modelo": "OPPO A6k y A6t", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/elektra/elektra-slide-16.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_17", "cadena_slug": "elektra", "cadena_nombre": "Elektra", "modelo": "OPPO A6x y Promociones Semanales", "vigencia": "Vigencia Buen Fin", "img": "Recursos/promociones/noviembre/elektra/elektra-slide-17.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}}, {"id": "pptx_18", "cadena_slug": "iot", "cadena_nombre": "IoT Ecosistema", "modelo": "Catalogo IoT & Wearables OPPO", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-18.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}, {"id": "pptx_19", "cadena_slug": "iot", "cadena_nombre": "IoT Telcel", "modelo": "OPPO Band & Buds en Telcel", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-19.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}, {"id": "pptx_20", "cadena_slug": "iot", "cadena_nombre": "IoT Coppel", "modelo": "OPPO Band & Buds en Coppel", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-20.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}, {"id": "pptx_21", "cadena_slug": "iot", "cadena_nombre": "IoT Elektra", "modelo": "OPPO Band & Buds en Elektra", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-21.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}, {"id": "pptx_22", "cadena_slug": "iot", "cadena_nombre": "IoT Sears", "modelo": "OPPO Band & Buds en Sears", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-22.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}, {"id": "pptx_23", "cadena_slug": "iot", "cadena_nombre": "IoT Sanborns", "modelo": "OPPO Band & Buds en Sanborns", "vigencia": "Vigencia Noviembre 2026", "img": "Recursos/promociones/noviembre/iot/iot-slide-23.jpg", "fuente": "PPTX Principal", "meta": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}}];
+        const cadenasMeta = {"telcel-cac": {"nombre": "Telcel CAC", "color": "blue", "icon": "fa-mobile-alt", "desc": "Canales participantes: CACs, CVTs y DATs", "vig": "5 al 18 de Noviembre"}, "att": {"nombre": "AT&T", "color": "cyan", "icon": "fa-broadcast-tower", "desc": "Planes y equipos en distribuidores AT&T", "vig": "Vigencia Buen Fin"}, "elektra": {"nombre": "Elektra", "color": "red", "icon": "fa-bolt", "desc": "Promociones y precios semanales Elektra", "vig": "Vigencia Buen Fin"}, "liverpool": {"nombre": "Liverpool", "color": "pink", "icon": "fa-store", "desc": "Descuentos exclusivos en tiendas y en linea", "vig": "6 al 17 de Noviembre"}, "sears": {"nombre": "Sears", "color": "rose", "icon": "fa-tag", "desc": "Ofertas especiales por tiempo limitado", "vig": "Vigencia Buen Fin"}, "suburbia": {"nombre": "Suburbia", "color": "purple", "icon": "fa-shopping-bag", "desc": "Tu proximo smartphone con descuento", "vig": "7 al 17 de Noviembre"}, "sanborns": {"nombre": "Sanborns", "color": "amber", "icon": "fa-coffee", "desc": "Ofertas especiales y precios promocionales", "vig": "Vigencia Buen Fin"}, "palacio-hierro": {"nombre": "Palacio de Hierro", "color": "yellow", "icon": "fa-gem", "desc": "Tecnologia que te lleva mas lejos", "vig": "9 al 18 de Noviembre"}, "walmart": {"nombre": "Walmart", "color": "sky", "icon": "fa-shopping-cart", "desc": "Precios de Buen Fin en tiendas y web", "vig": "5 al 19 de Noviembre"}, "sams": {"nombre": "Sam's Club", "color": "indigo", "icon": "fa-boxes", "desc": "Precios especiales para socios", "vig": "13 al 18 de Noviembre"}, "b-hermanos": {"nombre": "B Hermanos", "color": "orange", "icon": "fa-users", "desc": "Promociones exclusivas para tu fuerza de ventas", "vig": "1 al 30 de Noviembre"}, "iot": {"nombre": "IoT Ecosistema", "color": "emerald", "icon": "fa-headphones-alt", "desc": "OPPO Band, Buds y accesorios en cadenas", "vig": "Noviembre 2026"}};
+        let currentFilter = 'todas';
+
+        function initChainButtons() {
+            const container = document.getElementById('chainButtonsContainer');
+            for (const [slug, meta] of Object.entries(cadenasMeta)) {
+                const count = allPromos.filter(p => p.cadena_slug === slug).length;
+                const btn = document.createElement('button');
+                btn.id = 'btn-' + slug;
+                btn.className = 'chain-btn p-3 rounded-2xl bg-white border border-gray-200 text-left transition-all hover:border-rose-400 cursor-pointer flex flex-col justify-between';
+                btn.onclick = () => filterChain(slug);
+                btn.innerHTML = `
+                    <div class="text-xs font-bold mb-1 flex items-center justify-between">
+                        <span class="truncate">${meta.nombre}</span>
+                        <i class="fas ${meta.icon} text-[11px] opacity-60"></i>
+                    </div>
+                    <span class="text-[10px] text-gray-400 font-semibold">${count} ${count === 1 ? 'oferta' : 'ofertas'}</span>
+                `;
+                container.appendChild(btn);
+            }
+        }
+
+        function filterChain(slug) {
+            currentFilter = slug;
+            document.querySelectorAll('.chain-btn').forEach(b => b.classList.remove('active'));
+            const activeBtn = document.getElementById('btn-' + slug);
+            if (activeBtn) activeBtn.classList.add('active');
+
+            const headerTitle = document.getElementById('chainTitle');
+            const headerDesc = document.getElementById('chainDesc');
+            const headerIcon = document.getElementById('chainIconBadge');
+            const vigBadge = document.getElementById('chainVigenciaBadge');
+            const vigText = document.getElementById('chainVigenciaText');
+            const countLabel = document.getElementById('promosCountLabel');
+
+            let filtered = [];
+            if (slug === 'todas') {
+                filtered = allPromos;
+                headerTitle.innerText = 'Todas las Cadenas y Canales';
+                headerDesc.innerText = 'Mostrando las 70 promociones oficiales de Buen Fin 2026';
+                headerIcon.innerHTML = '<i class="fas fa-globe"></i>';
+                vigBadge.classList.remove('hidden');
+                vigText.innerText = 'Vigencias Noviembre 2026';
+                countLabel.innerText = '70 promociones disponibles';
+            } else {
+                filtered = allPromos.filter(p => p.cadena_slug === slug);
+                const meta = cadenasMeta[slug] || {};
+                headerTitle.innerText = meta.nombre || slug;
+                headerDesc.innerText = meta.desc || 'Promociones de Buen Fin';
+                headerIcon.innerHTML = `<i class="fas ${meta.icon || 'fa-store'}"></i>`;
+                vigBadge.classList.remove('hidden');
+                vigText.innerText = meta.vig || 'Noviembre 2026';
+                countLabel.innerText = `${filtered.length} ${filtered.length === 1 ? 'promoci&oacute;n' : 'promociones'}`;
+            }
+
+            renderPromos(filtered);
+        }
+
+        function renderPromos(list) {
+            const grid = document.getElementById('promosGrid');
+            const empty = document.getElementById('emptyMessage');
+            grid.innerHTML = '';
+
+            if (!list || list.length === 0) {
+                empty.classList.remove('hidden');
+                return;
+            }
+            empty.classList.add('hidden');
+
+            list.forEach(p => {
+                const card = document.createElement('div');
+                card.className = 'bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col group';
+
+                let priceHtml = '';
+                if (p.precio_promo) {
+                    priceHtml = `
+                        <div class="flex items-baseline gap-2 mt-1">
+                            <span class="text-base font-black text-emerald-600">${p.precio_promo}</span>
+                            ${p.precio_antes ? `<span class="text-xs text-gray-400 line-through">${p.precio_antes}</span>` : ''}
+                        </div>
+                    `;
+                }
+                if (p.ahorro) {
+                    priceHtml += `<span class="inline-block mt-1 text-[10px] font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-md self-start">${p.ahorro}</span>`;
+                }
+
+                card.innerHTML = `
+                    <div class="relative overflow-hidden bg-gray-50 aspect-video flex items-center justify-center cursor-pointer" onclick="openPromoModal('${p.id}')">
+                        <img src="${p.img}" alt="${p.modelo}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                            <span class="opacity-0 group-hover:opacity-100 bg-white/90 text-gray-900 text-xs font-bold py-1.5 px-3 rounded-full shadow-lg transition-opacity flex items-center gap-1.5">
+                                <i class="fas fa-search-plus text-rose-600"></i> Ampliar
+                            </span>
+                        </div>
+                        <span class="absolute top-2 left-2 text-[10px] font-black uppercase py-0.5 px-2 rounded-md bg-gray-950/70 text-white backdrop-blur-sm">
+                            ${p.cadena_nombre}
+                        </span>
+                    </div>
+                    <div class="p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h5 class="font-bold text-sm text-gray-800 leading-tight mb-1 group-hover:text-rose-600 transition-colors">${p.modelo}</h5>
+                            ${priceHtml}
+                        </div>
+                        <div class="mt-3 pt-2.5 border-t border-gray-100 flex items-center justify-between text-[11px] text-gray-400">
+                            <span class="truncate flex items-center gap-1"><i class="fas fa-clock text-[10px]"></i> ${p.vigencia}</span>
+                            <button onclick="openPromoModal('${p.id}')" class="text-rose-600 font-bold hover:underline shrink-0 cursor-pointer">Ver &rarr;</button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function openPromoModal(id) {
+            const p = allPromos.find(item => item.id === id);
+            if (!p) return;
+
+            document.getElementById('modalImg').src = p.img;
+            document.getElementById('modalTitle').innerText = p.modelo;
+            document.getElementById('modalChainTag').innerText = p.cadena_nombre;
+            document.getElementById('modalVigencia').innerText = p.vigencia ? ('Vigencia: ' + p.vigencia) : '';
+
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+
+            if (typeof gtag === 'function') {
+                gtag('event', 'ver_promocion_buen_fin', {
+                    cadena: p.cadena_nombre,
+                    modelo: p.modelo,
+                    recurso: p.img,
+                    modulo: 'Promociones Noviembre'
+                });
+            }
+        }
+
+        function closeImage() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            setTimeout(() => { 
+                document.getElementById('modalImg').src = ''; 
+            }, 200);
+            document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) closeImage();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initChainButtons();
+            renderPromos(allPromos);
+        });
+    </script>
+    <script src="progreso.js?v=20261105"></script>
+</body>
+</html>

@@ -831,7 +831,7 @@
         const links = document.querySelectorAll('a[href$=".html"]');
         links.forEach(function (link) {
             const href = link.getAttribute('href');
-            if (!href || href === 'index.html' || href === 'ola.html' || href === 'capacita-piso.html') return;
+            if (!href || href === 'index.html' || href === 'ola.html' || href === 'capacita-piso.html' || href === 'promociones-noviembre.html') return;
 
             const modStats = getModuleStats(href);
             if (!modStats) return;
@@ -860,7 +860,7 @@
     }
 
     function injectInternalPageBar(pageName) {
-        if (pageName === 'ola.html' || pageName === 'capacita-piso.html') return;
+        if (pageName === 'ola.html' || pageName === 'capacita-piso.html' || pageName === 'promociones-noviembre.html') return;
         const modStats = getModuleStats(pageName);
         if (!modStats) return;
 
