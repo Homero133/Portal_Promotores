@@ -101,8 +101,19 @@
         <!-- LISTA DE CADENAS (CADA BOTON DESPLIEGA SU PROPIA PESTANA CON IMAGENES) -->
         <div class="space-y-4" id="chainsListContainer">
 
+            <!-- AVISO DE PROGRAMACION AUTOMATICA / SIN PROMOS ACTIVAS -->
+            <div id="noActiveNotice" class="hidden bg-white dark:bg-gray-800 rounded-3xl p-8 text-center border border-gray-200 dark:border-gray-700 shadow-sm">
+                <div class="w-16 h-16 mx-auto mb-4 rounded-full bg-rose-50 text-rose-600 flex items-center justify-center text-2xl">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <h3 class="text-xl font-black text-gray-900 dark:text-white mb-2">Promociones en Proceso de Publicaci&oacute;n</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm max-w-md mx-auto leading-relaxed">
+                    Las ofertas del Buen Fin se liberan autom&aacute;ticamente al inicio de su vigencia oficial. Consulta diariamente este apartado para conocer las promociones activas de cada cadena.
+                </p>
+            </div>
+
             <!-- CADENA: Telcel (CAC / CVT / DAT) -->
-            <div id="chain-telcel-cac" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-telcel-cac" data-start="2026-11-05" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('telcel-cac')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -242,7 +253,7 @@
             </div>
 
             <!-- CADENA: AT&T -->
-            <div id="chain-att" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-att" data-start="2026-11-13" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('att')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -404,7 +415,7 @@
             </div>
 
             <!-- CADENA: Elektra -->
-            <div id="chain-elektra" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-elektra" data-start="2026-11-13" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('elektra')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -544,7 +555,7 @@
             </div>
 
             <!-- CADENA: Coppel -->
-            <div id="chain-coppel" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-coppel" data-start="2026-11-13" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('coppel')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -596,7 +607,7 @@
             </div>
 
             <!-- CADENA: Liverpool -->
-            <div id="chain-liverpool" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-liverpool" data-start="2026-11-06" data-end="2026-11-17" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('liverpool')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -812,7 +823,7 @@
             </div>
 
             <!-- CADENA: Sears -->
-            <div id="chain-sears" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-sears" data-start="2026-11-06" data-end="2026-11-17" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('sears')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1080,7 +1091,7 @@
             </div>
 
             <!-- CADENA: Suburbia -->
-            <div id="chain-suburbia" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-suburbia" data-start="2026-11-07" data-end="2026-11-17" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('suburbia')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1299,7 +1310,7 @@
             </div>
 
             <!-- CADENA: Sanborns -->
-            <div id="chain-sanborns" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-sanborns" data-start="2026-11-06" data-end="2026-11-17" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('sanborns')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1567,7 +1578,7 @@
             </div>
 
             <!-- CADENA: El Palacio de Hierro -->
-            <div id="chain-palacio-hierro" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-palacio-hierro" data-start="2026-11-09" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('palacio-hierro')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1732,7 +1743,7 @@
             </div>
 
             <!-- CADENA: Walmart -->
-            <div id="chain-walmart" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-walmart" data-start="2026-11-05" data-end="2026-11-19" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('walmart')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1870,7 +1881,7 @@
             </div>
 
             <!-- CADENA: Sam's Club -->
-            <div id="chain-sams" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-sams" data-start="2026-11-13" data-end="2026-11-18" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('sams')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -1976,7 +1987,7 @@
             </div>
 
             <!-- CADENA: B Hermanos -->
-            <div id="chain-b-hermanos" class="chain-item bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
+            <div id="chain-b-hermanos" data-start="2026-11-01" data-end="2026-11-30" class="chain-item hidden bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden transition-all duration-300">
                 <button onclick="toggleChain('b-hermanos')" class="chain-header w-full p-5 flex items-center justify-between text-left hover:bg-gray-50 transition cursor-pointer">
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 rounded-xl bg-rose-50 text-rose-600 flex items-center justify-center text-xl shrink-0">
@@ -2138,6 +2149,50 @@
     </div>
 
     <script>
+        
+        // MOTOR DE PUBLICACION PROGRAMADA POR FECHA (HORA MEXICO)
+        function applyPromoSchedule() {
+            let todayStr = '';
+            try {
+                const formatter = new Intl.DateTimeFormat('en-CA', {
+                    timeZone: 'America/Mexico_City',
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit'
+                });
+                todayStr = formatter.format(new Date()); // YYYY-MM-DD
+            } catch(e) {
+                const d = new Date();
+                todayStr = d.toISOString().slice(0, 10);
+            }
+
+            const items = document.querySelectorAll('.chain-item');
+            let visibleCount = 0;
+
+            items.forEach(item => {
+                const start = item.getAttribute('data-start');
+                const end = item.getAttribute('data-end');
+
+                if (start && end) {
+                    if (todayStr >= start && todayStr <= end) {
+                        item.classList.remove('hidden');
+                        visibleCount++;
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                }
+            });
+
+            const notice = document.getElementById('noActiveNotice');
+            if (notice) {
+                if (visibleCount === 0) {
+                    notice.classList.remove('hidden');
+                } else {
+                    notice.classList.add('hidden');
+                }
+            }
+        }
+
         function toggleChain(slug) {
             const item = document.getElementById('chain-' + slug);
             const drawer = document.getElementById('drawer-' + slug);
@@ -2200,6 +2255,7 @@
         });
 
         document.addEventListener('DOMContentLoaded', () => {
+            applyPromoSchedule();
             const hash = window.location.hash ? window.location.hash.replace('#', '') : '';
             if (hash) {
                 toggleChain(hash);
