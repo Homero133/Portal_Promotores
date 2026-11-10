@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Elite | Evaluaciones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f1f5f9; color: #0f172a; }
+        .oppo-green { color: #05B670; }
+        .bg-oppo-green { background-color: #05B670; }
+        
+        /* Celdas Crucigrama */
+        .cw-cell {
+            position: relative;
+            width: 38px;
+            height: 38px;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 14px;
+            text-transform: uppercase;
+            transition: all 0.15s ease;
+        }
+        .cw-cell.empty {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            cursor: default;
+        }
+        .cw-cell input {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background: transparent;
+            font-weight: 900;
+            text-transform: uppercase;
+            outline: none;
+            caret-color: #05B670;
+            font-size: 15px;
+            color: #0f172a;
+        }
+        .cw-cell.active-word {
+            background-color: #ecfdf5 !important;
+            border-color: #05B670 !important;
+        }
+        .cw-cell.current-cell {
+            box-shadow: inset 0 0 0 2px #05B670 !important;
+            background-color: #d1fae5 !important;
+        }
+        .cw-cell.correct {
+            background-color: #dcfce7 !important;
+            border-color: #22c55e !important;
+            color: #15803d !important;
+        }
+        .cw-cell.error {
+            background-color: #ffe4e6 !important;
+            border-color: #f43f5e !important;
+            color: #be123c !important;
+        }
+        .cw-num {
+            position: absolute;
+            top: 2px;
+            left: 3px;
+            font-size: 9px;
+            font-weight: 800;
+            color: #64748b;
+            line-height: 1;
+            pointer-events: none;
+        }
+        
+        /* Sopa de Letras */
+        .ws-btn {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 13px;
+            border-radius: 8px;
+            transition: all 0.15s;
+            user-select: none;
+        }
+        .word-found {
+            background-color: #05B670 !important;
+            color: #ffffff !important;
+            font-weight: 900 !important;
+            box-shadow: 0 2px 4px rgba(5, 182, 112, 0.3);
+            transform: scale(0.96);
+        }
+        
+        /* Insignia dorada */
+        .gold-badge-glow {
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.45);
+        }
+    </style>
+</head>
+<body class="min-h-screen pb-16">
+
+    <!-- NAVBAR -->
+    <header class="bg-gradient-to-r from-slate-900 via-slate-900 to-emerald-950 text-white px-6 py-4 shadow-lg sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="comisiones-noviembre.html" class="w-8 h-8 rounded-lg bg-emerald-500 text-black flex items-center justify-center font-black text-sm hover:scale-105 transition" title="Volver al Simulador">
+                    OP
+                </a>
+                <div>
+                    <span class="text-[10px] font-black tracking-widest uppercase text-emerald-400">Portal Elite</span>
+                    <h1 class="text-sm sm:text-base font-black">Evaluaciones</h1>
+                </div>
+            </div>
+            <div class="flex items-center gap-2">
+                <div id="navGoldBadge" class="hidden items-center gap-1.5 px-3 py-1 rounded-xl bg-amber-400/20 text-amber-300 border border-amber-400/40 text-xs font-black animate-pulse">
+                    <i class="fas fa-medal text-amber-400"></i>
+                    <span>Insignia Dorada</span>
+                </div>
+                <a href="proyecto-maestro.html" class="hidden sm:inline-flex text-xs font-bold px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-emerald-300 transition items-center gap-1">
+                    <i class="fas fa-book-bookmark"></i>
+                    <span>Proyecto</span>
+                </a>
+                <a href="presentacion-ejecutiva.html" class="hidden sm:inline-flex text-xs font-bold px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 transition items-center gap-1">
+                    <i class="fas fa-desktop"></i>
+                    <span>Pitch</span>
+                </a>
+                <span id="globalScoreBadge" class="text-xs font-black px-3 py-1.5 rounded-xl bg-white/10 text-emerald-300 border border-white/15">
+                    Puntaje: <span id="userScore">0</span> / 300 pts
+                </span>
+                <a href="comisiones-noviembre.html" class="text-xs font-bold px-3 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black transition">
+                    Simulador &rarr;
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-6 space-y-8">
+
+        <!-- TARJETA DE RECONOCIMIENTO / INSIGNIA DORADA (DESBLOQUEABLE) -->
+        <div id="goldBadgeSection" class="hidden bg-gradient-to-r from-amber-500/15 via-slate-900 to-amber-950/40 border-2 border-amber-400/50 rounded-3xl p-6 sm:p-8 text-white gold-badge-glow transition-all">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-5 text-center sm:text-left">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-3xl text-slate-950 font-black shadow-lg shadow-amber-500/30 shrink-0">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div>
+                        <div class="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-amber-400">
+                            <i class="fas fa-sparkles"></i> Registro Acreditado
+                        </div>
+                        <h2 class="text-xl sm:text-2xl font-black text-white">
+                            Insignia Dorada Élite Desbloqueada
+                        </h2>
+                        <p class="text-xs text-slate-300 mt-1">
+                            Tu perfil registrado (<strong id="profileBadgeName" class="text-amber-300">Promotor Élite</strong>) ha obtenido la máxima distinción por acreditar con éxito las evaluaciones comerciales.
+                        </p>
+                    </div>
+                </div>
+                <div class="shrink-0 flex items-center gap-2">
+                    <span class="px-4 py-2 rounded-xl bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider flex items-center gap-1.5">
+                        <i class="fas fa-award"></i> Insignia Activa
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 1. CRUCIGRAMA -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-th text-emerald-500"></i> Crucigrama
+                    </h3>
+                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve el crucigrama.</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="clearCrossword()" class="px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition">
+                        <i class="fas fa-rotate-left mr-1"></i> Reiniciar
+                    </button>
+                    <button onclick="checkCrossword()" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs transition shadow-sm flex items-center gap-1.5">
+                        <i class="fas fa-check"></i> Validar Crucigrama
+                    </button>
+                </div>
+            </div>
+
+            <!-- Pistas -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-50 p-5 rounded-3xl border border-slate-200">
+                <!-- HORIZONTALES -->
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
+                        <span class="w-6 h-6 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-xs font-black">
+                            <i class="fas fa-arrow-right"></i>
+                        </span>
+                        <h4 class="text-xs font-black uppercase tracking-wider text-slate-800">Horizontales</h4>
+                    </div>
+                    <ul class="space-y-2.5 text-xs text-slate-700" id="cluesH">
+                        <!-- Inyectadas por JS -->
+                    </ul>
+                </div>
+
+                <!-- VERTICALES -->
+                <div class="space-y-3">
+                    <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
+                        <span class="w-6 h-6 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-black">
+                            <i class="fas fa-arrow-down"></i>
+                        </span>
+                        <h4 class="text-xs font-black uppercase tracking-wider text-slate-800">Verticales</h4>
+                    </div>
+                    <ul class="space-y-2.5 text-xs text-slate-700" id="cluesV">
+                        <!-- Inyectadas por JS -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Tablero Gráfico del Crucigrama (14 filas x 14 columnas) -->
+            <div class="flex flex-col items-center justify-center space-y-4 pt-2">
+                <div class="p-3 bg-slate-900 rounded-3xl shadow-xl border-4 border-slate-800 overflow-x-auto max-w-full">
+                    <div id="crosswordGrid" class="grid grid-cols-14 gap-[2px] bg-slate-800 p-2 rounded-2xl" style="grid-template-columns: repeat(14, minmax(0, 1fr));">
+                        <!-- 14x14 = 196 celdas generadas por JS -->
+                    </div>
+                </div>
+
+                <div id="cwStatusFeedback" class="text-xs font-bold text-slate-600 text-center min-h-[20px]">
+                    <i class="fas fa-info-circle text-emerald-500 mr-1"></i> Haz clic en cualquier casilla o pista para escribir cada letra.
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. SOPA DE LETRAS -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-font text-amber-500"></i> Sopa de letras
+                    </h3>
+                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve la sopa de letras.</p>
+                </div>
+                <div class="text-xs font-bold text-slate-600 bg-amber-50 px-3 py-1.5 rounded-xl border border-amber-200">
+                    Palabras encontradas: <span id="wordsFoundCount" class="font-black text-amber-600 text-sm">0</span> / 8
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Tablero Sopa de Letras 12x12 -->
+                <div class="lg:col-span-7 flex flex-col items-center w-full">
+                    <div class="p-3 sm:p-4 bg-slate-100 rounded-3xl border border-slate-200 shadow-inner overflow-x-auto max-w-full">
+                        <div id="wordSearchGrid" class="grid grid-cols-12 gap-1 select-none" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
+                            <!-- Generado dinámicamente -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lista de Palabras por Encontrar (Limpia, sin spoilers de orientación) -->
+                <div class="lg:col-span-5 space-y-3">
+                    <h4 class="text-xs font-black uppercase text-slate-700">Palabras a encontrar:</h4>
+                    <div class="grid grid-cols-2 gap-2 text-xs" id="wsBadgesList">
+                        <!-- Badges inyectados dinámicamente -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. CASOS PRÁCTICOS -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+                <div>
+                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
+                        <i class="fas fa-users-viewfinder text-cyan-500"></i> Casos prácticos
+                    </h3>
+                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve los casos prácticos.</p>
+                </div>
+                <div id="quizScoreText" class="text-xs font-bold text-slate-600 bg-cyan-50 px-3 py-1.5 rounded-xl border border-cyan-200">
+                    3 situaciones
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Caso 1 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-emerald-700 bg-emerald-100 px-2.5 py-1 rounded-lg">
+                            Caso 1 &bull; Demostración de Resistencia
+                        </span>
+                        <span class="text-[11px] font-bold text-slate-500">A7 Pro 5G</span>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-800 leading-snug">
+                        Llega un usuario que trabaja como repartidor en moto y comenta que le da miedo que la lluvia intensa o una caída accidental dañen su teléfono. ¿Qué acción demuestra contundentemente la durabilidad del equipo en piso de venta?
+                    </h4>
+                    <div class="grid grid-cols-1 gap-2.5 text-xs">
+                        <button onclick="answerQuiz(1, 0)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">A)</span>
+                            <span>Explicarle verbalmente la ficha técnica de los componentes y decirle que lo cuide en días lluviosos.</span>
+                        </button>
+                        <button onclick="answerQuiz(1, 1)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">B)</span>
+                            <span>Hacer una demostración física rociando agua o sumergiéndolo brevemente, mostrando cómo responde la pantalla con dedos mojados (certificación IP69K y Splash Touch).</span>
+                        </button>
+                        <button onclick="answerQuiz(1, 2)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">C)</span>
+                            <span>Sugerirle que compre por fuera una funda impermeable sellada para no correr riesgos.</span>
+                        </button>
+                    </div>
+                    <div id="quizFeedback_1" class="text-xs font-bold hidden pt-2"></div>
+                </div>
+
+                <!-- Caso 2 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">
+                            Caso 2 &bull; Manejo de Objeción ("Lo voy a pensar")
+                        </span>
+                        <span class="text-[11px] font-bold text-slate-500">Serie Reno</span>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-800 leading-snug">
+                        El cliente ya conoció el Reno 16 y mostró mucho interés en la cámara, pero al momento de la verdad dice: <em>"Se ve bien, pero lo voy a pensar"</em>. ¿Cómo aplicas escucha activa y empatía para destrabar la conversación sin presionar agresivamente?
+                    </h4>
+                    <div class="grid grid-cols-1 gap-2.5 text-xs">
+                        <button onclick="answerQuiz(2, 0)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">A)</span>
+                            <span>Preguntar con empatía: <em>"Totalmente comprensible, ¿hay algún detalle en especial que le haga dudar, como el presupuesto o compararlo con su celular actual?"</em> para orientarlo con sinceridad.</span>
+                        </button>
+                        <button onclick="answerQuiz(2, 1)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">B)</span>
+                            <span>Mostrarle de inmediato un modelo de gama baja mucho más económico para cerrar la venta a como dé lugar.</span>
+                        </button>
+                        <button onclick="answerQuiz(2, 2)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">C)</span>
+                            <span>Advertirle que la promoción se termina hoy mismo y que si no compra en este minuto perderá el precio.</span>
+                        </button>
+                    </div>
+                    <div id="quizFeedback_2" class="text-xs font-bold hidden pt-2"></div>
+                </div>
+
+                <!-- Caso 3 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[10px] font-black uppercase tracking-wider text-purple-700 bg-purple-100 px-2.5 py-1 rounded-lg">
+                            Caso 3 &bull; Venta Sugerida y Ecosistema IoT
+                        </span>
+                        <span class="text-[11px] font-bold text-slate-500">Audífonos Enco</span>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-800 leading-snug">
+                        El cliente ya eligió su nuevo teléfono y está listo para pasar a caja. ¿Cuál es la técnica idónea para incorporar unos audífonos Enco y potenciar su experiencia y tu ticket?
+                    </h4>
+                    <div class="grid grid-cols-1 gap-2.5 text-xs">
+                        <button onclick="answerQuiz(3, 0)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">A)</span>
+                            <span>Cobrar los audífonos directamente en la cuenta sin avisarle para que se los lleve incluidos.</span>
+                        </button>
+                        <button onclick="answerQuiz(3, 1)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">B)</span>
+                            <span>Esperar a que el cliente pregunte por accesorios en alguna visita futura para no incomodarlo.</span>
+                        </button>
+                        <button onclick="answerQuiz(3, 2)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                            <span class="font-bold text-slate-400">C)</span>
+                            <span>Invitarlo a colocarse una muestra de audífonos Enco para que sienta la comodidad y la cancelación de ruido en tiempo real, vinculándolos a su nuevo teléfono.</span>
+                        </button>
+                    </div>
+                    <div id="quizFeedback_3" class="text-xs font-bold hidden pt-2"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // DATOS MAESTROS DEL CRUCIGRAMA INTERCONECTADO
+        const CW_PLACED = [{"id": 1, "num": 1, "dir": "V", "word": "SONDEO", "r": 0, "c": 6, "clue": "Hacer preguntas abiertas clave antes de mostrar cualquier equipo para descubrir la necesidad del usuario es el <strong>S _ _ _ _ O</strong> efectivo."}, {"id": 2, "num": 2, "dir": "V", "word": "BEACONLINK", "r": 0, "c": 13, "clue": "La tecnología que permite hacer llamadas de voz a distancia vía Bluetooth sin red celular ni Wi-Fi es <strong>B _ _ _ _ _ _ _ _ K</strong>."}, {"id": 3, "num": 3, "dir": "H", "word": "CIERRE", "r": 1, "c": 8, "clue": "El paso natural donde orientas al cliente para formalizar su compra con satisfacción es el <strong>C _ _ _ _ E</strong> comercial."}, {"id": 4, "num": 4, "dir": "V", "word": "EMPATIA", "r": 1, "c": 10, "clue": "Ponerse en los zapatos del comprador para entender su estilo de vida y qué busca realmente es la <strong>E _ _ _ _ _ A</strong>."}, {"id": 5, "num": 5, "dir": "V", "word": "ESCUCHA", "r": 4, "c": 0, "clue": "Prestar atención total al comprador sin interrumpir es la <strong>E _ _ _ _ _ A</strong> activa."}, {"id": 6, "num": 6, "dir": "V", "word": "RENO", "r": 4, "c": 3, "clue": "La serie icónica reconocida mundialmente por su diseño ultraestilizado y retrato experto es la Serie <strong>R _ _ O</strong>."}, {"id": 7, "num": 7, "dir": "H", "word": "SUPERVOOC", "r": 5, "c": 0, "clue": "La tecnología patentada de carga rápida que cuida la batería con disipación térmica es <strong>S _ _ _ _ _ _ _ C</strong>."}, {"id": 8, "num": 8, "dir": "H", "word": "CONFIANZA", "r": 7, "c": 2, "clue": "El vínculo de seguridad y credibilidad mutua que construyes al hablar con total honestidad es la <strong>C _ _ _ _ _ _ _ _ A</strong>."}, {"id": 9, "num": 8, "dir": "V", "word": "COLOROS", "r": 7, "c": 2, "clue": "La capa de personalización fluida, intuitiva y optimizada de OPPO sobre Android es <strong>C _ _ _ _ _ S</strong>."}, {"id": 10, "num": 9, "dir": "V", "word": "IP69K", "r": 7, "c": 6, "clue": "La máxima certificación contra chorros de agua a alta presión y vapor a 80 °C en el A7 Pro 5G es <strong>I _ _ _ K</strong>."}];
+        const CW_CELLS = {"0,6": {"r": 0, "c": 6, "letter": "S", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 0, "word": "SONDEO"}], "start_nums": [1]}, "1,6": {"r": 1, "c": 6, "letter": "O", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 1, "word": "SONDEO"}]}, "2,6": {"r": 2, "c": 6, "letter": "N", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 2, "word": "SONDEO"}]}, "3,6": {"r": 3, "c": 6, "letter": "D", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 3, "word": "SONDEO"}]}, "4,6": {"r": 4, "c": 6, "letter": "E", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 4, "word": "SONDEO"}]}, "5,6": {"r": 5, "c": 6, "letter": "O", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 5, "word": "SONDEO"}, {"id": 7, "num": 7, "dir": "H", "idx": 6, "word": "SUPERVOOC"}]}, "0,13": {"r": 0, "c": 13, "letter": "B", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 0, "word": "BEACONLINK"}], "start_nums": [2]}, "1,13": {"r": 1, "c": 13, "letter": "E", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 1, "word": "BEACONLINK"}, {"id": 3, "num": 3, "dir": "H", "idx": 5, "word": "CIERRE"}]}, "2,13": {"r": 2, "c": 13, "letter": "A", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 2, "word": "BEACONLINK"}]}, "3,13": {"r": 3, "c": 13, "letter": "C", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 3, "word": "BEACONLINK"}]}, "4,13": {"r": 4, "c": 13, "letter": "O", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 4, "word": "BEACONLINK"}]}, "5,13": {"r": 5, "c": 13, "letter": "N", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 5, "word": "BEACONLINK"}]}, "6,13": {"r": 6, "c": 13, "letter": "L", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 6, "word": "BEACONLINK"}]}, "7,13": {"r": 7, "c": 13, "letter": "I", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 7, "word": "BEACONLINK"}]}, "8,13": {"r": 8, "c": 13, "letter": "N", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 8, "word": "BEACONLINK"}]}, "9,13": {"r": 9, "c": 13, "letter": "K", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 9, "word": "BEACONLINK"}]}, "1,8": {"r": 1, "c": 8, "letter": "C", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 0, "word": "CIERRE"}], "start_nums": [3]}, "1,9": {"r": 1, "c": 9, "letter": "I", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 1, "word": "CIERRE"}]}, "1,10": {"r": 1, "c": 10, "letter": "E", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 2, "word": "CIERRE"}, {"id": 4, "num": 4, "dir": "V", "idx": 0, "word": "EMPATIA"}], "start_nums": [4]}, "1,11": {"r": 1, "c": 11, "letter": "R", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 3, "word": "CIERRE"}]}, "1,12": {"r": 1, "c": 12, "letter": "R", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 4, "word": "CIERRE"}]}, "2,10": {"r": 2, "c": 10, "letter": "M", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 1, "word": "EMPATIA"}]}, "3,10": {"r": 3, "c": 10, "letter": "P", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 2, "word": "EMPATIA"}]}, "4,10": {"r": 4, "c": 10, "letter": "A", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 3, "word": "EMPATIA"}]}, "5,10": {"r": 5, "c": 10, "letter": "T", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 4, "word": "EMPATIA"}]}, "6,10": {"r": 6, "c": 10, "letter": "I", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 5, "word": "EMPATIA"}]}, "7,10": {"r": 7, "c": 10, "letter": "A", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 6, "word": "EMPATIA"}, {"id": 8, "num": 8, "dir": "H", "idx": 8, "word": "CONFIANZA"}]}, "4,0": {"r": 4, "c": 0, "letter": "E", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 0, "word": "ESCUCHA"}], "start_nums": [5]}, "5,0": {"r": 5, "c": 0, "letter": "S", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 1, "word": "ESCUCHA"}, {"id": 7, "num": 7, "dir": "H", "idx": 0, "word": "SUPERVOOC"}], "start_nums": [7]}, "6,0": {"r": 6, "c": 0, "letter": "C", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 2, "word": "ESCUCHA"}]}, "7,0": {"r": 7, "c": 0, "letter": "U", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 3, "word": "ESCUCHA"}]}, "8,0": {"r": 8, "c": 0, "letter": "C", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 4, "word": "ESCUCHA"}]}, "9,0": {"r": 9, "c": 0, "letter": "H", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 5, "word": "ESCUCHA"}]}, "10,0": {"r": 10, "c": 0, "letter": "A", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 6, "word": "ESCUCHA"}]}, "4,3": {"r": 4, "c": 3, "letter": "R", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 0, "word": "RENO"}], "start_nums": [6]}, "5,3": {"r": 5, "c": 3, "letter": "E", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 1, "word": "RENO"}, {"id": 7, "num": 7, "dir": "H", "idx": 3, "word": "SUPERVOOC"}]}, "6,3": {"r": 6, "c": 3, "letter": "N", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 2, "word": "RENO"}]}, "7,3": {"r": 7, "c": 3, "letter": "O", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 3, "word": "RENO"}, {"id": 8, "num": 8, "dir": "H", "idx": 1, "word": "CONFIANZA"}]}, "5,1": {"r": 5, "c": 1, "letter": "U", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 1, "word": "SUPERVOOC"}]}, "5,2": {"r": 5, "c": 2, "letter": "P", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 2, "word": "SUPERVOOC"}]}, "5,4": {"r": 5, "c": 4, "letter": "R", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 4, "word": "SUPERVOOC"}]}, "5,5": {"r": 5, "c": 5, "letter": "V", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 5, "word": "SUPERVOOC"}]}, "5,7": {"r": 5, "c": 7, "letter": "O", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 7, "word": "SUPERVOOC"}]}, "5,8": {"r": 5, "c": 8, "letter": "C", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 8, "word": "SUPERVOOC"}]}, "7,2": {"r": 7, "c": 2, "letter": "C", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 0, "word": "CONFIANZA"}, {"id": 9, "num": 8, "dir": "V", "idx": 0, "word": "COLOROS"}], "start_nums": [8, 8]}, "7,4": {"r": 7, "c": 4, "letter": "N", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 2, "word": "CONFIANZA"}]}, "7,5": {"r": 7, "c": 5, "letter": "F", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 3, "word": "CONFIANZA"}]}, "7,6": {"r": 7, "c": 6, "letter": "I", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 4, "word": "CONFIANZA"}, {"id": 10, "num": 9, "dir": "V", "idx": 0, "word": "IP69K"}], "start_nums": [9]}, "7,7": {"r": 7, "c": 7, "letter": "A", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 5, "word": "CONFIANZA"}]}, "7,8": {"r": 7, "c": 8, "letter": "N", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 6, "word": "CONFIANZA"}]}, "7,9": {"r": 7, "c": 9, "letter": "Z", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 7, "word": "CONFIANZA"}]}, "8,2": {"r": 8, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 1, "word": "COLOROS"}]}, "9,2": {"r": 9, "c": 2, "letter": "L", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 2, "word": "COLOROS"}]}, "10,2": {"r": 10, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 3, "word": "COLOROS"}]}, "11,2": {"r": 11, "c": 2, "letter": "R", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 4, "word": "COLOROS"}]}, "12,2": {"r": 12, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 5, "word": "COLOROS"}]}, "13,2": {"r": 13, "c": 2, "letter": "S", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 6, "word": "COLOROS"}]}, "8,6": {"r": 8, "c": 6, "letter": "P", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 1, "word": "IP69K"}]}, "9,6": {"r": 9, "c": 6, "letter": "6", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 2, "word": "IP69K"}]}, "10,6": {"r": 10, "c": 6, "letter": "9", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 3, "word": "IP69K"}]}, "11,6": {"r": 11, "c": 6, "letter": "K", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 4, "word": "IP69K"}]}};
+        const CW_ROWS = 14;
+        const CW_COLS = 14;
+
+        // ESTADO GLOBAL
+        let scoreCrossword = 0;
+        let scoreWordSearch = 0;
+        let scoreQuiz = 0;
+        let activeWordId = null;
+
+        function updateGlobalScore() {
+            const total = scoreCrossword + scoreWordSearch + scoreQuiz;
+            document.getElementById('userScore').textContent = total;
+
+            // Al superar 250 puntos, se desbloquea la Insignia Dorada en su registro
+            if (total >= 250) {
+                const badgeSec = document.getElementById('goldBadgeSection');
+                if (badgeSec) badgeSec.classList.remove('hidden');
+
+                const navBadge = document.getElementById('navGoldBadge');
+                if (navBadge) {
+                    navBadge.classList.remove('hidden');
+                    navBadge.classList.add('flex');
+                }
+
+                try {
+                    const rawProfile = localStorage.getItem('oppo_user_profile');
+                    let prof = rawProfile ? JSON.parse(rawProfile) : {};
+                    prof.insigniaDorada = true;
+                    prof.scoreEvaluaciones = total;
+                    localStorage.setItem('oppo_user_profile', JSON.stringify(prof));
+
+                    if (prof && prof.nombre) {
+                        document.getElementById('profileBadgeName').textContent = prof.nombre + ` (${prof.id || 'ÉLITE'})`;
+                    }
+                } catch(e) {}
+            }
+        }
+
+        // RENDERIZADO DEL CRUCIGRAMA
+        function renderCrossword() {
+            const cluesHEl = document.getElementById('cluesH');
+            const cluesVEl = document.getElementById('cluesV');
+            
+            cluesHEl.innerHTML = '';
+            cluesVEl.innerHTML = '';
+
+            CW_PLACED.forEach(item => {
+                const li = document.createElement('li');
+                li.id = `clue_item_${item.id}`;
+                li.className = "p-2 rounded-xl border border-transparent hover:border-slate-300 hover:bg-white cursor-pointer transition flex items-start gap-2";
+                li.onclick = () => selectWord(item.id);
+
+                li.innerHTML = `
+                    <span class="w-5 h-5 rounded-md ${item.dir === 'H' ? 'bg-emerald-100 text-emerald-800' : 'bg-blue-100 text-blue-800'} flex items-center justify-center font-black text-[11px] shrink-0 mt-0.5">
+                        ${item.num}
+                    </span>
+                    <div class="flex-1">
+                        <p class="leading-snug">${item.clue}</p>
+                        <span id="clueStatus_${item.id}" class="text-[10px] font-black uppercase text-slate-400 mt-0.5 inline-block">Pendiente (${item.word.length} letras)</span>
+                    </div>
+                `;
+
+                if (item.dir === 'H') {
+                    cluesHEl.appendChild(li);
+                } else {
+                    cluesVEl.appendChild(li);
+                }
+            });
+
+            const gridEl = document.getElementById('crosswordGrid');
+            gridEl.innerHTML = '';
+
+            for (let r = 0; r < CW_ROWS; r++) {
+                for (let c = 0; c < CW_COLS; c++) {
+                    const key = `${r},${c}`;
+                    const cellData = CW_CELLS[key];
+                    const cellDiv = document.createElement('div');
+
+                    if (!cellData) {
+                        cellDiv.className = "cw-cell empty";
+                    } else {
+                        cellDiv.className = "cw-cell";
+                        cellDiv.id = `cell_${r}_${c}`;
+
+                        if (cellData.start_nums && cellData.start_nums.length > 0) {
+                            const numSpan = document.createElement('span');
+                            numSpan.className = "cw-num";
+                            numSpan.textContent = cellData.start_nums.join('/');
+                            cellDiv.appendChild(numSpan);
+                        }
+
+                        const input = document.createElement('input');
+                        input.type = "text";
+                        input.maxLength = 1;
+                        input.id = `input_${r}_${c}`;
+                        input.dataset.row = r;
+                        input.dataset.col = c;
+
+                        input.onfocus = () => onCellFocus(r, c);
+                        input.oninput = (e) => onCellInput(e, r, c);
+                        input.onkeydown = (e) => onCellKeydown(e, r, c);
+
+                        cellDiv.appendChild(input);
+                    }
+
+                    gridEl.appendChild(cellDiv);
+                }
+            }
+        }
+
+        function selectWord(wordId) {
+            activeWordId = wordId;
+            const wordData = CW_PLACED.find(w => w.id === wordId);
+            if (!wordData) return;
+
+            CW_PLACED.forEach(w => {
+                const el = document.getElementById(`clue_item_${w.id}`);
+                if (el) el.classList.remove('bg-emerald-100', 'border-emerald-400', 'bg-blue-100', 'border-blue-400');
+            });
+            const activeLi = document.getElementById(`clue_item_${wordId}`);
+            if (activeLi) {
+                activeLi.classList.add(wordData.dir === 'H' ? 'bg-emerald-100' : 'bg-blue-100');
+                activeLi.classList.add(wordData.dir === 'H' ? 'border-emerald-400' : 'border-blue-400');
+            }
+
+            document.querySelectorAll('.cw-cell').forEach(c => c.classList.remove('active-word', 'current-cell'));
+            for (let i = 0; i < wordData.word.length; i++) {
+                const cr = wordData.dir === 'H' ? wordData.r : wordData.r + i;
+                const cc = wordData.dir === 'H' ? wordData.c + i : wordData.c;
+                const cellEl = document.getElementById(`cell_${cr}_${cc}`);
+                if (cellEl) cellEl.classList.add('active-word');
+            }
+
+            const firstInput = document.getElementById(`input_${wordData.r}_${wordData.c}`);
+            if (firstInput) {
+                firstInput.focus();
+                firstInput.parentElement.classList.add('current-cell');
+            }
+        }
+
+        function onCellFocus(r, c) {
+            const cellData = CW_CELLS[`${r},${c}`];
+            if (!cellData) return;
+
+            if (activeWordId) {
+                const belongsToCurrent = cellData.words.some(w => w.id === activeWordId);
+                if (!belongsToCurrent) {
+                    activeWordId = cellData.words[0].id;
+                }
+            } else {
+                activeWordId = cellData.words[0].id;
+            }
+
+            const activeWord = CW_PLACED.find(w => w.id === activeWordId);
+            document.querySelectorAll('.cw-cell').forEach(cl => cl.classList.remove('active-word', 'current-cell'));
+
+            if (activeWord) {
+                for (let i = 0; i < activeWord.word.length; i++) {
+                    const cr = activeWord.dir === 'H' ? activeWord.r : activeWord.r + i;
+                    const cc = activeWord.dir === 'H' ? activeWord.c + i : activeWord.c;
+                    const cEl = document.getElementById(`cell_${cr}_${cc}`);
+                    if (cEl) cEl.classList.add('active-word');
+                }
+            }
+
+            const curCell = document.getElementById(`cell_${r}_${c}`);
+            if (curCell) curCell.classList.add('current-cell');
+        }
+
+        function onCellInput(e, r, c) {
+            const input = e.target;
+            input.value = input.value.toUpperCase();
+
+            if (input.value && activeWordId) {
+                const wordData = CW_PLACED.find(w => w.id === activeWordId);
+                if (!wordData) return;
+
+                let nextR = r;
+                let nextC = c;
+                if (wordData.dir === 'H') {
+                    nextC++;
+                } else {
+                    nextR++;
+                }
+
+                const nextInput = document.getElementById(`input_${nextR}_${nextC}`);
+                if (nextInput) {
+                    nextInput.focus();
+                }
+            }
+        }
+
+        function onCellKeydown(e, r, c) {
+            if (e.key === 'Backspace') {
+                const input = e.target;
+                if (!input.value && activeWordId) {
+                    const wordData = CW_PLACED.find(w => w.id === activeWordId);
+                    if (!wordData) return;
+                    let prevR = r;
+                    let prevC = c;
+                    if (wordData.dir === 'H') {
+                        prevC--;
+                    } else {
+                        prevR--;
+                    }
+                    const prevInput = document.getElementById(`input_${prevR}_${prevC}`);
+                    if (prevInput) {
+                        prevInput.focus();
+                        prevInput.value = '';
+                    }
+                }
+            } else if (e.key === 'ArrowRight') {
+                const next = document.getElementById(`input_${r}_${c + 1}`);
+                if (next) next.focus();
+            } else if (e.key === 'ArrowLeft') {
+                const prev = document.getElementById(`input_${r}_${c - 1}`);
+                if (prev) prev.focus();
+            } else if (e.key === 'ArrowDown') {
+                const down = document.getElementById(`input_${r + 1}_${c}`);
+                if (down) down.focus();
+            } else if (e.key === 'ArrowUp') {
+                const up = document.getElementById(`input_${r - 1}_${c}`);
+                if (up) up.focus();
+            }
+        }
+
+        function checkCrossword() {
+            let correctWordsCount = 0;
+
+            CW_PLACED.forEach(w => {
+                let userWord = '';
+                let isFull = true;
+                let cellsList = [];
+
+                for (let i = 0; i < w.word.length; i++) {
+                    const cr = w.dir === 'H' ? w.r : w.r + i;
+                    const cc = w.dir === 'H' ? w.c + i : w.c;
+                    const inputEl = document.getElementById(`input_${cr}_${cc}`);
+                    const val = inputEl ? inputEl.value.trim().toUpperCase() : '';
+                    userWord += val;
+                    if (!val) isFull = false;
+                    cellsList.push({ r: cr, c: cc, inputEl, expected: w.word[i] });
+                }
+
+                const statusEl = document.getElementById(`clueStatus_${w.id}`);
+                if (userWord === w.word) {
+                    correctWordsCount++;
+                    if (statusEl) {
+                        statusEl.textContent = "¡Correcto!";
+                        statusEl.className = "text-[10px] font-black uppercase text-emerald-600";
+                    }
+                    cellsList.forEach(cl => {
+                        const cell = document.getElementById(`cell_${cl.r}_${cl.c}`);
+                        if (cell) {
+                            cell.classList.remove('error');
+                            cell.classList.add('correct');
+                        }
+                    });
+                } else {
+                    if (statusEl) {
+                        statusEl.textContent = isFull ? "Incorrecto (Revisar)" : "Incompleto";
+                        statusEl.className = "text-[10px] font-black uppercase text-rose-500";
+                    }
+                    if (isFull) {
+                        cellsList.forEach(cl => {
+                            if (cl.inputEl.value !== cl.expected) {
+                                const cell = document.getElementById(`cell_${cl.r}_${cl.c}`);
+                                if (cell && !cell.classList.contains('correct')) {
+                                    cell.classList.add('error');
+                                }
+                            }
+                        });
+                    }
+                }
+            });
+
+            scoreCrossword = Math.round((correctWordsCount / CW_PLACED.length) * 100);
+            const fb = document.getElementById('cwStatusFeedback');
+            if (correctWordsCount === CW_PLACED.length) {
+                fb.innerHTML = `<span class="text-emerald-600 font-black text-sm"><i class="fas fa-check-circle"></i> ¡Crucigrama resuelto! Obtuviste 100 puntos.</span>`;
+            } else {
+                fb.innerHTML = `<span class="text-amber-600 font-bold">${correctWordsCount} de ${CW_PLACED.length} palabras correctas (${scoreCrossword} pts). Revisa las casillas en rojo.</span>`;
+            }
+
+            updateGlobalScore();
+        }
+
+        function clearCrossword() {
+            document.querySelectorAll('.cw-cell input').forEach(input => {
+                input.value = '';
+            });
+            document.querySelectorAll('.cw-cell').forEach(c => {
+                c.classList.remove('correct', 'error', 'active-word', 'current-cell');
+            });
+            CW_PLACED.forEach(w => {
+                const statusEl = document.getElementById(`clueStatus_${w.id}`);
+                if (statusEl) {
+                    statusEl.textContent = `Pendiente (${w.word.length} letras)`;
+                    statusEl.className = "text-[10px] font-black uppercase text-slate-400";
+                }
+            });
+            scoreCrossword = 0;
+            updateGlobalScore();
+            document.getElementById('cwStatusFeedback').innerHTML = `<i class="fas fa-info-circle text-slate-400 mr-1"></i> Crucigrama reiniciado.`;
+        }
+
+        // 2. SOPA DE LETRAS INTERACTIVA
+        const WS_GRID = [["Z", "S", "U", "P", "E", "R", "V", "O", "O", "C", "F", "B"], ["C", "I", "L", "K", "K", "G", "I", "F", "A", "I", "W", "B"], ["O", "D", "X", "R", "C", "B", "D", "J", "K", "V", "Y", "E"], ["L", "B", "P", "O", "P", "C", "A", "M", "W", "J", "E", "A"], ["O", "Z", "E", "W", "R", "K", "S", "X", "L", "R", "U", "C"], ["R", "B", "O", "U", "R", "H", "E", "R", "N", "E", "L", "O"], ["O", "G", "J", "O", "E", "N", "F", "D", "Q", "T", "F", "N"], ["S", "P", "P", "Y", "N", "F", "I", "N", "D", "R", "L", "L"], ["U", "C", "I", "S", "O", "W", "F", "Q", "D", "A", "W", "I"], ["M", "Z", "Y", "P", "X", "J", "E", "D", "C", "T", "A", "N"], ["K", "O", "E", "N", "C", "O", "M", "D", "K", "O", "F", "K"], ["Q", "L", "S", "Z", "P", "H", "P", "P", "J", "A", "L", "E"]];
+        const WS_WORDS = [{"word": "SUPERVOOC"}, {"word": "POPCAM"}, {"word": "FIND"}, {"word": "ENCO"}, {"word": "COLOROS"}, {"word": "BEACONLINK"}, {"word": "RETRATO"}, {"word": "RENO"}];
+
+        let wsSelected = [];
+        let wsFound = new Set();
+
+        function renderWordSearch() {
+            const gridEl = document.getElementById('wordSearchGrid');
+            gridEl.innerHTML = '';
+
+            for (let r = 0; r < 12; r++) {
+                for (let c = 0; c < 12; c++) {
+                    const char = WS_GRID[r][c];
+                    const btn = document.createElement('button');
+                    btn.id = `ws_${r}_${c}`;
+                    btn.textContent = char;
+                    btn.className = "ws-btn bg-white border border-slate-200 text-slate-800 hover:bg-amber-100 transition shadow-xs";
+                    btn.onclick = () => onWsClick(r, c, char);
+                    gridEl.appendChild(btn);
+                }
+            }
+
+            // Renderizar lista limpia de palabras a encontrar (sin etiquetas de orientación HOR/VERT)
+            const badgesEl = document.getElementById('wsBadgesList');
+            badgesEl.innerHTML = WS_WORDS.map(item => `
+                <div id="wsBadge_${item.word}" class="p-3 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-700 flex items-center justify-between transition hover:bg-slate-100">
+                    <span class="tracking-wide">${item.word}</span>
+                    <i class="fas fa-circle text-[8px] text-slate-300"></i>
+                </div>
+            `).join('');
+        }
+
+        function onWsClick(r, c, char) {
+            const btn = document.getElementById(`ws_${r}_${c}`);
+            if (btn.classList.contains('word-found')) return;
+
+            const existingIdx = wsSelected.findIndex(item => item.r === r && item.c === c);
+            if (existingIdx >= 0) {
+                wsSelected.splice(existingIdx, 1);
+                btn.classList.remove('bg-amber-300', 'text-black', 'border-amber-400');
+            } else {
+                wsSelected.push({ r, c, char });
+                btn.classList.add('bg-amber-300', 'text-black', 'border-amber-400');
+            }
+
+            checkWsWord();
+        }
+
+        function checkWsWord() {
+            const selectedStr = wsSelected.map(s => s.char).join('');
+            const targetWord = WS_WORDS.find(w => w.word === selectedStr && !wsFound.has(w.word));
+
+            if (targetWord) {
+                wsFound.add(targetWord.word);
+
+                wsSelected.forEach(s => {
+                    const b = document.getElementById(`ws_${s.r}_${s.c}`);
+                    b.classList.remove('bg-amber-300', 'text-black', 'border-amber-400');
+                    b.classList.add('word-found');
+                });
+                wsSelected = [];
+
+                const badge = document.getElementById(`wsBadge_${targetWord.word}`);
+                if (badge) {
+                    badge.classList.remove('bg-slate-50', 'border-slate-200');
+                    badge.classList.add('bg-emerald-50', 'border-emerald-300', 'text-emerald-800', 'line-through');
+                    badge.querySelector('i').className = "fas fa-check-circle text-emerald-600 text-sm";
+                }
+
+                document.getElementById('wordsFoundCount').textContent = wsFound.size;
+                scoreWordSearch = Math.round((wsFound.size / WS_WORDS.length) * 100);
+                updateGlobalScore();
+            }
+        }
+
+        // 3. CASOS PRÁCTICOS
+        const QUIZ_ANSWERS = { 1: 1, 2: 0, 3: 2 };
+        let quizState = {};
+
+        function answerQuiz(qNum, optIdx) {
+            const isCorrect = (optIdx === QUIZ_ANSWERS[qNum]);
+            const btns = document.querySelectorAll(`.quiz-btn-${qNum}`);
+            btns.forEach((b, idx) => {
+                b.disabled = true;
+                if (idx === QUIZ_ANSWERS[qNum]) {
+                    b.className = "quiz-btn-" + qNum + " p-3.5 rounded-xl bg-emerald-50 border border-emerald-500 text-emerald-800 text-left font-bold transition flex items-start gap-2";
+                } else if (idx === optIdx && !isCorrect) {
+                    b.className = "quiz-btn-" + qNum + " p-3.5 rounded-xl bg-rose-50 border border-rose-400 text-rose-800 text-left font-medium transition flex items-start gap-2";
+                }
+            });
+
+            const fb = document.getElementById(`quizFeedback_${qNum}`);
+            fb.classList.remove('hidden');
+            if (isCorrect) {
+                fb.innerHTML = `<span class="text-emerald-600 font-bold"><i class="fas fa-check-circle"></i> ¡Excelente decisión! Genera confianza y valida el producto con profesionalismo.</span>`;
+                quizState[qNum] = true;
+            } else {
+                fb.innerHTML = `<span class="text-rose-500 font-bold"><i class="fas fa-times-circle"></i> Opción no recomendada. La respuesta ideal en piso de venta está señalada en verde.</span>`;
+                quizState[qNum] = false;
+            }
+
+            const correctCount = Object.values(quizState).filter(Boolean).length;
+            scoreQuiz = Math.round((correctCount / 3) * 100);
+            document.getElementById('quizScoreText').textContent = `${correctCount} de 3 correctas (${scoreQuiz} pts)`;
+            updateGlobalScore();
+        }
+
+        // INICIALIZACIÓN
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCrossword();
+            renderWordSearch();
+
+            try {
+                const rawProfile = localStorage.getItem('oppo_user_profile');
+                if (rawProfile) {
+                    const prof = JSON.parse(rawProfile);
+                    if (prof && prof.insigniaDorada) {
+                        const badgeSec = document.getElementById('goldBadgeSection');
+                        if (badgeSec) badgeSec.classList.remove('hidden');
+                        const navBadge = document.getElementById('navGoldBadge');
+                        if (navBadge) {
+                            navBadge.classList.remove('hidden');
+                            navBadge.classList.add('flex');
+                        }
+                        if (prof.nombre) {
+                            document.getElementById('profileBadgeName').textContent = prof.nombre + ` (${prof.id || 'ÉLITE'})`;
+                        }
+                    }
+                }
+            } catch(e) {}
+        });
+    </script>
+</body>
+</html>
