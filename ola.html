@@ -59,9 +59,14 @@
                 <a href="index.html" class="mr-4 text-xl p-2 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition"><i class="fas fa-arrow-left"></i></a>
                 <h1 class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Programa OLA &bull; Olipuntos</h1>
             </div>
-            <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
-                <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
-            </button>
+            <div class="flex items-center gap-2">
+                <button onclick="window.portalAuth && window.portalAuth.logout()" class="inline-flex items-center gap-1.5 text-xs font-bold bg-gray-100 hover:bg-rose-100 text-gray-700 px-3 py-2 rounded-full transition cursor-pointer" title="Cambiar ID o cerrar sesi&oacute;n">
+                    <i class="fas fa-exchange-alt"></i> <span class="hidden sm:inline">Cambiar ID</span>
+                </button>
+                <button onclick="toggleDarkMode()" class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition">
+                    <i id="themeIcon" class="fas fa-moon text-gray-600 dark:text-yellow-400"></i>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -90,6 +95,22 @@
             </div>
         </div>
 
+        <!-- BANNER DE CADENA / AUDITOR EN OLA -->
+        <div id="olaRoleBanner" class="hidden mb-6 rounded-2xl p-4 border shadow-sm flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-3">
+                <div id="olaRoleIconBox" class="w-9 h-9 rounded-xl flex items-center justify-center text-sm font-black shrink-0"><i class="fas fa-store"></i></div>
+                <div>
+                    <div id="olaRoleEyebrow" class="text-[10px] font-black uppercase tracking-wider">Programa OLA</div>
+                    <div id="olaRoleTitle" class="text-sm font-black">Cargando...</div>
+                </div>
+            </div>
+        </div>
+        <div id="olaNoMatchNotice" class="hidden bg-white rounded-3xl p-8 mb-6 text-center border border-gray-200 shadow-sm">
+            <div class="w-14 h-14 mx-auto mb-3 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center text-2xl"><i class="fas fa-info-circle"></i></div>
+            <h4 class="text-lg font-black text-gray-800 mb-1">Sin tablas OLA para tu cadena</h4>
+            <p id="olaNoMatchDesc" class="text-sm text-gray-500 max-w-md mx-auto">Tu perfil no tiene tablas de Olipuntos asignadas en este apartado.</p>
+        </div>
+
         <!-- SECCION PRINCIPAL: NOVIEMBRE 2026 (PROTAGONISTA) -->
         <div id="seccionNoviembre">
             <div class="flex items-center justify-between mb-6">
@@ -97,11 +118,11 @@
                     <span class="w-3 h-3 rounded-full bg-emerald-500 animate-pulse"></span>
                     <h3 class="text-lg font-black tracking-wide text-gray-700 dark:text-gray-300 uppercase">Tablas de Olipuntos &bull; Noviembre 2026</h3>
                 </div>
-                <span class="text-xs text-gray-400 font-semibold">16 Cadenas y Carriers</span>
+                <span id="olaCountBadge" class="text-xs text-gray-400 font-semibold">16 Cadenas y Carriers</span>
             </div>
 
             <!-- COPPEL -->
-            <div class="mb-8">
+            <div class="mb-8 ola-chain-block" data-ola-chains="coppel">
                 <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-yellow-400 rounded-full mr-3"></div> COPPEL</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <button onclick="openImage('Recursos/ola/noviembre/coppel-telcel.jpeg', 'Coppel Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
@@ -120,7 +141,7 @@
             </div>
 
             <!-- ELEKTRA -->
-            <div class="mb-8">
+            <div class="mb-8 ola-chain-block" data-ola-chains="elektra">
                 <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-600 rounded-full mr-3"></div> ELEKTRA</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <button onclick="openImage('Recursos/ola/noviembre/elektra-telcel.jpeg', 'Elektra Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
@@ -139,7 +160,7 @@
             </div>
 
             <!-- SEARS -->
-            <div class="mb-8">
+            <div class="mb-8 ola-chain-block" data-ola-chains="sears">
                 <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-red-700 rounded-full mr-3"></div> SEARS</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <button onclick="openImage('Recursos/ola/noviembre/sears-telcel.jpeg', 'Sears Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
@@ -155,14 +176,14 @@
 
             <!-- SUBURBIA Y SANBORNS -->
             <div class="mb-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
+                <div class="ola-chain-block" data-ola-chains="suburbia">
                     <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-purple-600 rounded-full mr-3"></div> SUBURBIA</h4>
                     <button onclick="openImage('Recursos/ola/noviembre/suburbia-telcel.jpeg', 'Suburbia Telcel - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
                 </div>
-                <div>
+                <div class="ola-chain-block" data-ola-chains="sanborns">
                     <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-orange-600 rounded-full mr-3"></div> SANBORNS</h4>
                     <button onclick="openImage('Recursos/ola/noviembre/sanborns-telcel.jpeg', 'Sanborns Telcel - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-mobile-alt"></i></div><div><span class="font-bold block text-left">Telcel</span><span class="text-xs text-gray-400 block text-left">Olipuntos Noviembre</span></div></div>
@@ -172,22 +193,22 @@
             </div>
 
             <!-- OTRAS CADENAS (TELCEL) -->
-            <div class="mb-8">
+            <div class="mb-8 ola-chain-block" data-ola-chains="sams,walmart,palacio-hierro,chedraui">
                 <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-teal-500 rounded-full mr-3"></div> OTRAS CADENAS (TELCEL)</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                    <button onclick="openImage('Recursos/ola/noviembre/sams-telcel.jpeg', 'Sam s Club Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                    <button data-ola-chains="sams" onclick="openImage('Recursos/ola/noviembre/sams-telcel.jpeg', 'Sam s Club Telcel - Noviembre')" class="ola-chain-block bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-store"></i></div><div><span class="font-bold block text-left">Sam&apos;s Club</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
-                    <button onclick="openImage('Recursos/ola/noviembre/walmart-telcel.jpeg', 'Walmart Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                    <button data-ola-chains="walmart" onclick="openImage('Recursos/ola/noviembre/walmart-telcel.jpeg', 'Walmart Telcel - Noviembre')" class="ola-chain-block bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-shopping-cart"></i></div><div><span class="font-bold block text-left">Walmart</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
-                    <button onclick="openImage('Recursos/ola/noviembre/palacio-hierro-telcel.jpeg', 'Palacio de Hierro Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                    <button data-ola-chains="palacio-hierro" onclick="openImage('Recursos/ola/noviembre/palacio-hierro-telcel.jpeg', 'Palacio de Hierro Telcel - Noviembre')" class="ola-chain-block bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-gem"></i></div><div><span class="font-bold block text-left text-sm">Palacio Hierro</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
-                    <button onclick="openImage('Recursos/ola/noviembre/chedraui-telcel.jpeg', 'Chedraui Telcel - Noviembre')" class="bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
+                    <button data-ola-chains="chedraui" onclick="openImage('Recursos/ola/noviembre/chedraui-telcel.jpeg', 'Chedraui Telcel - Noviembre')" class="ola-chain-block bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-shopping-basket"></i></div><div><span class="font-bold block text-left">Chedraui</span><span class="text-xs text-gray-400 block text-left">Telcel</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
@@ -196,14 +217,14 @@
 
             <!-- DISTRIBUIDORES CARRIERS (AT&T / MOVISTAR) -->
             <div class="mb-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
+                <div class="ola-chain-block" data-ola-chains="att">
                     <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-blue-500 rounded-full mr-3"></div> AT&T DISTRIBUIDORES</h4>
                     <button onclick="openImage('Recursos/ola/noviembre/att-distribuidores.jpeg', 'AT&T Distribuidores - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-3 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition"><i class="fas fa-network-wired"></i></div><div class="text-left"><span class="font-bold block">CAE y Distribuidores</span><span class="text-xs text-gray-500 font-normal">Excepto Prime y Num Uno &bull; Noviembre</span></div></div>
                         <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-500 transition"></i>
                     </button>
                 </div>
-                <div>
+                <div class="ola-chain-block" data-ola-chains="movistar">
                     <h4 class="text-xl font-bold mb-4 text-gray-800 flex items-center"><div class="w-2 h-6 bg-emerald-500 rounded-full mr-3"></div> MOVISTAR</h4>
                     <button onclick="openImage('Recursos/ola/noviembre/movistar-general.jpeg', 'Movistar General - Noviembre')" class="w-full bg-white p-5 rounded-2xl shadow-sm border border-gray-100 flex items-center justify-between hover:shadow-md hover:border-blue-200 transition group cursor-pointer">
                         <div class="flex items-center"><div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center mr-3 text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition"><i class="fas fa-chart-line"></i></div><div class="text-left"><span class="font-bold block">Puntos Movistar</span><span class="text-xs text-gray-500 font-normal">Vendedor y Gerente &bull; Noviembre</span></div></div>
@@ -229,7 +250,7 @@
             </div>
 
             <!-- COPPEL OCTUBRE -->
-            <div class="mb-8 opacity-90">
+            <div class="mb-8 opacity-90 ola-chain-block" data-ola-chains="coppel">
                 <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-yellow-400 rounded-full mr-2"></div> COPPEL (Octubre)</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     <button onclick="openImage('Recursos/ola/octubre/Coppel telcel.jpg', 'Coppel Telcel - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
@@ -248,7 +269,7 @@
             </div>
 
             <!-- ELEKTRA OCTUBRE -->
-            <div class="mb-8 opacity-90">
+            <div class="mb-8 opacity-90 ola-chain-block" data-ola-chains="elektra">
                 <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-red-600 rounded-full mr-2"></div> ELEKTRA (Octubre)</h4>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     <button onclick="openImage('Recursos/ola/octubre/elektra telcel.jpg', 'Elektra Telcel - Octubre')" class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
@@ -268,7 +289,7 @@
 
             <!-- SEARS, SUBURBIA Y DISTRIBUIDORES OCTUBRE -->
             <div class="mb-8 opacity-90 grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div>
+                <div class="ola-chain-block" data-ola-chains="sears">
                     <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-red-700 rounded-full mr-2"></div> SEARS (Oct)</h4>
                     <div class="space-y-2">
                         <button onclick="openImage('Recursos/ola/octubre/sears telcel.jpg', 'Sears Telcel - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
@@ -279,13 +300,13 @@
                         </button>
                     </div>
                 </div>
-                <div>
+                <div class="ola-chain-block" data-ola-chains="suburbia">
                     <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-purple-600 rounded-full mr-2"></div> SUBURBIA (Oct)</h4>
                     <button onclick="openImage('Recursos/ola/octubre/suburbia telcel.jpg', 'Suburbia Telcel - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
                         <span class="text-sm font-semibold">Telcel</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
                     </button>
                 </div>
-                <div>
+                <div class="ola-chain-block" data-ola-chains="att">
                     <h4 class="text-lg font-bold mb-3 text-gray-700 dark:text-gray-300 flex items-center"><div class="w-2 h-5 bg-blue-500 rounded-full mr-2"></div> AT&T DIST. (Oct)</h4>
                     <button onclick="openImage('Recursos/ola/octubre/ATT cae y distribuidores  (excepto prime y num uno).jpg', 'AT&T Distribuidores - Octubre')" class="w-full bg-white p-3 rounded-xl shadow-sm border border-gray-100 flex items-center justify-between hover:border-gray-300 transition cursor-pointer">
                         <span class="text-sm font-semibold">CAE y Distribuidores</span><i class="fas fa-external-link-alt text-xs text-gray-300"></i>
@@ -311,6 +332,7 @@
         <div class="absolute bottom-5 text-white/60 text-xs tracking-wide">Pellizca o haz doble toque en la pantalla para hacer zoom</div>
     </div>
 
+    <script src="portal-auth.js?v=20261111"></script>
     <script>
         function toggleOctubre() {
             const sec = document.getElementById('seccionOctubre');
@@ -364,7 +386,80 @@
                 closeImage();
             }
         });
+
+        function applyOlaChainFilter(profile) {
+            if (!profile) return;
+            const isAud = !!(profile.role === 'auditor' || profile.isAuditor);
+            const allowed = Array.isArray(profile.cadenas_slugs) ? profile.cadenas_slugs : [];
+
+            const banner = document.getElementById('olaRoleBanner');
+            const eyebrow = document.getElementById('olaRoleEyebrow');
+            const titleEl = document.getElementById('olaRoleTitle');
+            const iconBox = document.getElementById('olaRoleIconBox');
+            const countBadge = document.getElementById('olaCountBadge');
+
+            if (banner) {
+                banner.classList.remove('hidden');
+                if (isAud) {
+                    banner.className = 'mb-6 rounded-2xl p-4 border border-amber-300 bg-amber-50 text-amber-950 shadow-sm flex flex-wrap items-center justify-between gap-3';
+                    if (iconBox) {
+                        iconBox.className = 'w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center text-sm font-black shrink-0';
+                        iconBox.innerHTML = '<i class="fas fa-shield-alt"></i>';
+                    }
+                    if (eyebrow) eyebrow.textContent = 'Modo Auditor • Acceso 100%';
+                    if (titleEl) titleEl.textContent = profile.idEmpleado + ' — Viendo todas las tablas de Olipuntos';
+                } else {
+                    const chName = profile.cadena_oficial || profile.cadena || 'Tu Cadena';
+                    banner.className = 'mb-6 rounded-2xl p-4 border border-blue-200 bg-blue-50 text-blue-950 shadow-sm flex flex-wrap items-center justify-between gap-3';
+                    if (iconBox) {
+                        iconBox.className = 'w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center text-sm font-black shrink-0';
+                        iconBox.innerHTML = '<i class="fas fa-store"></i>';
+                    }
+                    if (eyebrow) eyebrow.textContent = 'Tablas Exclusivas de Tu Cadena';
+                    if (titleEl) titleEl.textContent = chName + (profile.tienda ? ' (' + profile.tienda + ')' : '');
+                }
+            }
+
+            let novVisible = 0;
+            const blocks = document.querySelectorAll('.ola-chain-block');
+            blocks.forEach(function (el) {
+                const tags = (el.getAttribute('data-ola-chains') || '').split(',').map(s => s.trim()).filter(Boolean);
+                const match = isAud || tags.some(t => allowed.indexOf(t) !== -1);
+                if (match) {
+                    el.classList.remove('hidden');
+                    if (el.closest('#seccionNoviembre')) novVisible++;
+                } else {
+                    el.classList.add('hidden');
+                }
+            });
+
+            const noMatch = document.getElementById('olaNoMatchNotice');
+            const noMatchDesc = document.getElementById('olaNoMatchDesc');
+            if (noMatch) {
+                if (!isAud && novVisible === 0) {
+                    noMatch.classList.remove('hidden');
+                    if (noMatchDesc) {
+                        const chName = profile.cadena_oficial || profile.cadena || 'tu cadena';
+                        noMatchDesc.textContent = 'Tu perfil (' + chName + ') no cuenta con tablas de Olipuntos OLA asignadas en este apartado.';
+                    }
+                } else {
+                    noMatch.classList.add('hidden');
+                }
+            }
+            if (countBadge) {
+                countBadge.textContent = isAud ? '16 Cadenas y Carriers' : (novVisible > 0 ? 'Filtrado a tu cadena' : 'Sin tablas aplicables');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            if (window.portalAuth) {
+                window.portalAuth.requireAuth(applyOlaChainFilter);
+            }
+        });
+        document.addEventListener('portal-auth-ready', function (e) {
+            applyOlaChainFilter(e.detail);
+        });
     </script>
-    <script src="progreso.js?v=20261105"></script>
+    <script src="progreso.js?v=20261111"></script>
 </body>
 </html>

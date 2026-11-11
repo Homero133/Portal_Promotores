@@ -728,12 +728,12 @@
                             '<img src="Recursos/Logo/favicon.png" alt="Portal Elite" class="w-14 h-14 rounded-2xl object-cover border border-amber-400/50 shadow-lg shrink-0">' +
                             '<div>' +
                                 '<span class="inline-block text-[11px] font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/30 px-2.5 py-0.5 rounded-full mb-1">Portal Elite</span>' +
-                                '<h3 class="text-xl font-black">Reg&iacute;strate para guardar tu progreso</h3>' +
-                                '<p class="text-gray-300 text-xs sm:text-sm">Lleva el control de tus c&aacute;psulas completadas y desbloquea tu Certificado Digital Elite.</p>' +
+                                '<h3 class="text-xl font-black">Ingresa tu ID para desbloquear tu portal</h3>' +
+                                '<p class="text-gray-300 text-xs sm:text-sm">Lleva el control de tus c&aacute;psulas completadas, promociones de tu cadena y simulador de comisiones.</p>' +
                             '</div>' +
                         '</div>' +
-                        '<button onclick="window.oppoProgress.openProfileModal()" class="w-full sm:w-auto bg-oppogreen hover:bg-emerald-500 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transition transform hover:scale-105 text-sm shrink-0">' +
-                            '<i class="fas fa-id-badge mr-2"></i> Comenzar Registro' +
+                        '<button onclick="window.portalAuth ? window.portalAuth.showAuthModal() : window.oppoProgress.openProfileModal()" class="w-full sm:w-auto bg-oppogreen hover:bg-emerald-500 text-white font-bold py-3 px-6 rounded-2xl shadow-lg transition transform hover:scale-105 text-sm shrink-0">' +
+                            '<i class="fas fa-id-badge mr-2"></i> Ingresar ID' +
                         '</button>' +
                     '</div>' +
                     '<div class="mt-5 pt-4 border-t border-white/10">' +
@@ -749,6 +749,8 @@
             return;
         }
 
+        const isAud = !!(user.role === 'auditor' || user.isAuditor);
+        const chainLabel = isAud ? 'Auditor • Acceso 100%' : (user.cadena_oficial || user.cadena || '-');
         const initials = user.nombre
             .split(' ')
             .filter(Boolean)
@@ -758,20 +760,24 @@
 
         const hideData = isPrivacyModeEnabled();
         const displayName = hideData ? escapeHtml(maskPromotorName(user.nombre)) : escapeHtml(user.nombre);
+        const roleBadgeHtml = isAud
+            ? '<span class="text-xs font-black text-amber-300 bg-amber-500/20 border border-amber-400/50 px-2.5 py-0.5 rounded-full"><i class="fas fa-shield-alt mr-1"></i> MODO AUDITOR</span>'
+            : '';
         const badgesExtraHtml = hideData
             ? '<span class="text-xs font-bold text-amber-300 bg-amber-400/15 border border-amber-400/35 px-2.5 py-0.5 rounded-full">' +
                   '<i class="fas fa-eye-slash mr-1 text-amber-400"></i> Datos ocultos' +
               '</span>'
-            : '<span class="text-xs font-bold text-white bg-oppogreen/30 border border-oppogreen/50 px-2.5 py-0.5 rounded-full">' +
+            : roleBadgeHtml +
+              '<span class="text-xs font-bold text-white bg-oppogreen/30 border border-oppogreen/50 px-2.5 py-0.5 rounded-full">' +
                   '<i class="fas fa-id-card mr-1 text-oppogreen"></i> ID: ' + escapeHtml(user.idEmpleado) +
               '</span>' +
               '<span class="text-xs text-gray-300 bg-white/10 px-2.5 py-0.5 rounded-full">' +
-                  '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(user.cadena) +
+                  '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(chainLabel) +
               '</span>';
 
         const subtitleHtml = hideData
             ? 'ID: &bull;&bull;&bull;&bull;&bull;&bull;' + (user.telefono ? ' &bull; Tel: &bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;' : '') + ' &bull; Cadena y sucursal protegidas'
-            : escapeHtml(user.ciudad) + (user.telefono ? ' &bull; Tel: ' + escapeHtml(user.telefono) : '');
+            : (user.tienda && !isAud ? escapeHtml(user.tienda) + ' &bull; ' : '') + escapeHtml(user.ciudad || '-') + (user.telefono ? ' &bull; Tel: ' + escapeHtml(user.telefono) : '');
 
         const eyeBtnClass = hideData
             ? 'bg-amber-400/20 hover:bg-amber-400/30 text-amber-300 border border-amber-400/40'
@@ -779,6 +785,9 @@
         const eyeIcon = hideData ? 'fa-eye-slash' : 'fa-eye';
         const eyeTitle = hideData ? 'Mostrar mis datos de registro' : 'Ocultar mis datos para tomar captura';
         const eyeLabel = hideData ? 'Mostrar datos' : 'Ocultar datos';
+        const logoutBtnHtml = '<button onclick="window.portalAuth ? window.portalAuth.logout() : window.oppoProgress.openProfileModal()" title="Cambiar ID o cerrar sesi&oacute;n" class="bg-white/10 hover:bg-rose-500/30 text-white text-xs sm:text-sm font-semibold py-2.5 px-3 rounded-xl transition flex items-center gap-1.5">' +
+            '<i class="fas fa-exchange-alt"></i> <span class="text-xs hidden sm:inline">Cambiar ID</span>' +
+        '</button>';
 
         container.innerHTML =
             '<div class="bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-3xl p-6 text-white shadow-xl border border-white/10 relative overflow-hidden">' +
@@ -805,9 +814,10 @@
                         '<button onclick="window.oppoProgress.togglePrivacyMode()" title="' + eyeTitle + '" class="' + eyeBtnClass + ' text-xs sm:text-sm font-semibold py-2.5 px-3 rounded-xl transition flex items-center gap-1.5">' +
                             '<i class="fas ' + eyeIcon + '"></i> <span class="text-xs">' + eyeLabel + '</span>' +
                         '</button>' +
-                        '<button onclick="window.oppoProgress.openProfileModal()" title="Editar mis datos" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium py-2.5 px-3 rounded-xl transition">' +
+                        '<button onclick="window.oppoProgress.openProfileModal()" title="Editar tel&eacute;fono / sucursal" class="bg-white/10 hover:bg-white/20 text-white text-xs sm:text-sm font-medium py-2.5 px-3 rounded-xl transition">' +
                             '<i class="fas fa-user-edit"></i>' +
                         '</button>' +
+                        logoutBtnHtml +
                     '</div>' +
                 '</div>' +
                 '<div class="mt-5">' +
@@ -1132,27 +1142,52 @@
 
         document.body.appendChild(modalWrapper);
 
-        // Si el usuario nunca se ha registrado y entra a index.html, mostrar registro tras 1.5s
-        const user = getUserProfile();
-        if (!user && getCurrentPageName() === 'index.html' && !sessionStorage.getItem('oppo_prompted_reg')) {
-            sessionStorage.setItem('oppo_prompted_reg', '1');
-            setTimeout(function () {
-                openProfileModal();
-            }, 1200);
+        // Si existe portalAuth, él se encarga del acceso obligatorio por ID
+        if (!window.portalAuth) {
+            const user = getUserProfile();
+            if (!user && getCurrentPageName() === 'index.html' && !sessionStorage.getItem('oppo_prompted_reg')) {
+                sessionStorage.setItem('oppo_prompted_reg', '1');
+                setTimeout(function () {
+                    openProfileModal();
+                }, 1200);
+            }
         }
     }
 
     function openProfileModal() {
+        const user = getUserProfile();
+        if (!user && window.portalAuth) {
+            window.portalAuth.showAuthModal();
+            return;
+        }
         const modal = document.getElementById('oppoProfileModal');
         if (!modal) return;
-        const user = getUserProfile();
         if (user) {
-            document.getElementById('oppoInputNombre').value = user.nombre || '';
-            document.getElementById('oppoInputId').value = user.idEmpleado || '';
-            const telInput = document.getElementById('oppoInputTelefono');
-            if (telInput) telInput.value = user.telefono || '';
-            document.getElementById('oppoInputCadena').value = user.cadena || '';
-            document.getElementById('oppoInputCiudad').value = user.ciudad || '';
+            const idEl = document.getElementById('oppoInputId');
+            const nomEl = document.getElementById('oppoInputNombre');
+            const cadEl = document.getElementById('oppoInputCadena');
+            const telEl = document.getElementById('oppoInputTelefono');
+            const ciuEl = document.getElementById('oppoInputCiudad');
+            if (nomEl) nomEl.value = user.nombre || '';
+            if (idEl) {
+                idEl.value = user.idEmpleado || '';
+                idEl.readOnly = true;
+                idEl.classList.add('opacity-70', 'cursor-not-allowed');
+            }
+            if (telEl) telEl.value = user.telefono || '';
+            if (cadEl) {
+                const cadVal = user.cadena || '';
+                if (!Array.from(cadEl.options).some(function (o) { return o.value === cadVal; }) && cadVal) {
+                    const opt = document.createElement('option');
+                    opt.value = cadVal;
+                    opt.textContent = cadVal;
+                    cadEl.appendChild(opt);
+                }
+                cadEl.value = cadVal;
+                cadEl.disabled = true;
+                cadEl.classList.add('opacity-70', 'cursor-not-allowed');
+            }
+            if (ciuEl) ciuEl.value = user.ciudad || '';
         }
         modal.classList.remove('hidden');
         modal.classList.add('flex');
@@ -1167,27 +1202,27 @@
 
     function submitProfileForm(e) {
         e.preventDefault();
-        const nombre = document.getElementById('oppoInputNombre').value.trim();
-        const idEmpleado = document.getElementById('oppoInputId').value.trim();
+        const existing = getUserProfile();
+        const nombre = (existing && existing.nombre) || document.getElementById('oppoInputNombre').value.trim();
+        const idEmpleado = (existing && existing.idEmpleado) || document.getElementById('oppoInputId').value.trim();
         const telInput = document.getElementById('oppoInputTelefono');
         const telefono = telInput ? telInput.value.trim() : '';
-        const cadena = document.getElementById('oppoInputCadena').value.trim();
+        const cadena = (existing && existing.cadena) || document.getElementById('oppoInputCadena').value.trim();
         const ciudad = document.getElementById('oppoInputCiudad').value.trim();
         if (!nombre || !idEmpleado || !cadena || !ciudad) return;
 
-        const existing = getUserProfile();
-        const profile = {
+        const profile = Object.assign({}, existing || {}, {
             nombre: nombre,
             idEmpleado: idEmpleado,
             telefono: telefono,
             cadena: cadena,
             ciudad: ciudad,
             fechaRegistro: existing ? existing.fechaRegistro : new Date().toISOString()
-        };
+        });
         saveUserProfile(profile);
         closeProfileModal();
         refreshProgressUI();
-        showToast('Bienvenido/a, ' + nombre.split(' ')[0] + ' (ID: ' + idEmpleado + ')');
+        showToast('Perfil actualizado: ' + nombre.split(' ')[0] + ' (ID: ' + idEmpleado + ')');
         syncToGoogleSheets(existing ? 'Actualizacion de Perfil' : 'Nuevo Registro', 'Perfil Promotor', 'ID: ' + idEmpleado + ' | ' + cadena + ' - ' + ciudad);
     }
 
@@ -1758,6 +1793,12 @@
         autoSyncExistingProfileToSheets();
     });
 
+    document.addEventListener('portal-auth-ready', function () {
+        refreshProgressUI();
+        syncGA4UserIdentity(true);
+        autoSyncExistingProfileToSheets();
+    });
+
     // Exponer API global para los botones del UI
     window.oppoProgress = {
         openProfileModal: openProfileModal,
@@ -1774,6 +1815,7 @@
         onWebCapsuleLoad: onWebCapsuleLoad,
         markVideoWatched: markVideoWatched,
         syncGA4UserIdentity: syncGA4UserIdentity,
+        syncToGoogleSheets: syncToGoogleSheets,
         setGoogleScriptUrl: function (url) {
             localStorage.setItem('oppo_google_script_url', url);
             showToast('URL de Google Sheets configurada');

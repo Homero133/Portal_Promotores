@@ -71,9 +71,14 @@
 <span class="text-xs text-gray-400 font-semibold block sm:inline">Especial Buen Fin 2026</span>
 </div>
 </div>
+<div class="flex items-center gap-2">
+<button class="inline-flex items-center gap-1.5 text-xs font-bold bg-gray-100 hover:bg-rose-100 text-gray-700 px-3 py-2 rounded-full transition cursor-pointer" onclick="window.portalAuth && window.portalAuth.logout()" title="Cambiar ID o cerrar sesi&oacute;n">
+<i class="fas fa-exchange-alt"></i> <span class="hidden sm:inline">Cambiar ID</span>
+</button>
 <button class="w-10 h-10 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center transition cursor-pointer" onclick="toggleDarkMode()">
 <i class="fas fa-moon text-gray-600 dark:text-yellow-400" id="themeIcon"></i>
 </button>
+</div>
 </div>
 </div>
 <main class="max-w-4xl mx-auto px-4 mt-8">
@@ -95,6 +100,35 @@
                         Presiona la cadena comercial o carrier correspondiente para desplegar sus promociones y ofertas vigentes de este mes.
                     </p>
 </div>
+</div>
+</div>
+<!-- BANNER DE SEGMENTACION POR CADENA / AUDITOR -->
+<div class="hidden mb-5 rounded-2xl p-4 border shadow-sm flex flex-wrap items-center justify-between gap-3" id="chainRoleBanner">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl flex items-center justify-center text-sm font-black shrink-0" id="chainRoleIconBox">
+<i class="fas fa-store"></i>
+</div>
+<div>
+<div class="text-[10px] font-black uppercase tracking-wider" id="chainRoleEyebrow">Cadena Asignada</div>
+<div class="text-sm font-black" id="chainRoleTitle">Cargando...</div>
+</div>
+</div>
+<div class="hidden" id="auditorChainFilterBox">
+<select class="text-xs font-bold rounded-xl border border-amber-300 bg-white text-gray-800 px-3 py-2 outline-none" id="auditorChainSelect" onchange="applyPromoSchedule(window.portalAuth && window.portalAuth.getProfile())">
+<option value="ALL">Todas las cadenas</option>
+<option value="telcel-cac">Telcel (CAC / CVT / DAT)</option>
+<option value="att">AT&amp;T</option>
+<option value="elektra">Elektra</option>
+<option value="coppel">Coppel</option>
+<option value="liverpool">Liverpool</option>
+<option value="sears">Sears</option>
+<option value="suburbia">Suburbia</option>
+<option value="sanborns">Sanborns</option>
+<option value="palacio-hierro">El Palacio de Hierro</option>
+<option value="walmart">Walmart</option>
+<option value="sams">Sam&apos;s Club</option>
+<option value="b-hermanos">B Hermanos</option>
+</select>
 </div>
 </div>
 <!-- LISTA DE CADENAS (CADA BOTON DESPLIEGA SU PROPIA PESTANA CON IMAGENES) -->
@@ -1962,10 +1996,11 @@
 <!-- Hint Text -->
 <div class="mt-3 text-white/60 text-xs tracking-wide">Pellizca o haz doble toque en la pantalla para hacer zoom</div>
 </div>
+<script src="portal-auth.js?v=20261111"></script>
 <script>
         
-        // MOTOR DE PUBLICACION PROGRAMADA POR FECHA (HORA MEXICO)
-        function applyPromoSchedule() {
+        // MOTOR DE PUBLICACION PROGRAMADA POR FECHA + SEGMENTACION POR CADENA
+        function applyPromoSchedule(profile) {
             let todayStr = '';
             try {
                 const formatter = new Intl.DateTimeFormat('en-CA', {
@@ -1980,29 +2015,91 @@
                 todayStr = d.toISOString().slice(0, 10);
             }
 
+            const prof = profile || (window.portalAuth ? window.portalAuth.getProfile() : null);
+            const isAud = !!(prof && (prof.role === 'auditor' || prof.isAuditor));
+            const allowedSlugs = (prof && Array.isArray(prof.cadenas_slugs)) ? prof.cadenas_slugs : [];
+            const audSelect = document.getElementById('auditorChainSelect');
+            const audFilter = (isAud && audSelect) ? audSelect.value : 'ALL';
+
+            // Actualizar banner de rol / cadena
+            const banner = document.getElementById('chainRoleBanner');
+            const eyebrow = document.getElementById('chainRoleEyebrow');
+            const titleEl = document.getElementById('chainRoleTitle');
+            const iconBox = document.getElementById('chainRoleIconBox');
+            const audFilterBox = document.getElementById('auditorChainFilterBox');
+
+            if (banner && prof) {
+                banner.classList.remove('hidden');
+                if (isAud) {
+                    banner.className = 'mb-5 rounded-2xl p-4 border border-amber-300 bg-amber-50 text-amber-950 shadow-sm flex flex-wrap items-center justify-between gap-3';
+                    if (iconBox) {
+                        iconBox.className = 'w-9 h-9 rounded-xl bg-amber-500 text-white flex items-center justify-center text-sm font-black shrink-0';
+                        iconBox.innerHTML = '<i class="fas fa-shield-alt"></i>';
+                    }
+                    if (eyebrow) eyebrow.textContent = 'Modo Auditor • Acceso 100%';
+                    if (titleEl) titleEl.textContent = prof.idEmpleado + ' — Viendo todas las cadenas comerciales';
+                    if (audFilterBox) audFilterBox.classList.remove('hidden');
+                } else {
+                    const chName = prof.cadena_oficial || prof.cadena || 'Tu Cadena';
+                    banner.className = 'mb-5 rounded-2xl p-4 border border-emerald-200 bg-emerald-50 text-emerald-950 shadow-sm flex flex-wrap items-center justify-between gap-3';
+                    if (iconBox) {
+                        iconBox.className = 'w-9 h-9 rounded-xl bg-oppogreen text-white flex items-center justify-center text-sm font-black shrink-0';
+                        iconBox.innerHTML = '<i class="fas fa-store"></i>';
+                    }
+                    if (eyebrow) eyebrow.textContent = 'Promociones Exclusivas de Tu Cadena';
+                    if (titleEl) titleEl.textContent = chName + (prof.tienda ? ' (' + prof.tienda + ')' : '');
+                    if (audFilterBox) audFilterBox.classList.add('hidden');
+                }
+            }
+
             const items = document.querySelectorAll('.chain-item');
-            let visibleCount = 0;
+            let visibleSlugs = [];
 
             items.forEach(item => {
                 const start = item.getAttribute('data-start');
                 const end = item.getAttribute('data-end');
+                const slug = (item.id || '').replace(/^chain-/, '');
+                const inSchedule = (!start || !end) || (todayStr >= start && todayStr <= end);
 
-                if (start && end) {
-                    if (todayStr >= start && todayStr <= end) {
-                        item.classList.remove('hidden');
-                        visibleCount++;
-                    } else {
-                        item.classList.add('hidden');
-                    }
+                let allowedForRole = false;
+                if (!prof) {
+                    allowedForRole = false;
+                } else if (isAud) {
+                    allowedForRole = (audFilter === 'ALL' || audFilter === slug);
+                } else {
+                    allowedForRole = allowedSlugs.indexOf(slug) !== -1;
+                }
+
+                if (inSchedule && allowedForRole) {
+                    item.classList.remove('hidden');
+                    visibleSlugs.push(slug);
+                } else {
+                    item.classList.add('hidden');
                 }
             });
 
             const notice = document.getElementById('noActiveNotice');
             if (notice) {
-                if (visibleCount === 0) {
+                if (visibleSlugs.length === 0) {
                     notice.classList.remove('hidden');
+                    const h3 = notice.querySelector('h3');
+                    const p = notice.querySelector('p');
+                    if (prof && !isAud && h3 && p) {
+                        const chName = prof.cadena_oficial || prof.cadena || 'tu cadena';
+                        h3.textContent = 'Sin promociones activas para ' + chName;
+                        p.textContent = 'Actualmente no hay promociones Buen Fin publicadas o vigentes para tu cadena (' + chName + ').';
+                    }
                 } else {
                     notice.classList.add('hidden');
+                }
+            }
+
+            // Si es Elite y tiene una sola cadena visible, abrirla automáticamente
+            if (prof && !isAud && visibleSlugs.length === 1) {
+                const slug = visibleSlugs[0];
+                const item = document.getElementById('chain-' + slug);
+                if (item && !item.classList.contains('is-open')) {
+                    toggleChain(slug);
                 }
             }
         }
@@ -2069,13 +2166,19 @@
         });
 
         document.addEventListener('DOMContentLoaded', () => {
-            applyPromoSchedule();
-            const hash = window.location.hash ? window.location.hash.replace('#', '') : '';
-            if (hash) {
-                toggleChain(hash);
+            if (window.portalAuth) {
+                window.portalAuth.requireAuth((profile) => {
+                    applyPromoSchedule(profile);
+                    const hash = window.location.hash ? window.location.hash.replace('#', '') : '';
+                    if (hash && window.portalAuth.canAccessChain(hash)) {
+                        toggleChain(hash);
+                    }
+                });
+            } else {
+                applyPromoSchedule();
             }
         });
     </script>
-<script src="progreso.js?v=20261105"></script>
+<script src="progreso.js?v=20261111"></script>
 </body>
 </html>

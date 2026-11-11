@@ -90,19 +90,19 @@
                     <a href="index.html" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-xs sm:text-sm font-bold backdrop-blur-sm transition">
                         <i class="fas fa-arrow-left"></i> Inicio
                     </a>
-                    <a href="proyecto-maestro.html" class="inline-flex items-center gap-1.5 bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-400/40 px-3.5 py-2 rounded-full text-xs font-black uppercase tracking-wider backdrop-blur-sm transition">
-                        <i class="fas fa-book-bookmark"></i> Proyecto Maestro
-                    </a>
-                    <a href="presentacion-ejecutiva.html" class="hidden sm:inline-flex items-center gap-1.5 bg-blue-500/20 hover:bg-blue-500/30 text-blue-300 border border-blue-400/40 px-3.5 py-2 rounded-full text-xs font-bold backdrop-blur-sm transition">
-                        <i class="fas fa-desktop"></i> Pitch
-                    </a>
                     <a href="evaluaciones.html" class="hidden sm:inline-flex items-center gap-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 border border-purple-400/40 px-3.5 py-2 rounded-full text-xs font-bold backdrop-blur-sm transition">
                         <i class="fas fa-gamepad"></i> Evaluaciones
+                    </a>
+                    <a href="compendio-videos.html" class="hidden sm:inline-flex items-center gap-1.5 bg-red-500/20 hover:bg-red-500/30 text-red-300 border border-red-400/40 px-3.5 py-2 rounded-full text-xs font-bold backdrop-blur-sm transition">
+                        <i class="fab fa-youtube"></i> Videos
                     </a>
                 </div>
                 <div class="flex items-center gap-2.5">
                     <button onclick="showTab('reglas')" class="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/40 px-3.5 py-2 rounded-full hover:bg-amber-400/30 transition">
                         <i class="fas fa-book-open"></i> Reglas Oficiales
+                    </button>
+                    <button onclick="window.portalAuth && window.portalAuth.logout()" class="inline-flex items-center gap-1.5 text-xs font-bold bg-white/10 hover:bg-rose-500/30 text-white px-3 py-2 rounded-full backdrop-blur-sm transition" title="Cambiar ID o cerrar sesión">
+                        <i class="fas fa-exchange-alt"></i> <span class="hidden sm:inline">Cambiar ID</span>
                     </button>
                     <button onclick="toggleDarkMode()" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition">
                         <i id="themeIcon" class="fas fa-moon text-white"></i>
@@ -141,23 +141,36 @@
 
         <!-- 1. BARRA SUPERIOR: BÚSQUEDA DE PROMOTOR Y MÉTRICAS LIMPIAS (VENTAS TOTALES / VENTAS ACTIVADAS) -->
         <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-xl border border-gray-100 space-y-4">
-            <!-- Buscador y Chip de Promotor -->
+            <!-- Banner exclusivo para Modo Auditor -->
+            <div id="auditorModeBanner" class="hidden bg-amber-50 border border-amber-200 rounded-2xl px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <div class="flex items-center gap-2 text-amber-900 font-bold">
+                    <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white font-black uppercase text-[10px]">Modo Auditor</span>
+                    <span id="auditorBannerText">Acceso completo: puedes consultar cualquier ID del padrón (710 promotores).</span>
+                </div>
+                <span class="text-amber-700 font-semibold">Tu sesión personal de auditor no se sobreescribe al revisar otros IDs.</span>
+            </div>
+
+            <!-- Buscador (solo Auditor) y Chip de Promotor -->
             <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pb-3 border-b border-gray-100">
-                <div class="flex-1 relative">
+                <div id="auditorSearchContainer" class="hidden flex-1 relative">
                     <div class="relative">
                         <i class="fas fa-search absolute left-3.5 top-3 text-oppogreen text-sm"></i>
-                        <input type="text" id="promoterSearchInput" oninput="handlePromoterSearch()" placeholder="Buscar por ID (ej. MR918750) o nombre del promotor..." class="w-full pl-9 pr-8 py-2 rounded-xl border border-gray-200 focus:border-oppogreen focus:ring-2 focus:ring-oppogreen/20 outline-none font-semibold text-xs sm:text-sm">
+                        <input type="text" id="promoterSearchInput" oninput="handlePromoterSearch()" placeholder="Buscar por ID (ej. MR918750), nombre o tienda..." class="w-full pl-9 pr-8 py-2 rounded-xl border border-gray-200 focus:border-oppogreen focus:ring-2 focus:ring-oppogreen/20 outline-none font-semibold text-xs sm:text-sm">
                         <button onclick="clearPromoterSearch()" class="absolute right-2.5 top-2.5 text-gray-400 hover:text-gray-600 px-1">
                             <i class="fas fa-times text-xs"></i>
                         </button>
                     </div>
                     <div id="promoterSearchResults" class="hidden absolute left-0 right-0 mt-1 bg-white border border-gray-200 rounded-2xl shadow-2xl max-h-60 overflow-y-auto divide-y divide-gray-100 z-40"></div>
                 </div>
+                <div id="eliteIdentityNote" class="text-xs text-gray-500 font-semibold flex items-center gap-2">
+                    <i class="fas fa-lock text-oppogreen"></i>
+                    <span>Vista personal protegida: solo se muestran tus comisiones y metas asignadas.</span>
+                </div>
                 <div class="flex items-center gap-2 shrink-0">
                     <span id="selectedPromoterBadge" class="text-[11px] font-black uppercase px-3 py-1 rounded-full bg-emerald-100 text-emerald-800">
-                        MR918750 &bull; REYNA CAMPOS JOSE ANTONIO
+                        Cargando promotor...
                     </span>
-                    <button onclick="openPromoterTargetsModal()" class="text-xs font-bold px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition" title="Ver metas asignadas">
+                    <button id="editTargetsBtn" onclick="openPromoterTargetsModal()" class="hidden text-xs font-bold px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition" title="Ver o ajustar metas en auditoría">
                         <i class="fas fa-sliders-h text-oppogreen"></i> Metas
                     </button>
                 </div>
@@ -956,7 +969,8 @@
     </div>
 
     <!-- BASE DE DATOS DE TARGETS Y VENTAS AL CORTE -->
-    <script src="comisiones-data.js?v=20261108c"></script>
+    <script src="comisiones-data.js?v=20261111"></script>
+    <script src="portal-auth.js?v=20261111"></script>
     <script>
         let currentSelectedPromoter = null;
 
@@ -994,9 +1008,11 @@
         }
 
         
-        // El día evaluado corresponde al día anterior al actual (descarga diaria de Mariana 9 AM con día cerrado)
-        // Ejemplo: Si hoy es día 10 -> día evaluado = 9. Si fuese día 15 -> día evaluado = 14.
+        // El día evaluado corresponde al corte oficial de comisiones-data.js (Día 9)
         function getDefaultEvaluatedDay() {
+            if (window.PORTAL_COMISIONES_META && window.PORTAL_COMISIONES_META.cutoffDay) {
+                return window.PORTAL_COMISIONES_META.cutoffDay;
+            }
             const today = new Date();
             const currentDay = today.getDate();
             return Math.max(1, Math.min(30, currentDay - 1));
@@ -1099,29 +1115,26 @@
             };
         }
 
-        // CÁLCULO EXCLUSIVO PARA LA PESTAÑA 1 (SIMULADOR DE DINERO)
-        function recalculateCommissions() {
-            const qR16_5G = getIntVal('qty_RENO_16_5G', 0);
-            const qR16F   = getIntVal('qty_RENO_16F', 0);
-            const qA7P    = getIntVal('qty_A7_PRO', 0);
-            const qFind   = getIntVal('qty_FIND', 0);
-            const qRenoO  = getIntVal('qty_RENO_OTHERS', 0);
-            const qAHigh  = getIntVal('qty_A_HIGH', 0);
-            const qAMid   = getIntVal('qty_A_MIDDLE', 0);
-            const qALow   = getIntVal('qty_A_LOW', 0);
+        function computeCommissionBreakdown(q, tgtGral, tgtFocus) {
+            const qR16_5G = q.RENO_16_5G || 0;
+            const qR16F   = q.RENO_16F   || 0;
+            const qA7P    = q.A7_PRO     || 0;
+            const qFind   = q.FIND       || 0;
+            const qRenoO  = q.RENO_OTHERS || 0;
+            const qAHigh  = q.A_HIGH     || 0;
+            const qAMid   = q.A_MIDDLE   || 0;
+            const qALow   = q.A_LOW      || 0;
 
             const focusUnits  = qR16_5G + qR16F + qA7P;
             const volumeUnits = qFind + qRenoO + qAHigh + qAMid + qALow;
             const totalUnits  = focusUnits + volumeUnits;
 
-            const tgtGral  = Math.max(1, getIntVal('targetGralInput', 61));
-            const tgtFocus = Math.max(1, getIntVal('targetFocusComboInput', 11));
-
-            const reachedFocus100 = (focusUnits >= tgtFocus);
-            const reachedGral100  = (totalUnits >= tgtGral);
+            const hasGralTarget  = tgtGral > 0;
+            const hasFocusTarget = tgtFocus > 0;
+            const reachedFocus100 = hasFocusTarget && (focusUnits >= tgtFocus);
+            const reachedGral100  = hasGralTarget  && (totalUnits >= tgtGral);
             const tierIdx         = getTierIndex(totalUnits);
 
-            // 1. Modelos Foco
             const rR16_5G = reachedFocus100 ? FOCUS_RATES.RENO_16_5G.high : FOCUS_RATES.RENO_16_5G.low;
             const rR16F   = reachedFocus100 ? FOCUS_RATES.RENO_16F.high   : FOCUS_RATES.RENO_16F.low;
             const rA7P    = reachedFocus100 ? FOCUS_RATES.A7_PRO.high     : FOCUS_RATES.A7_PRO.low;
@@ -1131,12 +1144,53 @@
             const subA7P    = qA7P    * rA7P;
             const focusTotalMoney = subR16_5G + subR16F + subA7P;
 
-            document.getElementById('sub_RENO_16_5G').textContent = formatMXN(subR16_5G);
-            document.getElementById('sub_RENO_16F').textContent   = formatMXN(subR16F);
-            document.getElementById('sub_A7_PRO').textContent     = formatMXN(subA7P);
+            const subFind  = qFind  * VOLUME_RATES.FIND[tierIdx];
+            const subRenoO = qRenoO * VOLUME_RATES.RENO_OTHERS[tierIdx];
+            const subAHigh = qAHigh * VOLUME_RATES.A_HIGH[tierIdx];
+            const subAMid  = qAMid  * VOLUME_RATES.A_MIDDLE[tierIdx];
+            const subALow  = qALow  * VOLUME_RATES.A_LOW[tierIdx];
+            const volumeTotalMoney = subFind + subRenoO + subAHigh + subAMid + subALow;
+
+            const bonusMoney = reachedGral100 ? 2000 : 0;
+            const grandTotal = focusTotalMoney + volumeTotalMoney + bonusMoney;
+            const avgPerUnit = totalUnits > 0 ? (grandTotal / totalUnits) : 0;
+
+            return {
+                focusUnits, volumeUnits, totalUnits,
+                hasGralTarget, hasFocusTarget,
+                reachedFocus100, reachedGral100, tierIdx,
+                subR16_5G, subR16F, subA7P, focusTotalMoney,
+                subFind, subRenoO, subAHigh, subAMid, subALow, volumeTotalMoney,
+                bonusMoney, grandTotal, avgPerUnit
+            };
+        }
+
+        // CÁLCULO EXCLUSIVO PARA LA PESTAÑA 1 (SIMULADOR DE DINERO)
+        function recalculateCommissions() {
+            const q = {
+                RENO_16_5G:  getIntVal('qty_RENO_16_5G', 0),
+                RENO_16F:    getIntVal('qty_RENO_16F', 0),
+                A7_PRO:      getIntVal('qty_A7_PRO', 0),
+                FIND:        getIntVal('qty_FIND', 0),
+                RENO_OTHERS: getIntVal('qty_RENO_OTHERS', 0),
+                A_HIGH:      getIntVal('qty_A_HIGH', 0),
+                A_MIDDLE:    getIntVal('qty_A_MIDDLE', 0),
+                A_LOW:       getIntVal('qty_A_LOW', 0)
+            };
+
+            const tgtGral  = getIntVal('targetGralInput', 0);
+            const tgtFocus = getIntVal('targetFocusComboInput', 0);
+            const res = computeCommissionBreakdown(q, tgtGral, tgtFocus);
+
+            document.getElementById('sub_RENO_16_5G').textContent = formatMXN(res.subR16_5G);
+            document.getElementById('sub_RENO_16F').textContent   = formatMXN(res.subR16F);
+            document.getElementById('sub_A7_PRO').textContent     = formatMXN(res.subA7P);
 
             const simFocusBadge = document.getElementById('simFocusBadge');
-            if (reachedFocus100) {
+            if (!res.hasFocusTarget) {
+                simFocusBadge.textContent = 'Tarifa Base (Sin meta foco)';
+                simFocusBadge.className = 'text-[11px] font-black px-2.5 py-0.5 rounded-full bg-gray-200 text-gray-700';
+            } else if (res.reachedFocus100) {
                 simFocusBadge.textContent = '¡Tarifa Acelerada (≥100%)!';
                 simFocusBadge.className = 'text-[11px] font-black px-2.5 py-0.5 rounded-full bg-emerald-600 text-white';
             } else {
@@ -1144,57 +1198,42 @@
                 simFocusBadge.className = 'text-[11px] font-black px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800';
             }
 
-            // 2. Series por Volumen
-            const rFind  = VOLUME_RATES.FIND[tierIdx];
-            const rRenoO = VOLUME_RATES.RENO_OTHERS[tierIdx];
-            const rAHigh = VOLUME_RATES.A_HIGH[tierIdx];
-            const rAMid  = VOLUME_RATES.A_MIDDLE[tierIdx];
-            const rALow  = VOLUME_RATES.A_LOW[tierIdx];
-
-            const subFind  = qFind  * rFind;
-            const subRenoO = qRenoO * rRenoO;
-            const subAHigh = qAHigh * rAHigh;
-            const subAMid  = qAMid  * rAMid;
-            const subALow  = qALow  * rALow;
-            const volumeTotalMoney = subFind + subRenoO + subAHigh + subAMid + subALow;
-
-            document.getElementById('sub_FIND').textContent        = formatMXN(subFind);
-            document.getElementById('sub_RENO_OTHERS').textContent = formatMXN(subRenoO);
-            document.getElementById('sub_A_HIGH').textContent      = formatMXN(subAHigh);
-            document.getElementById('sub_A_MIDDLE').textContent    = formatMXN(subAMid);
-            document.getElementById('sub_A_LOW').textContent       = formatMXN(subALow);
+            document.getElementById('sub_FIND').textContent        = formatMXN(res.subFind);
+            document.getElementById('sub_RENO_OTHERS').textContent = formatMXN(res.subRenoO);
+            document.getElementById('sub_A_HIGH').textContent      = formatMXN(res.subAHigh);
+            document.getElementById('sub_A_MIDDLE').textContent    = formatMXN(res.subAMid);
+            document.getElementById('sub_A_LOW').textContent       = formatMXN(res.subALow);
 
             const tierNames = ['0 – 30 uds', '31 – 49 uds', '≥ 50 uds'];
-            document.getElementById('simVolumeBadge').textContent = 'Escalón: ' + tierNames[tierIdx];
-
-            // 3. Bono de Cuota General
-            const bonusMoney = reachedGral100 ? 2000 : 0;
-            const grandTotal = focusTotalMoney + volumeTotalMoney + bonusMoney;
+            document.getElementById('simVolumeBadge').textContent = 'Escalón: ' + tierNames[res.tierIdx];
 
             // Actualizar Tarjeta de Liquidación de la Pestaña 1 (Simulador de Dinero)
-            document.getElementById('simGrandTotalMoney').innerHTML = formatMXN(grandTotal) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
-            const avgPerUnit = totalUnits > 0 ? (grandTotal / totalUnits) : 0;
-            document.getElementById('simAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${avgPerUnit.toFixed(2)} MXN</strong> por equipo activado`;
-            document.getElementById('simFocusMoney').textContent    = formatMXN(focusTotalMoney);
-            document.getElementById('simFocusUnitsDesc').textContent = `${focusUnits} ${focusUnits === 1 ? 'equipo' : 'equipos'} (${reachedFocus100 ? 'Tarifa ≥100%' : 'Tarifa <100%'})`;
-            document.getElementById('simVolumeMoney').textContent   = formatMXN(volumeTotalMoney);
-            document.getElementById('simVolumeUnitsDesc').textContent = `${volumeUnits} ${volumeUnits === 1 ? 'equipo' : 'equipos'} (${tierNames[tierIdx]})`;
+            document.getElementById('simGrandTotalMoney').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
+            document.getElementById('simAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por equipo activado`;
+            document.getElementById('simFocusMoney').textContent    = formatMXN(res.focusTotalMoney);
+            document.getElementById('simFocusUnitsDesc').textContent = `${res.focusUnits} ${res.focusUnits === 1 ? 'equipo' : 'equipos'} (${res.reachedFocus100 ? 'Tarifa ≥100%' : 'Tarifa <100%'})`;
+            document.getElementById('simVolumeMoney').textContent   = formatMXN(res.volumeTotalMoney);
+            document.getElementById('simVolumeUnitsDesc').textContent = `${res.volumeUnits} ${res.volumeUnits === 1 ? 'equipo' : 'equipos'} (${tierNames[res.tierIdx]})`;
 
             const simBonusBox = document.getElementById('simBonusCardBox');
-            if (reachedGral100) {
+            if (!res.hasGralTarget) {
+                simBonusBox.className = 'bg-white/5 border border-white/10 rounded-2xl p-3 flex justify-between items-center';
+                document.getElementById('simBonusMoney').textContent = '$0';
+                document.getElementById('simBonusUnitsDesc').textContent = 'Sin cuota asignada';
+            } else if (res.reachedGral100) {
                 simBonusBox.className = 'bg-emerald-500/20 border border-emerald-400 rounded-2xl p-3 flex justify-between items-center';
                 document.getElementById('simBonusMoney').textContent = '+$2,000';
                 document.getElementById('simBonusUnitsDesc').textContent = '¡100% Cuota cumplida!';
             } else {
                 simBonusBox.className = 'bg-white/5 border border-white/10 rounded-2xl p-3 flex justify-between items-center';
                 document.getElementById('simBonusMoney').textContent = '$0';
-                document.getElementById('simBonusUnitsDesc').textContent = `Faltan ${tgtGral - totalUnits} uds`;
+                document.getElementById('simBonusUnitsDesc').textContent = `Faltan ${tgtGral - res.totalUnits} uds`;
             }
-            document.getElementById('simSummaryUnits').textContent = totalUnits;
-            document.getElementById('simSummaryFocus').textContent = focusUnits;
+            document.getElementById('simSummaryUnits').textContent = res.totalUnits;
+            document.getElementById('simSummaryFocus').textContent = res.focusUnits;
 
             // Iluminar Tablas Oficiales en Pestaña 3
-            highlightActiveTableColumns(tierIdx, reachedFocus100);
+            highlightActiveTableColumns(res.tierIdx, res.reachedFocus100);
 
             // NOTA: NO llamamos a updatePlanDeAccion aquí para NO alterar el Plan de Acción al jugar con el simulador.
         }
@@ -1533,14 +1572,20 @@
             }
 
             // Oportunidades en la Mesa (Basadas en Datos Reales)
+            const rawTgtGral = getIntVal('targetGralInput', 0);
+            const rawTgtFocus = getIntVal('targetFocusComboInput', 0);
             const realFocusUnits = (realState.qR16_5G || 0) + (realState.qR16F || 0) + (realState.qA7P || 0);
-            const reachedRealFocus = (realFocusUnits >= tgtFocus);
-            if (!reachedRealFocus) {
-                const missingFocus = tgtFocus - realFocusUnits;
+            const reachedRealFocus = rawTgtFocus > 0 && (realFocusUnits >= rawTgtFocus);
+            if (rawTgtFocus <= 0) {
+                document.getElementById('maxFocusTag').textContent = 'Sin Meta Foco';
+                document.getElementById('maxFocusHeadline').textContent = 'Sin cuota foco asignada este mes';
+                document.getElementById('maxFocusBody').textContent = 'Tus ventas foco liquidan a tarifa base ($400 Reno 16 5G, $300 Reno 16F, $250 A7 Pro 5G).';
+            } else if (!reachedRealFocus) {
+                const missingFocus = rawTgtFocus - realFocusUnits;
                 const retroactive = (realState.qR16_5G * 150) + (realState.qR16F * 180) + (realState.qA7P * 70);
                 document.getElementById('maxFocusTag').textContent = 'Tarifa Base';
                 document.getElementById('maxFocusHeadline').textContent = `Te faltan ${missingFocus} ${missingFocus === 1 ? 'equipo foco' : 'equipos foco'} para duplicar tarifa`;
-                document.getElementById('maxFocusBody').innerHTML = `Al cumplir tu meta de ${tgtFocus} equipos foco, tus ventas foco suben retroactivamente sumando <strong>+${formatMXN(retroactive)} MXN extra</strong>.`;
+                document.getElementById('maxFocusBody').innerHTML = `Al cumplir tu meta de ${rawTgtFocus} equipos foco, tus ventas foco suben retroactivamente sumando <strong>+${formatMXN(retroactive)} MXN extra</strong>.`;
             } else {
                 document.getElementById('maxFocusTag').textContent = '¡Tarifa Máxima!';
                 document.getElementById('maxFocusHeadline').textContent = '¡Meta Foco 100% Alcanzada!';
@@ -1563,12 +1608,16 @@
                 document.getElementById('maxTierBody').textContent = 'Estás en el tabulador más alto de la compañía.';
             }
 
-            const reachedRealGral = (realNetUnits >= tgtGral);
-            if (!reachedRealGral) {
-                const missingGral = tgtGral - realNetUnits;
+            const reachedRealGral = rawTgtGral > 0 && (realNetUnits >= rawTgtGral);
+            if (rawTgtGral <= 0) {
+                document.getElementById('maxBonusTag').textContent = 'Sin Cuota';
+                document.getElementById('maxBonusHeadline').textContent = 'Sin cuota general asignada';
+                document.getElementById('maxBonusBody').textContent = 'Tu registro no tiene cuota general asignada en el padrón de este mes.';
+            } else if (!reachedRealGral) {
+                const missingGral = rawTgtGral - realNetUnits;
                 document.getElementById('maxBonusTag').textContent = '+$2,000 MXN';
                 document.getElementById('maxBonusHeadline').textContent = `Faltan ${missingGral} ventas para tus $2,000`;
-                document.getElementById('maxBonusBody').textContent = `Alcanza tu Target General de ${tgtGral} unidades activadas para asegurar los $2,000 adicionales.`;
+                document.getElementById('maxBonusBody').textContent = `Alcanza tu Target General de ${rawTgtGral} unidades activadas para asegurar los $2,000 adicionales.`;
             } else {
                 document.getElementById('maxBonusTag').textContent = '¡Bono Ganado!';
                 document.getElementById('maxBonusHeadline').textContent = '¡Bono de $2,000 Asegurado!';
@@ -1586,6 +1635,7 @@
         // 1. BUSCADOR INTELIGENTE DE PROMOTORES
         // ==========================================
         function handlePromoterSearch() {
+            if (!window.portalAuth || !window.portalAuth.isAuditor()) return;
             const input = document.getElementById('promoterSearchInput');
             const box = document.getElementById('promoterSearchResults');
             if (!input || !box) return;
@@ -1600,12 +1650,13 @@
             const q = cleanStr(rawVal);
             const tokens = q.split(/\s+/).filter(Boolean);
 
-            const list = Array.isArray(window.PORTAL_COMISIONES_DATA) ? window.PORTAL_COMISIONES_DATA : (window.PORTAL_COMISIONES_DATA.promotores || []);
+            const list = getPromoterList();
             const matches = list.filter(p => {
                 const idClean = cleanStr(p.id);
                 const nameClean = cleanStr(p.nombre);
-                const storeClean = cleanStr(p.tiendas);
-                return tokens.every(tok => idClean.includes(tok) || nameClean.includes(tok) || storeClean.includes(tok));
+                const storeClean = cleanStr(p.tienda || p.cadena_oficial || p.cadena);
+                const chainClean = cleanStr(p.cadena_oficial || p.cadena);
+                return tokens.every(tok => idClean.includes(tok) || nameClean.includes(tok) || storeClean.includes(tok) || chainClean.includes(tok));
             }).slice(0, 15);
 
             if (matches.length === 0) {
@@ -1618,6 +1669,9 @@
                 const salesTag = p.ventas_corte 
                     ? `<span class="inline-block text-[9px] font-black px-1.5 py-0.5 rounded bg-emerald-500 text-white">${p.ventas_corte.netas} ventas</span>`
                     : `<span class="inline-block text-[9px] font-bold px-1.5 py-0.5 rounded bg-gray-200 text-gray-600">0 ventas</span>`;
+                const chainName = p.cadena_oficial || p.cadena || '-';
+                const storeName = p.tienda || '-';
+                const metaInfo = [p.region, chainName, storeName].filter(Boolean).join(' &bull; ');
                 return `
                 <div onclick="selectPromoterById('${p.id}')" class="p-3 hover:bg-emerald-50 dark:hover:bg-slate-800 cursor-pointer transition flex items-center justify-between gap-2 border-b border-gray-100 last:border-b-0">
                     <div>
@@ -1626,7 +1680,7 @@
                             <span class="text-oppogreen font-extrabold text-xs">(${p.id})</span>
                             ${salesTag}
                         </div>
-                        <div class="text-[11px] text-gray-500 mt-0.5">${p.region} &bull; Sup: ${p.supervisor} &bull; ${p.tiendas}</div>
+                        <div class="text-[11px] text-gray-500 mt-0.5">${metaInfo}</div>
                     </div>
                     <div class="text-right shrink-0 space-y-0.5">
                         <div><span class="inline-block text-[10px] font-black px-2 py-0.5 rounded bg-emerald-100 text-emerald-800">Tgt: ${p.tgt_gral}</span></div>
@@ -1651,21 +1705,24 @@
             if (!promoter) promoter = currentSelectedPromoter;
             if (!promoter) return;
 
-            const tgtGral  = Math.max(1, promoter.tgt_gral || getIntVal('targetGralInput', 61));
-            const tgtR16   = promoter.tgt_reno16 || getIntVal('targetReno16Input', 0);
-            const tgtA7    = promoter.tgt_a7pro  || getIntVal('targetA7Input', 0);
-            const tgtFocus = Math.max(1, promoter.tgt_foco || (tgtR16 + tgtA7) || getIntVal('targetFocusComboInput', 11));
+            const tgtGral  = promoter.tgt_gral || 0;
+            const tgtR16   = promoter.tgt_reno16 || 0;
+            const tgtA7    = promoter.tgt_a7pro  || 0;
+            const tgtFocus = promoter.tgt_foco || (tgtR16 + tgtA7);
 
-            const vc = promoter.ventas_corte;
-            const brutas = vc ? (vc.brutas || 0) : 0;
-            const netas  = vc ? (vc.netas || 0) : 0;
-            const focusNetas = vc ? ((vc.RENO_16_5G || 0) + (vc.RENO_16F || 0) + (vc.A7_PRO || 0)) : 0;
+            const vc = promoter.ventas_corte || {};
+            const brutas = vc.brutas || 0;
+            const netas  = vc.netas || 0;
+
+            const realBreakdown = computeCommissionBreakdown(vc, tgtGral, tgtFocus);
+            const focusNetas = realBreakdown.focusUnits;
 
             // Badge del promotor
             const badgeEl = document.getElementById('selectedPromoterBadge');
             if (badgeEl) {
-                const store = promoter.tiendas ? ` &bull; ${promoter.tiendas}` : '';
-                badgeEl.innerHTML = `<strong>${promoter.id}</strong> &bull; ${promoter.nombre}${store}`;
+                const chain = promoter.cadena_oficial || promoter.cadena;
+                const store = promoter.tienda ? ` &bull; ${promoter.tienda}` : '';
+                badgeEl.innerHTML = `<strong>${promoter.id}</strong> &bull; ${promoter.nombre}${chain ? ' &bull; ' + chain : ''}${store}`;
             }
 
             // Métricas numéricas al corte
@@ -1675,6 +1732,13 @@
             const elAct = document.getElementById('metricVentasActivadas');
             if (elAct) elAct.innerHTML = `${netas} <span class="text-xs font-normal text-emerald-200">uds</span>`;
 
+            // Liquidación real al corte y promedio por unidad
+            const elEarned = document.getElementById('scorecardEarnedMoney');
+            if (elEarned) elEarned.textContent = `${formatMXN(realBreakdown.grandTotal)} MXN`;
+
+            const elAvg = document.getElementById('scorecardAvgPerUnit');
+            if (elAvg) elAvg.textContent = `$${realBreakdown.avgPerUnit.toFixed(2)} / ud`;
+
             // Escalón actual
             const tierIdx = getTierIndex(netas);
             const tierNames = ['0 – 30 uds', '31 – 49 uds', '≥ 50 uds'];
@@ -1682,45 +1746,60 @@
             if (elTier) elTier.textContent = `Escalón: ${tierNames[tierIdx]}`;
 
             // Cuota General
-            const pctGral = Math.round((netas / tgtGral) * 100);
             const elGralTxt = document.getElementById('scorecardGralText');
-            if (elGralTxt) elGralTxt.textContent = `${netas} / ${tgtGral} uds (${pctGral}%)`;
-
             const elGralBar = document.getElementById('scorecardGralBar');
-            if (elGralBar) elGralBar.style.width = `${Math.min(100, Math.max(0, pctGral))}%`;
-
             const elGralMiss = document.getElementById('scorecardGralMissing');
-            if (elGralMiss) {
-                if (netas >= tgtGral) {
-                    elGralMiss.textContent = '¡Meta cumplida!';
-                    elGralMiss.className = 'font-black text-oppogreen text-[11px]';
-                } else {
-                    const missingGral = tgtGral - netas;
-                    elGralMiss.textContent = `Faltan ${missingGral} uds para 100%`;
+            if (tgtGral <= 0) {
+                if (elGralTxt) elGralTxt.textContent = `${netas} uds (Sin cuota)`;
+                if (elGralBar) elGralBar.style.width = '0%';
+                if (elGralMiss) {
+                    elGralMiss.textContent = 'Sin cuota general asignada';
                     elGralMiss.className = 'text-gray-500 text-[11px]';
+                }
+            } else {
+                const pctGral = Math.round((netas / tgtGral) * 100);
+                if (elGralTxt) elGralTxt.textContent = `${netas} / ${tgtGral} uds (${pctGral}%)`;
+                if (elGralBar) elGralBar.style.width = `${Math.min(100, Math.max(0, pctGral))}%`;
+                if (elGralMiss) {
+                    if (netas >= tgtGral) {
+                        elGralMiss.textContent = '¡Meta cumplida!';
+                        elGralMiss.className = 'font-black text-oppogreen text-[11px]';
+                    } else {
+                        const missingGral = tgtGral - netas;
+                        elGralMiss.textContent = `Faltan ${missingGral} uds para 100%`;
+                        elGralMiss.className = 'text-gray-500 text-[11px]';
+                    }
                 }
             }
 
             // Meta Foco
-            const pctFocus = Math.round((focusNetas / tgtFocus) * 100);
             const elFocusTxt = document.getElementById('scorecardFocusText');
-            if (elFocusTxt) elFocusTxt.textContent = `${focusNetas} / ${tgtFocus} uds (${pctFocus}%)`;
-
             const elFocusBar = document.getElementById('scorecardFocusBar');
-            if (elFocusBar) elFocusBar.style.width = `${Math.min(100, Math.max(0, pctFocus))}%`;
-
             const elFocusMiss = document.getElementById('scorecardFocusMissing');
             const elFocusStat = document.getElementById('scorecardFocusStatus');
-            if (elFocusMiss) {
-                if (focusNetas >= tgtFocus) {
-                    elFocusMiss.textContent = '¡Meta Foco cumplida!';
-                    elFocusMiss.className = 'font-black text-oppogreen text-[11px]';
-                    if (elFocusStat) elFocusStat.innerHTML = '<span class="text-oppogreen font-extrabold">¡Tarifa Acelerada activa!</span>';
-                } else {
-                    const missingFocus = tgtFocus - focusNetas;
-                    elFocusMiss.textContent = `Faltan ${missingFocus} uds para tarifa alta`;
+            if (tgtFocus <= 0) {
+                if (elFocusTxt) elFocusTxt.textContent = `${focusNetas} uds (Sin meta foco)`;
+                if (elFocusBar) elFocusBar.style.width = '0%';
+                if (elFocusMiss) {
+                    elFocusMiss.textContent = 'Tarifa base en equipos foco';
                     elFocusMiss.className = 'text-gray-500 text-[11px]';
-                    if (elFocusStat) elFocusStat.innerHTML = '<span class="text-gray-600 font-bold">Tarifa Base</span>';
+                }
+                if (elFocusStat) elFocusStat.innerHTML = '<span class="text-gray-600 font-bold">Tarifa Base</span>';
+            } else {
+                const pctFocus = Math.round((focusNetas / tgtFocus) * 100);
+                if (elFocusTxt) elFocusTxt.textContent = `${focusNetas} / ${tgtFocus} uds (${pctFocus}%)`;
+                if (elFocusBar) elFocusBar.style.width = `${Math.min(100, Math.max(0, pctFocus))}%`;
+                if (elFocusMiss) {
+                    if (focusNetas >= tgtFocus) {
+                        elFocusMiss.textContent = '¡Meta Foco cumplida!';
+                        elFocusMiss.className = 'font-black text-oppogreen text-[11px]';
+                        if (elFocusStat) elFocusStat.innerHTML = '<span class="text-oppogreen font-extrabold">¡Tarifa Acelerada activa!</span>';
+                    } else {
+                        const missingFocus = tgtFocus - focusNetas;
+                        elFocusMiss.textContent = `Faltan ${missingFocus} uds para tarifa alta`;
+                        elFocusMiss.className = 'text-gray-500 text-[11px]';
+                        if (elFocusStat) elFocusStat.innerHTML = '<span class="text-gray-600 font-bold">Tarifa Base</span>';
+                    }
                 }
             }
         }
@@ -1731,15 +1810,11 @@
         function selectPromoterById(pid) {
             if (!window.PORTAL_COMISIONES_DATA) return;
             const cleanId = String(pid).trim().toUpperCase();
-            const list = Array.isArray(window.PORTAL_COMISIONES_DATA) ? window.PORTAL_COMISIONES_DATA : (window.PORTAL_COMISIONES_DATA.promotores || []);
+            const list = getPromoterList();
             const found = list.find(p => p.id === cleanId || p.id.replace(/[\s\-]+/g, '') === cleanId.replace(/[\s\-]+/g, ''));
             if (!found) return;
 
             currentSelectedPromoter = found;
-
-            try {
-                localStorage.setItem('oppo_user_profile', JSON.stringify({ id: found.id, nombre: found.nombre }));
-            } catch(e) {}
 
             const searchInput = document.getElementById('promoterSearchInput');
             if (searchInput) searchInput.value = `${found.id} - ${found.nombre}`;
@@ -1747,11 +1822,11 @@
             const searchBox = document.getElementById('promoterSearchResults');
             if (searchBox) searchBox.classList.add('hidden');
 
-            // Asignar Targets Oficiales del Promotor
-            const tgtGral  = Math.max(1, found.tgt_gral || 1);
+            // Asignar Targets Oficiales del Promotor (respetando 0 si no tiene cuota asignada)
+            const tgtGral  = found.tgt_gral || 0;
             const tgtR16   = found.tgt_reno16 || 0;
             const tgtA7    = found.tgt_a7pro  || 0;
-            const tgtFoco  = Math.max(1, found.tgt_foco || (tgtR16 + tgtA7) || 1);
+            const tgtFoco  = found.tgt_foco || (tgtR16 + tgtA7) || 0;
 
             document.getElementById('targetGralInput').value       = tgtGral;
             document.getElementById('targetReno16Input').value     = tgtR16;
@@ -1877,12 +1952,6 @@
             document.getElementById('imgLightboxModal').classList.remove('flex');
         }
 
-        // ══════════════════════════════════════════════════════════════
-        // REGISTRO OBLIGATORIO — versión de registro actual
-        // Si cambia esta clave, todos deben registrarse de nuevo
-        // ══════════════════════════════════════════════════════════════
-        const PORTAL_REG_VERSION = 'v20261110';
-
         function getPromoterList() {
             if (!window.PORTAL_COMISIONES_DATA) return [];
             return Array.isArray(window.PORTAL_COMISIONES_DATA)
@@ -1890,128 +1959,46 @@
                 : (window.PORTAL_COMISIONES_DATA.promotores || []);
         }
 
-        function showRegistrationModal(prefilledId) {
-            // Crear overlay de bloqueo si no existe
-            if (!document.getElementById('regOverlay')) {
-                const overlay = document.createElement('div');
-                overlay.id = 'regOverlay';
-                overlay.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.75);backdrop-filter:blur(6px);display:flex;align-items:center;justify-content:center;padding:16px;';
-                overlay.innerHTML = `
-                  <div style="background:#0f172a;border:1px solid rgba(16,185,129,0.3);border-radius:20px;max-width:460px;width:100%;padding:32px;box-shadow:0 25px 60px rgba(0,0,0,0.6);">
-                    <div style="text-align:center;margin-bottom:24px;">
-                      <div style="font-size:40px;margin-bottom:8px;">🏆</div>
-                      <h2 style="color:#f8fafc;font-size:1.25rem;font-weight:900;margin:0 0 6px;">Portal Elite OPPO</h2>
-                      <p style="color:#94a3b8;font-size:0.85rem;margin:0;">Ingresa tu ID de promotor para continuar</p>
-                    </div>
+        function applySimulatorAccessForProfile(profile) {
+            if (!profile) return;
+            const isAud = !!(profile.role === 'auditor' || profile.isAuditor);
+            const audBanner = document.getElementById('auditorModeBanner');
+            const audSearch = document.getElementById('auditorSearchContainer');
+            const eliteNote = document.getElementById('eliteIdentityNote');
+            const editTargetsBtn = document.getElementById('editTargetsBtn');
+            const audText = document.getElementById('auditorBannerText');
 
-                    <div style="margin-bottom:16px;">
-                      <label style="display:block;color:#94a3b8;font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;">ID de Promotor</label>
-                      <input id="regIdInput" type="text" placeholder="Ej: MR918750"
-                        style="width:100%;box-sizing:border-box;background:#1e293b;border:1.5px solid rgba(100,116,139,0.4);border-radius:10px;padding:12px 14px;color:#f8fafc;font-size:1rem;font-weight:700;outline:none;letter-spacing:0.05em;text-transform:uppercase;"
-                        oninput="this.value=this.value.toUpperCase()" />
-                    </div>
-
-                    <div id="regFeedback" style="display:none;padding:10px 14px;border-radius:8px;font-size:0.82rem;font-weight:600;margin-bottom:14px;"></div>
-
-                    <button id="regSubmitBtn" onclick="submitRegistration()"
-                      style="width:100%;background:linear-gradient(135deg,#10b981,#059669);color:#fff;border:none;border-radius:10px;padding:14px;font-size:0.95rem;font-weight:900;cursor:pointer;letter-spacing:0.03em;">
-                      Continuar al Portal →
-                    </button>
-
-                    <p style="color:#475569;font-size:0.72rem;text-align:center;margin:12px 0 0;">¿Problemas? Consulta a tu supervisor.</p>
-                  </div>`;
-                document.body.appendChild(overlay);
+            if (isAud) {
+                if (audBanner) audBanner.classList.remove('hidden');
+                if (audSearch) audSearch.classList.remove('hidden');
+                if (eliteNote) eliteNote.classList.add('hidden');
+                if (editTargetsBtn) editTargetsBtn.classList.remove('hidden');
+                if (audText) {
+                    audText.textContent = `Sesión: ${profile.idEmpleado} (${profile.nombre}) — Puedes buscar y auditar cualquiera de los ${getPromoterList().length} promotores.`;
+                }
+                const list = getPromoterList();
+                const defaultProm = list.find(p => p.id === 'MR918750') || list.find(p => p.ventas_corte && p.ventas_corte.netas > 0) || list[0];
+                if (defaultProm) selectPromoterById(defaultProm.id);
+            } else {
+                if (audBanner) audBanner.classList.add('hidden');
+                if (audSearch) audSearch.classList.add('hidden');
+                if (eliteNote) eliteNote.classList.remove('hidden');
+                if (editTargetsBtn) editTargetsBtn.classList.add('hidden');
+                selectPromoterById(profile.idEmpleado || profile.id);
             }
-            document.getElementById('regOverlay').style.display = 'flex';
-            const inp = document.getElementById('regIdInput');
-            if (prefilledId) inp.value = prefilledId;
-            setTimeout(() => inp.focus(), 100);
-            // Enter para confirmar
-            inp.addEventListener('keydown', e => { if (e.key === 'Enter') submitRegistration(); });
         }
 
-        function submitRegistration() {
-            const rawId = document.getElementById('regIdInput').value.trim().toUpperCase().replace(/[\s\-]+/g, '');
-            const fb = document.getElementById('regFeedback');
-            const btn = document.getElementById('regSubmitBtn');
-
-            if (!rawId || rawId.length < 3) {
-                fb.style.cssText = 'display:block;background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3);color:#fca5a5;padding:10px 14px;border-radius:8px;font-size:0.82rem;font-weight:600;margin-bottom:14px;';
-                fb.textContent = '⚠️ Ingresa un ID válido (mínimo 3 caracteres).';
-                return;
-            }
-
-            const list = getPromoterList();
-            const found = list.find(p => {
-                const a = String(p.id).toUpperCase().replace(/[\s\-]+/g, '');
-                return a === rawId;
-            });
-
-            if (!found) {
-                fb.style.cssText = 'display:block;background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3);color:#fca5a5;padding:10px 14px;border-radius:8px;font-size:0.82rem;font-weight:600;margin-bottom:14px;';
-                fb.textContent = '❌ Tu ID no se encontró en el sistema. Verifica con tu supervisor.';
-                return;
-            }
-
-            // Éxito — guardar perfil y cerrar modal
-            const profile = { id: found.id, nombre: found.nombre, registeredAt: Date.now() };
-            try {
-                localStorage.setItem('oppo_user_profile', JSON.stringify(profile));
-                localStorage.setItem('oppo_promotor_profile_v1', JSON.stringify(profile));
-                localStorage.setItem('oppo_reg_version', PORTAL_REG_VERSION);
-            } catch(e) {}
-
-            fb.style.cssText = 'display:block;background:rgba(16,185,129,0.15);border:1px solid rgba(16,185,129,0.3);color:#6ee7b7;padding:10px 14px;border-radius:8px;font-size:0.82rem;font-weight:600;margin-bottom:14px;';
-            fb.textContent = `✅ ¡Bienvenido, ${found.nombre.split(' ')[0]}! Cargando tu portal...`;
-            btn.disabled = true;
-            btn.style.opacity = '0.6';
-
-            setTimeout(() => {
-                const overlay = document.getElementById('regOverlay');
-                if (overlay) overlay.style.display = 'none';
-                selectPromoterById(found.id);
-            }, 900);
-        }
-
-        // Inicialización automática
+        // Inicialización automática delegada a portalAuth
         document.addEventListener('DOMContentLoaded', () => {
             const cutoffInput = document.getElementById('cutoffDayInput');
             if (cutoffInput) cutoffInput.value = getDefaultEvaluatedDay();
-            // Mostrar por defecto la Pestaña 1 (Simulador de Dinero)
             showTab('simulador');
 
-            // ── Verificar si requiere registro ──
-            let requiresReg = true;
-            let prefilledId = '';
-            try {
-                const savedVersion = localStorage.getItem('oppo_reg_version');
-                const rawProfile = localStorage.getItem('oppo_user_profile');
-                if (rawProfile && savedVersion === PORTAL_REG_VERSION) {
-                    const prof = JSON.parse(rawProfile);
-                    if (prof && prof.id) {
-                        // Ya registrado con la versión actual — cargar perfil directamente
-                        const cleanId = String(prof.id).trim().toUpperCase().replace(/[\s\-]+/g, '');
-                        const list = getPromoterList();
-                        const found = list.find(p => String(p.id).toUpperCase().replace(/[\s\-]+/g, '') === cleanId);
-                        if (found) {
-                            requiresReg = false;
-                            selectPromoterById(found.id);
-                        } else {
-                            // ID ya no está en Mariana
-                            prefilledId = prof.id;
-                        }
-                    }
-                } else if (rawProfile) {
-                    // Versión diferente → pre-llenar el ID para facilitar re-registro
-                    try { prefilledId = JSON.parse(rawProfile).id || ''; } catch(e) {}
-                }
-            } catch (e) {}
-
-            if (requiresReg) {
-                showRegistrationModal(prefilledId);
+            if (window.portalAuth) {
+                window.portalAuth.requireAuth(applySimulatorAccessForProfile);
             }
         });
     </script>
-    <script src="progreso.js?v=20261030_2"></script>
+    <script src="progreso.js?v=20261111"></script>
 </body>
 </html>

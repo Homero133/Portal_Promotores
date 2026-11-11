@@ -4,11 +4,18 @@
  * Tolerancia de Activación: +-10 Días Naturales
  * Total Promotores: 710 | Ventas Netas Validadas: 1355
  */
+window.PORTAL_COMISIONES_META = {
+  "cutoffDay": 9,
+  "cutoffDate": "2026-11-09",
+  "toleranceDays": 10,
+  "totalPromoters": 710,
+  "netSales": 1355
+};
 window.PORTAL_COMISIONES_DATA = [
   {
     "id": "MR920019",
     "nombre": "AGUILAR FLORES YAEL YIREH",
-    "cadena": "TDA CDMX GALERIAS ATIZAPAN",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX GALERIAS ATIZAPAN",
     "region": "R9-A",
     "ciudad": "",
@@ -29,15 +36,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919310",
     "nombre": "BREÑA MANZO RAUL ABRAHAM",
-    "cadena": "CAER9 ATIZAPAN PLAZA HACIENDA | TDA CDMX PERINORTE",
+    "cadena": "AT&T",
     "tienda": "CAER9 ATIZAPAN PLAZA HACIENDA | TDA CDMX PERINORTE",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 30,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -55,15 +66,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR918673",
     "nombre": "CASTRO DOMINGUEZ MONSERRATH",
-    "cadena": "TDA CDMX CUAUTITLAN | CAC ARKANA NORTE CUAUTITLAN IZCALLI",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX CUAUTITLAN | CAC ARKANA NORTE CUAUTITLAN IZCALLI",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 63,
     "tgt_reno16": 19,
     "tgt_a7pro": 4,
@@ -81,15 +96,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "movistar"
+    ]
   },
   {
     "id": "MR912942",
     "nombre": "HEREDIA CABRERA MARIO ALBERTO",
-    "cadena": "TDA CDMX SATELITE I",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX SATELITE I",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 38,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -107,15 +127,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "R920266",
     "nombre": "LUGO RAMOS URIEL",
-    "cadena": "CAC SAN MARCOS CUAUTITLAN",
+    "cadena": "Movistar",
     "tienda": "CAC SAN MARCOS CUAUTITLAN",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 37,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -133,15 +157,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR912516",
     "nombre": "MENDO HERNANDEZ LIZBETH GUADALUPE",
-    "cadena": "ARSA-PARQUETOREO",
+    "cadena": "AT&T",
     "tienda": "ARSA-PARQUETOREO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 59,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -159,15 +187,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR912692",
     "nombre": "MORENO DIAZ MAGALI",
-    "cadena": "ARSA PLAZA TLALNE | MINI CAC LAS TIENDAS DE SAN ESTEBAN NAUCALPAN",
+    "cadena": "Movistar",
     "tienda": "ARSA PLAZA TLALNE | MINI CAC LAS TIENDAS DE SAN ESTEBAN NAUCALPAN",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 32,
     "tgt_reno16": 4,
     "tgt_a7pro": 9,
@@ -185,12 +217,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR920021",
     "nombre": "OLVERA GONZALEZ JARED ISAAC",
-    "cadena": "ARSA PLAZA SATELITE",
+    "cadena": "AT&T",
     "tienda": "ARSA PLAZA SATELITE",
     "region": "R9-A",
     "ciudad": "",
@@ -211,15 +248,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR918222",
     "nombre": "SANTOS CANO NANCY",
-    "cadena": "TDA CDMX TLALNEPANTLA I",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX TLALNEPANTLA I",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 45,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -237,15 +278,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919302",
     "nombre": "VERGARA MENDIOLA VICTOR ALFREDO",
-    "cadena": "MOVISTAR PARQUE TOREO",
+    "cadena": "AT&T",
     "tienda": "MOVISTAR PARQUE TOREO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 30,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -263,15 +308,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "movistar"
+    ]
   },
   {
     "id": "MR914404",
     "nombre": "ZALDIVAR VERA JOSE ALONSO",
-    "cadena": "TDA CDMX PLAZA LA JOYA",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX PLAZA LA JOYA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 50,
     "tgt_reno16": 25,
     "tgt_a7pro": 0,
@@ -289,15 +339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR917575",
     "nombre": "BARRETO MORALES ELDA AIDEE",
-    "cadena": "TDA CDMX CD JARDIN | TDA CDMX PANTITLAN",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX CD JARDIN | TDA CDMX PANTITLAN",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 58,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -315,15 +369,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919565",
     "nombre": "CABRERA GRANA MONICA YOSELYN",
-    "cadena": "ARSA-TEZONTLE",
+    "cadena": "AT&T",
     "tienda": "ARSA-TEZONTLE",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 36,
     "tgt_reno16": 3,
     "tgt_a7pro": 0,
@@ -341,15 +399,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR914343",
     "nombre": "GARCIA HERNANDEZ JOSUE RAMON",
-    "cadena": "ARSA TDA CDMX IXTAPALUCA PLAZA PATIO AYOTLA | TDA CDMX VALLE DE CHALCO",
+    "cadena": "AT&T",
     "tienda": "ARSA TDA CDMX IXTAPALUCA PLAZA PATIO AYOTLA | TDA CDMX VALLE DE CHALCO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 48,
     "tgt_reno16": 30,
     "tgt_a7pro": 0,
@@ -367,15 +429,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919232",
     "nombre": "HERNANDEZ ZARAGOZA DULCE ROSARIO",
-    "cadena": "CAC MOVISTAR PLAZA CENTRO CHALCO | TDA CDMX CHALCO",
+    "cadena": "Movistar",
     "tienda": "CAC MOVISTAR PLAZA CENTRO CHALCO | TDA CDMX CHALCO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 37,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -393,12 +459,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR919719",
     "nombre": "MARTINEZ MONROY ARTURO",
-    "cadena": "ARSTEZONTLEII",
+    "cadena": "AT&T",
     "tienda": "ARSTEZONTLEII",
     "region": "R9-A",
     "ciudad": "",
@@ -419,15 +490,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919313",
     "nombre": "ORTIGOZA LUNA JORGE",
-    "cadena": "ARSA-CHIMALHUACAN",
+    "cadena": "AT&T",
     "tienda": "ARSA-CHIMALHUACAN",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 63,
     "tgt_reno16": 39,
     "tgt_a7pro": 0,
@@ -445,15 +520,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR914167",
     "nombre": "RODRIGUEZ CERVANTES ALEJANDRO",
-    "cadena": "CAP ZENTRALIA DFO",
+    "cadena": "AT&T",
     "tienda": "CAP ZENTRALIA DFO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -471,15 +550,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR915975",
     "nombre": "CERVANTES LAGUNA SERGIO",
-    "cadena": "TDA CDMX PARQUE VIA VALLEJO",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX PARQUE VIA VALLEJO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 30,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -497,15 +580,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919084",
     "nombre": "ESPINOZA TREJO JOSE MANUEL",
-    "cadena": "TDA CDMX FORUM BUENAVISTA",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX FORUM BUENAVISTA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 55,
     "tgt_reno16": 25,
     "tgt_a7pro": 0,
@@ -523,15 +610,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR911325",
     "nombre": "GUTIERREZ SALDIVAR PAUL",
-    "cadena": "TDA CDMX EL ROSARIO",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX EL ROSARIO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 57,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -549,15 +640,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR912536",
     "nombre": "JIMENEZ TAHUILAN SUSANA YAZMIN",
-    "cadena": "CAC PLAZA LINDAVISTA | CAC ROSARIO",
+    "cadena": "Movistar",
     "tienda": "CAC PLAZA LINDAVISTA | CAC ROSARIO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 16,
@@ -575,12 +670,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR920039",
     "nombre": "LOPEZ RAMIREZ JORGE DE JESUS",
-    "cadena": "TDA CDMX LINDAVISTA",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX LINDAVISTA",
     "region": "R9-A",
     "ciudad": "",
@@ -601,15 +700,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR916536",
     "nombre": "RIVERA LOPEZ JOSUE",
-    "cadena": "TDA CDMX CUAUHTEMOC",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX CUAUHTEMOC",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUHTÉMOC",
     "tgt_gral": 60,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -627,12 +730,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR920018",
     "nombre": "ROBLEDO PEREZ MAYA JURITHZY",
-    "cadena": "CAC BUENAVISTA",
+    "cadena": "Movistar",
     "tienda": "CAC BUENAVISTA",
     "region": "R9-A",
     "ciudad": "",
@@ -653,12 +760,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR916922",
     "nombre": "ROJAS JUAREZ MARIANA",
-    "cadena": "ARSA-PARQUELINDAVISTA | ARSA-PARQUELINDAVISTA2",
+    "cadena": "AT&T",
     "tienda": "ARSA-PARQUELINDAVISTA | ARSA-PARQUELINDAVISTA2",
     "region": "R9-A",
     "ciudad": "",
@@ -679,15 +790,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR914926",
     "nombre": "BARRON VARGAS EFREN ENRIQUE",
-    "cadena": "BA HUEHUETOCA 1150 | MINI CAC MOVISTAR PLAZA CAÑADA HUEHUETOCA | SC HUEHUETOCA JOROBAS 2219",
+    "cadena": "Movistar",
     "tienda": "BA HUEHUETOCA 1150 | MINI CAC MOVISTAR PLAZA CAÑADA HUEHUETOCA | SC HUEHUETOCA JOROBAS 2219",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 1,
@@ -705,15 +820,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "walmart"
+    ]
   },
   {
     "id": "MR911344",
     "nombre": "GONZALEZ PONCE JESUS ALEJANDRO",
-    "cadena": "BA ACOLMAN TEPEXPAN 1828 | BA TEOTIHUACAN 1002",
+    "cadena": "Walmart",
     "tienda": "BA ACOLMAN TEPEXPAN 1828 | BA TEOTIHUACAN 1002",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TEOTIHUACÁN",
     "tgt_gral": 32,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -731,15 +851,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR914949",
     "nombre": "MENDOZA GUIDO CLAUDIA LIZETH",
-    "cadena": "BA SAN AGUSTIN 1201",
+    "cadena": "Walmart",
     "tienda": "BA SAN AGUSTIN 1201",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -757,12 +881,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR919932",
     "nombre": "ORDOÑEZ RANGEL ROSA ISABEL",
-    "cadena": "BA XALOSTOC 3020",
+    "cadena": "Walmart",
     "tienda": "BA XALOSTOC 3020",
     "region": "R9-A",
     "ciudad": "",
@@ -783,15 +911,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR919617",
     "nombre": "PINACHO SANTOYO ROSA IVON",
-    "cadena": "SC ECATEPEC CENTRO 3503",
+    "cadena": "Walmart",
     "tienda": "SC ECATEPEC CENTRO 3503",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 35,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -809,15 +941,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR918003",
     "nombre": "RAMOS ROSALES ERIK MARTIN",
-    "cadena": "BA PLAZA ARAGON 3753 | SC MACRO PLAZA HEROES 3016",
+    "cadena": "Walmart",
     "tienda": "BA PLAZA ARAGON 3753 | SC MACRO PLAZA HEROES 3016",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -835,12 +971,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR920053",
     "nombre": "SANCHEZ VELAZQUEZ OSIRIS VIRIDIANA",
-    "cadena": "SC PLAZA ARAGON 3005",
+    "cadena": "Walmart",
     "tienda": "SC PLAZA ARAGON 3005",
     "region": "R9-A",
     "ciudad": "",
@@ -861,15 +1001,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "R922391",
     "nombre": "VICENTE HERNANDEZ YESSICA",
-    "cadena": "SC SAN MARCOS IZCALLI 1044",
+    "cadena": "Walmart",
     "tienda": "SC SAN MARCOS IZCALLI 1044",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -887,15 +1031,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR915347",
     "nombre": "AREVALO BARRAGAN ALAN ALEJANDRO",
-    "cadena": "TDA CDMX AEROPUERTO",
+    "cadena": "Movistar",
     "tienda": "TDA CDMX AEROPUERTO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 50,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -913,12 +1061,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR919894",
     "nombre": "ARIAS ESPEJEL MAYOMI LIZETH",
-    "cadena": "ARSA-TEXCOCO | PRM TDA TEXCOCO CENTRO",
+    "cadena": "AT&T",
     "tienda": "ARSA-TEXCOCO | PRM TDA TEXCOCO CENTRO",
     "region": "R9-A",
     "ciudad": "",
@@ -939,15 +1092,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR918070",
     "nombre": "CASTAÑEDA LOPEZ ADRIAN ALEXIS",
-    "cadena": "MOVISTAR PUERTA ARAGON",
+    "cadena": "Movistar",
     "tienda": "MOVISTAR PUERTA ARAGON",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -965,15 +1122,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR914379",
     "nombre": "ESPINOSA VILLASANA MARLON JAFFET",
-    "cadena": "TDA CDMX COACALCO PZA LAS FLORES",
+    "cadena": "Walmart",
     "tienda": "TDA CDMX COACALCO PZA LAS FLORES",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 31,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -991,15 +1152,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR912705",
     "nombre": "GARCIA DOMINGUEZ ERICK",
-    "cadena": "ARSA-AMERICAS | ARSA-AMERICASII | SMART STORE LAS AMERICAS",
+    "cadena": "Movistar",
     "tienda": "ARSA-AMERICAS | ARSA-AMERICASII | SMART STORE LAS AMERICAS",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 68,
     "tgt_reno16": 10,
     "tgt_a7pro": 6,
@@ -1017,15 +1183,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR918121",
     "nombre": "HERNANDEZ PEREZ FABIAN",
-    "cadena": "TDA CDMX ECATEPEC I",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX ECATEPEC I",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 35,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -1043,15 +1214,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919605",
     "nombre": "JIMENEZ MARTINEZ ELIENAI",
-    "cadena": "CAC MOVISTAR COACALCO | TDA CDMX ECATEPEC",
+    "cadena": "Movistar",
     "tienda": "CAC MOVISTAR COACALCO | TDA CDMX ECATEPEC",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 45,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -1069,15 +1244,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR919643",
     "nombre": "JUAREZ RODRIGUEZ CARLOS ADRIAN",
-    "cadena": "TDA CDMX MULTIPLAZA OJO DE AGUA",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX MULTIPLAZA OJO DE AGUA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 34,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -1095,15 +1275,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "R912300",
     "nombre": "MORENO FLORES IVAN JOSAFAT",
-    "cadena": "TDA CDMX COACALCO PLAZA LAS FLORES",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX COACALCO PLAZA LAS FLORES",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 35,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -1121,12 +1305,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR912520",
     "nombre": "OLIVOS MENDOZA GUSTAVO",
-    "cadena": "CAC PLAZA ARAGON EDO MEX",
+    "cadena": "Movistar",
     "tienda": "CAC PLAZA ARAGON EDO MEX",
     "region": "R9-A",
     "ciudad": "",
@@ -1147,15 +1335,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR917929",
     "nombre": "ZAVALA ESTRADA KEVIN SALVADOR",
-    "cadena": "CAC MOVISTAR TEXCOCO | TDA CDMX UNE-GSM TEXCOCO GR PATIO",
+    "cadena": "Movistar",
     "tienda": "CAC MOVISTAR TEXCOCO | TDA CDMX UNE-GSM TEXCOCO GR PATIO",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 30,
     "tgt_reno16": 4,
     "tgt_a7pro": 2,
@@ -1173,15 +1365,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR911180",
     "nombre": "CORTES RODRIGUEZ URIEL AHIR",
-    "cadena": "CAC ACOXPA",
+    "cadena": "Movistar",
     "tienda": "CAC ACOXPA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 51,
     "tgt_reno16": 11,
     "tgt_a7pro": 18,
@@ -1199,12 +1396,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR911570",
     "nombre": "GUDIÑO AVILA ISRAEL ALEJANDRO",
-    "cadena": "CAC GRAN SUR DF | TDA CDMX GRAN SUR II",
+    "cadena": "Movistar",
     "tienda": "CAC GRAN SUR DF | TDA CDMX GRAN SUR II",
     "region": "R9-A",
     "ciudad": "",
@@ -1225,12 +1426,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR911112",
     "nombre": "GUERRERO ESPONDA LUIS ANGEL",
-    "cadena": "ARSA MITIKAH | BCA OASIS COYOACAN 2",
+    "cadena": "AT&T",
     "tienda": "ARSA MITIKAH | BCA OASIS COYOACAN 2",
     "region": "R9-A",
     "ciudad": "",
@@ -1251,12 +1457,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR917718",
     "nombre": "HERNANDEZ SOTO EVELYN MARIAN",
-    "cadena": "ARSA ANTENAS XOCHIMILCO",
+    "cadena": "AT&T",
     "tienda": "ARSA ANTENAS XOCHIMILCO",
     "region": "R9-A",
     "ciudad": "",
@@ -1277,15 +1487,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR912102",
     "nombre": "JAVIER OLMEDO DIANA",
-    "cadena": "ARSA PERISUR CDMX",
+    "cadena": "AT&T",
     "tienda": "ARSA PERISUR CDMX",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 71,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -1303,15 +1517,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919109",
     "nombre": "MEDINA NEGRERTE YARETZI VALERIA",
-    "cadena": "CAC LAS ANTENAS IZTAPALAPA",
+    "cadena": "Movistar",
     "tienda": "CAC LAS ANTENAS IZTAPALAPA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 30,
     "tgt_reno16": 7,
     "tgt_a7pro": 6,
@@ -1329,15 +1547,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar"
+    ]
   },
   {
     "id": "MR915743",
     "nombre": "MENDOZA DIAZ RICARDO ALBERTO",
-    "cadena": "TDA CDMX COAPA | TDA CDMX COAPLAZA",
+    "cadena": "AT&T",
     "tienda": "TDA CDMX COAPA | TDA CDMX COAPLAZA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 52,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -1355,15 +1577,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919601",
     "nombre": "RAMIREZ JUAREZ ITZEL",
-    "cadena": "ARSA-COAPA",
+    "cadena": "Movistar",
     "tienda": "ARSA-COAPA",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -1381,15 +1607,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Movistar",
+    "cadenas_slugs": [
+      "movistar",
+      "att"
+    ]
   },
   {
     "id": "MR913766",
     "nombre": "AVILES MARTINEZ ENRIQUE",
-    "cadena": "BA 1 DE MAYO 3784",
+    "cadena": "Walmart",
     "tienda": "BA 1 DE MAYO 3784",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -1407,15 +1638,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR916591",
     "nombre": "CHAVERO POZOS DIEGO ENRIQUE",
-    "cadena": "SC TEPEYAC 2345",
+    "cadena": "Walmart",
     "tienda": "SC TEPEYAC 2345",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -1433,12 +1668,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR919974",
     "nombre": "CORREA MARTINEZ MARCO ANTONIO",
-    "cadena": "SC PLAZA EDUARDO MOLINA 4547",
+    "cadena": "Walmart",
     "tienda": "SC PLAZA EDUARDO MOLINA 4547",
     "region": "R9-A",
     "ciudad": "",
@@ -1459,15 +1698,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR916987",
     "nombre": "JUAREZ VALENCIA BLANCA LORENA",
-    "cadena": "SC TOREO 2344",
+    "cadena": "Walmart",
     "tienda": "SC TOREO 2344",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 37,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -1485,15 +1728,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "R921378",
     "nombre": "NEJAPA GARCIA RICARDO FABIAN",
-    "cadena": "ARSA PARQUE TEPEYAC GAM | SC AZCAPOTZALCO 3862 | SC EL ROSARIO 1580",
+    "cadena": "Walmart",
     "tienda": "ARSA PARQUE TEPEYAC GAM | SC AZCAPOTZALCO 3862 | SC EL ROSARIO 1580",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 48,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -1511,12 +1758,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR919698",
     "nombre": "GALVEZ MONTERO MIGUEL ANGEL AHATZIN",
-    "cadena": "SC BUENAVISTA 3846",
+    "cadena": "Walmart",
     "tienda": "SC BUENAVISTA 3846",
     "region": "R9-A",
     "ciudad": "",
@@ -1537,12 +1789,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR919686",
     "nombre": "GOMEZ MARTINEZ RAFAEL",
-    "cadena": "SC PORTAL SAN ANGEL 1083 | TDA CDMX PORTAL SAN ANGEL",
+    "cadena": "Walmart",
     "tienda": "SC PORTAL SAN ANGEL 1083 | TDA CDMX PORTAL SAN ANGEL",
     "region": "R9-A",
     "ciudad": "",
@@ -1563,12 +1819,17 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR919895",
     "nombre": "HERNANDEZ ARELLANO GUSTAVO",
-    "cadena": "SC UNIVERSIDAD 3845 | TDA CDMX UNIVERSIDAD 767",
+    "cadena": "Walmart",
     "tienda": "SC UNIVERSIDAD 3845 | TDA CDMX UNIVERSIDAD 767",
     "region": "R9-A",
     "ciudad": "",
@@ -1589,15 +1850,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR912916",
     "nombre": "HERNANDEZ VAZQUES BALBINA",
-    "cadena": "SC TLALPAN 2670",
+    "cadena": "Walmart",
     "tienda": "SC TLALPAN 2670",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -1615,15 +1881,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "MR919416",
     "nombre": "MARTINEZ VILLANUEVA CESAR",
-    "cadena": "SC PERIFERICO SUR 3863 | TDA CDMX PEDREGAL",
+    "cadena": "AT&T",
     "tienda": "SC PERIFERICO SUR 3863 | TDA CDMX PEDREGAL",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 30,
     "tgt_reno16": 1,
     "tgt_a7pro": 0,
@@ -1641,15 +1911,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "walmart"
+    ]
   },
   {
     "id": "MR918738",
     "nombre": "ANGEL CRUZ JOSE GIOVANNI",
-    "cadena": "ARSA-CHEDRAUINEZA | SC CD JARDIN 2079",
+    "cadena": "Walmart",
     "tienda": "ARSA-CHEDRAUINEZA | SC CD JARDIN 2079",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 43,
     "tgt_reno16": 8,
     "tgt_a7pro": 0,
@@ -1667,15 +1942,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR917405",
     "nombre": "MENDEZ CARMONA EZEQUIEL",
-    "cadena": "BA IZTAPALAPA NORTE 3916 | BCA BUSINESSCORPASSOC-XALPA 744",
+    "cadena": "AT&T",
     "tienda": "BA IZTAPALAPA NORTE 3916 | BCA BUSINESSCORPASSOC-XALPA 744",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 40,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -1693,15 +1973,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "walmart"
+    ]
   },
   {
     "id": "MR913297",
     "nombre": "OSORIO HERRERA ADRIANA PAOLA",
-    "cadena": "PRM TDA GLORIETA NEZA MEX HQ5 9698 | SC HIPERPLAZA TEXCOCO 1489",
+    "cadena": "AT&T",
     "tienda": "PRM TDA GLORIETA NEZA MEX HQ5 9698 | SC HIPERPLAZA TEXCOCO 1489",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -1719,15 +2004,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "walmart"
+    ]
   },
   {
     "id": "R921538",
     "nombre": "PATRICIO GUZMAN ALEJANDRA MONSERRATH",
-    "cadena": "ARSA-IXTAPALUCA | BA AYOTLA 1109 | SC IXTAPALUCA 1107",
+    "cadena": "Walmart",
     "tienda": "ARSA-IXTAPALUCA | BA AYOTLA 1109 | SC IXTAPALUCA 1107",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 30,
     "tgt_reno16": 1,
     "tgt_a7pro": 0,
@@ -1745,15 +2035,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR919353",
     "nombre": "RODRIGUEZ ARIZA NANCY",
-    "cadena": "BA CUAUTZINGO CHALCO 1634 | SC VICENTE GUERRERO 1683",
+    "cadena": "Walmart",
     "tienda": "BA CUAUTZINGO CHALCO 1634 | SC VICENTE GUERRERO 1683",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -1771,15 +2066,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart"
+    ]
   },
   {
     "id": "R922100",
     "nombre": "RODRIGUEZ LOPEZ ERNESTO",
-    "cadena": "ARSA-NEZA | BA LA AURORA 3775 | SC AEROPUERTO 3851",
+    "cadena": "AT&T",
     "tienda": "ARSA-NEZA | BA LA AURORA 3775 | SC AEROPUERTO 3851",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 30,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -1797,15 +2096,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "walmart"
+    ]
   },
   {
     "id": "MR919440",
     "nombre": "RODRIGUEZ VELAZQUEZ RICARDO",
-    "cadena": "EXP KSK SENDERO IXTAPALUCA 944 | SC PLAZA ORIENTE 2033 | BA VALLE DE ARAGON 3777",
+    "cadena": "AT&T",
     "tienda": "EXP KSK SENDERO IXTAPALUCA 944 | SC PLAZA ORIENTE 2033 | BA VALLE DE ARAGON 3777",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 47,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -1823,15 +2127,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att",
+      "walmart"
+    ]
   },
   {
     "id": "MR917586",
     "nombre": "SILVA OLIVARES KARINA",
-    "cadena": "BA CABEZA DE JUAREZ 3797 | BA ZARAGOZA 3860 | PRM TDA PILARES IXTAPALUCA HP5 9699",
+    "cadena": "Walmart",
     "tienda": "BA CABEZA DE JUAREZ 3797 | BA ZARAGOZA 3860 | PRM TDA PILARES IXTAPALUCA HP5 9699",
     "region": "R9-A",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -1849,15 +2158,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Walmart",
+    "cadenas_slugs": [
+      "walmart",
+      "att"
+    ]
   },
   {
     "id": "MR919337",
     "nombre": "AGUILAR ROMERO HADA NELLY",
-    "cadena": "COPPEL PATOS 1333",
+    "cadena": "Coppel",
     "tienda": "COPPEL PATOS 1333",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 44,
     "tgt_reno16": 4,
     "tgt_a7pro": 0,
@@ -1875,12 +2189,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919878",
     "nombre": "CAMPOS AGUIRRE ROBERTO ANDRES",
-    "cadena": "COPPEL PEÑON 358",
+    "cadena": "Coppel",
     "tienda": "COPPEL PEÑON 358",
     "region": "R9-B",
     "ciudad": "",
@@ -1901,15 +2219,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R919492",
     "nombre": "FLORENTINO MARCIAL BRENDA SARAI",
-    "cadena": "COPPEL GUADALUPE 255",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUADALUPE 255",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 60,
     "tgt_reno16": 8,
     "tgt_a7pro": 5,
@@ -1927,15 +2249,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R920963",
     "nombre": "FLORES MOYA SERGIO IVAN",
-    "cadena": "COPPEL ARCA DE NOE 6574",
+    "cadena": "Coppel",
     "tienda": "COPPEL ARCA DE NOE 6574",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 56,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -1953,15 +2279,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911159",
     "nombre": "GALLEGOS DEL GABRIEL RICARDO",
-    "cadena": "COPPEL RIO BRAVO 906",
+    "cadena": "Coppel",
     "tienda": "COPPEL RIO BRAVO 906",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 48,
     "tgt_reno16": 6,
     "tgt_a7pro": 8,
@@ -1979,12 +2309,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920017",
     "nombre": "GASCA GONZALEZ ADRIAN",
-    "cadena": "COPPEL PLAZA NEZA 297",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA NEZA 297",
     "region": "R9-B",
     "ciudad": "",
@@ -2005,15 +2339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R923103",
     "nombre": "GUEVARA ELIAS FATIMA SIRENIA",
-    "cadena": "COPPEL GUADALUPE 255 | COPPEL ENCINO 441",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUADALUPE 255 | COPPEL ENCINO 441",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 45,
     "tgt_reno16": 3,
     "tgt_a7pro": 5,
@@ -2031,15 +2369,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911762",
     "nombre": "GUTIERREZ SANTANA DIEGO EDUARDO",
-    "cadena": "COPPEL REVOLUCION 250",
+    "cadena": "Coppel",
     "tienda": "COPPEL REVOLUCION 250",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 60,
     "tgt_reno16": 9,
     "tgt_a7pro": 4,
@@ -2057,12 +2399,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919896",
     "nombre": "JIMENEZ RAMIREZ BRITANY LIZEHT",
-    "cadena": "COPPEL CHIM ALHUACAN 7757",
+    "cadena": "Coppel",
     "tienda": "COPPEL CHIM ALHUACAN 7757",
     "region": "R9-B",
     "ciudad": "",
@@ -2083,15 +2429,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R913151",
     "nombre": "MARTINEZ TELLEZ MARIA DE LOS ANGELES",
-    "cadena": "COPPEL PEÑON 358",
+    "cadena": "Coppel",
     "tienda": "COPPEL PEÑON 358",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 68,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -2109,15 +2459,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912756",
     "nombre": "MENDOZA TREJO LUIS FERNANDO",
-    "cadena": "COPPEL PANTITLAN 357",
+    "cadena": "Coppel",
     "tienda": "COPPEL PANTITLAN 357",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 53,
     "tgt_reno16": 11,
     "tgt_a7pro": 8,
@@ -2135,15 +2489,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918801",
     "nombre": "MORALES RODRIGUEZ GUATAVO MIKHAIL",
-    "cadena": "COPPEL PATOS 1333",
+    "cadena": "Coppel",
     "tienda": "COPPEL PATOS 1333",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 50,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -2161,15 +2519,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919049",
     "nombre": "ORTEGA CHAVEZ OMAR DANIEL",
-    "cadena": "COPPEL PLAZA NEZA 297",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA NEZA 297",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 60,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -2187,15 +2549,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919633",
     "nombre": "PADILLA JIMENEZ ENRIQUE",
-    "cadena": "COPPEL RIO BRAVO 906",
+    "cadena": "Coppel",
     "tienda": "COPPEL RIO BRAVO 906",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 54,
     "tgt_reno16": 3,
     "tgt_a7pro": 9,
@@ -2213,15 +2579,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918802",
     "nombre": "RAMIREZ GONZALEZ MICHEL",
-    "cadena": "COPPEL PUERTO 1088",
+    "cadena": "Coppel",
     "tienda": "COPPEL PUERTO 1088",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 49,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -2239,12 +2609,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919902",
     "nombre": "RAMIREZ LOZANO MANUEL SEBASTIAN",
-    "cadena": "COPPEL TEPOZAN 1427",
+    "cadena": "Coppel",
     "tienda": "COPPEL TEPOZAN 1427",
     "region": "R9-B",
     "ciudad": "",
@@ -2265,15 +2639,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910048",
     "nombre": "SALINAS HERNANDEZ SCOTT SILVESTRE",
-    "cadena": "COPPEL CARDENAS 6671 | COPPEL VILLADA 7948",
+    "cadena": "Coppel",
     "tienda": "COPPEL CARDENAS 6671 | COPPEL VILLADA 7948",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 82,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -2291,15 +2669,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916894",
     "nombre": "SOLANO ALVARADO JUAN FRANCISCO",
-    "cadena": "COPPEL REVOLUCION 250",
+    "cadena": "Coppel",
     "tienda": "COPPEL REVOLUCION 250",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 43,
     "tgt_reno16": 5,
     "tgt_a7pro": 2,
@@ -2317,15 +2699,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918685",
     "nombre": "ANDRADE FLORES ERCIK URIEL",
-    "cadena": "COPPEL HUERTAS 1367",
+    "cadena": "Coppel",
     "tienda": "COPPEL HUERTAS 1367",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 58,
     "tgt_reno16": 12,
     "tgt_a7pro": 2,
@@ -2343,15 +2729,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910470",
     "nombre": "CASTILLO RAMIREZ MARCO ANTONIO",
-    "cadena": "COPPEL PLAZA ZUMPANGO 881",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA ZUMPANGO 881",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 55,
     "tgt_reno16": 6,
     "tgt_a7pro": 1,
@@ -2369,15 +2759,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917982",
     "nombre": "DORANTES LOPEZ YESENIA GUADALUPE",
-    "cadena": "COPPEL 5 DE MAYO 349",
+    "cadena": "Coppel",
     "tienda": "COPPEL 5 DE MAYO 349",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 43,
     "tgt_reno16": 5,
     "tgt_a7pro": 3,
@@ -2395,15 +2789,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "8605",
     "nombre": "FUENTES ALMARAZ JOSE FRANCISCO",
-    "cadena": "COPPEL HUEHUETOCA 912",
+    "cadena": "Coppel",
     "tienda": "COPPEL HUEHUETOCA 912",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 54,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -2421,15 +2819,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919230",
     "nombre": "GRANADOS BARRIGA SAUL",
-    "cadena": "COPPEL SIERRA HERMOSA 6531 | COPPEL GUSTAVO BAZ 389",
+    "cadena": "Coppel",
     "tienda": "COPPEL SIERRA HERMOSA 6531 | COPPEL GUSTAVO BAZ 389",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 62,
     "tgt_reno16": 9,
     "tgt_a7pro": 9,
@@ -2447,15 +2849,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918208",
     "nombre": "IBAÑEZ MARTINEZ HAXIVER GUADALUPE",
-    "cadena": "COPPEL PLAZA LA CAÑADA 940",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA LA CAÑADA 940",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 33,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -2473,15 +2879,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919558",
     "nombre": "LUNA LIMON FRANCISCO ALEJANDRO",
-    "cadena": "COPPEL GUSTAVO BAZ 389",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUSTAVO BAZ 389",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 51,
     "tgt_reno16": 11,
     "tgt_a7pro": 2,
@@ -2499,12 +2909,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920068",
     "nombre": "MARTINEZ GUZMAN VALERIA AYLIN",
-    "cadena": "COPPEL POWER CENTER 7655 | COPPEL 5 DE MAYO 349 | COPPEL PLAZA ZUMPANGO 881",
+    "cadena": "Coppel",
     "tienda": "COPPEL POWER CENTER 7655 | COPPEL 5 DE MAYO 349 | COPPEL PLAZA ZUMPANGO 881",
     "region": "R9-B",
     "ciudad": "",
@@ -2525,15 +2939,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918357",
     "nombre": "NAVA DURAN ABIGAIL ANGELICA",
-    "cadena": "COPPEL PLAZA ZUMPANGO 881",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA ZUMPANGO 881",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 31,
     "tgt_reno16": 9,
     "tgt_a7pro": 1,
@@ -2551,15 +2969,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918710",
     "nombre": "ORTIZ ROMERO ABRIL NICOL",
-    "cadena": "COPPEL HUEHUETOCA 912",
+    "cadena": "Coppel",
     "tienda": "COPPEL HUEHUETOCA 912",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 30,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -2577,15 +2999,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911728",
     "nombre": "PEREZ SANCHEZ JOSE EMANUEL",
-    "cadena": "COPPEL JUAREZ 1220",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 1220",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "APAXCO",
     "tgt_gral": 87,
     "tgt_reno16": 8,
     "tgt_a7pro": 10,
@@ -2603,15 +3029,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919133",
     "nombre": "RIVERA MAZA VALKILMER",
-    "cadena": "COPPEL PLAZA LA CAÑADA 940",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA LA CAÑADA 940",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 70,
     "tgt_reno16": 7,
     "tgt_a7pro": 0,
@@ -2629,15 +3059,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917103",
     "nombre": "RODRIGUEZ MENDOZA CESAR",
-    "cadena": "COPPEL GUSTAVO BAZ 389",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUSTAVO BAZ 389",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 48,
     "tgt_reno16": 5,
     "tgt_a7pro": 1,
@@ -2655,15 +3089,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914457",
     "nombre": "ROMERO ESPEJEL DIANA BERENICE",
-    "cadena": "COPPEL 5 DE MAYO 813",
+    "cadena": "Coppel",
     "tienda": "COPPEL 5 DE MAYO 813",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEOLOYUCAN",
     "tgt_gral": 57,
     "tgt_reno16": 10,
     "tgt_a7pro": 4,
@@ -2681,12 +3119,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918384",
     "nombre": "AMADOR ALVAREZ NOE JULIAN",
-    "cadena": "COPPEL TOWN CENTER 1080",
+    "cadena": "Coppel",
     "tienda": "COPPEL TOWN CENTER 1080",
     "region": "R9-B",
     "ciudad": "",
@@ -2707,15 +3149,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915032",
     "nombre": "CAMPOS LOPEZ JOSUE",
-    "cadena": "COPPEL JUAREZ 1174",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 1174",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "VILLA DEL CARBÓN",
     "tgt_gral": 95,
     "tgt_reno16": 27,
     "tgt_a7pro": 0,
@@ -2733,15 +3179,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917431",
     "nombre": "CASTAÑEDA AVILA EDUARDO",
-    "cadena": "COPPEL ZARAGOZA 834",
+    "cadena": "Coppel",
     "tienda": "COPPEL ZARAGOZA 834",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 71,
     "tgt_reno16": 10,
     "tgt_a7pro": 4,
@@ -2759,12 +3209,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R919514",
     "nombre": "GARCIA FLORES ARMANDO",
-    "cadena": "COPPEL LAGO DE GUADALUPE 464",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAGO DE GUADALUPE 464",
     "region": "R9-B",
     "ciudad": "",
@@ -2785,15 +3239,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913835",
     "nombre": "HERNANDEZ LICONA JOSE FRANCISCO",
-    "cadena": "COPPEL 16 DE SEPTIEMBRE 498",
+    "cadena": "Coppel",
     "tienda": "COPPEL 16 DE SEPTIEMBRE 498",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 118,
     "tgt_reno16": 25,
     "tgt_a7pro": 0,
@@ -2811,12 +3269,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919731",
     "nombre": "HERREJON CABRERA CRISTIAN GERARDO",
-    "cadena": "COPPEL CENTRAL 858",
+    "cadena": "Coppel",
     "tienda": "COPPEL CENTRAL 858",
     "region": "R9-B",
     "ciudad": "",
@@ -2837,15 +3299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R914871",
     "nombre": "REYES MERCADO ERIKA",
-    "cadena": "COPPEL JUAREZ 192",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 192",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 38,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -2863,15 +3329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918007",
     "nombre": "RIOS GOMEZ ADAIR",
-    "cadena": "COPPEL CENTRAL 858",
+    "cadena": "Coppel",
     "tienda": "COPPEL CENTRAL 858",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 30,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -2889,15 +3359,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R917306",
     "nombre": "TREJO OLMOS ELSI KAREN",
-    "cadena": "COPPEL 16 DE SEPTIEMBRE 498",
+    "cadena": "Coppel",
     "tienda": "COPPEL 16 DE SEPTIEMBRE 498",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 95,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -2915,15 +3389,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912592",
     "nombre": "TREJO OLMOS RUBY JAZMIN",
-    "cadena": "COPPEL JUAREZ 192",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 192",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 38,
     "tgt_reno16": 2,
     "tgt_a7pro": 1,
@@ -2941,15 +3419,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913870",
     "nombre": "VARELA CALDERON YASMIN GUADALUPE",
-    "cadena": "COPPEL LAGO DE GUADALUPE 464",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAGO DE GUADALUPE 464",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 36,
     "tgt_reno16": 2,
     "tgt_a7pro": 4,
@@ -2967,12 +3449,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R918271",
     "nombre": "ALARCON DORANTES OMAR",
-    "cadena": "COPPEL SAN AGUSTIN 1056",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN AGUSTIN 1056",
     "region": "R9-B",
     "ciudad": "",
@@ -2993,15 +3479,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R917161",
     "nombre": "BERNAL JIMENEZ CRISTIAN ALEJANDRO",
-    "cadena": "COPPEL SAN BARTOLO 152",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN BARTOLO 152",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 38,
     "tgt_reno16": 5,
     "tgt_a7pro": 6,
@@ -3019,12 +3509,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919838",
     "nombre": "CALDERON HERNANDEZ ALVARO",
-    "cadena": "COPPEL ARENERA 461",
+    "cadena": "Coppel",
     "tienda": "COPPEL ARENERA 461",
     "region": "R9-B",
     "ciudad": "",
@@ -3045,15 +3539,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910399",
     "nombre": "CID CORTES VIRIDIANA",
-    "cadena": "COPPEL SAN MATEO NOPALA 7696",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN MATEO NOPALA 7696",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 53,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -3071,15 +3569,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R920738",
     "nombre": "GAONA VAZQUEZ SEBASTIAN",
-    "cadena": "COPPEL SAN BARTOLO 152",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN BARTOLO 152",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 53,
     "tgt_reno16": 17,
     "tgt_a7pro": 9,
@@ -3097,15 +3599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919574",
     "nombre": "GARCIA ROSAS CRISTIAN URIEL",
-    "cadena": "COPPEL SAN ESTEBAN 1408",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ESTEBAN 1408",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 83,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -3123,15 +3629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918708",
     "nombre": "HERNANDEZ GIL JUAN JESUS",
-    "cadena": "COPPEL 16 DE SEPTIEMBRE 7804 | COPPEL SAN MATEO 1446",
+    "cadena": "Coppel",
     "tienda": "COPPEL 16 DE SEPTIEMBRE 7804 | COPPEL SAN MATEO 1446",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 39,
     "tgt_reno16": 0,
     "tgt_a7pro": 13,
@@ -3149,15 +3659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916215",
     "nombre": "MELCHOR CASTELAN CRISTOFER",
-    "cadena": "COPPEL SAN AGUSTIN 1056",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN AGUSTIN 1056",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 48,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -3175,15 +3689,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913643",
     "nombre": "PEREZ TLALTENGO ANGEL",
-    "cadena": "COPPEL ESPERANZA 166",
+    "cadena": "Coppel",
     "tienda": "COPPEL ESPERANZA 166",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 58,
     "tgt_reno16": 18,
     "tgt_a7pro": 2,
@@ -3201,15 +3719,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918420",
     "nombre": "RANGEL GOMEZ IRIDIANA",
-    "cadena": "COPPEL EL ROSARIO 994",
+    "cadena": "Coppel",
     "tienda": "COPPEL EL ROSARIO 994",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 31,
     "tgt_reno16": 0,
     "tgt_a7pro": 5,
@@ -3227,15 +3749,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914917",
     "nombre": "ANTONIO SANTIAGO DOMINGO IGNACIO",
-    "cadena": "COPPEL SENDERO 476",
+    "cadena": "Coppel",
     "tienda": "COPPEL SENDERO 476",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEOTIHUACÁN",
     "tgt_gral": 31,
     "tgt_reno16": 3,
     "tgt_a7pro": 8,
@@ -3253,12 +3779,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920012",
     "nombre": "ARREGUIN MUNGUIA DANIELA",
-    "cadena": "COPPEL ZARAGOZA 1000",
+    "cadena": "Coppel",
     "tienda": "COPPEL ZARAGOZA 1000",
     "region": "R9-B",
     "ciudad": "",
@@ -3279,15 +3809,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912786",
     "nombre": "BALTAZAR CARRILLO JADE ARILENE",
-    "cadena": "COPPEL CHICONAUTLA 7637",
+    "cadena": "Coppel",
     "tienda": "COPPEL CHICONAUTLA 7637",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 60,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -3305,12 +3839,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919837",
     "nombre": "BAUTISTA ARENAS NAYELI XOCHITL",
-    "cadena": "COPPEL SENDERO 476",
+    "cadena": "Coppel",
     "tienda": "COPPEL SENDERO 476",
     "region": "R9-B",
     "ciudad": "",
@@ -3331,15 +3869,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919467",
     "nombre": "BLANCAS SUSANO MARTHA MICHELLE",
-    "cadena": "COPPEL LA PUERTA 442",
+    "cadena": "Coppel",
     "tienda": "COPPEL LA PUERTA 442",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 59,
     "tgt_reno16": 12,
     "tgt_a7pro": 10,
@@ -3357,15 +3899,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R915441",
     "nombre": "FUENTES RANGEL LILIANA",
-    "cadena": "COPPEL MONTAÑO 1470",
+    "cadena": "Coppel",
     "tienda": "COPPEL MONTAÑO 1470",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 67,
     "tgt_reno16": 5,
     "tgt_a7pro": 14,
@@ -3383,15 +3929,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919624",
     "nombre": "GUTIERREZ ARELLANO BRAYAN",
-    "cadena": "COPPEL NICOLAS BRAVO 705",
+    "cadena": "Coppel",
     "tienda": "COPPEL NICOLAS BRAVO 705",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 49,
     "tgt_reno16": 0,
     "tgt_a7pro": 13,
@@ -3409,15 +3959,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917553",
     "nombre": "JIMENEZ OSUNA MARIANA MICHELLE",
-    "cadena": "COPPEL PLAZA LA MORENA 253",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA LA MORENA 253",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 42,
     "tgt_reno16": 11,
     "tgt_a7pro": 5,
@@ -3435,12 +3989,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919839",
     "nombre": "LOPEZ LOZANO SERGIO JOSE",
-    "cadena": "COPPEL ACOLMAN 7686",
+    "cadena": "Coppel",
     "tienda": "COPPEL ACOLMAN 7686",
     "region": "R9-B",
     "ciudad": "",
@@ -3461,15 +4019,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912434",
     "nombre": "RAMOS CAMACHO LUIS EDUARDO",
-    "cadena": "COPPEL ZARAGOZA 1000",
+    "cadena": "Coppel",
     "tienda": "COPPEL ZARAGOZA 1000",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ACOLMAN",
     "tgt_gral": 64,
     "tgt_reno16": 9,
     "tgt_a7pro": 6,
@@ -3487,15 +4049,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R920689",
     "nombre": "SAMPERIO BUSTOS SONIA",
-    "cadena": "COPPEL REAL DEL VALLE 7797",
+    "cadena": "Coppel",
     "tienda": "COPPEL REAL DEL VALLE 7797",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ACOLMAN",
     "tgt_gral": 77,
     "tgt_reno16": 6,
     "tgt_a7pro": 18,
@@ -3513,15 +4079,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918815",
     "nombre": "VAZQUEZ GARCIA OSCAR",
-    "cadena": "COPPEL PLAZA LA MORENA 253",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA LA MORENA 253",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 69,
     "tgt_reno16": 8,
     "tgt_a7pro": 8,
@@ -3539,15 +4109,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917931",
     "nombre": "VAZQUEZ LOPEZ CRISTOPHER",
-    "cadena": "COPPEL PATIO TEXCOCO 1017",
+    "cadena": "Coppel",
     "tienda": "COPPEL PATIO TEXCOCO 1017",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 39,
     "tgt_reno16": 5,
     "tgt_a7pro": 7,
@@ -3565,15 +4139,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915123",
     "nombre": "ALPUCHE NOLASCO ANA SUSANA",
-    "cadena": "COPPEL ATLALILCO 1452",
+    "cadena": "Coppel",
     "tienda": "COPPEL ATLALILCO 1452",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 62,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -3591,15 +4169,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916901",
     "nombre": "BIZARRO CRUZ JORGE DANIEL",
-    "cadena": "COPPEL LOS OLIVOS TLAHUAC 356",
+    "cadena": "Coppel",
     "tienda": "COPPEL LOS OLIVOS TLAHUAC 356",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 46,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -3617,15 +4199,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913836",
     "nombre": "CRISTOBAL ROBLES ELIAS",
-    "cadena": "COPPEL SAN ISIDRO 938",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ISIDRO 938",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 31,
     "tgt_reno16": 12,
     "tgt_a7pro": 4,
@@ -3643,15 +4229,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922238",
     "nombre": "DEL MONTE CASTRO CHRISTIAN NOE",
-    "cadena": "COPPEL PLAZA LAS ANTENAS 7713",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA LAS ANTENAS 7713",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 36,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -3669,15 +4259,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915729",
     "nombre": "ESTRADA LIMA JAVIER UBALDO",
-    "cadena": "COPPEL LAS TORRES 927",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAS TORRES 927",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 61,
     "tgt_reno16": 30,
     "tgt_a7pro": 0,
@@ -3695,15 +4289,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919280",
     "nombre": "GARCIA DIAZ JORGE MICHEL",
-    "cadena": "COPPEL TLAHUAC 1401",
+    "cadena": "Coppel",
     "tienda": "COPPEL TLAHUAC 1401",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 62,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -3721,15 +4319,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "9734",
     "nombre": "GARCIA MARTINEZ ADELA",
-    "cadena": "COPPEL SALTO DEL AGUA 1402",
+    "cadena": "Coppel",
     "tienda": "COPPEL SALTO DEL AGUA 1402",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 56,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -3747,15 +4349,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919552",
     "nombre": "GUTIERREZ GONZALEZ CESAR JHAEL",
-    "cadena": "COPPEL SAN COSME 1404",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN COSME 1404",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 39,
     "tgt_reno16": 5,
     "tgt_a7pro": 3,
@@ -3773,15 +4379,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916389",
     "nombre": "HEREDIA ARCADIO DANIEL",
-    "cadena": "COPPEL ERMITA IZTAPALAPA 455",
+    "cadena": "Coppel",
     "tienda": "COPPEL ERMITA IZTAPALAPA 455",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 114,
     "tgt_reno16": 24,
     "tgt_a7pro": 2,
@@ -3799,12 +4409,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919925",
     "nombre": "LUNA BELMONT IAN EMANUEL",
-    "cadena": "COPPEL LOMAS DE ESTRELLA 1016",
+    "cadena": "Coppel",
     "tienda": "COPPEL LOMAS DE ESTRELLA 1016",
     "region": "R9-B",
     "ciudad": "",
@@ -3825,15 +4439,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R919553",
     "nombre": "MEJIA JIMENEZ LUIS FERNANDO",
-    "cadena": "COPPEL SANTA MARTHA 310",
+    "cadena": "Coppel",
     "tienda": "COPPEL SANTA MARTHA 310",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 86,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -3851,15 +4469,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910335",
     "nombre": "MERINO LAGUNA JORGE BRIAN",
-    "cadena": "COPPEL HIDALGO 841",
+    "cadena": "Coppel",
     "tienda": "COPPEL HIDALGO 841",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 53,
     "tgt_reno16": 16,
     "tgt_a7pro": 2,
@@ -3877,15 +4499,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911161",
     "nombre": "RAMIREZ MARIN DANIEL HUGO",
-    "cadena": "COPPEL SAN ISIDRO 938",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ISIDRO 938",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 85,
     "tgt_reno16": 11,
     "tgt_a7pro": 12,
@@ -3903,15 +4529,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912625",
     "nombre": "ROJAS BARBOSA JOHAN ALEXANDER",
-    "cadena": "COPPEL LAS TORRES 927",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAS TORRES 927",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 66,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -3929,15 +4559,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R914521",
     "nombre": "ROSALES CRUZ ALAN JESUS",
-    "cadena": "COPPEL ERMITA IZTAPALAPA 455",
+    "cadena": "Coppel",
     "tienda": "COPPEL ERMITA IZTAPALAPA 455",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 82,
     "tgt_reno16": 21,
     "tgt_a7pro": 2,
@@ -3955,12 +4589,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920067",
     "nombre": "SOSA SUAREZ JONATHAN MICHAEL",
-    "cadena": "COPPEL LA HABANA 1393",
+    "cadena": "Coppel",
     "tienda": "COPPEL LA HABANA 1393",
     "region": "R9-B",
     "ciudad": "",
@@ -3981,15 +4619,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R917970",
     "nombre": "TAPIA GUADARRAMA ANGELES MICHELLE",
-    "cadena": "COPPEL GRANJAS ESMERALDA 371",
+    "cadena": "Coppel",
     "tienda": "COPPEL GRANJAS ESMERALDA 371",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 61,
     "tgt_reno16": 9,
     "tgt_a7pro": 2,
@@ -4007,15 +4649,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918892",
     "nombre": "TELLEZ ACEVEDO VICTOR HUGO",
-    "cadena": "COPPEL HIDALGO 841",
+    "cadena": "Coppel",
     "tienda": "COPPEL HIDALGO 841",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 73,
     "tgt_reno16": 15,
     "tgt_a7pro": 2,
@@ -4033,15 +4679,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910896",
     "nombre": "TREVIÑO PEREZ JESUS MARTIN",
-    "cadena": "COPPEL DEL MORAL 1418 | COPPEL LA PURISIMA 332",
+    "cadena": "Coppel",
     "tienda": "COPPEL DEL MORAL 1418 | COPPEL LA PURISIMA 332",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 118,
     "tgt_reno16": 25,
     "tgt_a7pro": 8,
@@ -4059,12 +4709,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919959",
     "nombre": "VAZQUEZ NIÑO MIGUEL ANGEL",
-    "cadena": "COPPEL PLAZA SAN JUAN DE DIOS 7642",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SAN JUAN DE DIOS 7642",
     "region": "R9-B",
     "ciudad": "",
@@ -4085,15 +4739,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918009",
     "nombre": "ACEVEDO HERNANDEZ JOSE MANUEL",
-    "cadena": "COPPEL TECPAN 830",
+    "cadena": "Coppel",
     "tienda": "COPPEL TECPAN 830",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 39,
     "tgt_reno16": 6,
     "tgt_a7pro": 2,
@@ -4111,15 +4769,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915293",
     "nombre": "ALFARO ROJAS JONATHAN",
-    "cadena": "COPPEL ARAGON 1432",
+    "cadena": "Coppel",
     "tienda": "COPPEL ARAGON 1432",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 61,
     "tgt_reno16": 8,
     "tgt_a7pro": 0,
@@ -4137,12 +4799,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919800",
     "nombre": "AMBRIZ MONTES PAOLA ITZAL",
-    "cadena": "COPPEL VALLE 200",
+    "cadena": "Coppel",
     "tienda": "COPPEL VALLE 200",
     "region": "R9-B",
     "ciudad": "",
@@ -4163,12 +4829,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920050",
     "nombre": "CANO GUERRERO DIEGO ARMANDO",
-    "cadena": "COPPEL VALLE 200",
+    "cadena": "Coppel",
     "tienda": "COPPEL VALLE 200",
     "region": "R9-B",
     "ciudad": "",
@@ -4189,15 +4859,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914403",
     "nombre": "FRAGOSO CRUZ OMAR ALDAIR",
-    "cadena": "COPPEL TECNOLOGICO 827",
+    "cadena": "Coppel",
     "tienda": "COPPEL TECNOLOGICO 827",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 41,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -4215,15 +4889,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912910",
     "nombre": "GARCIA CRUZ YONATAN",
-    "cadena": "COPPEL CENTRAL 407",
+    "cadena": "Coppel",
     "tienda": "COPPEL CENTRAL 407",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 54,
     "tgt_reno16": 9,
     "tgt_a7pro": 4,
@@ -4241,15 +4919,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918324",
     "nombre": "GARCIA GONZALEZ NORMA IVONNE",
-    "cadena": "COPPEL CUAUTEPEC 184",
+    "cadena": "Coppel",
     "tienda": "COPPEL CUAUTEPEC 184",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 38,
     "tgt_reno16": 4,
     "tgt_a7pro": 9,
@@ -4267,15 +4949,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919121",
     "nombre": "IRENEO ROMAN CRISTOPHER ARMANDO",
-    "cadena": "COPPEL CUAUTEPEC 184",
+    "cadena": "Coppel",
     "tienda": "COPPEL CUAUTEPEC 184",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 30,
     "tgt_reno16": 3,
     "tgt_a7pro": 5,
@@ -4293,15 +4979,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R918347",
     "nombre": "LLERENA MARTINEZ JORGE",
-    "cadena": "COPPEL PERALVILLO 1403",
+    "cadena": "Coppel",
     "tienda": "COPPEL PERALVILLO 1403",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 59,
     "tgt_reno16": 13,
     "tgt_a7pro": 10,
@@ -4319,15 +5009,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915582",
     "nombre": "MARTINEZ RAMIREZ VICTOR",
-    "cadena": "COPPEL ATZACOALCOS 1190",
+    "cadena": "Coppel",
     "tienda": "COPPEL ATZACOALCOS 1190",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 56,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -4345,15 +5039,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918705",
     "nombre": "MARTINEZ RODRIGUEZ HECTOR URIEL",
-    "cadena": "COPPEL PUERTA ARAGON 7754",
+    "cadena": "Coppel",
     "tienda": "COPPEL PUERTA ARAGON 7754",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 52,
     "tgt_reno16": 7,
     "tgt_a7pro": 6,
@@ -4371,12 +5069,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919964",
     "nombre": "MENDEZ ESCOBAR YAIR JOSET",
-    "cadena": "COPPEL CARRANZA 842",
+    "cadena": "Coppel",
     "tienda": "COPPEL CARRANZA 842",
     "region": "R9-B",
     "ciudad": "",
@@ -4397,15 +5099,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919048",
     "nombre": "MONDRAGON MEJIA CAMILA ITZEL",
-    "cadena": "COPPEL ARAGON 1432",
+    "cadena": "Coppel",
     "tienda": "COPPEL ARAGON 1432",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 67,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -4423,15 +5129,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918640",
     "nombre": "SALDAÑA ORTIZ JOELY MICHEL",
-    "cadena": "COPPEL ENCUENRO OCEANIA 7838",
+    "cadena": "Coppel",
     "tienda": "COPPEL ENCUENRO OCEANIA 7838",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 39,
     "tgt_reno16": 6,
     "tgt_a7pro": 2,
@@ -4449,15 +5159,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915056",
     "nombre": "VELAZQUEZ LAVARIEGA ELISA",
-    "cadena": "COPPEL LA MODA 802",
+    "cadena": "Coppel",
     "tienda": "COPPEL LA MODA 802",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 56,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -4475,15 +5189,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R918813",
     "nombre": "CANTU BADILLO JOSE MANUEL",
-    "cadena": "COPPEL LOS HEROES 261",
+    "cadena": "Coppel",
     "tienda": "COPPEL LOS HEROES 261",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 66,
     "tgt_reno16": 8,
     "tgt_a7pro": 5,
@@ -4501,15 +5219,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R919488",
     "nombre": "CERVANTES ESCANDON JOSE AGUSTIN",
-    "cadena": "COPPEL VICTORIA 221",
+    "cadena": "Coppel",
     "tienda": "COPPEL VICTORIA 221",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 34,
     "tgt_reno16": 0,
     "tgt_a7pro": 4,
@@ -4527,15 +5249,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913814",
     "nombre": "DELGADO ARAIZA KETHER ORLANDO",
-    "cadena": "COPPEL CHAPULTEPEC 472",
+    "cadena": "Coppel",
     "tienda": "COPPEL CHAPULTEPEC 472",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 42,
     "tgt_reno16": 10,
     "tgt_a7pro": 10,
@@ -4553,15 +5279,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911011",
     "nombre": "GARCIA CRUZ SAMUEL",
-    "cadena": "COPPEL PABELLON 480",
+    "cadena": "Coppel",
     "tienda": "COPPEL PABELLON 480",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 45,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -4579,12 +5309,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919960",
     "nombre": "JACOBO MIGUEL ERNESTO",
-    "cadena": "COPPEL BUENAVISTA 983",
+    "cadena": "Coppel",
     "tienda": "COPPEL BUENAVISTA 983",
     "region": "R9-B",
     "ciudad": "",
@@ -4605,15 +5339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917109",
     "nombre": "JIMENEZ MARTINEZ JOSHUA JASSEL",
-    "cadena": "COPPEL PLAZA JARDINES 871",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA JARDINES 871",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 50,
     "tgt_reno16": 5,
     "tgt_a7pro": 9,
@@ -4631,15 +5369,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R917967",
     "nombre": "LOPEZ PEREZ KAREN DANIELA",
-    "cadena": "COPPEL SAN CRISTOBAL 405",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN CRISTOBAL 405",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 60,
     "tgt_reno16": 12,
     "tgt_a7pro": 10,
@@ -4657,15 +5399,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918664",
     "nombre": "LUGO MORALES JOSE RAFAEL",
-    "cadena": "COPPEL RECURSOS 451",
+    "cadena": "Coppel",
     "tienda": "COPPEL RECURSOS 451",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 50,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -4683,15 +5429,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918454",
     "nombre": "MIJANGOS LOPEZ RENE RIGOBERTO",
-    "cadena": "COPPEL RIO DE LOS REMEDIOS 1100",
+    "cadena": "Coppel",
     "tienda": "COPPEL RIO DE LOS REMEDIOS 1100",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 56,
     "tgt_reno16": 5,
     "tgt_a7pro": 11,
@@ -4709,15 +5459,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R910770",
     "nombre": "OROZCO GONZALEZ LUIS DANIEL",
-    "cadena": "COPPEL SAN ANDRÉS 981",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ANDRÉS 981",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 49,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -4735,15 +5489,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918752",
     "nombre": "RAZO MARAVILLA ERIC ALBERTO",
-    "cadena": "COPPEL SAN ANDRÉS 981",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ANDRÉS 981",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 55,
     "tgt_reno16": 8,
     "tgt_a7pro": 0,
@@ -4761,15 +5519,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR911517",
     "nombre": "SANTIAGO ORTIZ DIEGO ARMANDO",
-    "cadena": "COPPEL COACALCO 189",
+    "cadena": "Coppel",
     "tienda": "COPPEL COACALCO 189",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 47,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -4787,12 +5549,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919840",
     "nombre": "SORIA PAVON JUAN ANTONIO",
-    "cadena": "COPPEL LAS BRISAS 7857",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAS BRISAS 7857",
     "region": "R9-B",
     "ciudad": "",
@@ -4813,15 +5579,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913851",
     "nombre": "BAUTISTA SANCHEZ DOLORES BERENICE",
-    "cadena": "COPPEL CUAUHTEMOC 226",
+    "cadena": "Coppel",
     "tienda": "COPPEL CUAUHTEMOC 226",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 52,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -4839,15 +5609,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913806",
     "nombre": "CABRERA HERNANDEZ CARLOS EZEQUIEL",
-    "cadena": "COPPEL ENSEÑANZA TÉCNICA 409",
+    "cadena": "Coppel",
     "tienda": "COPPEL ENSEÑANZA TÉCNICA 409",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 84,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -4865,15 +5639,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910580",
     "nombre": "CRUZ CARBAJAL ARIANA",
-    "cadena": "COPPEL PLAZA SENDERO 447",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SENDERO 447",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 38,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -4891,15 +5669,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918876",
     "nombre": "FLORES MUÑOS AZAEL",
-    "cadena": "COPPEL PATIO AYOTLA 894",
+    "cadena": "Coppel",
     "tienda": "COPPEL PATIO AYOTLA 894",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUHTÉMOC",
     "tgt_gral": 37,
     "tgt_reno16": 3,
     "tgt_a7pro": 3,
@@ -4917,15 +5699,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915664",
     "nombre": "FLORES RUIZ FRIZ HAROLD",
-    "cadena": "COPPEL PLAZA IXTAPALUCA 7880",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA IXTAPALUCA 7880",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 40,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -4943,12 +5729,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919799",
     "nombre": "GARCIA GRANADOS CARLOS ENRIQUE",
-    "cadena": "COPPEL PLAZA HÉROES 7665",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA HÉROES 7665",
     "region": "R9-B",
     "ciudad": "",
@@ -4969,15 +5759,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917965",
     "nombre": "GOMEZ CORONA JUAN",
-    "cadena": "COPPEL PATIO AYOTLA 894",
+    "cadena": "Coppel",
     "tienda": "COPPEL PATIO AYOTLA 894",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 30,
     "tgt_reno16": 3,
     "tgt_a7pro": 2,
@@ -4995,15 +5789,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917694",
     "nombre": "GORGONIO HERNANDEZ JOSE RODRIGO",
-    "cadena": "COPPEL RIVAPALACIO 364",
+    "cadena": "Coppel",
     "tienda": "COPPEL RIVAPALACIO 364",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 44,
     "tgt_reno16": 5,
     "tgt_a7pro": 2,
@@ -5021,15 +5819,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R910126",
     "nombre": "HUITRON RUEDA GUADALUPE MAGALI",
-    "cadena": "COPPEL ALZATE 995",
+    "cadena": "Coppel",
     "tienda": "COPPEL ALZATE 995",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "OZUMBA",
     "tgt_gral": 84,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -5047,15 +5849,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "9065",
     "nombre": "MARTINEZ RIVERA YEIMI LIZETH",
-    "cadena": "COPPEL 20 DE NOVIEMBRE 868",
+    "cadena": "Coppel",
     "tienda": "COPPEL 20 DE NOVIEMBRE 868",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "AMECAMECA",
     "tgt_gral": 87,
     "tgt_reno16": 26,
     "tgt_a7pro": 0,
@@ -5073,15 +5879,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910346",
     "nombre": "MESTAS RIVERA MIGUEL",
-    "cadena": "COPPEL ENSEÑANZA TÉCNICA 409",
+    "cadena": "Coppel",
     "tienda": "COPPEL ENSEÑANZA TÉCNICA 409",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 70,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -5099,15 +5909,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914434",
     "nombre": "MORAN SERVIN HUGO",
-    "cadena": "COPPEL INDEPENDENCIA 7734",
+    "cadena": "Coppel",
     "tienda": "COPPEL INDEPENDENCIA 7734",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 53,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -5125,15 +5939,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R921128",
     "nombre": "RAZO NAVA DAVID EDWIN",
-    "cadena": "COPPEL CUAUTZINGO 1201",
+    "cadena": "Coppel",
     "tienda": "COPPEL CUAUTZINGO 1201",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 66,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -5151,15 +5969,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919279",
     "nombre": "SANCHEZ MORALES LEONARDO ARIEL",
-    "cadena": "COPPEL SOLIDARIDAD 1202",
+    "cadena": "Coppel",
     "tienda": "COPPEL SOLIDARIDAD 1202",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 48,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -5177,15 +5999,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916072",
     "nombre": "TAPIA PEREZ LAURA LIZZETH",
-    "cadena": "COPPEL ALZATE 995 | COPPEL ENSEÑANZA TÉCNICA 409",
+    "cadena": "Coppel",
     "tienda": "COPPEL ALZATE 995 | COPPEL ENSEÑANZA TÉCNICA 409",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "AMECAMECA",
     "tgt_gral": 71,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -5203,15 +6029,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918418",
     "nombre": "CAMPOS DELGADILLO IRVIN ALBERTO",
-    "cadena": "COPPEL BALNEARIO 988",
+    "cadena": "Coppel",
     "tienda": "COPPEL BALNEARIO 988",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TEPOTZOTLÁN",
     "tgt_gral": 70,
     "tgt_reno16": 11,
     "tgt_a7pro": 8,
@@ -5229,15 +6059,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917383",
     "nombre": "GUTIERREZ RODRIGUEZ LUIS EDUARDO",
-    "cadena": "COPPEL SAN FRANCISCO 408",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN FRANCISCO 408",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 52,
     "tgt_reno16": 7,
     "tgt_a7pro": 6,
@@ -5255,15 +6089,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918224",
     "nombre": "HERNANDEZ GARCIA CESAR FRANCISCO",
-    "cadena": "COPPEL PLAZA IZCALLI 151 | COPPEL SAN MIGUEL 187",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA IZCALLI 151 | COPPEL SAN MIGUEL 187",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 62,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -5281,15 +6119,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914266",
     "nombre": "HERNANDEZ GARCIA ISRAEL",
-    "cadena": "COPPEL LAS TORRES 6724",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAS TORRES 6724",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 71,
     "tgt_reno16": 13,
     "tgt_a7pro": 12,
@@ -5307,15 +6149,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912006",
     "nombre": "HERNANDEZ RIVERO MIGUEL ANGEL",
-    "cadena": "COPPEL HACIENDA 943",
+    "cadena": "Coppel",
     "tienda": "COPPEL HACIENDA 943",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTEPEC",
     "tgt_gral": 58,
     "tgt_reno16": 13,
     "tgt_a7pro": 4,
@@ -5333,15 +6179,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912256",
     "nombre": "MAGAÑA PACHECO ALLISON JESSICA",
-    "cadena": "COPPEL PORTAL TULTITLAN 6721",
+    "cadena": "Coppel",
     "tienda": "COPPEL PORTAL TULTITLAN 6721",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 46,
     "tgt_reno16": 7,
     "tgt_a7pro": 5,
@@ -5359,12 +6209,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920070",
     "nombre": "MARTINEZ HERNANDEZ LUIS ENRIQUE",
-    "cadena": "COPPEL CANADA CONSTITUCION 1301",
+    "cadena": "Coppel",
     "tienda": "COPPEL CANADA CONSTITUCION 1301",
     "region": "R9-B",
     "ciudad": "",
@@ -5385,15 +6239,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R918251",
     "nombre": "MIGUEL GARCIA LUIS FERNANDO",
-    "cadena": "COPPEL SIMON BOLIVAR 199",
+    "cadena": "Coppel",
     "tienda": "COPPEL SIMON BOLIVAR 199",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 113,
     "tgt_reno16": 36,
     "tgt_a7pro": 0,
@@ -5411,15 +6269,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918933",
     "nombre": "PIÑA RODRIGUEZ ALBERTO",
-    "cadena": "COPPEL 20 DE NOVIEMBRE 807",
+    "cadena": "Coppel",
     "tienda": "COPPEL 20 DE NOVIEMBRE 807",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 45,
     "tgt_reno16": 5,
     "tgt_a7pro": 2,
@@ -5437,15 +6299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917423",
     "nombre": "RAMIREZ MARTINEZ GONZALO CHRISTOPHER",
-    "cadena": "COPPEL PLAZA CENTELLA 1236",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA CENTELLA 1236",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 56,
     "tgt_reno16": 9,
     "tgt_a7pro": 5,
@@ -5463,15 +6329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913576",
     "nombre": "ROJO GARCIA EDUARDO JAIR",
-    "cadena": "COPPEL SAN ANTONIO 174",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ANTONIO 174",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 46,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -5489,15 +6359,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915656",
     "nombre": "RUBIO JARAMILLO ANTONIO DANIEL",
-    "cadena": "COPPEL CHILPAN 251",
+    "cadena": "Coppel",
     "tienda": "COPPEL CHILPAN 251",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 42,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -5515,15 +6389,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922335",
     "nombre": "VELASCO HUERTA OSCAR OMAR",
-    "cadena": "COPPEL PLAZA SAN ANTONIO 173",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SAN ANTONIO 173",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 58,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -5541,15 +6419,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918225",
     "nombre": "BAUTISTA BAUTISTA WILLIAM",
-    "cadena": "COPPEL PUERTA AJUSCO 7864",
+    "cadena": "Coppel",
     "tienda": "COPPEL PUERTA AJUSCO 7864",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 68,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -5567,12 +6449,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R921640",
     "nombre": "CLEMENTE FLORES KEVIN JOAN",
-    "cadena": "COPPEL JUAREZ 224",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 224",
     "region": "R9-B",
     "ciudad": "",
@@ -5593,15 +6479,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918915",
     "nombre": "DEL ANGEL ANTONIO DAVID ISRAEL",
-    "cadena": "COPPEL GRAN SUR 7820",
+    "cadena": "Coppel",
     "tienda": "COPPEL GRAN SUR 7820",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 37,
     "tgt_reno16": 5,
     "tgt_a7pro": 1,
@@ -5619,15 +6509,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R917880",
     "nombre": "FLORES BAHENA MARCO ANTONIO",
-    "cadena": "COPPEL OBSERVATORIO 167",
+    "cadena": "Coppel",
     "tienda": "COPPEL OBSERVATORIO 167",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 38,
     "tgt_reno16": 5,
     "tgt_a7pro": 2,
@@ -5645,15 +6539,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916792",
     "nombre": "GUERRERO JIMENEZ YARET ALEJANDRO",
-    "cadena": "COPPEL URUGUAY 566",
+    "cadena": "Coppel",
     "tienda": "COPPEL URUGUAY 566",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -5671,15 +6569,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918896",
     "nombre": "GUERRERO PEREZ ALEJANDRO",
-    "cadena": "COPPEL LAS CRUCES 826",
+    "cadena": "Coppel",
     "tienda": "COPPEL LAS CRUCES 826",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "LA MAGDALENA CONTRERAS",
     "tgt_gral": 74,
     "tgt_reno16": 17,
     "tgt_a7pro": 5,
@@ -5697,15 +6599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917651",
     "nombre": "LEON SOLANO ADRIAN",
-    "cadena": "COPPEL SAN ANGEL 1411",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ANGEL 1411",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 71,
     "tgt_reno16": 11,
     "tgt_a7pro": 2,
@@ -5723,15 +6629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R923104",
     "nombre": "LOPEZ LOPEZ MARCO ANTONIO",
-    "cadena": "COPPEL TACUBA 193",
+    "cadena": "Coppel",
     "tienda": "COPPEL TACUBA 193",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 39,
     "tgt_reno16": 7,
     "tgt_a7pro": 2,
@@ -5749,15 +6659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922706",
     "nombre": "MILLAN PEÑA HERIBERTO",
-    "cadena": "COPPEL COPILCO 6675",
+    "cadena": "Coppel",
     "tienda": "COPPEL COPILCO 6675",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 64,
     "tgt_reno16": 5,
     "tgt_a7pro": 23,
@@ -5775,15 +6689,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918417",
     "nombre": "MORALES RODRIGUEZ LUIS ENRIQUE",
-    "cadena": "COPPEL PALO SOLO 7795",
+    "cadena": "Coppel",
     "tienda": "COPPEL PALO SOLO 7795",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 54,
     "tgt_reno16": 10,
     "tgt_a7pro": 4,
@@ -5801,15 +6719,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918680",
     "nombre": "PINEDA CRUZ ERIK",
-    "cadena": "COPPEL JUAREZ 224",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 224",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "CUAJIMALPA DE MORELOS",
     "tgt_gral": 70,
     "tgt_reno16": 6,
     "tgt_a7pro": 10,
@@ -5827,15 +6749,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R916863",
     "nombre": "REYES RODRIGUEZ BRENDA LAURA",
-    "cadena": "COPPEL SANTA FE 1421",
+    "cadena": "Coppel",
     "tienda": "COPPEL SANTA FE 1421",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 52,
     "tgt_reno16": 11,
     "tgt_a7pro": 6,
@@ -5853,15 +6779,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916216",
     "nombre": "RODRIGUEZ RAMIREZ LUIS ALONSO",
-    "cadena": "COPPEL GRAN SUR 7820",
+    "cadena": "Coppel",
     "tienda": "COPPEL GRAN SUR 7820",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 49,
     "tgt_reno16": 18,
     "tgt_a7pro": 2,
@@ -5879,15 +6809,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R911113",
     "nombre": "ROSALES AGUILAR NANCY JAZMIN",
-    "cadena": "COPPEL SAN ANGEL 1411",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN ANGEL 1411",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 52,
     "tgt_reno16": 3,
     "tgt_a7pro": 1,
@@ -5905,15 +6839,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "8977",
     "nombre": "SANTIAGO MONTES DE OCA ABRAHAM",
-    "cadena": "COPPEL TACUBAYA 1448",
+    "cadena": "Coppel",
     "tienda": "COPPEL TACUBAYA 1448",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 75,
     "tgt_reno16": 8,
     "tgt_a7pro": 8,
@@ -5931,15 +6869,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914240",
     "nombre": "CARIÑO CONTRERAS JONATAN SAUL",
-    "cadena": "COPPEL VIADUCTO 318",
+    "cadena": "Coppel",
     "tienda": "COPPEL VIADUCTO 318",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTACALCO",
     "tgt_gral": 30,
     "tgt_reno16": 7,
     "tgt_a7pro": 5,
@@ -5957,12 +6899,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919899",
     "nombre": "CHONTAL DOMINGUEZ SHARLOT FERNANDA",
-    "cadena": "COPPEL CALLE 7 1203",
+    "cadena": "Coppel",
     "tienda": "COPPEL CALLE 7 1203",
     "region": "R9-B",
     "ciudad": "",
@@ -5983,15 +6929,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916060",
     "nombre": "CRUZ LUCIO VICTOR MANUEL",
-    "cadena": "COPPEL PLAZA CENTRAL 907",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA CENTRAL 907",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 30,
     "tgt_reno16": 3,
     "tgt_a7pro": 4,
@@ -6009,15 +6959,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912747",
     "nombre": "GALVAN RODRIGUEZ DAVID ISAY",
-    "cadena": "COPPEL SONORA 1381",
+    "cadena": "Coppel",
     "tienda": "COPPEL SONORA 1381",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 46,
     "tgt_reno16": 6,
     "tgt_a7pro": 2,
@@ -6035,15 +6989,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "8084",
     "nombre": "GARCIA PASTEN HUMBERT  ALLAN",
-    "cadena": "COPPEL TLALPAN AZTECA 1451",
+    "cadena": "Coppel",
     "tienda": "COPPEL TLALPAN AZTECA 1451",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 71,
     "tgt_reno16": 17,
     "tgt_a7pro": 1,
@@ -6061,12 +7019,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919722",
     "nombre": "GARCIA RUVALCABA FRANCISCO JAVIER",
-    "cadena": "COPPEL SUR 16 410 | COPPEL PLAZA CENTRAL 907",
+    "cadena": "Coppel",
     "tienda": "COPPEL SUR 16 410 | COPPEL PLAZA CENTRAL 907",
     "region": "R9-B",
     "ciudad": "",
@@ -6087,15 +7049,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R916946",
     "nombre": "GONZALEZ PASTEN MARCOS JARED",
-    "cadena": "COPPEL AYUNTAMIENTO 814",
+    "cadena": "Coppel",
     "tienda": "COPPEL AYUNTAMIENTO 814",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 52,
     "tgt_reno16": 6,
     "tgt_a7pro": 8,
@@ -6113,12 +7079,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919985",
     "nombre": "GUERRERO DELGADO JOSE IMMER",
-    "cadena": "COPPEL SAN JUAN 933",
+    "cadena": "Coppel",
     "tienda": "COPPEL SAN JUAN 933",
     "region": "R9-B",
     "ciudad": "",
@@ -6139,15 +7109,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922075",
     "nombre": "MARQUEZ ARADILLAS JOSUE EDUARDO",
-    "cadena": "COPPEL TEPALCATES 249",
+    "cadena": "Coppel",
     "tienda": "COPPEL TEPALCATES 249",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 52,
     "tgt_reno16": 5,
     "tgt_a7pro": 11,
@@ -6165,15 +7139,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916706",
     "nombre": "MARTINEZ LIRA LUIS FERNANDO",
-    "cadena": "COPPEL LOS REYES 170",
+    "cadena": "Coppel",
     "tienda": "COPPEL LOS REYES 170",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 35,
     "tgt_reno16": 9,
     "tgt_a7pro": 4,
@@ -6191,15 +7169,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922713",
     "nombre": "MEDINA MATA JESSICA TAMARA",
-    "cadena": "COPPEL TLALPAN AZTECA 1451",
+    "cadena": "Coppel",
     "tienda": "COPPEL TLALPAN AZTECA 1451",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 68,
     "tgt_reno16": 15,
     "tgt_a7pro": 1,
@@ -6217,15 +7199,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917372",
     "nombre": "VELAZQUEZ CARMONA LUZ DANIELA",
-    "cadena": "COPPEL LOS REYES 170",
+    "cadena": "Coppel",
     "tienda": "COPPEL LOS REYES 170",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 66,
     "tgt_reno16": 8,
     "tgt_a7pro": 8,
@@ -6243,15 +7229,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915348",
     "nombre": "ZETINA ARCINIEGA PABLO JAVIER",
-    "cadena": "COPPEL TEZONTLE 905",
+    "cadena": "Coppel",
     "tienda": "COPPEL TEZONTLE 905",
     "region": "R9-B",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 5,
@@ -6269,15 +7259,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919550",
     "nombre": "ZARATE PEREZ ANNA CRISTINA",
-    "cadena": "EKT MEGA DEL MORAL 2503",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA DEL MORAL 2503",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTACALCO",
     "tgt_gral": 34,
     "tgt_reno16": 10,
     "tgt_a7pro": 1,
@@ -6295,12 +7289,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919823",
     "nombre": "AGUILAR MIRANDA JOSE ALEJANDRO",
-    "cadena": "EKT IZTAPALAPA MANUEL CAÑAS 6177",
+    "cadena": "Elektra",
     "tienda": "EKT IZTAPALAPA MANUEL CAÑAS 6177",
     "region": "R9-D",
     "ciudad": "",
@@ -6321,15 +7319,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915170",
     "nombre": "CABRERA SERRANO JORGE LUIS",
-    "cadena": "SYR SANTA MARTHA 3151 | EKT LEYES DE REFORMA 2193",
+    "cadena": "Elektra",
     "tienda": "SYR SANTA MARTHA 3151 | EKT LEYES DE REFORMA 2193",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 55,
     "tgt_reno16": 5,
     "tgt_a7pro": 12,
@@ -6347,15 +7349,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917413",
     "nombre": "CAZAREZ TERAN ALONDRA ELIZABETH",
-    "cadena": "EKT MEGA METRO LA PURISIMA 2545",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA METRO LA PURISIMA 2545",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 39,
     "tgt_reno16": 9,
     "tgt_a7pro": 1,
@@ -6373,15 +7379,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918731",
     "nombre": "CRUZ TORRES MARICELA",
-    "cadena": "EKT APATLACO 4747 | MEGA PLAZA CHURUBUSCO 9800",
+    "cadena": "Elektra",
     "tienda": "EKT APATLACO 4747 | MEGA PLAZA CHURUBUSCO 9800",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTACALCO",
     "tgt_gral": 71,
     "tgt_reno16": 24,
     "tgt_a7pro": 0,
@@ -6399,12 +7409,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919810",
     "nombre": "FLORES SORIANO MARCO ANTONIO",
-    "cadena": "EKT ZARAGOZA 6140",
+    "cadena": "Elektra",
     "tienda": "EKT ZARAGOZA 6140",
     "region": "R9-D",
     "ciudad": "",
@@ -6425,12 +7439,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914141",
     "nombre": "GOMEZ VASQUEZ ERIC GIOVANNI",
-    "cadena": "EKT MEGA CARCEL DE MUJERES 3625",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CARCEL DE MUJERES 3625",
     "region": "R9-D",
     "ciudad": "",
@@ -6451,15 +7469,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916897",
     "nombre": "HERNANDEZ GONZALEZ ROBERTO CARLOS",
-    "cadena": "EKT IZTAPALAPA MANUEL CAÑAS 6177",
+    "cadena": "Elektra",
     "tienda": "EKT IZTAPALAPA MANUEL CAÑAS 6177",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 67,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -6477,15 +7499,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912707",
     "nombre": "HERNANDEZ MENDIZABAL CINDY JANETH",
-    "cadena": "EKT MEGA CARCEL DE MUJERES 3625",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CARCEL DE MUJERES 3625",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 59,
     "tgt_reno16": 17,
     "tgt_a7pro": 3,
@@ -6503,15 +7529,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919414",
     "nombre": "ISSAC ENRIQUE CELIS LOPEZ",
-    "cadena": "EKT MEGA TINACOS 3793",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TINACOS 3793",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 72,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -6529,12 +7559,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920052",
     "nombre": "MENDOZA SOLIS JANNET",
-    "cadena": "EKT CANAL DE GARAY 6142",
+    "cadena": "Elektra",
     "tienda": "EKT CANAL DE GARAY 6142",
     "region": "R9-D",
     "ciudad": "",
@@ -6555,15 +7589,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918894",
     "nombre": "MONTAÑO AVILA MIGUEL YAEL",
-    "cadena": "EKT MEGA TINACOS 3793",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TINACOS 3793",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 39,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -6581,12 +7619,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919711",
     "nombre": "ORTIZ AYALA U YUMIL CAAN",
-    "cadena": "EKT MEGA IZTAPALAPA 1 SAN PABL 2396",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA IZTAPALAPA 1 SAN PABL 2396",
     "region": "R9-D",
     "ciudad": "",
@@ -6607,15 +7649,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918636",
     "nombre": "POSADAS VICENCIO MARIA ELENA",
-    "cadena": "EKT MERCADO PANTITLAN 1481",
+    "cadena": "Elektra",
     "tienda": "EKT MERCADO PANTITLAN 1481",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTACALCO",
     "tgt_gral": 79,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -6633,12 +7679,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920060",
     "nombre": "POSADAS VICENTE AYLI GUADALUPE",
-    "cadena": "EKT MEGA METRO LA PURISIMA 2545",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA METRO LA PURISIMA 2545",
     "region": "R9-D",
     "ciudad": "",
@@ -6659,15 +7709,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918821",
     "nombre": "REYES GONZALEZ RICARDO",
-    "cadena": "EKT IZTAPALAPA XALPA 2123",
+    "cadena": "Elektra",
     "tienda": "EKT IZTAPALAPA XALPA 2123",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 70,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -6685,12 +7739,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920004",
     "nombre": "SERRANO HERNANDEZ GERARDO FEDERICO",
-    "cadena": "EKT IZTAPALAPA XALPA 2123",
+    "cadena": "Elektra",
     "tienda": "EKT IZTAPALAPA XALPA 2123",
     "region": "R9-D",
     "ciudad": "",
@@ -6711,12 +7769,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920005",
     "nombre": "TORIBIO OJEDA MEGAN MONSERRATH",
-    "cadena": "EKT MEGA PEÐON 5270",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PEÐON 5270",
     "region": "R9-D",
     "ciudad": "",
@@ -6737,12 +7799,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920069",
     "nombre": "ANAYA CASTILLO YESENIA",
-    "cadena": "EKT TULPETLAC 2093",
+    "cadena": "Elektra",
     "tienda": "EKT TULPETLAC 2093",
     "region": "R9-D",
     "ciudad": "",
@@ -6763,15 +7829,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915699",
     "nombre": "ARAOZ LICONA GIOVANI GUADALUPE",
-    "cadena": "EKT SAN ANDRES ECATEPEC 2063",
+    "cadena": "Elektra",
     "tienda": "EKT SAN ANDRES ECATEPEC 2063",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 98,
     "tgt_reno16": 17,
     "tgt_a7pro": 3,
@@ -6789,15 +7859,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911206",
     "nombre": "CORONA REYES JORGE DANIEL",
-    "cadena": "EKT PROGRESO NACIONAL 1795",
+    "cadena": "Elektra",
     "tienda": "EKT PROGRESO NACIONAL 1795",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 39,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -6815,15 +7889,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913805",
     "nombre": "EVANGELISTA LOPEZ JUAN",
-    "cadena": "EKT SAN ANDRES ECATEPEC 2063",
+    "cadena": "Elektra",
     "tienda": "EKT SAN ANDRES ECATEPEC 2063",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 59,
     "tgt_reno16": 27,
     "tgt_a7pro": 2,
@@ -6841,12 +7919,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919764",
     "nombre": "GARCIA CASTRO JORGE LUIS",
-    "cadena": "EKT MEGA PLAZA ARAGON 1245",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA ARAGON 1245",
     "region": "R9-D",
     "ciudad": "",
@@ -6867,15 +7949,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918916",
     "nombre": "GARCIA GARCIA MARCO ANTONIO",
-    "cadena": "EKT LA PRESA 4614",
+    "cadena": "Elektra",
     "tienda": "EKT LA PRESA 4614",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 57,
     "tgt_reno16": 6,
     "tgt_a7pro": 3,
@@ -6893,12 +7979,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919821",
     "nombre": "GONZALEZ HERNANDEZ MARIA GUADALUPE",
-    "cadena": "EKT MEGA SANTA CLARA 5814",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SANTA CLARA 5814",
     "region": "R9-D",
     "ciudad": "",
@@ -6919,15 +8009,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919395",
     "nombre": "HERNANDEZ MALDONADO BRAYAN SALVADOR",
-    "cadena": "EKT SAN JUAN IXHUATEPEC 2068",
+    "cadena": "Elektra",
     "tienda": "EKT SAN JUAN IXHUATEPEC 2068",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 60,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -6945,15 +8039,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R911481",
     "nombre": "LIRA GREGORIO GABRIELA",
-    "cadena": "EKT BENITO JUAREZ CUAUTEPEC 185",
+    "cadena": "Elektra",
     "tienda": "EKT BENITO JUAREZ CUAUTEPEC 185",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 57,
     "tgt_reno16": 30,
     "tgt_a7pro": 2,
@@ -6971,15 +8069,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918223",
     "nombre": "LOPEZ HERNANDEZ  BRENDA ELIZABETH",
-    "cadena": "EKT GABRIEL HERNANDEZ 1892",
+    "cadena": "Elektra",
     "tienda": "EKT GABRIEL HERNANDEZ 1892",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 51,
     "tgt_reno16": 7,
     "tgt_a7pro": 13,
@@ -6997,15 +8099,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911272",
     "nombre": "LUNA OCHOA BRENDA LIZBETH",
-    "cadena": "EKT MEGA VALLE DE GUADALUPE 7278",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VALLE DE GUADALUPE 7278",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 44,
     "tgt_reno16": 5,
     "tgt_a7pro": 9,
@@ -7023,15 +8129,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR910692",
     "nombre": "MERECIAS RUIZ JOSE MANUEL",
-    "cadena": "EKT CASAS ALEMAN 2026",
+    "cadena": "Elektra",
     "tienda": "EKT CASAS ALEMAN 2026",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 54,
     "tgt_reno16": 0,
     "tgt_a7pro": 4,
@@ -7049,15 +8159,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R915038",
     "nombre": "SANDATE HERNANDEZ JOSE EDUARDO",
-    "cadena": "EKT CUAUTEPEC 2752",
+    "cadena": "Elektra",
     "tienda": "EKT CUAUTEPEC 2752",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 72,
     "tgt_reno16": 4,
     "tgt_a7pro": 12,
@@ -7075,15 +8189,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918650",
     "nombre": "SOTELO OJEDA ERICK URIEL",
-    "cadena": "EKT MEGA PLAZA ARAGON 1245",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA ARAGON 1245",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 66,
     "tgt_reno16": 27,
     "tgt_a7pro": 0,
@@ -7101,15 +8219,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911937",
     "nombre": "SUAREZ HERNANDEZ CARLOS RUBEN",
-    "cadena": "EKT CUAUTEPEC 2752",
+    "cadena": "Elektra",
     "tienda": "EKT CUAUTEPEC 2752",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 94,
     "tgt_reno16": 13,
     "tgt_a7pro": 15,
@@ -7127,15 +8249,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916726",
     "nombre": "TREJO GARCIA ERICK GABRIEL",
-    "cadena": "EKT MEGA ECATEPEC 2 1915",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ECATEPEC 2 1915",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 48,
     "tgt_reno16": 12,
     "tgt_a7pro": 5,
@@ -7153,15 +8279,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915782",
     "nombre": "ALVAREZ FLORES ALEXIS GIOVANNI",
-    "cadena": "EKT MEGA XOCHIMILCO 3612",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA XOCHIMILCO 3612",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 80,
     "tgt_reno16": 35,
     "tgt_a7pro": 1,
@@ -7179,15 +8309,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913919",
     "nombre": "BAUTISTA VAZQUEZ BRAYAN",
-    "cadena": "EKT MEGA SAN ANTONIO TECOMITL 7317",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SAN ANTONIO TECOMITL 7317",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 81,
     "tgt_reno16": 15,
     "tgt_a7pro": 1,
@@ -7205,15 +8339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913220",
     "nombre": "DEL ANGEL DE LA PAZ JORGE LUIS",
-    "cadena": "EKT XOCHIMILCO MORELOS 5717",
+    "cadena": "Elektra",
     "tienda": "EKT XOCHIMILCO MORELOS 5717",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 91,
     "tgt_reno16": 25,
     "tgt_a7pro": 1,
@@ -7231,15 +8369,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917465",
     "nombre": "GALICIA CRUZ JIMENA",
-    "cadena": "MEGA ELEKTRA TLAHUAC PARADERO 9485",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA TLAHUAC PARADERO 9485",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 90,
     "tgt_reno16": 33,
     "tgt_a7pro": 1,
@@ -7257,15 +8399,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R917165",
     "nombre": "GOMEZ CONTRERAS JOSE ROBERTO",
-    "cadena": "EKT MEGA TLAHUAC 4336",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TLAHUAC 4336",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 80,
     "tgt_reno16": 25,
     "tgt_a7pro": 1,
@@ -7283,15 +8429,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919095",
     "nombre": "HERNANDEZ GOMEZ DIEGO EMILIO",
-    "cadena": "MEGA PASEO CHALCO 9750 | EKT CHALCO (BS) 2814 | EKT CHALCO SOLIDARIDAD 2157",
+    "cadena": "Elektra",
     "tienda": "MEGA PASEO CHALCO 9750 | EKT CHALCO (BS) 2814 | EKT CHALCO SOLIDARIDAD 2157",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TENANGO DEL VALLE",
     "tgt_gral": 64,
     "tgt_reno16": 18,
     "tgt_a7pro": 3,
@@ -7309,15 +8459,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918278",
     "nombre": "LOZADA SALAZAR XANAT",
-    "cadena": "EKT MEGA XOCHIMILCO 3612",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA XOCHIMILCO 3612",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 80,
     "tgt_reno16": 35,
     "tgt_a7pro": 1,
@@ -7335,15 +8489,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918726",
     "nombre": "MUÑOZ CHAVEZ SUSANA",
-    "cadena": "EKT TLAHUAC LOS OLIVOS 2124",
+    "cadena": "Elektra",
     "tienda": "EKT TLAHUAC LOS OLIVOS 2124",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 74,
     "tgt_reno16": 25,
     "tgt_a7pro": 1,
@@ -7361,15 +8519,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913260",
     "nombre": "NUNCION HERNANDEZ MARICARMEN",
-    "cadena": "MEGA ELEKTRA SELENE TLAHUAC 9505 | SYR ERMITA 3167",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA SELENE TLAHUAC 9505 | SYR ERMITA 3167",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 61,
     "tgt_reno16": 16,
     "tgt_a7pro": 1,
@@ -7387,15 +8549,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912854",
     "nombre": "OSORIO AVALOS JOSE ANTONIO",
-    "cadena": "EKT MEGA TLAHUAC 4336",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TLAHUAC 4336",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "XOCHIMILCO",
     "tgt_gral": 50,
     "tgt_reno16": 17,
     "tgt_a7pro": 1,
@@ -7413,15 +8579,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR910288",
     "nombre": "RUIZ JUAREZ JESSICA",
-    "cadena": "MI EKT TLAHUAC DEL MAR 5784",
+    "cadena": "Elektra",
     "tienda": "MI EKT TLAHUAC DEL MAR 5784",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 80,
     "tgt_reno16": 20,
     "tgt_a7pro": 1,
@@ -7439,15 +8609,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913449",
     "nombre": "SANCHEZ LIRA FRANCISCO JAVIER",
-    "cadena": "EKT MEGA TAXQUE#A 6936",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TAXQUE#A 6936",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 70,
     "tgt_reno16": 10,
     "tgt_a7pro": 1,
@@ -7465,12 +8639,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919836",
     "nombre": "SOLANO  SOTELO EZEQUIEL",
-    "cadena": "EKT TLAHUAC LOS OLIVOS 2124 | MICROEKT XOCHIMILCO PLAZA MANA 6150",
+    "cadena": "Elektra",
     "tienda": "EKT TLAHUAC LOS OLIVOS 2124 | MICROEKT XOCHIMILCO PLAZA MANA 6150",
     "region": "R9-D",
     "ciudad": "",
@@ -7491,15 +8669,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918291",
     "nombre": "BARRIGA AFANADOR ANA VERONICA",
-    "cadena": "EKT MEGA PLAZA JARDINES 4514",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA JARDINES 4514",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 47,
     "tgt_reno16": 8,
     "tgt_a7pro": 4,
@@ -7517,15 +8699,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916300",
     "nombre": "CASIANO BADILLO LUIS ALBERTO",
-    "cadena": "EKT MEGA PLAZA IZCALLI 2875",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA IZCALLI 2875",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTEPEC",
     "tgt_gral": 50,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -7543,12 +8729,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919831",
     "nombre": "CESARIO POLITO OSVALDO",
-    "cadena": "EKT GIGANTE TULTEPEC1 2017",
+    "cadena": "Elektra",
     "tienda": "EKT GIGANTE TULTEPEC1 2017",
     "region": "R9-D",
     "ciudad": "",
@@ -7569,15 +8759,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917450",
     "nombre": "CISNEROS PEREZ ALEXIS JAIR",
-    "cadena": "EKT TULTEPEC, ESTADO DE MEXICO 5887",
+    "cadena": "Elektra",
     "tienda": "EKT TULTEPEC, ESTADO DE MEXICO 5887",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTEPEC",
     "tgt_gral": 75,
     "tgt_reno16": 17,
     "tgt_a7pro": 3,
@@ -7595,15 +8789,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918985",
     "nombre": "ESPINOSA NAVARRO OMAR GEOVANNI",
-    "cadena": "MEGA PRADOS DEL SUR TULTITLAN 9708",
+    "cadena": "Elektra",
     "tienda": "MEGA PRADOS DEL SUR TULTITLAN 9708",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 50,
     "tgt_reno16": 20,
     "tgt_a7pro": 4,
@@ -7621,15 +8819,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R914791",
     "nombre": "GUTIERREZ MIRANDA ULISES",
-    "cadena": "EKT IZCALLI INFONAVIT NORTE 4637",
+    "cadena": "Elektra",
     "tienda": "EKT IZCALLI INFONAVIT NORTE 4637",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 60,
     "tgt_reno16": 28,
     "tgt_a7pro": 0,
@@ -7647,15 +8849,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922392",
     "nombre": "HERNANDEZ RINCON HECTOR",
-    "cadena": "MEGA ELEKTRA PLAZA CENTELLA C 9528",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA PLAZA CENTELLA C 9528",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 50,
     "tgt_reno16": 13,
     "tgt_a7pro": 11,
@@ -7673,15 +8879,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R919032",
     "nombre": "HERRERA MARTINEZ RODOLFO",
-    "cadena": "EKT TULTITLAN MAGNOLIAS 9486",
+    "cadena": "Elektra",
     "tienda": "EKT TULTITLAN MAGNOLIAS 9486",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 60,
     "tgt_reno16": 14,
     "tgt_a7pro": 7,
@@ -7699,15 +8909,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918153",
     "nombre": "LAGUNAS LIBRADO REBECA GUADALUPE",
-    "cadena": "EKT MEGA PLAZA IZCALLI 2875",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA IZCALLI 2875",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 50,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -7725,15 +8939,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918214",
     "nombre": "LOPEZ FRAGOSO ALAN ANDRES",
-    "cadena": "MEGA ELEKTRA SIERRA DE GUADALU 9751",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA SIERRA DE GUADALU 9751",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 75,
     "tgt_reno16": 37,
     "tgt_a7pro": 1,
@@ -7751,15 +8969,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR910009",
     "nombre": "LOPEZ RAMIREZ AGUSTIN",
-    "cadena": "EKT MEGA COACALCO 3531",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA COACALCO 3531",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 60,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -7777,15 +8999,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922684",
     "nombre": "PEREZ ZALDIVAR EDUARDO DAVID",
-    "cadena": "MINI EKT TEPOJACO 6133",
+    "cadena": "Elektra",
     "tienda": "MINI EKT TEPOJACO 6133",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 50,
     "tgt_reno16": 9,
     "tgt_a7pro": 19,
@@ -7803,15 +9029,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917548",
     "nombre": "REYES ZAMACONA ANGELES ESMERALDA",
-    "cadena": "EKT MEGA PLAZA JARDINES 4514",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA JARDINES 4514",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 47,
     "tgt_reno16": 7,
     "tgt_a7pro": 3,
@@ -7829,15 +9059,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R914079",
     "nombre": "RIVERA VILLAREAL CARLOS IVAN",
-    "cadena": "EKT MEGA CUAUTITLAN DE ROMERO 6075",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CUAUTITLAN DE ROMERO 6075",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 75,
     "tgt_reno16": 35,
     "tgt_a7pro": 0,
@@ -7855,15 +9089,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R910441",
     "nombre": "VELAZQUEZ BASALDUA ANDRES",
-    "cadena": "MI EKT CUAUTITLAN 806",
+    "cadena": "Elektra",
     "tienda": "MI EKT CUAUTITLAN 806",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 75,
     "tgt_reno16": 27,
     "tgt_a7pro": 0,
@@ -7881,15 +9119,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915311",
     "nombre": "CIPRIANO PEREZ JUAN CARLOS",
-    "cadena": "EKT MEGA HUISQUILUCAN 5377",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA HUISQUILUCAN 5377",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUIXQUILUCAN",
     "tgt_gral": 55,
     "tgt_reno16": 11,
     "tgt_a7pro": 9,
@@ -7907,15 +9149,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918195",
     "nombre": "DE LA CRUZ REYES FLOR EUNICE",
-    "cadena": "EKT MEGA NAUCALPAN 2532",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA NAUCALPAN 2532",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 42,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -7933,12 +9179,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919814",
     "nombre": "DELGADO ALMAZAN GRECIA FERNANDA",
-    "cadena": "EKT MEGA MOLINITO 3036",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA MOLINITO 3036",
     "region": "R9-D",
     "ciudad": "",
@@ -7959,12 +9209,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919717",
     "nombre": "FLORES CASTRO MARINLY",
-    "cadena": "EKT MEGA TACUBAYA REVOLUCION 5416",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TACUBAYA REVOLUCION 5416",
     "region": "R9-D",
     "ciudad": "",
@@ -7985,15 +9239,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918803",
     "nombre": "GARCIA MATA MIGUEL ANGEL",
-    "cadena": "EKT MEGA NAUCALPAN 2532",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA NAUCALPAN 2532",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 36,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -8011,12 +9269,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919868",
     "nombre": "GUTIERREZ BEDOY MIRIAM MARIANA",
-    "cadena": "EKT MEGA EL MOLINO 1 2697",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA EL MOLINO 1 2697",
     "region": "R9-D",
     "ciudad": "",
@@ -8037,15 +9299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913849",
     "nombre": "HERNANDEZ DURAN PALOMA VALERIA",
-    "cadena": "EKT MEGA CUAJIMALPA NAVIDAD 6033",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CUAJIMALPA NAVIDAD 6033",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAJIMALPA DE MORELOS",
     "tgt_gral": 47,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -8063,15 +9329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922131",
     "nombre": "HORTA LOPEZ JORGE ALVARO",
-    "cadena": "EKT MEGA CUAJIMALPA CENTRO 8701",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CUAJIMALPA CENTRO 8701",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAJIMALPA DE MORELOS",
     "tgt_gral": 36,
     "tgt_reno16": 24,
     "tgt_a7pro": 2,
@@ -8089,15 +9359,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918849",
     "nombre": "ISLAS CRUZ KELLY MONSERRAT",
-    "cadena": "EKT SAN MATEO NOPALA 1 2070",
+    "cadena": "Elektra",
     "tienda": "EKT SAN MATEO NOPALA 1 2070",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 35,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -8115,15 +9389,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R920450",
     "nombre": "MARTINEZ CARRILLO IVAN",
-    "cadena": "EKT MEGA CUAJIMALPA CENTRO 8701",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CUAJIMALPA CENTRO 8701",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAJIMALPA DE MORELOS",
     "tgt_gral": 56,
     "tgt_reno16": 11,
     "tgt_a7pro": 2,
@@ -8141,15 +9419,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R917806",
     "nombre": "MOLINA QUINTERO JOSE RODOLFO",
-    "cadena": "EKT MEGA HUISQUILUCAN 5377",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA HUISQUILUCAN 5377",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUIXQUILUCAN",
     "tgt_gral": 54,
     "tgt_reno16": 21,
     "tgt_a7pro": 9,
@@ -8167,15 +9449,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919407",
     "nombre": "BRIONES MACIAS MARIELA",
-    "cadena": "EKT TLALMANALCO 2154",
+    "cadena": "Elektra",
     "tienda": "EKT TLALMANALCO 2154",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 46,
     "tgt_reno16": 10,
     "tgt_a7pro": 7,
@@ -8193,15 +9479,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919528",
     "nombre": "GALAVIZ ECHAZARRETA KARINA",
-    "cadena": "EKT MEGA CHIMALHUACAN 4899",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CHIMALHUACAN 4899",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 81,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -8219,15 +9509,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R910366",
     "nombre": "ANGELES DIAZ JOSE ALBERTO",
-    "cadena": "EKT IXTAPALUCA MERCADO CENTRO 7040",
+    "cadena": "Elektra",
     "tienda": "EKT IXTAPALUCA MERCADO CENTRO 7040",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 78,
     "tgt_reno16": 9,
     "tgt_a7pro": 5,
@@ -8245,12 +9539,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919168",
     "nombre": "BELTRAN SOLIS DIANA VANESSA",
-    "cadena": "MEGA COSTITLAN SV CHICOLOAPAN 9789",
+    "cadena": "Elektra",
     "tienda": "MEGA COSTITLAN SV CHICOLOAPAN 9789",
     "region": "R9-D",
     "ciudad": "",
@@ -8271,15 +9569,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916707",
     "nombre": "BERISTAIN MORALES BRIAN ERIK",
-    "cadena": "EKT IXTAPALUCA TLALPIZAHUAC 2140",
+    "cadena": "Elektra",
     "tienda": "EKT IXTAPALUCA TLALPIZAHUAC 2140",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 52,
     "tgt_reno16": 13,
     "tgt_a7pro": 17,
@@ -8297,15 +9599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918953",
     "nombre": "CALDERON PADRON ANTONIO",
-    "cadena": "EKT MEGA CHALCO CUAHUTEMOC 5063",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA CHALCO CUAHUTEMOC 5063",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 75,
     "tgt_reno16": 24,
     "tgt_a7pro": 0,
@@ -8323,15 +9629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918729",
     "nombre": "CRUZ HERNANDEZ JESUS ALFREDO",
-    "cadena": "MEGA ELEKTRA BORDO ARENAL 3361",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA BORDO ARENAL 3361",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 69,
     "tgt_reno16": 28,
     "tgt_a7pro": 0,
@@ -8349,15 +9659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918590",
     "nombre": "DE JESUS VAZQUEZ MARISOL",
-    "cadena": "MEGA PLAZA ELEKTRA CHIMALHUACA 3311",
+    "cadena": "Elektra",
     "tienda": "MEGA PLAZA ELEKTRA CHIMALHUACA 3311",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 57,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -8375,15 +9689,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912170",
     "nombre": "GARCIA HUERTA VERONICA",
-    "cadena": "EKT MEGA VALLE DE CHALCO 987",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VALLE DE CHALCO 987",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALMANALCO",
     "tgt_gral": 71,
     "tgt_reno16": 9,
     "tgt_a7pro": 8,
@@ -8401,12 +9719,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919714",
     "nombre": "GONZALEZ BELTRAN ENRIQUE",
-    "cadena": "EKT XICO 5034",
+    "cadena": "Elektra",
     "tienda": "EKT XICO 5034",
     "region": "R9-D",
     "ciudad": "",
@@ -8427,15 +9749,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919260",
     "nombre": "GONZALEZ MAYA PABLO",
-    "cadena": "EKT PLAZA TEXCOCO 6051",
+    "cadena": "Elektra",
     "tienda": "EKT PLAZA TEXCOCO 6051",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 67,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -8453,15 +9779,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918907",
     "nombre": "HERNANDEZ HERNANDEZ LUIS LEOBARDO",
-    "cadena": "EKT VALLE DE CHALCO, PLAZA SEN 8192 | EKT MEGA CHALCO CUAHUTEMOC 5063",
+    "cadena": "Elektra",
     "tienda": "EKT VALLE DE CHALCO, PLAZA SEN 8192 | EKT MEGA CHALCO CUAHUTEMOC 5063",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 48,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -8479,12 +9809,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916798",
     "nombre": "LAURRABAQUIO RANGEL JUAN ANTONIO",
-    "cadena": "EKT SAN VICENTE CHICOLOAPAN 5762",
+    "cadena": "Elektra",
     "tienda": "EKT SAN VICENTE CHICOLOAPAN 5762",
     "region": "R9-D",
     "ciudad": "",
@@ -8505,15 +9839,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916160",
     "nombre": "LUCAS ALLENDE JUAN CARLOS",
-    "cadena": "EKT VALLE DE CHALCO, PLAZA SEN 8192",
+    "cadena": "Elektra",
     "tienda": "EKT VALLE DE CHALCO, PLAZA SEN 8192",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 54,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -8531,15 +9869,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922119",
     "nombre": "LUNA CANCHOLA JAIME",
-    "cadena": "EKT SAN MARTIN CUAUTLALPAN 4460",
+    "cadena": "Elektra",
     "tienda": "EKT SAN MARTIN CUAUTLALPAN 4460",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 75,
     "tgt_reno16": 25,
     "tgt_a7pro": 0,
@@ -8557,15 +9899,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R914203",
     "nombre": "LUNA PALESTINA DONOVAN FABIAN",
-    "cadena": "EKT IXTAPALUCA PLAZA MEXICO 5487",
+    "cadena": "Elektra",
     "tienda": "EKT IXTAPALUCA PLAZA MEXICO 5487",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 95,
     "tgt_reno16": 12,
     "tgt_a7pro": 8,
@@ -8583,15 +9929,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919486",
     "nombre": "MEZA BUSTOS MARGARET GISSELLE",
-    "cadena": "EKT CHICOLOAPAN BENITO JUAREZ 4450",
+    "cadena": "Elektra",
     "tienda": "EKT CHICOLOAPAN BENITO JUAREZ 4450",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 37,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -8609,15 +9959,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912291",
     "nombre": "MONTES DE OCA SANCHEZ JORGE ALEXIS",
-    "cadena": "EKT CHIMALHUACAN LOS PATOS 2142",
+    "cadena": "Elektra",
     "tienda": "EKT CHIMALHUACAN LOS PATOS 2142",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 66,
     "tgt_reno16": 17,
     "tgt_a7pro": 2,
@@ -8635,15 +9989,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914280",
     "nombre": "MORALES VALENCIA ALFONSO",
-    "cadena": "EKT CHALCO 4608",
+    "cadena": "Elektra",
     "tienda": "EKT CHALCO 4608",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHALCO",
     "tgt_gral": 78,
     "tgt_reno16": 13,
     "tgt_a7pro": 7,
@@ -8661,12 +10019,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911820",
     "nombre": "PALESTINA ALONSO FERNANDO",
-    "cadena": "MEGA LOS HEROES IXTAPALUCA 9732",
+    "cadena": "Elektra",
     "tienda": "MEGA LOS HEROES IXTAPALUCA 9732",
     "region": "R9-D",
     "ciudad": "",
@@ -8687,12 +10049,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R921790",
     "nombre": "PERALTA PAREDES SUAHILI",
-    "cadena": "MEGA COSTITLAN SV CHICOLOAPAN 9789",
+    "cadena": "Elektra",
     "tienda": "MEGA COSTITLAN SV CHICOLOAPAN 9789",
     "region": "R9-D",
     "ciudad": "",
@@ -8713,12 +10079,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917925",
     "nombre": "QUEMITE DIAZ DULCE",
-    "cadena": "EKT IXTAPALUCA PLAZA MEXICO 5487 | EKT AYOTLA 3162 | EKT IXTAPALUCA TLALPIZAHUAC 2140 | EKT MEGA VALLE DE CHALCO 987",
+    "cadena": "Elektra",
     "tienda": "EKT IXTAPALUCA PLAZA MEXICO 5487 | EKT AYOTLA 3162 | EKT IXTAPALUCA TLALPIZAHUAC 2140 | EKT MEGA VALLE DE CHALCO 987",
     "region": "R9-D",
     "ciudad": "",
@@ -8739,15 +10109,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R920288",
     "nombre": "RAMIREZ GOMEZ BRENDA MICHEL",
-    "cadena": "EKT AMECAMECA 3476",
+    "cadena": "Elektra",
     "tienda": "EKT AMECAMECA 3476",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "AMECAMECA",
     "tgt_gral": 112,
     "tgt_reno16": 16,
     "tgt_a7pro": 5,
@@ -8765,15 +10139,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922273",
     "nombre": "RIOS URIBE MARIA ITZEL",
-    "cadena": "EKT CHIMALHUACAN LAS TORRES 2141",
+    "cadena": "Elektra",
     "tienda": "EKT CHIMALHUACAN LAS TORRES 2141",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 49,
     "tgt_reno16": 10,
     "tgt_a7pro": 10,
@@ -8791,15 +10169,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918355",
     "nombre": "RIOS URIBE MIGUEL ANGEL",
-    "cadena": "EKT SAN VICENTE CHICOLOAPAN 5762",
+    "cadena": "Elektra",
     "tienda": "EKT SAN VICENTE CHICOLOAPAN 5762",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 70,
     "tgt_reno16": 30,
     "tgt_a7pro": 0,
@@ -8817,15 +10199,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917074",
     "nombre": "ROQUE CERVANTES ASHLEY DENNIS",
-    "cadena": "EKT PUENTE ROJO 3544",
+    "cadena": "Elektra",
     "tienda": "EKT PUENTE ROJO 3544",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 33,
     "tgt_reno16": 9,
     "tgt_a7pro": 6,
@@ -8843,15 +10229,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912271",
     "nombre": "TRINIDAD HERRERA ANA CECILIA",
-    "cadena": "EKT AYOTLA 3162",
+    "cadena": "Elektra",
     "tienda": "EKT AYOTLA 3162",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 66,
     "tgt_reno16": 19,
     "tgt_a7pro": 12,
@@ -8869,12 +10259,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919995",
     "nombre": "RUIZ PEREIRA JOSE ALBERTO",
-    "cadena": "EKT AJUSCO 2325",
+    "cadena": "Elektra",
     "tienda": "EKT AJUSCO 2325",
     "region": "R9-D",
     "ciudad": "",
@@ -8895,15 +10289,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R917036",
     "nombre": "ALARCON HERNANDEZ LUIS ALBERTO",
-    "cadena": "MI EKT SANTA LUCIA 4323",
+    "cadena": "Elektra",
     "tienda": "MI EKT SANTA LUCIA 4323",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 70,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -8921,15 +10319,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919136",
     "nombre": "ALVARADO PEREZ EDUARDO",
-    "cadena": "EKT MEGA LA LUNA 100",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA LA LUNA 100",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 65,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -8947,15 +10349,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918749",
     "nombre": "BASTIDA GARCIA ALAN ALDAIR",
-    "cadena": "EKT SAN ANGEL 2 2024",
+    "cadena": "Elektra",
     "tienda": "EKT SAN ANGEL 2 2024",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 60,
     "tgt_reno16": 14,
     "tgt_a7pro": 6,
@@ -8973,12 +10379,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919773",
     "nombre": "ESCAMILLA RAMIREZ RICARDO",
-    "cadena": "EKT CONTRERAS 2066",
+    "cadena": "Elektra",
     "tienda": "EKT CONTRERAS 2066",
     "region": "R9-D",
     "ciudad": "",
@@ -8999,15 +10409,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916704",
     "nombre": "FLORES RODRIGUEZ WENDOLYN",
-    "cadena": "EKT MEGA SAN PEDRO MARTIR 7676",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SAN PEDRO MARTIR 7676",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 70,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -9025,15 +10439,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916326",
     "nombre": "FLORES SORIANO JUAN",
-    "cadena": "MEGA SANTA ANA TLAHUAC 9671",
+    "cadena": "Elektra",
     "tienda": "MEGA SANTA ANA TLAHUAC 9671",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 80,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -9051,12 +10469,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919750",
     "nombre": "NAVARRETE AVELARDE SUSANA CAROLINA",
-    "cadena": "EKT MEGA AV AZTECAS 2244",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA AV AZTECAS 2244",
     "region": "R9-D",
     "ciudad": "",
@@ -9077,15 +10499,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919144",
     "nombre": "OLVERA AVALOS VICTORIA NIURKA",
-    "cadena": "EKT MEGA TLAHUAC 1 2286",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TLAHUAC 1 2286",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "MILPA ALTA",
     "tgt_gral": 50,
     "tgt_reno16": 8,
     "tgt_a7pro": 9,
@@ -9103,12 +10529,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919789",
     "nombre": "ORTIZ JIMENEZ CHRISTIAN IVAN",
-    "cadena": "MEGA ELEKTRA PICACHO AJUSTO 9695",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA PICACHO AJUSTO 9695",
     "region": "R9-D",
     "ciudad": "",
@@ -9129,15 +10559,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918124",
     "nombre": "REYES GONZALEZ JULIA KAREN",
-    "cadena": "EKT MEGA LA LUNA 100",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA LA LUNA 100",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 65,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -9155,15 +10589,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918127",
     "nombre": "SILVESTRE ZEPEDA EDGAR TOMAS",
-    "cadena": "EKT AJUSCO 2325",
+    "cadena": "Elektra",
     "tienda": "EKT AJUSCO 2325",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "LA MAGDALENA CONTRERAS",
     "tgt_gral": 60,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -9181,15 +10619,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913636",
     "nombre": "VELAZQUEZ LARA ADILENE THAIDE",
-    "cadena": "EKT SAN ANGEL 2 2024",
+    "cadena": "Elektra",
     "tienda": "EKT SAN ANGEL 2 2024",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 60,
     "tgt_reno16": 13,
     "tgt_a7pro": 6,
@@ -9207,15 +10649,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914978",
     "nombre": "YACI PAREDES FRANCISCO JAVIER",
-    "cadena": "EKT CONTRERAS 8400",
+    "cadena": "Elektra",
     "tienda": "EKT CONTRERAS 8400",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 50,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -9233,12 +10679,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919851",
     "nombre": "ZAVALA ZACARIAS TANIA LIZETH",
-    "cadena": "EKT SAN LORENZO TESONCO 5160",
+    "cadena": "Elektra",
     "tienda": "EKT SAN LORENZO TESONCO 5160",
     "region": "R9-D",
     "ciudad": "",
@@ -9259,12 +10709,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919718",
     "nombre": "ANGELES HERNANDEZ LILIAN",
-    "cadena": "EKT ZUMPANGO DE OCAMPO 2052",
+    "cadena": "Elektra",
     "tienda": "EKT ZUMPANGO DE OCAMPO 2052",
     "region": "R9-D",
     "ciudad": "",
@@ -9285,15 +10739,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911793",
     "nombre": "BARCENAS MENDEZ ALFREDO DANIEL",
-    "cadena": "EKT MEGA ZUMPANGO 6169",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ZUMPANGO 6169",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 73,
     "tgt_reno16": 21,
     "tgt_a7pro": 5,
@@ -9311,12 +10769,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919866",
     "nombre": "BOURET RAMIREZ ALDO",
-    "cadena": "EKT PLAZA LAS HACIENDAS 6066",
+    "cadena": "Elektra",
     "tienda": "EKT PLAZA LAS HACIENDAS 6066",
     "region": "R9-D",
     "ciudad": "",
@@ -9337,15 +10799,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R93625",
     "nombre": "ESQUIVEL ROMERO KARINA MARGARITA",
-    "cadena": "MINIEKT TEPOZOTLAN EDO MEX 4098",
+    "cadena": "Elektra",
     "tienda": "MINIEKT TEPOZOTLAN EDO MEX 4098",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEPOTZOTLÁN",
     "tgt_gral": 64,
     "tgt_reno16": 31,
     "tgt_a7pro": 8,
@@ -9363,12 +10829,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919881",
     "nombre": "FALCON SANCHEZ JOSE ENRIQUE",
-    "cadena": "EKT EDO MEX HUEHUETOCA 6081",
+    "cadena": "Elektra",
     "tienda": "EKT EDO MEX HUEHUETOCA 6081",
     "region": "R9-D",
     "ciudad": "",
@@ -9389,12 +10859,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917371",
     "nombre": "GALINDO SANCHEZ AIMEE",
-    "cadena": "MEGA ELEKTRA TOWN CENTER ZUMPA 9560",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA TOWN CENTER ZUMPA 9560",
     "region": "R9-D",
     "ciudad": "",
@@ -9415,15 +10889,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919677",
     "nombre": "GONZALEZ RAMIREZ NICK ALBERTO",
-    "cadena": "MI EKT APAXCO 6189",
+    "cadena": "Elektra",
     "tienda": "MI EKT APAXCO 6189",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 30,
     "tgt_reno16": 3,
     "tgt_a7pro": 5,
@@ -9441,15 +10919,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917871",
     "nombre": "GONZALEZ VARGAS MAYRA NAYELI",
-    "cadena": "MEGA ELEKTRA PLAZA LAS CAÑADAS 9477",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA PLAZA LAS CAÑADAS 9477",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 118,
     "tgt_reno16": 44,
     "tgt_a7pro": 0,
@@ -9467,15 +10949,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914751",
     "nombre": "ISLAS VILLANUEVA MAYRA",
-    "cadena": "EKT MEGA ZUMPANGO 6169",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ZUMPANGO 6169",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 62,
     "tgt_reno16": 19,
     "tgt_a7pro": 4,
@@ -9493,15 +10979,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919573",
     "nombre": "MARTINEZ RAMIREZ OSWALDO NATANAEL",
-    "cadena": "EKT TEOLOYUCAN 6131",
+    "cadena": "Elektra",
     "tienda": "EKT TEOLOYUCAN 6131",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 65,
     "tgt_reno16": 10,
     "tgt_a7pro": 5,
@@ -9519,15 +11009,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918676",
     "nombre": "MARTINEZ RAMIREZ YOSSELIN CITLALLI",
-    "cadena": "MEGA ELEKTRA HUEHUETOCA 9599",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA HUEHUETOCA 9599",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 66,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -9545,15 +11039,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914301",
     "nombre": "NUÑEZ ESCOBEDO CARLOS ALBERTO",
-    "cadena": "MI EKT APAXCO 6189",
+    "cadena": "Elektra",
     "tienda": "MI EKT APAXCO 6189",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 43,
     "tgt_reno16": 5,
     "tgt_a7pro": 15,
@@ -9571,12 +11069,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919771",
     "nombre": "RIEGO SALDAÑA ANGEL URIEL",
-    "cadena": "EKT MEGA ZUMPANGO 6169 | EKT ZUMPANGO DE OCAMPO 2052",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ZUMPANGO 6169 | EKT ZUMPANGO DE OCAMPO 2052",
     "region": "R9-D",
     "ciudad": "",
@@ -9597,15 +11099,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR910803",
     "nombre": "RODRIGUEZ LARA LEISLE MIRRELLE",
-    "cadena": "EKT ZUMPANGO DE OCAMPO 2052 | EKT MEGA ZUMPANGO 6169",
+    "cadena": "Elektra",
     "tienda": "EKT ZUMPANGO DE OCAMPO 2052 | EKT MEGA ZUMPANGO 6169",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "APAXCO",
     "tgt_gral": 49,
     "tgt_reno16": 16,
     "tgt_a7pro": 3,
@@ -9623,15 +11129,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918927",
     "nombre": "ROSALES MONTIEL JANETTE IVETH",
-    "cadena": "EKT TEOLOYUCAN 6131",
+    "cadena": "Elektra",
     "tienda": "EKT TEOLOYUCAN 6131",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 68,
     "tgt_reno16": 6,
     "tgt_a7pro": 6,
@@ -9649,15 +11159,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916517",
     "nombre": "SABINO GARCIA AMERICA",
-    "cadena": "EKT ZUMPANGO BLVD M. HIDALGO 2050 | DAZ TEQUIXQUIAC 744",
+    "cadena": "Elektra",
     "tienda": "EKT ZUMPANGO BLVD M. HIDALGO 2050 | DAZ TEQUIXQUIAC 744",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 76,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -9675,15 +11189,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918097",
     "nombre": "SANTIAGO CHAVEZ VALERIANO",
-    "cadena": "EKT MEGA ZUMPANGO 6169",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ZUMPANGO 6169",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 86,
     "tgt_reno16": 41,
     "tgt_a7pro": 5,
@@ -9701,15 +11219,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916519",
     "nombre": "SANTOS ESCOBAR GERALDINE",
-    "cadena": "MEGA ELEKTRA TOWN CENTER ZUMPA 9560",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA TOWN CENTER ZUMPA 9560",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 71,
     "tgt_reno16": 10,
     "tgt_a7pro": 1,
@@ -9727,15 +11249,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918923",
     "nombre": "TORRES PEREZ ALEJANDRO",
-    "cadena": "EKT MELCHOR OCAMPO 6065",
+    "cadena": "Elektra",
     "tienda": "EKT MELCHOR OCAMPO 6065",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 42,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -9753,15 +11279,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919632",
     "nombre": "VAZQUEZ GUTIERREZ BRENDA",
-    "cadena": "EKT EDO MEX HUEHUETOCA 6081",
+    "cadena": "Elektra",
     "tienda": "EKT EDO MEX HUEHUETOCA 6081",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 63,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -9779,15 +11309,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919357",
     "nombre": "ALVAREZ SANTIAGO GABRIELA",
-    "cadena": "EKT MEGA RAUL ROMERO 5885",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA RAUL ROMERO 5885",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 53,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -9805,15 +11339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911864",
     "nombre": "BUSTOS PEREZ VICTOR ANTONIO",
-    "cadena": "EKT MEGA SANTA ELENA 4543",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SANTA ELENA 4543",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 45,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -9831,12 +11369,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919965",
     "nombre": "CARBAJAL SANCHEZ MIA DANIELA",
-    "cadena": "EKT MEGA PLAZA EL SALADO 5924",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA PLAZA EL SALADO 5924",
     "region": "R9-D",
     "ciudad": "",
@@ -9857,15 +11399,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918725",
     "nombre": "CORIA NAVARRO RAFAEL FELIX",
-    "cadena": "EKT LOS REYES EDO MEX 168 | MEGA CARMELO PEREZ NEZA 9566",
+    "cadena": "Elektra",
     "tienda": "EKT LOS REYES EDO MEX 168 | MEGA CARMELO PEREZ NEZA 9566",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 57,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -9883,12 +11429,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919867",
     "nombre": "DELGADO RAMOS LUIS ANGEL",
-    "cadena": "EKT MEGA LERMA LOS REYES 9977",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA LERMA LOS REYES 9977",
     "region": "R9-D",
     "ciudad": "",
@@ -9909,15 +11459,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919356",
     "nombre": "ESPINOSA CHAVEZ ANA TERESA",
-    "cadena": "EKT NEZA LAS AGUILAS 2135",
+    "cadena": "Elektra",
     "tienda": "EKT NEZA LAS AGUILAS 2135",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 48,
     "tgt_reno16": 12,
     "tgt_a7pro": 3,
@@ -9935,15 +11489,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916456",
     "nombre": "HIDALGO MALAGON BRIAN",
-    "cadena": "EKT PLAZA NEZA (BS) 2810",
+    "cadena": "Elektra",
     "tienda": "EKT PLAZA NEZA (BS) 2810",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 63,
     "tgt_reno16": 23,
     "tgt_a7pro": 0,
@@ -9961,12 +11519,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919697",
     "nombre": "MORALES MORENO ERICK MISAEL",
-    "cadena": "EKT MEGA EVOLUCION 8507",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA EVOLUCION 8507",
     "region": "R9-D",
     "ciudad": "",
@@ -9987,15 +11549,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914281",
     "nombre": "MUÑOZ RESENDIZ JONATHAN FABIAN",
-    "cadena": "EKT MEGA LOS REYES 3667",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA LOS REYES 3667",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 114,
     "tgt_reno16": 32,
     "tgt_a7pro": 4,
@@ -10013,15 +11579,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914088",
     "nombre": "PEREZ RODRIGUEZ VIRIDIANA",
-    "cadena": "EKT CHIMALHUACAN ACUITLAPICO 2120",
+    "cadena": "Elektra",
     "tienda": "EKT CHIMALHUACAN ACUITLAPICO 2120",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHICOLOAPAN",
     "tgt_gral": 86,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -10039,15 +11609,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916155",
     "nombre": "RAMIREZ GUERRERO LIZETH",
-    "cadena": "EKT MEGA SANTA ELENA 4543",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SANTA ELENA 4543",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 45,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -10065,15 +11639,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922586",
     "nombre": "REYES MORALES JOSE FERNANDO",
-    "cadena": "EKT MEGA LAGO 6680",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA LAGO 6680",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 61,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -10091,15 +11669,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919427",
     "nombre": "RODRIGUEZ ALVARADO BRAYAN URIEL",
-    "cadena": "EKT NEZAHUALCOYOTL 2 3515",
+    "cadena": "Elektra",
     "tienda": "EKT NEZAHUALCOYOTL 2 3515",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 36,
     "tgt_reno16": 10,
     "tgt_a7pro": 2,
@@ -10117,15 +11699,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918959",
     "nombre": "RODRIGUEZ CAMACHO LUIS ENRIQUE",
-    "cadena": "EKT LOS REYES 1025",
+    "cadena": "Elektra",
     "tienda": "EKT LOS REYES 1025",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 81,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -10143,15 +11729,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912575",
     "nombre": "ROSAS MACIAS SONIA MARGARITA",
-    "cadena": "EKT CINE MARAVILLAS 2007",
+    "cadena": "Elektra",
     "tienda": "EKT CINE MARAVILLAS 2007",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 64,
     "tgt_reno16": 14,
     "tgt_a7pro": 2,
@@ -10169,12 +11759,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912304",
     "nombre": "RUIZ ZAMORA JULIO CESAR",
-    "cadena": "EKT CHIMALHUACAN SAN AGUSTIN 2144",
+    "cadena": "Elektra",
     "tienda": "EKT CHIMALHUACAN SAN AGUSTIN 2144",
     "region": "R9-D",
     "ciudad": "",
@@ -10195,15 +11789,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911165",
     "nombre": "SANCHEZ MENERA BRAYAN",
-    "cadena": "EKT ATLIPAC 2136",
+    "cadena": "Elektra",
     "tienda": "EKT ATLIPAC 2136",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 72,
     "tgt_reno16": 13,
     "tgt_a7pro": 3,
@@ -10221,15 +11819,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915580",
     "nombre": "SANCHEZ MOLINA RODRIGO GAMARIEL",
-    "cadena": "EKT CHIMALHUACAN BORDO 7041",
+    "cadena": "Elektra",
     "tienda": "EKT CHIMALHUACAN BORDO 7041",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 61,
     "tgt_reno16": 10,
     "tgt_a7pro": 13,
@@ -10247,12 +11849,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919769",
     "nombre": "ALCONEDO SANCHEZ TANIA PAMELA",
-    "cadena": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
     "region": "R9-D",
     "ciudad": "",
@@ -10273,15 +11879,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917816",
     "nombre": "CHAVEZ MONDRAGON CESAR JOSUE",
-    "cadena": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 82,
     "tgt_reno16": 28,
     "tgt_a7pro": 5,
@@ -10299,15 +11909,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919661",
     "nombre": "CONTRERAS JUAREZ DARA GABRIELA",
-    "cadena": "EKT TOWN CENTER, NICOLAS ROMER 129 | EKT MEGA VILLA NICOLAS ROMERO1 1436",
+    "cadena": "Elektra",
     "tienda": "EKT TOWN CENTER, NICOLAS ROMER 129 | EKT MEGA VILLA NICOLAS ROMERO1 1436",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "NICOLÁS ROMERO",
     "tgt_gral": 69,
     "tgt_reno16": 7,
     "tgt_a7pro": 3,
@@ -10325,15 +11939,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R918484",
     "nombre": "CRUZ ALVARADO CLARA LETICIA",
-    "cadena": "EKT TLALNEPANTLA 2 HIDALDO 1067",
+    "cadena": "Elektra",
     "tienda": "EKT TLALNEPANTLA 2 HIDALDO 1067",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 58,
     "tgt_reno16": 10,
     "tgt_a7pro": 5,
@@ -10351,15 +11969,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917519",
     "nombre": "DE LA CRUZ GUERRA EDUARDO",
-    "cadena": "MEGA ELEKTRA SAN MIGUEL CHALMA 9701",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA SAN MIGUEL CHALMA 9701",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 63,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -10377,15 +11999,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919485",
     "nombre": "FLORES DELGADO KATHERINE PAMELA",
-    "cadena": "EKT TLALNEPANTLA 3 ALLENDE 1928",
+    "cadena": "Elektra",
     "tienda": "EKT TLALNEPANTLA 3 ALLENDE 1928",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 60,
     "tgt_reno16": 7,
     "tgt_a7pro": 2,
@@ -10403,12 +12029,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912207",
     "nombre": "MARTINEZ ANDRADE ADAN",
-    "cadena": "EKT VILLA NICOLAS ROMERO 2023",
+    "cadena": "Elektra",
     "tienda": "EKT VILLA NICOLAS ROMERO 2023",
     "region": "R9-D",
     "ciudad": "",
@@ -10429,15 +12059,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R920049",
     "nombre": "MATIAS REYERO JAFET ALEJANDRO",
-    "cadena": "EKT MEGA VILLA DE LA HACIENDA 118",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA DE LA HACIENDA 118",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 110,
     "tgt_reno16": 9,
     "tgt_a7pro": 9,
@@ -10455,15 +12089,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918152",
     "nombre": "MENDEZ ARIAS MARILU",
-    "cadena": "EKT MEGA ATIZAPAN DE ZARAGOZA 7692",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ATIZAPAN DE ZARAGOZA 7692",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 63,
     "tgt_reno16": 9,
     "tgt_a7pro": 2,
@@ -10481,12 +12119,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R920641",
     "nombre": "PEREZ MIRANDA OSCAR ADRIAN",
-    "cadena": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA NICOLAS ROMERO2 4378",
     "region": "R9-D",
     "ciudad": "",
@@ -10507,15 +12149,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R912158",
     "nombre": "REYES CENTENO LEONEL",
-    "cadena": "EKT SAN JUAN IXTACALA 184",
+    "cadena": "Elektra",
     "tienda": "EKT SAN JUAN IXTACALA 184",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 58,
     "tgt_reno16": 6,
     "tgt_a7pro": 2,
@@ -10533,12 +12179,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920062",
     "nombre": "TAPIA GUZMAN RICARDO",
-    "cadena": "EKT VILLA DEL CARBON 6121",
+    "cadena": "Elektra",
     "tienda": "EKT VILLA DEL CARBON 6121",
     "region": "R9-D",
     "ciudad": "",
@@ -10559,15 +12209,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R918270",
     "nombre": "TAPIA ISLAS KARLA SARAHI",
-    "cadena": "EKT TLALNEPANTLA 3 ALLENDE 1928",
+    "cadena": "Elektra",
     "tienda": "EKT TLALNEPANTLA 3 ALLENDE 1928",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 60,
     "tgt_reno16": 6,
     "tgt_a7pro": 1,
@@ -10585,12 +12239,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920041",
     "nombre": "VELAZCO CARMONA YAZMIN YAJAIRA",
-    "cadena": "EKT MEGA VILLA NICOLAS ROMERO1 1436",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA NICOLAS ROMERO1 1436",
     "region": "R9-D",
     "ciudad": "",
@@ -10611,15 +12269,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918845",
     "nombre": "CARDENAS MEDINA XIMENA",
-    "cadena": "EKT TEXCOCO JUAREZ SUR 2143",
+    "cadena": "Elektra",
     "tienda": "EKT TEXCOCO JUAREZ SUR 2143",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 63,
     "tgt_reno16": 20,
     "tgt_a7pro": 3,
@@ -10637,15 +12299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R922765",
     "nombre": "CASTAÑEDA RODRIGUEZ VICTOR JAIR",
-    "cadena": "EKT LA JOYA ECATEPEC 182",
+    "cadena": "Elektra",
     "tienda": "EKT LA JOYA ECATEPEC 182",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 52,
     "tgt_reno16": 12,
     "tgt_a7pro": 2,
@@ -10663,15 +12329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918987",
     "nombre": "CID LOPEZ CHRISTIAN IVAN",
-    "cadena": "EKT MEGA TEOTIHUACAN 4941",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TEOTIHUACAN 4941",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEOTIHUACÁN",
     "tgt_gral": 56,
     "tgt_reno16": 14,
     "tgt_a7pro": 3,
@@ -10689,12 +12359,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918196",
     "nombre": "FLORES DE JESUS JOSE JAVIER",
-    "cadena": "EKT PLAZA MEXIQUENSE 6027",
+    "cadena": "Elektra",
     "tienda": "EKT PLAZA MEXIQUENSE 6027",
     "region": "R9-D",
     "ciudad": "",
@@ -10715,15 +12389,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919215",
     "nombre": "GARCIA ARELLANO CHRISTIAN ALBERTO",
-    "cadena": "EKT CHICONCUAC TRADICIONAL 6141",
+    "cadena": "Elektra",
     "tienda": "EKT CHICONCUAC TRADICIONAL 6141",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "CHICONCUAC",
     "tgt_gral": 89,
     "tgt_reno16": 12,
     "tgt_a7pro": 3,
@@ -10741,12 +12419,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919918",
     "nombre": "GARCIA CORTES JORGE ARMANDO",
-    "cadena": "MEGA ELEKTRA PLAZA LOS HEROES 9478",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA PLAZA LOS HEROES 9478",
     "region": "R9-D",
     "ciudad": "",
@@ -10767,15 +12449,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919581",
     "nombre": "GOMEZ JACOBO ENRIQUE",
-    "cadena": "MEGA LAS PALOMAS ECATEPEC 9699",
+    "cadena": "Elektra",
     "tienda": "MEGA LAS PALOMAS ECATEPEC 9699",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 44,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -10793,12 +12479,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919833",
     "nombre": "MONROY LOZANO ALEXIS YAIR",
-    "cadena": "EKT TEXCOCO 3 JUAREZ 4954",
+    "cadena": "Elektra",
     "tienda": "EKT TEXCOCO 3 JUAREZ 4954",
     "region": "R9-D",
     "ciudad": "",
@@ -10819,15 +12509,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919169",
     "nombre": "MONTES SALAZAR CARLOS",
-    "cadena": "EKT CHICONAUTLA ECATEPEC 181",
+    "cadena": "Elektra",
     "tienda": "EKT CHICONAUTLA ECATEPEC 181",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 52,
     "tgt_reno16": 10,
     "tgt_a7pro": 5,
@@ -10845,15 +12539,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911485",
     "nombre": "MUÑOZ ESPINOSA MARIA FERNANDA",
-    "cadena": "MEGA ELEKTRA REAL DEL VALLE 9946",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA REAL DEL VALLE 9946",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACOLMAN",
     "tgt_gral": 72,
     "tgt_reno16": 12,
     "tgt_a7pro": 3,
@@ -10871,12 +12569,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919915",
     "nombre": "OLVERA TROCOSO DIEGO DANIEL",
-    "cadena": "MEGA SIERRA HERMOSA TECAMAC 9791",
+    "cadena": "Elektra",
     "tienda": "MEGA SIERRA HERMOSA TECAMAC 9791",
     "region": "R9-D",
     "ciudad": "",
@@ -10897,15 +12599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919214",
     "nombre": "PEREZ SANCHEZ MIGUEL ANGEL",
-    "cadena": "EKT JARDINES DE MORELOS 6017",
+    "cadena": "Elektra",
     "tienda": "EKT JARDINES DE MORELOS 6017",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 47,
     "tgt_reno16": 12,
     "tgt_a7pro": 2,
@@ -10923,15 +12629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911124",
     "nombre": "RAMIREZ HERNANDEZ CARLOS DIDIER",
-    "cadena": "EKT OTUMBA 6093",
+    "cadena": "Elektra",
     "tienda": "EKT OTUMBA 6093",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "OTUMBA",
     "tgt_gral": 55,
     "tgt_reno16": 16,
     "tgt_a7pro": 3,
@@ -10949,15 +12659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919490",
     "nombre": "REBOLLAR ZETINA EMMANUEL EDMUNDO",
-    "cadena": "EKT MEGA TECAMAC 6237",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TECAMAC 6237",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 47,
     "tgt_reno16": 12,
     "tgt_a7pro": 3,
@@ -10975,15 +12689,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919083",
     "nombre": "REYES GALVAN DANIELA LETICIA",
-    "cadena": "EKT TEXCOCO 1 BRAVO 1106",
+    "cadena": "Elektra",
     "tienda": "EKT TEXCOCO 1 BRAVO 1106",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 54,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -11001,15 +12719,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R916848",
     "nombre": "ROJAS AYALA ISAI NEFTALY",
-    "cadena": "EKT TEXCOCO 1 BRAVO 1106",
+    "cadena": "Elektra",
     "tienda": "EKT TEXCOCO 1 BRAVO 1106",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 53,
     "tgt_reno16": 15,
     "tgt_a7pro": 3,
@@ -11027,15 +12749,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914377",
     "nombre": "ROMERO PLATA RICARDO",
-    "cadena": "EKT ECATEPEC JARDINES DE MOREL 6267",
+    "cadena": "Elektra",
     "tienda": "EKT ECATEPEC JARDINES DE MOREL 6267",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 40,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -11053,15 +12779,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R913164",
     "nombre": "SANCHEZ ALVAREZ LILIAN POLEHT",
-    "cadena": "EKT MEGA TEOTIHUACAN 4941",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TEOTIHUACAN 4941",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TEOTIHUACÁN",
     "tgt_gral": 72,
     "tgt_reno16": 16,
     "tgt_a7pro": 3,
@@ -11079,15 +12809,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917570",
     "nombre": "SANCHEZ EVAGELISTA AMERICA MIRIAM",
-    "cadena": "MEGA ELEKTRA TEPEXPAN EDOMEX 4024",
+    "cadena": "Elektra",
     "tienda": "MEGA ELEKTRA TEPEXPAN EDOMEX 4024",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "ACOLMAN",
     "tgt_gral": 72,
     "tgt_reno16": 16,
     "tgt_a7pro": 5,
@@ -11105,15 +12839,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915059",
     "nombre": "SANCHEZ MACKINNEY EFRAIN",
-    "cadena": "EKT MEGA TECAMAC 6237",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TECAMAC 6237",
     "region": "R9-D",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 65,
     "tgt_reno16": 16,
     "tgt_a7pro": 5,
@@ -11131,15 +12869,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919190",
     "nombre": "CRUZ GONZALEZ JESSICA",
-    "cadena": "MI EKT ACAMBAY 5879",
+    "cadena": "Elektra",
     "tienda": "MI EKT ACAMBAY 5879",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 52,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -11157,15 +12899,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 2,
       "A_LOW": 4
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917472",
     "nombre": "DE LA CRUZ SEGUNDO ERIK",
-    "cadena": "MI EKT SAN FELIPE DEL PROGRESO 5839",
+    "cadena": "Elektra",
     "tienda": "MI EKT SAN FELIPE DEL PROGRESO 5839",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "SAN FELIPE DEL PROGRESO",
     "tgt_gral": 84,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -11183,15 +12929,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 4,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR917273",
     "nombre": "GARCIA MIRANDA ANA CARLA",
-    "cadena": "EKT MEGA IXTLAHUACA 6923",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA IXTLAHUACA 6923",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 83,
     "tgt_reno16": 18,
     "tgt_a7pro": 11,
@@ -11209,15 +12959,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 4,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919914",
     "nombre": "GONZALEZ HERNANDEZ SERGIO",
-    "cadena": "EKT MEGA JILOTEPEC 9425",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA JILOTEPEC 9425",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 95,
     "tgt_reno16": 13,
     "tgt_a7pro": 2,
@@ -11235,15 +12989,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 7,
       "A_LOW": 3
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R918305",
     "nombre": "LEYVA LOPEZ MINERVA",
-    "cadena": "EKT MEGA ATLACOMULCO 5306",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ATLACOMULCO 5306",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ATLACOMULCO",
     "tgt_gral": 106,
     "tgt_reno16": 28,
     "tgt_a7pro": 0,
@@ -11261,15 +13019,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 4,
       "A_LOW": 3
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R912119",
     "nombre": "LUNA GAMEZ ALMA ROSA",
-    "cadena": "MINI EKT XONACATLAN 8501",
+    "cadena": "Elektra",
     "tienda": "MINI EKT XONACATLAN 8501",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "XONACATLÁN",
     "tgt_gral": 96,
     "tgt_reno16": 32,
     "tgt_a7pro": 0,
@@ -11287,15 +13049,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 4,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919976",
     "nombre": "MEJIA XOLO JESSICA JOSELINE",
-    "cadena": "EKT TEMOAYA EDO. MEXICO 2074",
+    "cadena": "Elektra",
     "tienda": "EKT TEMOAYA EDO. MEXICO 2074",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEMOAYA",
     "tgt_gral": 89,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -11313,15 +13079,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 1,
       "A_LOW": 9
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911340",
     "nombre": "MONDRAGON AGUILAR SOFIA ITZEL",
-    "cadena": "EKT MEGA IXTLAHUACA 6923",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA IXTLAHUACA 6923",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 79,
     "tgt_reno16": 17,
     "tgt_a7pro": 11,
@@ -11339,15 +13109,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 8,
       "A_MIDDLE": 4,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918750",
     "nombre": "REYNA CAMPOS JOSE ANTONIO",
-    "cadena": "EKT MEGA JILOTEPEC 9425",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA JILOTEPEC 9425",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 61,
     "tgt_reno16": 9,
     "tgt_a7pro": 2,
@@ -11365,15 +13139,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 2,
       "A_LOW": 3
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR913845",
     "nombre": "SALGADO OROZCO LILIANA",
-    "cadena": "EKT MEGA VILLA VICTORIA 9482",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VILLA VICTORIA 9482",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "VILLA VICTORIA",
     "tgt_gral": 53,
     "tgt_reno16": 0,
     "tgt_a7pro": 15,
@@ -11391,15 +13169,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919122",
     "nombre": "CANO ANGELES CARLOS ENRIQUE",
-    "cadena": "TDA TOLUCA METEPEC I",
+    "cadena": "AT&T",
     "tienda": "TDA TOLUCA METEPEC I",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 31,
     "tgt_reno16": 2,
     "tgt_a7pro": 0,
@@ -11417,15 +13199,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 0,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919900",
     "nombre": "CASTILLO CARRANZA JORGE ALBERTO",
-    "cadena": "TDA TOLUCA METEPEC",
+    "cadena": "AT&T",
     "tienda": "TDA TOLUCA METEPEC",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 30,
     "tgt_reno16": 1,
     "tgt_a7pro": 0,
@@ -11443,12 +13229,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919907",
     "nombre": "GONZALEZ CANO MARIO",
-    "cadena": "ARSA MULTIPLAZA SANTIN MEX",
+    "cadena": "AT&T",
     "tienda": "ARSA MULTIPLAZA SANTIN MEX",
     "region": "R9-E",
     "ciudad": "",
@@ -11469,15 +13259,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR920035",
     "nombre": "GUTIERREZ NAVA EDSON FRANCISCO",
-    "cadena": "TDA TOLUCA EL PUNTO",
+    "cadena": "AT&T",
     "tienda": "TDA TOLUCA EL PUNTO",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 30,
     "tgt_reno16": 2,
     "tgt_a7pro": 0,
@@ -11495,15 +13289,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR917585",
     "nombre": "HERNANDEZ JORGE JOSUE",
-    "cadena": "PRM TDA TOLUCA AV INDEPENDENCIA",
+    "cadena": "AT&T",
     "tienda": "PRM TDA TOLUCA AV INDEPENDENCIA",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 30,
     "tgt_reno16": 2,
     "tgt_a7pro": 0,
@@ -11521,15 +13319,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR917620",
     "nombre": "LOPEZ MERCADO FERNANDO BRAYAN",
-    "cadena": "PRM TDA PLAZA ZINA",
+    "cadena": "AT&T",
     "tienda": "PRM TDA PLAZA ZINA",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 30,
     "tgt_reno16": 1,
     "tgt_a7pro": 0,
@@ -11547,15 +13349,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR918459",
     "nombre": "MARIN LOPEZ JORGE HILARIO",
-    "cadena": "PRM TDA TOLUCA ZINACANTEPEC",
+    "cadena": "AT&T",
     "tienda": "PRM TDA TOLUCA ZINACANTEPEC",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 30,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -11573,15 +13379,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR920030",
     "nombre": "PIEDRA CHAVEZ GAEL SEBASTIAN",
-    "cadena": "SEARS METEPEC 221",
+    "cadena": "Sears",
     "tienda": "SEARS METEPEC 221",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -11599,15 +13409,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 0,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR919081",
     "nombre": "SOTO AVILES EMMANUEL ALFONSO",
-    "cadena": "L TOLUCA 140",
+    "cadena": "Liverpool",
     "tienda": "L TOLUCA 140",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 30,
     "tgt_reno16": 4,
     "tgt_a7pro": 0,
@@ -11625,15 +13439,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR917968",
     "nombre": "DE JESUS ESQUIVEL MARIA GUADALUPE",
-    "cadena": "COPPEL 16 DE SEPTIEMBRE 873",
+    "cadena": "Coppel",
     "tienda": "COPPEL 16 DE SEPTIEMBRE 873",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 65,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -11651,15 +13469,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 9,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R921714",
     "nombre": "DOMINGUEZ VELAZQUEZ ERICK EMIR",
-    "cadena": "COPPEL VILLA VICTORIA 7911",
+    "cadena": "Coppel",
     "tienda": "COPPEL VILLA VICTORIA 7911",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "VILLA VICTORIA",
     "tgt_gral": 89,
     "tgt_reno16": 11,
     "tgt_a7pro": 2,
@@ -11677,15 +13499,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 8,
       "A_MIDDLE": 16,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918412",
     "nombre": "ESTRADA DE JESUS DANIEL",
-    "cadena": "COPPEL TOTOLTEPEC 453",
+    "cadena": "Coppel",
     "tienda": "COPPEL TOTOLTEPEC 453",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 40,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -11703,15 +13529,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 3,
       "A_LOW": 2
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919979",
     "nombre": "ESTRADA GONZALEZ DONOVAN BRANDON",
-    "cadena": "COPPEL CARDENAS 1104",
+    "cadena": "Coppel",
     "tienda": "COPPEL CARDENAS 1104",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "VILLA VICTORIA",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -11729,15 +13559,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 7,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R920709",
     "nombre": "GAMBOA LOPEZ JAZMIN",
-    "cadena": "COPPEL JUAREZ II 64",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ II 64",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 58,
     "tgt_reno16": 8,
     "tgt_a7pro": 5,
@@ -11755,15 +13589,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 8,
       "A_MIDDLE": 7,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919755",
     "nombre": "GARCIA MARTINEZ ROBERTO",
-    "cadena": "COPPEL JUAREZ 388",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 388",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 90,
     "tgt_reno16": 16,
     "tgt_a7pro": 7,
@@ -11781,15 +13619,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915971",
     "nombre": "HERNANDEZ SOTO DIANA LAURA",
-    "cadena": "COPPEL SOR JUANA 1291",
+    "cadena": "Coppel",
     "tienda": "COPPEL SOR JUANA 1291",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ALMOLOYA DE JUÁREZ",
     "tgt_gral": 81,
     "tgt_reno16": 15,
     "tgt_a7pro": 4,
@@ -11807,15 +13649,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917903",
     "nombre": "MORENO CHAVEZ MARIO CESAR RAUL",
-    "cadena": "COPPEL VILLA VICTORIA 7911",
+    "cadena": "Coppel",
     "tienda": "COPPEL VILLA VICTORIA 7911",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "VILLA VICTORIA",
     "tgt_gral": 89,
     "tgt_reno16": 10,
     "tgt_a7pro": 2,
@@ -11833,15 +13679,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 10,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918425",
     "nombre": "NIETO VILCHIS  ARTURO",
-    "cadena": "COPPEL FELIPE CARRILLO PUERTO 7907",
+    "cadena": "Coppel",
     "tienda": "COPPEL FELIPE CARRILLO PUERTO 7907",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "XONACATLÁN",
     "tgt_gral": 49,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -11859,15 +13709,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 7,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R922005",
     "nombre": "ORTIZ CONSUELO EMANUEL",
-    "cadena": "COPPEL JUAREZ II 64",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ II 64",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 58,
     "tgt_reno16": 7,
     "tgt_a7pro": 5,
@@ -11885,15 +13739,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 6,
       "A_MIDDLE": 10,
       "A_LOW": 2
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917985",
     "nombre": "OVANDO MARTINEZ EDREY",
-    "cadena": "COPPEL REFORMA TEMOAYA 7780",
+    "cadena": "Coppel",
     "tienda": "COPPEL REFORMA TEMOAYA 7780",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEMOAYA",
     "tgt_gral": 46,
     "tgt_reno16": 7,
     "tgt_a7pro": 0,
@@ -11911,15 +13769,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918912",
     "nombre": "PADILLA SALINAS URIEL",
-    "cadena": "COPPEL JUAREZ 388",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 388",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 88,
     "tgt_reno16": 15,
     "tgt_a7pro": 6,
@@ -11937,15 +13799,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 14,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912091",
     "nombre": "PEREZ CARDOSO JAZMIN",
-    "cadena": "COPPEL JUAREZ 388",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 388",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 100,
     "tgt_reno16": 17,
     "tgt_a7pro": 7,
@@ -11963,15 +13829,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 10,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919060",
     "nombre": "PRISCILIANO RODRIGUEZ ALEJANDRO",
-    "cadena": "COPPEL REFORMA TEMOAYA 7780",
+    "cadena": "Coppel",
     "tienda": "COPPEL REFORMA TEMOAYA 7780",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEMOAYA",
     "tgt_gral": 47,
     "tgt_reno16": 8,
     "tgt_a7pro": 0,
@@ -11989,15 +13859,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918925",
     "nombre": "RAMIREZ VILLALVA LUIS ANTONIO",
-    "cadena": "COPPEL OJUELOS 999",
+    "cadena": "Coppel",
     "tienda": "COPPEL OJUELOS 999",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 58,
     "tgt_reno16": 24,
     "tgt_a7pro": 0,
@@ -12015,15 +13889,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919828",
     "nombre": "RENDON DELGADO JOSHUA ALEJANDRO",
-    "cadena": "COPPEL 16 DE SEPTIEMBRE 873",
+    "cadena": "Coppel",
     "tienda": "COPPEL 16 DE SEPTIEMBRE 873",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 64,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -12041,15 +13919,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 11,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919971",
     "nombre": "SOTO VALENZUELA RICARDO GUILLERMO",
-    "cadena": "COPPEL CANADA INDEPENDENCIA 597",
+    "cadena": "Coppel",
     "tienda": "COPPEL CANADA INDEPENDENCIA 597",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "IXTAPAN DE LA SAL",
     "tgt_gral": 30,
     "tgt_reno16": 6,
     "tgt_a7pro": 4,
@@ -12067,15 +13949,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919756",
     "nombre": "ZUÑIGA PINEDA JENNIFER",
-    "cadena": "COPPEL PLAZA SAN FRANCISCO 887",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SAN FRANCISCO 887",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "CALIMAYA",
     "tgt_gral": 54,
     "tgt_reno16": 6,
     "tgt_a7pro": 1,
@@ -12093,15 +13979,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918743",
     "nombre": "ARIZMENDI CORDOVA DANA PAOLA",
-    "cadena": "COPPEL JUAREZ COATEPEC HAR 7634",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ COATEPEC HAR 7634",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "COATEPEC HARINAS",
     "tgt_gral": 54,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -12119,15 +14009,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 6,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919188",
     "nombre": "CASTRO DOMINGUEZ ALMA FERNANDA",
-    "cadena": "COPPEL 5 DE MAYO 159",
+    "cadena": "Coppel",
     "tienda": "COPPEL 5 DE MAYO 159",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 90,
     "tgt_reno16": 8,
     "tgt_a7pro": 11,
@@ -12145,15 +14039,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 13,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919270",
     "nombre": "ESTRADA ESTRADA MAURICIO EMANUEL",
-    "cadena": "COPPEL VICTORIA 1076",
+    "cadena": "Coppel",
     "tienda": "COPPEL VICTORIA 1076",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 65,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -12171,15 +14069,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 8,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R910913",
     "nombre": "GUEVARA RODRIGUEZ CARLOS ALEXIS",
-    "cadena": "COPPEL HIDALGO 454",
+    "cadena": "Coppel",
     "tienda": "COPPEL HIDALGO 454",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TENANGO DEL VALLE",
     "tgt_gral": 51,
     "tgt_reno16": 10,
     "tgt_a7pro": 5,
@@ -12197,15 +14099,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912159",
     "nombre": "LOPEZ VASQUEZ DIANA LIZETH",
-    "cadena": "COPPEL GUADALUPE VICTORIA 337",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUADALUPE VICTORIA 337",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 65,
     "tgt_reno16": 13,
     "tgt_a7pro": 5,
@@ -12223,15 +14129,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919418",
     "nombre": "MARTINEZ SOLIS ANGEL",
-    "cadena": "COPPEL HIDALGO 454",
+    "cadena": "Coppel",
     "tienda": "COPPEL HIDALGO 454",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TENANGO DEL VALLE",
     "tgt_gral": 49,
     "tgt_reno16": 10,
     "tgt_a7pro": 4,
@@ -12249,15 +14159,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910583",
     "nombre": "SALINAS JUAN MARIA GUADALUPE",
-    "cadena": "COPPEL GUERRERO 489",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUERRERO 489",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEJUPILCO",
     "tgt_gral": 46,
     "tgt_reno16": 6,
     "tgt_a7pro": 3,
@@ -12275,15 +14189,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917213",
     "nombre": "SANTANA JIMENEZ KATY",
-    "cadena": "COPPEL GUADALUPE VICTORIA 337",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUADALUPE VICTORIA 337",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 57,
     "tgt_reno16": 12,
     "tgt_a7pro": 5,
@@ -12301,15 +14219,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 6,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918634",
     "nombre": "SANTOS CAMILO ROLANDO",
-    "cadena": "COPPEL GUERRERO 489",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUERRERO 489",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEJUPILCO",
     "tgt_gral": 59,
     "tgt_reno16": 8,
     "tgt_a7pro": 3,
@@ -12327,15 +14249,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 6,
       "A_MIDDLE": 7,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR916079",
     "nombre": "CORREA MANUEL DANIEL",
-    "cadena": "COPPEL PANAMERICANA  7942",
+    "cadena": "Coppel",
     "tienda": "COPPEL PANAMERICANA  7942",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 107,
     "tgt_reno16": 21,
     "tgt_a7pro": 2,
@@ -12353,15 +14279,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 14,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918558",
     "nombre": "ELIZALDE DE LA CRUZ JOSE ANTONIO",
-    "cadena": "COPPEL NICOLAS BRAVO 1435",
+    "cadena": "Coppel",
     "tienda": "COPPEL NICOLAS BRAVO 1435",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ATLACOMULCO",
     "tgt_gral": 64,
     "tgt_reno16": 0,
     "tgt_a7pro": 16,
@@ -12379,15 +14309,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917640",
     "nombre": "MARIN PEREZ JOSE MARIA",
-    "cadena": "COPPEL MOLINA 484",
+    "cadena": "Coppel",
     "tienda": "COPPEL MOLINA 484",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 108,
     "tgt_reno16": 15,
     "tgt_a7pro": 5,
@@ -12405,15 +14339,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 9,
       "A_MIDDLE": 10,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR917611",
     "nombre": "POSADAS HERNANDEZ GERARDO ALEJANDRO",
-    "cadena": "COPPEL GRUPO JOMA 478",
+    "cadena": "Coppel",
     "tienda": "COPPEL GRUPO JOMA 478",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ATLACOMULCO",
     "tgt_gral": 83,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -12431,15 +14369,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 6,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R914214",
     "nombre": "ROMERO MONROY EMMA GUADALUPE",
-    "cadena": "COPPEL MOLINA 484",
+    "cadena": "Coppel",
     "tienda": "COPPEL MOLINA 484",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 109,
     "tgt_reno16": 16,
     "tgt_a7pro": 5,
@@ -12457,15 +14399,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 9,
       "A_MIDDLE": 9,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R920965",
     "nombre": "SANCHEZ ABRAHAM SINTIA",
-    "cadena": "COPPEL GRUPO JOMA 478",
+    "cadena": "Coppel",
     "tienda": "COPPEL GRUPO JOMA 478",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ATLACOMULCO",
     "tgt_gral": 83,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -12483,15 +14429,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 6,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R916050",
     "nombre": "SOSA SANDOVAL ANA KAREN",
-    "cadena": "COPPEL FELIPE PROGRESO 6743",
+    "cadena": "Coppel",
     "tienda": "COPPEL FELIPE PROGRESO 6743",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "SAN FELIPE DEL PROGRESO",
     "tgt_gral": 119,
     "tgt_reno16": 18,
     "tgt_a7pro": 5,
@@ -12509,15 +14459,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 10,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR910977",
     "nombre": "GARCIA SANCHEZ BRYAN ALEJANDRO",
-    "cadena": "TOL TOLUCA PLAZA MET",
+    "cadena": "Telcel",
     "tienda": "TOL TOLUCA PLAZA MET",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 53,
     "tgt_reno16": 10,
     "tgt_a7pro": 4,
@@ -12535,15 +14489,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915137",
     "nombre": "LOPEZ VELAZQUEZ RENE",
-    "cadena": "TOL TOLUCA SENDERO",
+    "cadena": "Telcel",
     "tienda": "TOL TOLUCA SENDERO",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 47,
     "tgt_reno16": 9,
     "tgt_a7pro": 3,
@@ -12561,15 +14519,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919335",
     "nombre": "MORENO CASTILLO JESUS ANTONIO",
-    "cadena": "TOL TOLUCA CENTRO II | CAC PLAZA SANTIN",
+    "cadena": "Telcel",
     "tienda": "TOL TOLUCA CENTRO II | CAC PLAZA SANTIN",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 54,
     "tgt_reno16": 20,
     "tgt_a7pro": 1,
@@ -12587,15 +14549,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 4,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915074",
     "nombre": "REYES MORALES ELIZABETH",
-    "cadena": "CAC PLAZA MIA ZINACANTEPEC",
+    "cadena": "Telcel",
     "tienda": "CAC PLAZA MIA ZINACANTEPEC",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "METEPEC",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -12613,15 +14579,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919331",
     "nombre": "RIVERA MARTINEZ JAIR FERNANDO",
-    "cadena": "CAC GALERIAS TOLUCA",
+    "cadena": "Telcel",
     "tienda": "CAC GALERIAS TOLUCA",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 42,
     "tgt_reno16": 7,
     "tgt_a7pro": 6,
@@ -12639,15 +14609,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 1,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR916737",
     "nombre": "ROMERO OLIVAR ADRIANA KARINA",
-    "cadena": "TOL TOLUCA SENDERO",
+    "cadena": "Telcel",
     "tienda": "TOL TOLUCA SENDERO",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 59,
     "tgt_reno16": 12,
     "tgt_a7pro": 4,
@@ -12665,15 +14639,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910347",
     "nombre": "ROSAS GONZALEZ FRANCISCO",
-    "cadena": "TOL TOLUCA PLAZA MET",
+    "cadena": "Telcel",
     "tienda": "TOL TOLUCA PLAZA MET",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 56,
     "tgt_reno16": 11,
     "tgt_a7pro": 4,
@@ -12691,15 +14669,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918212",
     "nombre": "RUIZ VELASCO JOSE DANIEL",
-    "cadena": "CAC SANTIAGO TIANGUISTENGO",
+    "cadena": "Telcel",
     "tienda": "CAC SANTIAGO TIANGUISTENGO",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 30,
     "tgt_reno16": 7,
     "tgt_a7pro": 0,
@@ -12717,15 +14699,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 2,
       "A_LOW": 5
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918773",
     "nombre": "TORRES MARTINEZ ROBERTO CARLOS",
-    "cadena": "CAC ATLACOMULCO",
+    "cadena": "Telcel",
     "tienda": "CAC ATLACOMULCO",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ATLACOMULCO",
     "tgt_gral": 30,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -12743,15 +14729,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 1,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918954",
     "nombre": "VALDEZ ATANACIO ERIKA",
-    "cadena": "CAC GALERIAS TOLUCA",
+    "cadena": "Telcel",
     "tienda": "CAC GALERIAS TOLUCA",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -12769,15 +14759,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919723",
     "nombre": "LOPEZ ACOSTA EDUARDO",
-    "cadena": "COPPEL HIDALGO 824 | COPPEL RAYON 573",
+    "cadena": "Coppel",
     "tienda": "COPPEL HIDALGO 824 | COPPEL RAYON 573",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 64,
     "tgt_reno16": 7,
     "tgt_a7pro": 3,
@@ -12795,15 +14789,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 5,
       "A_LOW": 4
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918344",
     "nombre": "ARELLANO ROMERO SILVIA SOLEDAD",
-    "cadena": "COPPEL ENRIQUEZ 446",
+    "cadena": "Coppel",
     "tienda": "COPPEL ENRIQUEZ 446",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 55,
     "tgt_reno16": 11,
     "tgt_a7pro": 4,
@@ -12821,15 +14819,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR915339",
     "nombre": "ESCANDON CARMONA CESAR DE JESUS",
-    "cadena": "COPPEL NICOLAS BRAVO 911",
+    "cadena": "Coppel",
     "tienda": "COPPEL NICOLAS BRAVO 911",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 117,
     "tgt_reno16": 17,
     "tgt_a7pro": 12,
@@ -12847,15 +14849,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 6,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "R919349",
     "nombre": "FLORES FUENTES CARLOS EDUARDO",
-    "cadena": "COPPEL PLAZA SANTIN 872",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SANTIN 872",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 79,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -12873,15 +14879,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 6,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918306",
     "nombre": "HERNANDEZ VAZQUEZ MIGUEL ANGEL",
-    "cadena": "COPPEL TOLLOCAN 1410",
+    "cadena": "Coppel",
     "tienda": "COPPEL TOLLOCAN 1410",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 48,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -12899,15 +14909,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 2
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918581",
     "nombre": "LOPEZ ESTRADA ANGEL",
-    "cadena": "COPPEL PLAZA SANTIN 872",
+    "cadena": "Coppel",
     "tienda": "COPPEL PLAZA SANTIN 872",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 60,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -12925,15 +14939,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914740",
     "nombre": "MALVAEZ SANCHEZ DIANA",
-    "cadena": "COPPEL REOLIN 795",
+    "cadena": "Coppel",
     "tienda": "COPPEL REOLIN 795",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "LERMA",
     "tgt_gral": 43,
     "tgt_reno16": 7,
     "tgt_a7pro": 2,
@@ -12951,15 +14969,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 7,
       "A_LOW": 2
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919017",
     "nombre": "PIOQUINTO RAMOS JARELY CONCEPCION",
-    "cadena": "COPPEL EL PATIO 7616",
+    "cadena": "Coppel",
     "tienda": "COPPEL EL PATIO 7616",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 31,
     "tgt_reno16": 5,
     "tgt_a7pro": 7,
@@ -12977,15 +14999,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920044",
     "nombre": "RIVERA ESTRADA LUIS MANUEL",
-    "cadena": "COPPEL MORELOS 794",
+    "cadena": "Coppel",
     "tienda": "COPPEL MORELOS 794",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 48,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -13003,15 +15029,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919651",
     "nombre": "RODEA OLIVARES LUIS ENRIQUE",
-    "cadena": "COPPEL JUAREZ 7635",
+    "cadena": "Coppel",
     "tienda": "COPPEL JUAREZ 7635",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "SAN MATEO ATENCO",
     "tgt_gral": 54,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -13029,15 +15059,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 10,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919358",
     "nombre": "ROMERO MARTINEZ PERLA BRIGITTE",
-    "cadena": "COPPEL SENDERO 339",
+    "cadena": "Coppel",
     "tienda": "COPPEL SENDERO 339",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 63,
     "tgt_reno16": 13,
     "tgt_a7pro": 4,
@@ -13055,15 +15089,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 7,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR919112",
     "nombre": "TELLEZ MARCIAL GUADALUPE",
-    "cadena": "COPPEL PILARES 208",
+    "cadena": "Coppel",
     "tienda": "COPPEL PILARES 208",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 43,
     "tgt_reno16": 7,
     "tgt_a7pro": 0,
@@ -13081,15 +15119,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR912919",
     "nombre": "VALLE GOMEZ ANDREA",
-    "cadena": "COPPEL SENDERO 339",
+    "cadena": "Coppel",
     "tienda": "COPPEL SENDERO 339",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 68,
     "tgt_reno16": 14,
     "tgt_a7pro": 4,
@@ -13107,15 +15149,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 8,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918829",
     "nombre": "VARGAS MERINO DANIEL",
-    "cadena": "COPPEL GUADALUPE VICTORIA 725",
+    "cadena": "Coppel",
     "tienda": "COPPEL GUADALUPE VICTORIA 725",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 54,
     "tgt_reno16": 6,
     "tgt_a7pro": 8,
@@ -13133,15 +15179,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 5,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914411",
     "nombre": "ANZALDO CHAVEZ ALFONSO RAMSES",
-    "cadena": "EKT ZINACANTEPEC LOPEZ MATEOS 2075",
+    "cadena": "Elektra",
     "tienda": "EKT ZINACANTEPEC LOPEZ MATEOS 2075",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 2,
@@ -13159,15 +15209,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916078",
     "nombre": "BERNANRD ALTAMIRANO MANUEL DARIO",
-    "cadena": "EKT MEGA VALLE DE BRAVO 8277",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA VALLE DE BRAVO 8277",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "VALLE DE BRAVO",
     "tgt_gral": 109,
     "tgt_reno16": 14,
     "tgt_a7pro": 13,
@@ -13185,15 +15239,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 8,
       "A_MIDDLE": 2,
       "A_LOW": 7
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR918616",
     "nombre": "CASTAÑEDA GOMEZ LUIS FERNANDO",
-    "cadena": "EKT SAN PEDRO TOTOLTEPEC... 6562",
+    "cadena": "Elektra",
     "tienda": "EKT SAN PEDRO TOTOLTEPEC... 6562",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 56,
     "tgt_reno16": 8,
     "tgt_a7pro": 6,
@@ -13211,15 +15269,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 1,
       "A_LOW": 3
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R911845",
     "nombre": "LARA ORTEGA EDGAR ALBERTO",
-    "cadena": "EKT MEGA TOLUCA MERCADO JUAREZ 3175",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TOLUCA MERCADO JUAREZ 3175",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 128,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -13237,15 +15299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 3,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919887",
     "nombre": "ROSALES HERNANDEZ TIRE",
-    "cadena": "EKT MEGA ZINACANTEPEC 592",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA ZINACANTEPEC 592",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 56,
     "tgt_reno16": 29,
     "tgt_a7pro": 0,
@@ -13263,15 +15329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 11,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR920038",
     "nombre": "SANCHEZ MORALES DIEGO",
-    "cadena": "EKT TOLUCA PLAZA SANTINI 2081",
+    "cadena": "Elektra",
     "tienda": "EKT TOLUCA PLAZA SANTINI 2081",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 62,
     "tgt_reno16": 5,
     "tgt_a7pro": 8,
@@ -13289,15 +15359,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 2,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919797",
     "nombre": "SANCHEZ MORALES MARIBEL",
-    "cadena": "EKT MEGA TOLUCA 1203",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TOLUCA 1203",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 69,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -13315,15 +15389,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 1,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR910726",
     "nombre": "TREVILLA LOPEZ MARIA FERNANDA",
-    "cadena": "EKT MEGA SAN MATEO ATENCO 631",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA SAN MATEO ATENCO 631",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "SAN MATEO ATENCO",
     "tgt_gral": 64,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -13341,15 +15419,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 1,
       "A_LOW": 4
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912838",
     "nombre": "VALDES AYALA IAN",
-    "cadena": "MI EKT ALMOLOYA DE JUAREZ 5878",
+    "cadena": "Elektra",
     "tienda": "MI EKT ALMOLOYA DE JUAREZ 5878",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ALMOLOYA DE JUÁREZ",
     "tgt_gral": 65,
     "tgt_reno16": 9,
     "tgt_a7pro": 2,
@@ -13367,15 +15449,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 3,
       "A_LOW": 7
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR915553",
     "nombre": "ALEGRIA SANCHEZ ERNESTO FABIAN",
-    "cadena": "EKT MEGA TENANCINGO EDO DE MEX 5720",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TENANCINGO EDO DE MEX 5720",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 63,
     "tgt_reno16": 8,
     "tgt_a7pro": 5,
@@ -13393,15 +15479,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919320",
     "nombre": "COLINDRES SANCHEZ JOSE RAUL",
-    "cadena": "MEGA PLAZA MIA SANTIAGO T 9937",
+    "cadena": "Elektra",
     "tienda": "MEGA PLAZA MIA SANTIAGO T 9937",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 36,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -13419,15 +15509,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR912050",
     "nombre": "MARTINEZ FERNANDEZ LUIS ANTONIO",
-    "cadena": "EKT EDO MEX PLAZA LERMA 6113",
+    "cadena": "Elektra",
     "tienda": "EKT EDO MEX PLAZA LERMA 6113",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "LERMA",
     "tgt_gral": 51,
     "tgt_reno16": 9,
     "tgt_a7pro": 5,
@@ -13445,15 +15539,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 4
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R913065",
     "nombre": "MERCADO BECERRIL ALIN ALICIA",
-    "cadena": "EKT SANTIAGO TIANQUISTENGO 6570",
+    "cadena": "Elektra",
     "tienda": "EKT SANTIAGO TIANQUISTENGO 6570",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 41,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -13471,15 +15569,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 4,
       "A_MIDDLE": 3,
       "A_LOW": 6
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R921486",
     "nombre": "PEREA HERNANDEZ JUAN CARLOS",
-    "cadena": "EKT SAN PABLO AUTOPAN 4338",
+    "cadena": "Elektra",
     "tienda": "EKT SAN PABLO AUTOPAN 4338",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 93,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -13497,15 +15599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 10,
       "A_MIDDLE": 9,
       "A_LOW": 11
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919553",
     "nombre": "ROJAS CARRETO CESAR",
-    "cadena": "EKT MEGA TENANFO DEL VALLE 2817",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TENANFO DEL VALLE 2817",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TENANGO DEL VALLE",
     "tgt_gral": 66,
     "tgt_reno16": 8,
     "tgt_a7pro": 19,
@@ -13523,15 +15629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 4
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914824",
     "nombre": "VALENCIA ROBLES DAVID",
-    "cadena": "EKT SANTIAGO TIANQUISTENGO 6570",
+    "cadena": "Elektra",
     "tienda": "EKT SANTIAGO TIANQUISTENGO 6570",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TIANGUISTENCO",
     "tgt_gral": 41,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -13549,15 +15659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 1,
       "A_LOW": 3
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR916668",
     "nombre": "VARGAS ARIZMENDI IRMA DAISY",
-    "cadena": "EKT MEGA TEJUPILCO 479",
+    "cadena": "Elektra",
     "tienda": "EKT MEGA TEJUPILCO 479",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "TEJUPILCO",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -13575,15 +15689,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 2,
       "A_MIDDLE": 0,
       "A_LOW": 2
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR919834",
     "nombre": "VARGAS MERINO MIRIAM ALEJANDRA",
-    "cadena": "EKT OCOYOACAC EDO. MEX 2045",
+    "cadena": "Elektra",
     "tienda": "EKT OCOYOACAC EDO. MEX 2045",
     "region": "R9-E",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 2,
@@ -13601,12 +15719,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911297",
     "nombre": "ALVAREZ LEON MIGUEL ANGEL",
-    "cadena": "PH CENTRO | SB ECATEPEC LAS AMÉRICAS 566",
+    "cadena": "El Palacio de Hierro",
     "tienda": "PH CENTRO | SB ECATEPEC LAS AMÉRICAS 566",
     "region": "R9-F",
     "ciudad": "",
@@ -13627,15 +15749,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "El Palacio de Hierro",
+    "cadenas_slugs": [
+      "palacio-hierro",
+      "suburbia"
+    ]
   },
   {
     "id": "MR916781",
     "nombre": "AVILA SANCHEZ MIGUEL ANGEL",
-    "cadena": "L PARQUE DELTA 81",
+    "cadena": "Liverpool",
     "tienda": "L PARQUE DELTA 81",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 78,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -13653,15 +15780,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "R917949",
     "nombre": "BELTRAN RESENDIZ JOSE ALFREDO",
-    "cadena": "SEARS ECATEPEC 115",
+    "cadena": "Sears",
     "tienda": "SEARS ECATEPEC 115",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 83,
     "tgt_reno16": 27,
     "tgt_a7pro": 0,
@@ -13679,12 +15810,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR920066",
     "nombre": "BRAVO MEZA ASTRID CYRENE",
-    "cadena": "SB AZCAPOTZALCO 499 | SB EL ROSARIO 630",
+    "cadena": "Suburbia",
     "tienda": "SB AZCAPOTZALCO 499 | SB EL ROSARIO 630",
     "region": "R9-F",
     "ciudad": "",
@@ -13705,15 +15840,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R922331",
     "nombre": "CONTRERAS URBINA ANDRES",
-    "cadena": "SB ARAGON 525 | SB ECATEPEC LAS AMÉRICAS 566 | SB PABELLON ECATEPEC 644 | SB TECAMAC POWER CENTER 587 | SB ZUMPANGO 934 | SEARS BUENAVISTA 122 | SEARS COACALCO COSMOPOL 125 | SEARS ECATEPEC 115",
+    "cadena": "Suburbia",
     "tienda": "SB ARAGON 525 | SB ECATEPEC LAS AMÉRICAS 566 | SB PABELLON ECATEPEC 644 | SB TECAMAC POWER CENTER 587 | SB ZUMPANGO 934 | SEARS BUENAVISTA 122 | SEARS COACALCO COSMOPOL 125 | SEARS ECATEPEC 115",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 83,
     "tgt_reno16": 9,
     "tgt_a7pro": 6,
@@ -13731,15 +15870,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia",
+      "sears"
+    ]
   },
   {
     "id": "MR916611",
     "nombre": "CORTES VAZQUEZ JUAN CARLOS",
-    "cadena": "L ECATEPEC 80",
+    "cadena": "Liverpool",
     "tienda": "L ECATEPEC 80",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 147,
     "tgt_reno16": 30,
     "tgt_a7pro": 0,
@@ -13757,15 +15901,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "R923057",
     "nombre": "CRUZ NAVARRETE ALONDRA",
-    "cadena": "SB TECAMAC POWER CENTER 587 | SB ZUMPANGO 934",
+    "cadena": "Suburbia",
     "tienda": "SB TECAMAC POWER CENTER 587 | SB ZUMPANGO 934",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 77,
     "tgt_reno16": 10,
     "tgt_a7pro": 7,
@@ -13783,15 +15931,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR916763",
     "nombre": "GARCIA ESCAMILLA NANCY",
-    "cadena": "SB ARAGON 525",
+    "cadena": "Suburbia",
     "tienda": "SB ARAGON 525",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 91,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -13809,12 +15961,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "9492",
     "nombre": "MARTINEZ ASCENCIO JORGE ALFREDO",
-    "cadena": "L TECAMAC 195 | SB ZUMPANGO 934 | SEARS ECATEPEC 115",
+    "cadena": "Liverpool",
     "tienda": "L TECAMAC 195 | SB ZUMPANGO 934 | SEARS ECATEPEC 115",
     "region": "R9-F",
     "ciudad": "",
@@ -13835,15 +15991,21 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool",
+      "suburbia",
+      "sears"
+    ]
   },
   {
     "id": "MR918732",
     "nombre": "RAMOS ESPINOSA NAOMI",
-    "cadena": "L COACALCO 180 | SEARS COACALCO COSMOPOL 125",
+    "cadena": "Liverpool",
     "tienda": "L COACALCO 180 | SEARS COACALCO COSMOPOL 125",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 66,
     "tgt_reno16": 9,
     "tgt_a7pro": 8,
@@ -13861,15 +16023,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR917783",
     "nombre": "ROMERO REYES FERNANDO",
-    "cadena": "SEARS BUENAVISTA 122",
+    "cadena": "Liverpool",
     "tienda": "SEARS BUENAVISTA 122",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 92,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -13887,15 +16054,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR915507",
     "nombre": "SANTIAGO GONZALEZ CRISTOFER",
-    "cadena": "SB MACRO PLAZA HÉROES 622 | SB PABELLON ECATEPEC 644",
+    "cadena": "Suburbia",
     "tienda": "SB MACRO PLAZA HÉROES 622 | SB PABELLON ECATEPEC 644",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 82,
     "tgt_reno16": 19,
     "tgt_a7pro": 1,
@@ -13913,15 +16085,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R918776",
     "nombre": "VALLEJO SANCHEZ JESUS ENRIQUE",
-    "cadena": "SB COACALCO 561 | SB COACALCO POWER CENTER 589",
+    "cadena": "Suburbia",
     "tienda": "SB COACALCO 561 | SB COACALCO POWER CENTER 589",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 88,
     "tgt_reno16": 19,
     "tgt_a7pro": 1,
@@ -13939,15 +16115,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919040",
     "nombre": "DIAZ MORALES KARLA ARLETH",
-    "cadena": "L TOREO 199",
+    "cadena": "Liverpool",
     "tienda": "L TOREO 199",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 38,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -13965,15 +16145,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR916592",
     "nombre": "ESPINOZA ISLAS ALAN YAEL",
-    "cadena": "SB NICOLAS ROMERO 941",
+    "cadena": "Suburbia",
     "tienda": "SB NICOLAS ROMERO 941",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NICOLÁS ROMERO",
     "tgt_gral": 61,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -13991,15 +16175,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R921603",
     "nombre": "FUENTES CHAVEZ MONICA",
-    "cadena": "PH SATELITE | SANBORNS SATELITE 1013",
+    "cadena": "Sears",
     "tienda": "PH SATELITE | SANBORNS SATELITE 1013",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 37,
     "tgt_reno16": 0,
     "tgt_a7pro": 2,
@@ -14017,12 +16205,18 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears",
+      "palacio-hierro",
+      "sanborns"
+    ]
   },
   {
     "id": "MR919819",
     "nombre": "HERNANDEZ TELLEZ ALEJANDRO JHESUA",
-    "cadena": "SEARS TLALNEPANTLA 126",
+    "cadena": "Sears",
     "tienda": "SEARS TLALNEPANTLA 126",
     "region": "R9-F",
     "ciudad": "",
@@ -14043,15 +16237,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR916183",
     "nombre": "MADRIGAL REYES LETICIA",
-    "cadena": "L POLANCO 3 | SEARS POLANCO 102",
+    "cadena": "Suburbia",
     "tienda": "L POLANCO 3 | SEARS POLANCO 102",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 65,
     "tgt_reno16": 1,
     "tgt_a7pro": 3,
@@ -14069,12 +16267,18 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia",
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR919715",
     "nombre": "MARTINEZ GARCIA OMAR",
-    "cadena": "SB TOREO 495",
+    "cadena": "Suburbia",
     "tienda": "SB TOREO 495",
     "region": "R9-F",
     "ciudad": "",
@@ -14095,15 +16299,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR916202",
     "nombre": "RUIZ CASTELAN JORGE EDUARDO",
-    "cadena": "L SATELITE 4",
+    "cadena": "Liverpool",
     "tienda": "L SATELITE 4",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 62,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -14121,15 +16329,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR916491",
     "nombre": "SANCHEZ CAMACHO ABRAHAM",
-    "cadena": "SEARS SATELITE 104",
+    "cadena": "Sears",
     "tienda": "SEARS SATELITE 104",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 64,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -14147,15 +16359,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR919521",
     "nombre": "SORIANO LOPEZ ULISES",
-    "cadena": "L ATIZAPAN 104 | SEARS GALERIAS ATIZAPAN 246",
+    "cadena": "Liverpool",
     "tienda": "L ATIZAPAN 104 | SEARS GALERIAS ATIZAPAN 246",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 85,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -14173,15 +16389,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR916663",
     "nombre": "TLATUANI ROMERO IVAN",
-    "cadena": "SEARS CUAUTITLAN 121",
+    "cadena": "Sears",
     "tienda": "SEARS CUAUTITLAN 121",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 69,
     "tgt_reno16": 17,
     "tgt_a7pro": 2,
@@ -14199,15 +16420,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR918990",
     "nombre": "ZUÑIGA HERNANDEZ FERNANDA SHARENY",
-    "cadena": "L PERINORTE 29",
+    "cadena": "Liverpool",
     "tienda": "L PERINORTE 29",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 81,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -14225,15 +16450,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR911136",
     "nombre": "ARELLANO MATURANO SOPHIA",
-    "cadena": "SB CIUDAD JARDIN 597",
+    "cadena": "Suburbia",
     "tienda": "SB CIUDAD JARDIN 597",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 111,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -14251,15 +16480,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR914438",
     "nombre": "BOLAÑOS GOMEZ FERNADO URIEL",
-    "cadena": "SEARS CHIMALHUACAN 256",
+    "cadena": "Sears",
     "tienda": "SEARS CHIMALHUACAN 256",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "CHIMALHUACÁN",
     "tgt_gral": 68,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -14277,15 +16510,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR913349",
     "nombre": "CALDERON REYES MITZY QUETZALY",
-    "cadena": "L COYOACAN MITIKAH 176",
+    "cadena": "Liverpool",
     "tienda": "L COYOACAN MITIKAH 176",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 30,
     "tgt_reno16": 3,
     "tgt_a7pro": 0,
@@ -14303,15 +16540,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR915786",
     "nombre": "CARRILLO MARTINEZ ADRIAN",
-    "cadena": "L CD JARDIN 170",
+    "cadena": "Liverpool",
     "tienda": "L CD JARDIN 170",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 88,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -14329,15 +16570,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR917662",
     "nombre": "CASTILLO GASPAR NELLY CECILLIA",
-    "cadena": "SB CENTRO TEPOZAN 992",
+    "cadena": "Suburbia",
     "tienda": "SB CENTRO TEPOZAN 992",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 57,
     "tgt_reno16": 6,
     "tgt_a7pro": 0,
@@ -14355,15 +16600,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919629",
     "nombre": "COLIN MARTINEZ EDUARDO ALBERTO",
-    "cadena": "L SANTA FE 7",
+    "cadena": "Liverpool",
     "tienda": "L SANTA FE 7",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 32,
     "tgt_reno16": 6,
     "tgt_a7pro": 0,
@@ -14381,15 +16630,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR916684",
     "nombre": "DEL OLMO ESQUIVEL RUBEN ALEJANDRO",
-    "cadena": "SEARS SANTA FE 110",
+    "cadena": "Sears",
     "tienda": "SEARS SANTA FE 110",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 67,
     "tgt_reno16": 6,
     "tgt_a7pro": 2,
@@ -14407,15 +16660,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR914118",
     "nombre": "DELGADO ESCALANTE EIMY VIANEY",
-    "cadena": "SB IXTAPALUCA CORTIJO 565",
+    "cadena": "Suburbia",
     "tienda": "SB IXTAPALUCA CORTIJO 565",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 121,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -14433,12 +16690,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919825",
     "nombre": "DOMINGUEZ MARTINEZ OSWALD KEVIN",
-    "cadena": "SANBORNS CIUDAD JARDIN NEZA 1199 | SEARS CHIMALHUACAN 256",
+    "cadena": "Sanborns",
     "tienda": "SANBORNS CIUDAD JARDIN NEZA 1199 | SEARS CHIMALHUACAN 256",
     "region": "R9-F",
     "ciudad": "",
@@ -14459,15 +16720,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sanborns",
+    "cadenas_slugs": [
+      "sanborns",
+      "sears"
+    ]
   },
   {
     "id": "MR918724",
     "nombre": "HOLANDA VAZQUEZ KARLA EDITH",
-    "cadena": "SEARS UNIVERSIDAD 103",
+    "cadena": "Sears",
     "tienda": "SEARS UNIVERSIDAD 103",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 61,
     "tgt_reno16": 7,
     "tgt_a7pro": 2,
@@ -14485,15 +16751,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR916197",
     "nombre": "LOPEZ FRAUSTO MARTHA KELLY JOQUEBED",
-    "cadena": "SB PATIO CHALCO 940",
+    "cadena": "Suburbia",
     "tienda": "SB PATIO CHALCO 940",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 81,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -14511,12 +16781,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R911270",
     "nombre": "MENDEZ NERI AXEL EDUARDO",
-    "cadena": "SEARS TEZONTLE 118",
+    "cadena": "Sears",
     "tienda": "SEARS TEZONTLE 118",
     "region": "R9-F",
     "ciudad": "",
@@ -14537,15 +16811,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "R921409",
     "nombre": "RICO RUIZ MARIN",
-    "cadena": "SB TEXCOCO GRAN PATIO 623",
+    "cadena": "Suburbia",
     "tienda": "SB TEXCOCO GRAN PATIO 623",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 94,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -14563,15 +16841,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R921348",
     "nombre": "RIOS MIRANDA ANETTE DENISSE",
-    "cadena": "SB PLAZA UNIVERSIDAD 497",
+    "cadena": "Sears",
     "tienda": "SB PLAZA UNIVERSIDAD 497",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 73,
     "tgt_reno16": 13,
     "tgt_a7pro": 0,
@@ -14589,15 +16871,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears",
+      "suburbia"
+    ]
   },
   {
     "id": "R919656",
     "nombre": "SANTIAGO ALEJO ROSA ISELA",
-    "cadena": "SEARS NEZAHUALCOYOTL 119",
+    "cadena": "Sears",
     "tienda": "SEARS NEZAHUALCOYOTL 119",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 155,
     "tgt_reno16": 24,
     "tgt_a7pro": 4,
@@ -14615,15 +16902,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR919011",
     "nombre": "SANTILLAN LOPEZ LEONARDO GEOVANNI",
-    "cadena": "SB PUERTA TEXCOCO 591",
+    "cadena": "Suburbia",
     "tienda": "SB PUERTA TEXCOCO 591",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 75,
     "tgt_reno16": 8,
     "tgt_a7pro": 5,
@@ -14641,15 +16932,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919657",
     "nombre": "TORRES VILLEGAS BRAYAN DARIO",
-    "cadena": "PH DURANGO | PH POLANCO",
+    "cadena": "Suburbia",
     "tienda": "PH DURANGO | PH POLANCO",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 42,
     "tgt_reno16": 15,
     "tgt_a7pro": 2,
@@ -14667,15 +16962,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia",
+      "palacio-hierro"
+    ]
   },
   {
     "id": "MR916158",
     "nombre": "AGUIAR PAREDES JESICA GUADALUPE",
-    "cadena": "SB EJE CENTRAL 548 | SB ZOCALO 523",
+    "cadena": "Suburbia",
     "tienda": "SB EJE CENTRAL 548 | SB ZOCALO 523",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 60,
     "tgt_reno16": 8,
     "tgt_a7pro": 2,
@@ -14693,15 +16993,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR915524",
     "nombre": "CRUZ MACARIO GERARDO",
-    "cadena": "L LINDAVISTA 83",
+    "cadena": "Liverpool",
     "tienda": "L LINDAVISTA 83",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 69,
     "tgt_reno16": 10,
     "tgt_a7pro": 0,
@@ -14719,15 +17023,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR915523",
     "nombre": "EUGENIO MARTINEZ CESAR ABEL",
-    "cadena": "SB FORUM 937 | SB TEPEYAC 524",
+    "cadena": "Suburbia",
     "tienda": "SB FORUM 937 | SB TEPEYAC 524",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 82,
     "tgt_reno16": 10,
     "tgt_a7pro": 2,
@@ -14745,15 +17053,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR910582",
     "nombre": "FLORES ORTIZ CITLALLI",
-    "cadena": "SB AEROPUERTO 528",
+    "cadena": "Suburbia",
     "tienda": "SB AEROPUERTO 528",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 63,
     "tgt_reno16": 8,
     "tgt_a7pro": 1,
@@ -14771,15 +17083,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919058",
     "nombre": "HERNANDEZ MARTINEZ ARISTEO",
-    "cadena": "SEARS CENTRO HISTORICO 112 | SEARS LINDAVISTA 106 | SEARS PARQUE TEPEYAC 264",
+    "cadena": "Suburbia",
     "tienda": "SEARS CENTRO HISTORICO 112 | SEARS LINDAVISTA 106 | SEARS PARQUE TEPEYAC 264",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 60,
     "tgt_reno16": 16,
     "tgt_a7pro": 2,
@@ -14797,15 +17113,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia",
+      "sears"
+    ]
   },
   {
     "id": "R919601",
     "nombre": "HERNANDEZ MARTINEZ FRANCISCO JAVIER",
-    "cadena": "SEARS PARQUE TEPEYAC 264",
+    "cadena": "Sears",
     "tienda": "SEARS PARQUE TEPEYAC 264",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 100,
     "tgt_reno16": 20,
     "tgt_a7pro": 3,
@@ -14823,15 +17144,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR919208",
     "nombre": "LINARES ALVARENGA CRISTHIAN ISRAEL",
-    "cadena": "SB TACUBAYA 547",
+    "cadena": "Suburbia",
     "tienda": "SB TACUBAYA 547",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 72,
     "tgt_reno16": 13,
     "tgt_a7pro": 1,
@@ -14849,12 +17174,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR911049",
     "nombre": "MARTINEZ CRUZ VALERIA ITHZE",
-    "cadena": "L TEPEYAC 766",
+    "cadena": "Liverpool",
     "tienda": "L TEPEYAC 766",
     "region": "R9-F",
     "ciudad": "",
@@ -14875,15 +17204,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR915151",
     "nombre": "MIRANDA MALDONADO LUIS ANGEL",
-    "cadena": "L LINDAVISTA 83 | SB TEPEYAC 524 | SB TORRES LINDAVISTA 530 | SB BUENAVISTA 493 | SB FORUM 937",
+    "cadena": "Sears",
     "tienda": "L LINDAVISTA 83 | SB TEPEYAC 524 | SB TORRES LINDAVISTA 530 | SB BUENAVISTA 493 | SB FORUM 937",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 55,
     "tgt_reno16": 13,
     "tgt_a7pro": 2,
@@ -14901,15 +17234,21 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears",
+      "liverpool",
+      "suburbia"
+    ]
   },
   {
     "id": "R911468",
     "nombre": "ROMERO JIMENEZ ORLANDO",
-    "cadena": "SEARS CENTRO HISTORICO 112",
+    "cadena": "Sears",
     "tienda": "SEARS CENTRO HISTORICO 112",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 57,
     "tgt_reno16": 7,
     "tgt_a7pro": 2,
@@ -14927,15 +17266,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR912667",
     "nombre": "RUANO VAZQUEZ GUSTAVO ADOLFO",
-    "cadena": "L CENTRO 1",
+    "cadena": "Liverpool",
     "tienda": "L CENTRO 1",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 40,
     "tgt_reno16": 7,
     "tgt_a7pro": 0,
@@ -14953,15 +17296,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR919286",
     "nombre": "TORRES LOPEZ EDWYN RICARDO",
-    "cadena": "SB BUENAVISTA 493",
+    "cadena": "Suburbia",
     "tienda": "SB BUENAVISTA 493",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 59,
     "tgt_reno16": 10,
     "tgt_a7pro": 1,
@@ -14979,15 +17326,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R917494",
     "nombre": "VALDOVINO MARTINEZ MARIO ALBERTO",
-    "cadena": "SB TORRES LINDAVISTA 530 | SB LINDAVISTA 526",
+    "cadena": "Suburbia",
     "tienda": "SB TORRES LINDAVISTA 530 | SB LINDAVISTA 526",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 79,
     "tgt_reno16": 12,
     "tgt_a7pro": 2,
@@ -15005,15 +17356,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR916758",
     "nombre": "ZARCO PEREZ BEATRIZ HAIDE",
-    "cadena": "SEARS LINDAVISTA 106",
+    "cadena": "Liverpool",
     "tienda": "SEARS LINDAVISTA 106",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 70,
     "tgt_reno16": 10,
     "tgt_a7pro": 3,
@@ -15031,15 +17386,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR917543",
     "nombre": "ALBARRAN CRUZ LESLIE JANETTE",
-    "cadena": "SEARS PERISUR 105",
+    "cadena": "Sears",
     "tienda": "SEARS PERISUR 105",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 129,
     "tgt_reno16": 35,
     "tgt_a7pro": 3,
@@ -15057,15 +17417,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR913255",
     "nombre": "CHAVIRA GOMEZ DANNA GABRIELA",
-    "cadena": "SB MIRAMONTES 496",
+    "cadena": "Suburbia",
     "tienda": "SB MIRAMONTES 496",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 100,
     "tgt_reno16": 19,
     "tgt_a7pro": 0,
@@ -15083,15 +17447,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR913681",
     "nombre": "CORTEZ MENDOZA EDUARDO ALEXIS",
-    "cadena": "SB ANTENAS 916",
+    "cadena": "Suburbia",
     "tienda": "SB ANTENAS 916",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 80,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -15109,15 +17477,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "R920693",
     "nombre": "DELGADO RODRIGUEZ JESSICA GABRIELA",
-    "cadena": "SB PLAZA ORIENTE 531",
+    "cadena": "Suburbia",
     "tienda": "SB PLAZA ORIENTE 531",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 110,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -15135,15 +17507,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR910721",
     "nombre": "GARCIA JUAREZ PEDRO MIGUEL",
-    "cadena": "L COAPA 6 | SB ERMITA IZTAPALAPA 541 | SB PLAZA ORIENTE 531 | SB TLAHUAC 563 | SEARS ANTENAS TLAHUAC 258 | SEARS PERISUR 105",
+    "cadena": "Suburbia",
     "tienda": "L COAPA 6 | SB ERMITA IZTAPALAPA 541 | SB PLAZA ORIENTE 531 | SB TLAHUAC 563 | SEARS ANTENAS TLAHUAC 258 | SEARS PERISUR 105",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 82,
     "tgt_reno16": 24,
     "tgt_a7pro": 1,
@@ -15161,15 +17537,21 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia",
+      "liverpool",
+      "sears"
+    ]
   },
   {
     "id": "MR918428",
     "nombre": "GARFIAS CASTRO DIANA GUADALUPE",
-    "cadena": "SEARS ANTENAS TLAHUAC 258",
+    "cadena": "Sears",
     "tienda": "SEARS ANTENAS TLAHUAC 258",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 92,
     "tgt_reno16": 19,
     "tgt_a7pro": 2,
@@ -15187,15 +17569,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR916658",
     "nombre": "GONZALEZ BARRERA GERMAN",
-    "cadena": "L PARQUE LAS ANTENAS 456",
+    "cadena": "Liverpool",
     "tienda": "L PARQUE LAS ANTENAS 456",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 66,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -15213,15 +17599,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "R922200",
     "nombre": "MARTINEZ DAMIAN JHOANA",
-    "cadena": "SB GRAN SUR 570",
+    "cadena": "Suburbia",
     "tienda": "SB GRAN SUR 570",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 73,
     "tgt_reno16": 5,
     "tgt_a7pro": 0,
@@ -15239,15 +17629,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR916647",
     "nombre": "NEGRETE POBLANO YESHUA YAVHE",
-    "cadena": "L COAPA 6",
+    "cadena": "Liverpool",
     "tienda": "L COAPA 6",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COAPA",
     "tgt_gral": 64,
     "tgt_reno16": 12,
     "tgt_a7pro": 0,
@@ -15265,15 +17659,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR918654",
     "nombre": "NICOLAS ROSAS DIANA",
-    "cadena": "SB TLAHUAC 563",
+    "cadena": "Sears",
     "tienda": "SB TLAHUAC 563",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 70,
     "tgt_reno16": 11,
     "tgt_a7pro": 0,
@@ -15291,15 +17689,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears",
+      "suburbia"
+    ]
   },
   {
     "id": "MR918820",
     "nombre": "PANCIANO LOPEZ DANIEL",
-    "cadena": "SB ERMITA IZTAPALAPA 541",
+    "cadena": "Suburbia",
     "tienda": "SB ERMITA IZTAPALAPA 541",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 110,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -15317,15 +17720,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR911954",
     "nombre": "RIVERA LOPEZ FERNANDO MANUEL",
-    "cadena": "PH PERISUR",
+    "cadena": "Telcel",
     "tienda": "PH PERISUR",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 42,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -15343,15 +17750,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac",
+      "palacio-hierro"
+    ]
   },
   {
     "id": "MR913424",
     "nombre": "RODRIGUEZ MARTINEZ RAUL",
-    "cadena": "L PERISUR 5",
+    "cadena": "Liverpool",
     "tienda": "L PERISUR 5",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 73,
     "tgt_reno16": 18,
     "tgt_a7pro": 0,
@@ -15369,15 +17781,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR917396",
     "nombre": "ROSAS GUTIERREZ JESUS ANTONIO",
-    "cadena": "SEARS COAPA 107",
+    "cadena": "Sears",
     "tienda": "SEARS COAPA 107",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "COAPA",
     "tgt_gral": 87,
     "tgt_reno16": 27,
     "tgt_a7pro": 1,
@@ -15395,15 +17811,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Sears",
+    "cadenas_slugs": [
+      "sears"
+    ]
   },
   {
     "id": "MR919564",
     "nombre": "ROSAS MENDEZ NANCY",
-    "cadena": "L INSURGENTES 2",
+    "cadena": "Liverpool",
     "tienda": "L INSURGENTES 2",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 41,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -15421,12 +17841,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Liverpool",
+    "cadenas_slugs": [
+      "liverpool"
+    ]
   },
   {
     "id": "MR918162",
     "nombre": "VIDAL MARTINEZ EVELYN",
-    "cadena": "SB CUAJIMALPA 551",
+    "cadena": "Suburbia",
     "tienda": "SB CUAJIMALPA 551",
     "region": "R9-F",
     "ciudad": "",
@@ -15447,15 +17871,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR919394",
     "nombre": "YAÑEZ VEGA ANGEL",
-    "cadena": "SB SAN JERONIMO 522",
+    "cadena": "Suburbia",
     "tienda": "SB SAN JERONIMO 522",
     "region": "R9-F",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 82,
     "tgt_reno16": 17,
     "tgt_a7pro": 0,
@@ -15473,15 +17901,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Suburbia",
+    "cadenas_slugs": [
+      "suburbia"
+    ]
   },
   {
     "id": "MR916829",
     "nombre": "ALCANTAR RAMIREZ ANGEL",
-    "cadena": "GALERIAS COAPA",
+    "cadena": "Telcel",
     "tienda": "GALERIAS COAPA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 88,
     "tgt_reno16": 39,
     "tgt_a7pro": 0,
@@ -15499,15 +17931,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919037",
     "nombre": "ALTAMIRANO GONZALEZ MAURICIO",
-    "cadena": "GALERIAS COAPA",
+    "cadena": "Telcel",
     "tienda": "GALERIAS COAPA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 91,
     "tgt_reno16": 33,
     "tgt_a7pro": 0,
@@ -15525,15 +17961,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917066",
     "nombre": "CAVITA PEREZ DANIELA BERENICE",
-    "cadena": "AMORES | CAC PASEO ACOXPA",
+    "cadena": "Telcel",
     "tienda": "AMORES | CAC PASEO ACOXPA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 43,
     "tgt_reno16": 7,
     "tgt_a7pro": 4,
@@ -15551,15 +17991,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915508",
     "nombre": "DE JESUS GUZMAN GABRIELA",
-    "cadena": "LORETO",
+    "cadena": "Telcel",
     "tienda": "LORETO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 97,
     "tgt_reno16": 26,
     "tgt_a7pro": 0,
@@ -15577,15 +18021,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919113",
     "nombre": "GARCIA MARTINEZ CRISTIAN",
-    "cadena": "CAC PABELLON CUEMANC",
+    "cadena": "Telcel",
     "tienda": "CAC PABELLON CUEMANC",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 61,
     "tgt_reno16": 15,
     "tgt_a7pro": 0,
@@ -15603,15 +18051,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914981",
     "nombre": "GARCIA NIEVA JESUS JONATHAN",
-    "cadena": "CAC PASEO ACOXPA | CAC PARQUE ANTENAS | PARQUE DELTA",
+    "cadena": "Telcel",
     "tienda": "CAC PASEO ACOXPA | CAC PARQUE ANTENAS | PARQUE DELTA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 87,
     "tgt_reno16": 23,
     "tgt_a7pro": 10,
@@ -15629,15 +18081,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "8085",
     "nombre": "GUADARRAMA GUTIERREZ UBALDO",
-    "cadena": "PARQUE DELTA",
+    "cadena": "Telcel",
     "tienda": "PARQUE DELTA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 85,
     "tgt_reno16": 21,
     "tgt_a7pro": 5,
@@ -15655,15 +18111,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910179",
     "nombre": "LOPEZ BELTRAN LIZBETH ISABEL",
-    "cadena": "CAC PARQUE ANTENAS",
+    "cadena": "Telcel",
     "tienda": "CAC PARQUE ANTENAS",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 87,
     "tgt_reno16": 18,
     "tgt_a7pro": 6,
@@ -15681,15 +18141,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919074",
     "nombre": "NOGUEZ AVILA MIGUEL ANGEL EDUARDO",
-    "cadena": "CUICUILCO",
+    "cadena": "Telcel",
     "tienda": "CUICUILCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 72,
     "tgt_reno16": 16,
     "tgt_a7pro": 10,
@@ -15707,15 +18171,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R920150",
     "nombre": "OJEDA CASTILLO FERNANDO",
-    "cadena": "CAC OASIS COYOACAN",
+    "cadena": "Telcel",
     "tienda": "CAC OASIS COYOACAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -15733,15 +18201,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910330",
     "nombre": "PEREZ CRUZ ADAN",
-    "cadena": "LORETO | GALERIAS COAPA | CUICUILCO | CAC PABELLON CUEMANC",
+    "cadena": "Telcel",
     "tienda": "LORETO | GALERIAS COAPA | CUICUILCO | CAC PABELLON CUEMANC",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 68,
     "tgt_reno16": 29,
     "tgt_a7pro": 1,
@@ -15759,15 +18231,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910931",
     "nombre": "RENTERIA HERNANDEZ FRANCISCO IVAN",
-    "cadena": "PARQUE DELTA",
+    "cadena": "Telcel",
     "tienda": "PARQUE DELTA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 90,
     "tgt_reno16": 18,
     "tgt_a7pro": 5,
@@ -15785,15 +18261,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915829",
     "nombre": "RODRIGUEZ KLIMENTIDIS ARTURO",
-    "cadena": "CAC PARQUE ANTENAS",
+    "cadena": "Telcel",
     "tienda": "CAC PARQUE ANTENAS",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLÁHUAC",
     "tgt_gral": 89,
     "tgt_reno16": 29,
     "tgt_a7pro": 6,
@@ -15811,15 +18291,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R922635",
     "nombre": "ZULUAGA PEÑA DANIEL",
-    "cadena": "CAC PASEO ACOXPA",
+    "cadena": "Telcel",
     "tienda": "CAC PASEO ACOXPA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALPAN",
     "tgt_gral": 67,
     "tgt_reno16": 6,
     "tgt_a7pro": 16,
@@ -15837,12 +18321,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919989",
     "nombre": "MORENO NICOLAS FRANCISCO JAVIER",
-    "cadena": "CAC MULTIPLAZA ARAGON C019",
+    "cadena": "Telcel",
     "tienda": "CAC MULTIPLAZA ARAGON C019",
     "region": "R9-G",
     "ciudad": "",
@@ -15863,12 +18351,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919832",
     "nombre": "ANGELES MAYA MISAEL",
-    "cadena": "TEX TEXCOCO",
+    "cadena": "Telcel",
     "tienda": "TEX TEXCOCO",
     "region": "R9-G",
     "ciudad": "",
@@ -15889,15 +18381,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910369",
     "nombre": "BUENDIA GONZALEZ HECTOR IVAN",
-    "cadena": "ECA PLAZA LAS AMERIC",
+    "cadena": "Telcel",
     "tienda": "ECA PLAZA LAS AMERIC",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 79,
     "tgt_reno16": 19,
     "tgt_a7pro": 11,
@@ -15915,15 +18411,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910366",
     "nombre": "CISNEROS RANGEL DANIA FERNANDA",
-    "cadena": "CAC OCEANIA | ECA ETRAM AZTECA | ECA ARAGON | ECA PLAZA LAS AMERIC | CAC MULTIPLAZA ARAGON C019",
+    "cadena": "Telcel",
     "tienda": "CAC OCEANIA | ECA ETRAM AZTECA | ECA ARAGON | ECA PLAZA LAS AMERIC | CAC MULTIPLAZA ARAGON C019",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 34,
     "tgt_reno16": 20,
     "tgt_a7pro": 3,
@@ -15941,15 +18441,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR911370",
     "nombre": "ESPINOSA MARTINEZ TANIA",
-    "cadena": "CAC MULTIPLAZA ARAGON C019",
+    "cadena": "Telcel",
     "tienda": "CAC MULTIPLAZA ARAGON C019",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 94,
     "tgt_reno16": 34,
     "tgt_a7pro": 19,
@@ -15967,15 +18471,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR912093",
     "nombre": "GARCIA VERA CARLOS ALBERTO",
-    "cadena": "ECA ETRAM AZTECA",
+    "cadena": "Telcel",
     "tienda": "ECA ETRAM AZTECA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 79,
     "tgt_reno16": 6,
     "tgt_a7pro": 16,
@@ -15993,15 +18501,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R920530",
     "nombre": "GAYTAN CABRERA ABISAI",
-    "cadena": "ECA PLAZA LAS AMERIC",
+    "cadena": "Telcel",
     "tienda": "ECA PLAZA LAS AMERIC",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 79,
     "tgt_reno16": 29,
     "tgt_a7pro": 11,
@@ -16019,15 +18531,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "8077",
     "nombre": "HERNANDEZ ENRIQUEZ MIGUEL ANGEL",
-    "cadena": "VIP AEROPUERTO",
+    "cadena": "Telcel",
     "tienda": "VIP AEROPUERTO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 35,
     "tgt_reno16": 9,
     "tgt_a7pro": 6,
@@ -16045,15 +18561,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R910947",
     "nombre": "MADRIGAL ADAME URIEL EDUARDO",
-    "cadena": "TEX TEXCOCO",
+    "cadena": "Telcel",
     "tienda": "TEX TEXCOCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TEXCOCO",
     "tgt_gral": 80,
     "tgt_reno16": 22,
     "tgt_a7pro": 13,
@@ -16071,15 +18591,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919226",
     "nombre": "MEJIA ORTIZ ODIN FERNANDO",
-    "cadena": "MINI CAC TECAMAC",
+    "cadena": "Telcel",
     "tienda": "MINI CAC TECAMAC",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TECÁMAC",
     "tgt_gral": 53,
     "tgt_reno16": 16,
     "tgt_a7pro": 8,
@@ -16097,15 +18621,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919668",
     "nombre": "REYES PATIÑO ERICK ATZEL",
-    "cadena": "CAC HUEHUETOCA",
+    "cadena": "Telcel",
     "tienda": "CAC HUEHUETOCA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "HUEHUETOCA",
     "tgt_gral": 44,
     "tgt_reno16": 9,
     "tgt_a7pro": 0,
@@ -16123,15 +18651,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R920213",
     "nombre": "RIVAS KARMOOCH KARINA",
-    "cadena": "ECA ARAGON",
+    "cadena": "Telcel",
     "tienda": "ECA ARAGON",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 74,
     "tgt_reno16": 26,
     "tgt_a7pro": 0,
@@ -16149,15 +18681,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR913976",
     "nombre": "SANCHEZ MORALES KEVIN OCTAVIANO",
-    "cadena": "CAC OCEANIA",
+    "cadena": "Telcel",
     "tienda": "CAC OCEANIA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ECATEPEC DE MORELOS",
     "tgt_gral": 67,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -16175,15 +18711,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915653",
     "nombre": "VIVEROS HERNANDEZ DANIEL IVAN",
-    "cadena": "MINI CAC TECAMAC | CAC TOWN CENTER ZUMP",
+    "cadena": "Telcel",
     "tienda": "MINI CAC TECAMAC | CAC TOWN CENTER ZUMP",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 48,
     "tgt_reno16": 16,
     "tgt_a7pro": 3,
@@ -16201,15 +18741,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917451",
     "nombre": "BERNAL HERNANDEZ TAMMY YUVAL",
-    "cadena": "IZC SAN MARCOS",
+    "cadena": "Telcel",
     "tienda": "IZC SAN MARCOS",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 85,
     "tgt_reno16": 22,
     "tgt_a7pro": 0,
@@ -16227,15 +18771,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918735",
     "nombre": "DAVILA FRANCISCO SALVADOR",
-    "cadena": "NICOLAS ROMERO",
+    "cadena": "Telcel",
     "tienda": "NICOLAS ROMERO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NICOLÁS ROMERO",
     "tgt_gral": 76,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -16253,15 +18801,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R917447",
     "nombre": "GARCIA BAUTISTA JORGE OMAR KARAM",
-    "cadena": "ETRAM EL ROSARIO",
+    "cadena": "Telcel",
     "tienda": "ETRAM EL ROSARIO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 69,
     "tgt_reno16": 22,
     "tgt_a7pro": 9,
@@ -16279,15 +18831,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R920431",
     "nombre": "GARDUÑO GIL ANGEL ERNESTO",
-    "cadena": "DF INTERLOMAS",
+    "cadena": "Telcel",
     "tienda": "DF INTERLOMAS",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "HUIXQUILUCAN",
     "tgt_gral": 52,
     "tgt_reno16": 7,
     "tgt_a7pro": 7,
@@ -16305,15 +18861,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910550",
     "nombre": "GUZMAN NOLASCO JOSE LUIS",
-    "cadena": "IZC LUNA PARK",
+    "cadena": "Telcel",
     "tienda": "IZC LUNA PARK",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 84,
     "tgt_reno16": 21,
     "tgt_a7pro": 0,
@@ -16331,15 +18891,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919637",
     "nombre": "LEMUS VIVANCO ALDO",
-    "cadena": "ATI ATIZAPAN",
+    "cadena": "Telcel",
     "tienda": "ATI ATIZAPAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 35,
     "tgt_reno16": 7,
     "tgt_a7pro": 5,
@@ -16357,15 +18921,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910888",
     "nombre": "LUGO FLORES CESAR",
-    "cadena": "COA COACALCO",
+    "cadena": "Telcel",
     "tienda": "COA COACALCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 30,
     "tgt_reno16": 5,
     "tgt_a7pro": 1,
@@ -16383,12 +18951,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R919911",
     "nombre": "MARTINEZ MARTINEZ JESUS JONATHAN",
-    "cadena": "IZC SAN MARCOS",
+    "cadena": "Telcel",
     "tienda": "IZC SAN MARCOS",
     "region": "R9-G",
     "ciudad": "",
@@ -16409,15 +18981,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915018",
     "nombre": "MELCHOR CASTELAN LUIS ALEXANDER",
-    "cadena": "ATI ATIZAPAN | HUI PLAZA PASEO INTE | IZC SAN MARCOS | CAC COSMOPOL COACALC | DF INTERLOMAS",
+    "cadena": "Telcel",
     "tienda": "ATI ATIZAPAN | HUI PLAZA PASEO INTE | IZC SAN MARCOS | CAC COSMOPOL COACALC | DF INTERLOMAS",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ATIZAPÁN DE ZARAGOZA",
     "tgt_gral": 62,
     "tgt_reno16": 18,
     "tgt_a7pro": 3,
@@ -16435,15 +19011,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918294",
     "nombre": "MORALES GONZALEZ FRANCISCO JAVIER",
-    "cadena": "HUI PLAZA PASEO INTE",
+    "cadena": "Telcel",
     "tienda": "HUI PLAZA PASEO INTE",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "CUAJIMALPA DE MORELOS",
     "tgt_gral": 46,
     "tgt_reno16": 6,
     "tgt_a7pro": 0,
@@ -16461,15 +19041,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R914085",
     "nombre": "RAMIREZ ESQUIVEL GRISELDA JANET",
-    "cadena": "IZC PERINte | CAC COSMOPOL COACALC | IZC LUNA PARK | COA COACALCO",
+    "cadena": "Elektra",
     "tienda": "IZC PERINte | CAC COSMOPOL COACALC | IZC LUNA PARK | COA COACALCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TULTEPEC",
     "tgt_gral": 96,
     "tgt_reno16": 41,
     "tgt_a7pro": 1,
@@ -16487,15 +19071,20 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra",
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910887",
     "nombre": "RUBIO RODRIGUEZ JORGE LUIS",
-    "cadena": "IZC PERINte",
+    "cadena": "Telcel",
     "tienda": "IZC PERINte",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 78,
     "tgt_reno16": 21,
     "tgt_a7pro": 5,
@@ -16513,15 +19102,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R96290",
     "nombre": "TIBURCIO ZAMORA JOSE ANTONIO",
-    "cadena": "ETRAM EL ROSARIO",
+    "cadena": "Telcel",
     "tienda": "ETRAM EL ROSARIO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 75,
     "tgt_reno16": 15,
     "tgt_a7pro": 9,
@@ -16539,15 +19132,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910664",
     "nombre": "VASQUEZ MOJICA MARCOS EDUARDO",
-    "cadena": "COA COACALCO",
+    "cadena": "Telcel",
     "tienda": "COA COACALCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COACALCO DE BERRIOZÁBAL",
     "tgt_gral": 33,
     "tgt_reno16": 16,
     "tgt_a7pro": 2,
@@ -16565,15 +19162,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R923230",
     "nombre": "ALEMAN RANGEL JORGE",
-    "cadena": "ZARAGOZA | PLAZA CENTRAL",
+    "cadena": "Telcel",
     "tienda": "ZARAGOZA | PLAZA CENTRAL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "VALLE DE CHALCO SOLIDARIDAD",
     "tgt_gral": 84,
     "tgt_reno16": 31,
     "tgt_a7pro": 3,
@@ -16591,15 +19192,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R919068",
     "nombre": "APARICIO LOPEZ AXEL ALFONSO",
-    "cadena": "NEZ CIUDAD JARDIN",
+    "cadena": "Telcel",
     "tienda": "NEZ CIUDAD JARDIN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 99,
     "tgt_reno16": 22,
     "tgt_a7pro": 11,
@@ -16617,15 +19222,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R919317",
     "nombre": "HUESCA GAMBOA HUGO",
-    "cadena": "IZTAPALAPA | PLAZA CENTRAL",
+    "cadena": "Telcel",
     "tienda": "IZTAPALAPA | PLAZA CENTRAL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 160,
     "tgt_reno16": 30,
     "tgt_a7pro": 0,
@@ -16643,15 +19252,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R912748",
     "nombre": "ORTIZ ANGULO CESAR",
-    "cadena": "PARQUE TEZONTLE",
+    "cadena": "Telcel",
     "tienda": "PARQUE TEZONTLE",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 130,
     "tgt_reno16": 57,
     "tgt_a7pro": 0,
@@ -16669,15 +19282,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "9741",
     "nombre": "PEREZ DE JESUS OMAR",
-    "cadena": "IXT IXTAPALUCA",
+    "cadena": "Telcel",
     "tienda": "IXT IXTAPALUCA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 134,
     "tgt_reno16": 29,
     "tgt_a7pro": 0,
@@ -16695,15 +19312,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R917735",
     "nombre": "PEREZ MIJANGOS MARITZA ANGELICA",
-    "cadena": "PARQUE TEZONTLE",
+    "cadena": "Telcel",
     "tienda": "PARQUE TEZONTLE",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 106,
     "tgt_reno16": 32,
     "tgt_a7pro": 0,
@@ -16721,12 +19342,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918594",
     "nombre": "RIOS URIBE JOSE ARMANDO",
-    "cadena": "IXT IXTAPALUCA | PLAZA CENTRAL | CAC TEPOZANES",
+    "cadena": "Telcel",
     "tienda": "IXT IXTAPALUCA | PLAZA CENTRAL | CAC TEPOZANES",
     "region": "R9-G",
     "ciudad": "",
@@ -16747,15 +19372,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914107",
     "nombre": "ROSAS BARRON JOSE IVAN",
-    "cadena": "CAC TEPOZANES",
+    "cadena": "Telcel",
     "tienda": "CAC TEPOZANES",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 81,
     "tgt_reno16": 23,
     "tgt_a7pro": 0,
@@ -16773,15 +19402,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919318",
     "nombre": "SALMERON BARRAZA JONATHAN URIEL",
-    "cadena": "CAC CHALCO",
+    "cadena": "Telcel",
     "tienda": "CAC CHALCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IXTAPALUCA",
     "tgt_gral": 71,
     "tgt_reno16": 16,
     "tgt_a7pro": 0,
@@ -16799,15 +19432,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R910768",
     "nombre": "SAMANO GALVEZ DELIA",
-    "cadena": "IXT IXTAPALUCA",
+    "cadena": "Telcel",
     "tienda": "IXT IXTAPALUCA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 117,
     "tgt_reno16": 38,
     "tgt_a7pro": 0,
@@ -16825,15 +19462,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R916227",
     "nombre": "SOLANO MADRIGAL YESICA",
-    "cadena": "NEZ CIUDAD JARDIN | PARQUE TEZONTLE | CAC CHALCO",
+    "cadena": "Telcel",
     "tienda": "NEZ CIUDAD JARDIN | PARQUE TEZONTLE | CAC CHALCO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTACALCO",
     "tgt_gral": 109,
     "tgt_reno16": 33,
     "tgt_a7pro": 5,
@@ -16851,15 +19492,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R922384",
     "nombre": "SOSA RODRIGUEZ ANGEL ALEJANDRO",
-    "cadena": "NEZ CIUDAD JARDIN",
+    "cadena": "Telcel",
     "tienda": "NEZ CIUDAD JARDIN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 104,
     "tgt_reno16": 17,
     "tgt_a7pro": 12,
@@ -16877,15 +19522,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918004",
     "nombre": "VICTORIA MEJIA AMERICA BELEN",
-    "cadena": "PLAZA CENTRAL",
+    "cadena": "Telcel",
     "tienda": "PLAZA CENTRAL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "IZTAPALAPA",
     "tgt_gral": 45,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -16903,15 +19552,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918398",
     "nombre": "CASTELLO OCEJO YAMILET",
-    "cadena": "CAC MASARYK",
+    "cadena": "Telcel",
     "tienda": "CAC MASARYK",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 30,
     "tgt_reno16": 0,
     "tgt_a7pro": 8,
@@ -16929,15 +19582,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R911477",
     "nombre": "COLORADO ALVAREZ WENDY JAZMIN",
-    "cadena": "CAC VIA VALLEJO",
+    "cadena": "Telcel",
     "tienda": "CAC VIA VALLEJO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 47,
     "tgt_reno16": 20,
     "tgt_a7pro": 0,
@@ -16955,15 +19612,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919038",
     "nombre": "CONTRERAS BELTRAN AARON",
-    "cadena": "PARQUE LINDAVISTA",
+    "cadena": "Telcel",
     "tienda": "PARQUE LINDAVISTA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 84,
     "tgt_reno16": 33,
     "tgt_a7pro": 0,
@@ -16981,15 +19642,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R923135",
     "nombre": "CORTES LIMA Y OSORIO ARGEL",
-    "cadena": "LINDAVISTA | CAC MASARYK",
+    "cadena": "Telcel",
     "tienda": "LINDAVISTA | CAC MASARYK",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 78,
     "tgt_reno16": 17,
     "tgt_a7pro": 15,
@@ -17007,15 +19672,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R913729",
     "nombre": "CRUZ HERNANDEZ MARCOS AGUSTIN",
-    "cadena": "LAGO ALBERTO | REFORMA 222",
+    "cadena": "Telcel",
     "tienda": "LAGO ALBERTO | REFORMA 222",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 64,
     "tgt_reno16": 12,
     "tgt_a7pro": 14,
@@ -17033,15 +19702,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918235",
     "nombre": "GARCIA REBOLLO CESAR JORDY",
-    "cadena": "TORRE LATINO",
+    "cadena": "Telcel",
     "tienda": "TORRE LATINO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 126,
     "tgt_reno16": 27,
     "tgt_a7pro": 11,
@@ -17059,15 +19732,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919305",
     "nombre": "GOMEZ GARRIDO FRANCISCO JAVIER",
-    "cadena": "CAMARONES | CAC VIA VALLEJO",
+    "cadena": "Telcel",
     "tienda": "CAMARONES | CAC VIA VALLEJO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "AZCAPOTZALCO",
     "tgt_gral": 88,
     "tgt_reno16": 33,
     "tgt_a7pro": 0,
@@ -17085,15 +19762,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919642",
     "nombre": "OLVERA GALICIA CARLOS EDUARDO",
-    "cadena": "REFORMA 222",
+    "cadena": "Telcel",
     "tienda": "REFORMA 222",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 42,
     "tgt_reno16": 13,
     "tgt_a7pro": 3,
@@ -17111,15 +19792,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R913142",
     "nombre": "PATIÑO MOSQUEDA DINORA",
-    "cadena": "PARQUE LINDAVISTA",
+    "cadena": "Telcel",
     "tienda": "PARQUE LINDAVISTA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "CUAUTITLÁN IZCALLI",
     "tgt_gral": 89,
     "tgt_reno16": 32,
     "tgt_a7pro": 0,
@@ -17137,15 +19822,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918348",
     "nombre": "TRINIDAD KARLA BERENICE",
-    "cadena": "CAC CAC PARQUE TEPEY",
+    "cadena": "Telcel",
     "tienda": "CAC CAC PARQUE TEPEY",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 102,
     "tgt_reno16": 54,
     "tgt_a7pro": 0,
@@ -17163,15 +19852,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R922099",
     "nombre": "VENTURA MARTINEZ JESUS MANUEL",
-    "cadena": "TORRE LATINO | REFORMA 222 | PARQUE LINDAVISTA | CAC VIA VALLEJO",
+    "cadena": "Telcel",
     "tienda": "TORRE LATINO | REFORMA 222 | PARQUE LINDAVISTA | CAC VIA VALLEJO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 56,
     "tgt_reno16": 5,
     "tgt_a7pro": 3,
@@ -17189,15 +19882,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR912504",
     "nombre": "ACUÑA RODRIGUEZ MARCO ANTONIO",
-    "cadena": "CAC-STT TLALNEPANTLA",
+    "cadena": "Telcel",
     "tienda": "CAC-STT TLALNEPANTLA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 110,
     "tgt_reno16": 62,
     "tgt_a7pro": 0,
@@ -17215,15 +19912,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918704",
     "nombre": "BELTRAN JUAREZ JACQUELINE",
-    "cadena": "PLAZA CARSO",
+    "cadena": "Telcel",
     "tienda": "PLAZA CARSO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 35,
     "tgt_reno16": 11,
     "tgt_a7pro": 5,
@@ -17241,15 +19942,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R921850",
     "nombre": "CASTILLO ESCOBEDO CARLOS ELIOT",
-    "cadena": "CAC STT MUNDO E",
+    "cadena": "Telcel",
     "tienda": "CAC STT MUNDO E",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 78,
     "tgt_reno16": 17,
     "tgt_a7pro": 5,
@@ -17267,15 +19972,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR916098",
     "nombre": "CASTRO ECHEVERRIA JOSE SANTIAGO",
-    "cadena": "PLAZA CARSO",
+    "cadena": "Telcel",
     "tienda": "PLAZA CARSO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "MIGUEL HIDALGO",
     "tgt_gral": 37,
     "tgt_reno16": 11,
     "tgt_a7pro": 6,
@@ -17293,15 +20002,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R96151",
     "nombre": "CHAPARRO TELLEZ VERONICA",
-    "cadena": "NAU LA CUSPIDE",
+    "cadena": "Telcel",
     "tienda": "NAU LA CUSPIDE",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 51,
     "tgt_reno16": 16,
     "tgt_a7pro": 10,
@@ -17319,15 +20032,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918253",
     "nombre": "CHICHO VARGAS SAMUEL ULISES",
-    "cadena": "EM TOREO | CAC SATELITE ll | NAU PLAZA SATELITE I",
+    "cadena": "Telcel",
     "tienda": "EM TOREO | CAC SATELITE ll | NAU PLAZA SATELITE I",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TLALNEPANTLA DE BAZ",
     "tgt_gral": 81,
     "tgt_reno16": 30,
     "tgt_a7pro": 1,
@@ -17345,15 +20062,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917828",
     "nombre": "GUERRERO REYES JOSE CARLOS",
-    "cadena": "CAC SATELITE ll",
+    "cadena": "Telcel",
     "tienda": "CAC SATELITE ll",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 52,
     "tgt_reno16": 12,
     "tgt_a7pro": 5,
@@ -17371,15 +20092,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918995",
     "nombre": "HERRERA TENORIO MARIANA",
-    "cadena": "NAU PLAZA SATELITE I",
+    "cadena": "Telcel",
     "tienda": "NAU PLAZA SATELITE I",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 67,
     "tgt_reno16": 33,
     "tgt_a7pro": 0,
@@ -17397,15 +20122,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910180",
     "nombre": "MELCHOR TORRES LUIS ALBERTO",
-    "cadena": "EM TOREO",
+    "cadena": "Telcel",
     "tienda": "EM TOREO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 109,
     "tgt_reno16": 49,
     "tgt_a7pro": 0,
@@ -17423,15 +20152,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR915795",
     "nombre": "OLVERA MEJIA ALFREDO DANIEL",
-    "cadena": "CAC-STT TLALNEPANTLA",
+    "cadena": "Telcel",
     "tienda": "CAC-STT TLALNEPANTLA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 89,
     "tgt_reno16": 34,
     "tgt_a7pro": 0,
@@ -17449,15 +20182,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914190",
     "nombre": "VELASCO CRUZ JUAN DANIEL",
-    "cadena": "CAC-STT TLALNEPANTLA | CAC STT MUNDO E | NAU LA CUSPIDE",
+    "cadena": "Telcel",
     "tienda": "CAC-STT TLALNEPANTLA | CAC STT MUNDO E | NAU LA CUSPIDE",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 30,
     "tgt_reno16": 6,
     "tgt_a7pro": 3,
@@ -17475,15 +20212,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R917752",
     "nombre": "VERA RODRIGUEZ RICARDO",
-    "cadena": "EM TOREO",
+    "cadena": "Telcel",
     "tienda": "EM TOREO",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 136,
     "tgt_reno16": 51,
     "tgt_a7pro": 0,
@@ -17501,15 +20242,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R912296",
     "nombre": "ARRIETA CONTRERAS VANIA MABEL",
-    "cadena": "PABELLON DEL VALL",
+    "cadena": "Telcel",
     "tienda": "PABELLON DEL VALL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 77,
     "tgt_reno16": 19,
     "tgt_a7pro": 10,
@@ -17527,12 +20272,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910842",
     "nombre": "AVILES TELLEZ ALBERTO RAYMUNDO",
-    "cadena": "CONDESA | METROPOLI PATRIOT",
+    "cadena": "Telcel",
     "tienda": "CONDESA | METROPOLI PATRIOT",
     "region": "R9-G",
     "ciudad": "",
@@ -17553,15 +20302,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R919316",
     "nombre": "BAEZ ORTEGA JOSE JOEL",
-    "cadena": "METROPOLI PATRIOT",
+    "cadena": "Telcel",
     "tienda": "METROPOLI PATRIOT",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 47,
     "tgt_reno16": 18,
     "tgt_a7pro": 6,
@@ -17579,15 +20332,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919341",
     "nombre": "BAUTISTA MEDINA IAN OMAR",
-    "cadena": "CAPUCHINAS | SANTA FE I | CAC-STT FORUM BUENAV",
+    "cadena": "Telcel",
     "tienda": "CAPUCHINAS | SANTA FE I | CAC-STT FORUM BUENAV",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 91,
     "tgt_reno16": 26,
     "tgt_a7pro": 5,
@@ -17605,15 +20362,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R919037",
     "nombre": "BERMUDEZ GARCIA RICARDO",
-    "cadena": "PERISUR",
+    "cadena": "Telcel",
     "tienda": "PERISUR",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 112,
     "tgt_reno16": 20,
     "tgt_a7pro": 8,
@@ -17631,15 +20392,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R713019",
     "nombre": "CRUZ SALAZAR JOSUE JAVIER",
-    "cadena": "CAC LAZARO CARDE | PABELLON DEL VALL | CAC-STT FORUM BUENAV | PERISUR | COYOACAN",
+    "cadena": "Telcel",
     "tienda": "CAC LAZARO CARDE | PABELLON DEL VALL | CAC-STT FORUM BUENAV | PERISUR | COYOACAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 53,
     "tgt_reno16": 12,
     "tgt_a7pro": 8,
@@ -17657,15 +20422,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914555",
     "nombre": "ESPINOSA AROZQUETA ALMA NELY",
-    "cadena": "CAC-STT FORUM BUENAV",
+    "cadena": "Telcel",
     "tienda": "CAC-STT FORUM BUENAV",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 81,
     "tgt_reno16": 27,
     "tgt_a7pro": 13,
@@ -17683,15 +20452,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R918459",
     "nombre": "GARCIA BRISEÑO CARLOS ALBERTO",
-    "cadena": "SANTA FE II",
+    "cadena": "Telcel",
     "tienda": "SANTA FE II",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "GUSTAVO A. MADERO",
     "tgt_gral": 32,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -17709,15 +20482,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910318",
     "nombre": "GARCIA LOPEZ ALEXA MIREYA",
-    "cadena": "SANTA FE I | PABELLON DEL VALL | PERISUR | SANTA FE II | COYOACAN",
+    "cadena": "Telcel",
     "tienda": "SANTA FE I | PABELLON DEL VALL | PERISUR | SANTA FE II | COYOACAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 50,
     "tgt_reno16": 18,
     "tgt_a7pro": 4,
@@ -17735,15 +20512,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R920760",
     "nombre": "GONZALEZ CEJA JESUS ALBERTO",
-    "cadena": "PABELLON DEL VALL",
+    "cadena": "Telcel",
     "tienda": "PABELLON DEL VALL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 71,
     "tgt_reno16": 23,
     "tgt_a7pro": 9,
@@ -17761,15 +20542,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR912101",
     "nombre": "HERNANDEZ LEDESMA JOSE ALEJANDRO",
-    "cadena": "COYOACAN",
+    "cadena": "Telcel",
     "tienda": "COYOACAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 64,
     "tgt_reno16": 14,
     "tgt_a7pro": 4,
@@ -17787,15 +20572,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R923030",
     "nombre": "HERNANDEZ LOPEZ SARAHI",
-    "cadena": "CAC PORTAL SAN ANGEL",
+    "cadena": "Telcel",
     "tienda": "CAC PORTAL SAN ANGEL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 37,
     "tgt_reno16": 5,
     "tgt_a7pro": 6,
@@ -17813,15 +20602,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R921230",
     "nombre": "NARES DIAZ ALAIN TAURINO AMAURY",
-    "cadena": "CAC TENARIA PORTAL",
+    "cadena": "Telcel",
     "tienda": "CAC TENARIA PORTAL",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 56,
     "tgt_reno16": 12,
     "tgt_a7pro": 2,
@@ -17839,15 +20632,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R917530",
     "nombre": "NEPOMUCENO MARTINEZ BENJAMIN",
-    "cadena": "REFORMA LOMAS | COYOACAN",
+    "cadena": "Telcel",
     "tienda": "REFORMA LOMAS | COYOACAN",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 97,
     "tgt_reno16": 28,
     "tgt_a7pro": 2,
@@ -17865,15 +20662,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR918499",
     "nombre": "PALOMARES VEGA CARLOS HERNAN",
-    "cadena": "CAC-STT FORUM BUENAV",
+    "cadena": "Telcel",
     "tienda": "CAC-STT FORUM BUENAV",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ÁLVARO OBREGÓN",
     "tgt_gral": 78,
     "tgt_reno16": 14,
     "tgt_a7pro": 13,
@@ -17891,12 +20692,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR919721",
     "nombre": "PLUMA LOPEZ ANA GABRIELA",
-    "cadena": "CAC LAZARO CARDE",
+    "cadena": "Telcel",
     "tienda": "CAC LAZARO CARDE",
     "region": "R9-G",
     "ciudad": "",
@@ -17917,15 +20722,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914600",
     "nombre": "SANCHEZ RAMIREZ YURIDIA SALUD",
-    "cadena": "SANTA FE I",
+    "cadena": "Telcel",
     "tienda": "SANTA FE I",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 66,
     "tgt_reno16": 14,
     "tgt_a7pro": 0,
@@ -17943,12 +20752,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR920033",
     "nombre": "SANCHEZ VILCHIS LAURA JESSICA",
-    "cadena": "SANTA FE I",
+    "cadena": "Telcel",
     "tienda": "SANTA FE I",
     "region": "R9-G",
     "ciudad": "",
@@ -17969,15 +20782,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917841",
     "nombre": "AGUILAR IBARRA ARLETTE ESTRELLA",
-    "cadena": "CELEX GRAN SUR | CENCEL PARQUE LAS ANTENAS II 6489C | A-MOVIL GALERIAS INSURGENTES 1325 | A-MOVIL PARQUE LAS ANTENAS 2 9901 | CENCEL PLAZA ERMITA 3417 | A-MOVIL PORTAL SAN ANGEL 6710 | A-MOVIL MP PARQUE DELTA 1 2330 | A-MOVIL DELTA ACCESORIOS 2342 | CENCEL PERISUR 4690C | CENCEL GALERIAS COAPA 519",
+    "cadena": "Telcel",
     "tienda": "CELEX GRAN SUR | CENCEL PARQUE LAS ANTENAS II 6489C | A-MOVIL GALERIAS INSURGENTES 1325 | A-MOVIL PARQUE LAS ANTENAS 2 9901 | CENCEL PLAZA ERMITA 3417 | A-MOVIL PORTAL SAN ANGEL 6710 | A-MOVIL MP PARQUE DELTA 1 2330 | A-MOVIL DELTA ACCESORIOS 2342 | CENCEL PERISUR 4690C | CENCEL GALERIAS COAPA 519",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "COYOACÁN",
     "tgt_gral": 79,
     "tgt_reno16": 0,
     "tgt_a7pro": 18,
@@ -17995,12 +20812,16 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914144",
     "nombre": "ESCOBAR VELASCO VICTOR JESUS",
-    "cadena": "A-MOVIL PORTAL CENTRO 6820",
+    "cadena": "Telcel",
     "tienda": "A-MOVIL PORTAL CENTRO 6820",
     "region": "R9-G",
     "ciudad": "",
@@ -18021,15 +20842,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR916200",
     "nombre": "FLORES PERALTA JOSE FELIX",
-    "cadena": "ORIMAR CHALCO CENTRO ACAPOL | ORIMAR MERCADO 2 56600 | A-MOVIL PATIO VALLE DE CHALCO 3700 | A-MOVIL SENDERO CHALCO II 6619 | A-MOVIL NEZA 1 80",
+    "cadena": "Telcel",
     "tienda": "ORIMAR CHALCO CENTRO ACAPOL | ORIMAR MERCADO 2 56600 | A-MOVIL PATIO VALLE DE CHALCO 3700 | A-MOVIL SENDERO CHALCO II 6619 | A-MOVIL NEZA 1 80",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NEZAHUALCÓYOTL",
     "tgt_gral": 44,
     "tgt_reno16": 0,
     "tgt_a7pro": 6,
@@ -18047,15 +20872,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917843",
     "nombre": "GARCIA CERNA MARIA ISABERL",
-    "cadena": "CVT ZUMPANGO C169 | A-MOVIL ZUMPANGO 5635 | A-MOVIL SENDERO ECATEPEC 5004 | A-MOVIL PLAZA CAÑADA DE HUEHUETOCA 54695 | A-MOVIL LOS HEROES TECAMAC 5764",
+    "cadena": "Telcel",
     "tienda": "CVT ZUMPANGO C169 | A-MOVIL ZUMPANGO 5635 | A-MOVIL SENDERO ECATEPEC 5004 | A-MOVIL PLAZA CAÑADA DE HUEHUETOCA 54695 | A-MOVIL LOS HEROES TECAMAC 5764",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "ZUMPANGO",
     "tgt_gral": 47,
     "tgt_reno16": 5,
     "tgt_a7pro": 4,
@@ -18073,15 +20902,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR914733",
     "nombre": "GARDUÑO ESPINOZA JUAN CARLOS",
-    "cadena": "DAT TOLUCA",
+    "cadena": "Telcel",
     "tienda": "DAT TOLUCA",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 37,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -18099,15 +20932,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "R96703",
     "nombre": "MORALES UGALDE JULIO CESAR",
-    "cadena": "CENCEL PARQUE TEPEYAC 10400 | A-MOVIL CUATRO CAMINOS | A-MOVIL PARQUE TEPEYAC 7460 | A-MOVIL GRAN TERRAZA LOMAS VERDES 5140 | A-MOVIL PARQUE LINDAVISTA II 7715 | A-MOVIL CENTRO SAN MARCOS 5715 | A-MOVIL PABELLON RIO DE LOS REMEDIOS 10395 | A-MOVIL FORUM BUENAVISTA 6350 | A-MOVIL PARQUE LINDAVISTA I 7760 | A-MOVIL MULTIPLAZA ARAGON 4150 | A-MOVIL TOREO PARQUE CENTRAL (MÓDULO) 5339 | A-MOVIL CENTRO SAN MIGUEL 5715 | A-MOVIL COACALCO POWER CENTER 5720 | A-MOVIL ENCUENTRO TLALNEPANTLA 4150 | A-MOVIL TREN SUBURBANO CUAUTITLAN l | A-MOVIL PLAZA CENTELLA | A-MOVIL CENTRO COMERCIAL LUNA PARC l",
+    "cadena": "Telcel",
     "tienda": "CENCEL PARQUE TEPEYAC 10400 | A-MOVIL CUATRO CAMINOS | A-MOVIL PARQUE TEPEYAC 7460 | A-MOVIL GRAN TERRAZA LOMAS VERDES 5140 | A-MOVIL PARQUE LINDAVISTA II 7715 | A-MOVIL CENTRO SAN MARCOS 5715 | A-MOVIL PABELLON RIO DE LOS REMEDIOS 10395 | A-MOVIL FORUM BUENAVISTA 6350 | A-MOVIL PARQUE LINDAVISTA I 7760 | A-MOVIL MULTIPLAZA ARAGON 4150 | A-MOVIL TOREO PARQUE CENTRAL (MÓDULO) 5339 | A-MOVIL CENTRO SAN MIGUEL 5715 | A-MOVIL COACALCO POWER CENTER 5720 | A-MOVIL ENCUENTRO TLALNEPANTLA 4150 | A-MOVIL TREN SUBURBANO CUAUTITLAN l | A-MOVIL PLAZA CENTELLA | A-MOVIL CENTRO COMERCIAL LUNA PARC l",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "NAUCALPAN DE JUÁREZ",
     "tgt_gral": 75,
     "tgt_reno16": 6,
     "tgt_a7pro": 19,
@@ -18125,15 +20962,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR917728",
     "nombre": "ROMERO ROMERO JUAN DAVID",
-    "cadena": "CVAT TULTITLAN | CVT ECATEPEC 55000",
+    "cadena": "Telcel",
     "tienda": "CVAT TULTITLAN | CVT ECATEPEC 55000",
     "region": "R9-G",
-    "ciudad": "",
+    "ciudad": "TULTITLÁN",
     "tgt_gral": 49,
     "tgt_reno16": 0,
     "tgt_a7pro": 3,
@@ -18151,15 +20992,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Telcel",
+    "cadenas_slugs": [
+      "telcel-cac"
+    ]
   },
   {
     "id": "MR910199",
     "nombre": "MARISOL VENTURA CRUZ",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Elektra",
+    "tienda": "EKT MEGA IXTLAHUACA 6923",
     "region": "",
-    "ciudad": "",
+    "ciudad": "IXTLAHUACA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18177,15 +21022,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 2,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR911612",
     "nombre": "JESUS CHAVEZ HERNANDEZ",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Coppel",
+    "tienda": "COPPEL EL ORO 6663",
     "region": "",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18203,15 +21052,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR913580",
     "nombre": "LAZARO IVAN VASQUEZ VASQUEZ",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Elektra",
+    "tienda": "EKT COATEPEC HARINAS 8503",
     "region": "",
-    "ciudad": "",
+    "ciudad": "COATEPEC HARINAS",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18229,15 +21082,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 1,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "MR914272",
     "nombre": "LUIS BRANDON GARCIA BAUTISTA",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Coppel",
+    "tienda": "COPPEL GUADALUPE VICTORIA 725",
     "region": "",
-    "ciudad": "",
+    "ciudad": "OCOYOACAC",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18255,15 +21112,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 1,
       "A_MIDDLE": 4,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR914460",
     "nombre": "ALMA JANET BELLO VAZQUEZ",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "AT&T",
+    "tienda": "TDA TOLUCA METEPEC I",
     "region": "",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18281,15 +21142,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 6,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR914803",
     "nombre": "JOSE DE JESUS SANCHEZ BARAJAS",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Sam's Club",
+    "tienda": "SM ALFREDO DEL MAZO 6225",
     "region": "",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18307,15 +21172,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 9,
       "A_MIDDLE": 1,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Sam's Club",
+    "cadenas_slugs": [
+      "sams"
+    ]
   },
   {
     "id": "MR916841",
     "nombre": "CARLOS ANTONIO MORENO ORDOÑEZ",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Coppel",
+    "tienda": "COPPEL NICOLAS BRAVO 911",
     "region": "",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18333,15 +21202,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR918399",
     "nombre": "BRAYAN EDUARDO HERNANDEZ FLORES",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "AT&T",
+    "tienda": "ARSA PORTAL METEPEC",
     "region": "",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18359,15 +21232,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 7,
       "A_MIDDLE": 0,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR919858",
     "nombre": "EMMANUEL APOLINAR DUARTE",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "AT&T",
+    "tienda": "TDA TOLUCA ZINACANTEPEC PLAZA MIA",
     "region": "",
-    "ciudad": "",
+    "ciudad": "ZINACANTEPEC",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18385,15 +21262,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 5,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ]
   },
   {
     "id": "MR920084",
     "nombre": "BETSY JIMENA GARCIA ARELLANO",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Coppel",
+    "tienda": "COPPEL PLAZA SAN FRANCISCO 887",
     "region": "",
-    "ciudad": "",
+    "ciudad": "ACAMBAY DE RUÍZ CASTAÑEDA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18411,15 +21292,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 2,
       "A_LOW": 0
-    }
+    },
+    "cadena_oficial": "Coppel",
+    "cadenas_slugs": [
+      "coppel"
+    ]
   },
   {
     "id": "MR920087",
     "nombre": "RICARDO DAVID MARTINEZ GUZMAN",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Elektra",
+    "tienda": "EKT MEGA TOLUCA 4 INDEPENDENCI 2765",
     "region": "",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18437,15 +21322,19 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 0,
       "A_MIDDLE": 3,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   },
   {
     "id": "R96731",
     "nombre": "MARICELA ENRIQUEZ ARCHUNDIA",
-    "cadena": "OPPO Elite",
-    "tienda": "",
+    "cadena": "Elektra",
+    "tienda": "SYR TOLUCA 1 4505",
     "region": "",
-    "ciudad": "",
+    "ciudad": "TOLUCA",
     "tgt_gral": 0,
     "tgt_reno16": 0,
     "tgt_a7pro": 0,
@@ -18463,6 +21352,10 @@ window.PORTAL_COMISIONES_DATA = [
       "A_HIGH": 3,
       "A_MIDDLE": 11,
       "A_LOW": 1
-    }
+    },
+    "cadena_oficial": "Elektra",
+    "cadenas_slugs": [
+      "elektra"
+    ]
   }
 ];

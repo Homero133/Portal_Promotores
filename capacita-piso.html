@@ -317,8 +317,9 @@
             const selectorBox = document.getElementById('f2fChainSelectorBox');
             if (!container) return;
 
-            const profile = getStoredProfile();
-            const profileChainKey = profile ? mapCadenaToF2FKey(profile.cadena) : null;
+            const profile = (window.portalAuth && window.portalAuth.getProfile()) || getStoredProfile();
+            const isAud = !!(profile && (profile.role === 'auditor' || profile.isAuditor));
+            const profileChainKey = (!isAud && profile) ? mapCadenaToF2FKey(profile.cadena_oficial || profile.cadena) : null;
 
             // Si el promotor aun no se ha registrado en Portal Elite, pedirle su registro primero
             if (!profile) {
@@ -328,45 +329,41 @@
                         '<div class="w-14 h-14 rounded-2xl bg-oppogreen/15 text-oppogreen flex items-center justify-center text-2xl mx-auto mb-3">' +
                             '<i class="fas fa-id-badge"></i>' +
                         '</div>' +
-                        '<h4 class="text-lg sm:text-xl font-black text-gray-800 mb-1.5">Registra tu Perfil para Desbloquear tu QR F2F</h4>' +
+                        '<h4 class="text-lg sm:text-xl font-black text-gray-800 mb-1.5">Ingresa tu ID para Desbloquear tu QR F2F</h4>' +
                         '<p class="text-xs sm:text-sm text-gray-500 max-w-lg mx-auto mb-5 leading-relaxed">' +
-                            'Esta subsecci&oacute;n depende directamente de la cadena comercial a la que perteneces (<strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> o <strong>Coppel</strong>). Completa tu registro en <strong>Portal Elite</strong> para mostrar autom&aacute;ticamente tu QR y enlace directo.' +
+                            'Esta subsecci&oacute;n depende directamente de la cadena comercial a la que perteneces (<strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> o <strong>Coppel</strong>).' +
                         '</p>' +
-                        '<button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="bg-oppogreen hover:bg-emerald-600 text-white font-black py-3 px-6 rounded-2xl text-xs sm:text-sm shadow-lg transition transform hover:scale-105 inline-flex items-center gap-2">' +
-                            '<i class="fas fa-user-check"></i> Registrar mi Perfil y Cadena' +
+                        '<button onclick="window.portalAuth ? window.portalAuth.showAuthModal() : (window.oppoProgress && window.oppoProgress.openProfileModal())" class="bg-oppogreen hover:bg-emerald-600 text-white font-black py-3 px-6 rounded-2xl text-xs sm:text-sm shadow-lg transition transform hover:scale-105 inline-flex items-center gap-2">' +
+                            '<i class="fas fa-user-check"></i> Ingresar mi ID' +
                         '</button>' +
                     '</div>';
                 return;
             }
 
-            // Si su perfil es de Elektra, AT&T, Movistar o Coppel, depende 100% de su cadena registrada
-            const activeKey = profileChainKey || manualOverrideKey;
+            const activeKey = isAud ? (manualOverrideKey || 'elektra') : profileChainKey;
 
             if (!activeKey) {
-                // Caso: perfil registrado como OPPO Elite (supervisor/capacitador) u otra cadena sin liga F2F propia
+                if (selectorBox) selectorBox.classList.add('hidden');
                 container.innerHTML =
                     '<div class="bg-white rounded-3xl p-6 shadow-sm border-2 border-dashed border-amber-400/50 text-center">' +
                         '<div class="w-14 h-14 rounded-2xl bg-amber-400/15 text-amber-500 flex items-center justify-center text-2xl mx-auto mb-3">' +
                             '<i class="fas fa-store"></i>' +
                         '</div>' +
-                        '<h4 class="text-lg font-black text-gray-800 mb-1">Perfil registrado en: ' + profile.cadena + '</h4>' +
-                        '<p class="text-xs sm:text-sm text-gray-500 max-w-lg mx-auto mb-4">' +
-                            'Las evaluaciones F2F activas est&aacute;n segmentadas para <strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> y <strong>Coppel</strong>. Si perteneces a una de ellas, actualiza tu perfil; o si eres supervisor/capacitador, selecciona abajo la cadena que est&aacute;s visitando.' +
+                        '<h4 class="text-lg font-black text-gray-800 mb-1">Cadena asignada: ' + (profile.cadena_oficial || profile.cadena) + '</h4>' +
+                        '<p class="text-xs sm:text-sm text-gray-500 max-w-lg mx-auto">' +
+                            'Las evaluaciones F2F activas aplican exclusivamente para piso de venta en <strong>Elektra</strong>, <strong>AT&amp;T / Movistar</strong> y <strong>Coppel</strong>.' +
                         '</p>' +
-                        '<button onclick="window.oppoProgress && window.oppoProgress.openProfileModal()" class="bg-oppogreen hover:bg-emerald-600 text-white font-bold py-2.5 px-5 rounded-xl text-xs sm:text-sm shadow transition inline-flex items-center gap-2">' +
-                            '<i class="fas fa-user-edit"></i> Actualizar Cadena en mi Perfil' +
-                        '</button>' +
                     '</div>';
-
-                if (selectorBox) selectorBox.classList.remove('hidden');
                 return;
             }
 
-            // Si tiene cadena propia asignada en su perfil, ocultar el selector manual
-            if (profileChainKey && selectorBox) {
-                selectorBox.classList.add('hidden');
-            } else if (!profileChainKey && selectorBox) {
-                selectorBox.classList.remove('hidden');
+            // Si es Auditor, siempre mostrar selector manual; si es Elite, ocultarlo
+            if (selectorBox) {
+                if (isAud) {
+                    selectorBox.classList.remove('hidden');
+                } else {
+                    selectorBox.classList.add('hidden');
+                }
             }
 
             const cfg = F2F_CATALOG[activeKey];
@@ -434,8 +431,6 @@
         function selectManualChain(key) {
             manualOverrideKey = key;
             sessionStorage.setItem('oppo_f2f_chain_override', key);
-            const selectorBox = document.getElementById('f2fChainSelectorBox');
-            if (selectorBox) selectorBox.classList.add('hidden');
             renderF2FSection();
             trackF2FEvent('seleccion_manual_' + key);
         }
@@ -501,19 +496,21 @@
         });
 
         document.addEventListener('DOMContentLoaded', function () {
+            if (window.portalAuth) {
+                window.portalAuth.requireAuth(function () {
+                    renderF2FSection();
+                });
+            } else {
+                renderF2FSection();
+            }
+        });
+        document.addEventListener('portal-auth-ready', function () {
+            manualOverrideKey = null;
+            sessionStorage.removeItem('oppo_f2f_chain_override');
             renderF2FSection();
-            // Actualizar automaticamente si el promotor guarda o edita su perfil en esta misma pantalla
-            const origSetItem = localStorage.setItem;
-            localStorage.setItem = function (key, val) {
-                origSetItem.apply(this, arguments);
-                if (key === 'oppo_promotor_profile_v1') {
-                    manualOverrideKey = null;
-                    sessionStorage.removeItem('oppo_f2f_chain_override');
-                    setTimeout(renderF2FSection, 50);
-                }
-            };
         });
     </script>
-    <script src="progreso.js?v=20261030_2"></script>
+    <script src="portal-auth.js?v=20261111"></script>
+    <script src="progreso.js?v=20261111"></script>
 </body>
 </html>
