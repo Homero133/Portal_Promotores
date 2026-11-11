@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compendio Maestro de Videos YouTube — Portal Elite 360°</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; background-color: #0b1120; color: #f1f5f9; }
+    .glass-card { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); transition: all 0.25s ease; }
+    .glass-card:hover { transform: translateY(-3px); border-color: rgba(5, 182, 112, 0.5); box-shadow: 0 12px 30px rgba(5, 182, 112, 0.15); }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between pb-16">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="index.portal.bak.html" class="w-9 h-9 rounded-xl bg-emerald-500 text-slate-950 flex items-center justify-center font-black text-sm shadow-lg shadow-emerald-500/20 hover:scale-105 transition" title="Ir al Home del Portal">
+          OP
+        </a>
+        <div>
+          <span class="text-[10px] font-black uppercase tracking-widest text-emerald-400">Portal Elite 360° &bull; Ecosistema Oficial</span>
+          <h1 class="text-sm sm:text-base font-bold text-white">Compendio Maestro de Videos de Entrenamiento</h1>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2 sm:space-x-3 text-xs font-semibold">
+        <a href="proyecto-maestro.html" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition flex items-center gap-1.5 border border-slate-700">
+          <i class="fa-solid fa-book-bookmark text-emerald-400"></i>
+          <span class="hidden sm:inline">Proyecto Maestro</span>
+        </a>
+        <a href="comisiones-noviembre.html" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition flex items-center gap-1.5 border border-slate-700">
+          <i class="fa-solid fa-calculator text-blue-400"></i>
+          <span class="hidden sm:inline">Simulador</span>
+        </a>
+        <a href="presentacion-ejecutiva.html" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition flex items-center gap-1.5 border border-slate-700">
+          <i class="fa-solid fa-desktop text-purple-400"></i>
+          <span class="hidden md:inline">Pitch</span>
+        </a>
+        <a href="Compendio_Maestro_Videos_YouTube_Portal_Elite.docx" download class="px-3.5 py-1.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold transition shadow-lg shadow-emerald-500/20 flex items-center gap-1.5">
+          <i class="fa-solid fa-file-word"></i>
+          <span>Descargar Word/Doc</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 flex-1 w-full space-y-8">
+
+    <!-- HERO HEADER -->
+    <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-slate-850 to-emerald-950 border border-emerald-500/30 p-6 sm:p-10 shadow-2xl">
+      <div class="relative z-10 max-w-3xl space-y-3">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/20 border border-red-500/40 text-red-400 text-xs font-black uppercase tracking-wider">
+          <i class="fa-brands fa-youtube"></i> Biblioteca Multimedia Oficial
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight">
+          45 Producciones en Video para Piso de Venta
+        </h2>
+        <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+          Catálogo integral de demostraciones de producto, certificaciones de resistencia, neuroventas, manejo de objeciones y cierres comerciales del <strong>Portal Elite 360°</strong>. Compatible con Google Docs y sincronizado en Google Drive.
+        </p>
+
+        <!-- FILTRO Y BUSCADOR EN VIVO -->
+        <div class="pt-4 flex flex-col sm:flex-row gap-3">
+          <div class="relative flex-1">
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-3.5 text-slate-400"></i>
+            <input type="text" id="videoSearch" onkeyup="filterVideos()" placeholder="Buscar video (ej: Reno, objeción, militar, IP69K, cierre, Hasselblad)..." class="w-full bg-slate-950/80 border border-slate-700 rounded-xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-400 focus:outline-none focus:border-emerald-400 transition shadow-inner">
+          </div>
+          <select id="categoryFilter" onchange="filterVideos()" class="bg-slate-950/80 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-emerald-400 transition">
+            <option value="ALL">Todas las Categorías (45)</option>
+            <option value="Serie A & A7 Pro 5G">Serie A & A7 Pro 5G (9)</option>
+            <option value="Serie Reno">Serie Reno (6)</option>
+            <option value="Serie Find X">Serie Find X (2)</option>
+            <option value="Inteligencia Artificial (OPPO AI)">OPPO AI Suite (4)</option>
+            <option value="Tecnología & ColorOS">Tecnología & ColorOS (5)</option>
+            <option value="Tutoriales & Soporte">Tutoriales & Soporte (6)</option>
+            <option value="Neuroventas & Abordaje">Neuroventas & Abordaje (4)</option>
+            <option value="Manejo de Objeciones">Manejo de Objeciones (4)</option>
+            <option value="Técnicas de Cierre">Técnicas de Cierre (5)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEO DE RESULTADOS -->
+    <div class="flex items-center justify-between text-xs text-slate-400 px-1">
+      <span id="videoStats">Mostrando 45 videos oficiales</span>
+      <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i> Enlaces directos a YouTube validados</span>
+    </div>
+
+    <!-- GRID DE VIDEOS -->
+    <div id="videosGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Los videos se renderizan con JavaScript -->
+    </div>
+
+  </main>
+
+  <footer class="mt-16 border-t border-slate-800 pt-6 text-center text-xs text-slate-500">
+    <p>Portal Elite 360° &bull; Todos los derechos reservados &bull; Noviembre 2026</p>
+    <p class="mt-1">Archivo Word sincronizado: <code class="text-slate-400">Portal_Promotores/Compendio_Maestro_Videos_YouTube_Portal_Elite.docx</code></p>
+  </footer>
+
+  <script>
+    const videosData = [
+      { num: 1, cat: "Serie A & A7 Pro 5G", title: "Resistencia Grado Militar A7 Pro 5G", id: "eMzoj1D8BuE", desc: "Demostración de durabilidad extrema y blindaje de chasis para usuarios de uso rudo.", file: "a7-pro-5g.html" },
+      { num: 2, cat: "Serie A & A7 Pro 5G", title: "Carga Reversible (Comparte energía)", id: "yIsJYE4ISNk", desc: "Argumento de cierre: usar el teléfono como batería externa para audífonos y otros celulares.", file: "a7-pro-5g.html" },
+      { num: 3, cat: "Serie A & A7 Pro 5G", title: "Certificación IP69K (Café caliente a 80°C)", id: "cImwExhU0E8", desc: "Prueba extrema contra chorros de agua a alta presión y temperatura. Diferencial único.", file: "a7-pro-5g.html" },
+      { num: 4, cat: "Serie A & A7 Pro 5G", title: "Prueba de Caída Extrema A7 Pro", id: "dtBWua0FQYI", desc: "Impactos sobre superficies duras demostrando la elasticidad de pantalla y esquinas reforzadas.", file: "a7-pro-5g.html" },
+      { num: 5, cat: "Serie A & A7 Pro 5G", title: "Rompiendo Dulces con la Pantalla (Dureza)", id: "ppXGDoyd6io", desc: "Demostración visual e interactiva de resistencia al rayado y golpes para el mostrador.", file: "a7-pro-5g.html" },
+      { num: 6, cat: "Serie A & A7 Pro 5G", title: "OPPO A6: Diseño y Especificaciones Clave", id: "OGOiKpTwrGs", desc: "Argumentario de venta del modelo base de entrada con gran batería y estética premium.", file: "serie-a.html" },
+      { num: 7, cat: "Serie A & A7 Pro 5G", title: "Certificación IP69 en OPPO A6", id: "CkmlybnER0g", desc: "Cómo explicar la resistencia al agua y polvo a clientes con presupuestos ajustados.", file: "serie-a.html" },
+      { num: 8, cat: "Serie A & A7 Pro 5G", title: "Puntos Clave del OPPO A6k", id: "AUELsBnxAE8", desc: "Diferenciadores de memoria, pantalla y precio para competir en cadenas masivas.", file: "serie-a.html" },
+      { num: 9, cat: "Serie A & A7 Pro 5G", title: "Ventajas Competitivas del OPPO A6t", id: "q2pN7liYddo", desc: "El smartphone ideal para primer empleo, estudiantes y transporte público.", file: "serie-a.html" },
+
+      { num: 10, cat: "Serie Reno", title: "Resumen y Beneficios del Reno 16F", id: "eFHqbvl9SfQ", desc: "El dispositivo foco por excelencia: cámara de retrato, diseño delgado y alta comisión.", file: "serie-reno.html" },
+      { num: 11, cat: "Serie Reno", title: "Reno 16 como Alternativa a iPhone", id: "7vVrprscToE", desc: "Argumentario de migración para usuarios de iOS que buscan mejor batería y cámara con IA.", file: "serie-reno.html" },
+      { num: 12, cat: "Serie Reno", title: "Comparativa de Rendimiento y Foto vs iPhone", id: "K9Ri0pyV9Bw", desc: "Prueba lado a lado de fluidez del sistema y fotografías en condiciones de poca luz.", file: "serie-reno.html" },
+      { num: 13, cat: "Serie Reno", title: "Certificación IP69K en Serie Reno", id: "uE1hpafAxjI", desc: "Cómo vender resistencia de gama alta sin sacrificar elegancia y grosor mínimo.", file: "serie-reno.html" },
+      { num: 14, cat: "Serie Reno", title: "Conoce el Reno 14F: Diseño y Funciones", id: "0UdxmWS6XEI", desc: "Repaso del antecesor y su posicionamiento en promociones y remates de inventario.", file: "serie-reno.html" },
+      { num: 15, cat: "Serie Reno", title: "Flash Fiesta: Fotografía Nocturna Avanzada", id: "A0nmSwMeY2o", desc: "Cómo activar la iluminación creativa para fotos de conciertos y reuniones con amigos.", file: "serie-reno.html" },
+
+      { num: 16, cat: "Serie Find X", title: "Find X: Innovaciones del Tope de Gama", id: "iQlywdNl50M", desc: "Presentación del flagship para clientes ejecutivos y amantes de la máxima tecnología.", file: "serie-find.html" },
+      { num: 17, cat: "Serie Find X", title: "Magia del Teleobjetivo y Zoom Hasselblad", id: "lhaKFp0Zogo", desc: "Técnicas para demostrar la calibración de color natural Hasselblad y zoom periscópico.", file: "serie-find.html" },
+
+      { num: 18, cat: "Inteligencia Artificial (OPPO AI)", title: "AI Mind Space: Tu Asistente Personal", id: "Xg-DvC2Od78", desc: "Demostración de cómo la IA organiza notas, tareas, vuelos y compras en un solo espacio.", file: "oppo-ia.html" },
+      { num: 19, cat: "Inteligencia Artificial (OPPO AI)", title: "Funciones y Herramientas de Mind Pilot", id: "0MFl15Ztm48", desc: "Resumen automático de grabaciones de voz y artículos web para ejecutivos y estudiantes.", file: "oppo-ia.html" },
+      { num: 20, cat: "Inteligencia Artificial (OPPO AI)", title: "Asistente Financiero con IA", id: "Oso4-p7EMyQ", desc: "Gestión inteligente de presupuestos y control de gastos directos desde el sistema.", file: "oppo-ia.html" },
+      { num: 21, cat: "Inteligencia Artificial (OPPO AI)", title: "Traductor de Pantalla y Menús en Vivo", id: "8TwNL9GTPro", desc: "Traducción instantánea con cámara y selección de texto sin salir de redes sociales.", file: "oppo-ia.html" },
+
+      { num: 22, cat: "Tecnología & ColorOS", title: "ColorOS y Motor Trinity Engine", id: "PXOuUyj2OU0", desc: "Demostración en segundos de la fluidez sin lag por más de 48 meses y multitarea rápida.", file: "tecnologia.html" },
+      { num: 23, cat: "Tecnología & ColorOS", title: "O+ Connect: Conexión con iPhone y PC", id: "bRwK9ZDr1eo", desc: "Cómo transferir fotos, archivos y Live Photos hacia dispositivos iOS y Windows sin cables.", file: "tecnologia.html" },
+      { num: 24, cat: "Tecnología & ColorOS", title: "Llamadas BeaconLink sin Red Celular", id: "X8rAR_8X9Gs", desc: "La tecnología de comunicación directa por Bluetooth de largo alcance para zonas sin señal.", file: "tecnologia.html" },
+      { num: 25, cat: "Tecnología & ColorOS", title: "OPPO Bubble: Notificaciones Dinámicas", id: "4J_a1p5ZGNY", desc: "Uso práctico de la cápsula flotante de información en tiempo real para música y viajes.", file: "capsulas.html" },
+      { num: 26, cat: "Tecnología & ColorOS", title: "Cómo Vender OPPO Bubble en Piso", id: "B7oOMGf5IVI", desc: "Demostración al cliente de la comodidad de controlar cronómetros y apps con un toque.", file: "tecnologia.html" },
+
+      { num: 27, cat: "Tutoriales & Soporte", title: "Borrador IA: Elimina Objetos de Fotos", id: "cbnkfMQ2b6E", desc: "La herramienta más vendedora en piso: quitar personas intrusas de fotografías frente al cliente.", file: "tutoriales.html" },
+      { num: 28, cat: "Tutoriales & Soporte", title: "Cómo Activar BeaconLink Paso a Paso", id: "duuHE3fQYrw", desc: "Tutorial técnico para emparejar dos dispositivos y realizar llamadas de rescate.", file: "tutoriales.html" },
+      { num: 29, cat: "Tutoriales & Soporte", title: "Caja Fuerte Privada: Proteger Fotos", id: "f1Yc9MXEZhw", desc: "Argumento de privacidad bancaria y protección contra accesos no autorizados.", file: "tutoriales.html" },
+      { num: 30, cat: "Tutoriales & Soporte", title: "Personalización de Pantalla de Bloqueo", id: "Am15k-VoQVA", desc: "Ajuste de profundidad de reloj y efectos visuales para enamorar al comprador visual.", file: "tutoriales.html" },
+      { num: 31, cat: "Tutoriales & Soporte", title: "Barra Lateral Inteligente y Multiventana", id: "3CF9J189AhM", desc: "Configuración de accesos directos para clientes que usan banca digital y WhatsApp a la vez.", file: "tutoriales.html" },
+      { num: 32, cat: "Tutoriales & Soporte", title: "Proceso Oficial de Garantía Send-In", id: "JxotNm2qZGs", desc: "Cómo dar tranquilidad al cliente con el servicio postventa y reparación con recolección a domicilio.", file: "tutoriales.html" },
+
+      { num: 33, cat: "Neuroventas & Abordaje", title: "Aprende a Leer a Cualquier Persona en 60s", id: "W94H_4fYjrg", desc: "Detección rápida de tipología de comprador: visual, analítico, emocional o pragmático.", file: "ventas.html" },
+      { num: 34, cat: "Neuroventas & Abordaje", title: "La Venta Consultiva en Telefonía", id: "mUbzZ8WnJMQ", desc: "Cómo pasar de ser un tomador de pedidos a un consultor de confianza que vende gamas altas.", file: "ventas.html" },
+      { num: 35, cat: "Neuroventas & Abordaje", title: "Domina el Efecto WOW frente al Mostrador", id: "wuge6mbhoqA", desc: "Las tres demostraciones clave que generan sorpresa y emoción de compra inmediata.", file: "capsulas.html" },
+      { num: 36, cat: "Neuroventas & Abordaje", title: "Lenguaje No Verbal y Postura de Confianza", id: "eSLuPJJWjDA", desc: "Manejo del espacio físico, contacto visual y sonrisa profesional en piso de venta.", file: "ventas.html" },
+
+      { num: 37, cat: "Manejo de Objeciones", title: "Objeción: 'El Teléfono es Muy Caro'", id: "EPsShS_ndKU", desc: "Técnicas de desglosamiento del costo diario y comparación con beneficios de durabilidad.", file: "ventas.html" },
+      { num: 38, cat: "Manejo de Objeciones", title: "Objeción: 'No Conozco Mucho la Marca'", id: "0KKUK3nD76g", desc: "Respaldo corporativo global, patrocinios internacionales (UEFA) y centros de servicio oficiales.", file: "ventas.html" },
+      { num: 39, cat: "Manejo de Objeciones", title: "Objeción: Comparación con la Competencia", id: "u2wdb3J5wCY", desc: "Reenfocar la conversación hacia la garantía extendida, carga rápida incluida y mejor pantalla.", file: "ventas.html" },
+      { num: 40, cat: "Manejo de Objeciones", title: "Objeción: 'Lo Voy a Pensar / Vuelvo Luego'", id: "_xenqYWztiI", desc: "Estrategias para crear urgencia positiva mediante promociones activas sin presionar.", file: "ventas.html" },
+
+      { num: 41, cat: "Técnicas de Cierre", title: "Cierre Presuntivo: Asumir la Compra", id: "w_p6RJGNPOE", desc: "Frases y transiciones para acompañar al cliente hacia caja de forma fluida y sin fricción.", file: "ventas.html" },
+      { num: 42, cat: "Técnicas de Cierre", title: "Cierre Directo: Para Clientes Seguros", id: "WlWCCs7_R4A", desc: "Cuándo y cómo pedir la venta de frente sin vacilaciones.", file: "ventas.html" },
+      { num: 43, cat: "Técnicas de Cierre", title: "Cierre Alternativo: La Elección Guiada", id: "Bus_Q9V1ZjM", desc: "¿Te lo preparo en color verde o en color negro? Ambas opciones conducen al cierre exitoso.", file: "ventas.html" },
+      { num: 44, cat: "Técnicas de Cierre", title: "Cierre de Prueba: Mide la Temperatura", id: "GRjUV4YRe9o", desc: "Validar si el cliente ya visualiza el equipo en su día a día antes del trámite final.", file: "ventas.html" },
+      { num: 45, cat: "Técnicas de Cierre", title: "Cierre de Resumen: Recapitulación de Valor", id: "VZwVcG333ok", desc: "Enumerar los 3 puntos que le encantaron al cliente para sellar el acuerdo de forma contundente.", file: "ventas.html" }
+    ];
+
+    function renderVideos(list) {
+      const grid = document.getElementById('videosGrid');
+      grid.innerHTML = '';
+      
+      list.forEach(v => {
+        const card = document.createElement('div');
+        card.className = 'glass-card rounded-2xl overflow-hidden flex flex-col justify-between';
+        card.innerHTML = `
+          <div>
+            <div class="relative group aspect-video bg-black overflow-hidden">
+              <img src="https://img.youtube.com/vi/${v.id}/hqdefault.jpg" alt="${v.title}" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+              <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" class="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+                <div class="w-12 h-12 rounded-full bg-red-600 text-white flex items-center justify-center text-lg shadow-lg">
+                  <i class="fa-solid fa-play ml-1"></i>
+                </div>
+              </a>
+              <span class="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-slate-950/80 backdrop-blur-sm text-[10px] font-bold text-slate-300 border border-slate-700">
+                #${v.num}
+              </span>
+              <span class="absolute bottom-2 right-2 px-2 py-0.5 rounded-md bg-red-600/90 text-[10px] font-black text-white">
+                YouTube
+              </span>
+            </div>
+            <div class="p-4 space-y-2">
+              <span class="inline-block text-[10px] font-bold uppercase tracking-wider text-emerald-400">
+                ${v.cat}
+              </span>
+              <h3 class="font-bold text-sm text-white line-clamp-1" title="${v.title}">
+                ${v.title}
+              </h3>
+              <p class="text-xs text-slate-400 line-clamp-2 leading-relaxed">
+                ${v.desc}
+              </p>
+            </div>
+          </div>
+          <div class="p-4 pt-0 border-t border-slate-800/80 flex items-center justify-between text-xs mt-2">
+            <span class="text-[11px] text-slate-500 font-mono">
+              <i class="fa-regular fa-file-code mr-1"></i>${v.file}
+            </span>
+            <a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" class="font-bold text-emerald-400 hover:text-emerald-300 flex items-center gap-1 transition">
+              <span>Ver Video</span>
+              <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            </a>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+
+      document.getElementById('videoStats').textContent = `Mostrando ${list.length} de ${videosData.length} videos oficiales`;
+    }
+
+    function filterVideos() {
+      const query = document.getElementById('videoSearch').value.toLowerCase().trim();
+      const cat = document.getElementById('categoryFilter').value;
+
+      const filtered = videosData.filter(v => {
+        const matchesCat = (cat === 'ALL' || v.cat === cat);
+        const matchesQuery = !query || 
+          v.title.toLowerCase().includes(query) || 
+          v.desc.toLowerCase().includes(query) || 
+          v.cat.toLowerCase().includes(query) ||
+          v.id.toLowerCase().includes(query);
+        return matchesCat && matchesQuery;
+      });
+
+      renderVideos(filtered);
+    }
+
+    // Inicializar
+    document.addEventListener('DOMContentLoaded', () => {
+      renderVideos(videosData);
+    });
+  </script>
+
+</body>
+</html>
