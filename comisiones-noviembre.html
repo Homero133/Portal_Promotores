@@ -1196,7 +1196,7 @@
 
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1">
                         <div>
-                            <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Panorama Visual &bull; Corte 09 Nov</span>
+                            <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Panorama Visual &bull; Corte 11 Nov</span>
                             <h3 id="supChartTitle" class="text-base sm:text-xl font-black text-gray-800">Alcance de Promotores</h3>
                             <p id="supChartSubtitle" class="text-[11px] sm:text-xs text-gray-500">Ordenados por % de alcance.</p>
                         </div>
@@ -1250,13 +1250,13 @@
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
                         <div class="lg:col-span-7">
                             <div class="text-xs font-black text-gray-500 uppercase mb-2 flex justify-between">
-                                <span>Noviembre 2026 (Corte D&iacute;a 9)</span>
+                                <span>Noviembre 2026 (Corte D&iacute;a 11)</span>
                                 <span>Intensidad = Activadas/d&iacute;a</span>
                             </div>
                             <div id="supGlobalCalendar" class="space-y-1"></div>
                         </div>
                         <div class="lg:col-span-5 bg-gray-50 rounded-2xl p-4 border border-gray-200/80 space-y-3">
-                            <h4 class="text-xs font-black uppercase text-gray-700">Curva Diaria (Nov 1 – 9)</h4>
+                            <h4 class="text-xs font-black uppercase text-gray-700">Curva Diaria (Nov 1 – 11)</h4>
                             <div style="height: 200px;">
                                 <canvas id="supGlobalTrendChart"></canvas>
                             </div>
@@ -1403,7 +1403,7 @@
         }
 
         
-        // El día evaluado corresponde al corte oficial de comisiones-data.js (Día 9)
+        // El día evaluado corresponde al corte oficial de comisiones-data.js (Día 11)
         function getDefaultEvaluatedDay() {
             if (window.PORTAL_COMISIONES_META && window.PORTAL_COMISIONES_META.cutoffDay) {
                 return window.PORTAL_COMISIONES_META.cutoffDay;
@@ -3062,13 +3062,14 @@
         }
 
         function buildNovemberCalendarHtml(dailyMap) {
+            const cutoff = (window.PORTAL_SUPERVISORES_DATA && window.PORTAL_SUPERVISORES_DATA.meta && window.PORTAL_SUPERVISORES_DATA.meta.cutoffDay) || 11;
             const headers = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
             let html = '<div class="cal-grid mb-1">' + headers.map(h => `<div class="text-center text-[10px] font-black text-gray-400 py-1">${h}</div>`).join('') + '</div><div class="cal-grid">';
             for (let pad = 0; pad < 6; pad++) html += '<div></div>';
             const vals = Object.keys(dailyMap).map(k => dailyMap[k] || 0);
             const maxVal = Math.max(1, ...vals);
             for (let day = 1; day <= 30; day++) {
-                const isPassed = day <= 9;
+                const isPassed = day <= cutoff;
                 const count = dailyMap[String(day)] || 0;
                 let cls = 'bg-gray-100 text-gray-400 border-gray-200';
                 if (!isPassed) cls = 'bg-gray-50 text-gray-300 border-dashed border-gray-200';
@@ -3082,9 +3083,10 @@
 
         function renderGlobalCalendar() {
             if (!currentSup) return;
+            const cutoff = (window.PORTAL_SUPERVISORES_DATA && window.PORTAL_SUPERVISORES_DATA.meta && window.PORTAL_SUPERVISORES_DATA.meta.cutoffDay) || 11;
             const daily = (currentSup.ventas_corte || {}).daily_netas || {};
             document.getElementById('supGlobalCalendar').innerHTML = buildNovemberCalendarHtml(daily);
-            const days = [1,2,3,4,5,6,7,8,9];
+            const days = Array.from({ length: cutoff }, (_, i) => i + 1);
             const counts = days.map(d => daily[String(d)] || 0);
             let bestDay = 1, worstDay = 1;
             days.forEach(d => {
@@ -3111,6 +3113,7 @@
         function openSupEntityModal(idx) {
             const row = (window._supTableRows || [])[idx];
             if (!row || !currentSup) return;
+            const cutoff = (window.PORTAL_SUPERVISORES_DATA && window.PORTAL_SUPERVISORES_DATA.meta && window.PORTAL_SUPERVISORES_DATA.meta.cutoffDay) || 11;
             const isFarmer = currentSup.role === 'farmer';
             const showStores = row.isStore || (!isFarmer || farmerViewSubMode === 'tienda');
             document.getElementById('modalEntityBadge').textContent = showStores ? 'Tienda Asignada' : 'Promotor Elite';
@@ -3121,7 +3124,7 @@
             document.getElementById('modalKpiFoco').textContent = `${row.focoNet} / ${row.focoTgt}`;
 
             const daily = row.daily || {};
-            const days = [1,2,3,4,5,6,7,8,9];
+            const days = Array.from({ length: cutoff }, (_, i) => i + 1);
             const counts = days.map(d => daily[String(d)] || 0);
             const zeroDays = days.filter(d => (daily[String(d)] || 0) === 0).length;
             const bestDay = days.reduce((a, b) => (daily[String(b)] || 0) > (daily[String(a)] || 0) ? b : a, 1);

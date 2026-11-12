@@ -1,17 +1,10 @@
-/**
- * Base de Datos Oficial de Promotores y Ventas Validadas al Corte
- * Corte al Día 9 (Semana Cerrada a 09/11/2026 23:59:59)
- * Tolerancia de Activación: +-10 Días Naturales
- * Total Promotores: 710 | Ventas Netas Validadas: 1355
- */
-window.PORTAL_COMISIONES_META = {
-  "cutoffDay": 9,
-  "cutoffDate": "2026-11-09",
+/**\n * Base de Datos Oficial de Promotores y Ventas Validadas al Corte\n * Corte al Día 11 (Cerrado a 11/11/2026 23:59:59)\n * Tolerancia de Activación: +-10 Días Naturales\n * Total Promotores: 710 | Ventas Netas Validadas: 1576\n */\nwindow.PORTAL_COMISIONES_META = {
+  "cutoffDay": 11,
+  "cutoffDate": "2026-11-11",
   "toleranceDays": 10,
   "totalPromoters": 710,
-  "netSales": 1355
-};
-window.PORTAL_COMISIONES_DATA = [
+  "netSales": 1576
+};\nwindow.PORTAL_COMISIONES_DATA = [
   {
     "id": "MR920019",
     "nombre": "AGUILAR FLORES YAEL YIREH",
@@ -35,7 +28,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -65,7 +84,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -95,7 +140,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -126,7 +197,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -156,7 +253,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -186,7 +309,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -216,7 +365,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -247,7 +422,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -277,7 +478,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -307,7 +534,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -338,7 +591,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -368,7 +647,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -398,7 +703,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -428,7 +759,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -458,7 +815,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -489,7 +872,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -519,7 +928,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -549,7 +984,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -579,7 +1040,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -609,7 +1096,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -639,7 +1152,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -669,7 +1208,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -699,7 +1264,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -729,7 +1320,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -759,7 +1376,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -789,7 +1432,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -819,7 +1488,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -850,7 +1545,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -880,7 +1601,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -910,7 +1657,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -940,7 +1713,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -970,7 +1769,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1000,7 +1825,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1030,7 +1881,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1060,7 +1937,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1091,7 +1994,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1121,7 +2050,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1151,7 +2106,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1182,7 +2163,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1213,7 +2220,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1243,7 +2276,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1274,7 +2333,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1304,7 +2389,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1334,7 +2445,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1364,7 +2501,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1395,7 +2558,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1425,7 +2614,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1456,7 +2671,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1486,7 +2727,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1516,7 +2783,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1546,7 +2839,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1576,7 +2895,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1606,7 +2951,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
@@ -1637,7 +3008,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1667,7 +3064,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1697,7 +3120,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1727,7 +3176,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1757,7 +3232,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1788,7 +3289,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1818,7 +3345,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1849,7 +3402,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1880,7 +3459,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1910,7 +3515,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -1941,7 +3572,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -1972,7 +3629,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -2003,7 +3686,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -2034,7 +3743,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -2065,7 +3800,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -2095,7 +3856,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -2126,7 +3913,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -2157,7 +3970,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
@@ -2188,7 +4027,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2218,7 +4083,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2248,7 +4139,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2278,7 +4195,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2308,7 +4251,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2338,7 +4307,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2368,7 +4363,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2398,7 +4419,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2428,7 +4475,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2458,7 +4531,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2488,7 +4587,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2518,7 +4643,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2548,7 +4699,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2578,7 +4755,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2608,7 +4811,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2638,7 +4867,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2668,7 +4923,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2698,7 +4979,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2728,7 +5035,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2758,7 +5091,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2788,7 +5147,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2818,7 +5203,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2848,7 +5259,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2878,7 +5315,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2908,7 +5371,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2938,7 +5427,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2968,7 +5483,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -2998,7 +5539,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3028,7 +5595,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3058,7 +5651,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3088,7 +5707,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3118,7 +5763,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3148,7 +5819,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3178,7 +5875,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3208,7 +5931,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3238,7 +5987,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3268,7 +6043,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3298,7 +6099,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3328,7 +6155,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3358,7 +6211,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3388,7 +6267,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3418,7 +6323,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3448,7 +6379,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3478,7 +6435,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3508,7 +6491,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3538,7 +6547,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3568,7 +6603,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3598,7 +6659,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3628,7 +6715,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3658,7 +6771,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3688,7 +6827,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3718,7 +6883,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3748,7 +6939,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3778,7 +6995,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3808,7 +7051,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3838,7 +7107,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3868,7 +7163,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3898,7 +7219,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3928,7 +7275,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3958,7 +7331,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -3988,7 +7387,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4018,7 +7443,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4048,7 +7499,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4078,7 +7555,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4108,7 +7611,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4138,7 +7667,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4168,7 +7723,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4198,7 +7779,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4228,7 +7835,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4258,7 +7891,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4288,7 +7947,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4318,7 +8003,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4348,7 +8059,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4378,7 +8115,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4408,7 +8171,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4438,7 +8227,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4468,7 +8283,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4498,7 +8339,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4528,7 +8395,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4558,7 +8451,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4588,7 +8507,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4618,7 +8563,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4648,7 +8619,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4678,7 +8675,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4708,7 +8731,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4738,7 +8787,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4768,7 +8843,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4798,7 +8899,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4828,7 +8955,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4858,7 +9011,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4888,7 +9067,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4918,7 +9123,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4948,7 +9179,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -4978,7 +9235,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5008,7 +9291,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5038,7 +9347,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5068,7 +9403,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5098,7 +9459,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5128,7 +9515,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5158,7 +9571,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5188,7 +9627,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5218,7 +9683,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5248,7 +9739,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5278,7 +9795,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5308,7 +9851,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5338,7 +9907,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5368,7 +9963,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5398,7 +10019,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5428,7 +10075,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5458,7 +10131,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5488,7 +10187,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5518,7 +10243,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5548,7 +10299,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5578,7 +10355,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5608,7 +10411,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5638,7 +10467,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5668,7 +10523,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5698,7 +10579,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5728,7 +10635,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5758,7 +10691,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5788,7 +10747,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5818,7 +10803,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5848,7 +10859,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5878,7 +10915,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5908,7 +10971,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5938,7 +11027,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5968,7 +11083,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -5998,7 +11139,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6028,7 +11195,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6058,7 +11251,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6088,7 +11307,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6118,7 +11363,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6148,7 +11419,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6178,7 +11475,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6208,7 +11531,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6238,7 +11587,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6268,7 +11643,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6298,7 +11699,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6328,7 +11755,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6358,7 +11811,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6388,7 +11867,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6418,7 +11923,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6448,7 +11979,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6478,7 +12035,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6508,7 +12091,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6538,7 +12147,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6568,7 +12203,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6598,7 +12259,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6628,7 +12315,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6658,7 +12371,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6688,7 +12427,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6718,7 +12483,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6748,7 +12539,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6778,7 +12595,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6808,7 +12651,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6838,7 +12707,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6868,7 +12763,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6898,7 +12819,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6928,7 +12875,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6958,7 +12931,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -6988,7 +12987,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7018,7 +13043,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7048,7 +13099,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7078,7 +13155,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7108,7 +13211,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7138,7 +13267,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7168,7 +13323,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7198,7 +13379,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7228,7 +13435,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7258,7 +13491,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -7288,7 +13547,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7318,7 +13603,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7348,7 +13659,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7378,7 +13715,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7408,7 +13771,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7438,7 +13827,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7468,7 +13883,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7498,7 +13939,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7528,7 +13995,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7558,7 +14051,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7588,7 +14107,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7618,7 +14163,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7648,7 +14219,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7678,7 +14275,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7708,7 +14331,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7738,7 +14387,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7768,7 +14443,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7798,7 +14499,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7828,7 +14555,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7858,7 +14611,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7888,7 +14667,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7918,7 +14723,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7948,7 +14779,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -7978,7 +14835,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8008,7 +14891,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8038,7 +14947,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8068,7 +15003,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8098,7 +15059,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8128,7 +15115,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8158,7 +15171,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8188,7 +15227,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8218,7 +15283,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8248,7 +15339,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8278,7 +15395,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8308,7 +15451,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8338,7 +15507,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8368,7 +15563,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8398,7 +15619,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8428,7 +15675,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8458,7 +15731,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8488,7 +15787,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8518,7 +15843,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8548,7 +15899,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8578,7 +15955,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8608,7 +16011,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8638,7 +16067,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8668,7 +16123,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8698,7 +16179,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8728,7 +16235,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8758,7 +16291,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8788,7 +16347,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8818,7 +16403,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8848,7 +16459,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8878,7 +16515,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8908,7 +16571,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8938,7 +16627,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8968,7 +16683,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -8998,7 +16739,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9028,7 +16795,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9058,7 +16851,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9088,7 +16907,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9118,7 +16963,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9148,7 +17019,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9178,7 +17075,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9208,7 +17131,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9238,7 +17187,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9268,7 +17243,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9298,7 +17299,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9328,7 +17355,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9358,7 +17411,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9388,7 +17467,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9418,7 +17523,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9448,7 +17579,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9478,7 +17635,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9508,7 +17691,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9538,7 +17747,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9568,7 +17803,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9598,7 +17859,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9628,7 +17915,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9658,7 +17971,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9688,7 +18027,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9718,7 +18083,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9748,7 +18139,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9778,7 +18195,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9808,7 +18251,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9838,7 +18307,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9868,7 +18363,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9898,7 +18419,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9928,7 +18475,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9958,7 +18531,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -9988,7 +18587,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10018,7 +18643,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10048,7 +18699,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10078,7 +18755,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10108,7 +18811,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10138,7 +18867,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10168,7 +18923,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10198,7 +18979,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10228,7 +19035,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10258,7 +19091,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10288,7 +19147,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10318,7 +19203,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10348,7 +19259,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10378,7 +19315,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10408,7 +19371,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10438,7 +19427,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10468,7 +19483,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10498,7 +19539,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10528,7 +19595,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10558,7 +19651,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10588,7 +19707,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10618,7 +19763,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10648,7 +19819,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10678,7 +19875,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10708,7 +19931,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10738,7 +19987,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10768,7 +20043,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10798,7 +20099,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10828,7 +20155,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10858,7 +20211,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10888,7 +20267,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10918,7 +20323,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10948,7 +20379,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -10978,7 +20435,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11008,7 +20491,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11038,7 +20547,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11068,7 +20603,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11098,7 +20659,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11128,7 +20715,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11158,7 +20771,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11188,7 +20827,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11218,7 +20883,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11248,7 +20939,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11278,7 +20995,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11308,7 +21051,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11338,7 +21107,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11368,7 +21163,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11398,7 +21219,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11428,7 +21275,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11458,7 +21331,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11488,7 +21387,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11518,7 +21443,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11548,7 +21499,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11578,7 +21555,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11608,7 +21611,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11638,7 +21667,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11668,7 +21723,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11698,7 +21779,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11728,7 +21835,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11758,7 +21891,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11788,7 +21947,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11818,7 +22003,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11848,7 +22059,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11878,7 +22115,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11908,7 +22171,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11938,7 +22227,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11968,7 +22283,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -11998,7 +22339,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12028,7 +22395,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12058,7 +22451,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12088,7 +22507,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12118,7 +22563,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12148,7 +22619,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12178,7 +22675,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12208,7 +22731,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12238,7 +22787,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12268,7 +22843,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12298,7 +22899,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12328,7 +22955,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12358,7 +23011,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12388,7 +23067,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12418,7 +23123,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12448,7 +23179,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12478,7 +23235,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12508,7 +23291,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12538,7 +23347,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12568,7 +23403,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12598,7 +23459,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12628,7 +23515,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12658,7 +23571,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12688,7 +23627,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12718,7 +23683,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12748,7 +23739,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12778,7 +23795,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12808,7 +23851,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12838,7 +23907,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12868,7 +23963,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12887,18 +24008,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 9,
-      "netas": 8,
+      "brutas": 11,
+      "netas": 10,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
-      "RENO_OTHERS": 0,
+      "RENO_OTHERS": 1,
       "A_HIGH": 0,
       "A_MIDDLE": 2,
-      "A_LOW": 4
+      "A_LOW": 4,
+      "daily_netas": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 2,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12917,18 +24064,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 22,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 14,
+      "brutas": 21,
+      "netas": 17,
       "no_activadas": 2,
-      "desfasadas": 0,
+      "desfasadas": 2,
       "RENO_16_5G": 0,
-      "RENO_16F": 3,
+      "RENO_16F": 6,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 7,
       "A_MIDDLE": 4,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 5,
+        "9": 2,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 5,
+        "9": 2,
+        "10": 0,
+        "11": 5
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12947,8 +24120,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 11,
     "tgt_foco": 29,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 6,
+      "brutas": 9,
+      "netas": 8,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -12956,9 +24129,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 0,
+      "A_HIGH": 1,
       "A_MIDDLE": 4,
-      "A_LOW": 1
+      "A_LOW": 2,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 3,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 4,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -12977,18 +24176,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 23,
-      "netas": 22,
-      "no_activadas": 1,
+      "brutas": 28,
+      "netas": 26,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 2,
-      "RENO_16F": 5,
+      "RENO_16F": 7,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 7,
-      "A_LOW": 3
+      "A_MIDDLE": 8,
+      "A_LOW": 4,
+      "daily_netas": {
+        "1": 1,
+        "2": 6,
+        "3": 1,
+        "4": 0,
+        "5": 3,
+        "6": 3,
+        "7": 0,
+        "8": 1,
+        "9": 8,
+        "10": 2,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 6,
+        "3": 1,
+        "4": 0,
+        "5": 3,
+        "6": 3,
+        "7": 0,
+        "8": 1,
+        "9": 8,
+        "10": 3,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13007,18 +24232,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 28,
     "ventas_corte": {
-      "brutas": 19,
-      "netas": 18,
+      "brutas": 25,
+      "netas": 23,
       "no_activadas": 1,
-      "desfasadas": 0,
+      "desfasadas": 1,
       "RENO_16_5G": 1,
-      "RENO_16F": 10,
+      "RENO_16F": 12,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 0,
-      "A_MIDDLE": 4,
-      "A_LOW": 3
+      "A_HIGH": 1,
+      "A_MIDDLE": 6,
+      "A_LOW": 3,
+      "daily_netas": {
+        "1": 1,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 5,
+        "6": 0,
+        "7": 3,
+        "8": 1,
+        "9": 4,
+        "10": 0,
+        "11": 4
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 5,
+        "6": 0,
+        "7": 3,
+        "8": 1,
+        "9": 4,
+        "10": 0,
+        "11": 6
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13037,9 +24288,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 32,
     "ventas_corte": {
-      "brutas": 27,
-      "netas": 22,
-      "no_activadas": 1,
+      "brutas": 29,
+      "netas": 23,
+      "no_activadas": 2,
       "desfasadas": 4,
       "RENO_16_5G": 0,
       "RENO_16F": 10,
@@ -13048,7 +24299,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 7,
       "A_MIDDLE": 4,
-      "A_LOW": 0
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 2,
+        "2": 6,
+        "3": 3,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 4,
+        "9": 5,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 7,
+        "3": 4,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 6,
+        "9": 6,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13067,8 +24344,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 17,
     "ventas_corte": {
-      "brutas": 23,
-      "netas": 20,
+      "brutas": 24,
+      "netas": 21,
       "no_activadas": 0,
       "desfasadas": 3,
       "RENO_16_5G": 0,
@@ -13077,8 +24354,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 2,
       "A_HIGH": 4,
-      "A_MIDDLE": 1,
-      "A_LOW": 9
+      "A_MIDDLE": 2,
+      "A_LOW": 9,
+      "daily_netas": {
+        "1": 7,
+        "2": 4,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 8,
+        "2": 4,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 5,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13097,18 +24400,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 11,
     "tgt_foco": 28,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 14,
+      "brutas": 20,
+      "netas": 18,
       "no_activadas": 1,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 8,
-      "A_MIDDLE": 4,
-      "A_LOW": 0
+      "A_MIDDLE": 6,
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 5,
+        "10": 2,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 6,
+        "10": 2,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13127,9 +24456,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 14,
-      "no_activadas": 2,
+      "brutas": 20,
+      "netas": 16,
+      "no_activadas": 4,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
@@ -13137,8 +24466,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 7,
-      "A_MIDDLE": 2,
-      "A_LOW": 3
+      "A_MIDDLE": 4,
+      "A_LOW": 3,
+      "daily_netas": {
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 2,
+        "9": 2,
+        "10": 2,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 4,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 5,
+        "8": 2,
+        "9": 3,
+        "10": 2,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13158,8 +24513,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 15,
     "ventas_corte": {
       "brutas": 6,
-      "netas": 5,
-      "no_activadas": 1,
+      "netas": 6,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 0,
@@ -13167,8 +24522,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_MIDDLE": 3,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -13187,8 +24568,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 6,
+      "brutas": 8,
+      "netas": 7,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 2,
@@ -13197,8 +24578,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 2,
       "A_HIGH": 1,
-      "A_MIDDLE": 0,
-      "A_LOW": 1
+      "A_MIDDLE": 1,
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 2,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13228,7 +24635,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 2,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13258,7 +24691,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13288,7 +24747,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13307,18 +24792,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 6,
-      "netas": 5,
+      "brutas": 7,
+      "netas": 6,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 0,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13337,18 +24848,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 1,
     "ventas_corte": {
-      "brutas": 4,
-      "netas": 4,
-      "no_activadas": 0,
+      "brutas": 11,
+      "netas": 10,
+      "no_activadas": 1,
       "desfasadas": 0,
-      "RENO_16_5G": 1,
-      "RENO_16F": 0,
+      "RENO_16_5G": 2,
+      "RENO_16F": 4,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_MIDDLE": 1,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 6
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 7
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13378,7 +24915,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -13397,18 +24960,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 8,
-      "netas": 7,
-      "no_activadas": 1,
+      "brutas": 10,
+      "netas": 8,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 2,
-      "A_HIGH": 2,
+      "A_HIGH": 3,
       "A_MIDDLE": 0,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -13427,8 +25016,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 4,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 10,
+      "brutas": 13,
+      "netas": 12,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -13436,9 +25025,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 1,
+      "A_HIGH": 3,
       "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 3,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -13457,18 +25072,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 16,
     "ventas_corte": {
-      "brutas": 18,
-      "netas": 18,
+      "brutas": 20,
+      "netas": 20,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 4,
-      "A_MIDDLE": 9,
-      "A_LOW": 1
+      "A_MIDDLE": 11,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 2,
+        "3": 5,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 1,
+        "10": 2,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 5,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 1,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13487,9 +25128,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 28,
+      "brutas": 29,
       "netas": 28,
-      "no_activadas": 0,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 4,
@@ -13498,7 +25139,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 8,
       "A_MIDDLE": 16,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 6,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 2,
+        "6": 1,
+        "7": 4,
+        "8": 6,
+        "9": 4,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 6,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 2,
+        "6": 1,
+        "7": 4,
+        "8": 6,
+        "9": 4,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13517,8 +25184,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 8,
-      "netas": 8,
+      "brutas": 10,
+      "netas": 10,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
@@ -13526,9 +25193,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 1,
-      "A_MIDDLE": 3,
-      "A_LOW": 2
+      "A_HIGH": 2,
+      "A_MIDDLE": 6,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 1,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13547,9 +25240,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 3,
     "ventas_corte": {
-      "brutas": 14,
-      "netas": 14,
-      "no_activadas": 0,
+      "brutas": 16,
+      "netas": 15,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
@@ -13557,8 +25250,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 3,
       "A_HIGH": 1,
-      "A_MIDDLE": 7,
-      "A_LOW": 0
+      "A_MIDDLE": 8,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 3,
+        "8": 7,
+        "9": 1,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 3,
+        "8": 7,
+        "9": 1,
+        "10": 1,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13577,18 +25296,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 16,
-      "no_activadas": 1,
+      "brutas": 20,
+      "netas": 18,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 8,
-      "A_MIDDLE": 7,
-      "A_LOW": 0
+      "A_MIDDLE": 8,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 1,
+        "6": 0,
+        "7": 4,
+        "8": 4,
+        "9": 3,
+        "10": 1,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 1,
+        "6": 0,
+        "7": 4,
+        "8": 4,
+        "9": 4,
+        "10": 2,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13607,18 +25352,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 7,
     "tgt_foco": 23,
     "ventas_corte": {
-      "brutas": 15,
-      "netas": 14,
-      "no_activadas": 1,
+      "brutas": 18,
+      "netas": 18,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 7,
+      "RENO_16F": 9,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_MIDDLE": 5,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 3,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 3,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13637,8 +25408,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 19,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 16,
+      "brutas": 20,
+      "netas": 19,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -13647,8 +25418,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_MIDDLE": 11,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 3,
+        "8": 7,
+        "9": 0,
+        "10": 2,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 3,
+        "8": 8,
+        "9": 0,
+        "10": 2,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13667,8 +25464,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 20,
-      "netas": 20,
+      "brutas": 23,
+      "netas": 23,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
@@ -13677,8 +25474,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 10,
-      "A_LOW": 0
+      "A_MIDDLE": 13,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 7,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 5,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 7,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 5,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13697,18 +25520,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 16,
-      "no_activadas": 0,
+      "brutas": 23,
+      "netas": 22,
+      "no_activadas": 1,
       "desfasadas": 0,
-      "RENO_16_5G": 0,
-      "RENO_16F": 4,
+      "RENO_16_5G": 1,
+      "RENO_16F": 5,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
-      "A_MIDDLE": 7,
-      "A_LOW": 0
+      "A_HIGH": 5,
+      "A_MIDDLE": 10,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 1,
+        "10": 3,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 1,
+        "10": 3,
+        "11": 4
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13727,18 +25576,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 21,
-      "netas": 19,
+      "brutas": 25,
+      "netas": 22,
       "no_activadas": 0,
-      "desfasadas": 2,
+      "desfasadas": 3,
       "RENO_16_5G": 1,
       "RENO_16F": 0,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
-      "A_MIDDLE": 10,
-      "A_LOW": 2
+      "A_MIDDLE": 15,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 4,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 5,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 5,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 5,
+        "8": 4,
+        "9": 0,
+        "10": 0,
+        "11": 4
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13757,18 +25632,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 7,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 15,
+      "brutas": 22,
+      "netas": 21,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 4,
+      "RENO_16F": 5,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 3,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_HIGH": 4,
+      "A_MIDDLE": 12,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 5,
+        "9": 0,
+        "10": 2,
+        "11": 4
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 6,
+        "9": 0,
+        "10": 2,
+        "11": 4
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13787,8 +25688,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 6,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 23,
-      "netas": 23,
+      "brutas": 25,
+      "netas": 25,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
@@ -13797,8 +25698,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
-      "A_MIDDLE": 14,
-      "A_LOW": 0
+      "A_MIDDLE": 16,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 5,
+        "3": 5,
+        "4": 1,
+        "5": 0,
+        "6": 3,
+        "7": 3,
+        "8": 5,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 5,
+        "3": 5,
+        "4": 1,
+        "5": 0,
+        "6": 3,
+        "7": 3,
+        "8": 5,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13817,18 +25744,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 7,
     "tgt_foco": 24,
     "ventas_corte": {
-      "brutas": 22,
-      "netas": 22,
+      "brutas": 24,
+      "netas": 24,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 5,
+      "RENO_16F": 6,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
+      "A_HIGH": 5,
       "A_MIDDLE": 10,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 6,
+        "3": 5,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 5,
+        "8": 0,
+        "9": 2,
+        "10": 2,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 6,
+        "3": 5,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 5,
+        "8": 0,
+        "9": 2,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13858,7 +25811,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 4,
       "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 3,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13877,18 +25856,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 24,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 11,
+      "brutas": 12,
+      "netas": 12,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 5,
+      "RENO_16F": 6,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 3,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 3,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 3,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13907,18 +25912,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 17,
+      "brutas": 20,
+      "netas": 20,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 3,
+      "RENO_16F": 4,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 11,
-      "A_LOW": 0
+      "A_MIDDLE": 13,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 6,
+        "9": 2,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 6,
+        "9": 2,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13948,7 +25979,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 2,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13967,18 +26024,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 1,
     "tgt_foco": 7,
     "ventas_corte": {
-      "brutas": 10,
-      "netas": 5,
+      "brutas": 12,
+      "netas": 6,
       "no_activadas": 0,
-      "desfasadas": 5,
+      "desfasadas": 6,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -13997,8 +26080,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 11,
+      "brutas": 13,
+      "netas": 12,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -14007,8 +26090,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 6,
-      "A_LOW": 0
+      "A_MIDDLE": 7,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 4,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14027,18 +26136,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 11,
     "tgt_foco": 19,
     "ventas_corte": {
-      "brutas": 19,
-      "netas": 19,
-      "no_activadas": 0,
+      "brutas": 22,
+      "netas": 21,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 2,
-      "A_MIDDLE": 13,
-      "A_LOW": 0
+      "A_HIGH": 3,
+      "A_MIDDLE": 14,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 3,
+        "10": 1,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 4,
+        "8": 4,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14057,8 +26192,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 15,
-      "netas": 15,
+      "brutas": 18,
+      "netas": 18,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -14066,9 +26201,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
-      "A_MIDDLE": 8,
-      "A_LOW": 1
+      "A_HIGH": 5,
+      "A_MIDDLE": 11,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 5,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 3,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 5,
+        "2": 2,
+        "3": 0,
+        "4": 1,
+        "5": 3,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14087,18 +26248,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 11,
+      "brutas": 17,
+      "netas": 15,
       "no_activadas": 0,
-      "desfasadas": 1,
+      "desfasadas": 2,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
-      "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_HIGH": 5,
+      "A_MIDDLE": 7,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 3,
+        "9": 1,
+        "10": 0,
+        "11": 4
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "11": 4
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14117,8 +26304,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 18,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 17,
+      "brutas": 19,
+      "netas": 19,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -14127,8 +26314,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_MIDDLE": 10,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 4,
+        "7": 2,
+        "8": 2,
+        "9": 3,
+        "10": 2,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 4,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 4,
+        "7": 2,
+        "8": 2,
+        "9": 3,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14147,8 +26360,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 16,
+      "brutas": 17,
+      "netas": 17,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -14157,8 +26370,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_MIDDLE": 6,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 4,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 4,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14177,18 +26416,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 14,
-      "netas": 14,
+      "brutas": 17,
+      "netas": 17,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_HIGH": 5,
+      "A_MIDDLE": 9,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 4,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 4,
+        "8": 1,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14207,8 +26472,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 17,
     "ventas_corte": {
-      "brutas": 13,
-      "netas": 12,
+      "brutas": 14,
+      "netas": 13,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -14217,8 +26482,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
-      "A_MIDDLE": 6,
-      "A_LOW": 1
+      "A_MIDDLE": 8,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14237,18 +26528,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 18,
-      "netas": 17,
-      "no_activadas": 1,
+      "brutas": 21,
+      "netas": 21,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
-      "A7_PRO": 2,
+      "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
-      "A_MIDDLE": 7,
-      "A_LOW": 0
+      "A_MIDDLE": 10,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 3,
+        "8": 4,
+        "9": 3,
+        "10": 1,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14267,18 +26584,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 23,
     "ventas_corte": {
-      "brutas": 31,
-      "netas": 30,
-      "no_activadas": 0,
+      "brutas": 35,
+      "netas": 33,
+      "no_activadas": 1,
       "desfasadas": 1,
       "RENO_16_5G": 1,
-      "RENO_16F": 9,
+      "RENO_16F": 11,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 14,
-      "A_LOW": 0
+      "A_MIDDLE": 15,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 7,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 4,
+        "8": 7,
+        "9": 5,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 8,
+        "2": 3,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 4,
+        "8": 7,
+        "9": 5,
+        "10": 1,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14297,9 +26640,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 16,
     "tgt_foco": 16,
     "ventas_corte": {
-      "brutas": 22,
+      "brutas": 23,
       "netas": 17,
-      "no_activadas": 0,
+      "no_activadas": 1,
       "desfasadas": 5,
       "RENO_16_5G": 1,
       "RENO_16F": 5,
@@ -14308,7 +26651,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 2,
       "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 6,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 4,
+        "8": 2,
+        "9": 2,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 9,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 1,
+        "7": 4,
+        "8": 2,
+        "9": 2,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14327,18 +26696,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 30,
-      "netas": 30,
+      "brutas": 33,
+      "netas": 33,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 3,
-      "RENO_16F": 4,
+      "RENO_16F": 5,
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 9,
-      "A_MIDDLE": 10,
-      "A_LOW": 0
+      "A_MIDDLE": 12,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 5,
+        "3": 0,
+        "4": 2,
+        "5": 3,
+        "6": 5,
+        "7": 4,
+        "8": 5,
+        "9": 3,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 5,
+        "3": 0,
+        "4": 2,
+        "5": 3,
+        "6": 5,
+        "7": 4,
+        "8": 5,
+        "9": 3,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14357,9 +26752,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 23,
-      "netas": 23,
-      "no_activadas": 0,
+      "brutas": 25,
+      "netas": 24,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 1,
       "RENO_16F": 7,
@@ -14367,8 +26762,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 6,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_MIDDLE": 9,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 6,
+        "2": 5,
+        "3": 3,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 3,
+        "8": 3,
+        "9": 1,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 6,
+        "2": 5,
+        "3": 3,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 3,
+        "8": 3,
+        "9": 1,
+        "10": 2,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14387,18 +26808,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 29,
-      "netas": 29,
+      "brutas": 35,
+      "netas": 34,
       "no_activadas": 0,
-      "desfasadas": 0,
+      "desfasadas": 1,
       "RENO_16_5G": 2,
-      "RENO_16F": 5,
+      "RENO_16F": 6,
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 9,
-      "A_MIDDLE": 9,
-      "A_LOW": 0
+      "A_HIGH": 10,
+      "A_MIDDLE": 12,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 5,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 6,
+        "7": 3,
+        "8": 5,
+        "9": 3,
+        "10": 3,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 5,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 6,
+        "7": 3,
+        "8": 5,
+        "9": 3,
+        "10": 3,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14417,18 +26864,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 20,
-      "netas": 17,
-      "no_activadas": 2,
+      "brutas": 24,
+      "netas": 22,
+      "no_activadas": 1,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 5,
+      "RENO_16F": 8,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 6,
-      "A_LOW": 0
+      "A_MIDDLE": 8,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 5,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 5,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 7,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1,
+        "8": 5,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14447,18 +26920,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 23,
     "ventas_corte": {
-      "brutas": 27,
-      "netas": 25,
+      "brutas": 28,
+      "netas": 26,
       "no_activadas": 1,
       "desfasadas": 1,
-      "RENO_16_5G": 2,
+      "RENO_16_5G": 3,
       "RENO_16F": 4,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
       "A_HIGH": 5,
       "A_MIDDLE": 10,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 4,
+        "2": 7,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 5,
+        "9": 3,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 4,
+        "2": 7,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 4,
+        "7": 0,
+        "8": 6,
+        "9": 3,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14488,7 +26987,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
       "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 3,
+        "2": 0,
+        "3": 3,
+        "4": 1,
+        "5": 5,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 0,
+        "3": 3,
+        "4": 2,
+        "5": 5,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14507,18 +27032,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 10,
-      "netas": 8,
+      "brutas": 14,
+      "netas": 12,
       "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 0,
       "A7_PRO": 2,
       "FIND": 0,
-      "RENO_OTHERS": 3,
-      "A_HIGH": 1,
+      "RENO_OTHERS": 5,
+      "A_HIGH": 3,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 0,
+        "10": 2,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 2,
+        "9": 0,
+        "10": 2,
+        "11": 2
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14537,18 +27088,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 1,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 10,
-      "no_activadas": 2,
+      "brutas": 21,
+      "netas": 20,
+      "no_activadas": 1,
       "desfasadas": 0,
-      "RENO_16_5G": 0,
-      "RENO_16F": 3,
+      "RENO_16_5G": 1,
+      "RENO_16F": 4,
       "A7_PRO": 0,
       "FIND": 0,
-      "RENO_OTHERS": 0,
-      "A_HIGH": 3,
-      "A_MIDDLE": 4,
-      "A_LOW": 0
+      "RENO_OTHERS": 3,
+      "A_HIGH": 6,
+      "A_MIDDLE": 6,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 5,
+        "7": 1,
+        "8": 0,
+        "9": 5,
+        "10": 5,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 5,
+        "7": 1,
+        "8": 0,
+        "9": 5,
+        "10": 6,
+        "11": 3
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14567,9 +27144,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 1,
+      "brutas": 2,
       "netas": 1,
-      "no_activadas": 0,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 0,
@@ -14578,7 +27155,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14597,18 +27200,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 6,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 6,
+      "brutas": 10,
+      "netas": 9,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 3,
-      "A_MIDDLE": 1,
-      "A_LOW": 0
+      "A_HIGH": 4,
+      "A_MIDDLE": 2,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 3,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 2,
+        "8": 0,
+        "9": 0,
+        "10": 3,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14627,18 +27256,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 16,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 12,
+      "brutas": 13,
+      "netas": 13,
       "no_activadas": 0,
       "desfasadas": 0,
-      "RENO_16_5G": 0,
+      "RENO_16_5G": 1,
       "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 1,
       "RENO_OTHERS": 1,
       "A_HIGH": 5,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 4,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14668,7 +27323,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 2,
       "A_HIGH": 3,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 4,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 4,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 4,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14698,7 +27379,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 8,
       "A_HIGH": 2,
       "A_MIDDLE": 2,
-      "A_LOW": 5
+      "A_LOW": 5,
+      "daily_netas": {
+        "1": 7,
+        "2": 0,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 0,
+        "9": 5,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 7,
+        "2": 0,
+        "3": 2,
+        "4": 2,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 0,
+        "9": 5,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14717,18 +27424,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 4,
-      "netas": 4,
+      "brutas": 5,
+      "netas": 5,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 0,
+      "RENO_16F": 1,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 2,
       "A_MIDDLE": 1,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 1,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 1,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14748,17 +27481,43 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 9,
     "ventas_corte": {
       "brutas": 6,
-      "netas": 5,
-      "no_activadas": 1,
+      "netas": 6,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 0,
+      "RENO_16F": 1,
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -14777,9 +27536,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 19,
+      "brutas": 20,
       "netas": 16,
-      "no_activadas": 1,
+      "no_activadas": 2,
       "desfasadas": 2,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
@@ -14788,7 +27547,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 3,
       "A_HIGH": 2,
       "A_MIDDLE": 5,
-      "A_LOW": 4
+      "A_LOW": 4,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 7,
+        "4": 1,
+        "5": 1,
+        "6": 3,
+        "7": 2,
+        "8": 1,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 8,
+        "4": 1,
+        "5": 1,
+        "6": 3,
+        "7": 2,
+        "8": 1,
+        "9": 3,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14818,7 +27603,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 2,
       "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 0,
+        "8": 3,
+        "9": 3,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 0,
+        "8": 3,
+        "9": 3,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14837,18 +27648,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 12,
     "tgt_foco": 29,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 16,
+      "brutas": 22,
+      "netas": 20,
       "no_activadas": 0,
-      "desfasadas": 1,
+      "desfasadas": 2,
       "RENO_16_5G": 0,
       "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 7,
-      "A_MIDDLE": 6,
-      "A_LOW": 0
+      "A_HIGH": 10,
+      "A_MIDDLE": 7,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 2,
+        "10": 2,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 0,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 3,
+        "10": 2,
+        "11": 3
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14867,18 +27704,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 13,
-      "netas": 13,
-      "no_activadas": 0,
+      "brutas": 20,
+      "netas": 18,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 4,
+      "RENO_16F": 7,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
-      "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_MIDDLE": 5,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 7,
+        "9": 1,
+        "10": 2,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 7,
+        "9": 1,
+        "10": 2,
+        "11": 5
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14908,7 +27771,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 2
+      "A_LOW": 2,
+      "daily_netas": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 3,
+        "8": 0,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 4,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 3,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14927,18 +27816,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 10,
-      "netas": 8,
-      "no_activadas": 2,
+      "brutas": 12,
+      "netas": 12,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 3,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
-      "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_MIDDLE": 7,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 4,
+        "9": 1,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14957,18 +27872,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 16,
+      "brutas": 17,
       "netas": 15,
       "no_activadas": 1,
-      "desfasadas": 0,
+      "desfasadas": 1,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 4,
-      "A_MIDDLE": 7,
-      "A_LOW": 2
+      "A_MIDDLE": 9,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 1,
+        "8": 2,
+        "9": 3,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 3,
+        "4": 0,
+        "5": 1,
+        "6": 3,
+        "7": 1,
+        "8": 3,
+        "9": 3,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -14998,7 +27939,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 2,
       "A_HIGH": 4,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 2,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 4,
+        "3": 0,
+        "4": 3,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15017,18 +27984,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 4,
-      "netas": 3,
+      "brutas": 8,
+      "netas": 7,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
       "A7_PRO": 1,
       "FIND": 0,
-      "RENO_OTHERS": 0,
+      "RENO_OTHERS": 1,
       "A_HIGH": 0,
-      "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_MIDDLE": 3,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 3,
+        "9": 0,
+        "10": 4,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 3,
+        "9": 0,
+        "10": 4,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15048,8 +28041,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 11,
     "ventas_corte": {
       "brutas": 24,
-      "netas": 22,
-      "no_activadas": 2,
+      "netas": 23,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 7,
@@ -15057,8 +28050,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 10,
-      "A_LOW": 0
+      "A_MIDDLE": 11,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 4,
+        "6": 4,
+        "7": 1,
+        "8": 4,
+        "9": 5,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 5,
+        "3": 0,
+        "4": 0,
+        "5": 4,
+        "6": 4,
+        "7": 1,
+        "8": 5,
+        "9": 5,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15077,18 +28096,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 17,
     "ventas_corte": {
-      "brutas": 17,
-      "netas": 16,
+      "brutas": 21,
+      "netas": 19,
       "no_activadas": 1,
-      "desfasadas": 0,
+      "desfasadas": 1,
       "RENO_16_5G": 2,
-      "RENO_16F": 1,
+      "RENO_16F": 3,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 5,
-      "A_MIDDLE": 7,
-      "A_LOW": 0
+      "A_MIDDLE": 8,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 1,
+        "7": 3,
+        "8": 4,
+        "9": 2,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 1,
+        "7": 3,
+        "8": 5,
+        "9": 2,
+        "10": 0,
+        "11": 4
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15107,8 +28152,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 7,
     "ventas_corte": {
-      "brutas": 6,
-      "netas": 6,
+      "brutas": 7,
+      "netas": 7,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -15117,8 +28162,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 4,
-      "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_MIDDLE": 3,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15137,18 +28208,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 18,
     "ventas_corte": {
-      "brutas": 18,
-      "netas": 17,
-      "no_activadas": 0,
+      "brutas": 23,
+      "netas": 21,
+      "no_activadas": 1,
       "desfasadas": 1,
       "RENO_16_5G": 1,
-      "RENO_16F": 3,
+      "RENO_16F": 5,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 2,
-      "A_MIDDLE": 8,
-      "A_LOW": 0
+      "A_HIGH": 3,
+      "A_MIDDLE": 9,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 4,
+        "9": 2,
+        "10": 4,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 4,
+        "9": 3,
+        "10": 5,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15167,18 +28264,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 10,
+      "brutas": 14,
+      "netas": 13,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 2,
-      "A_MIDDLE": 5,
-      "A_LOW": 0
+      "A_HIGH": 3,
+      "A_MIDDLE": 6,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 3,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 2,
+        "7": 2,
+        "8": 4,
+        "9": 0,
+        "10": 3,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -15197,18 +28320,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 5,
+      "brutas": 8,
+      "netas": 6,
       "no_activadas": 0,
       "desfasadas": 2,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 1,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 0,
+        "9": 2,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15227,18 +28376,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 13,
     "tgt_foco": 27,
     "ventas_corte": {
-      "brutas": 28,
-      "netas": 23,
+      "brutas": 35,
+      "netas": 30,
       "no_activadas": 4,
       "desfasadas": 1,
       "RENO_16_5G": 2,
-      "RENO_16F": 2,
+      "RENO_16F": 4,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 8,
-      "A_MIDDLE": 2,
-      "A_LOW": 7
+      "A_HIGH": 12,
+      "A_MIDDLE": 3,
+      "A_LOW": 7,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 0,
+        "6": 6,
+        "7": 4,
+        "8": 2,
+        "9": 5,
+        "10": 3,
+        "11": 4
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 0,
+        "6": 6,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 3,
+        "11": 4
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15257,18 +28432,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 6,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 11,
-      "no_activadas": 1,
+      "brutas": 16,
+      "netas": 16,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 3,
+      "A_HIGH": 5,
       "A_MIDDLE": 1,
-      "A_LOW": 3
+      "A_LOW": 5,
+      "daily_netas": {
+        "1": 2,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 4,
+        "10": 0,
+        "11": 4
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 2,
+        "9": 4,
+        "10": 0,
+        "11": 4
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15287,18 +28488,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 15,
-      "no_activadas": 0,
+      "brutas": 18,
+      "netas": 16,
+      "no_activadas": 1,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 5,
+      "RENO_16F": 6,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 7,
       "A_MIDDLE": 3,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 5,
+        "9": 3,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 6,
+        "9": 3,
+        "10": 1,
+        "11": 1
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15328,7 +28555,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 2,
       "A_MIDDLE": 11,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 8,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 6,
+        "8": 0,
+        "9": 3,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 8,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 6,
+        "8": 0,
+        "9": 4,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15347,8 +28600,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 8,
+      "brutas": 13,
+      "netas": 10,
       "no_activadas": 1,
       "desfasadas": 2,
       "RENO_16_5G": 0,
@@ -15356,9 +28609,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
-      "A_MIDDLE": 2,
-      "A_LOW": 1
+      "A_HIGH": 5,
+      "A_MIDDLE": 3,
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 2,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15377,8 +28656,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 16,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 6,
+      "brutas": 10,
+      "netas": 9,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -15386,9 +28665,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 3,
+      "A_HIGH": 6,
       "A_MIDDLE": 1,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 3,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 1,
+        "8": 0,
+        "9": 1,
+        "10": 3,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15407,18 +28712,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 11,
+      "brutas": 12,
+      "netas": 12,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 2,
       "A_HIGH": 2,
       "A_MIDDLE": 1,
-      "A_LOW": 4
+      "A_LOW": 4,
+      "daily_netas": {
+        "1": 3,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15437,18 +28768,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 20,
-      "netas": 17,
-      "no_activadas": 1,
+      "brutas": 25,
+      "netas": 23,
+      "no_activadas": 0,
       "desfasadas": 2,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 4,
-      "A_MIDDLE": 3,
-      "A_LOW": 7
+      "A_HIGH": 5,
+      "A_MIDDLE": 6,
+      "A_LOW": 9,
+      "daily_netas": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 10,
+        "9": 0,
+        "10": 3,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 3,
+        "2": 1,
+        "3": 1,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 3,
+        "8": 11,
+        "9": 1,
+        "10": 3,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15468,8 +28825,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 13,
     "ventas_corte": {
       "brutas": 4,
-      "netas": 3,
-      "no_activadas": 1,
+      "netas": 4,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 1,
@@ -15478,7 +28835,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 0
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15508,7 +28891,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15527,18 +28936,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 11,
-      "netas": 10,
+      "brutas": 13,
+      "netas": 12,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 2,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 4
+      "A_LOW": 5,
+      "daily_netas": {
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 2,
+        "9": 0,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15557,18 +28992,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 27,
-      "netas": 22,
+      "brutas": 34,
+      "netas": 28,
       "no_activadas": 0,
-      "desfasadas": 5,
+      "desfasadas": 6,
       "RENO_16_5G": 0,
-      "RENO_16F": 6,
+      "RENO_16F": 8,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
-      "A_HIGH": 4,
+      "A_HIGH": 8,
       "A_MIDDLE": 3,
-      "A_LOW": 6
+      "A_LOW": 6,
+      "daily_netas": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 6,
+        "5": 0,
+        "6": 3,
+        "7": 3,
+        "8": 1,
+        "9": 3,
+        "10": 6,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 2,
+        "3": 4,
+        "4": 6,
+        "5": 0,
+        "6": 4,
+        "7": 5,
+        "8": 1,
+        "9": 5,
+        "10": 7,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15587,8 +29048,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 34,
-      "netas": 32,
+      "brutas": 37,
+      "netas": 35,
       "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -15597,8 +29058,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 10,
-      "A_MIDDLE": 9,
-      "A_LOW": 11
+      "A_MIDDLE": 10,
+      "A_LOW": 13,
+      "daily_netas": {
+        "1": 4,
+        "2": 5,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 1,
+        "8": 11,
+        "9": 5,
+        "10": 3,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 5,
+        "2": 5,
+        "3": 3,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 1,
+        "8": 12,
+        "9": 5,
+        "10": 3,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15618,8 +29105,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 27,
     "ventas_corte": {
       "brutas": 10,
-      "netas": 7,
-      "no_activadas": 3,
+      "netas": 8,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 2,
@@ -15628,7 +29115,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 4
+      "A_LOW": 5,
+      "daily_netas": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 2,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 3,
+        "3": 1,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 3,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15647,18 +29160,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 14,
-      "netas": 12,
-      "no_activadas": 1,
+      "brutas": 17,
+      "netas": 14,
+      "no_activadas": 2,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 3,
-      "A7_PRO": 0,
+      "RENO_16F": 4,
+      "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 3,
       "A_HIGH": 2,
       "A_MIDDLE": 1,
-      "A_LOW": 3
+      "A_LOW": 3,
+      "daily_netas": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 4,
+        "9": 2,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 2,
+        "8": 5,
+        "9": 2,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15688,7 +29227,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 2,
       "A_MIDDLE": 0,
-      "A_LOW": 2
+      "A_LOW": 2,
+      "daily_netas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 2,
+        "7": 1,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15707,18 +29272,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 5,
-      "netas": 4,
+      "brutas": 6,
+      "netas": 5,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 0,
+      "RENO_16F": 1,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1,
+        "6": 0,
+        "7": 1,
+        "8": 2,
+        "9": 1,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -15748,7 +29339,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "El Palacio de Hierro",
     "cadenas_slugs": [
@@ -15779,7 +29396,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -15809,7 +29452,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -15839,7 +29508,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -15869,7 +29564,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -15900,7 +29621,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -15930,7 +29677,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -15960,7 +29733,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -15990,7 +29789,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16022,7 +29847,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16053,7 +29904,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16084,7 +29961,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16114,7 +30017,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16144,7 +30073,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16174,7 +30129,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16204,7 +30185,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16236,7 +30243,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16266,7 +30299,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16298,7 +30357,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16328,7 +30413,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16358,7 +30469,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16388,7 +30525,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16419,7 +30582,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16449,7 +30638,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16479,7 +30694,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16509,7 +30750,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16539,7 +30806,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16569,7 +30862,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16599,7 +30918,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16629,7 +30974,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -16659,7 +31030,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16689,7 +31086,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16719,7 +31142,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sanborns",
     "cadenas_slugs": [
@@ -16750,7 +31199,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16780,7 +31255,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16810,7 +31311,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16840,7 +31367,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16870,7 +31423,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16901,7 +31480,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -16931,7 +31536,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16961,7 +31592,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -16992,7 +31649,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17022,7 +31705,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17052,7 +31761,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17082,7 +31817,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17112,7 +31873,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17143,7 +31930,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17173,7 +31986,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17203,7 +32042,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17233,7 +32098,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17265,7 +32156,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17295,7 +32212,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17325,7 +32268,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17355,7 +32324,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17385,7 +32380,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17416,7 +32437,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17446,7 +32493,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17476,7 +32549,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17506,7 +32605,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17536,7 +32661,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17568,7 +32719,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17598,7 +32775,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17628,7 +32831,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17658,7 +32887,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17688,7 +32943,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17719,7 +33000,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17749,7 +33056,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -17780,7 +33113,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17810,7 +33169,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
@@ -17840,7 +33225,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
@@ -17870,7 +33281,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17900,7 +33337,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
@@ -17930,7 +33393,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -17960,7 +33449,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -17990,7 +33505,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18020,7 +33561,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18050,7 +33617,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18080,7 +33673,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18110,7 +33729,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18140,7 +33785,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18170,7 +33841,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18200,7 +33897,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18230,7 +33953,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18260,7 +34009,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18290,7 +34065,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18320,7 +34121,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18350,7 +34177,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18380,7 +34233,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18410,7 +34289,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18440,7 +34345,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18470,7 +34401,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18500,7 +34457,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18530,7 +34513,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18560,7 +34569,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18590,7 +34625,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18620,7 +34681,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18650,7 +34737,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18680,7 +34793,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18710,7 +34849,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18740,7 +34905,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18770,7 +34961,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18800,7 +35017,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18830,7 +35073,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18860,7 +35129,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18890,7 +35185,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18920,7 +35241,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18950,7 +35297,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -18980,7 +35353,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19010,7 +35409,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19040,7 +35465,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19070,7 +35521,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -19101,7 +35578,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19131,7 +35634,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19161,7 +35690,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19191,7 +35746,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19221,7 +35802,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19251,7 +35858,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19281,7 +35914,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19311,7 +35970,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19341,7 +36026,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19371,7 +36082,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19401,7 +36138,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19431,7 +36194,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19461,7 +36250,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19491,7 +36306,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19521,7 +36362,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19551,7 +36418,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19581,7 +36474,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19611,7 +36530,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19641,7 +36586,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19671,7 +36642,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19701,7 +36698,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19731,7 +36754,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19761,7 +36810,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19791,7 +36866,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19821,7 +36922,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19851,7 +36978,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19881,7 +37034,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19911,7 +37090,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19941,7 +37146,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -19971,7 +37202,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20001,7 +37258,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20031,7 +37314,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20061,7 +37370,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20091,7 +37426,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20121,7 +37482,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20151,7 +37538,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20181,7 +37594,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20211,7 +37650,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20241,7 +37706,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20271,7 +37762,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20301,7 +37818,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20331,7 +37874,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20361,7 +37930,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20391,7 +37986,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20421,7 +38042,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20451,7 +38098,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20481,7 +38154,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20511,7 +38210,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20541,7 +38266,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20571,7 +38322,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20601,7 +38378,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20631,7 +38434,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20661,7 +38490,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20691,7 +38546,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20721,7 +38602,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20751,7 +38658,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20781,7 +38714,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20811,7 +38770,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20841,7 +38826,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20871,7 +38882,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20901,7 +38938,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20931,7 +38994,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20961,7 +39050,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -20991,7 +39106,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
@@ -21010,9 +39151,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 16,
+      "brutas": 17,
       "netas": 16,
-      "no_activadas": 0,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 8,
@@ -21021,7 +39162,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 3,
       "A_MIDDLE": 2,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 5,
+        "9": 4,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 2,
+        "6": 3,
+        "7": 1,
+        "8": 5,
+        "9": 4,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -21040,10 +39207,10 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 15,
+      "brutas": 17,
       "netas": 13,
       "no_activadas": 0,
-      "desfasadas": 2,
+      "desfasadas": 4,
       "RENO_16_5G": 0,
       "RENO_16F": 8,
       "A7_PRO": 1,
@@ -21051,7 +39218,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7,
+        "6": 3,
+        "7": 2,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 9,
+        "6": 3,
+        "7": 2,
+        "8": 1,
+        "9": 0,
+        "10": 0,
+        "11": 2
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -21070,18 +39263,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 9,
-      "netas": 6,
+      "brutas": 11,
+      "netas": 8,
       "no_activadas": 2,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
-      "RENO_OTHERS": 1,
+      "RENO_OTHERS": 2,
       "A_HIGH": 1,
       "A_MIDDLE": 1,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 2,
+        "7": 0,
+        "8": 2,
+        "9": 0,
+        "10": 1,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 0,
+        "6": 3,
+        "7": 0,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 1
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -21100,8 +39319,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 9,
-      "netas": 9,
+      "brutas": 10,
+      "netas": 10,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -21110,8 +39329,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 1,
-      "A_MIDDLE": 4,
-      "A_LOW": 0
+      "A_MIDDLE": 5,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 1,
+        "7": 2,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -21130,18 +39375,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 7,
-      "netas": 7,
+      "brutas": 8,
+      "netas": 8,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 2,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 2,
+        "8": 3,
+        "9": 2,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -21160,8 +39431,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 12,
-      "netas": 11,
+      "brutas": 13,
+      "netas": 12,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -21170,8 +39441,34 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 9,
-      "A_MIDDLE": 1,
-      "A_LOW": 1
+      "A_MIDDLE": 2,
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 3,
+        "7": 4,
+        "8": 3,
+        "9": 0,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Sam's Club",
     "cadenas_slugs": [
@@ -21201,7 +39498,33 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 0,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -21221,17 +39544,43 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 0,
     "ventas_corte": {
       "brutas": 10,
-      "netas": 8,
-      "no_activadas": 2,
+      "netas": 9,
+      "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 1,
       "RENO_16F": 0,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 7,
+      "A_HIGH": 8,
       "A_MIDDLE": 0,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 2,
+        "7": 0,
+        "8": 3,
+        "9": 0,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 2,
+        "7": 0,
+        "8": 3,
+        "9": 1,
+        "10": 0,
+        "11": 0
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -21250,18 +39599,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 10,
-      "netas": 9,
+      "brutas": 13,
+      "netas": 12,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 0,
-      "RENO_16F": 1,
+      "RENO_16F": 2,
       "A7_PRO": 0,
       "FIND": 1,
       "RENO_OTHERS": 0,
-      "A_HIGH": 5,
+      "A_HIGH": 7,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 4,
+        "6": 2,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 3
+      },
+      "daily_brutas": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 5,
+        "6": 2,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 3
+      }
     },
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
@@ -21280,8 +39655,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 10,
-      "netas": 10,
+      "brutas": 11,
+      "netas": 11,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -21289,9 +39664,35 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 3,
+      "A_HIGH": 4,
       "A_MIDDLE": 2,
-      "A_LOW": 0
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 5,
+        "10": 0,
+        "11": 1
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 2,
+        "8": 2,
+        "9": 5,
+        "10": 0,
+        "11": 1
+      }
     },
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
@@ -21310,18 +39711,44 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 5,
-      "netas": 5,
+      "brutas": 12,
+      "netas": 9,
       "no_activadas": 0,
-      "desfasadas": 0,
+      "desfasadas": 3,
       "RENO_16_5G": 0,
       "RENO_16F": 1,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 0,
-      "A_MIDDLE": 3,
-      "A_LOW": 1
+      "A_HIGH": 1,
+      "A_MIDDLE": 4,
+      "A_LOW": 3,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 1,
+        "9": 0,
+        "10": 2,
+        "11": 2
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 4,
+        "8": 1,
+        "9": 0,
+        "10": 5,
+        "11": 2
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
@@ -21340,10 +39767,10 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 24,
+      "brutas": 25,
       "netas": 22,
       "no_activadas": 0,
-      "desfasadas": 2,
+      "desfasadas": 3,
       "RENO_16_5G": 0,
       "RENO_16F": 5,
       "A7_PRO": 0,
@@ -21351,11 +39778,37 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 2,
       "A_HIGH": 3,
       "A_MIDDLE": 11,
-      "A_LOW": 1
+      "A_LOW": 1,
+      "daily_netas": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 3,
+        "6": 1,
+        "7": 5,
+        "8": 0,
+        "9": 6,
+        "10": 0,
+        "11": 0
+      },
+      "daily_brutas": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 5,
+        "6": 1,
+        "7": 5,
+        "8": 0,
+        "9": 6,
+        "10": 1,
+        "11": 0
+      }
     },
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
     ]
   }
-];
+];\n
