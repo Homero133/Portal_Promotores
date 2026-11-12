@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Dispositivos OPPO | Portal Elite</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
+    <link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        oppoblack: '#000000',
+                        oppogreen: '#05B670',
+                        oppolight: '#f5f5f7'
+                    }
+                }
+            }
+        }
+    </script>
+    <style id="dark-theme-style">
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; }
+        body.dark-mode { background-color: #0f1117 !important; color: #e2e8f0 !important; }
+        body.dark-mode .bg-white { background-color: #1a1d27 !important; border-color: #2d3343 !important; }
+        body.dark-mode .text-gray-900,
+        body.dark-mode .text-gray-800 { color: #f8fafc !important; }
+        body.dark-mode .text-gray-700 { color: #e2e8f0 !important; }
+        body.dark-mode .text-gray-600 { color: #cbd5e1 !important; }
+        body.dark-mode .text-gray-500 { color: #94a3b8 !important; }
+        body.dark-mode .bg-gray-50 { background-color: #141720 !important; border-color: #262b38 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #222634 !important; }
+        body.dark-mode .border-gray-100,
+        body.dark-mode .border-gray-200 { border-color: #2d3343 !important; }
+    </style>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if (icon) {
+                icon.className = document.body.classList.contains('dark-mode')
+                    ? 'fas fa-sun text-yellow-400'
+                    : 'fas fa-moon text-indigo-900';
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="pb-24 text-gray-800">
+    <!-- Barra Superior Sticky -->
+    <header class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-100 text-gray-600 transition">
+                    <i class="fas fa-arrow-left text-lg"></i>
+                </a>
+                <div>
+                    <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Ecosistema Móvil</span>
+                    <h1 class="text-lg sm:text-xl font-black text-gray-900 leading-tight">Portafolio OPPO</h1>
+                </div>
+            </div>
+            <button onclick="toggleDarkMode()" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:scale-105 transition">
+                <i id="themeIcon" class="fas fa-moon text-indigo-900"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 mt-6 space-y-6">
+        <!-- Banner Principal Portafolio -->
+        <div class="relative rounded-3xl overflow-hidden shadow-xl border border-gray-100 bg-gradient-to-r from-slate-900 via-gray-900 to-emerald-950 text-white p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row items-center gap-6 relative z-10">
+                <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl overflow-hidden shadow-md shrink-0 border-2 border-white/20 bg-white">
+                    <img src="assets/iconos/portafolio.jpg" alt="Portafolio OPPO" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center sm:text-left flex-1">
+                    <span class="inline-block py-1 px-3 rounded-full bg-oppogreen/20 border border-oppogreen/40 text-oppogreen text-xs font-black tracking-wider uppercase mb-2">
+                        Gama Completa 2026
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black mb-2">Portafolio de Dispositivos</h2>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed max-w-xl">
+                        Conoce las especificaciones clave, argumentos ganadores, fichas técnicas y One Pages de nuestras tres series emblemáticas.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid de las 3 Series -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <!-- 1. SERIE FIND X -->
+            <a href="find-x10.html" class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-emerald-300 transition-all duration-300 flex flex-col group transform hover:-translate-y-1">
+                <div class="relative h-48 bg-slate-900 overflow-hidden">
+                    <img src="assets/iconos/find-series.jpg" alt="Serie Find" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-3 left-3">
+                        <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase bg-emerald-500 text-white shadow-sm">
+                            Flagship &bull; Nuevo
+                        </span>
+                    </div>
+                </div>
+                <div class="p-5 flex-1 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Máxima Innovación</span>
+                        <h3 class="text-xl font-black text-gray-900 mb-1 group-hover:text-oppogreen transition-colors">Serie Find X</h3>
+                        <p class="text-xs text-gray-500 mb-3">
+                            Find X10, Find X10 Pro Max, Find X9 y Find N. Fotografía Hasselblad 200MP, LUMO Color y Dimensity 9600.
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-black text-oppogreen">
+                        <span>Explorar Serie Find</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 2. SERIE RENO -->
+            <a href="serie-reno.html" class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-emerald-300 transition-all duration-300 flex flex-col group transform hover:-translate-y-1">
+                <div class="relative h-48 bg-slate-900 overflow-hidden">
+                    <img src="assets/iconos/reno-series.jpg" alt="Serie Reno" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-3 left-3">
+                        <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase bg-oppogreen text-white shadow-sm">
+                            Experto en Retrato
+                        </span>
+                    </div>
+                </div>
+                <div class="p-5 flex-1 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Diseño & Cámara</span>
+                        <h3 class="text-xl font-black text-gray-900 mb-1 group-hover:text-oppogreen transition-colors">Serie Reno</h3>
+                        <p class="text-xs text-gray-500 mb-3">
+                            Reno 16 5G, Reno 16F, Reno 14 y anteriores. Fotografía de estudio, flash Pop Cam, IA Studio y carga SUPERVOOC.
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-black text-oppogreen">
+                        <span>Explorar Serie Reno</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 3. SERIE A -->
+            <a href="serie-a.html" class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-emerald-300 transition-all duration-300 flex flex-col group transform hover:-translate-y-1">
+                <div class="relative h-48 bg-slate-900 overflow-hidden">
+                    <img src="assets/iconos/a-series.jpg" alt="Serie A" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-3 left-3">
+                        <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase bg-teal-600 text-white shadow-sm">
+                            Durabilidad Militar
+                        </span>
+                    </div>
+                </div>
+                <div class="p-5 flex-1 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-teal-600">Volumen & Resistencia</span>
+                        <h3 class="text-xl font-black text-gray-900 mb-1 group-hover:text-oppogreen transition-colors">Serie A</h3>
+                        <p class="text-xs text-gray-500 mb-3">
+                            A7 Pro 5G, A6, A6K, A6t, A6x y A5 Pro. Resistencia militar IP69K, batería inagotable y carga reversible.
+                        </p>
+                    </div>
+                    <div class="pt-3 border-t border-gray-100 flex items-center justify-between text-xs font-black text-oppogreen">
+                        <span>Explorar Serie A</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Botón Volver Fijo en Móvil -->
+    <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40">
+        <a href="index.html" class="px-5 py-2.5 rounded-full bg-gray-900/90 hover:bg-black text-white text-xs font-black shadow-xl backdrop-blur-md flex items-center gap-2 border border-white/20 transition">
+            <i class="fas fa-home text-oppogreen"></i>
+            <span>Volver al Inicio</span>
+        </a>
+    </div>
+
+    <script src="progreso.js?v=20261111"></script>
+</body>
+</html>

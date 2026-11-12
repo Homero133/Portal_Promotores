@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorOS & Ecosistema | Portal Elite</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
+    <link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        oppoblack: '#000000',
+                        oppogreen: '#05B670',
+                        oppolight: '#f5f5f7'
+                    }
+                }
+            }
+        }
+    </script>
+    <style id="dark-theme-style">
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; }
+        body.dark-mode { background-color: #0f1117 !important; color: #e2e8f0 !important; }
+        body.dark-mode .bg-white { background-color: #1a1d27 !important; border-color: #2d3343 !important; }
+        body.dark-mode .text-gray-900,
+        body.dark-mode .text-gray-800 { color: #f8fafc !important; }
+        body.dark-mode .text-gray-700 { color: #e2e8f0 !important; }
+        body.dark-mode .text-gray-600 { color: #cbd5e1 !important; }
+        body.dark-mode .text-gray-500 { color: #94a3b8 !important; }
+        body.dark-mode .bg-gray-50 { background-color: #141720 !important; border-color: #262b38 !important; }
+        body.dark-mode .bg-gray-100 { background-color: #222634 !important; }
+        body.dark-mode .border-gray-100,
+        body.dark-mode .border-gray-200 { border-color: #2d3343 !important; }
+    </style>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if (icon) {
+                icon.className = document.body.classList.contains('dark-mode')
+                    ? 'fas fa-sun text-yellow-400'
+                    : 'fas fa-moon text-indigo-900';
+            }
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="pb-24 text-gray-800">
+    <!-- Barra Superior Sticky -->
+    <header class="bg-white shadow-sm sticky top-0 z-40 border-b border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <a href="index.html" class="w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-100 text-gray-600 transition">
+                    <i class="fas fa-arrow-left text-lg"></i>
+                </a>
+                <div>
+                    <span class="text-[10px] font-black uppercase tracking-wider text-blue-500">Software & Conectividad</span>
+                    <h1 class="text-lg sm:text-xl font-black text-gray-900 leading-tight">ColorOS & Innovación</h1>
+                </div>
+            </div>
+            <button onclick="toggleDarkMode()" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center hover:scale-105 transition">
+                <i id="themeIcon" class="fas fa-moon text-indigo-900"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 mt-6 space-y-6">
+        <!-- Banner Principal ColorOS -->
+        <div class="relative rounded-3xl overflow-hidden shadow-xl border border-gray-100 bg-gradient-to-r from-blue-950 via-slate-900 to-indigo-950 text-white p-6 sm:p-8">
+            <div class="flex flex-col sm:flex-row items-center gap-6 relative z-10">
+                <div class="w-28 h-28 sm:w-36 sm:h-36 rounded-2xl overflow-hidden shadow-md shrink-0 border-2 border-white/20 bg-white">
+                    <img src="assets/iconos/color-os.jpg" alt="ColorOS & Ecosistema" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center sm:text-left flex-1">
+                    <span class="inline-block py-1 px-3 rounded-full bg-blue-500/20 border border-blue-400/40 text-blue-300 text-xs font-black tracking-wider uppercase mb-2">
+                        Inteligencia & Fluidez
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-black mb-2">ColorOS & Ecosistema</h2>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed max-w-xl">
+                        Descubre las herramientas inteligentes de OPPO AI, la fluidez del Trinity Engine y la interconexión con iPhone, Mac y accesorios inteligentes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Grid de Secciones: IA y Ecosistema -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- 1. INTELIGENCIA ARTIFICIAL -->
+            <a href="oppo-ia.html" class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-blue-300 transition-all duration-300 flex flex-col group transform hover:-translate-y-1">
+                <div class="relative h-48 bg-gradient-to-r from-blue-900 to-indigo-900 overflow-hidden flex items-center justify-center p-6 text-white">
+                    <div class="text-center">
+                        <div class="w-16 h-16 mx-auto rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center text-3xl mb-3 shadow-lg group-hover:scale-110 transition-transform">
+                            <i class="fas fa-brain text-blue-300"></i>
+                        </div>
+                        <h4 class="text-xl font-black">OPPO AI Suite</h4>
+                        <span class="text-xs text-blue-200">Productividad, Edición & Traducción</span>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-blue-600">Herramientas Nativas</span>
+                        <h3 class="text-xl font-black text-gray-900 mb-2 group-hover:text-blue-600 transition-colors">Inteligencia Artificial</h3>
+                        <p class="text-xs sm:text-sm text-gray-500 mb-4 leading-relaxed">
+                            Aprende a demostrar en piso: Mind Space, Mind Pilot, Borrador AI, Resumen de Llamadas y Traductor de Pantalla en tiempo real.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-2">
+                            <span class="px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 text-[10px] font-bold">Mind Space</span>
+                            <span class="px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 text-[10px] font-bold">Mind Pilot</span>
+                            <span class="px-2 py-0.5 rounded-md bg-purple-50 text-purple-700 text-[10px] font-bold">Traductor</span>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-black text-blue-600">
+                        <span>Explorar Módulo OPPO AI</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+
+            <!-- 2. ECOSISTEMA & IOT -->
+            <a href="tecnologia.html" class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 hover:border-emerald-300 transition-all duration-300 flex flex-col group transform hover:-translate-y-1">
+                <div class="relative h-48 bg-slate-900 overflow-hidden">
+                    <img src="assets/iconos/ecosistema.jpg" alt="Ecosistema OPPO" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    <div class="absolute top-3 left-3">
+                        <span class="px-2.5 py-1 rounded-full text-[10px] font-black uppercase bg-oppogreen text-white shadow-sm">
+                            Interconexión Total
+                        </span>
+                    </div>
+                </div>
+                <div class="p-6 flex-1 flex flex-col justify-between">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Dispositivos & Accesorios</span>
+                        <h3 class="text-xl font-black text-gray-900 mb-2 group-hover:text-oppogreen transition-colors">Ecosistema & IoT</h3>
+                        <p class="text-xs sm:text-sm text-gray-500 mb-4 leading-relaxed">
+                            O+ Connect para transferir archivos con iPhone/Mac, llamadas sin red con BeaconLink, OPPO Bubble, audífonos Enco y smartwatches.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mb-2">
+                            <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 text-[10px] font-bold">O+ Connect</span>
+                            <span class="px-2 py-0.5 rounded-md bg-teal-50 text-teal-800 text-[10px] font-bold">BeaconLink</span>
+                            <span class="px-2 py-0.5 rounded-md bg-gray-100 text-gray-700 text-[10px] font-bold">OPPO Bubble</span>
+                        </div>
+                    </div>
+                    <div class="pt-4 border-t border-gray-100 flex items-center justify-between text-xs font-black text-oppogreen">
+                        <span>Explorar Ecosistema</span>
+                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <!-- Botón Volver Fijo en Móvil -->
+    <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40">
+        <a href="index.html" class="px-5 py-2.5 rounded-full bg-gray-900/90 hover:bg-black text-white text-xs font-black shadow-xl backdrop-blur-md flex items-center gap-2 border border-white/20 transition">
+            <i class="fas fa-home text-oppogreen"></i>
+            <span>Volver al Inicio</span>
+        </a>
+    </div>
+
+    <script src="progreso.js?v=20261111"></script>
+</body>
+</html>

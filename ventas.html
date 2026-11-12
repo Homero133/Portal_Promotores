@@ -75,8 +75,37 @@
         <div class="flex overflow-x-auto max-w-4xl mx-auto border-b hide-scrollbar"><button class="tab-btn active px-5 py-3 font-medium" onclick="switchTab(event, &#39;abordaje&#39;)">Abordaje</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;objeciones&#39;)">Objeciones</button><button class="tab-btn text-gray-500 px-5 py-3 font-medium" onclick="switchTab(event, &#39;cierres&#39;)">Cierres</button></div>
     </div>
     <main class="max-w-4xl mx-auto px-4 mt-6">
+        <!-- Banner Principal Soft Skills -->
+        <div class="relative rounded-3xl overflow-hidden shadow-lg border border-gray-100 bg-gradient-to-r from-orange-950 via-slate-900 to-amber-950 text-white p-5 sm:p-6 mb-6">
+            <div class="flex flex-col sm:flex-row items-center gap-5 relative z-10">
+                <div class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden shadow-md shrink-0 border border-white/20 bg-white">
+                    <img src="assets/iconos/vende-mas-soft-skills.jpg" alt="Mejora tus Ventas" class="w-full h-full object-cover">
+                </div>
+                <div class="text-center sm:text-left flex-1">
+                    <span class="inline-block py-0.5 px-2.5 rounded-full bg-orange-500/20 border border-orange-400/40 text-orange-300 text-[10px] sm:text-xs font-black tracking-wider uppercase mb-1">
+                        Soft Skills &bull; Piso de Venta
+                    </span>
+                    <h2 class="text-xl sm:text-2xl font-black mb-1">Mejora tus Ventas y Procesos</h2>
+                    <p class="text-gray-300 text-xs sm:text-sm leading-relaxed max-w-xl">
+                        T&eacute;cnicas probadas para conectar r&aacute;pido con el cliente, derribar dudas comunes y cerrar la venta con seguridad.
+                    </p>
+                </div>
+            </div>
+        </div>
+
         <div id="abordaje" class="content-section active">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-6">
+            <!-- Header Sección Abordaje -->
+            <div class="flex items-center gap-4 bg-white p-4 rounded-2xl border border-gray-100 shadow-xs mb-5">
+                <div class="w-16 h-16 rounded-xl overflow-hidden shadow-xs shrink-0 bg-gray-50 border border-gray-100">
+                    <img src="assets/iconos/abordaje.jpg" alt="Abordaje" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <span class="text-[10px] font-black uppercase tracking-wider text-orange-600">Paso 1</span>
+                    <h3 class="text-base sm:text-lg font-black text-gray-900">Abordaje &bull; Primer Contacto</h3>
+                    <p class="text-xs text-gray-500">Lectura de cliente en 60s, lenguaje corporal y venta consultiva.</p>
+                </div>
+            </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-4">
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;eSLuPJJWjDA&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
             <!-- Portada automatica de YouTube -->
@@ -124,7 +153,18 @@
     </div>
 </div>
 <div id="objeciones" class="content-section">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-6">
+    <!-- Header Sección Objeciones -->
+    <div class="flex items-center gap-4 bg-white p-4 rounded-2xl border border-gray-100 shadow-xs mb-5">
+        <div class="w-16 h-16 rounded-xl overflow-hidden shadow-xs shrink-0 bg-gray-50 border border-gray-100">
+            <img src="assets/iconos/manejo-de-objeciones.jpg" alt="Manejo de Objeciones" class="w-full h-full object-cover">
+        </div>
+        <div>
+            <span class="text-[10px] font-black uppercase tracking-wider text-rose-600">Paso 2</span>
+            <h3 class="text-base sm:text-lg font-black text-gray-900">Manejo de Objeciones</h3>
+            <p class="text-xs text-gray-500">Objeciones de precio, marca desconocida, competencia y el cl&aacute;sico "lo pensar&eacute;".</p>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-4">
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;EPsShS_ndKU&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
             <!-- Portada automatica de YouTube -->
@@ -192,7 +232,18 @@
     </div>
 </div>
 <div id="cierres" class="content-section">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-6">
+    <!-- Header Sección Cierres -->
+    <div class="flex items-center gap-4 bg-white p-4 rounded-2xl border border-gray-100 shadow-xs mb-5">
+        <div class="w-16 h-16 rounded-xl overflow-hidden shadow-xs shrink-0 bg-gray-50 border border-gray-100">
+            <img src="assets/iconos/cierre-de-ventas.jpg" alt="Cierre de Ventas" class="w-full h-full object-cover">
+        </div>
+        <div>
+            <span class="text-[10px] font-black uppercase tracking-wider text-emerald-600">Paso 3</span>
+            <h3 class="text-base sm:text-lg font-black text-gray-900">T&eacute;cnicas de Cierre</h3>
+            <p class="text-xs text-gray-500">Cierre presuntivo, alternativo, directo, por amarre y manejo de tarjetas.</p>
+        </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 mt-4">
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col mb-6 overflow-hidden group cursor-pointer hover:shadow-lg transition duration-300" onclick="openVideo(&#39;w_p6RJGNPOE&#39;)">
         <div class="relative w-full aspect-video bg-gray-200 overflow-hidden">
             <!-- Portada automatica de YouTube -->
