@@ -15,6 +15,7 @@
     <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -32,13 +33,25 @@
     <style id="dark-theme-style">
         body.dark-mode { background-color: #0f1117 !important; color: #e2e8f0 !important; }
         body.dark-mode .bg-white { background-color: #1a1d27 !important; border-color: #2d3343 !important; }
-        body.dark-mode .text-gray-800 { color: #f8fafc !important; }
-        body.dark-mode .text-gray-700 { color: #e2e8f0 !important; }
-        body.dark-mode .text-gray-600 { color: #cbd5e1 !important; }
-        body.dark-mode .text-gray-500 { color: #94a3b8 !important; }
+        body.dark-mode .text-gray-900,
+        body.dark-mode .text-gray-800,
+        body.dark-mode .text-slate-900,
+        body.dark-mode .text-slate-800 { color: #f8fafc !important; }
+        body.dark-mode .text-gray-700,
+        body.dark-mode .text-slate-700 { color: #e2e8f0 !important; }
+        body.dark-mode .text-gray-600,
+        body.dark-mode .text-slate-600 { color: #cbd5e1 !important; }
+        body.dark-mode .text-gray-500,
+        body.dark-mode .text-slate-500 { color: #94a3b8 !important; }
         body.dark-mode .bg-gray-50 { background-color: #141720 !important; border-color: #262b38 !important; }
         body.dark-mode .bg-gray-100 { background-color: #222634 !important; }
-        body.dark-mode input, body.dark-mode select { background-color: #141720 !important; color: #fff !important; border-color: #334155 !important; }
+        body.dark-mode .bg-amber-50 { background-color: rgba(245, 158, 11, 0.14) !important; border-color: rgba(245, 158, 11, 0.4) !important; }
+        body.dark-mode .text-amber-900,
+        body.dark-mode .text-amber-800 { color: #fde68a !important; }
+        body.dark-mode .border-gray-100,
+        body.dark-mode .border-gray-200 { border-color: #2d3343 !important; }
+        body.dark-mode input, body.dark-mode select { background-color: #141720 !important; color: #ffffff !important; border-color: #334155 !important; }
+        .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
     </style>
     <script>
         function toggleDarkMode() {
@@ -139,14 +152,18 @@
     <main class="max-w-6xl mx-auto px-3 sm:px-6 -mt-5 sm:-mt-8 relative z-20 space-y-3 sm:space-y-5">
 
         <!-- 1. BARRA SUPERIOR: BÚSQUEDA DE PROMOTOR Y MÉTRICAS COMPACTAS -->
-        <section class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-3">
-            <!-- Banner exclusivo para Modo Auditor (Compacto) -->
-            <div id="auditorModeBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl px-3 py-1.5 flex flex-wrap items-center justify-between gap-2 text-[11px]">
+        <section id="promoterTopCard" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-3">
+            <!-- Banner exclusivo para Modo Auditor (Compacto + Selector de Rol) -->
+            <div id="auditorModeBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl px-3 py-2 flex flex-wrap items-center justify-between gap-2 text-[11px]">
                 <div class="flex items-center gap-1.5 text-amber-900 font-bold">
                     <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white font-black uppercase text-[9px]">Auditor</span>
                     <span id="auditorBannerText">Padr&oacute;n completo (710 promotores).</span>
                 </div>
-                <span class="hidden sm:inline text-amber-700 font-semibold">Tu sesi&oacute;n de auditor no se sobreescribe al revisar otros IDs.</span>
+                <div class="flex items-center gap-1 flex-wrap">
+                    <button onclick="switchAuditorViewMode('promoter')" id="audModeBtn_promoter" class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-600 text-white transition">Promotores (710)</button>
+                    <button onclick="switchAuditorViewMode('farmer')" id="audModeBtn_farmer" class="px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition">Farmers (9)</button>
+                    <button onclick="switchAuditorViewMode('hunter')" id="audModeBtn_hunter" class="px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition">Hunters (7)</button>
+                </div>
             </div>
 
             <!-- Buscador (solo Auditor) y Chip de Promotor -->
@@ -242,7 +259,7 @@
         </section>
 
         <!-- 2. SISTEMA DE 3 PESTAÑAS FIJAS (SIN CORTES HORIZONTALES EN MÓVIL) -->
-        <nav class="grid grid-cols-3 gap-1.5 p-1.5 bg-gray-200/90 dark:bg-slate-800 rounded-2xl sticky top-2 z-30 backdrop-blur-md shadow-sm">
+        <nav id="promoterTabsNav" class="grid grid-cols-3 gap-1.5 p-1.5 bg-gray-200/90 dark:bg-slate-800 rounded-2xl sticky top-2 z-30 backdrop-blur-md shadow-sm">
             <button id="tabBtn_simulador" onclick="showTab('simulador')" class="tab-btn active py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
                 <i class="fas fa-calculator shrink-0"></i> <span>1. Simulador<span class="hidden sm:inline"> de Dinero</span></span>
             </button>
@@ -921,7 +938,334 @@
             </div>
         </section>
 
+        <!-- ========================================================================================= -->
+        <!-- WORKSPACE INTEGRADO DE SUPERVISORES (FARMER Y HUNTER) DENTRO DEL TABULADOR               -->
+        <!-- ========================================================================================= -->
+        <div id="supervisorWorkspace" class="hidden space-y-3 sm:space-y-5">
+
+            <!-- Scorecard y Selector Auditor de Supervisor -->
+            <section class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-3">
+                <div id="supAuditorControls" class="hidden bg-amber-50 border border-amber-200 rounded-2xl p-3 space-y-2">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
+                        <div class="flex items-center gap-1.5 text-xs font-black text-amber-900">
+                            <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white text-[9px] uppercase">Auditor</span>
+                            <span>Vista exacta de Supervisor:</span>
+                        </div>
+                        <div class="flex items-center gap-1 flex-wrap">
+                            <button onclick="switchAuditorViewMode('promoter')" class="px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition">Promotores (710)</button>
+                            <button id="audFilterFarmer" onclick="switchAuditorViewMode('farmer')" class="px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-600 text-white transition">Farmers (9)</button>
+                            <button id="audFilterHunter" onclick="switchAuditorViewMode('hunter')" class="px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition">Hunters (7)</button>
+                        </div>
+                    </div>
+                    <select id="auditorSupSelect" onchange="onAuditorSelectSupervisor()" class="w-full px-3 py-2 rounded-xl border border-amber-300 bg-white text-xs sm:text-sm font-bold text-gray-800 outline-none"></select>
+                </div>
+
+                <!-- Identidad Supervisor -->
+                <div class="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-gray-100">
+                    <div class="flex items-center gap-2 min-w-0">
+                        <span id="supTypeBadge" class="px-2.5 py-1 rounded-xl bg-emerald-100 text-emerald-800 text-[10px] sm:text-xs font-black uppercase shrink-0">FARMER</span>
+                        <div class="min-w-0">
+                            <h2 id="supNameTitle" class="text-sm sm:text-base font-black text-gray-800 truncate">Cargando supervisor...</h2>
+                            <p id="supSubInfo" class="text-[11px] text-gray-500 truncate">--</p>
+                        </div>
+                    </div>
+                    <span id="supIdPill" class="text-[10px] sm:text-xs font-black px-2.5 py-1 rounded-xl bg-gray-100 text-gray-700 shrink-0">ID: --</span>
+                </div>
+
+                <!-- Scorecard Supervisor -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
+                    <div class="md:col-span-5 bg-gradient-to-br from-gray-900 to-slate-900 text-white rounded-2xl p-3.5 sm:p-4 shadow-lg border border-emerald-500/30 space-y-2.5">
+                        <div class="flex items-center justify-between">
+                            <span class="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">Ventas al Corte</span>
+                            <span id="supThresholdPill" class="text-[10px] font-black px-2 py-0.5 rounded-md bg-white/10 text-amber-300">Tarifa Base</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2.5">
+                            <div class="bg-white/5 rounded-xl p-2.5 border border-white/10">
+                                <div class="text-[9px] font-bold text-gray-300 uppercase">Totales (Mariana)</div>
+                                <div id="supTotalBrutas" class="text-xl sm:text-2xl font-black text-white mt-0.5">0 <span class="text-[11px] font-normal text-gray-400">uds</span></div>
+                            </div>
+                            <div class="bg-emerald-500/20 rounded-xl p-2.5 border border-emerald-400/50">
+                                <div class="text-[9px] font-black text-emerald-300 uppercase">Activadas (&plusmn;10d)</div>
+                                <div id="supTotalNetas" class="text-xl sm:text-2xl font-black text-emerald-300 mt-0.5">0 <span class="text-[11px] font-normal text-emerald-200">uds</span></div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between text-[11px] sm:text-xs text-gray-300 pt-1.5 border-t border-white/10">
+                            <span>Liquidaci&oacute;n al corte: <strong id="supEarnedMoney" class="text-emerald-300 font-black">$0 MXN</strong></span>
+                            <span id="supAvgPerUnit" class="text-gray-400">$0.00 / ud</span>
+                        </div>
+                    </div>
+
+                    <div class="md:col-span-7 grid grid-cols-2 gap-2.5 sm:gap-3.5">
+                        <div class="bg-gray-50 rounded-2xl p-3 sm:p-4 border border-gray-200/80 flex flex-col justify-between">
+                            <div>
+                                <div class="flex flex-wrap justify-between items-center gap-1 text-[11px] sm:text-xs font-bold mb-1">
+                                    <span class="text-gray-700 truncate"><i class="fas fa-bullseye text-oppogreen mr-1"></i>Target Gral</span>
+                                    <span id="supGralText" class="text-oppogreen font-black">0 / 0 (0%)</span>
+                                </div>
+                                <div class="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
+                                    <div id="supGralBar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-300" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="text-[10px] sm:text-[11px] text-gray-500 mt-1.5 flex justify-between gap-1">
+                                <span id="supGralNote" class="truncate">Faltan -- uds</span>
+                                <span id="supGralRuleTag" class="font-bold text-gray-600 shrink-0"></span>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-2xl p-3 sm:p-4 border border-gray-200/80 flex flex-col justify-between">
+                            <div>
+                                <div class="flex flex-wrap justify-between items-center gap-1 text-[11px] sm:text-xs font-bold mb-1">
+                                    <span class="text-gray-700 truncate"><i class="fas fa-star text-amber-500 mr-1"></i>Foco R16+A7P</span>
+                                    <span id="supFocoText" class="text-amber-700 font-black">0 / 0 (0%)</span>
+                                </div>
+                                <div class="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
+                                    <div id="supFocoBar" class="h-full bg-gradient-to-r from-amber-400 to-yellow-400 rounded-full transition-all duration-300" style="width: 0%"></div>
+                                </div>
+                            </div>
+                            <div class="text-[10px] sm:text-[11px] text-gray-500 mt-1.5 flex justify-between gap-1">
+                                <span id="supFocoNote" class="truncate">Faltan -- uds</span>
+                                <span id="supFocoRuleTag" class="font-bold text-amber-700 shrink-0"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pestañas Supervisor -->
+            <nav class="grid grid-cols-3 gap-1.5 p-1.5 bg-gray-200/90 dark:bg-slate-800 rounded-2xl sticky top-2 z-30 backdrop-blur-md shadow-sm">
+                <button id="supTabBtn_comisiones" onclick="switchSupTab('comisiones')" class="tab-btn active py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                    <i class="fas fa-calculator shrink-0"></i> <span>1. Comisiones</span>
+                </button>
+                <button id="supTabBtn_analisis" onclick="switchSupTab('analisis')" class="tab-btn inactive py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                    <i class="fas fa-chart-bar shrink-0"></i> <span>2. Desempe&ntilde;o</span>
+                </button>
+                <button id="supTabBtn_calendario" onclick="switchSupTab('calendario')" class="tab-btn inactive py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                    <i class="fas fa-calendar-alt shrink-0"></i> <span>3. Calendario</span>
+                </button>
+            </nav>
+
+            <!-- Sup Tab 1: Comisiones -->
+            <section id="supPanel_comisiones" class="space-y-3 sm:space-y-5">
+                <div class="lg:hidden sticky top-[60px] z-20 bg-gradient-to-r from-gray-900 via-slate-900 to-emerald-950 text-white rounded-2xl p-3 shadow-lg border border-emerald-500/40 flex items-center justify-between gap-2">
+                    <div class="min-w-0">
+                        <div class="text-[9px] font-extrabold uppercase tracking-wider text-emerald-400">Simulaci&oacute;n en Vivo</div>
+                        <div class="flex items-baseline gap-2">
+                            <span id="supStickyTotal" class="text-xl font-black text-white">$0 <span class="text-[11px] text-emerald-300">MXN</span></span>
+                            <span id="supStickyUnits" class="text-[11px] font-bold text-gray-300">0 uds</span>
+                        </div>
+                        <div id="supStickyStatus" class="text-[10px] text-amber-300 font-bold truncate">Tarifa Base</div>
+                    </div>
+                    <a href="#supLiquidacionCard" class="px-2.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-[11px] font-bold text-emerald-300 shrink-0">Desglose &darr;</a>
+                </div>
+
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-2.5">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <div>
+                            <h3 id="supSimTitle" class="text-sm sm:text-lg font-black text-gray-800"><i class="fas fa-sliders-h text-oppogreen mr-1.5"></i> Simulador de Comisiones</h3>
+                            <p id="supSimRuleDesc" class="text-[11px] sm:text-xs text-gray-500">--</p>
+                        </div>
+                        <div class="grid grid-cols-3 sm:flex items-center gap-1.5 sm:gap-2">
+                            <button onclick="loadSupRealSales()" class="text-[11px] sm:text-xs font-black px-2.5 sm:px-3.5 py-2 rounded-xl bg-oppogreen hover:bg-emerald-600 text-white shadow-sm transition flex items-center justify-center gap-1">
+                                <i class="fas fa-undo"></i> <span>Al Corte</span>
+                            </button>
+                            <button onclick="simulateSupGoal()" id="supSimGoalBtn" class="text-[11px] sm:text-xs font-black px-2.5 sm:px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition flex items-center justify-center gap-1">
+                                <i class="fas fa-magic"></i> <span id="supSimGoalBtnText">Meta 100%</span>
+                            </button>
+                            <button onclick="resetSupZero()" class="text-[11px] sm:text-xs font-bold px-2.5 sm:px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition flex items-center justify-center gap-1">
+                                <i class="fas fa-eraser"></i> <span>Limpiar</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-1.5 pt-1 border-t border-gray-100">
+                        <button id="supFilter_all" onclick="filterSupSim('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todas (8)</button>
+                        <button id="supFilter_foco" onclick="filterSupSim('foco')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Foco (3)</button>
+                        <button id="supFilter_otras" onclick="filterSupSim('otras')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Otras Series (5)</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+                    <div class="lg:col-span-7 space-y-3">
+                        <div id="supBlockFoco" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <span class="text-[11px] sm:text-xs font-black uppercase text-oppodarkgreen dark:text-emerald-300">
+                                    <i class="fas fa-star text-amber-500 mr-1"></i> Modelos Foco (Reno 16 + A7 Pro)
+                                </span>
+                                <span id="supSimFocusBadge" class="text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-100 text-amber-800">Base</span>
+                            </div>
+                            <div id="supSteppersFoco" class="space-y-2"></div>
+                        </div>
+                        <div id="supBlockOtras" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                                <span id="supOtrasTitle" class="text-[11px] sm:text-xs font-black uppercase text-gray-700">
+                                    <i class="fas fa-layer-group text-oppogreen mr-1"></i> Dem&aacute;s Series
+                                </span>
+                                <span id="supSimOtrasBadge" class="text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">--</span>
+                            </div>
+                            <div id="supSteppersOtras" class="space-y-2"></div>
+                        </div>
+                    </div>
+
+                    <div id="supLiquidacionCard" class="lg:col-span-5 space-y-4">
+                        <div class="bg-gradient-to-br from-gray-900 via-slate-900 to-emerald-950 text-white rounded-3xl p-5 shadow-2xl border border-emerald-500/30 space-y-4">
+                            <div>
+                                <span class="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">Liquidaci&oacute;n Simulada</span>
+                                <div id="supGrandTotalMoney" class="text-3xl sm:text-4xl font-black text-white mt-1">$0 <span class="text-base font-bold text-emerald-300">MXN</span></div>
+                                <p id="supAvgMoneyPerUnit" class="text-xs text-gray-300 mt-1">Promedio: <strong>$0.00 MXN</strong> por equipo</p>
+                            </div>
+                            <div class="space-y-2">
+                                <div class="bg-white/10 rounded-2xl p-3 flex justify-between items-center">
+                                    <div>
+                                        <div class="text-[11px] font-bold text-gray-200">1. Modelos Foco (R16 + A7P)</div>
+                                        <div id="supFocusUnitsDesc" class="text-[10px] text-gray-400">0 equipos</div>
+                                    </div>
+                                    <div id="supFocusMoney" class="text-lg font-black text-emerald-300">$0</div>
+                                </div>
+                                <div class="bg-white/10 rounded-2xl p-3 flex justify-between items-center">
+                                    <div>
+                                        <div id="supOtrasCardLabel" class="text-[11px] font-bold text-gray-200">2. Dem&aacute;s Series</div>
+                                        <div id="supOtrasUnitsDesc" class="text-[10px] text-gray-400">0 equipos</div>
+                                    </div>
+                                    <div id="supOtrasMoney" class="text-lg font-black text-white">$0</div>
+                                </div>
+                            </div>
+                            <div class="pt-3 border-t border-white/10 grid grid-cols-2 gap-2 text-center">
+                                <div class="bg-white/5 rounded-xl p-2.5">
+                                    <div class="text-[10px] font-bold text-gray-400 uppercase">Unidades Totales</div>
+                                    <div id="supSummaryUnits" class="text-2xl font-black text-emerald-300">0</div>
+                                </div>
+                                <div class="bg-white/5 rounded-xl p-2.5">
+                                    <div class="text-[10px] font-bold text-gray-400 uppercase">Unidades Foco</div>
+                                    <div id="supSummaryFocus" class="text-2xl font-black text-amber-300">0</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="supOfficialTableCard" class="bg-white rounded-3xl p-4 sm:p-5 shadow-lg border border-gray-100 space-y-3"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sup Tab 2: Desempeño Visual -->
+            <section id="supPanel_analisis" class="hidden space-y-4">
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-3">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <div>
+                            <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Panorama Visual &bull; Corte 09 Nov</span>
+                            <h3 id="supChartTitle" class="text-base sm:text-xl font-black text-gray-800">Alcance de Promotores</h3>
+                            <p id="supChartSubtitle" class="text-[11px] sm:text-xs text-gray-500">Ordenados por % de alcance.</p>
+                        </div>
+                        <div class="flex items-center gap-1.5 shrink-0">
+                            <button id="chartMode_all" onclick="setChartMode('all')" class="px-2.5 py-1 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todos</button>
+                            <button id="chartMode_top" onclick="setChartMode('top')" class="px-2.5 py-1 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Mejores</button>
+                            <button id="chartMode_low" onclick="setChartMode('low')" class="px-2.5 py-1 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Foco Rojo</button>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3 text-[10px] sm:text-xs font-bold text-gray-600">
+                        <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span> &ge; 100% Meta</span>
+                        <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-amber-400 inline-block"></span> 30% – 99%</span>
+                        <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-rose-500 inline-block"></span> &lt; 30% (Atenci&oacute;n)</span>
+                    </div>
+                    <div class="relative w-full" id="supChartContainer" style="min-height: 260px;">
+                        <canvas id="supPerfChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-3">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <div>
+                            <h3 id="supTableTitle" class="text-base sm:text-lg font-black text-gray-800">Tabla General</h3>
+                            <p class="text-[11px] sm:text-xs text-gray-500">Toca cualquier fila para ver su <strong>hist&oacute;rico y calendario de ventas del mes</strong>.</p>
+                        </div>
+                        <div class="relative w-full sm:w-64">
+                            <i class="fas fa-search absolute left-3 top-2.5 text-gray-400 text-xs"></i>
+                            <input id="supTableSearch" type="text" oninput="renderSupTable()" placeholder="Filtrar por nombre o tienda..." class="w-full pl-8 pr-3 py-1.5 rounded-xl border border-gray-200 text-xs font-semibold outline-none focus:border-oppogreen">
+                        </div>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-xs border-collapse">
+                            <thead id="supTableHead" class="bg-gray-50 text-gray-600 uppercase text-[10px] font-black border-b border-gray-200"></thead>
+                            <tbody id="supTableBody" class="divide-y divide-gray-100"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sup Tab 3: Calendario Global -->
+            <section id="supPanel_calendario" class="hidden space-y-4">
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-4">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
+                        <div>
+                            <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Ritmo Diario Global</span>
+                            <h3 class="text-base sm:text-xl font-black text-gray-800">Calendario de Ventas &bull; Noviembre 2026</h3>
+                            <p class="text-[11px] sm:text-xs text-gray-500">D&iacute;as fuertes vs d&iacute;as flojos (ventas activadas &plusmn;10d).</p>
+                        </div>
+                        <span id="supGlobalBestDayBadge" class="px-3 py-1 rounded-xl bg-emerald-100 text-emerald-800 text-xs font-black">Mejor d&iacute;a: --</span>
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
+                        <div class="lg:col-span-7">
+                            <div class="text-xs font-black text-gray-500 uppercase mb-2 flex justify-between">
+                                <span>Noviembre 2026 (Corte D&iacute;a 9)</span>
+                                <span>Intensidad = Activadas/d&iacute;a</span>
+                            </div>
+                            <div id="supGlobalCalendar" class="space-y-1"></div>
+                        </div>
+                        <div class="lg:col-span-5 bg-gray-50 rounded-2xl p-4 border border-gray-200/80 space-y-3">
+                            <h4 class="text-xs font-black uppercase text-gray-700">Curva Diaria (Nov 1 – 9)</h4>
+                            <div style="height: 200px;">
+                                <canvas id="supGlobalTrendChart"></canvas>
+                            </div>
+                            <div id="supGlobalCalendarInsights" class="text-xs text-gray-600 space-y-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
     </main>
+
+    <!-- MODAL DETALLE INDIVIDUAL SUPERVISOR (PROMOTOR O TIENDA) -->
+    <div id="supDetailModal" class="fixed inset-0 bg-black/80 z-[100] hidden items-center justify-center p-3 sm:p-5 backdrop-blur-sm" onclick="if(event.target === this) closeSupDetailModal()">
+        <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-4 sm:p-6 shadow-2xl border border-gray-200 space-y-4">
+            <div class="flex items-start justify-between gap-3 pb-3 border-b border-gray-100">
+                <div class="min-w-0">
+                    <span id="modalEntityBadge" class="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-black uppercase">Promotor Elite</span>
+                    <h3 id="modalEntityName" class="text-base sm:text-xl font-black text-gray-800 mt-1 leading-tight">--</h3>
+                    <p id="modalEntitySub" class="text-xs text-gray-500 mt-0.5">--</p>
+                </div>
+                <button onclick="closeSupDetailModal()" class="w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-600 flex items-center justify-center shrink-0">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="grid grid-cols-3 gap-2 text-center">
+                <div class="bg-gray-50 rounded-2xl p-2.5 border border-gray-200">
+                    <div class="text-[10px] font-bold text-gray-400 uppercase">Activadas / Meta</div>
+                    <div id="modalKpiGral" class="text-sm sm:text-base font-black text-gray-800 mt-0.5">0 / 0</div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-2.5 border border-gray-200">
+                    <div class="text-[10px] font-bold text-gray-400 uppercase">% Alcance</div>
+                    <div id="modalKpiPct" class="text-sm sm:text-base font-black text-oppogreen mt-0.5">0%</div>
+                </div>
+                <div class="bg-gray-50 rounded-2xl p-2.5 border border-gray-200">
+                    <div class="text-[10px] font-bold text-gray-400 uppercase">Foco (R16+A7P)</div>
+                    <div id="modalKpiFoco" class="text-sm sm:text-base font-black text-amber-600 mt-0.5">0 / 0</div>
+                </div>
+            </div>
+            <div class="bg-gray-50 rounded-2xl p-3.5 border border-gray-200">
+                <div class="text-[11px] font-black uppercase text-gray-600 mb-2">Comportamiento Diario en Noviembre (D&iacute;a 1 al 9)</div>
+                <div style="height: 150px;">
+                    <canvas id="modalTrendChart"></canvas>
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-[11px] font-black uppercase text-gray-700">Calendario de Ventas del Mes</span>
+                    <span id="modalDaySummary" class="text-[11px] font-bold text-gray-500"></span>
+                </div>
+                <div id="modalCalendarBox"></div>
+            </div>
+            <div id="modalCategoryBreakdown" class="bg-gray-50 rounded-2xl p-3 border border-gray-200 text-xs"></div>
+        </div>
+    </div>
 
     <!-- MODAL DE METAS DEL PROMOTOR -->
     <div id="promoterTargetsModal" class="fixed inset-0 bg-black/75 z-50 hidden items-center justify-center p-4">
@@ -974,7 +1318,8 @@
 
     <!-- BASE DE DATOS DE TARGETS Y VENTAS AL CORTE -->
     <script src="comisiones-data.js?v=20261111"></script>
-    <script src="portal-auth.js?v=20261111"></script>
+    <script src="supervisores-data.js?v=20261112"></script>
+    <script src="portal-auth.js?v=20261112"></script>
     <script>
         let currentSelectedPromoter = null;
 
@@ -2003,12 +2348,625 @@
                 : (window.PORTAL_COMISIONES_DATA.promotores || []);
         }
 
-        function applySimulatorAccessForProfile(profile) {
-            if (!profile) return;
-            if (profile.role === 'farmer' || profile.role === 'hunter') {
-                window.location.replace('supervisores.html');
+        function setWorkspaceMode(mode) {
+            const isSup = (mode === 'supervisor');
+            const promoTop = document.getElementById('promoterTopCard');
+            const promoNav = document.getElementById('promoterTabsNav');
+            const supWs = document.getElementById('supervisorWorkspace');
+            if (promoTop) promoTop.classList.toggle('hidden', isSup);
+            if (promoNav) promoNav.classList.toggle('hidden', isSup);
+            if (supWs) supWs.classList.toggle('hidden', !isSup);
+
+            if (isSup) {
+                ['simulador', 'plan', 'reglas'].forEach(t => {
+                    const c = document.getElementById('tabContent_' + t);
+                    if (c) c.classList.add('hidden');
+                });
+            } else {
+                showTab('simulador');
+            }
+        }
+
+        function switchAuditorViewMode(viewMode) {
+            const d = window.PORTAL_SUPERVISORES_DATA || { farmers: [], hunters: [] };
+            if (viewMode === 'promoter') {
+                setWorkspaceMode('promoter');
+                ['promoter', 'farmer', 'hunter'].forEach(m => {
+                    const b = document.getElementById('audModeBtn_' + m);
+                    if (!b) return;
+                    b.className = (m === 'promoter')
+                        ? 'px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-600 text-white transition'
+                        : 'px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition';
+                });
+                const list = getPromoterList();
+                const defaultProm = list.find(p => p.id === 'MR918750') || list.find(p => p.ventas_corte && p.ventas_corte.netas > 0) || list[0];
+                if (defaultProm) selectPromoterById(defaultProm.id);
                 return;
             }
+
+            setWorkspaceMode('supervisor');
+            document.getElementById('supAuditorControls').classList.remove('hidden');
+            const isHunter = (viewMode === 'hunter');
+            document.getElementById('audFilterFarmer').className = !isHunter
+                ? 'px-2.5 py-1 rounded-lg text-[10px] font-black bg-emerald-600 text-white transition'
+                : 'px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition';
+            document.getElementById('audFilterHunter').className = isHunter
+                ? 'px-2.5 py-1 rounded-lg text-[10px] font-black bg-indigo-600 text-white transition'
+                : 'px-2.5 py-1 rounded-lg text-[10px] font-bold bg-white text-gray-700 border border-amber-300 transition';
+
+            const list = isHunter ? d.hunters : d.farmers;
+            const sel = document.getElementById('auditorSupSelect');
+            sel.innerHTML = list.map(s => `<option value="${s.id}">${s.id} — ${s.nombre} (${s.ventas_corte.netas} / ${s.tgt_gral} uds)</option>`).join('');
+            if (list.length > 0) selectSupervisor(list[0]);
+        }
+
+        function onAuditorSelectSupervisor() {
+            const sel = document.getElementById('auditorSupSelect');
+            const id = sel ? sel.value : '';
+            const d = window.PORTAL_SUPERVISORES_DATA || { farmers: [], hunters: [] };
+            const found = [].concat(d.farmers, d.hunters).find(s => s.id === id);
+            if (found) selectSupervisor(found);
+        }
+
+        // MOTOR DE COMISIONES FARMER & HUNTER + ANALÍTICA VISUAL
+        const FARMER_FOCO_RATES = {
+            RENO_16_5G: { label: 'RENO 16 5G', base: 80,  high: 140 },
+            RENO_16F:   { label: 'RENO 16F',   base: 50,  high: 120 },
+            A7_PRO:     { label: 'A7 PRO',     base: 20,  high: 45  }
+        };
+        const FARMER_FIJAS_RATES = {
+            FIND:        { label: 'FIND',        desc: 'Find X9, X8, Find N',           rate: 180 },
+            RENO_OTHERS: { label: 'RENO others', desc: 'Reno 14, 13, 12, 11, 10, 7, 6', rate: 80  },
+            A_HIGH:      { label: 'A HIGH',      desc: 'A6, A6K, A6/A5 Pro 5G, A80...', rate: 30  },
+            A_MIDDLE:    { label: 'A MIDDLE',    desc: 'A6T, A6t Pro, A5 Pro 4G, A60',  rate: 20  },
+            A_LOW:       { label: 'A LOW',       desc: 'A6X, A5, A40, A38, A17',        rate: 5   }
+        };
+        const HUNTER_RATES = {
+            RENO_16_5G:  { label: 'RENO 16 5G',  desc: 'Modelo Foco',                   low: 200, high: 500 },
+            RENO_16F:    { label: 'RENO 16F',    desc: 'Modelo Foco',                   low: 200, high: 400 },
+            A7_PRO:      { label: 'A7 PRO',      desc: 'Modelo Foco',                   low: 100, high: 300 },
+            FIND:        { label: 'FIND',        desc: 'Find X9, X8, Find N',           low: 300, high: 700 },
+            RENO_OTHERS: { label: 'RENO others', desc: 'Reno 14, 13, 12, 11, 10, 7, 6', low: 100, high: 300 },
+            A_HIGH:      { label: 'A HIGH',      desc: 'A6, A6K, A6/A5 Pro 5G, A80...', low: 30,  high: 140 },
+            A_MIDDLE:    { label: 'A MIDDLE',    desc: 'A6T, A6t Pro, A5 Pro 4G, A60',  low: 10,  high: 70  },
+            A_LOW:       { label: 'A LOW',       desc: 'A6X, A5, A40, A38, A17',        low: 5,   high: 20  }
+        };
+        const SUP_ALL_KEYS = ['RENO_16_5G', 'RENO_16F', 'A7_PRO', 'FIND', 'RENO_OTHERS', 'A_HIGH', 'A_MIDDLE', 'A_LOW'];
+
+        let currentSup = null;
+        let currentChartMode = 'all';
+        let perfChartInstance = null;
+        let globalTrendChartInstance = null;
+        let modalTrendChartInstance = null;
+
+        function computeSupPayout(role, q, tgtGral, tgtFoco) {
+            const focusUnits = (q.RENO_16_5G || 0) + (q.RENO_16F || 0) + (q.A7_PRO || 0);
+            const otrasUnits = (q.FIND || 0) + (q.RENO_OTHERS || 0) + (q.A_HIGH || 0) + (q.A_MIDDLE || 0) + (q.A_LOW || 0);
+            const totalUnits = focusUnits + otrasUnits;
+            const subs = {};
+
+            if (role === 'farmer') {
+                const focoPct = tgtFoco > 0 ? (focusUnits / tgtFoco) * 100 : 0;
+                const reached95 = tgtFoco > 0 && focoPct >= 95;
+                ['RENO_16_5G', 'RENO_16F', 'A7_PRO'].forEach(k => {
+                    subs[k] = (q[k] || 0) * (reached95 ? FARMER_FOCO_RATES[k].high : FARMER_FOCO_RATES[k].base);
+                });
+                Object.keys(FARMER_FIJAS_RATES).forEach(k => {
+                    subs[k] = (q[k] || 0) * FARMER_FIJAS_RATES[k].rate;
+                });
+                const focusMoney = subs.RENO_16_5G + subs.RENO_16F + subs.A7_PRO;
+                const otrasMoney = subs.FIND + subs.RENO_OTHERS + subs.A_HIGH + subs.A_MIDDLE + subs.A_LOW;
+                const grandTotal = focusMoney + otrasMoney;
+                return {
+                    role, totalUnits, focusUnits, otrasUnits, subs, focusMoney, otrasMoney, grandTotal,
+                    avgPerUnit: totalUnits > 0 ? grandTotal / totalUnits : 0,
+                    isHighTier: reached95,
+                    tierLabel: reached95 ? 'Tarifa ≥95% Foco' : 'Tarifa <95% Foco',
+                    pctMetric: focoPct
+                };
+            } else {
+                const gralPct = tgtGral > 0 ? (totalUnits / tgtGral) * 100 : 0;
+                const reached100 = tgtGral > 0 && gralPct >= 100;
+                SUP_ALL_KEYS.forEach(k => {
+                    subs[k] = (q[k] || 0) * (reached100 ? HUNTER_RATES[k].high : HUNTER_RATES[k].low);
+                });
+                const focusMoney = subs.RENO_16_5G + subs.RENO_16F + subs.A7_PRO;
+                const otrasMoney = subs.FIND + subs.RENO_OTHERS + subs.A_HIGH + subs.A_MIDDLE + subs.A_LOW;
+                const grandTotal = focusMoney + otrasMoney;
+                return {
+                    role, totalUnits, focusUnits, otrasUnits, subs, focusMoney, otrasMoney, grandTotal,
+                    avgPerUnit: totalUnits > 0 ? grandTotal / totalUnits : 0,
+                    isHighTier: reached100,
+                    tierLabel: reached100 ? 'Tarifa ≥100% Target Gral' : 'Tarifa <100% Target Gral',
+                    pctMetric: gralPct
+                };
+            }
+        }
+
+        function switchSupTab(tab) {
+            ['comisiones', 'analisis', 'calendario'].forEach(t => {
+                const btn = document.getElementById('supTabBtn_' + t);
+                const panel = document.getElementById('supPanel_' + t);
+                const active = (t === tab);
+                if (btn) {
+                    btn.classList.toggle('active', active);
+                    btn.classList.toggle('inactive', !active);
+                }
+                if (panel) panel.classList.toggle('hidden', !active);
+            });
+            if (tab === 'analisis' && currentSup) renderPerfChart();
+            if (tab === 'calendario' && currentSup) renderGlobalCalendar();
+        }
+
+        function filterSupSim(mode) {
+            const fEl = document.getElementById('supBlockFoco');
+            const oEl = document.getElementById('supBlockOtras');
+            if (fEl) fEl.classList.toggle('hidden', mode === 'otras');
+            if (oEl) oEl.classList.toggle('hidden', mode === 'foco');
+            ['all', 'foco', 'otras'].forEach(m => {
+                const b = document.getElementById('supFilter_' + m);
+                if (!b) return;
+                b.className = (m === mode)
+                    ? 'py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition'
+                    : 'py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition';
+            });
+        }
+
+        function buildSupStepperRow(key, title, subtitle) {
+            return `
+                <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                    <div class="min-w-0 flex-1">
+                        <div class="font-black text-xs sm:text-sm text-gray-800 truncate">${title}</div>
+                        <div class="text-[10px] sm:text-[11px] text-gray-500 truncate">${subtitle}</div>
+                    </div>
+                    <div class="flex items-center gap-1 shrink-0">
+                        <button onclick="stepSupUnit('${key}', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                        <input type="number" id="supQty_${key}" value="0" min="0" max="2000" oninput="recalcSupSim()" class="num-input w-12 sm:w-14 text-center font-black text-sm py-1 rounded-lg border border-gray-300 bg-white">
+                        <button onclick="stepSupUnit('${key}', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                    </div>
+                    <div id="supSub_${key}" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
+                </div>
+            `;
+        }
+
+        function renderSupSteppers(role) {
+            const focoContainer = document.getElementById('supSteppersFoco');
+            const otrasContainer = document.getElementById('supSteppersOtras');
+            if (role === 'farmer') {
+                focoContainer.innerHTML = ['RENO_16_5G', 'RENO_16F', 'A7_PRO'].map(k => {
+                    const r = FARMER_FOCO_RATES[k];
+                    return buildSupStepperRow(k, r.label, `&lt;95%: <strong>$${r.base}</strong> &bull; &ge;95%: <strong class="text-oppogreen">$${r.high}</strong>`);
+                }).join('');
+                otrasContainer.innerHTML = Object.keys(FARMER_FIJAS_RATES).map(k => {
+                    const r = FARMER_FIJAS_RATES[k];
+                    return buildSupStepperRow(k, r.label, `${r.desc} (Fija: <strong>$${r.rate}</strong>)`);
+                }).join('');
+                document.getElementById('supOtrasTitle').innerHTML = '<i class="fas fa-lock text-oppogreen mr-1"></i> Dem&aacute;s Series (Comisi&oacute;n Fija)';
+                document.getElementById('supOtrasCardLabel').textContent = '2. Comisiones Fijas';
+            } else {
+                focoContainer.innerHTML = ['RENO_16_5G', 'RENO_16F', 'A7_PRO'].map(k => {
+                    const r = HUNTER_RATES[k];
+                    return buildSupStepperRow(k, r.label, `&lt;100%: <strong>$${r.low}</strong> &bull; &ge;100%: <strong class="text-oppogreen">$${r.high}</strong>`);
+                }).join('');
+                otrasContainer.innerHTML = ['FIND', 'RENO_OTHERS', 'A_HIGH', 'A_MIDDLE', 'A_LOW'].map(k => {
+                    const r = HUNTER_RATES[k];
+                    return buildSupStepperRow(k, r.label, `${r.desc} ($${r.low} / $${r.high})`);
+                }).join('');
+                document.getElementById('supOtrasTitle').innerHTML = '<i class="fas fa-layer-group text-oppogreen mr-1"></i> Dem&aacute;s Series (Seg&uacute;n Target Gral)';
+                document.getElementById('supOtrasCardLabel').textContent = '2. Demás Series';
+            }
+        }
+
+        function renderOfficialSchemeTable(role, isHighTier) {
+            const card = document.getElementById('supOfficialTableCard');
+            if (!card) return;
+            if (role === 'farmer') {
+                card.innerHTML = `
+                    <div class="text-xs font-black uppercase text-oppogreen">Esquema Oficial Farmer (Noviembre)</div>
+                    <div class="overflow-x-auto rounded-2xl border border-gray-200">
+                        <table class="w-full text-xs text-center border-collapse">
+                            <thead>
+                                <tr class="bg-oppodarkgreen text-white">
+                                    <th class="py-2 px-3 text-left">FOCO (A7P + R16)</th>
+                                    <th class="py-2 px-2 ${!isHighTier ? 'tier-active-header' : ''}">&lt;95%</th>
+                                    <th class="py-2 px-2 ${isHighTier ? 'tier-active-header' : ''}">&ge;95%</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 font-semibold">
+                                <tr><td class="py-2 px-3 text-left font-black">RENO 16 5G</td><td class="${!isHighTier ? 'tier-active-col' : ''}">$80</td><td class="${isHighTier ? 'tier-active-col' : ''}">$140</td></tr>
+                                <tr><td class="py-2 px-3 text-left font-black">RENO 16F</td><td class="${!isHighTier ? 'tier-active-col' : ''}">$50</td><td class="${isHighTier ? 'tier-active-col' : ''}">$120</td></tr>
+                                <tr><td class="py-2 px-3 text-left font-black">A7 PRO</td><td class="${!isHighTier ? 'tier-active-col' : ''}">$20</td><td class="${isHighTier ? 'tier-active-col' : ''}">$45</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="overflow-x-auto rounded-2xl border border-gray-200">
+                        <table class="w-full text-xs text-center border-collapse">
+                            <thead><tr class="bg-emerald-900 text-white"><th class="py-2 px-3 text-left">SERIE (COMISI&Oacute;N FIJA)</th><th class="py-2 px-3">COMISI&Oacute;N</th></tr></thead>
+                            <tbody class="divide-y divide-gray-200 font-semibold">
+                                <tr><td class="py-1.5 px-3 text-left font-black">FIND</td><td class="font-black text-oppogreen">$180</td></tr>
+                                <tr><td class="py-1.5 px-3 text-left font-black">RENO others</td><td class="font-black text-oppogreen">$80</td></tr>
+                                <tr><td class="py-1.5 px-3 text-left font-black">A HIGH</td><td class="font-black text-oppogreen">$30</td></tr>
+                                <tr><td class="py-1.5 px-3 text-left font-black">A MIDDLE</td><td class="font-black text-oppogreen">$20</td></tr>
+                                <tr><td class="py-1.5 px-3 text-left font-black">A LOW</td><td class="font-black text-oppogreen">$5</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            } else {
+                card.innerHTML = `
+                    <div class="text-xs font-black uppercase text-oppogreen">Esquema Oficial Hunter (Noviembre)</div>
+                    <div class="overflow-x-auto rounded-2xl border border-gray-200">
+                        <table class="w-full text-xs text-center border-collapse">
+                            <thead>
+                                <tr class="bg-oppodarkgreen text-white">
+                                    <th class="py-2 px-3 text-left">SERIE (TARGET GRAL)</th>
+                                    <th class="py-2 px-2 ${!isHighTier ? 'tier-active-header' : ''}">&lt;100%</th>
+                                    <th class="py-2 px-2 ${isHighTier ? 'tier-active-header' : ''}">&ge;100%</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200 font-semibold">
+                                ${SUP_ALL_KEYS.map(k => {
+                                    const r = HUNTER_RATES[k];
+                                    return `<tr><td class="py-1.5 px-3 text-left font-black">${r.label}</td><td class="${!isHighTier ? 'tier-active-col' : ''}">$${r.low}</td><td class="${isHighTier ? 'tier-active-col' : ''}">$${r.high}</td></tr>`;
+                                }).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            }
+        }
+
+        function stepSupUnit(key, delta) {
+            const inp = document.getElementById('supQty_' + key);
+            if (!inp) return;
+            inp.value = Math.max(0, (parseInt(inp.value, 10) || 0) + delta);
+            recalcSupSim();
+        }
+
+        function recalcSupSim() {
+            if (!currentSup) return;
+            const q = {};
+            SUP_ALL_KEYS.forEach(k => {
+                const el = document.getElementById('supQty_' + k);
+                q[k] = Math.max(0, parseInt(el ? el.value : 0, 10) || 0);
+            });
+            const res = computeSupPayout(currentSup.role, q, currentSup.tgt_gral, currentSup.tgt_foco);
+            SUP_ALL_KEYS.forEach(k => {
+                const subEl = document.getElementById('supSub_' + k);
+                if (subEl) subEl.textContent = formatMXN(res.subs[k]);
+            });
+            document.getElementById('supGrandTotalMoney').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
+            document.getElementById('supAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por equipo`;
+            document.getElementById('supFocusMoney').textContent = formatMXN(res.focusMoney);
+            document.getElementById('supFocusUnitsDesc').textContent = `${res.focusUnits} equipos`;
+            document.getElementById('supOtrasMoney').textContent = formatMXN(res.otrasMoney);
+            document.getElementById('supOtrasUnitsDesc').textContent = `${res.otrasUnits} equipos`;
+            document.getElementById('supSummaryUnits').textContent = res.totalUnits;
+            document.getElementById('supSummaryFocus').textContent = res.focusUnits;
+
+            const focusBadge = document.getElementById('supSimFocusBadge');
+            const otrasBadge = document.getElementById('supSimOtrasBadge');
+            focusBadge.textContent = currentSup.role === 'farmer' ? `${res.tierLabel} (${Math.round(res.pctMetric)}%)` : res.tierLabel;
+            focusBadge.className = res.isHighTier
+                ? 'text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-600 text-white'
+                : 'text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-100 text-amber-800';
+            otrasBadge.textContent = currentSup.role === 'farmer' ? 'Comisión Fija' : `${res.tierLabel} (${Math.round(res.pctMetric)}%)`;
+
+            document.getElementById('supStickyTotal').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
+            document.getElementById('supStickyUnits').textContent = `${res.totalUnits} uds (Foco: ${res.focusUnits})`;
+            document.getElementById('supStickyStatus').textContent = res.tierLabel;
+            renderOfficialSchemeTable(currentSup.role, res.isHighTier);
+        }
+
+        function loadSupRealSales() {
+            if (!currentSup) return;
+            const vc = currentSup.ventas_corte || {};
+            SUP_ALL_KEYS.forEach(k => {
+                const el = document.getElementById('supQty_' + k);
+                if (el) el.value = vc[k] || 0;
+            });
+            recalcSupSim();
+        }
+
+        function simulateSupGoal() {
+            if (!currentSup) return;
+            loadSupRealSales();
+            if (currentSup.role === 'farmer') {
+                const curFoco = (currentSup.ventas_corte.RENO_16_5G || 0) + (currentSup.ventas_corte.RENO_16F || 0) + (currentSup.ventas_corte.A7_PRO || 0);
+                const needFoco = Math.max(0, Math.ceil(currentSup.tgt_foco * 0.95) - curFoco);
+                const el = document.getElementById('supQty_RENO_16F');
+                if (el) el.value = (parseInt(el.value, 10) || 0) + needFoco;
+            } else {
+                const needGral = Math.max(0, currentSup.tgt_gral - (currentSup.ventas_corte.netas || 0));
+                const el = document.getElementById('supQty_A_HIGH');
+                if (el) el.value = (parseInt(el.value, 10) || 0) + needGral;
+            }
+            recalcSupSim();
+        }
+
+        function resetSupZero() {
+            SUP_ALL_KEYS.forEach(k => {
+                const el = document.getElementById('supQty_' + k);
+                if (el) el.value = 0;
+            });
+            recalcSupSim();
+        }
+
+        function selectSupervisor(sup) {
+            currentSup = sup;
+            const isFarmer = sup.role === 'farmer';
+            const badge = document.getElementById('supTypeBadge');
+            badge.textContent = isFarmer ? 'FARMER' : 'HUNTER';
+            badge.className = isFarmer
+                ? 'px-2.5 py-1 rounded-xl bg-emerald-100 text-emerald-800 text-[10px] sm:text-xs font-black uppercase shrink-0'
+                : 'px-2.5 py-1 rounded-xl bg-indigo-100 text-indigo-800 text-[10px] sm:text-xs font-black uppercase shrink-0';
+            document.getElementById('supNameTitle').textContent = sup.nombre;
+            document.getElementById('supSubInfo').textContent = isFarmer
+                ? `${sup.region} • ${(sup.promoters || []).length} Promotores • ${sup.stores_count} Tiendas`
+                : `${sup.region} • ${(sup.stores || []).length} Tiendas Hunter`;
+            document.getElementById('supIdPill').textContent = `ID: ${sup.id}`;
+
+            const vc = sup.ventas_corte || {};
+            const realRes = computeSupPayout(sup.role, vc, sup.tgt_gral, sup.tgt_foco);
+            document.getElementById('supTotalBrutas').innerHTML = `${vc.brutas || 0} <span class="text-[11px] font-normal text-gray-400">uds</span>`;
+            document.getElementById('supTotalNetas').innerHTML = `${vc.netas || 0} <span class="text-[11px] font-normal text-emerald-200">uds</span>`;
+            document.getElementById('supEarnedMoney').textContent = formatMXN(realRes.grandTotal) + ' MXN';
+            document.getElementById('supAvgPerUnit').textContent = `$${realRes.avgPerUnit.toFixed(2)} / ud`;
+            document.getElementById('supThresholdPill').textContent = realRes.tierLabel;
+
+            const gralPct = sup.tgt_gral > 0 ? Math.round(((vc.netas || 0) / sup.tgt_gral) * 100) : 0;
+            const focoPct = sup.tgt_foco > 0 ? Math.round((realRes.focusUnits / sup.tgt_foco) * 100) : 0;
+            document.getElementById('supGralText').textContent = `${vc.netas || 0} / ${sup.tgt_gral} (${gralPct}%)`;
+            document.getElementById('supGralBar').style.width = Math.min(100, gralPct) + '%';
+            document.getElementById('supGralNote').textContent = `Faltan ${Math.max(0, sup.tgt_gral - (vc.netas || 0))} uds`;
+            document.getElementById('supGralRuleTag').textContent = isFarmer ? 'Ref.' : 'Meta 100%';
+
+            document.getElementById('supFocoText').textContent = `${realRes.focusUnits} / ${sup.tgt_foco} (${focoPct}%)`;
+            document.getElementById('supFocoBar').style.width = Math.min(100, focoPct) + '%';
+            document.getElementById('supFocoNote').textContent = isFarmer
+                ? `95% = ${Math.ceil(sup.tgt_foco * 0.95)} uds`
+                : `Faltan ${Math.max(0, sup.tgt_foco - realRes.focusUnits)} uds`;
+            document.getElementById('supFocoRuleTag').textContent = isFarmer ? 'Meta ≥95%' : 'Foco';
+
+            document.getElementById('supSimTitle').innerHTML = `<i class="fas fa-sliders-h text-oppogreen mr-1.5"></i> Simulador ${isFarmer ? 'Farmer' : 'Hunter'}`;
+            document.getElementById('supSimRuleDesc').textContent = isFarmer
+                ? 'Modelos Foco (R16 + A7 Pro) suben al ≥95% de tu Target Foco; los demás modelos tienen comisión fija.'
+                : 'Todas las series suben de tarifa al alcanzar el ≥100% de tu Target General.';
+            document.getElementById('supSimGoalBtnText').textContent = isFarmer ? 'Meta 95% Foco' : 'Meta 100% Gral';
+
+            renderSupSteppers(sup.role);
+            loadSupRealSales();
+
+            document.getElementById('supChartTitle').textContent = isFarmer ? 'Alcance de Promotores Elite (% Target)' : 'Alcance de Tiendas Hunter (% Target)';
+            document.getElementById('supChartSubtitle').textContent = isFarmer
+                ? 'Comparativa de tus promotores de mayor a menor alcance. Toca una fila abajo para ver su calendario.'
+                : 'Comparativa de tus tiendas de mayor a menor alcance. Toca una tienda abajo para ver su calendario.';
+            document.getElementById('supTableTitle').textContent = isFarmer ? 'Tabla General de Promotores Elite' : 'Tabla General de Tiendas Hunter';
+
+            renderSupTable();
+            if (!document.getElementById('supPanel_analisis').classList.contains('hidden')) renderPerfChart();
+            if (!document.getElementById('supPanel_calendario').classList.contains('hidden')) renderGlobalCalendar();
+        }
+
+        function getSupEntityRows() {
+            if (!currentSup) return [];
+            const isFarmer = currentSup.role === 'farmer';
+            const list = isFarmer ? (currentSup.promoters || []) : (currentSup.stores || []);
+            return list.map(item => {
+                const vc = item.ventas_corte || {};
+                const netas = vc.netas || 0;
+                const tgt = item.tgt_gral || 0;
+                const pct = tgt > 0 ? Math.round((netas / tgt) * 100) : (netas > 0 ? 100 : 0);
+                const focoNet = (vc.RENO_16_5G || 0) + (vc.RENO_16F || 0) + (vc.A7_PRO || 0);
+                return {
+                    raw: item, key: isFarmer ? item.id : item.store_id,
+                    title: isFarmer ? item.nombre : item.store_name,
+                    sub: isFarmer ? item.tienda : item.market,
+                    netas, brutas: vc.brutas || 0, tgt, pct, focoNet, focoTgt: item.tgt_foco || 0,
+                    daily: vc.daily_netas || {}
+                };
+            }).sort((a, b) => b.pct - a.pct || b.netas - a.netas);
+        }
+
+        function setChartMode(mode) {
+            currentChartMode = mode;
+            ['all', 'top', 'low'].forEach(m => {
+                const b = document.getElementById('chartMode_' + m);
+                if (!b) return;
+                b.className = (m === mode)
+                    ? 'px-2.5 py-1 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition'
+                    : 'px-2.5 py-1 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition';
+            });
+            renderPerfChart();
+        }
+
+        function renderPerfChart() {
+            let rows = getSupEntityRows();
+            if (currentChartMode === 'top') rows = rows.slice(0, 8);
+            else if (currentChartMode === 'low') rows = rows.slice(-8).reverse();
+            else if (rows.length > 18) rows = rows.slice(0, 18);
+
+            const container = document.getElementById('supChartContainer');
+            container.style.height = Math.max(240, rows.length * 28 + 50) + 'px';
+
+            const labels = rows.map(r => r.title.length > 22 ? r.title.slice(0, 20) + '…' : r.title);
+            const values = rows.map(r => r.pct);
+            const colors = rows.map(r => r.pct >= 100 ? '#05B670' : (r.pct >= 30 ? '#f59e0b' : '#f43f5e'));
+
+            const ctx = document.getElementById('supPerfChart').getContext('2d');
+            if (perfChartInstance) perfChartInstance.destroy();
+            perfChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: { labels, datasets: [{ label: '% Alcance Target', data: values, backgroundColor: colors, borderRadius: 6 }] },
+                options: {
+                    indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: { callbacks: { label: ci => `${rows[ci.dataIndex].pct}% (${rows[ci.dataIndex].netas} / ${rows[ci.dataIndex].tgt} uds)` } }
+                    },
+                    scales: {
+                        x: { beginAtZero: true, ticks: { callback: v => v + '%' } },
+                        y: { ticks: { font: { size: 10, weight: 'bold' } } }
+                    }
+                }
+            });
+        }
+
+        function renderSupTable() {
+            if (!currentSup) return;
+            const isFarmer = currentSup.role === 'farmer';
+            const q = (document.getElementById('supTableSearch').value || '').trim().toLowerCase();
+            let rows = getSupEntityRows();
+            if (q) rows = rows.filter(r => r.title.toLowerCase().includes(q) || r.sub.toLowerCase().includes(q) || r.key.toLowerCase().includes(q));
+
+            document.getElementById('supTableHead').innerHTML = `
+                <tr>
+                    <th class="py-2.5 px-2.5">${isFarmer ? 'Promotor Elite' : 'Tienda'}</th>
+                    <th class="py-2.5 px-2 text-center">Activ. / Meta</th>
+                    <th class="py-2.5 px-2 text-center">Alcance</th>
+                    <th class="py-2.5 px-2 text-right">Detalle</th>
+                </tr>
+            `;
+            const tbody = document.getElementById('supTableBody');
+            if (rows.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="py-6 text-center text-gray-400">Sin registros que coincidan.</td></tr>';
+                return;
+            }
+            window._supTableRows = rows;
+            tbody.innerHTML = rows.map((r, idx) => {
+                const pillCls = r.pct >= 100 ? 'bg-emerald-100 text-emerald-800' : (r.pct >= 30 ? 'bg-amber-100 text-amber-800' : 'bg-rose-100 text-rose-700');
+                return `
+                    <tr onclick="openSupEntityModal(${idx})" class="hover:bg-emerald-50/60 cursor-pointer transition">
+                        <td class="py-2.5 px-2.5">
+                            <div class="font-black text-gray-800 leading-tight">${r.title}</div>
+                            <div class="text-[10px] text-gray-500 truncate max-w-[190px] sm:max-w-xs">${r.key} &bull; ${r.sub}</div>
+                        </td>
+                        <td class="py-2.5 px-2 text-center font-bold text-gray-700 whitespace-nowrap">${r.netas} <span class="text-gray-400">/ ${r.tgt}</span></td>
+                        <td class="py-2.5 px-2 text-center"><span class="px-2 py-0.5 rounded-full text-[10px] font-black ${pillCls}">${r.pct}%</span></td>
+                        <td class="py-2.5 px-2 text-right"><span class="text-[11px] font-black text-oppogreen whitespace-nowrap">Ver <i class="fas fa-calendar-alt ml-0.5"></i></span></td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function buildNovemberCalendarHtml(dailyMap) {
+            const headers = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
+            let html = '<div class="cal-grid mb-1">' + headers.map(h => `<div class="text-center text-[10px] font-black text-gray-400 py-1">${h}</div>`).join('') + '</div><div class="cal-grid">';
+            for (let pad = 0; pad < 6; pad++) html += '<div></div>';
+            const vals = Object.keys(dailyMap).map(k => dailyMap[k] || 0);
+            const maxVal = Math.max(1, ...vals);
+            for (let day = 1; day <= 30; day++) {
+                const isPassed = day <= 9;
+                const count = dailyMap[String(day)] || 0;
+                let cls = 'bg-gray-100 text-gray-400 border-gray-200';
+                if (!isPassed) cls = 'bg-gray-50 text-gray-300 border-dashed border-gray-200';
+                else if (count === 0) cls = 'bg-rose-50 text-rose-600 border-rose-200';
+                else if (count >= maxVal * 0.7 && count >= 2) cls = 'bg-emerald-600 text-white border-emerald-700 shadow-sm';
+                else cls = 'bg-emerald-100 text-emerald-800 border-emerald-300';
+                html += `<div class="rounded-xl border p-1 sm:p-1.5 text-center ${cls}"><div class="text-[9px] font-bold opacity-80 leading-none">${day}</div><div class="text-xs sm:text-sm font-black mt-0.5 leading-none">${isPassed ? count : '-'}</div></div>`;
+            }
+            return html + '</div>';
+        }
+
+        function renderGlobalCalendar() {
+            if (!currentSup) return;
+            const daily = (currentSup.ventas_corte || {}).daily_netas || {};
+            document.getElementById('supGlobalCalendar').innerHTML = buildNovemberCalendarHtml(daily);
+            const days = [1,2,3,4,5,6,7,8,9];
+            const counts = days.map(d => daily[String(d)] || 0);
+            let bestDay = 1, worstDay = 1;
+            days.forEach(d => {
+                if ((daily[String(d)] || 0) > (daily[String(bestDay)] || 0)) bestDay = d;
+                if ((daily[String(d)] || 0) < (daily[String(worstDay)] || 0)) worstDay = d;
+            });
+            document.getElementById('supGlobalBestDayBadge').textContent = `Mejor día: ${bestDay} Nov (${daily[String(bestDay)] || 0} uds)`;
+            document.getElementById('supGlobalCalendarInsights').innerHTML = `
+                <div>&bull; <strong>D&iacute;a m&aacute;s fuerte:</strong> ${bestDay} de Noviembre con <strong>${daily[String(bestDay)] || 0} ventas activadas</strong>.</div>
+                <div>&bull; <strong>D&iacute;a m&aacute;s flojo:</strong> ${worstDay} de Noviembre con <strong>${daily[String(worstDay)] || 0} ventas activadas</strong>.</div>
+            `;
+            const ctx = document.getElementById('supGlobalTrendChart').getContext('2d');
+            if (globalTrendChartInstance) globalTrendChartInstance.destroy();
+            globalTrendChartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: days.map(d => 'Nov ' + d),
+                    datasets: [{ label: 'Activadas', data: counts, borderColor: '#05B670', backgroundColor: 'rgba(5, 182, 112, 0.15)', fill: true, tension: 0.3, pointRadius: 4 }]
+                },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true } } }
+            });
+        }
+
+        function openSupEntityModal(idx) {
+            const row = (window._supTableRows || [])[idx];
+            if (!row || !currentSup) return;
+            const isFarmer = currentSup.role === 'farmer';
+            document.getElementById('modalEntityBadge').textContent = isFarmer ? 'Promotor Elite' : 'Tienda Hunter';
+            document.getElementById('modalEntityName').textContent = row.title;
+            document.getElementById('modalEntitySub').textContent = `${row.key} • ${row.sub}`;
+            document.getElementById('modalKpiGral').textContent = `${row.netas} / ${row.tgt}`;
+            document.getElementById('modalKpiPct').textContent = `${row.pct}%`;
+            document.getElementById('modalKpiFoco').textContent = `${row.focoNet} / ${row.focoTgt}`;
+
+            const daily = row.daily || {};
+            const days = [1,2,3,4,5,6,7,8,9];
+            const counts = days.map(d => daily[String(d)] || 0);
+            const zeroDays = days.filter(d => (daily[String(d)] || 0) === 0).length;
+            const bestDay = days.reduce((a, b) => (daily[String(b)] || 0) > (daily[String(a)] || 0) ? b : a, 1);
+
+            document.getElementById('modalDaySummary').textContent = `Mejor: ${bestDay} Nov (${daily[String(bestDay)] || 0}u) • Días en 0: ${zeroDays}`;
+            document.getElementById('modalCalendarBox').innerHTML = buildNovemberCalendarHtml(daily);
+
+            const vc = row.raw.ventas_corte || {};
+            document.getElementById('modalCategoryBreakdown').innerHTML = `
+                <div class="font-black text-gray-700 uppercase text-[10px] mb-1.5">Desglose de Ventas Activadas al Corte (${row.netas} netas / ${row.brutas} totales)</div>
+                <div class="grid grid-cols-4 gap-1.5 text-center">
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">R16 5G</div><div class="font-black">${vc.RENO_16_5G || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">R16F</div><div class="font-black">${vc.RENO_16F || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">A7 Pro</div><div class="font-black">${vc.A7_PRO || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">FIND</div><div class="font-black">${vc.FIND || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">Reno O.</div><div class="font-black">${vc.RENO_OTHERS || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">A High</div><div class="font-black">${vc.A_HIGH || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">A Mid</div><div class="font-black">${vc.A_MIDDLE || 0}</div></div>
+                    <div class="bg-white p-1.5 rounded-lg border border-gray-200"><div class="text-[9px] text-gray-400">A Low</div><div class="font-black">${vc.A_LOW || 0}</div></div>
+                </div>
+            `;
+
+            const modal = document.getElementById('supDetailModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+
+            const ctx = document.getElementById('modalTrendChart').getContext('2d');
+            if (modalTrendChartInstance) modalTrendChartInstance.destroy();
+            modalTrendChartInstance = new Chart(ctx, {
+                type: 'bar',
+                data: { labels: days.map(d => 'Nov ' + d), datasets: [{ label: 'Ventas', data: counts, backgroundColor: counts.map(c => c > 0 ? '#05B670' : '#fecdd3'), borderRadius: 6 }] },
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } } }
+            });
+        }
+
+        function closeSupDetailModal() {
+            const modal = document.getElementById('supDetailModal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+        }
+
+        function applySimulatorAccessForProfile(profile) {
+            if (!profile) return;
+            const d = window.PORTAL_SUPERVISORES_DATA || { farmers: [], hunters: [] };
+            const allSups = [].concat(d.farmers || [], d.hunters || []);
+
+            if (profile.role === 'farmer' || profile.role === 'hunter') {
+                setWorkspaceMode('supervisor');
+                document.getElementById('supAuditorControls').classList.add('hidden');
+                const normId = window.portalAuth.normalizeId(profile.idEmpleado || profile.id);
+                const found = allSups.find(s => window.portalAuth.normalizeId(s.id) === normId);
+                if (found) selectSupervisor(found);
+                return;
+            }
+
+            setWorkspaceMode('promoter');
             const isAud = !!(profile.role === 'auditor' || profile.isAuditor);
             const audBanner = document.getElementById('auditorModeBanner');
             const audSearch = document.getElementById('auditorSearchContainer');
@@ -2022,7 +2980,7 @@
                 if (eliteNote) eliteNote.classList.add('hidden');
                 if (editTargetsBtn) editTargetsBtn.classList.remove('hidden');
                 if (audText) {
-                    audText.textContent = `Sesión: ${profile.idEmpleado} (${profile.nombre}) — Puedes buscar y auditar cualquiera de los ${getPromoterList().length} promotores.`;
+                    audText.textContent = `Auditor ${profile.idEmpleado} — Cambia entre Promotores, Farmers o Hunters:`;
                 }
                 const list = getPromoterList();
                 const defaultProm = list.find(p => p.id === 'MR918750') || list.find(p => p.ventas_corte && p.ventas_corte.netas > 0) || list[0];

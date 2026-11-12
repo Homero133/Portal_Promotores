@@ -27,6 +27,7 @@
     <style id="dark-theme-style">
         body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
         body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
+        body.dark-mode .text-gray-900,
         body.dark-mode .text-gray-800 { color: #ffffff !important; }
         body.dark-mode .text-gray-700 { color: #dddddd !important; }
         body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
@@ -257,22 +258,7 @@
                 </div>
             </a>
 
-            <!-- Acceso Auditor al Panel de Supervisores Farmer y Hunter -->
-            <a id="homeSupervisoresCard" href="supervisores.html" class="hidden bg-gradient-to-r from-indigo-950 via-slate-900 to-emerald-950 rounded-3xl p-5 mb-5 text-white shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden group border border-indigo-400/35">
-                <div class="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                    <div>
-                        <span class="inline-flex items-center gap-1.5 py-1 px-3 rounded-full bg-indigo-500/30 border border-indigo-400/40 text-indigo-200 text-[11px] font-black tracking-wider uppercase mb-2">
-                            <i class="fas fa-user-tie"></i> Auditor&iacute;a Supervisores R9-E
-                        </span>
-                        <h4 class="text-xl sm:text-2xl font-black mb-1">Panel de Supervisores Farmer &amp; Hunter</h4>
-                        <p class="text-gray-300 text-xs sm:text-sm">Audita comisiones Farmer/Hunter, gr&aacute;ficas de promotores/tiendas y calendario mensual de ventas.</p>
-                    </div>
-                    <div class="bg-indigo-600 group-hover:bg-indigo-500 text-white font-black py-3 px-5 rounded-2xl flex items-center justify-center gap-2 shrink-0 text-xs sm:text-sm shadow-lg transition">
-                        <span>Abrir Supervisores</span>
-                        <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
-                    </div>
-                </div>
-            </a>
+            <!-- Acceso Auditor al Panel de Supervisores Farmer y Hunter: unificado dentro de comisiones-noviembre.html -->
 
             <a href="ola.html" class="block bg-white rounded-3xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:border-emerald-200 transition-all group">
                 <div class="flex flex-col md:flex-row items-center gap-6">
@@ -316,7 +302,7 @@
 
     <script>
         const searchDB = [
-            { title: "Panel de Supervisores Farmer y Hunter", desc: "Comisiones Farmer/Hunter Noviembre, gráficas de desempeño por promotor/tienda y calendario diario", url: "supervisores.html", kw: "supervisores farmer hunter comisiones graficas tiendas promotores calendario r9-e" },
+            { title: "Supervisores Farmer y Hunter (Comisiones y Calendario)", desc: "Comisiones Farmer/Hunter Noviembre, gráficas de desempeño por promotor/tienda y calendario diario en el Tabulador", url: "comisiones-noviembre.html", kw: "supervisores farmer hunter comisiones graficas tiendas promotores calendario r9-e" },
             { title: "Esquema de Comisiones y Tabulador (Noviembre 2026)", desc: "Consulta tu Target asignado, calculadora de comisiones por escalón, Reno 16 + A7 Pro y bono de $2,000", url: "comisiones-noviembre.html", kw: "comisiones tabulador target metas cuota noviembre bono 2000 reno 16 a7 pro find activadas" },
             { title: "Promociones Noviembre (Buen Fin)", desc: "Ofertas, descuentos y precios especiales vigentes para tu cadena", url: "promociones-noviembre.html?v=20261111", kw: "promociones noviembre buen fin ofertas descuentos precios liverpool sears sams walmart coppel elektra telcel att cac" },
             { title: "Evaluaciones Gamificadas", desc: "Crucigrama, Sopa de Letras y Casos Prácticos para desbloquear tu Insignia Dorada", url: "evaluaciones.html", kw: "evaluaciones examen crucigrama sopa letras casos practicos insignia dorada" },
@@ -372,36 +358,31 @@
             if (!profile) return;
             const badge = document.getElementById('homePromoChainBadge');
             const desc = document.getElementById('homePromoDesc');
-            const comCard = document.getElementById('homeComisionesCard');
             const comBadge = document.getElementById('homeComisionesBadge');
             const comSubBadge = document.getElementById('homeComisionesSubBadge');
             const comTitle = document.getElementById('homeComisionesTitle');
             const comDesc = document.getElementById('homeComisionesDesc');
             const comBtnText = document.getElementById('homeComisionesBtnText');
-            const supCard = document.getElementById('homeSupervisoresCard');
 
             if (profile.role === 'auditor' || profile.isAuditor) {
                 if (badge) badge.textContent = 'MODO AUDITOR • TODAS LAS CADENAS';
                 if (desc) desc.textContent = 'Acceso completo para auditar ofertas, precios y vigencias en todas las cadenas y carriers.';
-                if (supCard) supCard.classList.remove('hidden');
+                if (comDesc) comDesc.textContent = 'Audita comisiones y desempeño de Promotores Elite, Supervisores Farmer y Supervisores Hunter desde un solo lugar.';
             } else if (profile.role === 'farmer' || profile.role === 'hunter') {
                 const isF = profile.role === 'farmer';
                 if (badge) badge.textContent = (isF ? 'SUPERVISOR FARMER' : 'SUPERVISOR HUNTER') + ' • ' + (profile.region || 'R9-E');
                 if (desc) desc.textContent = 'Consulta todas las promociones y precios vigentes en las cadenas de tus tiendas.';
-                if (comCard) comCard.href = 'supervisores.html';
-                if (comBadge) comBadge.innerHTML = '<i class="fas fa-user-tie"></i> ' + (isF ? 'Panel Supervisor Farmer' : 'Panel Supervisor Hunter');
+                if (comBadge) comBadge.innerHTML = '<i class="fas fa-user-tie"></i> ' + (isF ? 'Tabulador Supervisor Farmer' : 'Tabulador Supervisor Hunter');
                 if (comSubBadge) comSubBadge.textContent = isF ? 'FOCO ≥95% + FIJAS' : 'TARGET GRAL ≥100%';
                 if (comTitle) comTitle.textContent = isF ? 'Comisiones Farmer & Desempeño Elite' : 'Comisiones Hunter & Desempeño Tiendas';
                 if (comDesc) comDesc.textContent = isF
                     ? 'Simula tus comisiones Farmer, revisa las gráficas de alcance de tus promotores y consulta su calendario mensual.'
                     : 'Simula tus comisiones Hunter, revisa el alcance por tienda y consulta su calendario mensual de ventas.';
-                if (comBtnText) comBtnText.textContent = 'Abrir Mi Panel';
-                if (supCard) supCard.classList.add('hidden');
+                if (comBtnText) comBtnText.textContent = 'Abrir Tabulador';
             } else {
                 const ch = profile.cadena_oficial || profile.cadena || 'tu cadena';
                 if (badge) badge.textContent = 'CADENA: ' + ch.toUpperCase();
                 if (desc) desc.textContent = 'Consulta los descuentos, precios promocionales y ofertas vigentes exclusivas para ' + ch + '.';
-                if (supCard) supCard.classList.add('hidden');
             }
         }
 

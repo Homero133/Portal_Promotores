@@ -9,14 +9,26 @@
 <script src="https://cdn.tailwindcss.com"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
 <script>tailwind.config = { theme: { extend: { colors: { oppoblack: '#000000', oppogreen: '#05B670', oppolight: '#f5f5f7', buenfinred: '#E11D48', buenfingold: '#F59E0B' } } } }</script>
 <style id="dark-theme-style">
-        body.dark-mode { background-color: #121212 !important; color: #e0e0e0 !important; }
+        body.dark-mode { background-color: #121212 !important; color: #e2e8f0 !important; }
         body.dark-mode .bg-white { background-color: #1e1e1e !important; border-color: #2d2d2d !important; }
-        body.dark-mode .text-gray-800 { color: #ffffff !important; }
-        body.dark-mode .text-gray-700 { color: #dddddd !important; }
-        body.dark-mode .text-gray-500 { color: #a0a0a0 !important; }
+        body.dark-mode .text-gray-900,
+        body.dark-mode .text-gray-800,
+        body.dark-mode .text-slate-900,
+        body.dark-mode .text-slate-800 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700,
+        body.dark-mode .text-slate-700 { color: #e2e8f0 !important; }
+        body.dark-mode .text-gray-600,
+        body.dark-mode .text-gray-500,
+        body.dark-mode .text-slate-600,
+        body.dark-mode .text-slate-500 { color: #a1a1aa !important; }
         body.dark-mode .bg-gray-50 { background-color: #252525 !important; }
         body.dark-mode .bg-gray-100 { background-color: #2d2d2d !important; }
-        body.dark-mode .border-b, body.dark-mode .border-gray-100 { border-color: #333 !important; }
+        body.dark-mode .bg-amber-50 { background-color: rgba(245, 158, 11, 0.14) !important; border-color: rgba(245, 158, 11, 0.4) !important; }
+        body.dark-mode .text-amber-900,
+        body.dark-mode .text-amber-800 { color: #fde68a !important; }
+        body.dark-mode select,
+        body.dark-mode input { background-color: #1e293b !important; color: #f8fafc !important; border-color: #475569 !important; }
+        body.dark-mode .border-b, body.dark-mode .border-gray-100, body.dark-mode .border-gray-200 { border-color: #333 !important; }
         body.dark-mode .glass-card { background-color: #1e1e1e !important; border-color: #333 !important; }
         body.dark-mode .chain-item { background-color: #1e1e1e !important; border-color: #2e2e2e !important; }
         body.dark-mode .chain-header:hover { background-color: #252525 !important; }
