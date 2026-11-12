@@ -1363,9 +1363,9 @@
     </div>
 
     <!-- BASE DE DATOS DE TARGETS Y VENTAS AL CORTE -->
-    <script src="comisiones-data.js?v=20261111"></script>
-    <script src="supervisores-data.js?v=20261112"></script>
-    <script src="portal-auth.js?v=20261112"></script>
+    <script src="comisiones-data.js?v=20261112b"></script>
+    <script src="supervisores-data.js?v=20261112b"></script>
+    <script src="portal-auth.js?v=20261112b"></script>
     <script>
         let currentSelectedPromoter = null;
 
@@ -3176,8 +3176,9 @@
             if (profile.role === 'farmer' || profile.role === 'hunter') {
                 setWorkspaceMode('supervisor');
                 document.getElementById('supAuditorControls').classList.add('hidden');
-                const normId = window.portalAuth.normalizeId(profile.idEmpleado || profile.id);
-                const found = allSups.find(s => window.portalAuth.normalizeId(s.id) === normId);
+                const found = (window.portalAuth && typeof window.portalAuth.findSupervisor === 'function')
+                    ? window.portalAuth.findSupervisor(profile.idEmpleado || profile.id, allSups)
+                    : allSups.find(s => window.portalAuth.normalizeId(s.id) === window.portalAuth.normalizeId(profile.idEmpleado || profile.id));
                 if (found) selectSupervisor(found);
                 return;
             }

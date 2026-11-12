@@ -14,6 +14,41 @@
         'AUDITORELITE': { id: 'AUDITOR-ELITE', nombre: 'AUDITOR ELITE OPPO' }
     };
 
+    const SUPERVISOR_ALIASES = {
+        // Farmer: ALBA BOGOTA ANDRES DANIEL
+        'R916909': 'R916909', 'MR916909': 'R916909', '916909': 'R916909', '16909': 'R916909',
+        // Farmer: BELLO VAZQUEZ ALMA JANET
+        'MR914460': 'MR914460', 'R914460': 'MR914460', '914460': 'MR914460', '14460': 'MR914460',
+        // Farmer: GARCIA GUILLEN TRINIDAD
+        '6068': '6068', 'R96068': '6068', 'MR96068': '6068', 'R6068': '6068', 'MR6068': '6068', 'R906068': '6068', 'MR906068': '6068', '006068': '6068',
+        // Farmer: HERNANDEZ SALAS ERICK GONZALO
+        'R916667': 'R916667', 'MR916667': 'R916667', '916667': 'R916667', '16667': 'R916667',
+        // Farmer: LOPEZ ESQUIVEL JUAN PABLO
+        'R921932': 'R921932', 'MR921932': 'R921932', '921932': 'R921932', '21932': 'R921932',
+        // Farmer: MONTECILLO PARRA ERIK EMMANUEL
+        'MR919047': 'MR919047', 'R919047': 'MR919047', '919047': 'MR919047', '19047': 'MR919047',
+        // Farmer: MORENO ORDOÑEZ CARLOS ANTONIO
+        'MR916841': 'MR916841', 'R916841': 'MR916841', '916841': 'MR916841', '16841': 'MR916841',
+        // Farmer: ROMERO VARA CARLOS EDUARDO
+        'MR919227': 'MR919227', 'R919227': 'MR919227', '919227': 'MR919227', '19227': 'MR919227',
+        // Farmer: ZAMORA MIRANDA CHRISTIAN
+        'R96412': 'R96412', 'MR96412': 'R96412', '96412': 'R96412', '6412': 'R96412', 'R906412': 'R96412', 'MR906412': 'R96412',
+        // Hunter: APOLINAR DUARTE EMMANUEL
+        'MR919858': 'MR919858', 'R919858': 'MR919858', '919858': 'MR919858', '19858': 'MR919858',
+        // Hunter: CHAVEZ HERNANDEZ JESUS
+        'MR911612': 'MR911612', 'R911612': 'MR911612', '911612': 'MR911612', '11612': 'MR911612',
+        // Hunter: ENRIQUEZ ARCHUNDIA MARICELA
+        'R96731': 'R96731', 'MR96731': 'R96731', '96731': 'R96731', '6731': 'R96731', 'R906731': 'R96731', 'MR906731': 'R96731',
+        // Hunter: ESQUIVEL DIAZ JORGE ALBERTO
+        'R915349': 'R915349', 'MR915349': 'R915349', '915349': 'R915349', '15349': 'R915349',
+        // Hunter: HERNANDEZ FLORES BRAYAN EDUARDO
+        'MR918399': 'MR918399', 'R918399': 'MR918399', '918399': 'MR918399', '18399': 'MR918399',
+        // Hunter: SANCHEZ BARAJAS JOSE DE JESUS
+        'MR914803': 'MR914803', 'R914803': 'MR914803', '914803': 'MR914803', '14803': 'MR914803',
+        // Hunter: VASQUEZ VASQUEZ LAZARO IVAN
+        'MR913580': 'MR913580', 'R913580': 'MR913580', '913580': 'MR913580', '13580': 'MR913580'
+    };
+
     let dataLoadPromise = null;
     let supLoadPromise = null;
     let readyCallbacks = [];
@@ -39,6 +74,77 @@
         return [].concat(d.farmers || [], d.hunters || []);
     }
 
+    function findSupervisor(rawInput, supList) {
+        if (!rawInput || !supList || supList.length === 0) return null;
+        const norm = normalizeId(rawInput);
+        if (!norm) return null;
+
+        // 1. Alias map directo
+        if (SUPERVISOR_ALIASES[norm]) {
+            const canon = SUPERVISOR_ALIASES[norm];
+            const found = supList.find(function (s) { return normalizeId(s.id) === canon; });
+            if (found) return found;
+        }
+
+        // 2. Exact match con s.id
+        let found = supList.find(function (s) { return normalizeId(s.id) === norm; });
+        if (found) return found;
+
+        // 3. Match numérico por dígitos (ej: '916909' -> 'R916909', '6068' -> '6068')
+        const inputDigits = norm.replace(/\D/g, '');
+        if (inputDigits.length >= 4) {
+            found = supList.find(function (s) {
+                const sDigits = normalizeId(s.id).replace(/\D/g, '');
+                return sDigits === inputDigits || sDigits.endsWith(inputDigits) || inputDigits.endsWith(sDigits);
+            });
+            if (found) return found;
+        }
+
+        // 4. Match por nombre (si el usuario escribió nombre o apellido)
+        const cleanInput = norm.replace(/[^A-Z0-9]/g, '');
+        if (cleanInput.length >= 4) {
+            found = supList.find(function (s) {
+                const cleanName = normalizeId(s.nombre).replace(/[^A-Z0-9]/g, '');
+                return cleanName.indexOf(cleanInput) !== -1;
+            });
+            if (found) return found;
+        }
+
+        return null;
+    }
+
+    function findPromoter(rawInput, promList) {
+        if (!rawInput || !promList || promList.length === 0) return null;
+        const norm = normalizeId(rawInput);
+        if (!norm) return null;
+
+        // 1. Exact match con p.id
+        let found = promList.find(function (p) { return normalizeId(p.id) === norm; });
+        if (found) return found;
+
+        // 2. Match por dígitos puros (ej: 'R918750' <-> 'MR918750' o '918750')
+        const inputDigits = norm.replace(/\D/g, '');
+        if (inputDigits.length >= 5) {
+            found = promList.find(function (p) {
+                const pDigits = normalizeId(p.id).replace(/\D/g, '');
+                return pDigits === inputDigits;
+            });
+            if (found) return found;
+        }
+
+        // 3. Match por nombre si tiene al menos 6 caracteres
+        const cleanInput = norm.replace(/[^A-Z0-9]/g, '');
+        if (cleanInput.length >= 6) {
+            found = promList.find(function (p) {
+                const cleanName = normalizeId(p.nombre).replace(/[^A-Z0-9]/g, '');
+                return cleanName.indexOf(cleanInput) !== -1;
+            });
+            if (found) return found;
+        }
+
+        return null;
+    }
+
     function ensureSupervisoresDataLoaded() {
         if (getSupervisorsList().length > 0) {
             return Promise.resolve(getSupervisorsList());
@@ -61,7 +167,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'supervisores-data.js?v=20261112';
+            sc.src = 'supervisores-data.js?v=20261112b';
             sc.onload = function () { resolve(getSupervisorsList()); };
             sc.onerror = function () { resolve([]); };
             document.head.appendChild(sc);
@@ -91,7 +197,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'comisiones-data.js?v=20261111';
+            sc.src = 'comisiones-data.js?v=20261112b';
             sc.onload = function () { resolve(getPromoterList()); };
             sc.onerror = function () { reject(new Error('No se pudo cargar el padrón de promotores.')); };
             document.head.appendChild(sc);
@@ -298,9 +404,7 @@
             const supList = results[0] || [];
             const list = results[1] || [];
 
-            const foundSup = supList.find(function (s) {
-                return normalizeId(s.id) === normId;
-            });
+            const foundSup = findSupervisor(normId, supList);
 
             if (foundSup) {
                 const roleLabel = foundSup.role === 'hunter' ? 'Supervisor Hunter' : 'Supervisor Farmer';
@@ -325,9 +429,7 @@
                 return;
             }
 
-            const found = list.find(function (p) {
-                return normalizeId(p.id) === normId;
-            });
+            const found = findPromoter(normId, list);
 
             if (!found) {
                 btn.disabled = false;
@@ -390,6 +492,7 @@
 
     function showAuthModal(prefilledId) {
         ensureComisionesDataLoaded().catch(function () {});
+        ensureSupervisoresDataLoaded().catch(function () {});
 
         let overlay = document.getElementById('portalAuthOverlay');
         if (!overlay) {
@@ -454,6 +557,9 @@
     window.portalAuth = {
         VERSION: PORTAL_REG_VERSION,
         normalizeId: normalizeId,
+        findSupervisor: findSupervisor,
+        findPromoter: findPromoter,
+        SUPERVISOR_ALIASES: SUPERVISOR_ALIASES,
         getProfile: getStoredProfile,
         isAuditor: isAuditor,
         isSupervisor: isSupervisor,

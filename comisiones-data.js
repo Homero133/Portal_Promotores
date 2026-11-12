@@ -1,10 +1,17 @@
-/**\n * Base de Datos Oficial de Promotores y Ventas Validadas al Corte\n * Corte al Día 11 (Cerrado a 11/11/2026 23:59:59)\n * Tolerancia de Activación: +-10 Días Naturales\n * Total Promotores: 710 | Ventas Netas Validadas: 1576\n */\nwindow.PORTAL_COMISIONES_META = {
+/**
+ * Base de Datos Oficial de Promotores y Ventas Validadas al Corte
+ * Corte al Día 11 (Cerrado a 11/11/2026 23:59:59)
+ * Tolerancia de Activación: +-10 Días Naturales
+ * Total Promotores: 710 | Ventas Netas Validadas: 1576
+ */
+window.PORTAL_COMISIONES_META = {
   "cutoffDay": 11,
   "cutoffDate": "2026-11-11",
   "toleranceDays": 10,
   "totalPromoters": 710,
   "netSales": 1576
-};\nwindow.PORTAL_COMISIONES_DATA = [
+};
+window.PORTAL_COMISIONES_DATA = [
   {
     "id": "MR920019",
     "nombre": "AGUILAR FLORES YAEL YIREH",
@@ -39811,4 +39818,4 @@
       "elektra"
     ]
   }
-];\n
+];
