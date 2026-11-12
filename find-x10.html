@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPPO Find X10 &amp; Find X10 Pro Max | Portal Elite</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
+    <link rel="apple-touch-icon" href="Recursos/Logo/favicon.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        oppoblack: '#000000',
+                        oppogreen: '#05B670',
+                        oppolight: '#f5f5f7'
+                    }
+                }
+            }
+        }
+    </script>
+    <style id="dark-theme-style">
+        body.dark-mode { background-color: #0b0d10 !important; color: #e5e7eb !important; }
+        body.dark-mode .bg-white { background-color: #161a20 !important; border-color: #262c36 !important; }
+        body.dark-mode .text-gray-900,
+        body.dark-mode .text-gray-800 { color: #ffffff !important; }
+        body.dark-mode .text-gray-700 { color: #d1d5db !important; }
+        body.dark-mode .text-gray-600,
+        body.dark-mode .text-gray-500 { color: #9ca3af !important; }
+        body.dark-mode .bg-gray-100 { background-color: #1f252e !important; }
+        body.dark-mode .bg-gray-50 { background-color: #12161c !important; }
+        body.dark-mode .border-b,
+        body.dark-mode .border-gray-100,
+        body.dark-mode .border-gray-200 { border-color: #262c36 !important; }
+    </style>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f7; }
+        .model-section { display: none; animation: fadeIn 0.28s ease-out; }
+        .model-section.active { display: block; }
+        .tab-btn { transition: all 0.2s ease; border-bottom: 3px solid transparent; }
+        .tab-btn.active { border-bottom-color: #05B670; color: #05B670; font-weight: 800; }
+        .ksp-card { transition: transform 0.22s ease, box-shadow 0.22s ease; }
+        .ksp-card:hover { transform: translateY(-3px); }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6D6ZC9K790"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6D6ZC9K790');
+    </script>
+    <script>
+        function toggleDarkMode() {
+            document.body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+            updateThemeIcon();
+        }
+        function initTheme() {
+            if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
+            updateThemeIcon();
+        }
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if (!icon) return;
+            icon.className = document.body.classList.contains('dark-mode') ? 'fas fa-sun text-yellow-400' : 'fas fa-moon text-gray-600';
+        }
+        document.addEventListener('DOMContentLoaded', initTheme);
+    </script>
+</head>
+<body class="text-gray-900 pb-16 transition-colors duration-200">
+    <!-- HEADER -->
+    <header class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex justify-between items-center gap-3">
+            <div class="flex items-center gap-3 min-w-0">
+                <a href="index.html" class="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-oppogreen hover:text-white transition shrink-0" title="Volver al inicio">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div class="min-w-0">
+                    <span class="text-[10px] font-black uppercase tracking-widest text-oppogreen block">Serie Find X &bull; Flagship</span>
+                    <h1 class="text-base sm:text-xl font-black text-gray-900 tracking-tight truncate">Find X10 &amp; Find X10 Pro Max</h1>
+                </div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+                <a href="serie-find.html" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-xs font-bold text-gray-700 transition">
+                    <i class="fas fa-layer-group text-oppogreen"></i> Toda Serie Find
+                </a>
+                <button onclick="toggleDarkMode()" title="Cambiar tema" class="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition">
+                    <i id="themeIcon" class="fas fa-moon text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+        <!-- SUBNAVEGACIÓN DE MODELOS -->
+        <div class="flex overflow-x-auto max-w-5xl mx-auto border-t border-gray-100 hide-scrollbar">
+            <button id="tabBtn-promax" class="tab-btn active px-4 sm:px-6 py-3 text-xs sm:text-sm font-bold whitespace-nowrap" onclick="switchFindTab('promax')">
+                <i class="fas fa-crown mr-1.5 text-amber-500"></i> Find X10 Pro Max
+            </button>
+            <button id="tabBtn-x10" class="tab-btn text-gray-500 px-4 sm:px-6 py-3 text-xs sm:text-sm font-bold whitespace-nowrap" onclick="switchFindTab('x10')">
+                <i class="fas fa-camera mr-1.5 text-oppogreen"></i> Find X10
+            </button>
+            <button id="tabBtn-comparativa" class="tab-btn text-gray-500 px-4 sm:px-6 py-3 text-xs sm:text-sm font-bold whitespace-nowrap" onclick="switchFindTab('comparativa')">
+                <i class="fas fa-columns mr-1.5 text-blue-500"></i> Comparativa R&aacute;pida
+            </button>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-4 sm:p-6">
+        <!-- ===================== SECCIÓN 1: FIND X10 PRO MAX ===================== -->
+        <section id="sec-promax" class="model-section active space-y-6">
+            <!-- HERO FLAGSHIP PRO MAX -->
+            <div class="bg-gradient-to-br from-gray-950 via-slate-900 to-emerald-950 rounded-3xl p-5 sm:p-8 text-white shadow-2xl border border-emerald-500/25 overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="px-3 py-1 rounded-full bg-amber-400 text-gray-950 text-[11px] font-black uppercase tracking-wider">Insignia Pro Max</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-[11px] font-bold">Hasselblad &bull; LUMO</span>
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-black tracking-tight leading-none">OPPO Find X10 Pro Max</h2>
+                        <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
+                            Fotograf&iacute;a m&oacute;vil de estudio con sistema <strong class="text-white">Triple C&aacute;mara 200MP</strong>, sensor <strong class="text-white">True Color de 24 canales</strong>, video <strong class="text-white">8K Log / HDR de 17 pasos</strong>, chip <strong class="text-white">Dimensity 9600 Pro (2 nm)</strong> y bater&iacute;a <strong class="text-white">8,000 mAh</strong>.
+                        </p>
+                        <div class="flex flex-wrap gap-2.5 pt-1">
+                            <a href="Recursos/GIFs/find_x10_pro_max.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm inline-flex items-center gap-2 shadow-lg transition">
+                                <i class="fas fa-download"></i> Descargar GIF 360&deg;
+                            </a>
+                            <button onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/hero_pro_max.png', 'OPPO Find X10 Pro Max — Vista Insignia')" class="bg-white/10 hover:bg-white/20 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm inline-flex items-center gap-2 border border-white/15 transition">
+                                <i class="fas fa-expand"></i> Ampliar Imagen Hero
+                            </button>
+                        </div>
+                    </div>
+                    <div class="md:col-span-5 flex flex-col items-center gap-3">
+                        <div class="w-full max-w-[270px] rounded-2xl overflow-hidden border-2 border-emerald-400/35 bg-black/50 p-1.5 shadow-2xl">
+                            <img id="promaxHeroPreview" src="Recursos/GIFs/find_x10_pro_max.gif" alt="OPPO Find X10 Pro Max 360" class="w-full h-auto rounded-xl object-contain">
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/10 p-1 rounded-xl text-[11px] font-bold">
+                            <button onclick="setMediaPreview('promaxHeroPreview', 'Recursos/GIFs/find_x10_pro_max.gif', this)" class="px-3 py-1 rounded-lg bg-oppogreen text-white transition">GIF 360&deg;</button>
+                            <button onclick="setMediaPreview('promaxHeroPreview', 'Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/hero_pro_max.png', this)" class="px-3 py-1 rounded-lg text-gray-300 hover:text-white transition">Hero Oficial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KSP PRO MAX (6 TARJETAS VISUALES) -->
+            <div>
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-lg sm:text-xl font-black text-gray-800 flex items-center gap-2">
+                        <i class="fas fa-bolt text-amber-500"></i> Puntos Clave de Venta (KSP)
+                    </h3>
+                    <span class="text-[11px] text-gray-500 font-semibold"><i class="fas fa-search-plus mr-1"></i> Toca una tarjeta para ampliar</span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_triple_200mp.png', 'Triple C&aacute;mara 200MP — Find X10 Pro Max')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_triple_200mp.png" alt="Triple C&aacute;mara 200MP" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-amber-600">Sistema &Oacute;ptico</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Triple C&aacute;mara 200MP</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Arquitectura de tres lentes de ultra resoluci&oacute;n co-desarrollada con Hasselblad para detalle extremo en cualquier focal.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/true_color_24ch.jpg', 'Sensor True Color de 24 Canales')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/true_color_24ch.jpg" alt="True Color 24 Canales" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-oppogreen">Fidelidad Crom&aacute;tica</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">True Color 24 Canales</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Lectura multiespectral de 24 canales para reproducir tonos de piel y luz ambiental con precisi&oacute;n real.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_video_hdr17.png', 'Video 8K Log y HDR de 17 Pasos')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_video_hdr17.png" alt="Video HDR 17 Pasos" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-purple-600">Cine M&oacute;vil</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Video 8K Log &bull; HDR 17 Pasos</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Rango din&aacute;mico de 17 pasos en modo cine y captura Log profesional para edici&oacute;n de color avanzada.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_dimensity_9600.png', 'MediaTek Dimensity 9600 Pro (2 nm)')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_dimensity_9600.png" alt="Dimensity 9600 Pro 2nm" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-blue-600">Rendimiento 2 nm</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Dimensity 9600 Pro</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Procesador flagship de 2 nm con motor IA y gr&aacute;ficos de &uacute;ltima generaci&oacute;n sin calentamiento excesivo.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_bateria_8000.jpg', 'Bater&iacute;a 8,000 mAh Silicio-Carbono')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/ksp_bateria_8000.jpg" alt="Bater&iacute;a 8000 mAh" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-emerald-600">Autonom&iacute;a Extrema</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Bater&iacute;a 8,000 mAh</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Alta densidad energ&eacute;tica en cuerpo delgado para jornadas completas de foto, video 8K y gaming.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/armour_shield_ip69.png', 'Armour Shield + IP66 / IP68 / IP69')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <div class="aspect-video bg-gray-950 overflow-hidden">
+                            <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/armour_shield_ip69.png" alt="Armour Shield IP69" class="w-full h-full object-cover" loading="lazy">
+                        </div>
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-red-600">Resistencia Insignia</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Armour Shield IP66/68/69</h4>
+                            <p class="text-xs text-gray-500 mt-1.5 leading-relaxed">Protecci&oacute;n triple contra polvo, inmersi&oacute;n y chorros de agua a alta presi&oacute;n y temperatura.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- ACABADOS Y KIT PROFESIONAL PRO MAX -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/color_gris_titanio.jpg', 'Acabado Gris Titanio — Find X10 Pro Max')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                    <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/color_gris_titanio.jpg" alt="Gris Titanio" class="w-full h-44 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h4 class="font-bold text-gray-800 text-sm">Color Gris Titanio</h4>
+                        <p class="text-xs text-gray-500 mt-1">Acabado met&aacute;lico sobrio con m&oacute;dulo de c&aacute;maras integrado de grado profesional.</p>
+                    </div>
+                </article>
+                <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/color_blanco_luna.jpg', 'Acabado Blanco Luna — Find X10 Pro Max')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                    <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/color_blanco_luna.jpg" alt="Blanco Luna" class="w-full h-44 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h4 class="font-bold text-gray-800 text-sm">Color Blanco Luna</h4>
+                        <p class="text-xs text-gray-500 mt-1">Textura satinada luminosa resistente a huellas en piso de venta.</p>
+                    </div>
+                </article>
+                <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/kit_khronos.jpg', 'Kit Profesional Tilta KHRONOS')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                    <img src="Recursos/01_Modelos/Serie_Find/Find_X10_Pro_Max/kit_khronos.jpg" alt="Kit Tilta Khronos" class="w-full h-44 object-cover" loading="lazy">
+                    <div class="p-4">
+                        <h4 class="font-bold text-gray-800 text-sm">Kit Cine Tilta KHRONOS</h4>
+                        <p class="text-xs text-gray-500 mt-1">Ecosistema de jaula y accesorios cinematogr&aacute;ficos para producci&oacute;n m&oacute;vil.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===================== SECCIÓN 2: FIND X10 ===================== -->
+        <section id="sec-x10" class="model-section space-y-6">
+            <!-- HERO FIND X10 -->
+            <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-teal-950 rounded-3xl p-5 sm:p-8 text-white shadow-2xl border border-oppogreen/30 overflow-hidden">
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+                    <div class="md:col-span-7 space-y-4">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="px-3 py-1 rounded-full bg-oppogreen text-white text-[11px] font-black uppercase tracking-wider">Serie Find X10</span>
+                            <span class="px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-[11px] font-bold">LUMO Imaging &bull; ColorOS 17</span>
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-black tracking-tight leading-none">OPPO Find X10</h2>
+                        <p class="text-sm sm:text-base text-gray-300 leading-relaxed">
+                            Potencia insignia con <strong class="text-white">C&aacute;mara Hasselblad 200MP</strong>, motor de color y encuadre <strong class="text-white">LUMO</strong>, pantalla <strong class="text-white">ProXDR</strong>, bater&iacute;a <strong class="text-white">8,000 mAh</strong> y <strong class="text-white">6 a&ntilde;os de fluidez garantizada</strong> con ColorOS 17.
+                        </p>
+                        <div class="flex flex-wrap gap-2.5 pt-1">
+                            <a href="Recursos/OnePages/OnePage_Find_X10.jpg" download class="bg-amber-400 hover:bg-amber-300 text-gray-950 py-2.5 px-4 rounded-xl font-extrabold text-xs sm:text-sm inline-flex items-center gap-2 shadow-lg transition">
+                                <i class="fas fa-file-image"></i> Descargar One Page
+                            </a>
+                            <a href="Recursos/GIFs/find_x10.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm inline-flex items-center gap-2 shadow-lg transition">
+                                <i class="fas fa-download"></i> Descargar GIF 360&deg;
+                            </a>
+                            <button onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/hero_find_x10.jpg', 'OPPO Find X10 — Imagen Oficial')" class="bg-white/10 hover:bg-white/20 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm inline-flex items-center gap-2 border border-white/15 transition">
+                                <i class="fas fa-expand"></i> Ver Hero
+                            </button>
+                        </div>
+                    </div>
+                    <div class="md:col-span-5 flex flex-col items-center gap-3">
+                        <div class="w-full max-w-[270px] rounded-2xl overflow-hidden border-2 border-oppogreen/40 bg-black/50 p-1.5 shadow-2xl">
+                            <img id="x10HeroPreview" src="Recursos/GIFs/find_x10.gif" alt="OPPO Find X10 360" class="w-full h-auto rounded-xl object-contain">
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/10 p-1 rounded-xl text-[11px] font-bold">
+                            <button onclick="setMediaPreview('x10HeroPreview', 'Recursos/GIFs/find_x10.gif', this)" class="px-3 py-1 rounded-lg bg-oppogreen text-white transition">GIF 360&deg;</button>
+                            <button onclick="setMediaPreview('x10HeroPreview', 'Recursos/01_Modelos/Serie_Find/Find_X10/hero_find_x10.jpg', this)" class="px-3 py-1 rounded-lg text-gray-300 hover:text-white transition">Hero Oficial</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- KSP FIND X10 -->
+            <div>
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-lg sm:text-xl font-black text-gray-800 flex items-center gap-2">
+                        <i class="fas fa-star text-oppogreen"></i> Argumentos de Venta — Find X10
+                    </h3>
+                    <span class="text-[11px] text-gray-500 font-semibold"><i class="fas fa-search-plus mr-1"></i> Toca para ampliar</span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_camara_200mp.png', 'C&aacute;mara 200MP Hasselblad — Find X10')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_camara_200mp.png" alt="C&aacute;mara 200MP" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-amber-600">Fotograf&iacute;a 200MP</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">C&aacute;mara Hasselblad 200MP</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Recortes limpios y texturas n&iacute;tidas gracias al sensor principal de ultra alta resoluci&oacute;n.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_lumo_color.png', 'Tecnolog&iacute;a LUMO True Color')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_lumo_color.png" alt="LUMO True Color" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-oppogreen">Color Real</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">LUMO True Color</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Colores fieles en escenas nocturnas y retratos sin saturaci&oacute;n artificial.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_lumo_framing.png', 'LUMO Framing Inteligente')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_lumo_framing.png" alt="LUMO Framing" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-blue-600">Encuadre Asistido</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">LUMO Framing</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Asistencia de composici&oacute;n y encuadre inteligente para retratos perfectos al primer disparo.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_teleconvertidor.png', 'Compatibilidad Kit Teleconvertidor')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_teleconvertidor.png" alt="Teleconvertidor" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-purple-600">Alcance &Oacute;ptico</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Soporte Teleconvertidor</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Ampl&iacute;a el alcance telefoto &oacute;ptico para conciertos, naturaleza y fotograf&iacute;a de distancia.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_pantalla_proxdr.png', 'Pantalla ProXDR Ultra Fluida')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_pantalla_proxdr.png" alt="Pantalla ProXDR" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-indigo-600">Visualizaci&oacute;n HDR</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Pantalla ProXDR</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Brillo pico alto y precisi&oacute;n crom&aacute;tica para revivir fotos HDR exactamente como se capturaron.</p>
+                        </div>
+                    </article>
+
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_bateria_8000.png', 'Bater&iacute;a 8,000 mAh en Find X10')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer flex flex-col">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_bateria_8000.png" alt="Bater&iacute;a 8000 mAh" class="w-full aspect-video object-cover bg-gray-950" loading="lazy">
+                        <div class="p-4 flex-1">
+                            <span class="text-[10px] font-extrabold uppercase text-emerald-600">Energ&iacute;a Prolongada</span>
+                            <h4 class="font-bold text-gray-800 text-base mt-0.5">Bater&iacute;a 8,000 mAh</h4>
+                            <p class="text-xs text-gray-500 mt-1.5">Autonom&iacute;a sobrada para todo el d&iacute;a de trabajo y entretenimiento sin depender del cargador.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- SOFTWARE, SEGURIDAD Y ACCESORIOS -->
+            <div>
+                <h3 class="text-lg font-black text-gray-800 mb-3 flex items-center gap-2">
+                    <i class="fas fa-shield-alt text-blue-600"></i> ColorOS 17, Seguridad IA y Accesorios
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ksp_coloros17.png', 'ColorOS 17 — Experiencia Fluida')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ksp_coloros17.png" alt="ColorOS 17" class="w-full h-36 object-cover bg-gray-950" loading="lazy">
+                        <div class="p-3.5">
+                            <h4 class="font-bold text-gray-800 text-sm">ColorOS 17</h4>
+                            <p class="text-xs text-gray-500 mt-1">Motor de fluidez e inteligencia integrada en todo el sistema.</p>
+                        </div>
+                    </article>
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/coloros_6anos.jpg', 'Garant&iacute;a de 6 A&ntilde;os de Fluidez')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/coloros_6anos.jpg" alt="6 A&ntilde;os de Fluidez" class="w-full h-36 object-cover bg-gray-950" loading="lazy">
+                        <div class="p-3.5">
+                            <h4 class="font-bold text-gray-800 text-sm">6 A&ntilde;os de Fluidez</h4>
+                            <p class="text-xs text-gray-500 mt-1">Larga vida &uacute;til optimizada para mantener la rapidez como el primer d&iacute;a.</p>
+                        </div>
+                    </article>
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/ai_deepfake_guard.png', 'AI Deepfake Guard')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/ai_deepfake_guard.png" alt="AI Deepfake Guard" class="w-full h-36 object-cover bg-gray-950" loading="lazy">
+                        <div class="p-3.5">
+                            <h4 class="font-bold text-gray-800 text-sm">AI Deepfake Guard</h4>
+                            <p class="text-xs text-gray-500 mt-1">Detecci&oacute;n inteligente en videollamadas para proteger al usuario contra suplantaciones.</p>
+                        </div>
+                    </article>
+                    <article onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/kit_teleconvertidor.jpg', 'Kit Teleconvertidor Hasselblad')" class="ksp-card bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden cursor-pointer">
+                        <img src="Recursos/01_Modelos/Serie_Find/Find_X10/kit_teleconvertidor.jpg" alt="Kit Teleconvertidor" class="w-full h-36 object-cover bg-gray-950" loading="lazy">
+                        <div class="p-3.5">
+                            <h4 class="font-bold text-gray-800 text-sm">Kit Teleconvertidor</h4>
+                            <p class="text-xs text-gray-500 mt-1">Lente externo dedicable para llevar la fotograf&iacute;a de distancia a otro nivel.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- RESISTENCIA ARMOUR SHIELD -->
+            <div onclick="openLightbox('Recursos/01_Modelos/Serie_Find/Find_X10/armour_shield_ip69.png', 'Armour Shield IP66 / IP68 / IP69 — Find X10')" class="bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-5 flex flex-col sm:flex-row items-center gap-5 cursor-pointer hover:shadow-md transition">
+                <img src="Recursos/01_Modelos/Serie_Find/Find_X10/armour_shield_ip69.png" alt="Armour Shield" class="w-full sm:w-56 h-36 object-cover rounded-xl bg-gray-950 shrink-0" loading="lazy">
+                <div>
+                    <span class="px-2.5 py-0.5 rounded-full bg-red-50 text-red-600 text-[10px] font-black uppercase">Protecci&oacute;n Completa</span>
+                    <h4 class="text-lg font-black text-gray-800 mt-1">Armour Shield + IP66 / IP68 / IP69</h4>
+                    <p class="text-xs sm:text-sm text-gray-500 mt-1 leading-relaxed">Combinaci&oacute;n de estructura reforzada contra ca&iacute;das con la m&aacute;xima protecci&oacute;n frente a polvo, agua e impactos cotidianos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SECCIÓN 3: COMPARATIVA RÁPIDA ===================== -->
+        <section id="sec-comparativa" class="model-section space-y-6">
+            <div class="bg-white rounded-3xl border border-gray-100 shadow-sm overflow-hidden">
+                <div class="p-5 sm:p-6 border-b border-gray-100">
+                    <span class="text-[11px] font-black uppercase tracking-wider text-oppogreen">Gu&iacute;a de Piso de Venta</span>
+                    <h2 class="text-xl sm:text-2xl font-black text-gray-800 mt-1">Find X10 vs Find X10 Pro Max</h2>
+                    <p class="text-xs sm:text-sm text-gray-500 mt-1">Diferenciadores clave para recomendar el equipo exacto seg&uacute;n el perfil del cliente.</p>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs sm:text-sm">
+                        <thead class="bg-gray-50 text-gray-600 uppercase text-[11px] font-extrabold">
+                            <tr>
+                                <th class="py-3.5 px-4">Atributo</th>
+                                <th class="py-3.5 px-4 text-oppogreen">OPPO Find X10</th>
+                                <th class="py-3.5 px-4 text-amber-600">OPPO Find X10 Pro Max</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-100">
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Sistema de C&aacute;maras</td>
+                                <td class="py-3.5 px-4">C&aacute;mara Hasselblad 200MP + LUMO Color &amp; Framing</td>
+                                <td class="py-3.5 px-4 font-semibold">Triple C&aacute;mara 200MP + Sensor True Color 24 canales</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Video Profesional</td>
+                                <td class="py-3.5 px-4">Captura HDR con pantalla ProXDR</td>
+                                <td class="py-3.5 px-4 font-semibold">Video 8K Log y rango din&aacute;mico HDR de 17 pasos</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Rendimiento</td>
+                                <td class="py-3.5 px-4">ColorOS 17 con 6 a&ntilde;os de fluidez garantizada</td>
+                                <td class="py-3.5 px-4 font-semibold">MediaTek Dimensity 9600 Pro (2 nm) + ColorOS 17</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Bater&iacute;a</td>
+                                <td class="py-3.5 px-4">8,000 mAh</td>
+                                <td class="py-3.5 px-4 font-semibold">8,000 mAh</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Resistencia</td>
+                                <td class="py-3.5 px-4">Armour Shield + IP66 / IP68 / IP69</td>
+                                <td class="py-3.5 px-4 font-semibold">Armour Shield + IP66 / IP68 / IP69</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Seguridad &amp; IA</td>
+                                <td class="py-3.5 px-4">AI Deepfake Guard integrado</td>
+                                <td class="py-3.5 px-4 font-semibold">AI Deepfake Guard y ecosistema IA ColorOS 17</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Ecosistema Pro</td>
+                                <td class="py-3.5 px-4">Compatible con Kit Teleconvertidor Hasselblad</td>
+                                <td class="py-3.5 px-4 font-semibold">Compatible con Kit Cine Tilta KHRONOS</td>
+                            </tr>
+                            <tr>
+                                <td class="py-3.5 px-4 font-bold text-gray-700">Acabados Oficiales</td>
+                                <td class="py-3.5 px-4">Dise&ntilde;o serie Find X10 (ver One Page)</td>
+                                <td class="py-3.5 px-4 font-semibold">Gris Titanio y Blanco Luna</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-emerald-950 to-gray-900 rounded-2xl p-5 text-white flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div>
+                    <h3 class="font-black text-base sm:text-lg">Tip de Cierre en Piso</h3>
+                    <p class="text-xs sm:text-sm text-gray-300 mt-1">Muestra la bater&iacute;a de 8,000 mAh + certificaci&oacute;n IP69 juntos: es muy poco com&uacute;n encontrar ultra potencia fotogr&aacute;fica con esa autonom&iacute;a y resistencia.</p>
+                </div>
+                <a href="Recursos/OnePages/OnePage_Find_X10.jpg" download class="bg-amber-400 hover:bg-amber-300 text-gray-950 px-4 py-2.5 rounded-xl font-extrabold text-xs sm:text-sm shrink-0 inline-flex items-center gap-2 transition">
+                    <i class="fas fa-download"></i> One Page Find X10
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="imgLightbox" class="fixed inset-0 bg-black/90 z-[100] hidden items-center justify-center p-4 backdrop-blur-sm" onclick="if(event.target === this) closeLightbox()">
+        <div class="max-w-4xl w-full flex flex-col items-center">
+            <div class="w-full flex items-center justify-between text-white mb-3 px-1">
+                <p id="lightboxCaption" class="text-xs sm:text-sm font-bold text-gray-200 truncate pr-4"></p>
+                <button onclick="closeLightbox()" class="w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition" aria-label="Cerrar imagen">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <img id="lightboxImg" src="" alt="Vista ampliada" class="max-h-[80vh] w-auto max-w-full rounded-2xl shadow-2xl border border-white/10 object-contain bg-black">
+        </div>
+    </div>
+
+    <script>
+        function switchFindTab(tabId) {
+            ['promax', 'x10', 'comparativa'].forEach(id => {
+                const sec = document.getElementById('sec-' + id);
+                const btn = document.getElementById('tabBtn-' + id);
+                if (sec) sec.classList.toggle('active', id === tabId);
+                if (btn) {
+                    btn.classList.toggle('active', id === tabId);
+                    btn.classList.toggle('text-gray-500', id !== tabId);
+                }
+            });
+        }
+
+        function setMediaPreview(imgId, src, clickedBtn) {
+            const img = document.getElementById(imgId);
+            if (img) img.src = src;
+            if (clickedBtn && clickedBtn.parentElement) {
+                clickedBtn.parentElement.querySelectorAll('button').forEach(b => {
+                    b.className = 'px-3 py-1 rounded-lg text-gray-300 hover:text-white transition';
+                });
+                clickedBtn.className = 'px-3 py-1 rounded-lg bg-oppogreen text-white transition';
+            }
+        }
+
+        function openLightbox(src, caption) {
+            const modal = document.getElementById('imgLightbox');
+            const img = document.getElementById('lightboxImg');
+            const cap = document.getElementById('lightboxCaption');
+            if (!modal || !img) return;
+            img.src = src;
+            if (cap) cap.innerHTML = caption || '';
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('imgLightbox');
+            if (!modal) return;
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const hash = (window.location.hash || '').replace('#', '').trim();
+            if (['promax', 'x10', 'comparativa'].includes(hash)) {
+                switchFindTab(hash);
+            }
+        });
+    </script>
+    <script src="portal-auth.js?v=20261111"></script>
+    <script src="progreso.js?v=20261111"></script>
+</body>
+</html>

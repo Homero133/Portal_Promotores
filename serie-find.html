@@ -188,6 +188,9 @@
             <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X10 Pro Max</h2>
             <p class="text-gray-300 text-xs sm:text-sm mb-4">Vitrina 360&deg; de nueva generaci&oacute;n con tecnolog&iacute;a insignia OPPO.</p>
             <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="find-x10.html#promax" class="bg-amber-400 hover:bg-amber-300 text-gray-950 py-2.5 px-4 rounded-xl font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-bolt"></i> Abrir M&oacute;dulo Especial Find X10 / Pro Max &rarr;
+                </a>
                 <a href="Recursos/GIFs/find_x10_pro_max.gif" download class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
                     <i class="fas fa-download"></i> Descargar GIF 360&deg;
                 </a>
@@ -206,6 +209,9 @@
             <h2 class="text-2xl md:text-3xl font-black uppercase text-white mb-2">OPPO Find X10</h2>
             <p class="text-gray-300 text-xs sm:text-sm mb-4">Explora cada &aacute;ngulo del dise&ntilde;o Find X10 en alta definici&oacute;n.</p>
             <div class="flex flex-wrap items-center justify-center md:justify-start gap-3">
+                <a href="find-x10.html#x10" class="bg-oppogreen hover:bg-emerald-500 text-white py-2.5 px-4 rounded-xl font-bold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
+                    <i class="fas fa-bolt"></i> Abrir M&oacute;dulo Especial Find X10 / Pro Max &rarr;
+                </a>
                 <a href="Recursos/OnePages/OnePage_Find_X10.jpg" download class="bg-amber-400 hover:bg-amber-300 text-gray-950 py-2.5 px-4 rounded-xl font-extrabold text-xs sm:text-sm flex items-center gap-2 shadow-lg transition">
                     <i class="fas fa-file-alt"></i> Descargar One Page
                 </a>
@@ -220,6 +226,15 @@
     </div>
 </div>
     </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hashId = (window.location.hash || '').replace('#', '').trim();
+            if (hashId && document.getElementById(hashId)) {
+                const targetBtn = document.querySelector(`.tab-btn[onclick*="'${hashId}'"]`);
+                if (targetBtn) targetBtn.click();
+            }
+        });
+    </script>
         <!-- MODAL REPRODUCTOR FLUIDO (OPTIMIZADO PARA SESIONES EN VIVO) -->
     <div id="videoModal" class="fixed inset-0 bg-black/95 z-[100] hidden flex-col items-center justify-center p-3 sm:p-5 backdrop-blur-md transition-opacity duration-300" onclick="if(event.target === this) closeModal()">
         <!-- Barra de herramientas superior -->

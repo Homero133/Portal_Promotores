@@ -94,12 +94,12 @@
             isWeb: true,
             url: 'https://homero133.github.io/POPCAM/'
         },
-        // Lanzamiento A7 Pro 5G (5)
-        'eMzoj1D8BuE': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Resistencia Grado Militar' },
-        'yIsJYE4ISNk': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Carga Reversible (5 Dispositivos)' },
-        'cImwExhU0E8': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Certificacion IP69K (Cafe a 80 grados)' },
-        'dtBWua0FQYI': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Prueba de Caida Extrema' },
-        'ppXGDoyd6io': { page: 'a7-pro-5g.html', module: 'A7 Pro 5G', title: 'Rompiendo Dulces (Resistencia)' }
+        // Serie A — OPPO A7 Pro 5G (5)
+        'eMzoj1D8BuE': { page: 'serie-a.html', module: 'Serie A', title: 'Resistencia Grado Militar' },
+        'yIsJYE4ISNk': { page: 'serie-a.html', module: 'Serie A', title: 'Carga Reversible (5 Dispositivos)' },
+        'cImwExhU0E8': { page: 'serie-a.html', module: 'Serie A', title: 'Certificacion IP69K (Cafe a 80 grados)' },
+        'dtBWua0FQYI': { page: 'serie-a.html', module: 'Serie A', title: 'Prueba de Caida Extrema' },
+        'ppXGDoyd6io': { page: 'serie-a.html', module: 'Serie A', title: 'Rompiendo Dulces (Resistencia)' }
     };
 
     // Rubricas de Conocimiento ("En esta capsula vas a aprender a...")
@@ -1245,7 +1245,6 @@
         });
 
         const pages = [
-            'a7-pro-5g.html',
             'serie-a.html',
             'serie-reno.html',
             'serie-find.html',
