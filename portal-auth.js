@@ -15,6 +15,7 @@
     };
 
     let dataLoadPromise = null;
+    let supLoadPromise = null;
     let readyCallbacks = [];
 
     function normalizeId(raw) {
@@ -30,6 +31,42 @@
         return Array.isArray(window.PORTAL_COMISIONES_DATA)
             ? window.PORTAL_COMISIONES_DATA
             : (window.PORTAL_COMISIONES_DATA.promotores || []);
+    }
+
+    function getSupervisorsList() {
+        const d = window.PORTAL_SUPERVISORES_DATA;
+        if (!d) return [];
+        return [].concat(d.farmers || [], d.hunters || []);
+    }
+
+    function ensureSupervisoresDataLoaded() {
+        if (getSupervisorsList().length > 0) {
+            return Promise.resolve(getSupervisorsList());
+        }
+        if (supLoadPromise) return supLoadPromise;
+
+        supLoadPromise = new Promise(function (resolve) {
+            const existing = document.querySelector('script[src*="supervisores-data.js"]');
+            if (existing) {
+                const check = setInterval(function () {
+                    if (getSupervisorsList().length > 0) {
+                        clearInterval(check);
+                        resolve(getSupervisorsList());
+                    }
+                }, 50);
+                setTimeout(function () {
+                    clearInterval(check);
+                    resolve(getSupervisorsList());
+                }, 8000);
+                return;
+            }
+            const sc = document.createElement('script');
+            sc.src = 'supervisores-data.js?v=20261112';
+            sc.onload = function () { resolve(getSupervisorsList()); };
+            sc.onerror = function () { resolve([]); };
+            document.head.appendChild(sc);
+        });
+        return supLoadPromise;
     }
 
     function ensureComisionesDataLoaded() {
@@ -105,10 +142,15 @@
         return !!(prof && (prof.role === 'auditor' || prof.isAuditor));
     }
 
+    function isSupervisor() {
+        const prof = getStoredProfile();
+        return !!(prof && (prof.role === 'farmer' || prof.role === 'hunter' || prof.isSupervisor));
+    }
+
     function getAllowedChainSlugs() {
         const prof = getStoredProfile();
         if (!prof) return [];
-        if (prof.role === 'auditor' || prof.isAuditor) return ['*'];
+        if (prof.role === 'auditor' || prof.isAuditor || prof.role === 'farmer' || prof.role === 'hunter' || prof.isSupervisor) return ['*'];
         return Array.isArray(prof.cadenas_slugs) ? prof.cadenas_slugs : [];
     }
 
@@ -146,8 +188,8 @@
                 '</div>' +
 
                 '<div style="margin-bottom:14px;">' +
-                    '<label style="display:block;color:#cbd5e1;font-size:0.72rem;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;">ID de Promotor o Auditor</label>' +
-                    '<input id="portalAuthIdInput" type="text" autocomplete="off" placeholder="Ej: MR918750 o AUDITOR-ELITE" ' +
+                    '<label style="display:block;color:#cbd5e1;font-size:0.72rem;font-weight:800;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;">ID de Promotor, Supervisor o Auditor</label>' +
+                    '<input id="portalAuthIdInput" type="text" autocomplete="off" placeholder="Ej: MR918750, R916909 o AUDITOR-ELITE" ' +
                         'style="width:100%;box-sizing:border-box;background:#1e293b;border:1.5px solid rgba(100,116,139,0.5);border-radius:12px;padding:12px 14px;color:#ffffff;font-size:1rem;font-weight:800;outline:none;letter-spacing:0.04em;text-transform:uppercase;" />' +
                 '</div>' +
 
@@ -249,10 +291,40 @@
             return;
         }
 
-        // 2. Flujo Elite (Promotor validado contra comisiones-data.js)
+        // 2. Flujo Supervisor (Farmer / Hunter) o Promotor Elite
         btn.disabled = true;
         btn.textContent = 'Validando ID...';
-        ensureComisionesDataLoaded().then(function (list) {
+        Promise.all([ensureSupervisoresDataLoaded(), ensureComisionesDataLoaded()]).then(function (results) {
+            const supList = results[0] || [];
+            const list = results[1] || [];
+
+            const foundSup = supList.find(function (s) {
+                return normalizeId(s.id) === normId;
+            });
+
+            if (foundSup) {
+                const roleLabel = foundSup.role === 'hunter' ? 'Supervisor Hunter' : 'Supervisor Farmer';
+                const profile = {
+                    idEmpleado: foundSup.id,
+                    id: foundSup.id,
+                    nombre: foundSup.nombre,
+                    role: foundSup.role,
+                    isSupervisor: true,
+                    isAuditor: false,
+                    cadena: roleLabel,
+                    cadena_oficial: roleLabel + ' (' + foundSup.region + ')',
+                    cadenas_slugs: ['*'],
+                    tienda: 'Supervisión ' + foundSup.region + ' (' + foundSup.stores_count + ' tiendas)',
+                    region: foundSup.region || 'R9-E',
+                    ciudad: foundSup.region || 'R9-E',
+                    telefono: '',
+                    registeredAt: Date.now(),
+                    fechaRegistro: new Date().toISOString()
+                };
+                finalizeLogin(profile, btn, '¡Bienvenido, ' + foundSup.nombre.split(' ')[0] + '! (' + roleLabel + ')');
+                return;
+            }
+
             const found = list.find(function (p) {
                 return normalizeId(p.id) === normId;
             });
@@ -384,11 +456,13 @@
         normalizeId: normalizeId,
         getProfile: getStoredProfile,
         isAuditor: isAuditor,
+        isSupervisor: isSupervisor,
         getAllowedChainSlugs: getAllowedChainSlugs,
         canAccessChain: canAccessChain,
         requireAuth: requireAuth,
         showAuthModal: showAuthModal,
         logout: logout,
-        ensureComisionesDataLoaded: ensureComisionesDataLoaded
+        ensureComisionesDataLoaded: ensureComisionesDataLoaded,
+        ensureSupervisoresDataLoaded: ensureSupervisoresDataLoaded
     };
 })();

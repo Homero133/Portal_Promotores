@@ -2005,6 +2005,10 @@
 
         function applySimulatorAccessForProfile(profile) {
             if (!profile) return;
+            if (profile.role === 'farmer' || profile.role === 'hunter') {
+                window.location.replace('supervisores.html');
+                return;
+            }
             const isAud = !!(profile.role === 'auditor' || profile.isAuditor);
             const audBanner = document.getElementById('auditorModeBanner');
             const audSearch = document.getElementById('auditorSearchContainer');
