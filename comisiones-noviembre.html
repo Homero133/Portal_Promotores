@@ -51,6 +51,8 @@
         body.dark-mode .border-gray-100,
         body.dark-mode .border-gray-200 { border-color: #2d3343 !important; }
         body.dark-mode input, body.dark-mode select { background-color: #141720 !important; color: #ffffff !important; border-color: #334155 !important; }
+        body.dark-mode #supChartHeaderProgressCard { background: linear-gradient(135deg, rgba(5,182,112,0.18), rgba(15,23,42,0.85)) !important; border-color: rgba(5,182,112,0.35) !important; }
+        body.dark-mode #supChartHeaderProgressCard .bg-white\/70 { background-color: rgba(30,41,59,0.7) !important; border-color: rgba(51,65,85,0.6) !important; }
         .cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
     </style>
     <script>
@@ -1147,8 +1149,52 @@
 
             <!-- Sup Tab 2: Desempeño Visual -->
             <section id="supPanel_analisis" class="hidden space-y-4">
-                <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-3">
-                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-4">
+                    <!-- Avance General Consolidado de Target por Supervisor -->
+                    <div id="supChartHeaderProgressCard" class="p-3.5 sm:p-4 rounded-2xl bg-gradient-to-r from-emerald-50 via-teal-50 to-emerald-50/70 border border-emerald-200/90 shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div class="flex items-center gap-3">
+                            <div class="w-11 h-11 rounded-2xl bg-oppogreen text-white flex items-center justify-center font-black text-lg shrink-0 shadow-sm">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div>
+                                <span class="text-[10px] font-black uppercase tracking-wider text-emerald-800">Avance General Consolidado de Target</span>
+                                <div id="supChartGenSalesText" class="text-base sm:text-xl font-black text-gray-900 leading-tight">
+                                    -- de -- unidades (--%)
+                                </div>
+                                <div id="supChartGenFocoText" class="text-[11px] font-bold text-gray-600">
+                                    Foco: -- de -- uds
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full sm:w-52 flex flex-col justify-center gap-1 bg-white/70 p-2.5 rounded-xl border border-emerald-100">
+                            <div class="flex justify-between items-center text-xs font-black text-gray-700">
+                                <span class="text-[10px] uppercase tracking-wider text-gray-500">Alcance Global</span>
+                                <span id="supChartGenPctBadge" class="px-2 py-0.5 rounded-full text-[11px] font-black bg-emerald-100 text-emerald-800">--%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                                <div id="supChartGenProgressBar" class="h-2.5 rounded-full bg-gradient-to-r from-oppogreen to-emerald-600 transition-all duration-500" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Selector Secundario Farmer: [ Por Elite | Por Tienda ] -->
+                    <div id="farmerViewToggleContainer" class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1 border-t border-gray-100">
+                        <div class="flex items-center gap-1.5 bg-gray-100 p-1 rounded-2xl border border-gray-200/80 w-fit">
+                            <button id="farmerSubBtn_elite" onclick="setFarmerViewSubMode('elite')" class="px-3.5 py-1.5 rounded-xl text-xs font-black transition-all shadow-xs bg-emerald-600 text-white flex items-center gap-1.5">
+                                <i class="fas fa-users"></i>
+                                <span>Por Elite</span>
+                            </button>
+                            <button id="farmerSubBtn_tienda" onclick="setFarmerViewSubMode('tienda')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all text-gray-600 hover:text-gray-900 flex items-center gap-1.5">
+                                <i class="fas fa-store"></i>
+                                <span>Por Tienda</span>
+                            </button>
+                        </div>
+                        <div id="farmerSubModeDescription" class="text-[11px] font-bold text-gray-500">
+                            Viendo el alcance de tus promotores asignados.
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-1">
                         <div>
                             <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">Panorama Visual &bull; Corte 09 Nov</span>
                             <h3 id="supChartTitle" class="text-base sm:text-xl font-black text-gray-800">Alcance de Promotores</h3>
@@ -2435,6 +2481,7 @@
 
         let currentSup = null;
         let currentChartMode = 'all';
+        let farmerViewSubMode = 'elite'; // 'elite' | 'tienda'
         let perfChartInstance = null;
         let globalTrendChartInstance = null;
         let modalTrendChartInstance = null;
@@ -2737,21 +2784,120 @@
             renderSupSteppers(sup.role);
             loadSupRealSales();
 
-            document.getElementById('supChartTitle').textContent = isFarmer ? 'Alcance de Promotores Elite (% Target)' : 'Alcance de Tiendas Hunter (% Target)';
-            document.getElementById('supChartSubtitle').textContent = isFarmer
-                ? 'Comparativa de tus promotores de mayor a menor alcance. Toca una fila abajo para ver su calendario.'
-                : 'Comparativa de tus tiendas de mayor a menor alcance. Toca una tienda abajo para ver su calendario.';
-            document.getElementById('supTableTitle').textContent = isFarmer ? 'Tabla General de Promotores Elite' : 'Tabla General de Tiendas Hunter';
+            farmerViewSubMode = 'elite';
+            updateFarmerSubModeUI();
+            updateSupChartHeaderStats();
 
             renderSupTable();
             if (!document.getElementById('supPanel_analisis').classList.contains('hidden')) renderPerfChart();
             if (!document.getElementById('supPanel_calendario').classList.contains('hidden')) renderGlobalCalendar();
         }
 
+        function setFarmerViewSubMode(mode) {
+            farmerViewSubMode = mode;
+            updateFarmerSubModeUI();
+            renderPerfChart();
+            renderSupTable();
+        }
+
+        function updateFarmerSubModeUI() {
+            if (!currentSup) return;
+            const isFarmer = currentSup.role === 'farmer';
+            const toggleBox = document.getElementById('farmerViewToggleContainer');
+            if (toggleBox) {
+                if (isFarmer) {
+                    toggleBox.classList.remove('hidden');
+                } else {
+                    toggleBox.classList.add('hidden');
+                }
+            }
+            const isElite = isFarmer && (farmerViewSubMode === 'elite');
+            const bElite = document.getElementById('farmerSubBtn_elite');
+            const bTienda = document.getElementById('farmerSubBtn_tienda');
+            const desc = document.getElementById('farmerSubModeDescription');
+
+            if (bElite) {
+                bElite.className = isElite
+                    ? 'px-3.5 py-1.5 rounded-xl text-xs font-black transition-all shadow-xs bg-emerald-600 text-white flex items-center gap-1.5'
+                    : 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all text-gray-600 hover:text-gray-900 flex items-center gap-1.5';
+            }
+            if (bTienda) {
+                bTienda.className = !isElite
+                    ? 'px-3.5 py-1.5 rounded-xl text-xs font-black transition-all shadow-xs bg-emerald-600 text-white flex items-center gap-1.5'
+                    : 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all text-gray-600 hover:text-gray-900 flex items-center gap-1.5';
+            }
+            if (desc) {
+                if (isFarmer) {
+                    desc.innerHTML = isElite
+                        ? `Viendo el alcance de tus <strong class="text-gray-800">${(currentSup.promoters || []).length} promotores asignados</strong>.`
+                        : `Viendo el alcance de tus <strong class="text-gray-800">${(currentSup.stores || []).length} tiendas asignadas</strong>.`;
+                }
+            }
+
+            const chartTitle = document.getElementById('supChartTitle');
+            const chartSub = document.getElementById('supChartSubtitle');
+            const tableTitle = document.getElementById('supTableTitle');
+
+            if (isFarmer) {
+                if (isElite) {
+                    if (chartTitle) chartTitle.textContent = 'Alcance de Promotores Elite (% Target)';
+                    if (chartSub) chartSub.textContent = 'Comparativa de tus promotores de mayor a menor alcance. Toca una fila abajo para ver su calendario.';
+                    if (tableTitle) tableTitle.textContent = 'Tabla General de Promotores Elite';
+                } else {
+                    if (chartTitle) chartTitle.textContent = 'Alcance de Tiendas Asignadas (% Target)';
+                    if (chartSub) chartSub.textContent = 'Comparativa de tus tiendas asignadas de mayor a menor alcance. Toca una tienda para ver su calendario.';
+                    if (tableTitle) tableTitle.textContent = 'Tabla General de Tiendas Asignadas';
+                }
+            } else {
+                if (chartTitle) chartTitle.textContent = 'Alcance de Tiendas Hunter (% Target)';
+                if (chartSub) chartSub.textContent = 'Comparativa de tus tiendas de mayor a menor alcance. Toca una tienda abajo para ver su calendario.';
+                if (tableTitle) tableTitle.textContent = 'Tabla General de Tiendas Hunter';
+            }
+        }
+
+        function updateSupChartHeaderStats() {
+            if (!currentSup) return;
+            const vc = currentSup.ventas_corte || {};
+            const netas = vc.netas || 0;
+            const tgt = currentSup.tgt_gral || 0;
+            const pct = tgt > 0 ? Math.round((netas / tgt) * 100) : 0;
+
+            const focoNet = (vc.RENO_16_5G || 0) + (vc.RENO_16F || 0) + (vc.A7_PRO || 0);
+            const focoTgt = currentSup.tgt_foco || 0;
+            const focoPct = focoTgt > 0 ? Math.round((focoNet / focoTgt) * 100) : 0;
+
+            const elSales = document.getElementById('supChartGenSalesText');
+            const elFoco = document.getElementById('supChartGenFocoText');
+            const elBadge = document.getElementById('supChartGenPctBadge');
+            const elBar = document.getElementById('supChartGenProgressBar');
+
+            if (elSales) {
+                elSales.innerHTML = `<span class="text-oppogreen font-black">${netas}</span> de <span class="text-gray-700">${tgt} unidades</span> <span class="text-xs sm:text-sm font-black text-emerald-800">(${pct}%)</span>`;
+            }
+            if (elFoco) {
+                const isFarmer = currentSup.role === 'farmer';
+                const focoRule = isFarmer ? 'Meta Foco (≥95%)' : 'Meta Foco';
+                elFoco.innerHTML = `<i class="fas fa-star text-amber-500 mr-1"></i>${focoRule}: <strong>${focoNet}</strong> de <strong>${focoTgt} uds</strong> (${focoPct}%)`;
+            }
+            if (elBadge) {
+                elBadge.textContent = `${pct}%`;
+                elBadge.className = pct >= 100
+                    ? 'px-2 py-0.5 rounded-full text-[11px] font-black bg-emerald-100 text-emerald-800'
+                    : (pct >= 30 ? 'px-2 py-0.5 rounded-full text-[11px] font-black bg-amber-100 text-amber-800' : 'px-2 py-0.5 rounded-full text-[11px] font-black bg-rose-100 text-rose-700');
+            }
+            if (elBar) {
+                elBar.style.width = Math.min(100, pct) + '%';
+                elBar.className = pct >= 100
+                    ? 'h-2.5 rounded-full bg-gradient-to-r from-oppogreen to-emerald-600 transition-all duration-500'
+                    : (pct >= 30 ? 'h-2.5 rounded-full bg-gradient-to-r from-amber-400 to-amber-500 transition-all duration-500' : 'h-2.5 rounded-full bg-gradient-to-r from-rose-400 to-rose-600 transition-all duration-500');
+            }
+        }
+
         function getSupEntityRows() {
             if (!currentSup) return [];
             const isFarmer = currentSup.role === 'farmer';
-            const list = isFarmer ? (currentSup.promoters || []) : (currentSup.stores || []);
+            const showStores = !isFarmer || (farmerViewSubMode === 'tienda');
+            const list = showStores ? (currentSup.stores || []) : (currentSup.promoters || []);
             return list.map(item => {
                 const vc = item.ventas_corte || {};
                 const netas = vc.netas || 0;
@@ -2759,10 +2905,17 @@
                 const pct = tgt > 0 ? Math.round((netas / tgt) * 100) : (netas > 0 ? 100 : 0);
                 const focoNet = (vc.RENO_16_5G || 0) + (vc.RENO_16F || 0) + (vc.A7_PRO || 0);
                 return {
-                    raw: item, key: isFarmer ? item.id : item.store_id,
-                    title: isFarmer ? item.nombre : item.store_name,
-                    sub: isFarmer ? item.tienda : item.market,
-                    netas, brutas: vc.brutas || 0, tgt, pct, focoNet, focoTgt: item.tgt_foco || 0,
+                    raw: item,
+                    isStore: showStores,
+                    key: showStores ? item.store_id : item.id,
+                    title: showStores ? item.store_name : item.nombre,
+                    sub: showStores ? (item.market + (item.promoters_count ? ` • ${item.promoters_count} prom.` : '')) : item.tienda,
+                    netas,
+                    brutas: vc.brutas || 0,
+                    tgt,
+                    pct,
+                    focoNet,
+                    focoTgt: item.tgt_foco || 0,
                     daily: vc.daily_netas || {}
                 };
             }).sort((a, b) => b.pct - a.pct || b.netas - a.netas);
@@ -2784,29 +2937,87 @@
             let rows = getSupEntityRows();
             if (currentChartMode === 'top') rows = rows.slice(0, 8);
             else if (currentChartMode === 'low') rows = rows.slice(-8).reverse();
-            else if (rows.length > 18) rows = rows.slice(0, 18);
+            else if (rows.length > 20) rows = rows.slice(0, 20);
 
             const container = document.getElementById('supChartContainer');
-            container.style.height = Math.max(240, rows.length * 28 + 50) + 'px';
+            container.style.height = Math.max(260, rows.length * 32 + 50) + 'px';
 
             const labels = rows.map(r => r.title.length > 22 ? r.title.slice(0, 20) + '…' : r.title);
             const values = rows.map(r => r.pct);
             const colors = rows.map(r => r.pct >= 100 ? '#05B670' : (r.pct >= 30 ? '#f59e0b' : '#f43f5e'));
 
+            const maxVal = Math.max(100, ...(values.length ? values : [100]));
+            const suggestedMax = Math.ceil(maxVal * 1.32);
+
+            const barDataLabelsPlugin = {
+                id: 'barDataLabels',
+                afterDatasetsDraw(chart) {
+                    const { ctx } = chart;
+                    const meta = chart.getDatasetMeta(0);
+                    if (!meta || !meta.data) return;
+
+                    const isDark = document.body.classList.contains('dark-mode');
+
+                    ctx.save();
+                    ctx.font = 'bold 10px Inter, system-ui, -apple-system, sans-serif';
+                    ctx.textBaseline = 'middle';
+
+                    meta.data.forEach((bar, index) => {
+                        const row = rows[index];
+                        if (!row) return;
+                        const text = `${row.netas} / ${row.tgt} uds (${row.pct}%)`;
+                        const barWidth = Math.abs(bar.x - bar.base);
+                        const textWidth = ctx.measureText(text).width;
+
+                        if (barWidth > textWidth + 18) {
+                            ctx.fillStyle = '#ffffff';
+                            ctx.textAlign = 'right';
+                            ctx.fillText(text, bar.x - 6, bar.y);
+                        } else {
+                            ctx.fillStyle = isDark ? '#e2e8f0' : '#1e293b';
+                            ctx.textAlign = 'left';
+                            ctx.fillText(text, bar.x + 6, bar.y);
+                        }
+                    });
+                    ctx.restore();
+                }
+            };
+
             const ctx = document.getElementById('supPerfChart').getContext('2d');
             if (perfChartInstance) perfChartInstance.destroy();
             perfChartInstance = new Chart(ctx, {
                 type: 'bar',
-                data: { labels, datasets: [{ label: '% Alcance Target', data: values, backgroundColor: colors, borderRadius: 6 }] },
+                data: {
+                    labels,
+                    datasets: [{
+                        label: '% Alcance Target',
+                        data: values,
+                        backgroundColor: colors,
+                        borderRadius: 6
+                    }]
+                },
+                plugins: [barDataLabelsPlugin],
                 options: {
-                    indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: { display: false },
-                        tooltip: { callbacks: { label: ci => `${rows[ci.dataIndex].pct}% (${rows[ci.dataIndex].netas} / ${rows[ci.dataIndex].tgt} uds)` } }
+                        tooltip: {
+                            callbacks: {
+                                label: ci => `${rows[ci.dataIndex].pct}% (${rows[ci.dataIndex].netas} activadas / ${rows[ci.dataIndex].tgt} cuota)`
+                            }
+                        }
                     },
                     scales: {
-                        x: { beginAtZero: true, ticks: { callback: v => v + '%' } },
-                        y: { ticks: { font: { size: 10, weight: 'bold' } } }
+                        x: {
+                            beginAtZero: true,
+                            suggestedMax: suggestedMax,
+                            ticks: { callback: v => v + '%' }
+                        },
+                        y: {
+                            ticks: { font: { size: 10, weight: 'bold' } }
+                        }
                     }
                 }
             });
@@ -2815,13 +3026,14 @@
         function renderSupTable() {
             if (!currentSup) return;
             const isFarmer = currentSup.role === 'farmer';
+            const showStores = !isFarmer || (farmerViewSubMode === 'tienda');
             const q = (document.getElementById('supTableSearch').value || '').trim().toLowerCase();
             let rows = getSupEntityRows();
             if (q) rows = rows.filter(r => r.title.toLowerCase().includes(q) || r.sub.toLowerCase().includes(q) || r.key.toLowerCase().includes(q));
 
             document.getElementById('supTableHead').innerHTML = `
                 <tr>
-                    <th class="py-2.5 px-2.5">${isFarmer ? 'Promotor Elite' : 'Tienda'}</th>
+                    <th class="py-2.5 px-2.5">${showStores ? 'Tienda' : 'Promotor Elite'}</th>
                     <th class="py-2.5 px-2 text-center">Activ. / Meta</th>
                     <th class="py-2.5 px-2 text-center">Alcance</th>
                     <th class="py-2.5 px-2 text-right">Detalle</th>
@@ -2900,7 +3112,8 @@
             const row = (window._supTableRows || [])[idx];
             if (!row || !currentSup) return;
             const isFarmer = currentSup.role === 'farmer';
-            document.getElementById('modalEntityBadge').textContent = isFarmer ? 'Promotor Elite' : 'Tienda Hunter';
+            const showStores = row.isStore || (!isFarmer || farmerViewSubMode === 'tienda');
+            document.getElementById('modalEntityBadge').textContent = showStores ? 'Tienda Asignada' : 'Promotor Elite';
             document.getElementById('modalEntityName').textContent = row.title;
             document.getElementById('modalEntitySub').textContent = `${row.key} • ${row.sub}`;
             document.getElementById('modalKpiGral').textContent = `${row.netas} / ${row.tgt}`;
