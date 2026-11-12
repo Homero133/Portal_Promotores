@@ -4,25 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal Elite | Evaluaciones</title>
+    <link rel="icon" type="image/png" href="Recursos/Logo/favicon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background-color: #f1f5f9; color: #0f172a; }
         .oppo-green { color: #05B670; }
         .bg-oppo-green { background-color: #05B670; }
-        
-        /* Celdas Crucigrama */
+
+        /* Pestañas de evaluación */
+        .eval-tab-btn.active {
+            background-color: #05B670;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(5, 182, 112, 0.3);
+        }
+        .eval-tab-btn.inactive {
+            background-color: #ffffff;
+            color: #475569;
+        }
+
+        /* Celdas Crucigrama 100% responsivas */
+        .cw-board-wrap {
+            width: 100%;
+            max-width: 448px;
+            margin: 0 auto;
+        }
+        .cw-grid {
+            display: grid;
+            grid-template-columns: repeat(14, minmax(0, 1fr));
+            gap: 2px;
+            width: 100%;
+        }
         .cw-cell {
             position: relative;
-            width: 38px;
-            height: 38px;
+            width: 100%;
+            aspect-ratio: 1 / 1;
             background: #ffffff;
             border: 1px solid #cbd5e1;
+            border-radius: 3px;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 900;
-            font-size: 14px;
             text-transform: uppercase;
             transition: all 0.15s ease;
         }
@@ -34,13 +57,16 @@
         .cw-cell input {
             width: 100%;
             height: 100%;
+            padding: 0;
+            border: 0;
             text-align: center;
             background: transparent;
             font-weight: 900;
             text-transform: uppercase;
             outline: none;
             caret-color: #05B670;
-            font-size: 15px;
+            font-size: clamp(10px, 2.9vw, 15px);
+            line-height: 1;
             color: #0f172a;
         }
         .cw-cell.active-word {
@@ -63,27 +89,39 @@
         }
         .cw-num {
             position: absolute;
-            top: 2px;
-            left: 3px;
-            font-size: 9px;
+            top: 1px;
+            left: 2px;
+            font-size: clamp(6px, 1.6vw, 9px);
             font-weight: 800;
             color: #64748b;
             line-height: 1;
             pointer-events: none;
         }
-        
-        /* Sopa de Letras */
+
+        /* Sopa de Letras 100% responsiva */
+        .ws-board-wrap {
+            width: 100%;
+            max-width: 432px;
+            margin: 0 auto;
+        }
+        .ws-grid {
+            display: grid;
+            grid-template-columns: repeat(12, minmax(0, 1fr));
+            gap: 3px;
+            width: 100%;
+        }
         .ws-btn {
-            width: 36px;
-            height: 36px;
+            width: 100%;
+            aspect-ratio: 1 / 1;
             display: flex;
             align-items: center;
             justify-content: center;
             font-weight: 900;
-            font-size: 13px;
-            border-radius: 8px;
-            transition: all 0.15s;
+            font-size: clamp(11px, 3.1vw, 15px);
+            border-radius: 6px;
+            transition: all 0.12s;
             user-select: none;
+            touch-action: manipulation;
         }
         .word-found {
             background-color: #05B670 !important;
@@ -92,39 +130,36 @@
             box-shadow: 0 2px 4px rgba(5, 182, 112, 0.3);
             transform: scale(0.96);
         }
-        
+
         /* Insignia dorada */
         .gold-badge-glow {
             box-shadow: 0 0 25px rgba(245, 158, 11, 0.45);
         }
     </style>
 </head>
-<body class="min-h-screen pb-16">
+<body class="min-h-screen pb-10">
 
-    <!-- NAVBAR -->
-    <header class="bg-gradient-to-r from-slate-900 via-slate-900 to-emerald-950 text-white px-6 py-4 shadow-lg sticky top-0 z-40">
-        <div class="max-w-7xl mx-auto flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <a href="index.html" class="w-8 h-8 rounded-lg bg-emerald-500 text-black flex items-center justify-center font-black text-sm hover:scale-105 transition" title="Volver al Inicio del Portal">
-                    OP
+    <!-- NAVBAR COMPACTA Y STICKY -->
+    <header class="bg-gradient-to-r from-slate-900 via-slate-900 to-emerald-950 text-white px-3 sm:px-6 py-3 shadow-lg sticky top-0 z-40">
+        <div class="max-w-5xl mx-auto flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2.5 min-w-0">
+                <a href="index.html" class="w-8 h-8 rounded-lg bg-emerald-500 text-black flex items-center justify-center font-black text-xs hover:scale-105 transition shrink-0" title="Volver al Inicio del Portal">
+                    <i class="fas fa-arrow-left"></i>
                 </a>
-                <div>
-                    <span class="text-[10px] font-black tracking-widest uppercase text-emerald-400">Portal Elite</span>
-                    <h1 class="text-sm sm:text-base font-black">Evaluaciones</h1>
+                <div class="min-w-0">
+                    <span class="text-[9px] font-black tracking-widest uppercase text-emerald-400 block leading-none">Portal Elite</span>
+                    <h1 class="text-sm sm:text-base font-black truncate">Evaluaciones</h1>
                 </div>
             </div>
-            <div class="flex items-center gap-2">
-                <div id="navGoldBadge" class="hidden items-center gap-1.5 px-3 py-1 rounded-xl bg-amber-400/20 text-amber-300 border border-amber-400/40 text-xs font-black animate-pulse">
+            <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+                <div id="navGoldBadge" class="hidden items-center gap-1 px-2.5 py-1 rounded-xl bg-amber-400/20 text-amber-300 border border-amber-400/40 text-[11px] font-black animate-pulse">
                     <i class="fas fa-medal text-amber-400"></i>
-                    <span>Insignia Dorada</span>
+                    <span class="hidden sm:inline">Insignia Dorada</span>
                 </div>
-                <span id="globalScoreBadge" class="text-xs font-black px-3 py-1.5 rounded-xl bg-white/10 text-emerald-300 border border-white/15">
-                    Puntaje: <span id="userScore">0</span> / 300 pts
+                <span id="globalScoreBadge" class="text-[11px] sm:text-xs font-black px-2.5 py-1.5 rounded-xl bg-white/10 text-emerald-300 border border-white/15">
+                    <span id="userScore">0</span>/300 <span class="hidden sm:inline">pts</span>
                 </span>
-                <a href="index.html" class="hidden sm:inline-flex text-xs font-bold px-3 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-white transition">
-                    Inicio
-                </a>
-                <a href="comisiones-noviembre.html" class="text-xs font-bold px-3 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black transition">
+                <a href="comisiones-noviembre.html" class="text-[11px] sm:text-xs font-bold px-2.5 py-1.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-black transition">
                     Simulador &rarr;
                 </a>
             </div>
@@ -132,235 +167,303 @@
     </header>
 
     <!-- CONTENEDOR PRINCIPAL -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 pt-6 space-y-8">
+    <main class="max-w-5xl mx-auto px-3 sm:px-6 pt-3 sm:pt-5 space-y-3 sm:space-y-5">
 
         <!-- TARJETA DE RECONOCIMIENTO / INSIGNIA DORADA (DESBLOQUEABLE) -->
-        <div id="goldBadgeSection" class="hidden bg-gradient-to-r from-amber-500/15 via-slate-900 to-amber-950/40 border-2 border-amber-400/50 rounded-3xl p-6 sm:p-8 text-white gold-badge-glow transition-all">
-            <div class="flex flex-col sm:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-5 text-center sm:text-left">
-                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-3xl text-slate-950 font-black shadow-lg shadow-amber-500/30 shrink-0">
+        <div id="goldBadgeSection" class="hidden bg-gradient-to-r from-amber-500/15 via-slate-900 to-amber-950/40 border-2 border-amber-400/50 rounded-2xl p-4 sm:p-6 text-white gold-badge-glow transition-all">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div class="flex items-center gap-3.5 text-left">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-300 to-amber-600 flex items-center justify-center text-2xl text-slate-950 font-black shadow-lg shadow-amber-500/30 shrink-0">
                         <i class="fas fa-medal"></i>
                     </div>
                     <div>
-                        <div class="inline-flex items-center gap-1.5 text-xs font-black uppercase tracking-wider text-amber-400">
+                        <div class="inline-flex items-center gap-1 text-[10px] font-black uppercase tracking-wider text-amber-400">
                             <i class="fas fa-sparkles"></i> Registro Acreditado
                         </div>
-                        <h2 class="text-xl sm:text-2xl font-black text-white">
-                            Insignia Dorada Élite Desbloqueada
+                        <h2 class="text-base sm:text-xl font-black text-white leading-tight">
+                            Insignia Dorada &Eacute;lite Desbloqueada
                         </h2>
-                        <p class="text-xs text-slate-300 mt-1">
-                            Tu perfil registrado (<strong id="profileBadgeName" class="text-amber-300">Promotor Élite</strong>) ha obtenido la máxima distinción por acreditar con éxito las evaluaciones comerciales.
+                        <p class="text-[11px] text-slate-300 mt-0.5">
+                            Perfil (<strong id="profileBadgeName" class="text-amber-300">Promotor &Eacute;lite</strong>) acreditado con &eacute;xito.
                         </p>
                     </div>
                 </div>
-                <div class="shrink-0 flex items-center gap-2">
-                    <span class="px-4 py-2 rounded-xl bg-amber-400 text-slate-950 font-black text-xs uppercase tracking-wider flex items-center gap-1.5">
-                        <i class="fas fa-award"></i> Insignia Activa
-                    </span>
-                </div>
+                <span class="px-3 py-1.5 rounded-xl bg-amber-400 text-slate-950 font-black text-[11px] uppercase tracking-wider flex items-center gap-1.5 shrink-0">
+                    <i class="fas fa-award"></i> Insignia Activa
+                </span>
             </div>
         </div>
 
-        <!-- 1. CRUCIGRAMA -->
-        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+        <!-- SELECTOR DE MODO (1 ACTIVIDAD A LA VEZ PARA EVITAR SCROLL INFINITO) -->
+        <nav class="grid grid-cols-3 gap-1.5 p-1.5 bg-slate-200/80 rounded-2xl sticky top-[54px] z-30 backdrop-blur-md">
+            <button id="evalTabBtn_cw" onclick="switchEvalMode('cw')" class="eval-tab-btn active py-2 px-2 rounded-xl font-black text-[11px] sm:text-xs transition flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1.5">
+                <span class="flex items-center gap-1"><i class="fas fa-th"></i> Crucigrama</span>
+                <span id="tabScore_cw" class="text-[10px] opacity-85 font-extrabold">0/10</span>
+            </button>
+            <button id="evalTabBtn_ws" onclick="switchEvalMode('ws')" class="eval-tab-btn inactive py-2 px-2 rounded-xl font-black text-[11px] sm:text-xs transition flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1.5">
+                <span class="flex items-center gap-1"><i class="fas fa-font"></i> Sopa</span>
+                <span id="tabScore_ws" class="text-[10px] opacity-85 font-extrabold">0/8</span>
+            </button>
+            <button id="evalTabBtn_quiz" onclick="switchEvalMode('quiz')" class="eval-tab-btn inactive py-2 px-2 rounded-xl font-black text-[11px] sm:text-xs transition flex flex-col sm:flex-row items-center justify-center gap-0.5 sm:gap-1.5">
+                <span class="flex items-center gap-1"><i class="fas fa-users-viewfinder"></i> Casos</span>
+                <span id="tabScore_quiz" class="text-[10px] opacity-85 font-extrabold">0/3</span>
+            </button>
+        </nav>
+
+        <!-- ===================== 1. CRUCIGRAMA ===================== -->
+        <section id="evalPanel_cw" class="bg-white rounded-3xl p-3.5 sm:p-6 shadow-sm border border-slate-200 space-y-3">
+            <!-- Header compacto con acciones -->
+            <div class="flex items-center justify-between gap-2 pb-2 border-b border-slate-100">
                 <div>
-                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
-                        <i class="fas fa-th text-emerald-500"></i> Crucigrama
+                    <h3 class="text-base sm:text-lg font-black text-slate-800 flex items-center gap-1.5">
+                        <i class="fas fa-th text-emerald-500"></i> Crucigrama (100 pts)
                     </h3>
-                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve el crucigrama.</p>
+                    <p class="text-[11px] text-slate-500">Toca una casilla y escribe; la pista activa aparece justo arriba.</p>
                 </div>
-                <div class="flex items-center gap-2">
-                    <button onclick="clearCrossword()" class="px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition">
-                        <i class="fas fa-rotate-left mr-1"></i> Reiniciar
+                <div class="flex items-center gap-1.5 shrink-0">
+                    <button onclick="clearCrossword()" class="px-2.5 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-[11px] transition" title="Reiniciar crucigrama">
+                        <i class="fas fa-rotate-left"></i>
                     </button>
-                    <button onclick="checkCrossword()" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs transition shadow-sm flex items-center gap-1.5">
-                        <i class="fas fa-check"></i> Validar Crucigrama
+                    <button onclick="checkCrossword()" class="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-black text-[11px] sm:text-xs transition shadow-sm flex items-center gap-1">
+                        <i class="fas fa-check"></i> Validar
                     </button>
                 </div>
             </div>
 
-            <!-- Pistas -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 bg-slate-50 p-5 rounded-3xl border border-slate-200">
-                <!-- HORIZONTALES -->
-                <div class="space-y-3">
-                    <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
-                        <span class="w-6 h-6 rounded-lg bg-emerald-600 text-white flex items-center justify-center text-xs font-black">
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
-                        <h4 class="text-xs font-black uppercase tracking-wider text-slate-800">Horizontales</h4>
+            <!-- BARRA DE PISTA ACTIVA PEGADA AL TABLERO (ADIOS IR/VOLVER ARRIBA Y ABAJO) -->
+            <div id="cwActiveClueBar" class="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 space-y-2">
+                <div class="flex items-center justify-between gap-2">
+                    <div class="flex items-center gap-1.5 flex-wrap">
+                        <span id="cwActiveBadge" class="px-2 py-0.5 rounded-lg bg-emerald-600 text-white text-[10px] font-black uppercase">1 Vertical</span>
+                        <span id="cwActiveLen" class="text-[10px] font-bold text-emerald-800 bg-white px-2 py-0.5 rounded-lg border border-emerald-200">6 letras</span>
+                        <span id="cwActiveStatus" class="text-[10px] font-extrabold text-slate-500">Pendiente</span>
                     </div>
-                    <ul class="space-y-2.5 text-xs text-slate-700" id="cluesH">
-                        <!-- Inyectadas por JS -->
-                    </ul>
-                </div>
-
-                <!-- VERTICALES -->
-                <div class="space-y-3">
-                    <div class="flex items-center gap-2 border-b border-slate-200 pb-2">
-                        <span class="w-6 h-6 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs font-black">
-                            <i class="fas fa-arrow-down"></i>
-                        </span>
-                        <h4 class="text-xs font-black uppercase tracking-wider text-slate-800">Verticales</h4>
+                    <div class="flex items-center gap-1 shrink-0">
+                        <button onclick="stepClue(-1)" class="w-7 h-7 rounded-lg bg-white border border-emerald-200 text-slate-700 hover:bg-emerald-100 flex items-center justify-center text-xs font-black" title="Pista anterior">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button onclick="stepClue(1)" class="w-7 h-7 rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 flex items-center justify-center text-xs font-black" title="Siguiente pista">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
                     </div>
-                    <ul class="space-y-2.5 text-xs text-slate-700" id="cluesV">
-                        <!-- Inyectadas por JS -->
-                    </ul>
                 </div>
+                <p id="cwActiveClueText" class="text-xs sm:text-sm text-slate-800 leading-snug font-medium"></p>
             </div>
 
-            <!-- Tablero Gráfico del Crucigrama (14 filas x 14 columnas) -->
-            <div class="flex flex-col items-center justify-center space-y-4 pt-2">
-                <div class="p-3 bg-slate-900 rounded-3xl shadow-xl border-4 border-slate-800 overflow-x-auto max-w-full">
-                    <div id="crosswordGrid" class="grid grid-cols-14 gap-[2px] bg-slate-800 p-2 rounded-2xl" style="grid-template-columns: repeat(14, minmax(0, 1fr));">
+            <!-- Tablero Gráfico del Crucigrama (14x14 auto-ajustado al ancho del móvil) -->
+            <div class="cw-board-wrap">
+                <div class="p-1.5 sm:p-2.5 bg-slate-900 rounded-2xl shadow-lg border-2 border-slate-800">
+                    <div id="crosswordGrid" class="cw-grid">
                         <!-- 14x14 = 196 celdas generadas por JS -->
                     </div>
                 </div>
-
-                <div id="cwStatusFeedback" class="text-xs font-bold text-slate-600 text-center min-h-[20px]">
-                    <i class="fas fa-info-circle text-emerald-500 mr-1"></i> Haz clic en cualquier casilla o pista para escribir cada letra.
-                </div>
-            </div>
-        </section>
-
-        <!-- 2. SOPA DE LETRAS -->
-        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
-                <div>
-                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
-                        <i class="fas fa-font text-amber-500"></i> Sopa de letras
-                    </h3>
-                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve la sopa de letras.</p>
-                </div>
-                <div class="text-xs font-bold text-slate-600 bg-amber-50 px-3 py-1.5 rounded-xl border border-amber-200">
-                    Palabras encontradas: <span id="wordsFoundCount" class="font-black text-amber-600 text-sm">0</span> / 8
-                </div>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- Tablero Sopa de Letras 12x12 -->
-                <div class="lg:col-span-7 flex flex-col items-center w-full">
-                    <div class="p-3 sm:p-4 bg-slate-100 rounded-3xl border border-slate-200 shadow-inner overflow-x-auto max-w-full">
-                        <div id="wordSearchGrid" class="grid grid-cols-12 gap-1 select-none" style="grid-template-columns: repeat(12, minmax(0, 1fr));">
-                            <!-- Generado dinámicamente -->
+            <div id="cwStatusFeedback" class="text-xs font-bold text-slate-600 text-center min-h-[18px]">
+                <i class="fas fa-info-circle text-emerald-500 mr-1"></i> Toca cualquier casilla blanca o usa las flechas para cambiar de pista.
+            </div>
+
+            <!-- Selector rápido de pistas en acordeón compacto (para no alargar la página) -->
+            <details class="bg-slate-50 rounded-2xl border border-slate-200">
+                <summary class="px-4 py-2.5 text-xs font-black text-slate-700 cursor-pointer flex items-center justify-between list-none">
+                    <span><i class="fas fa-list-ol text-emerald-600 mr-1.5"></i> Ver lista completa de pistas (10)</span>
+                    <i class="fas fa-chevron-down text-slate-400 text-[11px]"></i>
+                </summary>
+                <div class="p-3 pt-1 grid grid-cols-1 lg:grid-cols-2 gap-4 border-t border-slate-200">
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-1.5 text-[11px] font-black uppercase text-emerald-700">
+                            <i class="fas fa-arrow-right"></i> Horizontales
                         </div>
+                        <ul class="space-y-1.5 text-xs text-slate-700" id="cluesH"></ul>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex items-center gap-1.5 text-[11px] font-black uppercase text-blue-700">
+                            <i class="fas fa-arrow-down"></i> Verticales
+                        </div>
+                        <ul class="space-y-1.5 text-xs text-slate-700" id="cluesV"></ul>
                     </div>
                 </div>
+            </details>
+        </section>
 
-                <!-- Lista de Palabras por Encontrar (Limpia, sin spoilers de orientación) -->
-                <div class="lg:col-span-5 space-y-3">
-                    <h4 class="text-xs font-black uppercase text-slate-700">Palabras a encontrar:</h4>
-                    <div class="grid grid-cols-2 gap-2 text-xs" id="wsBadgesList">
-                        <!-- Badges inyectados dinámicamente -->
+        <!-- ===================== 2. SOPA DE LETRAS ===================== -->
+        <section id="evalPanel_ws" class="hidden bg-white rounded-3xl p-3.5 sm:p-6 shadow-sm border border-slate-200 space-y-3">
+            <div class="flex items-center justify-between gap-2 pb-2 border-b border-slate-100">
+                <div>
+                    <h3 class="text-base sm:text-lg font-black text-slate-800 flex items-center gap-1.5">
+                        <i class="fas fa-font text-amber-500"></i> Sopa de letras (100 pts)
+                    </h3>
+                    <p class="text-[11px] text-slate-500">Toca en orden las letras de cada palabra.</p>
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0">
+                    <span class="text-[11px] font-bold text-slate-600 bg-amber-50 px-2.5 py-1 rounded-xl border border-amber-200">
+                        <span id="wordsFoundCount" class="font-black text-amber-600">0</span>/8
+                    </span>
+                    <button onclick="clearWsSelection()" class="text-[11px] font-bold px-2.5 py-1 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 transition" title="Desmarcar letras actuales">
+                        <i class="fas fa-eraser"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- LISTA COMPACTA ARRIBA DEL TABLERO (VISIÓN SIMULTÁNEA SIN SCROLL) -->
+            <div class="space-y-1.5">
+                <div class="flex items-center justify-between text-[11px]">
+                    <span class="font-black uppercase text-slate-600">Palabras a encontrar:</span>
+                    <span id="wsSelectionPreview" class="font-black text-amber-600 min-h-[16px]"></span>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5 text-[11px]" id="wsBadgesList">
+                    <!-- Badges inyectados dinámicamente -->
+                </div>
+            </div>
+
+            <!-- Tablero Sopa de Letras 12x12 auto-ajustado -->
+            <div class="ws-board-wrap">
+                <div class="p-2 sm:p-3 bg-slate-100 rounded-2xl border border-slate-200 shadow-inner">
+                    <div id="wordSearchGrid" class="ws-grid select-none">
+                        <!-- Generado dinámicamente -->
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 3. CASOS PRÁCTICOS -->
-        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 space-y-6">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-4">
+        <!-- ===================== 3. CASOS PRÁCTICOS (1 CASO A LA VEZ) ===================== -->
+        <section id="evalPanel_quiz" class="hidden bg-white rounded-3xl p-3.5 sm:p-6 shadow-sm border border-slate-200 space-y-4">
+            <div class="flex flex-wrap items-center justify-between gap-2 pb-2 border-b border-slate-100">
                 <div>
-                    <h3 class="text-xl font-black text-slate-800 flex items-center gap-2">
-                        <i class="fas fa-users-viewfinder text-cyan-500"></i> Casos prácticos
+                    <h3 class="text-base sm:text-lg font-black text-slate-800 flex items-center gap-1.5">
+                        <i class="fas fa-users-viewfinder text-cyan-500"></i> Casos pr&aacute;cticos (100 pts)
                     </h3>
-                    <p class="text-xs text-slate-500 font-medium mt-0.5">Resuelve los casos prácticos.</p>
+                    <p class="text-[11px] text-slate-500">Responde cada situaci&oacute;n de piso de venta.</p>
                 </div>
-                <div id="quizScoreText" class="text-xs font-bold text-slate-600 bg-cyan-50 px-3 py-1.5 rounded-xl border border-cyan-200">
+                <div id="quizScoreText" class="text-[11px] font-bold text-slate-600 bg-cyan-50 px-2.5 py-1 rounded-xl border border-cyan-200">
                     3 situaciones
                 </div>
             </div>
 
-            <div class="space-y-6">
+            <!-- Pills rápidos de casos -->
+            <div class="flex items-center justify-between gap-2">
+                <div class="flex items-center gap-1.5">
+                    <button id="quizPill_1" onclick="showQuizCase(1)" class="px-3 py-1.5 rounded-xl text-xs font-black bg-cyan-600 text-white transition">Caso 1</button>
+                    <button id="quizPill_2" onclick="showQuizCase(2)" class="px-3 py-1.5 rounded-xl text-xs font-black bg-slate-100 text-slate-600 transition">Caso 2</button>
+                    <button id="quizPill_3" onclick="showQuizCase(3)" class="px-3 py-1.5 rounded-xl text-xs font-black bg-slate-100 text-slate-600 transition">Caso 3</button>
+                </div>
+                <span id="quizCounterLabel" class="text-[11px] font-extrabold text-slate-400">1 de 3</span>
+            </div>
+
+            <div id="quizCasesWrapper">
                 <!-- Caso 1 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
-                    <div class="flex items-center justify-between">
+                <div id="quizCase_1" class="p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
                         <span class="text-[10px] font-black uppercase tracking-wider text-emerald-700 bg-emerald-100 px-2.5 py-1 rounded-lg">
-                            Caso 1 &bull; Demostración de Resistencia
+                            Caso 1 &bull; Demostraci&oacute;n de Resistencia
                         </span>
                         <span class="text-[11px] font-bold text-slate-500">A7 Pro 5G</span>
                     </div>
                     <h4 class="text-sm font-bold text-slate-800 leading-snug">
-                        Llega un usuario que trabaja como repartidor en moto y comenta que le da miedo que la lluvia intensa o una caída accidental dañen su teléfono. ¿Qué acción demuestra contundentemente la durabilidad del equipo en piso de venta?
+                        Llega un usuario que trabaja como repartidor en moto y comenta que le da miedo que la lluvia intensa o una ca&iacute;da accidental da&ntilde;en su tel&eacute;fono. &iquest;Qu&eacute; acci&oacute;n demuestra contundentemente la durabilidad del equipo en piso de venta?
                     </h4>
-                    <div class="grid grid-cols-1 gap-2.5 text-xs">
-                        <button onclick="answerQuiz(1, 0)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                    <div class="grid grid-cols-1 gap-2 text-xs">
+                        <button onclick="answerQuiz(1, 0)" class="quiz-btn-1 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">A)</span>
-                            <span>Explicarle verbalmente la ficha técnica de los componentes y decirle que lo cuide en días lluviosos.</span>
+                            <span>Explicarle verbalmente la ficha t&eacute;cnica de los componentes y decirle que lo cuide en d&iacute;as lluviosos.</span>
                         </button>
-                        <button onclick="answerQuiz(1, 1)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(1, 1)" class="quiz-btn-1 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">B)</span>
-                            <span>Hacer una demostración física rociando agua o sumergiéndolo brevemente, mostrando cómo responde la pantalla con dedos mojados (certificación IP69K y Splash Touch).</span>
+                            <span>Hacer una demostraci&oacute;n f&iacute;sica rociando agua o sumergi&eacute;ndolo brevemente, mostrando c&oacute;mo responde la pantalla con dedos mojados (certificaci&oacute;n IP69K y Splash Touch).</span>
                         </button>
-                        <button onclick="answerQuiz(1, 2)" class="quiz-btn-1 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(1, 2)" class="quiz-btn-1 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">C)</span>
                             <span>Sugerirle que compre por fuera una funda impermeable sellada para no correr riesgos.</span>
                         </button>
                     </div>
-                    <div id="quizFeedback_1" class="text-xs font-bold hidden pt-2"></div>
+                    <div id="quizFeedback_1" class="text-xs font-bold hidden pt-1"></div>
                 </div>
 
                 <!-- Caso 2 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
-                    <div class="flex items-center justify-between">
+                <div id="quizCase_2" class="hidden p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
                         <span class="text-[10px] font-black uppercase tracking-wider text-blue-700 bg-blue-100 px-2.5 py-1 rounded-lg">
-                            Caso 2 &bull; Manejo de Objeción ("Lo voy a pensar")
+                            Caso 2 &bull; Manejo de Objeci&oacute;n ("Lo voy a pensar")
                         </span>
                         <span class="text-[11px] font-bold text-slate-500">Serie Reno</span>
                     </div>
                     <h4 class="text-sm font-bold text-slate-800 leading-snug">
-                        El cliente ya conoció el Reno 16 y mostró mucho interés en la cámara, pero al momento de la verdad dice: <em>"Se ve bien, pero lo voy a pensar"</em>. ¿Cómo aplicas escucha activa y empatía para destrabar la conversación sin presionar agresivamente?
+                        El cliente ya conoci&oacute; el Reno 16 y mostr&oacute; mucho inter&eacute;s en la c&aacute;mara, pero al momento de la verdad dice: <em>"Se ve bien, pero lo voy a pensar"</em>. &iquest;C&oacute;mo aplicas escucha activa y empat&iacute;a para destrabar la conversaci&oacute;n sin presionar agresivamente?
                     </h4>
-                    <div class="grid grid-cols-1 gap-2.5 text-xs">
-                        <button onclick="answerQuiz(2, 0)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                    <div class="grid grid-cols-1 gap-2 text-xs">
+                        <button onclick="answerQuiz(2, 0)" class="quiz-btn-2 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">A)</span>
-                            <span>Preguntar con empatía: <em>"Totalmente comprensible, ¿hay algún detalle en especial que le haga dudar, como el presupuesto o compararlo con su celular actual?"</em> para orientarlo con sinceridad.</span>
+                            <span>Preguntar con empat&iacute;a: <em>"Totalmente comprensible, &iquest;hay alg&uacute;n detalle en especial que le haga dudar, como el presupuesto o compararlo con su celular actual?"</em> para orientarlo con sinceridad.</span>
                         </button>
-                        <button onclick="answerQuiz(2, 1)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(2, 1)" class="quiz-btn-2 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">B)</span>
-                            <span>Mostrarle de inmediato un modelo de gama baja mucho más económico para cerrar la venta a como dé lugar.</span>
+                            <span>Mostrarle de inmediato un modelo de gama baja mucho m&aacute;s econ&oacute;mico para cerrar la venta a como d&eacute; lugar.</span>
                         </button>
-                        <button onclick="answerQuiz(2, 2)" class="quiz-btn-2 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(2, 2)" class="quiz-btn-2 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">C)</span>
-                            <span>Advertirle que la promoción se termina hoy mismo y que si no compra en este minuto perderá el precio.</span>
+                            <span>Advertirle que la promoci&oacute;n se termina hoy mismo y que si no compra en este minuto perder&aacute; el precio.</span>
                         </button>
                     </div>
-                    <div id="quizFeedback_2" class="text-xs font-bold hidden pt-2"></div>
+                    <div id="quizFeedback_2" class="text-xs font-bold hidden pt-1"></div>
                 </div>
 
                 <!-- Caso 3 -->
-                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
-                    <div class="flex items-center justify-between">
+                <div id="quizCase_3" class="hidden p-4 sm:p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
+                    <div class="flex flex-wrap items-center justify-between gap-2">
                         <span class="text-[10px] font-black uppercase tracking-wider text-purple-700 bg-purple-100 px-2.5 py-1 rounded-lg">
                             Caso 3 &bull; Venta Sugerida y Ecosistema IoT
                         </span>
-                        <span class="text-[11px] font-bold text-slate-500">Audífonos Enco</span>
+                        <span class="text-[11px] font-bold text-slate-500">Aud&iacute;fonos Enco</span>
                     </div>
                     <h4 class="text-sm font-bold text-slate-800 leading-snug">
-                        El cliente ya eligió su nuevo teléfono y está listo para pasar a caja. ¿Cuál es la técnica idónea para incorporar unos audífonos Enco y potenciar su experiencia y tu ticket?
+                        El cliente ya eligi&oacute; su nuevo tel&eacute;fono y est&aacute; listo para pasar a caja. &iquest;Cu&aacute;l es la t&eacute;cnica id&oacute;nea para incorporar unos aud&iacute;fonos Enco y potenciar su experiencia y tu ticket?
                     </h4>
-                    <div class="grid grid-cols-1 gap-2.5 text-xs">
-                        <button onclick="answerQuiz(3, 0)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                    <div class="grid grid-cols-1 gap-2 text-xs">
+                        <button onclick="answerQuiz(3, 0)" class="quiz-btn-3 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">A)</span>
-                            <span>Cobrar los audífonos directamente en la cuenta sin avisarle para que se los lleve incluidos.</span>
+                            <span>Cobrar los aud&iacute;fonos directamente en la cuenta sin avisarle para que se los lleve incluidos.</span>
                         </button>
-                        <button onclick="answerQuiz(3, 1)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(3, 1)" class="quiz-btn-3 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">B)</span>
                             <span>Esperar a que el cliente pregunte por accesorios en alguna visita futura para no incomodarlo.</span>
                         </button>
-                        <button onclick="answerQuiz(3, 2)" class="quiz-btn-3 p-3.5 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
+                        <button onclick="answerQuiz(3, 2)" class="quiz-btn-3 p-3 rounded-xl bg-white border border-slate-200 hover:border-cyan-500 text-left font-medium transition flex items-start gap-2">
                             <span class="font-bold text-slate-400">C)</span>
-                            <span>Invitarlo a colocarse una muestra de audífonos Enco para que sienta la comodidad y la cancelación de ruido en tiempo real, vinculándolos a su nuevo teléfono.</span>
+                            <span>Invitarlo a colocarse una muestra de aud&iacute;fonos Enco para que sienta la comodidad y la cancelaci&oacute;n de ruido en tiempo real, vincul&aacute;ndolos a su nuevo tel&eacute;fono.</span>
                         </button>
                     </div>
-                    <div id="quizFeedback_3" class="text-xs font-bold hidden pt-2"></div>
+                    <div id="quizFeedback_3" class="text-xs font-bold hidden pt-1"></div>
                 </div>
+            </div>
+
+            <!-- Controles Anterior / Siguiente -->
+            <div class="flex items-center justify-between pt-1">
+                <button id="quizPrevBtn" onclick="stepQuizCase(-1)" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition disabled:opacity-40">
+                    &lsaquo; Anterior
+                </button>
+                <button id="quizNextBtn" onclick="stepQuizCase(1)" class="px-4 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-700 text-white text-xs font-black transition disabled:opacity-40">
+                    Siguiente &rsaquo;
+                </button>
             </div>
         </section>
 
     </main>
 
     <script>
+        // NAVEGACIÓN POR PESTAÑAS (1 ACTIVIDAD A LA VEZ)
+        function switchEvalMode(mode) {
+            ['cw', 'ws', 'quiz'].forEach(m => {
+                const btn = document.getElementById('evalTabBtn_' + m);
+                const panel = document.getElementById('evalPanel_' + m);
+                const active = (m === mode);
+                if (btn) {
+                    btn.classList.toggle('active', active);
+                    btn.classList.toggle('inactive', !active);
+                }
+                if (panel) panel.classList.toggle('hidden', !active);
+            });
+        }
+
         // DATOS MAESTROS DEL CRUCIGRAMA INTERCONECTADO
         const CW_PLACED = [{"id": 1, "num": 1, "dir": "V", "word": "SONDEO", "r": 0, "c": 6, "clue": "Hacer preguntas abiertas clave antes de mostrar cualquier equipo para descubrir la necesidad del usuario es el <strong>S _ _ _ _ O</strong> efectivo."}, {"id": 2, "num": 2, "dir": "V", "word": "BEACONLINK", "r": 0, "c": 13, "clue": "La tecnología que permite hacer llamadas de voz a distancia vía Bluetooth sin red celular ni Wi-Fi es <strong>B _ _ _ _ _ _ _ _ K</strong>."}, {"id": 3, "num": 3, "dir": "H", "word": "CIERRE", "r": 1, "c": 8, "clue": "El paso natural donde orientas al cliente para formalizar su compra con satisfacción es el <strong>C _ _ _ _ E</strong> comercial."}, {"id": 4, "num": 4, "dir": "V", "word": "EMPATIA", "r": 1, "c": 10, "clue": "Ponerse en los zapatos del comprador para entender su estilo de vida y qué busca realmente es la <strong>E _ _ _ _ _ A</strong>."}, {"id": 5, "num": 5, "dir": "V", "word": "ESCUCHA", "r": 4, "c": 0, "clue": "Prestar atención total al comprador sin interrumpir es la <strong>E _ _ _ _ _ A</strong> activa."}, {"id": 6, "num": 6, "dir": "V", "word": "RENO", "r": 4, "c": 3, "clue": "La serie icónica reconocida mundialmente por su diseño ultraestilizado y retrato experto es la Serie <strong>R _ _ O</strong>."}, {"id": 7, "num": 7, "dir": "H", "word": "SUPERVOOC", "r": 5, "c": 0, "clue": "La tecnología patentada de carga rápida que cuida la batería con disipación térmica es <strong>S _ _ _ _ _ _ _ C</strong>."}, {"id": 8, "num": 8, "dir": "H", "word": "CONFIANZA", "r": 7, "c": 2, "clue": "El vínculo de seguridad y credibilidad mutua que construyes al hablar con total honestidad es la <strong>C _ _ _ _ _ _ _ A</strong>."}, {"id": 9, "num": 8, "dir": "V", "word": "COLOROS", "r": 7, "c": 2, "clue": "La capa de personalización fluida, intuitiva y optimizada de OPPO sobre Android es <strong>C _ _ _ _ _ S</strong>."}, {"id": 10, "num": 9, "dir": "V", "word": "IP69K", "r": 7, "c": 6, "clue": "La máxima certificación contra chorros de agua a alta presión y vapor a 80 °C en el A7 Pro 5G es <strong>I _ _ _ K</strong>."}];
         const CW_CELLS = {"0,6": {"r": 0, "c": 6, "letter": "S", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 0, "word": "SONDEO"}], "start_nums": [1]}, "1,6": {"r": 1, "c": 6, "letter": "O", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 1, "word": "SONDEO"}]}, "2,6": {"r": 2, "c": 6, "letter": "N", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 2, "word": "SONDEO"}]}, "3,6": {"r": 3, "c": 6, "letter": "D", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 3, "word": "SONDEO"}]}, "4,6": {"r": 4, "c": 6, "letter": "E", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 4, "word": "SONDEO"}]}, "5,6": {"r": 5, "c": 6, "letter": "O", "words": [{"id": 1, "num": 1, "dir": "V", "idx": 5, "word": "SONDEO"}, {"id": 7, "num": 7, "dir": "H", "idx": 6, "word": "SUPERVOOC"}]}, "0,13": {"r": 0, "c": 13, "letter": "B", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 0, "word": "BEACONLINK"}], "start_nums": [2]}, "1,13": {"r": 1, "c": 13, "letter": "E", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 1, "word": "BEACONLINK"}, {"id": 3, "num": 3, "dir": "H", "idx": 5, "word": "CIERRE"}]}, "2,13": {"r": 2, "c": 13, "letter": "A", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 2, "word": "BEACONLINK"}]}, "3,13": {"r": 3, "c": 13, "letter": "C", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 3, "word": "BEACONLINK"}]}, "4,13": {"r": 4, "c": 13, "letter": "O", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 4, "word": "BEACONLINK"}]}, "5,13": {"r": 5, "c": 13, "letter": "N", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 5, "word": "BEACONLINK"}]}, "6,13": {"r": 6, "c": 13, "letter": "L", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 6, "word": "BEACONLINK"}]}, "7,13": {"r": 7, "c": 13, "letter": "I", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 7, "word": "BEACONLINK"}]}, "8,13": {"r": 8, "c": 13, "letter": "N", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 8, "word": "BEACONLINK"}]}, "9,13": {"r": 9, "c": 13, "letter": "K", "words": [{"id": 2, "num": 2, "dir": "V", "idx": 9, "word": "BEACONLINK"}]}, "1,8": {"r": 1, "c": 8, "letter": "C", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 0, "word": "CIERRE"}], "start_nums": [3]}, "1,9": {"r": 1, "c": 9, "letter": "I", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 1, "word": "CIERRE"}]}, "1,10": {"r": 1, "c": 10, "letter": "E", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 2, "word": "CIERRE"}, {"id": 4, "num": 4, "dir": "V", "idx": 0, "word": "EMPATIA"}], "start_nums": [4]}, "1,11": {"r": 1, "c": 11, "letter": "R", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 3, "word": "CIERRE"}]}, "1,12": {"r": 1, "c": 12, "letter": "R", "words": [{"id": 3, "num": 3, "dir": "H", "idx": 4, "word": "CIERRE"}]}, "2,10": {"r": 2, "c": 10, "letter": "M", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 1, "word": "EMPATIA"}]}, "3,10": {"r": 3, "c": 10, "letter": "P", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 2, "word": "EMPATIA"}]}, "4,10": {"r": 4, "c": 10, "letter": "A", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 3, "word": "EMPATIA"}]}, "5,10": {"r": 5, "c": 10, "letter": "T", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 4, "word": "EMPATIA"}]}, "6,10": {"r": 6, "c": 10, "letter": "I", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 5, "word": "EMPATIA"}]}, "7,10": {"r": 7, "c": 10, "letter": "A", "words": [{"id": 4, "num": 4, "dir": "V", "idx": 6, "word": "EMPATIA"}, {"id": 8, "num": 8, "dir": "H", "idx": 8, "word": "CONFIANZA"}]}, "4,0": {"r": 4, "c": 0, "letter": "E", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 0, "word": "ESCUCHA"}], "start_nums": [5]}, "5,0": {"r": 5, "c": 0, "letter": "S", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 1, "word": "ESCUCHA"}, {"id": 7, "num": 7, "dir": "H", "idx": 0, "word": "SUPERVOOC"}], "start_nums": [7]}, "6,0": {"r": 6, "c": 0, "letter": "C", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 2, "word": "ESCUCHA"}]}, "7,0": {"r": 7, "c": 0, "letter": "U", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 3, "word": "ESCUCHA"}]}, "8,0": {"r": 8, "c": 0, "letter": "C", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 4, "word": "ESCUCHA"}]}, "9,0": {"r": 9, "c": 0, "letter": "H", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 5, "word": "ESCUCHA"}]}, "10,0": {"r": 10, "c": 0, "letter": "A", "words": [{"id": 5, "num": 5, "dir": "V", "idx": 6, "word": "ESCUCHA"}]}, "4,3": {"r": 4, "c": 3, "letter": "R", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 0, "word": "RENO"}], "start_nums": [6]}, "5,3": {"r": 5, "c": 3, "letter": "E", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 1, "word": "RENO"}, {"id": 7, "num": 7, "dir": "H", "idx": 3, "word": "SUPERVOOC"}]}, "6,3": {"r": 6, "c": 3, "letter": "N", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 2, "word": "RENO"}]}, "7,3": {"r": 7, "c": 3, "letter": "O", "words": [{"id": 6, "num": 6, "dir": "V", "idx": 3, "word": "RENO"}, {"id": 8, "num": 8, "dir": "H", "idx": 1, "word": "CONFIANZA"}]}, "5,1": {"r": 5, "c": 1, "letter": "U", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 1, "word": "SUPERVOOC"}]}, "5,2": {"r": 5, "c": 2, "letter": "P", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 2, "word": "SUPERVOOC"}]}, "5,4": {"r": 5, "c": 4, "letter": "R", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 4, "word": "SUPERVOOC"}]}, "5,5": {"r": 5, "c": 5, "letter": "V", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 5, "word": "SUPERVOOC"}]}, "5,7": {"r": 5, "c": 7, "letter": "O", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 7, "word": "SUPERVOOC"}]}, "5,8": {"r": 5, "c": 8, "letter": "C", "words": [{"id": 7, "num": 7, "dir": "H", "idx": 8, "word": "SUPERVOOC"}]}, "7,2": {"r": 7, "c": 2, "letter": "C", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 0, "word": "CONFIANZA"}, {"id": 9, "num": 8, "dir": "V", "idx": 0, "word": "COLOROS"}], "start_nums": [8, 8]}, "7,4": {"r": 7, "c": 4, "letter": "N", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 2, "word": "CONFIANZA"}]}, "7,5": {"r": 7, "c": 5, "letter": "F", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 3, "word": "CONFIANZA"}]}, "7,6": {"r": 7, "c": 6, "letter": "I", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 4, "word": "CONFIANZA"}, {"id": 10, "num": 9, "dir": "V", "idx": 0, "word": "IP69K"}], "start_nums": [9]}, "7,7": {"r": 7, "c": 7, "letter": "A", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 5, "word": "CONFIANZA"}]}, "7,8": {"r": 7, "c": 8, "letter": "N", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 6, "word": "CONFIANZA"}]}, "7,9": {"r": 7, "c": 9, "letter": "Z", "words": [{"id": 8, "num": 8, "dir": "H", "idx": 7, "word": "CONFIANZA"}]}, "8,2": {"r": 8, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 1, "word": "COLOROS"}]}, "9,2": {"r": 9, "c": 2, "letter": "L", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 2, "word": "COLOROS"}]}, "10,2": {"r": 10, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 3, "word": "COLOROS"}]}, "11,2": {"r": 11, "c": 2, "letter": "R", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 4, "word": "COLOROS"}]}, "12,2": {"r": 12, "c": 2, "letter": "O", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 5, "word": "COLOROS"}]}, "13,2": {"r": 13, "c": 2, "letter": "S", "words": [{"id": 9, "num": 8, "dir": "V", "idx": 6, "word": "COLOROS"}]}, "8,6": {"r": 8, "c": 6, "letter": "P", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 1, "word": "IP69K"}]}, "9,6": {"r": 9, "c": 6, "letter": "6", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 2, "word": "IP69K"}]}, "10,6": {"r": 10, "c": 6, "letter": "9", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 3, "word": "IP69K"}]}, "11,6": {"r": 11, "c": 6, "letter": "K", "words": [{"id": 10, "num": 9, "dir": "V", "idx": 4, "word": "IP69K"}]}};
@@ -371,13 +474,13 @@
         let scoreCrossword = 0;
         let scoreWordSearch = 0;
         let scoreQuiz = 0;
-        let activeWordId = null;
+        let activeWordId = CW_PLACED[0].id;
+        let currentQuizCase = 1;
 
         function updateGlobalScore() {
             const total = scoreCrossword + scoreWordSearch + scoreQuiz;
             document.getElementById('userScore').textContent = total;
 
-            // Al superar 250 puntos, se desbloquea la Insignia Dorada en su registro
             if (total >= 250) {
                 const badgeSec = document.getElementById('goldBadgeSection');
                 if (badgeSec) badgeSec.classList.remove('hidden');
@@ -406,11 +509,43 @@
             }
         }
 
+        function updateActiveClueBar(wordData) {
+            if (!wordData) return;
+            const badge = document.getElementById('cwActiveBadge');
+            const len = document.getElementById('cwActiveLen');
+            const status = document.getElementById('cwActiveStatus');
+            const txt = document.getElementById('cwActiveClueText');
+            const bar = document.getElementById('cwActiveClueBar');
+
+            const isH = wordData.dir === 'H';
+            if (badge) {
+                badge.textContent = `${wordData.num} ${isH ? 'Horizontal' : 'Vertical'}`;
+                badge.className = `px-2 py-0.5 rounded-lg ${isH ? 'bg-emerald-600' : 'bg-blue-600'} text-white text-[10px] font-black uppercase`;
+            }
+            if (bar) {
+                bar.className = `${isH ? 'bg-emerald-50 border-emerald-200' : 'bg-blue-50 border-blue-200'} border rounded-2xl p-3 space-y-2`;
+            }
+            if (len) len.textContent = `${wordData.word.length} letras`;
+            if (txt) txt.innerHTML = wordData.clue;
+
+            const statusSource = document.getElementById(`clueStatus_${wordData.id}`);
+            if (status && statusSource) {
+                status.textContent = statusSource.textContent;
+                status.className = statusSource.className;
+            }
+        }
+
+        function stepClue(delta) {
+            const idx = CW_PLACED.findIndex(w => w.id === activeWordId);
+            const nextIdx = (idx + delta + CW_PLACED.length) % CW_PLACED.length;
+            selectWord(CW_PLACED[nextIdx].id);
+        }
+
         // RENDERIZADO DEL CRUCIGRAMA
         function renderCrossword() {
             const cluesHEl = document.getElementById('cluesH');
             const cluesVEl = document.getElementById('cluesV');
-            
+
             cluesHEl.innerHTML = '';
             cluesVEl.innerHTML = '';
 
@@ -430,11 +565,8 @@
                     </div>
                 `;
 
-                if (item.dir === 'H') {
-                    cluesHEl.appendChild(li);
-                } else {
-                    cluesVEl.appendChild(li);
-                }
+                if (item.dir === 'H') cluesHEl.appendChild(li);
+                else cluesVEl.appendChild(li);
             });
 
             const gridEl = document.getElementById('crosswordGrid');
@@ -455,13 +587,15 @@
                         if (cellData.start_nums && cellData.start_nums.length > 0) {
                             const numSpan = document.createElement('span');
                             numSpan.className = "cw-num";
-                            numSpan.textContent = cellData.start_nums.join('/');
+                            numSpan.textContent = [...new Set(cellData.start_nums)].join('/');
                             cellDiv.appendChild(numSpan);
                         }
 
                         const input = document.createElement('input');
                         input.type = "text";
                         input.maxLength = 1;
+                        input.autocomplete = "off";
+                        input.autocapitalize = "characters";
                         input.id = `input_${r}_${c}`;
                         input.dataset.row = r;
                         input.dataset.col = c;
@@ -476,18 +610,18 @@
                     gridEl.appendChild(cellDiv);
                 }
             }
+
+            highlightActiveWordOnGrid(CW_PLACED[0], CW_PLACED[0].r, CW_PLACED[0].c);
+            updateActiveClueBar(CW_PLACED[0]);
         }
 
-        function selectWord(wordId) {
-            activeWordId = wordId;
-            const wordData = CW_PLACED.find(w => w.id === wordId);
+        function highlightActiveWordOnGrid(wordData, focusR, focusC) {
             if (!wordData) return;
-
             CW_PLACED.forEach(w => {
                 const el = document.getElementById(`clue_item_${w.id}`);
                 if (el) el.classList.remove('bg-emerald-100', 'border-emerald-400', 'bg-blue-100', 'border-blue-400');
             });
-            const activeLi = document.getElementById(`clue_item_${wordId}`);
+            const activeLi = document.getElementById(`clue_item_${wordData.id}`);
             if (activeLi) {
                 activeLi.classList.add(wordData.dir === 'H' ? 'bg-emerald-100' : 'bg-blue-100');
                 activeLi.classList.add(wordData.dir === 'H' ? 'border-emerald-400' : 'border-blue-400');
@@ -500,12 +634,20 @@
                 const cellEl = document.getElementById(`cell_${cr}_${cc}`);
                 if (cellEl) cellEl.classList.add('active-word');
             }
+            const curCell = document.getElementById(`cell_${focusR}_${focusC}`);
+            if (curCell) curCell.classList.add('current-cell');
+        }
+
+        function selectWord(wordId) {
+            activeWordId = wordId;
+            const wordData = CW_PLACED.find(w => w.id === wordId);
+            if (!wordData) return;
+
+            highlightActiveWordOnGrid(wordData, wordData.r, wordData.c);
+            updateActiveClueBar(wordData);
 
             const firstInput = document.getElementById(`input_${wordData.r}_${wordData.c}`);
-            if (firstInput) {
-                firstInput.focus();
-                firstInput.parentElement.classList.add('current-cell');
-            }
+            if (firstInput) firstInput.focus();
         }
 
         function onCellFocus(r, c) {
@@ -514,27 +656,14 @@
 
             if (activeWordId) {
                 const belongsToCurrent = cellData.words.some(w => w.id === activeWordId);
-                if (!belongsToCurrent) {
-                    activeWordId = cellData.words[0].id;
-                }
+                if (!belongsToCurrent) activeWordId = cellData.words[0].id;
             } else {
                 activeWordId = cellData.words[0].id;
             }
 
             const activeWord = CW_PLACED.find(w => w.id === activeWordId);
-            document.querySelectorAll('.cw-cell').forEach(cl => cl.classList.remove('active-word', 'current-cell'));
-
-            if (activeWord) {
-                for (let i = 0; i < activeWord.word.length; i++) {
-                    const cr = activeWord.dir === 'H' ? activeWord.r : activeWord.r + i;
-                    const cc = activeWord.dir === 'H' ? activeWord.c + i : activeWord.c;
-                    const cEl = document.getElementById(`cell_${cr}_${cc}`);
-                    if (cEl) cEl.classList.add('active-word');
-                }
-            }
-
-            const curCell = document.getElementById(`cell_${r}_${c}`);
-            if (curCell) curCell.classList.add('current-cell');
+            highlightActiveWordOnGrid(activeWord, r, c);
+            updateActiveClueBar(activeWord);
         }
 
         function onCellInput(e, r, c) {
@@ -547,16 +676,11 @@
 
                 let nextR = r;
                 let nextC = c;
-                if (wordData.dir === 'H') {
-                    nextC++;
-                } else {
-                    nextR++;
-                }
+                if (wordData.dir === 'H') nextC++;
+                else nextR++;
 
                 const nextInput = document.getElementById(`input_${nextR}_${nextC}`);
-                if (nextInput) {
-                    nextInput.focus();
-                }
+                if (nextInput) nextInput.focus();
             }
         }
 
@@ -568,11 +692,8 @@
                     if (!wordData) return;
                     let prevR = r;
                     let prevC = c;
-                    if (wordData.dir === 'H') {
-                        prevC--;
-                    } else {
-                        prevR--;
-                    }
+                    if (wordData.dir === 'H') prevC--;
+                    else prevR--;
                     const prevInput = document.getElementById(`input_${prevR}_${prevC}`);
                     if (prevInput) {
                         prevInput.focus();
@@ -635,9 +756,7 @@
                         cellsList.forEach(cl => {
                             if (cl.inputEl.value !== cl.expected) {
                                 const cell = document.getElementById(`cell_${cl.r}_${cl.c}`);
-                                if (cell && !cell.classList.contains('correct')) {
-                                    cell.classList.add('error');
-                                }
+                                if (cell && !cell.classList.contains('correct')) cell.classList.add('error');
                             }
                         });
                     }
@@ -645,6 +764,11 @@
             });
 
             scoreCrossword = Math.round((correctWordsCount / CW_PLACED.length) * 100);
+            const tabScoreCw = document.getElementById('tabScore_cw');
+            if (tabScoreCw) tabScoreCw.textContent = `${correctWordsCount}/${CW_PLACED.length}`;
+            const curWord = CW_PLACED.find(w => w.id === activeWordId);
+            if (curWord) updateActiveClueBar(curWord);
+
             const fb = document.getElementById('cwStatusFeedback');
             if (correctWordsCount === CW_PLACED.length) {
                 fb.innerHTML = `<span class="text-emerald-600 font-black text-sm"><i class="fas fa-check-circle"></i> ¡Crucigrama resuelto! Obtuviste 100 puntos.</span>`;
@@ -656,9 +780,7 @@
         }
 
         function clearCrossword() {
-            document.querySelectorAll('.cw-cell input').forEach(input => {
-                input.value = '';
-            });
+            document.querySelectorAll('.cw-cell input').forEach(input => { input.value = ''; });
             document.querySelectorAll('.cw-cell').forEach(c => {
                 c.classList.remove('correct', 'error', 'active-word', 'current-cell');
             });
@@ -670,6 +792,10 @@
                 }
             });
             scoreCrossword = 0;
+            const tabScoreCw = document.getElementById('tabScore_cw');
+            if (tabScoreCw) tabScoreCw.textContent = `0/${CW_PLACED.length}`;
+            const curWord = CW_PLACED.find(w => w.id === activeWordId) || CW_PLACED[0];
+            updateActiveClueBar(curWord);
             updateGlobalScore();
             document.getElementById('cwStatusFeedback').innerHTML = `<i class="fas fa-info-circle text-slate-400 mr-1"></i> Crucigrama reiniciado.`;
         }
@@ -697,14 +823,29 @@
                 }
             }
 
-            // Renderizar lista limpia de palabras a encontrar (sin etiquetas de orientación HOR/VERT)
             const badgesEl = document.getElementById('wsBadgesList');
             badgesEl.innerHTML = WS_WORDS.map(item => `
-                <div id="wsBadge_${item.word}" class="p-3 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-700 flex items-center justify-between transition hover:bg-slate-100">
-                    <span class="tracking-wide">${item.word}</span>
-                    <i class="fas fa-circle text-[8px] text-slate-300"></i>
+                <div id="wsBadge_${item.word}" class="px-2.5 py-1.5 rounded-xl bg-slate-50 border border-slate-200 font-bold text-slate-700 flex items-center justify-between transition">
+                    <span class="tracking-wide truncate">${item.word}</span>
+                    <i class="fas fa-circle text-[7px] text-slate-300 shrink-0 ml-1"></i>
                 </div>
             `).join('');
+        }
+
+        function updateWsPreview() {
+            const prev = document.getElementById('wsSelectionPreview');
+            if (prev) prev.textContent = wsSelected.map(s => s.char).join('');
+        }
+
+        function clearWsSelection() {
+            wsSelected.forEach(s => {
+                const b = document.getElementById(`ws_${s.r}_${s.c}`);
+                if (b && !b.classList.contains('word-found')) {
+                    b.classList.remove('bg-amber-300', 'text-black', 'border-amber-400');
+                }
+            });
+            wsSelected = [];
+            updateWsPreview();
         }
 
         function onWsClick(r, c, char) {
@@ -720,6 +861,7 @@
                 btn.classList.add('bg-amber-300', 'text-black', 'border-amber-400');
             }
 
+            updateWsPreview();
             checkWsWord();
         }
 
@@ -736,23 +878,56 @@
                     b.classList.add('word-found');
                 });
                 wsSelected = [];
+                updateWsPreview();
 
                 const badge = document.getElementById(`wsBadge_${targetWord.word}`);
                 if (badge) {
                     badge.classList.remove('bg-slate-50', 'border-slate-200');
                     badge.classList.add('bg-emerald-50', 'border-emerald-300', 'text-emerald-800', 'line-through');
-                    badge.querySelector('i').className = "fas fa-check-circle text-emerald-600 text-sm";
+                    badge.querySelector('i').className = "fas fa-check-circle text-emerald-600 text-xs shrink-0 ml-1";
                 }
 
                 document.getElementById('wordsFoundCount').textContent = wsFound.size;
+                const tabScoreWs = document.getElementById('tabScore_ws');
+                if (tabScoreWs) tabScoreWs.textContent = `${wsFound.size}/${WS_WORDS.length}`;
                 scoreWordSearch = Math.round((wsFound.size / WS_WORDS.length) * 100);
                 updateGlobalScore();
             }
         }
 
-        // 3. CASOS PRÁCTICOS
+        // 3. CASOS PRÁCTICOS (CARRUSEL 1 A LA VEZ)
         const QUIZ_ANSWERS = { 1: 1, 2: 0, 3: 2 };
         let quizState = {};
+
+        function showQuizCase(caseNum) {
+            currentQuizCase = Math.max(1, Math.min(3, caseNum));
+            [1, 2, 3].forEach(n => {
+                const card = document.getElementById('quizCase_' + n);
+                const pill = document.getElementById('quizPill_' + n);
+                if (card) card.classList.toggle('hidden', n !== currentQuizCase);
+                if (pill) {
+                    if (n === currentQuizCase) {
+                        pill.className = "px-3 py-1.5 rounded-xl text-xs font-black bg-cyan-600 text-white shadow-sm transition";
+                    } else if (quizState[n] === true) {
+                        pill.className = "px-3 py-1.5 rounded-xl text-xs font-black bg-emerald-100 text-emerald-800 transition";
+                    } else if (quizState[n] === false) {
+                        pill.className = "px-3 py-1.5 rounded-xl text-xs font-black bg-rose-100 text-rose-700 transition";
+                    } else {
+                        pill.className = "px-3 py-1.5 rounded-xl text-xs font-black bg-slate-100 text-slate-600 transition";
+                    }
+                }
+            });
+            const label = document.getElementById('quizCounterLabel');
+            if (label) label.textContent = `${currentQuizCase} de 3`;
+            const prev = document.getElementById('quizPrevBtn');
+            const next = document.getElementById('quizNextBtn');
+            if (prev) prev.disabled = (currentQuizCase === 1);
+            if (next) next.disabled = (currentQuizCase === 3);
+        }
+
+        function stepQuizCase(delta) {
+            showQuizCase(currentQuizCase + delta);
+        }
 
         function answerQuiz(qNum, optIdx) {
             const isCorrect = (optIdx === QUIZ_ANSWERS[qNum]);
@@ -760,9 +935,9 @@
             btns.forEach((b, idx) => {
                 b.disabled = true;
                 if (idx === QUIZ_ANSWERS[qNum]) {
-                    b.className = "quiz-btn-" + qNum + " p-3.5 rounded-xl bg-emerald-50 border border-emerald-500 text-emerald-800 text-left font-bold transition flex items-start gap-2";
+                    b.className = "quiz-btn-" + qNum + " p-3 rounded-xl bg-emerald-50 border border-emerald-500 text-emerald-800 text-left font-bold transition flex items-start gap-2";
                 } else if (idx === optIdx && !isCorrect) {
-                    b.className = "quiz-btn-" + qNum + " p-3.5 rounded-xl bg-rose-50 border border-rose-400 text-rose-800 text-left font-medium transition flex items-start gap-2";
+                    b.className = "quiz-btn-" + qNum + " p-3 rounded-xl bg-rose-50 border border-rose-400 text-rose-800 text-left font-medium transition flex items-start gap-2";
                 }
             });
 
@@ -776,9 +951,13 @@
                 quizState[qNum] = false;
             }
 
+            const answeredCount = Object.keys(quizState).length;
             const correctCount = Object.values(quizState).filter(Boolean).length;
             scoreQuiz = Math.round((correctCount / 3) * 100);
             document.getElementById('quizScoreText').textContent = `${correctCount} de 3 correctas (${scoreQuiz} pts)`;
+            const tabScoreQuiz = document.getElementById('tabScore_quiz');
+            if (tabScoreQuiz) tabScoreQuiz.textContent = `${answeredCount}/3`;
+            showQuizCase(currentQuizCase);
             updateGlobalScore();
         }
 
@@ -786,6 +965,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             renderCrossword();
             renderWordSearch();
+            showQuizCase(1);
 
             try {
                 const rawProfile = localStorage.getItem('oppo_user_profile');

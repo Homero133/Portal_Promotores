@@ -83,353 +83,380 @@
 <body class="text-gray-800 antialiased pb-24 transition-colors duration-300">
 
     <!-- HERO HEADER -->
-    <header class="gradient-hero text-white pt-7 pb-14 px-5 rounded-b-[2.5rem] shadow-2xl relative overflow-hidden border-b border-emerald-400/30">
+    <header class="gradient-hero text-white pt-4 pb-9 sm:pt-7 sm:pb-14 px-4 sm:px-5 rounded-b-[1.75rem] sm:rounded-b-[2.5rem] shadow-2xl relative overflow-hidden border-b border-emerald-400/30">
         <div class="max-w-6xl mx-auto relative z-10">
-            <div class="flex flex-wrap justify-between items-center gap-3 mb-5">
-                <div class="flex flex-wrap items-center gap-2">
-                    <a href="index.html" class="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full text-xs sm:text-sm font-bold backdrop-blur-sm transition">
+            <div class="flex flex-wrap justify-between items-center gap-2 mb-3 sm:mb-5">
+                <div class="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                    <a href="index.html" class="inline-flex items-center gap-1.5 bg-white/10 hover:bg-white/20 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-bold backdrop-blur-sm transition">
                         <i class="fas fa-arrow-left"></i> Inicio
                     </a>
                     <a href="evaluaciones.html" class="hidden sm:inline-flex items-center gap-1.5 bg-purple-500/20 hover:bg-purple-500/30 text-purple-300 border border-purple-400/40 px-3.5 py-2 rounded-full text-xs font-bold backdrop-blur-sm transition">
                         <i class="fas fa-gamepad"></i> Evaluaciones
                     </a>
                 </div>
-                <div class="flex items-center gap-2.5">
-                    <button onclick="showTab('reglas')" class="inline-flex items-center gap-1.5 text-xs font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/40 px-3.5 py-2 rounded-full hover:bg-amber-400/30 transition">
-                        <i class="fas fa-book-open"></i> Reglas Oficiales
+                <div class="flex items-center gap-1.5 sm:gap-2.5">
+                    <button onclick="showTab('reglas')" class="inline-flex items-center gap-1 text-[11px] sm:text-xs font-extrabold uppercase tracking-wider bg-amber-400/20 text-amber-300 border border-amber-400/40 px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-full hover:bg-amber-400/30 transition">
+                        <i class="fas fa-book-open"></i> <span class="hidden sm:inline">Reglas Oficiales</span><span class="sm:hidden">Reglas</span>
                     </button>
-                    <button onclick="window.portalAuth && window.portalAuth.logout()" class="inline-flex items-center gap-1.5 text-xs font-bold bg-white/10 hover:bg-rose-500/30 text-white px-3 py-2 rounded-full backdrop-blur-sm transition" title="Cambiar ID o cerrar sesión">
+                    <button onclick="window.portalAuth && window.portalAuth.logout()" class="inline-flex items-center gap-1 text-[11px] sm:text-xs font-bold bg-white/10 hover:bg-rose-500/30 text-white px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-full backdrop-blur-sm transition" title="Cambiar ID o cerrar sesión">
                         <i class="fas fa-exchange-alt"></i> <span class="hidden sm:inline">Cambiar ID</span>
                     </button>
-                    <button onclick="toggleDarkMode()" class="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition">
-                        <i id="themeIcon" class="fas fa-moon text-white"></i>
+                    <button onclick="toggleDarkMode()" class="w-8 h-8 sm:w-9 sm:h-9 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-sm hover:bg-white/20 transition">
+                        <i id="themeIcon" class="fas fa-moon text-white text-xs sm:text-sm"></i>
                     </button>
                 </div>
             </div>
 
-            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
                 <div>
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-black uppercase tracking-widest mb-2">
-                        <i class="fas fa-coins"></i> Esquema de Comisiones PM &bull; Noviembre 2026
+                    <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5">
+                        <i class="fas fa-coins"></i> Comisiones PM &bull; Nov 2026
                     </div>
-                    <h1 class="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
-                        Tabulador Profesional <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-emerald-300">&amp; Simulador de Cuota</span>
+                    <h1 class="text-xl sm:text-4xl font-black tracking-tight leading-tight">
+                        Tabulador <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-emerald-300">&amp; Simulador de Cuota</span>
                     </h1>
-                    <p class="text-gray-200 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">
+                    <p class="hidden sm:block text-gray-200 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">
                         Simula tus ingresos en tiempo real seg&uacute;n tus <strong>ventas activadas al corte</strong>, conoce tu <strong>plan de acci&oacute;n para hoy y ma&ntilde;ana</strong> y asegura el <strong>Bono de +$2,000 MXN</strong>.
                     </p>
                 </div>
-                <div class="bg-black/30 backdrop-blur-md border border-white/15 rounded-2xl px-4 py-3 shrink-0 flex items-center gap-3">
-                    <div class="w-10 h-10 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center text-lg">
-                        <i class="fas fa-trophy"></i>
+                <div class="bg-black/30 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2 sm:px-4 sm:py-3 shrink-0 flex items-center justify-between sm:justify-start gap-3">
+                    <div class="flex items-center gap-2.5">
+                        <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center text-sm sm:text-lg">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div>
+                            <div class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-amber-300">Incentivo Cuota 100%</div>
+                            <div class="text-base sm:text-xl font-black text-white leading-tight">+$2,000 <span class="text-[11px] sm:text-xs font-bold text-emerald-300">MXN</span></div>
+                        </div>
                     </div>
-                    <div>
-                        <div class="text-[10px] font-bold uppercase tracking-wider text-amber-300">Incentivo Cuota 100%</div>
-                        <div class="text-xl font-black text-white">+$2,000 <span class="text-xs font-bold text-emerald-300">MXN</span></div>
-                        <div class="text-[10px] text-gray-300">Tolerancia activaci&oacute;n: &plusmn;10 d&iacute;as</div>
-                    </div>
+                    <div class="text-[10px] text-gray-300 sm:hidden font-semibold">&plusmn;10d activ.</div>
                 </div>
             </div>
         </div>
     </header>
 
     <!-- CONTENIDO PRINCIPAL -->
-    <main class="max-w-6xl mx-auto px-4 sm:px-6 -mt-8 relative z-20 space-y-6">
+    <main class="max-w-6xl mx-auto px-3 sm:px-6 -mt-5 sm:-mt-8 relative z-20 space-y-3 sm:space-y-5">
 
-        <!-- 1. BARRA SUPERIOR: BÚSQUEDA DE PROMOTOR Y MÉTRICAS LIMPIAS (VENTAS TOTALES / VENTAS ACTIVADAS) -->
-        <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-xl border border-gray-100 space-y-4">
-            <!-- Banner exclusivo para Modo Auditor -->
-            <div id="auditorModeBanner" class="hidden bg-amber-50 border border-amber-200 rounded-2xl px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs">
-                <div class="flex items-center gap-2 text-amber-900 font-bold">
-                    <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white font-black uppercase text-[10px]">Modo Auditor</span>
-                    <span id="auditorBannerText">Acceso completo: puedes consultar cualquier ID del padrón (710 promotores).</span>
+        <!-- 1. BARRA SUPERIOR: BÚSQUEDA DE PROMOTOR Y MÉTRICAS COMPACTAS -->
+        <section class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-3">
+            <!-- Banner exclusivo para Modo Auditor (Compacto) -->
+            <div id="auditorModeBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl px-3 py-1.5 flex flex-wrap items-center justify-between gap-2 text-[11px]">
+                <div class="flex items-center gap-1.5 text-amber-900 font-bold">
+                    <span class="px-2 py-0.5 rounded-full bg-amber-500 text-white font-black uppercase text-[9px]">Auditor</span>
+                    <span id="auditorBannerText">Padr&oacute;n completo (710 promotores).</span>
                 </div>
-                <span class="text-amber-700 font-semibold">Tu sesión personal de auditor no se sobreescribe al revisar otros IDs.</span>
+                <span class="hidden sm:inline text-amber-700 font-semibold">Tu sesi&oacute;n de auditor no se sobreescribe al revisar otros IDs.</span>
             </div>
 
             <!-- Buscador (solo Auditor) y Chip de Promotor -->
-            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3 pb-3 border-b border-gray-100">
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-2 pb-2.5 border-b border-gray-100">
                 <div id="auditorSearchContainer" class="hidden flex-1 relative">
                     <div class="relative">
-                        <i class="fas fa-search absolute left-3.5 top-3 text-oppogreen text-sm"></i>
-                        <input type="text" id="promoterSearchInput" oninput="handlePromoterSearch()" placeholder="Buscar por ID (ej. MR918750), nombre o tienda..." class="w-full pl-9 pr-8 py-2 rounded-xl border border-gray-200 focus:border-oppogreen focus:ring-2 focus:ring-oppogreen/20 outline-none font-semibold text-xs sm:text-sm">
-                        <button onclick="clearPromoterSearch()" class="absolute right-2.5 top-2.5 text-gray-400 hover:text-gray-600 px-1">
+                        <i class="fas fa-search absolute left-3 top-2.5 text-oppogreen text-xs sm:text-sm"></i>
+                        <input type="text" id="promoterSearchInput" oninput="handlePromoterSearch()" placeholder="Buscar ID, nombre o tienda..." class="w-full pl-8 pr-7 py-1.5 sm:py-2 rounded-xl border border-gray-200 focus:border-oppogreen focus:ring-2 focus:ring-oppogreen/20 outline-none font-semibold text-xs sm:text-sm">
+                        <button onclick="clearPromoterSearch()" class="absolute right-2 top-2 text-gray-400 hover:text-gray-600 px-1">
                             <i class="fas fa-times text-xs"></i>
                         </button>
                     </div>
                     <div id="promoterSearchResults" class="hidden absolute left-0 right-0 mt-1 bg-white border border-gray-200 rounded-2xl shadow-2xl max-h-60 overflow-y-auto divide-y divide-gray-100 z-40"></div>
                 </div>
-                <div id="eliteIdentityNote" class="text-xs text-gray-500 font-semibold flex items-center gap-2">
+                <div id="eliteIdentityNote" class="text-[11px] sm:text-xs text-gray-500 font-semibold flex items-center gap-1.5">
                     <i class="fas fa-lock text-oppogreen"></i>
-                    <span>Vista personal protegida: solo se muestran tus comisiones y metas asignadas.</span>
+                    <span>Vista personal protegida.</span>
                 </div>
-                <div class="flex items-center gap-2 shrink-0">
-                    <span id="selectedPromoterBadge" class="text-[11px] font-black uppercase px-3 py-1 rounded-full bg-emerald-100 text-emerald-800">
+                <div class="flex items-center justify-between sm:justify-end gap-2 shrink-0">
+                    <span id="selectedPromoterBadge" class="text-[10px] sm:text-[11px] font-black uppercase px-2.5 py-1 rounded-xl bg-emerald-100 text-emerald-800 truncate max-w-[230px] sm:max-w-none">
                         Cargando promotor...
                     </span>
-                    <button id="editTargetsBtn" onclick="openPromoterTargetsModal()" class="hidden text-xs font-bold px-3 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition" title="Ver o ajustar metas en auditoría">
+                    <button id="editTargetsBtn" onclick="openPromoterTargetsModal()" class="hidden text-[11px] sm:text-xs font-bold px-2.5 py-1.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition shrink-0" title="Ver o ajustar metas en auditoría">
                         <i class="fas fa-sliders-h text-oppogreen"></i> Metas
                     </button>
                 </div>
             </div>
 
-            <!-- Fila Ejecutiva: Ventas Totales, Ventas Activadas y Barras de Cuota (SIN ALERTAS AMARILLAS) -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
-                <!-- Tarjeta 1: Ventas Totales y Ventas Activadas al Corte -->
-                <div class="md:col-span-5 bg-gradient-to-br from-gray-900 to-slate-900 text-white rounded-2xl p-4 sm:p-5 shadow-lg border border-emerald-500/30 space-y-3">
+            <!-- Fila Ejecutiva Compacta -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
+                <!-- Tarjeta 1: Ventas Totales, Ventas Activadas y Liquidación -->
+                <div class="md:col-span-5 bg-gradient-to-br from-gray-900 to-slate-900 text-white rounded-2xl p-3.5 sm:p-4 shadow-lg border border-emerald-500/30 space-y-2.5">
                     <div class="flex items-center justify-between">
                         <span class="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">Ventas al Corte</span>
                         <span id="scorecardTierPill" class="text-[10px] font-black px-2 py-0.5 rounded-md bg-white/10 text-emerald-300">Escalón: 0 – 30 uds</span>
                     </div>
 
-                    <div class="grid grid-cols-2 gap-3 pt-1">
-                        <!-- Ventas Totales -->
-                        <div class="bg-white/5 rounded-xl p-3 border border-white/10">
-                            <div class="text-[10px] font-bold text-gray-300 uppercase tracking-wider">Ventas Totales</div>
-                            <div id="metricVentasTotales" class="text-2xl sm:text-3xl font-black text-white mt-0.5">6 <span class="text-xs font-normal text-gray-400">uds</span></div>
-                            <div class="text-[10px] text-gray-400 mt-0.5">Reportadas en Mariana</div>
+                    <div class="grid grid-cols-2 gap-2.5">
+                        <div class="bg-white/5 rounded-xl p-2.5 border border-white/10">
+                            <div class="text-[9px] sm:text-[10px] font-bold text-gray-300 uppercase tracking-wider">Totales</div>
+                            <div id="metricVentasTotales" class="text-xl sm:text-2xl font-black text-white mt-0.5">6 <span class="text-[11px] font-normal text-gray-400">uds</span></div>
                         </div>
 
-                        <!-- Ventas Activadas -->
-                        <div class="bg-emerald-500/20 rounded-xl p-3 border border-emerald-400/50">
-                            <div class="text-[10px] font-black text-emerald-300 uppercase tracking-wider">Ventas Activadas</div>
-                            <div id="metricVentasActivadas" class="text-2xl sm:text-3xl font-black text-emerald-300 mt-0.5">5 <span class="text-xs font-normal text-emerald-200">uds</span></div>
-                            <div class="text-[10px] text-emerald-200 mt-0.5">Válidas para comisión (&plusmn;10d)</div>
+                        <div class="bg-emerald-500/20 rounded-xl p-2.5 border border-emerald-400/50">
+                            <div class="text-[9px] sm:text-[10px] font-black text-emerald-300 uppercase tracking-wider">Activadas (&plusmn;10d)</div>
+                            <div id="metricVentasActivadas" class="text-xl sm:text-2xl font-black text-emerald-300 mt-0.5">5 <span class="text-[11px] font-normal text-emerald-200">uds</span></div>
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-between text-xs text-gray-300 pt-1 border-t border-white/10">
-                        <span>Liquidaci&oacute;n al corte: <strong id="scorecardEarnedMoney" class="text-emerald-300 font-black">$400 MXN</strong></span>
+                    <div class="flex items-center justify-between text-[11px] sm:text-xs text-gray-300 pt-1.5 border-t border-white/10">
+                        <span>Liquidaci&oacute;n: <strong id="scorecardEarnedMoney" class="text-emerald-300 font-black">$400 MXN</strong></span>
                         <span id="scorecardAvgPerUnit" class="text-gray-400">$80.00 / ud</span>
                     </div>
                 </div>
 
-                <!-- Tarjetas 2 y 3: Barras de Avance de Cuotas -->
-                <div class="md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                <!-- Tarjetas 2 y 3: Barras de Cuotas LADO A LADO EN MÓVIL -->
+                <div class="md:col-span-7 grid grid-cols-2 gap-2.5 sm:gap-3.5">
                     <!-- Barra Cuota General -->
-                    <div class="bg-gray-50 rounded-2xl p-4 border border-gray-200/80">
-                        <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                            <span class="text-gray-700"><i class="fas fa-bullseye text-oppogreen mr-1"></i> Cuota General</span>
-                            <span id="scorecardGralText" class="text-oppogreen font-black">5 / 61 uds (8%)</span>
+                    <div class="bg-gray-50 rounded-2xl p-3 sm:p-4 border border-gray-200/80 flex flex-col justify-between">
+                        <div>
+                            <div class="flex flex-wrap justify-between items-center gap-1 text-[11px] sm:text-xs font-bold mb-1">
+                                <span class="text-gray-700 truncate"><i class="fas fa-bullseye text-oppogreen mr-1"></i>Cuota Gral</span>
+                                <span id="scorecardGralText" class="text-oppogreen font-black">5 / 61 (8%)</span>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
+                                <div id="scorecardGralBar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-300" style="width: 8%"></div>
+                            </div>
                         </div>
-                        <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                            <div id="scorecardGralBar" class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-300" style="width: 8%"></div>
-                        </div>
-                        <div class="flex justify-between items-center text-[11px] text-gray-500 mt-1.5">
-                            <span id="scorecardGralMissing">Faltan 56 uds para 100%</span>
+                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center text-[10px] sm:text-[11px] text-gray-500 mt-1.5 gap-0.5">
+                            <span id="scorecardGralMissing" class="truncate">Faltan 56 uds</span>
                             <span class="font-bold text-amber-600">Bono: $2,000</span>
                         </div>
                     </div>
 
                     <!-- Barra Meta Foco -->
-                    <div class="bg-gray-50 rounded-2xl p-4 border border-gray-200/80">
-                        <div class="flex justify-between items-center text-xs font-bold mb-1.5">
-                            <span class="text-gray-700"><i class="fas fa-star text-amber-500 mr-1"></i> Meta Foco (R16 + A7P)</span>
-                            <span id="scorecardFocusText" class="text-amber-700 font-black">1 / 11 uds (9%)</span>
+                    <div class="bg-gray-50 rounded-2xl p-3 sm:p-4 border border-gray-200/80 flex flex-col justify-between">
+                        <div>
+                            <div class="flex flex-wrap justify-between items-center gap-1 text-[11px] sm:text-xs font-bold mb-1">
+                                <span class="text-gray-700 truncate"><i class="fas fa-star text-amber-500 mr-1"></i>Meta Foco</span>
+                                <span id="scorecardFocusText" class="text-amber-700 font-black">1 / 11 (9%)</span>
+                            </div>
+                            <div class="w-full h-2.5 bg-gray-200 rounded-full overflow-hidden">
+                                <div id="scorecardFocusBar" class="h-full bg-gradient-to-r from-amber-400 to-yellow-400 rounded-full transition-all duration-300" style="width: 9%"></div>
+                            </div>
                         </div>
-                        <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-                            <div id="scorecardFocusBar" class="h-full bg-gradient-to-r from-amber-400 to-yellow-400 rounded-full transition-all duration-300" style="width: 9%"></div>
-                        </div>
-                        <div class="flex justify-between items-center text-[11px] text-gray-500 mt-1.5">
-                            <span id="scorecardFocusMissing">Faltan 10 uds para tarifa alta</span>
-                            <span id="scorecardFocusStatus" class="font-bold text-gray-600">Tarifa Base</span>
+                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center text-[10px] sm:text-[11px] text-gray-500 mt-1.5 gap-0.5">
+                            <span id="scorecardFocusMissing" class="truncate">Faltan 10 uds</span>
+                            <span id="scorecardFocusStatus" class="font-bold text-gray-600 truncate">Tarifa Base</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 2. SISTEMA DE 3 PESTAÑAS (ORDEN SOLICITADO: 1. SIMULADOR, 2. PLAN DE ACCIÓN, 3. TABULADOR Y REGLAS) -->
-        <nav class="flex items-center gap-2 p-1.5 bg-gray-200/80 dark:bg-slate-800 rounded-2xl overflow-x-auto">
-            <button id="tabBtn_simulador" onclick="showTab('simulador')" class="tab-btn active flex-1 py-3 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 whitespace-nowrap">
-                <i class="fas fa-calculator"></i> <span>1. Simulador de Dinero</span>
-                <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-white/20">Interactivo</span>
+        <!-- 2. SISTEMA DE 3 PESTAÑAS FIJAS (SIN CORTES HORIZONTALES EN MÓVIL) -->
+        <nav class="grid grid-cols-3 gap-1.5 p-1.5 bg-gray-200/90 dark:bg-slate-800 rounded-2xl sticky top-2 z-30 backdrop-blur-md shadow-sm">
+            <button id="tabBtn_simulador" onclick="showTab('simulador')" class="tab-btn active py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                <i class="fas fa-calculator shrink-0"></i> <span>1. Simulador<span class="hidden sm:inline"> de Dinero</span></span>
             </button>
-            <button id="tabBtn_plan" onclick="showTab('plan')" class="tab-btn inactive flex-1 py-3 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 whitespace-nowrap">
-                <i class="fas fa-route"></i> <span>2. Plan de Acción</span>
-                <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">Hoy y Mañana</span>
+            <button id="tabBtn_plan" onclick="showTab('plan')" class="tab-btn inactive py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                <i class="fas fa-route shrink-0"></i> <span>2. Plan<span class="hidden sm:inline"> de Acción</span></span>
             </button>
-            <button id="tabBtn_reglas" onclick="showTab('reglas')" class="tab-btn inactive flex-1 py-3 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 whitespace-nowrap">
-                <i class="fas fa-table"></i> <span>3. Tabulador y Reglas</span>
-                <span class="text-[10px] font-extrabold px-1.5 py-0.5 rounded bg-gray-200 text-gray-700">Normativa</span>
+            <button id="tabBtn_reglas" onclick="showTab('reglas')" class="tab-btn inactive py-2.5 px-2 sm:px-4 rounded-xl font-black text-[11px] sm:text-sm transition flex items-center justify-center gap-1.5">
+                <i class="fas fa-table shrink-0"></i> <span>3. Reglas<span class="hidden sm:inline"> y Tabulador</span></span>
             </button>
         </nav>
 
         <!-- ========================================================================================= -->
-        <!-- PESTAÑA 1: SIMULADOR DE DINERO (EN PÁGINA 1 POR DEFECTO, BASADO EN VENTAS ACTIVADAS AL CORTE) -->
+        <!-- PESTAÑA 1: SIMULADOR DE DINERO (DISEÑO COMPACTO SIN SCROLL INFINITO EN MÓVIL) -->
         <!-- ========================================================================================= -->
-        <section id="tabContent_simulador" class="space-y-6">
+        <section id="tabContent_simulador" class="space-y-3 sm:space-y-5">
+
+            <!-- MINI BARRA EN VIVO SOLO MÓVIL (SIEMPRE VISIBLE SIN BAJAR AL FONDO) -->
+            <div class="lg:hidden sticky top-[62px] z-20 bg-gradient-to-r from-gray-900 via-slate-900 to-emerald-950 text-white rounded-2xl p-3 shadow-lg border border-emerald-500/40 flex items-center justify-between gap-2">
+                <div class="min-w-0">
+                    <div class="text-[9px] font-extrabold uppercase tracking-wider text-emerald-400">Simulaci&oacute;n en Vivo</div>
+                    <div class="flex items-baseline gap-2">
+                        <span id="simStickyTotal" class="text-xl font-black text-white">$400 <span class="text-[11px] text-emerald-300">MXN</span></span>
+                        <span id="simStickyUnits" class="text-[11px] font-bold text-gray-300">5 uds</span>
+                    </div>
+                    <div class="text-[10px] text-gray-400 truncate">
+                        Foco: <strong id="simStickyFoco" class="text-emerald-300">$300</strong> &bull;
+                        Vol: <strong id="simStickyVol" class="text-white">$100</strong> &bull;
+                        Bono: <strong id="simStickyBonus" class="text-amber-300">$0</strong>
+                    </div>
+                </div>
+                <a href="#simLiquidacionCard" class="px-2.5 py-1.5 rounded-xl bg-white/10 hover:bg-white/20 text-[11px] font-bold text-emerald-300 shrink-0">
+                    Desglose &darr;
+                </a>
+            </div>
 
             <!-- Barra de Acciones del Simulador -->
-            <div class="bg-white rounded-3xl p-4 sm:p-5 shadow-xl border border-gray-100 flex flex-wrap items-center justify-between gap-3">
-                <div>
-                    <h3 class="text-base sm:text-lg font-black text-gray-800"><i class="fas fa-sliders-h text-oppogreen mr-1.5"></i> Simulador de Comisiones (Ventas Activadas al Corte)</h3>
-                    <p class="text-xs text-gray-500">Calcula tu liquidaci&oacute;n exacta en este momento seg&uacute;n tus unidades activadas, o simula agregar m&aacute;s ventas.</p>
+            <div class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-xl border border-gray-100 space-y-2.5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div>
+                        <h3 class="text-sm sm:text-lg font-black text-gray-800"><i class="fas fa-sliders-h text-oppogreen mr-1.5"></i> Simulador de Comisiones</h3>
+                        <p class="hidden sm:block text-xs text-gray-500">Calcula tu liquidaci&oacute;n exacta en este momento seg&uacute;n tus unidades activadas, o simula agregar m&aacute;s ventas.</p>
+                    </div>
+                    <div class="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-1.5 sm:gap-2">
+                        <button onclick="loadRealCutoffSales()" class="text-[11px] sm:text-xs font-black px-2.5 sm:px-3.5 py-2 rounded-xl bg-oppogreen hover:bg-emerald-600 text-white shadow-sm transition flex items-center justify-center gap-1.5">
+                            <i class="fas fa-undo"></i> <span>Al Corte</span>
+                        </button>
+                        <button onclick="fillTarget100Scenario()" class="text-[11px] sm:text-xs font-black px-2.5 sm:px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition flex items-center justify-center gap-1.5">
+                            <i class="fas fa-magic"></i> <span>Simular 100%</span>
+                        </button>
+                        <button onclick="projectCurrentDevicePacing()" class="text-[11px] sm:text-xs font-black px-2.5 sm:px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition flex items-center justify-center gap-1.5" title="Proyecta a fin de mes multiplicando el ritmo actual de cada modelo">
+                            <i class="fas fa-chart-line"></i> <span>Proyectar Mes</span>
+                        </button>
+                        <button onclick="resetToSimulationZero()" class="text-[11px] sm:text-xs font-bold px-2.5 sm:px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition flex items-center justify-center gap-1">
+                            <i class="fas fa-eraser"></i> <span>Limpiar (0)</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="flex flex-wrap items-center gap-2">
-                    <button onclick="loadRealCutoffSales()" class="text-xs font-black px-3.5 py-2 rounded-xl bg-oppogreen hover:bg-emerald-600 text-white shadow-sm transition flex items-center gap-1.5">
-                        <i class="fas fa-undo"></i> Ventas Activadas al Corte
-                    </button>
-                    <button onclick="fillTarget100Scenario()" class="text-xs font-black px-3.5 py-2 rounded-xl bg-amber-500 hover:bg-amber-600 text-white shadow-sm transition flex items-center gap-1.5">
-                        <i class="fas fa-magic"></i> Simular 100% Cuota
-                    </button>
-                    <button onclick="projectCurrentDevicePacing()" class="text-xs font-black px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition flex items-center gap-1.5" title="Proyecta a fin de mes multiplicando el ritmo actual de cada modelo">
-                        <i class="fas fa-chart-line"></i> Proyectar Ritmo por Modelo
-                    </button>
-                    <button onclick="resetToSimulationZero()" class="text-xs font-bold px-3 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-700 transition">
-                        <i class="fas fa-eraser"></i> Limpiar (0)
-                    </button>
+
+                <!-- Filtro rápido de categoría para móvil (evita deslizarse entre 8 filas) -->
+                <div class="grid grid-cols-3 gap-1.5 pt-1 border-t border-gray-100">
+                    <button id="simFilter_all" onclick="filterSimBlock('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todos (8)</button>
+                    <button id="simFilter_foco" onclick="filterSimBlock('foco')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Modelos Foco (3)</button>
+                    <button id="simFilter_vol" onclick="filterSimBlock('vol')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Volumen (5)</button>
                 </div>
             </div>
 
             <!-- Grid: Captura de Modelos Foco y Series (Izquierda) + Tarjeta de Liquidación (Derecha) -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 items-start">
                 <!-- Columna Izquierda: Captura de Modelos Foco y Series (7 Cols) -->
-                <div class="lg:col-span-7 space-y-4">
+                <div class="lg:col-span-7 space-y-3 sm:space-y-4">
 
                     <!-- Bloque A: Modelos Foco -->
-                    <div class="bg-white rounded-3xl p-5 shadow-lg border border-gray-100 space-y-3">
-                        <div class="flex items-center justify-between border-b border-gray-100 pb-2.5">
-                            <span class="text-xs font-black uppercase text-oppodarkgreen dark:text-emerald-300">
-                                <i class="fas fa-star text-amber-500 mr-1"></i> Modelos Foco (Target Combinado R16 + A7P)
+                    <div id="simBlockFoco" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2">
+                        <div class="flex items-center justify-between border-b border-gray-100 pb-2 gap-2">
+                            <span class="text-[11px] sm:text-xs font-black uppercase text-oppodarkgreen dark:text-emerald-300">
+                                <i class="fas fa-star text-amber-500 mr-1"></i> Modelos Foco (R16 + A7P)
                             </span>
-                            <span id="simFocusBadge" class="text-[11px] font-black px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800">
-                                Tarifa Base (<100%)
+                            <span id="simFocusBadge" class="text-[10px] sm:text-[11px] font-black px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 shrink-0">
+                                Tarifa Base (&lt;100%)
                             </span>
                         </div>
 
                         <!-- Reno 16 5G -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">RENO 16 5G</div>
-                                <div class="text-[11px] text-gray-500">&lt;100%: <strong>$400</strong> &bull; &ge;100%: <strong class="text-oppogreen">$550</strong></div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">RENO 16 5G</div>
+                                <div class="text-[10px] sm:text-[11px] text-gray-500">&lt;100%: <strong>$400</strong> &bull; &ge;100%: <strong class="text-oppogreen">$550</strong></div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_RENO_16_5G', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_RENO_16_5G" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_RENO_16_5G', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_RENO_16_5G', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_RENO_16_5G" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_RENO_16_5G', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_RENO_16_5G" class="w-20 text-right font-black text-sm text-gray-800">$0</div>
+                            <div id="sub_RENO_16_5G" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
 
                         <!-- Reno 16F -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">RENO 16F</div>
-                                <div class="text-[11px] text-gray-500">&lt;100%: <strong>$300</strong> &bull; &ge;100%: <strong class="text-oppogreen">$480</strong></div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">RENO 16F</div>
+                                <div class="text-[10px] sm:text-[11px] text-gray-500">&lt;100%: <strong>$300</strong> &bull; &ge;100%: <strong class="text-oppogreen">$480</strong></div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_RENO_16F', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_RENO_16F" value="1" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_RENO_16F', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_RENO_16F', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_RENO_16F" value="1" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_RENO_16F', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_RENO_16F" class="w-20 text-right font-black text-sm text-gray-800">$300</div>
+                            <div id="sub_RENO_16F" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$300</div>
                         </div>
 
                         <!-- A7 Pro 5G -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">A7 PRO 5G</div>
-                                <div class="text-[11px] text-gray-500">&lt;100%: <strong>$250</strong> &bull; &ge;100%: <strong class="text-oppogreen">$320</strong></div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">A7 PRO 5G</div>
+                                <div class="text-[10px] sm:text-[11px] text-gray-500">&lt;100%: <strong>$250</strong> &bull; &ge;100%: <strong class="text-oppogreen">$320</strong></div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_A7_PRO', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_A7_PRO" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_A7_PRO', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_A7_PRO', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_A7_PRO" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_A7_PRO', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_A7_PRO" class="w-20 text-right font-black text-sm text-gray-800">$0</div>
+                            <div id="sub_A7_PRO" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
                     </div>
 
                     <!-- Bloque B: Series por Volumen Total -->
-                    <div class="bg-white rounded-3xl p-5 shadow-lg border border-gray-100 space-y-3">
-                        <div class="flex items-center justify-between border-b border-gray-100 pb-2.5">
-                            <span class="text-xs font-black uppercase text-gray-700">
-                                <i class="fas fa-layer-group text-oppogreen mr-1"></i> Series por Volumen Mensual Total
+                    <div id="simBlockVolumen" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2">
+                        <div class="flex items-center justify-between border-b border-gray-100 pb-2 gap-2">
+                            <span class="text-[11px] sm:text-xs font-black uppercase text-gray-700">
+                                <i class="fas fa-layer-group text-oppogreen mr-1"></i> Series por Volumen
                             </span>
-                            <span id="simVolumeBadge" class="text-[11px] font-black px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                            <span id="simVolumeBadge" class="text-[10px] sm:text-[11px] font-black px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 shrink-0">
                                 Escalón: 0 – 30 uds
                             </span>
                         </div>
 
                         <!-- FIND -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">FIND Series</div>
-                                <div class="text-[10px] text-gray-500">Find X9, Find X8, Find N ($300 / $500 / $800)</div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">FIND Series</div>
+                                <div class="text-[10px] text-gray-500 truncate">Find X9, X8, N ($300/$500/$800)</div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_FIND', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_FIND" value="0" min="0" max="200" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_FIND', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_FIND', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_FIND" value="0" min="0" max="200" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_FIND', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_FIND" class="w-20 text-right font-black text-sm text-gray-800">$0</div>
+                            <div id="sub_FIND" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
 
                         <!-- RENO others -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">RENO others</div>
-                                <div class="text-[10px] text-gray-500">Reno 14, 13, 12, 11, 10, 7 ($100 / $200 / $300)</div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">RENO Others</div>
+                                <div class="text-[10px] text-gray-500 truncate">Reno 14, 13, 12, 11 ($100/$200/$300)</div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_RENO_OTHERS', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_RENO_OTHERS" value="0" min="0" max="200" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_RENO_OTHERS', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_RENO_OTHERS', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_RENO_OTHERS" value="0" min="0" max="200" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_RENO_OTHERS', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_RENO_OTHERS" class="w-20 text-right font-black text-sm text-gray-800">$0</div>
+                            <div id="sub_RENO_OTHERS" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
 
                         <!-- A HIGH -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">A HIGH</div>
-                                <div class="text-[10px] text-gray-500">A6, A6K, A6 Pro 5G, A5 Pro 5G, A80, A79 ($30 / $100 / $140)</div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">A HIGH</div>
+                                <div class="text-[10px] text-gray-500 truncate">A6, A6K, A6/A5 Pro 5G ($30/$100/$140)</div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_A_HIGH', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_A_HIGH" value="3" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_A_HIGH', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_A_HIGH', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_A_HIGH" value="3" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_A_HIGH', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_A_HIGH" class="w-20 text-right font-black text-sm text-gray-800">$90</div>
+                            <div id="sub_A_HIGH" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$90</div>
                         </div>
 
                         <!-- A MIDDLE -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">A MIDDLE</div>
-                                <div class="text-[10px] text-gray-500">A6T, <strong>A6t Pro</strong>, A5 Pro 4G, A60, A58 ($10 / $50 / $70)</div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">A MIDDLE</div>
+                                <div class="text-[10px] text-gray-500 truncate">A6T, <strong>A6t Pro</strong>, A5 Pro 4G ($10/$50/$70)</div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_A_MIDDLE', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_A_MIDDLE" value="1" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_A_MIDDLE', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_A_MIDDLE', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_A_MIDDLE" value="1" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_A_MIDDLE', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_A_MIDDLE" class="w-20 text-right font-black text-sm text-gray-800">$10</div>
+                            <div id="sub_A_MIDDLE" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$10</div>
                         </div>
 
                         <!-- A LOW -->
-                        <div class="flex items-center justify-between gap-3 p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
-                            <div class="flex-1">
-                                <div class="font-black text-sm text-gray-800">A LOW</div>
-                                <div class="text-[10px] text-gray-500"><strong>A6C</strong>, A6X, A5, A40, A38, A17 ($5 / $10 / $20)</div>
+                        <div class="flex items-center justify-between gap-2 p-2 sm:p-2.5 rounded-xl bg-gray-50 border border-gray-200/70">
+                            <div class="min-w-0 flex-1">
+                                <div class="font-black text-xs sm:text-sm text-gray-800 truncate">A LOW</div>
+                                <div class="text-[10px] text-gray-500 truncate"><strong>A6C</strong>, A6X, A5, A40 ($5/$10/$20)</div>
                             </div>
-                            <div class="flex items-center gap-1.5">
-                                <button onclick="stepUnit('qty_A_LOW', -1)" class="w-8 h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
-                                <input type="number" id="qty_A_LOW" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-14 text-center font-black text-base py-1 rounded-lg border border-gray-300 bg-white">
-                                <button onclick="stepUnit('qty_A_LOW', 1)" class="w-8 h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
+                            <div class="flex items-center gap-1 shrink-0">
+                                <button onclick="stepUnit('qty_A_LOW', -1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                                <input type="number" id="qty_A_LOW" value="0" min="0" max="300" oninput="recalculateCommissions()" class="num-input w-11 sm:w-14 text-center font-black text-sm sm:text-base py-1 rounded-lg border border-gray-300 bg-white">
+                                <button onclick="stepUnit('qty_A_LOW', 1)" class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-emerald-100 border border-emerald-200 font-black text-emerald-800 hover:bg-emerald-200">+</button>
                             </div>
-                            <div id="sub_A_LOW" class="w-20 text-right font-black text-sm text-gray-800">$0</div>
+                            <div id="sub_A_LOW" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Columna Derecha: Tarjeta Ejecutiva de Liquidación en este Momento (5 Cols) -->
-                <div class="lg:col-span-5 space-y-4">
-                    <div class="bg-gradient-to-br from-gray-900 via-slate-900 to-emerald-950 text-white rounded-3xl p-6 shadow-2xl border border-emerald-500/30 space-y-5">
+                <!-- Columna Derecha: Tarjeta Ejecutiva de Liquidación (5 Cols) -->
+                <div id="simLiquidacionCard" class="lg:col-span-5 space-y-4">
+                    <div class="bg-gradient-to-br from-gray-900 via-slate-900 to-emerald-950 text-white rounded-3xl p-5 sm:p-6 shadow-2xl border border-emerald-500/30 space-y-4">
                         <div>
                             <span class="text-[10px] font-extrabold uppercase tracking-widest text-emerald-400">Ventas Activadas al Corte</span>
-                            <div id="simGrandTotalMoney" class="text-4xl font-black text-white mt-1">
+                            <div id="simGrandTotalMoney" class="text-3xl sm:text-4xl font-black text-white mt-1">
                                 $400 <span class="text-base font-bold text-emerald-300">MXN</span>
                             </div>
                             <p id="simAvgMoneyPerUnit" class="text-xs text-gray-300 mt-1">
@@ -438,7 +465,7 @@
                         </div>
 
                         <!-- 3 Bolsas de Ganancia -->
-                        <div class="space-y-2.5">
+                        <div class="space-y-2">
                             <div class="bg-white/10 rounded-2xl p-3 flex justify-between items-center">
                                 <div>
                                     <div class="text-[11px] font-bold text-gray-200">1. Modelos Foco (R16 + A7P)</div>
@@ -481,227 +508,207 @@
         </section>
 
         <!-- ========================================================================================= -->
-        <!-- PESTAÑA 2: PLAN DE ACCIÓN (DESVINCULADO DEL SIMULADOR - BASADO 100% EN DATOS REALES) -->
+        <!-- PESTAÑA 2: PLAN DE ACCIÓN COMPACTO CON SUB-PESTAÑAS (SIN SCROLL INFINITO) -->
         <!-- ========================================================================================= -->
-        <section id="tabContent_plan" class="hidden space-y-6">
+        <section id="tabContent_plan" class="hidden space-y-3 sm:space-y-5">
 
-            <!-- Tarjeta Principal: Plan de Acción Integral y Diagnóstico -->
-            <div class="bg-white rounded-3xl p-6 sm:p-7 shadow-xl border border-gray-100 space-y-6">
-                <!-- Encabezado con Selector de Día de Corte -->
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-gray-100">
+            <!-- Tarjeta Resumen + Selector de Día + 4 KPIs -->
+            <div class="bg-white rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-xl border border-gray-100 space-y-3.5">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-3 border-b border-gray-100">
                     <div>
-                        <span class="text-[11px] font-black uppercase tracking-wider text-oppogreen">
-                            <i class="fas fa-route mr-1"></i> Estrategia de Crecimiento &bull; Basada en tu Avance Real
+                        <span class="text-[10px] font-black uppercase tracking-wider text-oppogreen">
+                            <i class="fas fa-route mr-1"></i> Estrategia en Vivo &bull; Basada en tu Avance Real
                         </span>
-                        <h2 class="text-xl sm:text-2xl font-black text-gray-800">
-                            Plan de Acci&oacute;n: Diagn&oacute;stico y Estrategia de 2 D&iacute;as
+                        <h2 class="text-lg sm:text-2xl font-black text-gray-800 leading-tight">
+                            Plan de Acci&oacute;n y Estrategia
                         </h2>
                     </div>
-                    <div class="bg-gray-50 rounded-2xl px-3 py-1.5 border border-gray-200 flex items-center gap-2 shrink-0">
-                        <span class="text-[11px] font-bold text-gray-500">D&iacute;a Evaluado:</span>
+                    <div class="bg-gray-50 rounded-xl px-3 py-1.5 border border-gray-200 flex items-center justify-between sm:justify-start gap-2 shrink-0">
+                        <span class="text-[11px] font-bold text-gray-500">D&iacute;a:</span>
                         <div class="flex items-center gap-1">
                             <button onclick="stepCutoffDay(-1)" class="w-6 h-6 rounded bg-white border border-gray-200 font-black text-xs text-gray-700 hover:bg-gray-100">-</button>
                             <input type="number" id="cutoffDayInput" value="9" min="1" max="30" oninput="updatePlanDeAccionFromRealData()" class="num-input w-10 text-center font-black text-xs py-0.5 rounded border border-gray-300 bg-white">
                             <button onclick="stepCutoffDay(1)" class="w-6 h-6 rounded bg-emerald-100 border border-emerald-200 font-black text-xs text-emerald-800 hover:bg-emerald-200">+</button>
                         </div>
-                        <span id="planRemainingDaysTag" class="text-[10px] font-extrabold text-oppogreen">Restan 21 d&iacute;as de noviembre</span>
+                        <span id="planRemainingDaysTag" class="text-[10px] font-extrabold text-oppogreen">Restan 21 d&iacute;as</span>
                     </div>
                 </div>
 
-                <!-- 1. DIAGNÓSTICO DETALLADO DE TU SITUACIÓN ACTUAL -->
-                <div class="p-5 rounded-2xl bg-gray-50 border border-gray-200/90 space-y-3">
-                    <div class="flex items-center gap-2">
-                        <div class="w-7 h-7 rounded-lg bg-emerald-100 text-oppogreen flex items-center justify-center font-black text-xs">
-                            <i class="fas fa-info-circle"></i>
-                        </div>
-                        <h3 class="text-xs sm:text-sm font-black uppercase tracking-wider text-gray-800">1. Tu Situaci&oacute;n Actual al Corte</h3>
+                <!-- 4 KPIs Compactos 2x2 -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+                    <div class="bg-gray-50 p-3 rounded-2xl border border-gray-200/80">
+                        <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-gray-400">Escal&oacute;n Actual</span>
+                        <div id="planDiagTier" class="text-sm sm:text-base font-black text-amber-700 mt-0.5">0 &ndash; 30 uds</div>
+                        <span class="text-[10px] text-gray-400 hidden sm:inline">Tarifas iniciales</span>
                     </div>
-                    <p id="planCurrentDiagnosticText" class="text-xs sm:text-sm text-gray-700 leading-relaxed"></p>
-
-                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
-                        <div class="bg-white p-3.5 rounded-2xl border border-gray-200 shadow-xs">
-                            <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Escal&oacute;n Actual</span>
-                            <div id="planDiagTier" class="text-base font-black text-amber-700 mt-0.5">0 &ndash; 30 uds</div>
-                            <span class="text-[10px] text-gray-400">Tarifas iniciales</span>
-                        </div>
-                        <div class="bg-white p-3.5 rounded-2xl border border-gray-200 shadow-xs">
-                            <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Ventas Activadas</span>
-                            <div id="planDiagNetUnits" class="text-base font-black text-gray-800 mt-0.5">5 uds</div>
-                            <span class="text-[10px] text-gray-400">Al d&iacute;a de corte</span>
-                        </div>
-                        <div class="bg-white p-3.5 rounded-2xl border border-gray-200 shadow-xs">
-                            <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Promedio Diario</span>
-                            <div id="planDiagDailyAvg" class="text-base font-black text-gray-800 mt-0.5">0.83 uds/d&iacute;a</div>
-                            <span class="text-[10px] text-gray-400">Ritmo de venta</span>
-                        </div>
-                        <div class="bg-white p-3.5 rounded-2xl border border-gray-200 shadow-xs">
-                            <span class="text-[10px] font-bold uppercase tracking-wider text-gray-400">Cierre Proyectado</span>
-                            <div id="planDiagProjUnits" class="text-base font-black text-oppogreen mt-0.5">25 uds</div>
-                            <span id="planDiagProjMoney" class="text-[10px] font-bold text-gray-500">~$2,000 MXN</span>
-                        </div>
+                    <div class="bg-gray-50 p-3 rounded-2xl border border-gray-200/80">
+                        <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-gray-400">Activadas</span>
+                        <div id="planDiagNetUnits" class="text-sm sm:text-base font-black text-gray-800 mt-0.5">5 uds</div>
+                        <span class="text-[10px] text-gray-400 hidden sm:inline">Al d&iacute;a de corte</span>
                     </div>
-
-                    <!-- Cuadrícula Ejecutiva de Proyección por Modelo a Fin de Mes (Ancho Completo) -->
-                    <div class="pt-4 border-t border-gray-200/80 mt-2 space-y-2.5">
-                        <div class="flex items-center justify-between">
-                            <span class="text-xs font-black uppercase tracking-wider text-gray-700 flex items-center gap-1.5">
-                                <i class="fas fa-cubes text-oppogreen"></i> Proyecci&oacute;n Mensual por Modelo (Manteniendo tu Ritmo Actual):
-                            </span>
-                            <span class="text-[10px] font-extrabold text-gray-500 bg-gray-200/70 px-2 py-0.5 rounded-md">Proyecci&oacute;n a 30 d&iacute;as</span>
-                        </div>
-                        <div id="planDevicePacingGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+                    <div class="bg-gray-50 p-3 rounded-2xl border border-gray-200/80">
+                        <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-gray-400">Promedio Diario</span>
+                        <div id="planDiagDailyAvg" class="text-sm sm:text-base font-black text-gray-800 mt-0.5">0.83 uds/d&iacute;a</div>
+                        <span class="text-[10px] text-gray-400 hidden sm:inline">Ritmo de venta</span>
+                    </div>
+                    <div class="bg-gray-50 p-3 rounded-2xl border border-gray-200/80">
+                        <span class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-gray-400">Cierre Proyectado</span>
+                        <div id="planDiagProjUnits" class="text-sm sm:text-base font-black text-oppogreen mt-0.5">25 uds</div>
+                        <span id="planDiagProjMoney" class="text-[10px] font-bold text-gray-500">~$2,000 MXN</span>
                     </div>
                 </div>
+
+                <!-- Diagnóstico colapsable (evita texto largo bloqueando la pantalla en móvil) -->
+                <details class="rounded-2xl bg-gray-50 border border-gray-200/90">
+                    <summary class="px-3.5 py-2.5 text-xs font-black text-gray-700 cursor-pointer flex items-center justify-between list-none">
+                        <span><i class="fas fa-info-circle text-oppogreen mr-1.5"></i> Ver Diagn&oacute;stico Detallado al Corte</span>
+                        <i class="fas fa-chevron-down text-[11px] text-gray-400"></i>
+                    </summary>
+                    <p id="planCurrentDiagnosticText" class="px-3.5 pb-3.5 text-xs sm:text-sm text-gray-700 leading-relaxed border-t border-gray-200/70 pt-2.5"></p>
+                </details>
+
+                <!-- SUB-PESTAÑAS DEL PLAN (SOLO 1 SUB-PANEL VISIBLE A LA VEZ) -->
+                <div class="grid grid-cols-3 gap-1.5 p-1 bg-gray-100 rounded-2xl">
+                    <button id="planSubBtn_estrategia" onclick="switchPlanSubTab('estrategia')" class="py-2 px-2 rounded-xl text-[11px] sm:text-xs font-black bg-emerald-600 text-white shadow-sm transition">
+                        <i class="fas fa-bolt mr-1"></i> Hoy y Ma&ntilde;ana
+                    </button>
+                    <button id="planSubBtn_modelos" onclick="switchPlanSubTab('modelos')" class="py-2 px-2 rounded-xl text-[11px] sm:text-xs font-bold text-gray-600 hover:bg-white transition">
+                        <i class="fas fa-cubes mr-1"></i> Por Modelo
+                    </button>
+                    <button id="planSubBtn_rutas" onclick="switchPlanSubTab('rutas')" class="py-2 px-2 rounded-xl text-[11px] sm:text-xs font-bold text-gray-600 hover:bg-white transition">
+                        <i class="fas fa-award mr-1"></i> Rutas y Bonos
+                    </button>
                 </div>
 
-                <!-- 2. LA ESTRATEGIA DE 2 DÍAS (HOY Y MAÑANA PARA SALTAR DE ESCALÓN) -->
-                <div class="space-y-4">
-                    <div class="flex items-center gap-2">
-                        <div class="w-7 h-7 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center font-black text-xs">
-                            <i class="fas fa-bolt"></i>
-                        </div>
-                        <div>
-                            <h3 class="text-xs sm:text-sm font-black uppercase tracking-wider text-gray-800">2. Estrategia de 2 D&iacute;as: El Salto de Escal&oacute;n</h3>
-                            <p class="text-xs text-gray-500">C&oacute;mo 6 ventas entre hoy y ma&ntilde;ana cambian completamente tu proyecci&oacute;n y dinero:</p>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- SUB-PANEL A: ESTRATEGIA DE 2 DÍAS -->
+                <div id="planSubPanel_estrategia" class="space-y-3.5">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5">
                         <!-- Paso 1: Tu Meta para Hoy -->
-                        <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-br from-emerald-950 to-slate-900 text-white border border-emerald-400/40 space-y-2">
+                        <div class="rounded-2xl p-4 bg-gradient-to-br from-emerald-950 to-slate-900 text-white border border-emerald-400/40 space-y-2">
                             <div class="flex items-center justify-between">
                                 <span class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-400/20 text-emerald-300">
-                                    Paso 1 &bull; El D&iacute;a de Hoy
+                                    Paso 1 &bull; Hoy
                                 </span>
                                 <span id="planPaso1Badge" class="text-xs font-black text-amber-300">+3 ventas hoy</span>
                             </div>
-                            <h4 id="planPaso1Headline" class="text-base font-black text-white leading-snug">
+                            <h4 id="planPaso1Headline" class="text-sm sm:text-base font-black text-white leading-snug">
                                 Vende 3 equipos hoy para llegar a 8 acumuladas
                             </h4>
                             <p id="planPaso1Desc" class="text-xs text-gray-200 leading-relaxed"></p>
-                            <div id="planPaso1DeviceBreakdown" class="p-3 rounded-xl bg-white/10 border border-white/15 text-xs space-y-1.5 mt-2"></div>
-                            <div class="pt-2 border-t border-white/10 flex items-center justify-between text-xs">
-                                <span class="text-gray-300">Comisi&oacute;n directa ganada hoy:</span>
+                            <div id="planPaso1DeviceBreakdown" class="p-2.5 rounded-xl bg-white/10 border border-white/15 text-xs space-y-1"></div>
+                            <div class="pt-1.5 border-t border-white/10 flex items-center justify-between text-xs">
+                                <span class="text-gray-300">Comisi&oacute;n directa hoy:</span>
                                 <span id="planPaso1DirectMoney" class="font-black text-emerald-300">+$300 a $600 MXN</span>
                             </div>
                         </div>
 
                         <!-- Paso 2: Tu Meta para Mañana -->
-                        <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-br from-slate-900 to-indigo-950 text-white border border-indigo-400/40 space-y-2">
+                        <div class="rounded-2xl p-4 bg-gradient-to-br from-slate-900 to-indigo-950 text-white border border-indigo-400/40 space-y-2">
                             <div class="flex items-center justify-between">
                                 <span class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-400/20 text-indigo-300">
-                                    Paso 2 &bull; El D&iacute;a de Ma&ntilde;ana
+                                    Paso 2 &bull; Ma&ntilde;ana
                                 </span>
                                 <span id="planPaso2Badge" class="text-xs font-black text-indigo-200">+3 ventas ma&ntilde;ana</span>
                             </div>
-                            <h4 id="planPaso2Headline" class="text-base font-black text-white leading-snug">
+                            <h4 id="planPaso2Headline" class="text-sm sm:text-base font-black text-white leading-snug">
                                 Ma&ntilde;ana vende 3 equipos y completa las 11 acumuladas
                             </h4>
                             <p id="planPaso2Desc" class="text-xs text-gray-200 leading-relaxed"></p>
-                            <div id="planPaso2DeviceBreakdown" class="p-3 rounded-xl bg-white/10 border border-white/15 text-xs space-y-1.5 mt-2"></div>
-                            <div class="pt-2 border-t border-white/10 flex items-center justify-between text-xs">
-                                <span class="text-gray-300">Efecto multiplicador proyectado:</span>
+                            <div id="planPaso2DeviceBreakdown" class="p-2.5 rounded-xl bg-white/10 border border-white/15 text-xs space-y-1"></div>
+                            <div class="pt-1.5 border-t border-white/10 flex items-center justify-between text-xs">
+                                <span class="text-gray-300">Efecto multiplicador:</span>
                                 <span id="planPaso2ProjMoney" class="font-black text-amber-300">+$3,200 MXN al cierre</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Explicación Matemática y Salto de Escalón -->
-                    <div id="planExplanationBox" class="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 dark:bg-slate-800/80 border border-indigo-200/80 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2">
-                        <!-- Inyectado dinámicamente -->
-                    </div>
-                </div>
-
-                <!-- 3. MENSAJE EMOCIONAL / MOTIVADOR -->
-                <div class="rounded-2xl p-4 sm:p-5 bg-gradient-to-r from-emerald-50 via-teal-50 to-amber-50 dark:from-slate-800 dark:to-slate-850 border-2 border-emerald-400/60 flex items-start gap-3.5">
-                    <div class="w-10 h-10 rounded-2xl bg-emerald-500 text-white flex items-center justify-center shrink-0 shadow-md text-lg">
-                        <i class="fas fa-fire"></i>
-                    </div>
-                    <div class="space-y-1">
-                        <span class="text-[10px] font-black uppercase tracking-wider text-emerald-800 dark:text-emerald-300">
-                            Mensaje Motivador &bull; La Meta en tus Manos
-                        </span>
-                        <h4 class="text-sm sm:text-base font-black text-gray-800">
-                            &iexcl;T&uacute; puedes lograrlo! Cada venta cuenta
-                        </h4>
-                        <p id="planMotivationalQuote" class="text-xs text-gray-600 leading-relaxed">
-                            No necesitas preocuparte por las 61 ventas de tu cuota de golpe. Proponerte cerrar <strong>3 ventas hoy y 3 ventas ma&ntilde;ana</strong> es un reto alcanzable y concreto que pondr&aacute; <strong>m&aacute;s de $3,200 pesos extra</strong> en tu bolsillo. &iexcl;Sal a la tienda con todo el entusiasmo, el producto y la calidad est&aacute;n de tu lado!
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 4. RUTAS DE CONSISTENCIA DIFERIDA (PARA EL RESTO DEL MES) -->
-                <div id="planDeferredBlock" class="space-y-3 pt-2">
-                    <div class="flex items-center justify-between">
+                    <!-- Mensaje Motivador Compacto -->
+                    <div class="rounded-2xl p-3.5 bg-gradient-to-r from-emerald-50 via-teal-50 to-amber-50 dark:from-slate-800 dark:to-slate-800 border border-emerald-400/50 flex items-start gap-3">
+                        <div class="w-8 h-8 rounded-xl bg-emerald-500 text-white flex items-center justify-center shrink-0 text-sm">
+                            <i class="fas fa-fire"></i>
+                        </div>
                         <div>
-                            <h4 class="text-xs sm:text-sm font-black uppercase tracking-wider text-gray-800">
-                                <i class="fas fa-calendar-alt text-oppogreen mr-1"></i> Rutas de consistencia para el resto del mes
-                            </h4>
-                            <p class="text-xs text-gray-500">Ritmo diario sostenido si deseas alcanzar el 100% de tu cuota general y cobrar tu Bono de $2,000:</p>
+                            <h4 class="text-xs sm:text-sm font-black text-gray-800">&iexcl;T&uacute; puedes lograrlo! Cada venta cuenta</h4>
+                            <p id="planMotivationalQuote" class="text-xs text-gray-600 leading-relaxed mt-0.5">
+                                Proponerte cerrar <strong>3 ventas hoy y 3 ma&ntilde;ana</strong> es un reto concreto para elevar tu comisi&oacute;n.
+                            </p>
                         </div>
-                        <span id="planBacklogBadge" class="text-xs font-black px-2.5 py-0.5 rounded-full bg-red-100 text-red-700">
-                            7 piezas de atraso
+                    </div>
+
+                    <!-- Explicación Matemática Colapsable -->
+                    <details class="rounded-2xl bg-indigo-50/70 dark:bg-slate-800/80 border border-indigo-200/80">
+                        <summary class="px-3.5 py-2.5 text-xs font-black text-indigo-900 dark:text-indigo-200 cursor-pointer flex items-center justify-between list-none">
+                            <span><i class="fas fa-calculator mr-1.5"></i> Ver C&aacute;lculo Matem&aacute;tico del Salto de Escal&oacute;n</span>
+                            <i class="fas fa-chevron-down text-[11px] text-indigo-400"></i>
+                        </summary>
+                        <div id="planExplanationBox" class="p-3.5 pt-2 border-t border-indigo-200/60 text-xs sm:text-sm text-gray-700 leading-relaxed space-y-2"></div>
+                    </details>
+                </div>
+
+                <!-- SUB-PANEL B: PROYECCIÓN MENSUAL POR MODELO (GRID 2 COLUMNAS COMPACTO EN MÓVIL) -->
+                <div id="planSubPanel_modelos" class="hidden space-y-3">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-black uppercase tracking-wider text-gray-700 flex items-center gap-1.5">
+                            <i class="fas fa-cubes text-oppogreen"></i> Proyecci&oacute;n a 30 D&iacute;as por Modelo
                         </span>
+                        <span class="text-[10px] font-extrabold text-gray-500 bg-gray-100 px-2 py-0.5 rounded-md">Ritmo Actual</span>
                     </div>
-
-                    <!-- 4 Tarjetas de Diferimiento -->
-                    <div id="planHorizonsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3"></div>
-                </div>
-            </div>
-
-            <!-- Oportunidades de Dinero en la Mesa -->
-            <div class="bg-white rounded-3xl p-6 shadow-xl border border-gray-100 space-y-4">
-                <div class="flex items-center gap-2">
-                    <div class="w-8 h-8 rounded-xl bg-emerald-100 text-oppogreen flex items-center justify-center font-black">
-                        <i class="fas fa-hand-holding-usd"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-base font-black text-gray-800">Oportunidades de Dinero en la Mesa</h3>
-                        <p class="text-xs text-gray-500">Acciones inmediatas para aumentar tu cheque de comisiones:</p>
-                    </div>
+                    <div id="planDevicePacingGrid" class="grid grid-cols-2 lg:grid-cols-3 gap-2.5 sm:gap-3"></div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
-                    <!-- Tarjeta 1: Meta Foco -->
-                    <div class="p-4 rounded-2xl bg-amber-50/80 dark:bg-amber-950/20 border border-amber-300/70 space-y-1.5">
-                        <div class="flex items-center justify-between">
-                            <span class="text-[10px] font-black uppercase text-amber-800 dark:text-amber-300"><i class="fas fa-star mr-1"></i> Tarifa Foco Acelerada</span>
-                            <span id="maxFocusTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-amber-200 text-amber-900">Tarifa Base</span>
+                <!-- SUB-PANEL C: RUTAS DE CONSISTENCIA Y OPORTUNIDADES DE DINERO -->
+                <div id="planSubPanel_rutas" class="hidden space-y-4">
+                    <div id="planDeferredBlock" class="space-y-2.5">
+                        <div class="flex items-center justify-between gap-2">
+                            <div>
+                                <h4 class="text-xs sm:text-sm font-black uppercase tracking-wider text-gray-800">
+                                    <i class="fas fa-calendar-alt text-oppogreen mr-1"></i> Rutas para 100% Cuota
+                                </h4>
+                                <p class="text-[11px] text-gray-500">Ritmo diario sugerido para cobrar el Bono de $2,000:</p>
+                            </div>
+                            <span id="planBacklogBadge" class="text-[11px] font-black px-2 py-0.5 rounded-full bg-red-100 text-red-700 shrink-0">
+                                7 piezas de atraso
+                            </span>
                         </div>
-                        <div id="maxFocusHeadline" class="text-sm font-black text-gray-800 leading-snug">
-                            Te faltan 10 equipos foco para duplicar tarifa
-                        </div>
-                        <p id="maxFocusBody" class="text-xs text-gray-600 leading-relaxed">
-                            Al cumplir tu Meta Foco (11 uds), tus equipos de Reno 16 y A7 Pro suben de precio autom&aacute;ticamente y ganas m&aacute;s dinero retroactivo.
-                        </p>
+                        <div id="planHorizonsGrid" class="grid grid-cols-2 lg:grid-cols-4 gap-2.5"></div>
                     </div>
 
-                    <!-- Tarjeta 2: Salto de Escalón de Volumen -->
-                    <div class="p-4 rounded-2xl bg-emerald-50/80 dark:bg-emerald-950/20 border border-emerald-300/70 space-y-1.5">
-                        <div class="flex items-center justify-between">
-                            <span class="text-[10px] font-black uppercase text-emerald-800 dark:text-emerald-300"><i class="fas fa-layer-group mr-1"></i> Escal&oacute;n de Volumen</span>
-                            <span id="maxTierTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-emerald-200 text-emerald-900">0 – 30 uds</span>
+                    <div class="pt-3 border-t border-gray-100 space-y-3">
+                        <div class="flex items-center gap-2">
+                            <div class="w-7 h-7 rounded-xl bg-emerald-100 text-oppogreen flex items-center justify-center font-black text-xs">
+                                <i class="fas fa-hand-holding-usd"></i>
+                            </div>
+                            <h3 class="text-sm font-black text-gray-800">Dinero en la Mesa</h3>
                         </div>
-                        <div id="maxTierHeadline" class="text-sm font-black text-gray-800 leading-snug">
-                            A 26 ventas de brincar al Escal&oacute;n 2
-                        </div>
-                        <p id="maxTierBody" class="text-xs text-gray-600 leading-relaxed">
-                            En el Escal&oacute;n 31–49 uds, A High sube de $30 a $100 y A Middle sube de $10 a $50 por equipo.
-                        </p>
-                    </div>
 
-                    <!-- Tarjeta 3: Bono de Cuota General -->
-                    <div class="p-4 rounded-2xl bg-purple-50/80 dark:bg-purple-950/20 border border-purple-300/70 space-y-1.5">
-                        <div class="flex items-center justify-between">
-                            <span class="text-[10px] font-black uppercase text-purple-800 dark:text-purple-300"><i class="fas fa-award mr-1"></i> Bono General</span>
-                            <span id="maxBonusTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-purple-200 text-purple-900">+$2,000 MXN</span>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                            <div class="p-3.5 rounded-2xl bg-amber-50/80 dark:bg-amber-950/20 border border-amber-300/70 space-y-1">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-[10px] font-black uppercase text-amber-800 dark:text-amber-300"><i class="fas fa-star mr-1"></i> Tarifa Foco</span>
+                                    <span id="maxFocusTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-amber-200 text-amber-900">Tarifa Base</span>
+                                </div>
+                                <div id="maxFocusHeadline" class="text-xs sm:text-sm font-black text-gray-800 leading-snug"></div>
+                                <p id="maxFocusBody" class="text-[11px] text-gray-600 leading-relaxed"></p>
+                            </div>
+
+                            <div class="p-3.5 rounded-2xl bg-emerald-50/80 dark:bg-emerald-950/20 border border-emerald-300/70 space-y-1">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-[10px] font-black uppercase text-emerald-800 dark:text-emerald-300"><i class="fas fa-layer-group mr-1"></i> Escal&oacute;n</span>
+                                    <span id="maxTierTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-emerald-200 text-emerald-900">0 – 30 uds</span>
+                                </div>
+                                <div id="maxTierHeadline" class="text-xs sm:text-sm font-black text-gray-800 leading-snug"></div>
+                                <p id="maxTierBody" class="text-[11px] text-gray-600 leading-relaxed"></p>
+                            </div>
+
+                            <div class="p-3.5 rounded-2xl bg-purple-50/80 dark:bg-purple-950/20 border border-purple-300/70 space-y-1">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-[10px] font-black uppercase text-purple-800 dark:text-purple-300"><i class="fas fa-award mr-1"></i> Bono General</span>
+                                    <span id="maxBonusTag" class="text-[10px] font-black px-2 py-0.5 rounded bg-purple-200 text-purple-900">+$2,000 MXN</span>
+                                </div>
+                                <div id="maxBonusHeadline" class="text-xs sm:text-sm font-black text-gray-800 leading-snug"></div>
+                                <p id="maxBonusBody" class="text-[11px] text-gray-600 leading-relaxed"></p>
+                            </div>
                         </div>
-                        <div id="maxBonusHeadline" class="text-sm font-black text-gray-800 leading-snug">
-                            Faltan 56 ventas para ganar tus $2,000
-                        </div>
-                        <p id="maxBonusBody" class="text-xs text-gray-600 leading-relaxed">
-                            Alcanza el 100% de tu Target General (61 uds activadas) para cobrar el bono &iacute;ntegro en tu n&oacute;mina.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -1053,6 +1060,34 @@
             });
         }
 
+        function filterSimBlock(mode) {
+            const focoEl = document.getElementById('simBlockFoco');
+            const volEl = document.getElementById('simBlockVolumen');
+            if (focoEl) focoEl.classList.toggle('hidden', mode === 'vol');
+            if (volEl) volEl.classList.toggle('hidden', mode === 'foco');
+            ['all', 'foco', 'vol'].forEach(m => {
+                const b = document.getElementById('simFilter_' + m);
+                if (!b) return;
+                b.className = (m === mode)
+                    ? 'py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition'
+                    : 'py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition';
+            });
+        }
+
+        function switchPlanSubTab(subId) {
+            ['estrategia', 'modelos', 'rutas'].forEach(s => {
+                const panel = document.getElementById('planSubPanel_' + s);
+                const btn = document.getElementById('planSubBtn_' + s);
+                const active = (s === subId);
+                if (panel) panel.classList.toggle('hidden', !active);
+                if (btn) {
+                    btn.className = active
+                        ? 'py-2 px-2 rounded-xl text-[11px] sm:text-xs font-black bg-emerald-600 text-white shadow-sm transition'
+                        : 'py-2 px-2 rounded-xl text-[11px] sm:text-xs font-bold text-gray-600 hover:bg-white transition';
+                }
+            });
+        }
+
         function simulateMonthlyPayoutForProjectedTotal(projTotal, state) {
             projTotal = Math.max(0, Math.round(projTotal));
             if (projTotal === 0) {
@@ -1229,6 +1264,18 @@
             document.getElementById('simSummaryUnits').textContent = res.totalUnits;
             document.getElementById('simSummaryFocus').textContent = res.focusUnits;
 
+            // Actualizar Mini Barra Sticky en Móvil
+            const stTotal = document.getElementById('simStickyTotal');
+            const stUnits = document.getElementById('simStickyUnits');
+            const stFoco  = document.getElementById('simStickyFoco');
+            const stVol   = document.getElementById('simStickyVol');
+            const stBonus = document.getElementById('simStickyBonus');
+            if (stTotal) stTotal.innerHTML = formatMXN(res.grandTotal) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
+            if (stUnits) stUnits.textContent = `${res.totalUnits} uds (Foco: ${res.focusUnits})`;
+            if (stFoco)  stFoco.textContent  = formatMXN(res.focusTotalMoney);
+            if (stVol)   stVol.textContent   = formatMXN(res.volumeTotalMoney);
+            if (stBonus) stBonus.textContent = res.reachedGral100 ? '+$2,000' : '$0';
+
             // Iluminar Tablas Oficiales en Pestaña 3
             highlightActiveTableColumns(res.tierIdx, res.reachedFocus100);
 
@@ -1377,28 +1424,28 @@
                     }
 
                     return `
-                        <div class="bg-white rounded-2xl p-4 border border-gray-200 shadow-sm hover:border-emerald-400 transition space-y-2.5">
-                            <div class="flex items-center justify-between">
-                                <span class="font-black text-xs text-gray-800">${d.name}</span>
+                        <div class="bg-white rounded-2xl p-3 border border-gray-200 shadow-sm hover:border-emerald-400 transition space-y-1.5">
+                            <div class="flex items-center justify-between gap-1">
+                                <span class="font-black text-[11px] sm:text-xs text-gray-800 truncate">${d.name}</span>
                                 ${d.type === 'foco' 
-                                    ? '<span class="text-[9px] font-black uppercase px-2 py-0.5 rounded-full bg-amber-100 text-amber-800 tracking-wider">⭐ MODELO FOCO</span>' 
-                                    : '<span class="text-[9px] font-bold uppercase px-2 py-0.5 rounded-full bg-gray-100 text-gray-600">Volumen</span>'
+                                    ? '<span class="text-[8px] sm:text-[9px] font-black uppercase px-1.5 py-0.5 rounded-full bg-amber-100 text-amber-800 shrink-0">⭐ Foco</span>' 
+                                    : '<span class="text-[8px] sm:text-[9px] font-bold uppercase px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-600 shrink-0">Vol</span>'
                                 }
                             </div>
                             <div class="flex items-baseline justify-between pt-1 border-t border-gray-100">
                                 <div>
-                                    <span class="text-[10px] uppercase font-bold text-gray-400 block">Ventas al Corte</span>
-                                    <span class="text-base font-black text-gray-800">${currentUnits} <span class="text-xs font-normal text-gray-500">uds</span></span>
+                                    <span class="text-[9px] uppercase font-bold text-gray-400 block">Corte</span>
+                                    <span class="text-sm sm:text-base font-black text-gray-800">${currentUnits}<span class="text-[10px] font-normal text-gray-500">u</span></span>
                                 </div>
-                                <div class="text-gray-300 text-base font-light">&rarr;</div>
+                                <div class="text-gray-300 text-xs">&rarr;</div>
                                 <div class="text-right">
-                                    <span class="text-[10px] uppercase font-bold text-oppogreen block">Proyección Cierre</span>
-                                    <span class="text-base font-black text-oppogreen">${projUnits} <span class="text-xs font-normal text-emerald-700">uds</span></span>
+                                    <span class="text-[9px] uppercase font-bold text-oppogreen block">Cierre</span>
+                                    <span class="text-sm sm:text-base font-black text-oppogreen">${projUnits}<span class="text-[10px] font-normal text-emerald-700">u</span></span>
                                 </div>
                             </div>
-                            <div class="pt-2 border-t border-gray-100 flex items-center justify-between text-xs">
-                                <span class="text-gray-500 text-[11px]">${rateTxt}</span>
-                                <span class="font-extrabold text-gray-800">~${formatMXN(estSubtotal)} MXN</span>
+                            <div class="pt-1.5 border-t border-gray-100 flex items-center justify-between text-[10px] sm:text-xs gap-1">
+                                <span class="text-gray-500 truncate">${rateTxt.replace(/ \(.*\)/, '')}</span>
+                                <span class="font-extrabold text-gray-800 shrink-0">~${formatMXN(estSubtotal)}</span>
                             </div>
                         </div>
                     `;
