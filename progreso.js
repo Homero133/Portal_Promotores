@@ -370,13 +370,44 @@
         const downloadCount = Object.keys(progress.downloads).length;
         const percentage = Math.min(100, Math.round((watchedCount / TOTAL_VIDEOS) * 100));
 
+        let user = null;
+        try {
+            user = getUserProfile();
+        } catch (e) {}
+
+        const isAud = !!(user && (user.role === 'auditor' || user.isAuditor));
+        const isFarmer = !!(user && user.role === 'farmer');
+        const isHunter = !!(user && user.role === 'hunter');
+
         let rank = {
             title: 'Promotor en Entrenamiento',
             icon: 'fa-seedling',
             color: 'text-emerald-400',
             bgBadge: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/30'
         };
-        if (percentage >= 100) {
+
+        if (isFarmer) {
+            rank = {
+                title: 'Supervisor Farmer',
+                icon: 'fa-user-tie',
+                color: 'text-emerald-300',
+                bgBadge: 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+            };
+        } else if (isHunter) {
+            rank = {
+                title: 'Supervisor Hunter',
+                icon: 'fa-user-tie',
+                color: 'text-indigo-300',
+                bgBadge: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40'
+            };
+        } else if (isAud) {
+            rank = {
+                title: 'Auditor Oficial OPPO',
+                icon: 'fa-shield-alt',
+                color: 'text-amber-300',
+                bgBadge: 'bg-amber-500/20 text-amber-300 border-amber-500/40'
+            };
+        } else if (percentage >= 100) {
             rank = {
                 title: 'Master Certificado OPPO',
                 icon: 'fa-trophy',
@@ -750,7 +781,16 @@
         }
 
         const isAud = !!(user.role === 'auditor' || user.isAuditor);
-        const chainLabel = isAud ? 'Auditor • Acceso 100%' : (user.cadena_oficial || user.cadena || '-');
+        const isFarmer = (user.role === 'farmer');
+        const isHunter = (user.role === 'hunter');
+        const isSup = isFarmer || isHunter || !!user.isSupervisor;
+
+        let chainLabel = user.cadena_oficial || user.cadena || '-';
+        if (isAud) {
+            chainLabel = 'Auditor • Acceso 100%';
+        } else if (isSup) {
+            chainLabel = user.region ? ('Región ' + user.region) : 'Región R9-E';
+        }
         const initials = user.nombre
             .split(' ')
             .filter(Boolean)
@@ -772,7 +812,7 @@
                   '<i class="fas fa-id-card mr-1 text-oppogreen"></i> ID: ' + escapeHtml(user.idEmpleado) +
               '</span>' +
               '<span class="text-xs text-gray-300 bg-white/10 px-2.5 py-0.5 rounded-full">' +
-                  '<i class="fas fa-store mr-1 text-oppogreen"></i> ' + escapeHtml(chainLabel) +
+                  '<i class="fas ' + (isSup ? 'fa-map-marker-alt' : 'fa-store') + ' mr-1 text-oppogreen"></i> ' + escapeHtml(chainLabel) +
               '</span>';
 
         const subtitleHtml = hideData

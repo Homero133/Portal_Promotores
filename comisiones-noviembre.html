@@ -124,17 +124,17 @@
 
             <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 sm:gap-4">
                 <div>
-                    <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5">
+                    <div id="topHeaderRoleBadge" class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5">
                         <i class="fas fa-coins"></i> Comisiones PM &bull; Nov 2026
                     </div>
-                    <h1 class="text-xl sm:text-4xl font-black tracking-tight leading-tight">
+                    <h1 id="topHeaderTitle" class="text-xl sm:text-4xl font-black tracking-tight leading-tight">
                         Tabulador <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-emerald-300">&amp; Simulador de Cuota</span>
                     </h1>
-                    <p class="hidden sm:block text-gray-200 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">
+                    <p id="topHeaderDesc" class="hidden sm:block text-gray-200 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">
                         Simula tus ingresos en tiempo real seg&uacute;n tus <strong>ventas activadas al corte</strong>, conoce tu <strong>plan de acci&oacute;n para hoy y ma&ntilde;ana</strong> y asegura el <strong>Bono de +$2,000 MXN</strong>.
                     </p>
                 </div>
-                <div class="bg-black/30 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2 sm:px-4 sm:py-3 shrink-0 flex items-center justify-between sm:justify-start gap-3">
+                <div id="topHeaderBonusWidget" class="bg-black/30 backdrop-blur-md border border-white/15 rounded-2xl px-3.5 py-2 sm:px-4 sm:py-3 shrink-0 flex items-center justify-between sm:justify-start gap-3">
                     <div class="flex items-center gap-2.5">
                         <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center text-sm sm:text-lg">
                             <i class="fas fa-trophy"></i>
@@ -2394,6 +2394,91 @@
                 : (window.PORTAL_COMISIONES_DATA.promotores || []);
         }
 
+        function updateTopHeaderForRole(role) {
+            const roleBadge = document.getElementById('topHeaderRoleBadge');
+            const hTitle = document.getElementById('topHeaderTitle');
+            const hDesc = document.getElementById('topHeaderDesc');
+            const bonusWidget = document.getElementById('topHeaderBonusWidget');
+
+            if (role === 'farmer') {
+                if (roleBadge) {
+                    roleBadge.innerHTML = '<i class="fas fa-user-tie mr-1"></i> SUPERVISIÓN FARMER • NOV 2026';
+                    roleBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5';
+                }
+                if (hTitle) {
+                    hTitle.innerHTML = 'Tabulador <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-300 to-cyan-300">Farmer &amp; Desempeño Elite</span>';
+                }
+                if (hDesc) {
+                    hDesc.innerHTML = 'Simula tus comisiones Farmer (Modelos Foco &ge;95% + Tarifas Fijas), monitorea el avance de tus Promotores Elite y Tiendas.';
+                }
+                if (bonusWidget) {
+                    bonusWidget.innerHTML = `
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-400/20 text-emerald-300 flex items-center justify-center text-sm sm:text-lg">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div>
+                                <div class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-emerald-300">Esquema Farmer</div>
+                                <div class="text-base sm:text-lg font-black text-white leading-tight">Foco &ge;95% + Fijas</div>
+                                <div class="text-[9px] text-gray-300 font-semibold">Comisión directa por unidad</div>
+                            </div>
+                        </div>
+                    `;
+                }
+            } else if (role === 'hunter') {
+                if (roleBadge) {
+                    roleBadge.innerHTML = '<i class="fas fa-user-tie mr-1"></i> SUPERVISIÓN HUNTER • NOV 2026';
+                    roleBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-indigo-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5';
+                }
+                if (hTitle) {
+                    hTitle.innerHTML = 'Tabulador <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300">Hunter &amp; Desempeño Tiendas</span>';
+                }
+                if (hDesc) {
+                    hDesc.innerHTML = 'Simula tus comisiones Hunter según el alcance mensual de tu Target General (&ge;100%), consulta activaciones y calendario de ventas.';
+                }
+                if (bonusWidget) {
+                    bonusWidget.innerHTML = `
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-indigo-400/20 text-indigo-300 flex items-center justify-center text-sm sm:text-lg">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div>
+                                <div class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-indigo-300">Esquema Hunter</div>
+                                <div class="text-base sm:text-lg font-black text-white leading-tight">Target Gral &ge;100%</div>
+                                <div class="text-[9px] text-gray-300 font-semibold">Tarifa doble por unidad</div>
+                            </div>
+                        </div>
+                    `;
+                }
+            } else {
+                // Modo Promotor
+                if (roleBadge) {
+                    roleBadge.innerHTML = '<i class="fas fa-coins"></i> Comisiones PM &bull; Nov 2026';
+                    roleBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[10px] sm:text-xs font-black uppercase tracking-widest mb-1.5';
+                }
+                if (hTitle) {
+                    hTitle.innerHTML = 'Tabulador <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-yellow-400 to-emerald-300">&amp; Simulador de Cuota</span>';
+                }
+                if (hDesc) {
+                    hDesc.innerHTML = 'Simula tus ingresos en tiempo real seg&uacute;n tus <strong>ventas activadas al corte</strong>, conoce tu <strong>plan de acci&oacute;n para hoy y ma&ntilde;ana</strong> y asegura el <strong>Bono de +$2,000 MXN</strong>.';
+                }
+                if (bonusWidget) {
+                    bonusWidget.innerHTML = `
+                        <div class="flex items-center gap-2.5">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-400/20 text-amber-300 flex items-center justify-center text-sm sm:text-lg">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div>
+                                <div class="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-amber-300">Incentivo Cuota 100%</div>
+                                <div class="text-base sm:text-xl font-black text-white leading-tight">+$2,000 <span class="text-[11px] sm:text-xs font-bold text-emerald-300">MXN</span></div>
+                            </div>
+                        </div>
+                        <div class="text-[10px] text-gray-300 sm:hidden font-semibold">&plusmn;10d activ.</div>
+                    `;
+                }
+            }
+        }
+
         function setWorkspaceMode(mode) {
             const isSup = (mode === 'supervisor');
             const promoTop = document.getElementById('promoterTopCard');
@@ -2409,6 +2494,7 @@
                     if (c) c.classList.add('hidden');
                 });
             } else {
+                updateTopHeaderForRole('promoter');
                 showTab('simulador');
             }
         }
@@ -2741,6 +2827,7 @@
 
         function selectSupervisor(sup) {
             currentSup = sup;
+            updateTopHeaderForRole(sup.role);
             const isFarmer = sup.role === 'farmer';
             const badge = document.getElementById('supTypeBadge');
             badge.textContent = isFarmer ? 'FARMER' : 'HUNTER';
@@ -3174,6 +3261,7 @@
             const allSups = [].concat(d.farmers || [], d.hunters || []);
 
             if (profile.role === 'farmer' || profile.role === 'hunter') {
+                updateTopHeaderForRole(profile.role);
                 setWorkspaceMode('supervisor');
                 document.getElementById('supAuditorControls').classList.add('hidden');
                 const found = (window.portalAuth && typeof window.portalAuth.findSupervisor === 'function')
@@ -3222,6 +3310,6 @@
             }
         });
     </script>
-    <script src="progreso.js?v=20261111"></script>
+    <script src="progreso.js?v=20261112b"></script>
 </body>
 </html>
