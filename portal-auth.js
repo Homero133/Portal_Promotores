@@ -167,7 +167,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'supervisores-data.js?v=20261112b';
+            sc.src = 'supervisores-data.js?v=20261113';
             sc.onload = function () { resolve(getSupervisorsList()); };
             sc.onerror = function () { resolve([]); };
             document.head.appendChild(sc);
@@ -197,7 +197,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'comisiones-data.js?v=20261112b';
+            sc.src = 'comisiones-data.js?v=20261113';
             sc.onload = function () { resolve(getPromoterList()); };
             sc.onerror = function () { reject(new Error('No se pudo cargar el padrón de promotores.')); };
             document.head.appendChild(sc);
