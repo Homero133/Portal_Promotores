@@ -20,16 +20,16 @@
     const CATALOGO_VIDEOS = {
         // Serie A (4)
         'OGOiKpTwrGs': { page: 'serie-a.html', module: 'Serie A', title: 'OPPO A6' },
-        'CkmlybnER0g': { page: 'serie-a.html', module: 'Serie A', title: 'Certificacion IP69 A6' },
+        'CkmlybnER0g': { page: 'serie-a.html', module: 'Serie A', title: 'Certificacion IP69 A6', isDemo: true },
         'AUELsBnxAE8': { page: 'serie-a.html', module: 'Serie A', title: 'Puntos Clave A6K' },
         'q2pN7liYddo': { page: 'serie-a.html', module: 'Serie A', title: 'Ventajas del A6T' },
         // Serie Reno (6)
         'eFHqbvl9SfQ': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Resumen Reno 16F' },
         '7vVrprscToE': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Alternativa vs iPhone' },
         'K9Ri0pyV9Bw': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Rendimiento vs iPhone' },
-        'uE1hpafAxjI': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Certificacion IP69K Reno 16F' },
+        'uE1hpafAxjI': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Certificacion IP69K Reno 16F', isDemo: true },
         '0UdxmWS6XEI': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Conoce el Reno 14F' },
-        'A0nmSwMeY2o': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Flash Fiesta Reno 14 5G' },
+        'A0nmSwMeY2o': { page: 'serie-reno.html', module: 'Serie Reno', title: 'Flash Fiesta Reno 14 5G', isDemo: true },
         // Serie Find (2)
         'iQlywdNl50M': { page: 'serie-find.html', module: 'Serie Find', title: 'Find X9 Ultra Tope de Gama' },
         'lhaKFp0Zogo': { page: 'serie-find.html', module: 'Serie Find', title: 'Magia del Teleobjetivo' },
@@ -95,11 +95,11 @@
             url: 'https://homero133.github.io/POPCAM/'
         },
         // Serie A — OPPO A7 Pro 5G (5)
-        'eMzoj1D8BuE': { page: 'serie-a.html', module: 'Serie A', title: 'Resistencia Grado Militar' },
-        'yIsJYE4ISNk': { page: 'serie-a.html', module: 'Serie A', title: 'Carga Reversible (5 Dispositivos)' },
-        'cImwExhU0E8': { page: 'serie-a.html', module: 'Serie A', title: 'Certificacion IP69K (Cafe a 80 grados)' },
-        'dtBWua0FQYI': { page: 'serie-a.html', module: 'Serie A', title: 'Prueba de Caida Extrema' },
-        'ppXGDoyd6io': { page: 'serie-a.html', module: 'Serie A', title: 'Rompiendo Dulces (Resistencia)' }
+        'eMzoj1D8BuE': { page: 'serie-a.html', module: 'Serie A', title: 'Resistencia Grado Militar', isDemo: true },
+        'yIsJYE4ISNk': { page: 'serie-a.html', module: 'Serie A', title: 'Carga Reversible (5 Dispositivos)', isDemo: true },
+        'cImwExhU0E8': { page: 'serie-a.html', module: 'Serie A', title: 'Certificacion IP69K (Cafe a 80 grados)', isDemo: true },
+        'dtBWua0FQYI': { page: 'serie-a.html', module: 'Serie A', title: 'Prueba de Caida Extrema', isDemo: true },
+        'ppXGDoyd6io': { page: 'serie-a.html', module: 'Serie A', title: 'Rompiendo Dulces (Resistencia)', isDemo: true }
     };
 
     // Rubricas de Conocimiento ("En esta capsula vas a aprender a...")
@@ -301,6 +301,370 @@
         };
     }
 
+    // Microjuegos Interactivos Post-Modulo (41 modulos formativos; excluye los 8 videos demostrativos)
+    const MICROJUEGOS_MODULOS = {
+        // Serie A (3 formativos)
+        'OGOiKpTwrGs': {
+            type: 'word',
+            clue: '¿Qué atributo clave de 7 letras destaca al OPPO A6 para todo el día sin buscar enchufe?',
+            answer: 'BATERIA',
+            hint: 'Fuente de energía de 6,550 mAh del OPPO A6.',
+            feedback: '¡Exacto! Su batería de gran capacidad con carga rápida SUPERVOOC es el gancho principal del OPPO A6.'
+        },
+        'AUELsBnxAE8': {
+            type: 'match',
+            prompt: 'Une cada punto clave del OPPO A6K con su beneficio en piso de venta:',
+            pairs: [
+                { left: 'Carga Rápida', right: 'Menos tiempo conectado al enchufe' },
+                { left: 'Blindaje IP', right: 'Tranquilidad ante agua y polvo' },
+                { left: 'Fluidez ColorOS', right: 'Uso ágil sin trabas diarias' }
+            ],
+            feedback: '¡Excelente! Conectar cada especificación con un beneficio real acelera la decisión del cliente.'
+        },
+        'q2pN7liYddo': {
+            type: 'quiz',
+            question: 'Un cliente busca un teléfono confiable para trabajo rudo y redes sociales sin gastar de más. ¿Qué ventaja del A6T debes resaltar primero?',
+            options: [
+                'Que solo sirve para llamadas básicas',
+                'Su equilibrio entre resistencia física, batería duradera y fluidez diaria',
+                'Que no cuenta con soporte ni garantía oficial'
+            ],
+            correct: 1,
+            feedback: '¡Correcto! El A6T destaca por ofrecer resistencia, autonomía y fluidez en su rango de precio.'
+        },
+
+        // Serie Reno (4 formativos)
+        'eFHqbvl9SfQ': {
+            type: 'word',
+            clue: 'Modo fotográfico insignia de 7 letras en el Reno 16F que logra desenfoque tipo estudio:',
+            answer: 'RETRATO',
+            hint: 'Ideal para destacar personas y rostros en el mostrador.',
+            feedback: '¡Muy bien! El modo Retrato Experto es la carta fuerte para enamorar al cliente en segundos.'
+        },
+        '7vVrprscToE': {
+            type: 'match',
+            prompt: 'Empareja la objeción del usuario iPhone con la respuesta ganadora del Reno:',
+            pairs: [
+                { left: 'Uso AirDrop con amigos', right: 'Envío directo con O+ Connect' },
+                { left: 'Busco cámara natural', right: 'Tonos de piel reales sin filtro artificial' },
+                { left: 'No quiero quedarme sin pila', right: 'Mayor batería y carga rápida incluida' }
+            ],
+            feedback: '¡Dominado! Así derrumbas cualquier duda frente a un iPhone.'
+        },
+        'K9Ri0pyV9Bw': {
+            type: 'quiz',
+            question: 'Cuando un cliente compara rendimiento contra iPhone en tienda, ¿cuál es la mejor demostración en vivo?',
+            options: [
+                'Abrir múltiples apps, cambiar rápido entre cámara y galería y mostrar fluidez de 120Hz',
+                'Leerle únicamente el número de núcleo en voz alta',
+                'Decirle que no pruebe el equipo hasta comprarlo'
+            ],
+            correct: 0,
+            feedback: '¡Exacto! La fluidez en pantalla de 120Hz se siente al instante en las manos del cliente.'
+        },
+        '0UdxmWS6XEI': {
+            type: 'word',
+            clue: 'Palabra de 7 letras que define el diseño del Reno 14F en la mano (ligero y cómodo):',
+            answer: 'DELGADO',
+            hint: 'Lo contrario a un teléfono grueso y estorboso.',
+            feedback: '¡Correcto! Su diseño delgado y ergonómico conquista desde el primer contacto físico.'
+        },
+
+        // Serie Find (2 formativos)
+        'iQlywdNl50M': {
+            type: 'quiz',
+            question: '¿Cómo posicionas al OPPO Find X9 Ultra frente a un cliente exigente de gama alta?',
+            options: [
+                'Como un equipo básico de entrada',
+                'Como el buque insignia con fotografía profesional, materiales premium y máxima potencia',
+                'Solo como un teléfono para niños'
+            ],
+            correct: 1,
+            feedback: '¡Así es! El Find X9 Ultra compite en lo más alto en cámara, diseño y rendimiento.'
+        },
+        'lhaKFp0Zogo': {
+            type: 'word',
+            clue: 'Lente de 12 letras del Find X9 Ultra ideal para acercamientos nítidos sin perder detalle:',
+            answer: 'TELEOBJETIVO',
+            hint: 'Permite hacer zoom lejano con calidad óptica.',
+            feedback: '¡Brillante! El Teleobjetivo permite retratos y acercamientos imposibles para cámaras comunes.'
+        },
+
+        // OPPO IA (4 formativos)
+        'Xg-DvC2Od78': {
+            type: 'word',
+            clue: 'Función de IA (7 letras) que guarda y organiza tus ideas, capturas y notas al instante:',
+            answer: 'MEMORIA',
+            hint: 'AI Mind Space actúa como tu segunda ______ inteligente.',
+            feedback: '¡Exacto! AI Mind Space centraliza todo lo importante para encontrarlo en segundos.'
+        },
+        '0MFl15Ztm48': {
+            type: 'match',
+            prompt: 'Une cada capacidad de Mind Pilot con su utilidad diaria:',
+            pairs: [
+                { left: 'Resúmenes rápidos', right: 'Ahorra lectura de textos largos' },
+                { left: 'Asistencia contextual', right: 'Entiende lo que ves en pantalla' },
+                { left: 'Productividad móvil', right: 'Organiza pendientes sin esfuerzo' }
+            ],
+            feedback: '¡Excelente! Mostrar IA útil en tareas reales convence mucho más que solo nombrarla.'
+        },
+        'Oso4-p7EMyQ': {
+            type: 'quiz',
+            question: '¿Qué cliente se enamora de inmediato del Asistente Financiero AI en piso de venta?',
+            options: [
+                'Quien busca controlar gastos, calcular presupuestos o comparar precios fácilmente',
+                'Quien nunca usa su celular',
+                'Quien solo busca linterna'
+            ],
+            correct: 0,
+            feedback: '¡Correcto! Es un argumento práctico para emprendedores, estudiantes y profesionistas.'
+        },
+        '8TwNL9GTPro': {
+            type: 'word',
+            clue: 'Herramienta IA de 9 letras que convierte menús o carteles de otro idioma con la cámara:',
+            answer: 'TRADUCTOR',
+            hint: 'Ideal para viajeros o restaurantes con cartas en inglés u otros idiomas.',
+            feedback: '¡Perfecto! El Traductor AI en tiempo real genera un Efecto WOW inmediato en tienda.'
+        },
+
+        // Ecosistema y Tecnología (4 formativos)
+        'B7oOMGf5IVI': {
+            type: 'word',
+            clue: 'Cápsula dinámica superior de 6 letras en ColorOS que muestra música, grabadora o timer:',
+            answer: 'BUBBLE',
+            hint: 'OPPO ______ muestra alertas en vivo sin tapar tu app actual.',
+            feedback: '¡Muy bien! OPPO Bubble le da un toque moderno y práctico de gama alta al instante.'
+        },
+        'X8rAR_8X9Gs': {
+            type: 'quiz',
+            question: '¿En qué situación real brilla la función de llamadas BeaconLink sin señal celular?',
+            options: [
+                'En conciertos, sótanos, carreteras o excursiones donde no hay cobertura móvil',
+                'Únicamente cuando estás conectado al Wi-Fi de tu casa',
+                'Solo para mandar correos electrónicos'
+            ],
+            correct: 0,
+            feedback: '¡Exacto! BeaconLink permite comunicarse por Bluetooth a larga distancia sin cobertura.'
+        },
+        'bRwK9ZDr1eo': {
+            type: 'word',
+            clue: 'Nombre de la función de Apple (7 letras) con la que compite O+ Connect al enviar fotos a iPhone:',
+            answer: 'AIRDROP',
+            hint: 'Los usuarios de iPhone dicen: "Es que uso ______ con mi familia".',
+            feedback: '¡Exacto! Con O+ Connect ya no hay barrera para compartir fotos y Livephotos con iPhone y Mac.'
+        },
+        'PXOuUyj2OU0': {
+            type: 'word',
+            clue: 'Motor de ColorOS de 7 letras que mantiene el teléfono fluido como el primer día:',
+            answer: 'TRINITY',
+            hint: '______ Engine optimiza memoria, procesador y almacenamiento.',
+            feedback: '¡Correcto! Trinity Engine respalda la fluidez a largo plazo de los equipos OPPO.'
+        },
+
+        // Ventas (12 formativos)
+        'W94H_4fYjrg': {
+            type: 'word',
+            clue: 'Conexión de empatía y confianza de 7 letras que logras en los primeros 60 segundos:',
+            answer: 'RAPPORT',
+            hint: 'Adaptas tu tono, ritmo y postura para sintonizar con el cliente.',
+            feedback: '¡Excelente! Sin Rapport el cliente pone barreras; con Rapport escucha toda tu asesoría.'
+        },
+        'mUbzZ8WnJMQ': {
+            type: 'word',
+            clue: 'Etapa de 6 letras en la venta consultiva donde haces 3 preguntas clave antes de recomendar:',
+            answer: 'SONDEO',
+            hint: 'Sirve para descubrir qué necesita el cliente y qué le frustra de su equipo actual.',
+            feedback: '¡Muy bien! Quien sondea primero recomienda con precisión y vende modelos de mayor valor.'
+        },
+        'eSLuPJJWjDA': {
+            type: 'match',
+            prompt: 'Une cada señal del lenguaje no verbal con su significado en piso de venta:',
+            pairs: [
+                { left: 'Brazos cruzados y distancia', right: 'Aún hay desconfianza o defensa' },
+                { left: 'Toca y gira el equipo', right: 'Interés real y conexión táctil' },
+                { left: 'Asiente y sonríe', right: 'Listo para avanzar al cierre' }
+            ],
+            feedback: '¡Acertaste! Leer el cuerpo del cliente te dice exactamente cuándo cerrar.'
+        },
+        'EPsShS_ndKU': {
+            type: 'quiz',
+            question: 'El cliente dice: "Está un poco caro". ¿Cuál es el mejor contraargumento consultivo?',
+            options: [
+                'Bajar la mirada y ofrecerle el más barato sin preguntar',
+                'Reencuadrar el precio en valor diario: batería duradera, IP69, cargador incluido y garantía',
+                'Decirle que la competencia también es cara'
+            ],
+            correct: 1,
+            feedback: '¡Exacto! El cliente paga con gusto cuando percibe que recibe mucho más valor por su inversión.'
+        },
+        '0KKUK3nD76g': {
+            type: 'word',
+            clue: 'Documento o respaldo oficial de 8 letras que da tranquilidad ante la objeción de marca:',
+            answer: 'GARANTIA',
+            hint: 'Respaldo oficial en México + centros de servicio y calidad certificada.',
+            feedback: '¡Correcto! Respaldar la marca con garantía oficial, certificaciones y pruebas físicas da certeza total.'
+        },
+        'u2wdb3J5wCY': {
+            type: 'match',
+            prompt: 'Une la objeción "prefiero otra marca" con tu ventaja OPPO:',
+            pairs: [
+                { left: 'Resistencia real', right: 'IP69K y grado militar comprobable' },
+                { left: 'Caja completa', right: 'Cargador rápido SUPERVOOC incluido' },
+                { left: 'Cámara en tienda', right: 'Prueba en vivo de Retrato y AI' }
+            ],
+            feedback: '¡Perfecto! Las pruebas en vivo superan cualquier discurso de la competencia.'
+        },
+        '_xenqYWztiI': {
+            type: 'quiz',
+            question: 'Cuando un cliente dice "Lo voy a pensar", ¿qué debes descubrir primero?',
+            options: [
+                'Dejarlo ir sin decir nada más',
+                'Identificar la duda oculta (precio, mensualidad, miedo al cambio o consulta familiar) y resolverla ahí mismo',
+                'Repetir la ficha técnica completa otra vez'
+            ],
+            correct: 1,
+            feedback: '¡Muy bien! "Lo pensaré" casi siempre esconde una duda concreta que aún puedes resolver.'
+        },
+        'w_p6RJGNPOE': {
+            type: 'word',
+            clue: 'Tipo de cierre de 10 letras donde actúas dando por hecho que el cliente ya eligió su OPPO:',
+            answer: 'PRESUNTIVO',
+            hint: 'Ej: "¿Le pasamos sus contactos de una vez o prefiere estrenarlo con funda?".',
+            feedback: '¡Exacto! El cierre presuntivo guía con naturalidad sin generar presión incómoda.'
+        },
+        'WlWCCs7_R4A': {
+            type: 'word',
+            clue: 'Cierre de 7 letras claro y sin rodeos cuando el cliente ya mostró señales claras de compra:',
+            answer: 'DIRECTO',
+            hint: 'Ej: "¿Se lo lleva de contado o a mensualidades? Vamos a caja".',
+            feedback: '¡Bien! Cuando el cliente ya dijo que sí con sus gestos, un cierre directo concreta la venta.'
+        },
+        'Bus_Q9V1ZjM': {
+            type: 'quiz',
+            question: '¿Cuál frase es un ejemplo perfecto de Cierre Alternativo?',
+            options: [
+                '"¿Lo quiere o no lo quiere?"',
+                '"¿Lo prefiere en color Verde o en Negro, o prefiere el Reno 16F sobre el A6?"',
+                '"Vuelva la próxima semana"'
+            ],
+            correct: 1,
+            feedback: '¡Correcto! Das dos opciones positivas donde ambas terminan en venta.'
+        },
+        'GRjUV4YRe9o': {
+            type: 'word',
+            clue: 'Tipo de cierre de 6 letras donde haces preguntas cortas para medir si el cliente ya está convencido:',
+            answer: 'PRUEBA',
+            hint: 'Cierre de ______: "¿Cómo siente el tamaño y la cámara en su mano?".',
+            feedback: '¡Acertaste! El cierre de prueba mide la temperatura de compra antes de pedir el pago.'
+        },
+        'VZwVcG333ok': {
+            type: 'word',
+            clue: 'Cierre de 7 letras donde recapitulas los 3 beneficios que más le gustaron antes de ir a caja:',
+            answer: 'RESUMEN',
+            hint: 'Recuerdas lo que el cliente ya valoró (ej. cámara, batería y resistencia).',
+            feedback: '¡Exacto! Recapitular los beneficios elegidos por el cliente refuerza su decisión.'
+        },
+
+        // Tutoriales (6 formativos)
+        'Am15k-VoQVA': {
+            type: 'word',
+            clue: 'Pantalla de 7 letras que puedes personalizar con relojes, widgets y fondos en ColorOS:',
+            answer: 'BLOQUEO',
+            hint: 'Es lo primero que ve el cliente al encender el teléfono.',
+            feedback: '¡Correcto! Personalizar la pantalla de bloqueo frente al cliente crea conexión emocional.'
+        },
+        '3CF9J189AhM': {
+            type: 'word',
+            clue: 'Herramienta lateral de 5 letras en ColorOS para abrir apps flotantes y accesos rápidos:',
+            answer: 'BARRA',
+            hint: '_____ Inteligente: se desliza desde el borde de la pantalla.',
+            feedback: '¡Muy bien! La Barra Inteligente agiliza la multitarea en segundos.'
+        },
+        'f1Yc9MXEZhw': {
+            type: 'word',
+            clue: 'Espacio de acceso 7 letras protegido con huella o PIN para ocultar fotos y documentos:',
+            answer: 'PRIVADO',
+            hint: 'Caja fuerte o álbum _______ dentro de ColorOS.',
+            feedback: '¡Exacto! La privacidad nativa de ColorOS es un gran diferenciador para clientes exigentes.'
+        },
+        'duuHE3fQYrw': {
+            type: 'quiz',
+            question: '¿Qué paso es indispensable mostrarle al cliente al activar BeaconLink en el tutorial?',
+            options: [
+                'Que requiere tener saldo activo en el chip',
+                'Activar Bluetooth y permisos de contactos cercanos en Ajustes > Red móvil > BeaconLink',
+                'Apagar el teléfono por completo'
+            ],
+            correct: 1,
+            feedback: '¡Exacto! Con Bluetooth activo pueden probar una llamada real en tienda sin usar datos.'
+        },
+        'cbnkfMQ2b6E': {
+            type: 'word',
+            clue: 'Herramienta de IA (8 letras) que elimina personas u objetos no deseados de una foto:',
+            answer: 'BORRADOR',
+            hint: '________ IA: limpias el fondo de cualquier retrato con un toque.',
+            feedback: '¡Acertaste! Hacer la prueba del Borrador IA en vivo suele cerrar la venta al instante.'
+        },
+        'JxotNm2qZGs': {
+            type: 'match',
+            prompt: 'Ordena los pilares clave al orientar un Trámite de Garantía OPPO:',
+            pairs: [
+                { left: 'Paso 1: Validar', right: 'Revisar ticket y estado físico del equipo' },
+                { left: 'Paso 2: Respaldar', right: 'Guiar respaldo de cuenta y datos' },
+                { left: 'Paso 3: Canalizar', right: 'Dirigir al Centro de Servicio autorizado' }
+            ],
+            feedback: '¡Excelente! Un buen soporte postventa genera confianza y clientes recurrentes.'
+        },
+
+        // Capsulas de Video y Web Interactivas (6 formativos)
+        'wuge6mbhoqA': {
+            type: 'word',
+            clue: 'Sensación de asombro de 7 letras que debes provocar en los primeros 10 segundos:',
+            answer: 'IMPACTO',
+            hint: 'Efecto WOW: generar _______ visual o táctil antes de hablar de precios.',
+            feedback: '¡Exacto! Un impacto en los primeros 10 segundos multiplica la atención del cliente.'
+        },
+        '4J_a1p5ZGNY': {
+            type: 'quiz',
+            question: '¿Para qué sirve deslizar o tocar OPPO Bubble en la parte superior de la pantalla?',
+            options: [
+                'Para apagar la pantalla inmediatamente',
+                'Para controlar música, grabadora o temporizador sin salir de la app actual',
+                'Para borrar todas las aplicaciones'
+            ],
+            correct: 1,
+            feedback: '¡Correcto! OPPO Bubble combina estética premium con productividad real.'
+        },
+        'web_neuroventas': {
+            type: 'word',
+            clue: 'Sistema cerebral de 7 letras responsable de las emociones y el 85% de la decisión de compra:',
+            answer: 'LIMBICO',
+            hint: 'Sistema _______: se activa con historias, tacto y beneficios emocionales.',
+            feedback: '¡Brillante! Quien le vende a la emoción (sistema límbico) cierra mucho más fácil.'
+        },
+        'web_reno16_opcion': {
+            type: 'word',
+            clue: 'Elemento principal de 6 letras por el que el Reno 16 conquista clientes al primer toque:',
+            answer: 'CAMARA',
+            hint: 'Retrato Experto, Livephoto IA y Borrador IA viven en su ______.',
+            feedback: '¡Correcto! Poner la cámara del Reno 16 en manos del cliente hace casi todo el trabajo.'
+        },
+        'web_natural_divertido': {
+            type: 'word',
+            clue: 'Adjetivo de 7 letras que define los tonos de piel reales del OPPO Reno 16 frente a filtros falsos:',
+            answer: 'NATURAL',
+            hint: 'Real, _______ y Divertido.',
+            feedback: '¡Exacto! Colores y texturas naturales sin sobreprocesar conquistan a creadores de contenido.'
+        },
+        'web_popcam': {
+            type: 'word',
+            clue: 'Componente de 5 letras que, junto con estética Pop Cam, logra fotos de estudio de noche:',
+            answer: 'FLASH',
+            hint: '_____ Fiesta + filtros retro únicos.',
+            feedback: '¡Muy bien! La experiencia Pop Cam + Flash Fiesta es única y súper fácil de presumir.'
+        }
+    };
+
     const TOTAL_VIDEOS = Object.keys(CATALOGO_VIDEOS).length; // 49 (45 videos + 4 capsulas web)
     const TOTAL_DOWNLOADS = 26; // 12 fichas tecnicas + 14 one pages oficiales
 
@@ -353,10 +717,11 @@
                 const parsed = JSON.parse(raw);
                 parsed.videos = parsed.videos || {};
                 parsed.downloads = parsed.downloads || {};
+                parsed.quizzes = parsed.quizzes || {};
                 return parsed;
             }
         } catch (e) {}
-        return { videos: {}, downloads: {}, completed100Notified: false };
+        return { videos: {}, downloads: {}, quizzes: {}, completed100Notified: false };
     }
 
     function saveProgressData(data) {
@@ -1174,6 +1539,31 @@
                 '</div>' +
             '</div>' +
 
+            '<!-- MODAL MICROJUEGO POST-MODULO (PROYECTO ELITE) -->' +
+            '<div id="oppoMicrogameModal" class="fixed inset-0 bg-black/85 z-[122] hidden items-center justify-center p-4 backdrop-blur-md overflow-y-auto" onclick="if(event.target === this) window.oppoProgress.closeMicrogameModal()">' +
+                '<div class="bg-white rounded-3xl max-w-lg w-full p-5 sm:p-7 shadow-2xl relative border border-oppogreen/30 my-6 animate-fade-in">' +
+                    '<button onclick="window.oppoProgress.closeMicrogameModal()" title="Cerrar" class="absolute top-4 right-4 text-gray-400 hover:text-gray-700 text-xl w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center transition">' +
+                        '<i class="fas fa-times"></i>' +
+                    '</button>' +
+                    '<div class="flex items-center gap-3 mb-4 pr-8">' +
+                        '<div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-700 text-white flex items-center justify-center text-xl shadow-md shrink-0">' +
+                            '<i class="fas fa-gamepad"></i>' +
+                        '</div>' +
+                        '<div>' +
+                            '<span id="oppoMicrogameBadge" class="inline-block text-[10px] font-extrabold uppercase tracking-wider bg-emerald-500/15 text-oppogreen px-2.5 py-0.5 rounded-full border border-oppogreen/25">Reto Express Elite</span>' +
+                            '<h3 id="oppoMicrogameTitle" class="text-base sm:text-lg font-black text-gray-900 leading-tight mt-1">Fija tu conocimiento</h3>' +
+                        '</div>' +
+                    '</div>' +
+                    '<div id="oppoMicrogameBody" class="space-y-3"></div>' +
+                    '<div id="oppoMicrogameFeedback" class="hidden mt-4 rounded-2xl p-3.5 text-xs sm:text-sm font-semibold leading-relaxed"></div>' +
+                    '<div id="oppoMicrogameDoneActions" class="hidden mt-4">' +
+                        '<button onclick="window.oppoProgress.closeMicrogameModal()" class="w-full bg-oppogreen hover:bg-emerald-600 text-white font-black py-3 px-5 rounded-2xl shadow-lg transition text-sm flex items-center justify-center gap-2">' +
+                            '<i class="fas fa-check-double"></i> <span>&iexcl;Genial! Seguir avanzando</span>' +
+                        '</button>' +
+                    '</div>' +
+                '</div>' +
+            '</div>' +
+
             '<!-- TOAST DE NOTIFICACION -->' +
             '<div id="oppoProgressToast" class="fixed bottom-6 right-6 z-[125] hidden items-center gap-3 bg-gray-900 text-white px-4 py-3 rounded-2xl shadow-2xl border border-oppogreen/40 text-xs sm:text-sm font-semibold">' +
                 '<i id="oppoProgressToastIcon" class="fas fa-check-circle text-oppogreen text-lg"></i>' +
@@ -1580,6 +1970,16 @@
         }, 1000);
     }
 
+    function triggerPostModuleMicrogame(id) {
+        const item = CATALOGO_VIDEOS[id];
+        if (!item || item.isDemo || !MICROJUEGOS_MODULOS[id]) return;
+        const progress = getProgressData();
+        if (progress.quizzes && progress.quizzes[id]) return;
+        setTimeout(function () {
+            openMicrogameModal(id);
+        }, 450);
+    }
+
     function completeTrackedVideo(tracker) {
         if (!tracker || tracker.completed) return;
         tracker.completed = true;
@@ -1589,6 +1989,7 @@
 
         renderVideoStatusBadge('completed');
         markVideoWatched(tracker.id);
+        triggerPostModuleMicrogame(tracker.id);
     }
 
     function stopWebCapsuleCompletionTracker(wasClosedByUser) {
@@ -1644,11 +2045,23 @@
                     statusEl.innerHTML = '<i class="fas fa-check-circle"></i> <span>&iexcl;Completado!</span>';
                 }
                 markVideoWatched(capsuleId);
+                triggerPostModuleMicrogame(capsuleId);
             }
         }, 1000);
     }
 
     function openRubricModal(id, type) {
+        const item = CATALOGO_VIDEOS[id] || {};
+        // Videos demostrativos (ej. sumergir en cafe, caidas, etc.) omiten rubrica y abren directo
+        if (item.isDemo) {
+            trackGA4CourseStart(id, type);
+            if (typeof rawOpenVideoFn === 'function') {
+                rawOpenVideoFn(id);
+                startVideoCompletionTracker(id);
+            }
+            return;
+        }
+
         const modal = document.getElementById('oppoRubricModal');
         if (!modal) {
             if (type === 'web') {
@@ -1663,7 +2076,6 @@
 
         pendingRubricItem = { id: id, type: type };
         const rubric = getRubricForItem(id);
-        const item = CATALOGO_VIDEOS[id] || {};
 
         const badgeEl = document.getElementById('oppoRubricBadge');
         const titleEl = document.getElementById('oppoRubricTitle');
@@ -1815,8 +2227,293 @@
         };
     }
 
+    // =========================================================================
+    // 9. MICROJUEGOS INTERACTIVOS POST-MODULO (PROYECTO ELITE)
+    // =========================================================================
+    let activeMicrogame = null;
+
+    function normalizeGameWord(str) {
+        return String(str || '')
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^A-Za-z0-9]/g, '')
+            .toUpperCase();
+    }
+
+    function openMicrogameModal(id) {
+        const game = MICROJUEGOS_MODULOS[id];
+        const item = CATALOGO_VIDEOS[id];
+        const modal = document.getElementById('oppoMicrogameModal');
+        if (!game || !item || !modal) return;
+
+        // Si el visor web o de video esta abierto detras, no estorba gracias a z-[122],
+        // pero si el usuario ya termino, dejamos el microjuego al frente.
+        const badgeEl = document.getElementById('oppoMicrogameBadge');
+        const titleEl = document.getElementById('oppoMicrogameTitle');
+        const bodyEl = document.getElementById('oppoMicrogameBody');
+        const fbEl = document.getElementById('oppoMicrogameFeedback');
+        const doneEl = document.getElementById('oppoMicrogameDoneActions');
+
+        const typeLabels = {
+            word: 'Adivina la Palabra',
+            match: 'Une las Columnas',
+            quiz: 'Pregunta R\u00e1pida'
+        };
+
+        if (badgeEl) badgeEl.textContent = (item.module || 'Módulo') + ' • ' + (typeLabels[game.type] || 'Reto Elite');
+        if (titleEl) titleEl.textContent = item.title || 'Reto de Conocimiento';
+        if (fbEl) {
+            fbEl.className = 'hidden mt-4 rounded-2xl p-3.5 text-xs sm:text-sm font-semibold leading-relaxed';
+            fbEl.innerHTML = '';
+        }
+        if (doneEl) doneEl.classList.add('hidden');
+
+        activeMicrogame = {
+            id: id,
+            game: game,
+            completed: false,
+            revealedCount: 0,
+            selectedLeft: null,
+            matchedLeft: {},
+            shuffledRight: []
+        };
+
+        if (bodyEl) {
+            if (game.type === 'word') {
+                renderMicrogameWord(bodyEl, game);
+            } else if (game.type === 'match') {
+                // Ordenar derecha de forma distinta al orden original para que sea reto
+                const rightItems = game.pairs.map(function (p, idx) {
+                    return { idx: idx, text: p.right };
+                });
+                rightItems.sort(function (a, b) {
+                    return a.text.localeCompare(b.text);
+                });
+                if (rightItems.length > 1 && rightItems[0].idx === 0) {
+                    const first = rightItems.shift();
+                    rightItems.push(first);
+                }
+                activeMicrogame.shuffledRight = rightItems;
+                renderMicrogameMatch(bodyEl, game);
+            } else {
+                renderMicrogameQuiz(bodyEl, game);
+            }
+        }
+
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+    }
+
+    function closeMicrogameModal() {
+        const modal = document.getElementById('oppoMicrogameModal');
+        if (!modal) return;
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        activeMicrogame = null;
+    }
+
+    function showMicrogameFeedback(isOk, htmlMsg) {
+        const fbEl = document.getElementById('oppoMicrogameFeedback');
+        if (!fbEl) return;
+        fbEl.className = isOk
+            ? 'mt-4 rounded-2xl p-3.5 text-xs sm:text-sm font-semibold leading-relaxed bg-emerald-50 text-emerald-900 border border-emerald-300'
+            : 'mt-4 rounded-2xl p-3.5 text-xs sm:text-sm font-semibold leading-relaxed bg-rose-50 text-rose-800 border border-rose-300';
+        fbEl.innerHTML = htmlMsg;
+        fbEl.classList.remove('hidden');
+    }
+
+    function completeMicrogameSuccess() {
+        if (!activeMicrogame || activeMicrogame.completed) return;
+        activeMicrogame.completed = true;
+        const id = activeMicrogame.id;
+        const progress = getProgressData();
+        progress.quizzes = progress.quizzes || {};
+        progress.quizzes[id] = true;
+        saveProgressData(progress);
+
+        showMicrogameFeedback(true, '<i class="fas fa-trophy text-emerald-600 mr-1.5"></i>' + escapeHtml(activeMicrogame.game.feedback || '¡Reto superado! Conocimiento fijado.'));
+        const doneEl = document.getElementById('oppoMicrogameDoneActions');
+        if (doneEl) doneEl.classList.remove('hidden');
+        showToast('¡Reto Elite superado!');
+    }
+
+    function renderMicrogameWord(container, game) {
+        const len = game.answer.length;
+        let boxesHtml = '';
+        for (let i = 0; i < len; i++) {
+            boxesHtml += '<div id="mgWordBox_' + i + '" class="w-8 h-10 sm:w-9 sm:h-11 rounded-xl border-2 border-gray-300 bg-gray-50 flex items-center justify-center font-black text-base sm:text-lg text-gray-800 uppercase transition"></div>';
+        }
+        container.innerHTML =
+            '<div class="bg-gray-50 rounded-2xl p-4 border border-gray-200">' +
+                '<div class="flex items-center justify-between gap-2 mb-2">' +
+                    '<span class="text-[11px] font-extrabold uppercase tracking-wider text-oppogreen"><i class="fas fa-puzzle-piece mr-1"></i> ' + len + ' letras</span>' +
+                    '<button type="button" onclick="window.oppoProgress.revealMicrogameHint()" class="text-[11px] font-bold text-amber-700 bg-amber-100 hover:bg-amber-200 px-2.5 py-1 rounded-lg transition"><i class="fas fa-lightbulb mr-1"></i>Pista</button>' +
+                '</div>' +
+                '<p class="text-sm font-bold text-gray-800 leading-snug">' + escapeHtml(game.clue) + '</p>' +
+                '<p id="mgWordHintText" class="hidden text-xs text-amber-800 bg-amber-50 border border-amber-200 rounded-xl p-2 mt-2 font-medium"></p>' +
+            '</div>' +
+            '<div class="flex flex-wrap items-center justify-center gap-1.5 py-1">' + boxesHtml + '</div>' +
+            '<form onsubmit="event.preventDefault(); window.oppoProgress.submitMicrogameWord();" class="flex gap-2">' +
+                '<input id="mgWordInput" type="text" maxlength="' + len + '" autocomplete="off" autocapitalize="characters" placeholder="Escribe la palabra (' + len + ' letras)" oninput="window.oppoProgress.syncMicrogameWordBoxes()" class="flex-1 px-3.5 py-2.5 rounded-xl border border-gray-300 focus:border-oppogreen focus:ring-2 focus:ring-oppogreen/20 outline-none text-sm font-bold uppercase tracking-widest text-gray-900" />' +
+                '<button type="submit" class="bg-oppogreen hover:bg-emerald-600 text-white font-black px-4 py-2.5 rounded-xl text-xs sm:text-sm shadow transition shrink-0">Validar</button>' +
+            '</form>';
+        setTimeout(function () {
+            const inp = document.getElementById('mgWordInput');
+            if (inp) inp.focus();
+        }, 80);
+    }
+
+    function syncMicrogameWordBoxes() {
+        if (!activeMicrogame || activeMicrogame.game.type !== 'word') return;
+        const inp = document.getElementById('mgWordInput');
+        if (!inp) return;
+        const val = normalizeGameWord(inp.value);
+        const len = activeMicrogame.game.answer.length;
+        for (let i = 0; i < len; i++) {
+            const box = document.getElementById('mgWordBox_' + i);
+            if (!box) continue;
+            const ch = val.charAt(i) || '';
+            box.textContent = ch;
+            box.className = ch
+                ? 'w-8 h-10 sm:w-9 sm:h-11 rounded-xl border-2 border-oppogreen bg-emerald-50 flex items-center justify-center font-black text-base sm:text-lg text-emerald-900 uppercase transition'
+                : 'w-8 h-10 sm:w-9 sm:h-11 rounded-xl border-2 border-gray-300 bg-gray-50 flex items-center justify-center font-black text-base sm:text-lg text-gray-800 uppercase transition';
+        }
+    }
+
+    function revealMicrogameHint() {
+        if (!activeMicrogame || activeMicrogame.game.type !== 'word' || activeMicrogame.completed) return;
+        const hintEl = document.getElementById('mgWordHintText');
+        if (hintEl && activeMicrogame.game.hint) {
+            hintEl.textContent = 'Pista: ' + activeMicrogame.game.hint;
+            hintEl.classList.remove('hidden');
+        }
+        const inp = document.getElementById('mgWordInput');
+        if (inp) {
+            const ans = activeMicrogame.game.answer;
+            const nextCount = Math.min(ans.length, Math.max(1, activeMicrogame.revealedCount + 1));
+            activeMicrogame.revealedCount = nextCount;
+            inp.value = ans.slice(0, nextCount);
+            syncMicrogameWordBoxes();
+            inp.focus();
+        }
+    }
+
+    function submitMicrogameWord() {
+        if (!activeMicrogame || activeMicrogame.game.type !== 'word' || activeMicrogame.completed) return;
+        const inp = document.getElementById('mgWordInput');
+        if (!inp) return;
+        const typed = normalizeGameWord(inp.value);
+        const expected = normalizeGameWord(activeMicrogame.game.answer);
+        if (typed === expected) {
+            inp.disabled = true;
+            completeMicrogameSuccess();
+        } else {
+            showMicrogameFeedback(false, '<i class="fas fa-redo mr-1"></i> Casi... revisa las letras o usa el bot&oacute;n <strong>Pista</strong>.');
+        }
+    }
+
+    function renderMicrogameMatch(container, game) {
+        const leftHtml = game.pairs.map(function (p, idx) {
+            const isMatched = !!activeMicrogame.matchedLeft[idx];
+            const isSelected = activeMicrogame.selectedLeft === idx;
+            let cls = 'w-full text-left p-2.5 sm:p-3 rounded-xl border text-xs font-bold transition ';
+            if (isMatched) {
+                cls += 'bg-emerald-50 border-emerald-400 text-emerald-800 opacity-85';
+            } else if (isSelected) {
+                cls += 'bg-gray-900 border-gray-900 text-white shadow';
+            } else {
+                cls += 'bg-white border-gray-200 hover:border-oppogreen text-gray-800';
+            }
+            return '<button type="button" ' + (isMatched ? 'disabled' : '') + ' onclick="window.oppoProgress.selectMicrogameMatch(\'left\', ' + idx + ')" class="' + cls + '">' +
+                (isMatched ? '<i class="fas fa-check-circle text-emerald-600 mr-1"></i>' : '') + escapeHtml(p.left) +
+            '</button>';
+        }).join('');
+
+        const rightHtml = activeMicrogame.shuffledRight.map(function (r) {
+            const isMatched = !!activeMicrogame.matchedLeft[r.idx];
+            let cls = 'w-full text-left p-2.5 sm:p-3 rounded-xl border text-xs font-medium transition ';
+            if (isMatched) {
+                cls += 'bg-emerald-50 border-emerald-400 text-emerald-800 opacity-85';
+            } else {
+                cls += 'bg-gray-50 border-gray-200 hover:border-oppogreen text-gray-700';
+            }
+            return '<button type="button" ' + (isMatched ? 'disabled' : '') + ' onclick="window.oppoProgress.selectMicrogameMatch(\'right\', ' + r.idx + ')" class="' + cls + '">' +
+                escapeHtml(r.text) +
+            '</button>';
+        }).join('');
+
+        container.innerHTML =
+            '<p class="text-xs sm:text-sm font-bold text-gray-800">' + escapeHtml(game.prompt) + '</p>' +
+            '<p class="text-[11px] text-gray-500">Toca un concepto de la izquierda y luego su pareja de la derecha.</p>' +
+            '<div class="grid grid-cols-2 gap-2.5 pt-1">' +
+                '<div class="space-y-2">' + leftHtml + '</div>' +
+                '<div class="space-y-2">' + rightHtml + '</div>' +
+            '</div>';
+    }
+
+    function selectMicrogameMatch(side, idx) {
+        if (!activeMicrogame || activeMicrogame.game.type !== 'match' || activeMicrogame.completed) return;
+        const bodyEl = document.getElementById('oppoMicrogameBody');
+        if (side === 'left') {
+            activeMicrogame.selectedLeft = idx;
+            if (bodyEl) renderMicrogameMatch(bodyEl, activeMicrogame.game);
+            return;
+        }
+        if (activeMicrogame.selectedLeft === null) {
+            showMicrogameFeedback(false, 'Primero selecciona un concepto de la columna izquierda.');
+            return;
+        }
+        if (activeMicrogame.selectedLeft === idx) {
+            activeMicrogame.matchedLeft[idx] = true;
+            activeMicrogame.selectedLeft = null;
+            const fbEl = document.getElementById('oppoMicrogameFeedback');
+            if (fbEl) fbEl.classList.add('hidden');
+            if (bodyEl) renderMicrogameMatch(bodyEl, activeMicrogame.game);
+            if (Object.keys(activeMicrogame.matchedLeft).length === activeMicrogame.game.pairs.length) {
+                completeMicrogameSuccess();
+            }
+        } else {
+            activeMicrogame.selectedLeft = null;
+            if (bodyEl) renderMicrogameMatch(bodyEl, activeMicrogame.game);
+            showMicrogameFeedback(false, '<i class="fas fa-times-circle mr-1"></i> Esa pareja no coincide. Intenta de nuevo.');
+        }
+    }
+
+    function renderMicrogameQuiz(container, game) {
+        const optsHtml = game.options.map(function (opt, idx) {
+            return '<button type="button" id="mgQuizOpt_' + idx + '" onclick="window.oppoProgress.answerMicrogameQuiz(' + idx + ')" class="w-full text-left p-3 rounded-xl bg-gray-50 hover:bg-emerald-50 border border-gray-200 hover:border-oppogreen text-xs sm:text-sm font-semibold text-gray-800 transition flex items-start gap-2.5">' +
+                '<span class="w-6 h-6 rounded-full bg-white border border-gray-300 text-[11px] font-black flex items-center justify-center shrink-0 mt-0.5">' + String.fromCharCode(65 + idx) + '</span>' +
+                '<span>' + escapeHtml(opt) + '</span>' +
+            '</button>';
+        }).join('');
+
+        container.innerHTML =
+            '<div class="bg-gray-50 rounded-2xl p-4 border border-gray-200">' +
+                '<p class="text-xs sm:text-sm font-bold text-gray-900 leading-snug">' + escapeHtml(game.question) + '</p>' +
+            '</div>' +
+            '<div class="space-y-2">' + optsHtml + '</div>';
+    }
+
+    function answerMicrogameQuiz(optIdx) {
+        if (!activeMicrogame || activeMicrogame.game.type !== 'quiz' || activeMicrogame.completed) return;
+        const game = activeMicrogame.game;
+        const btn = document.getElementById('mgQuizOpt_' + optIdx);
+        if (optIdx === game.correct) {
+            if (btn) {
+                btn.className = 'w-full text-left p-3 rounded-xl bg-emerald-50 border-2 border-emerald-500 text-xs sm:text-sm font-bold text-emerald-900 transition flex items-start gap-2.5';
+            }
+            completeMicrogameSuccess();
+        } else {
+            if (btn) {
+                btn.className = 'w-full text-left p-3 rounded-xl bg-rose-50 border border-rose-300 text-xs sm:text-sm font-medium text-rose-800 transition flex items-start gap-2.5 opacity-80';
+            }
+            showMicrogameFeedback(false, '<i class="fas fa-info-circle mr-1"></i> Esa no es la mejor opci&oacute;n en piso de venta. Prueba otra.');
+        }
+    }
+
     document.addEventListener('keydown', function (e) {
         if (e.key === 'Escape') {
+            closeMicrogameModal();
             closeRubricModal();
             const webModal = document.getElementById('oppoWebCapsuleModal');
             if (webModal && !webModal.classList.contains('hidden')) {
@@ -1852,6 +2549,13 @@
         markExternalWebStarted: markExternalWebStarted,
         closeWebCapsuleModal: closeWebCapsuleModal,
         onWebCapsuleLoad: onWebCapsuleLoad,
+        openMicrogameModal: openMicrogameModal,
+        closeMicrogameModal: closeMicrogameModal,
+        submitMicrogameWord: submitMicrogameWord,
+        syncMicrogameWordBoxes: syncMicrogameWordBoxes,
+        revealMicrogameHint: revealMicrogameHint,
+        selectMicrogameMatch: selectMicrogameMatch,
+        answerMicrogameQuiz: answerMicrogameQuiz,
         markVideoWatched: markVideoWatched,
         syncGA4UserIdentity: syncGA4UserIdentity,
         syncToGoogleSheets: syncToGoogleSheets,
