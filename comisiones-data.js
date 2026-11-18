@@ -2,14 +2,16 @@
  * Base de Datos Oficial de Promotores y Ventas Validadas al Corte
  * Corte al Día 17 (Cerrado a 17/11/2026 23:59:59)
  * Tolerancia de Activación: +-10 Días Naturales
- * Total Promotores: 710 | Ventas Netas Validadas: 3533
+ * Total Promotores: 710 | Ventas Netas Validadas: 3533 | IoT: 57 uds ($6,520.00)
  */
 window.PORTAL_COMISIONES_META = {
   "cutoffDay": 17,
   "cutoffDate": "2026-11-17",
   "toleranceDays": 10,
   "totalPromoters": 710,
-  "netSales": 3533
+  "netSales": 3533,
+  "iotUnits": 57,
+  "iotCommission": 6520.0
 };
 window.PORTAL_COMISIONES_DATA = [
   {
@@ -78,7 +80,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919310",
@@ -146,7 +153,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918673",
@@ -215,7 +227,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912942",
@@ -283,7 +300,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920266",
@@ -351,7 +373,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912516",
@@ -419,7 +446,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912692",
@@ -488,7 +520,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920021",
@@ -556,7 +593,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918222",
@@ -624,7 +666,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919302",
@@ -693,7 +740,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914404",
@@ -761,7 +813,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917575",
@@ -829,7 +886,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919565",
@@ -897,7 +959,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914343",
@@ -965,7 +1032,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919232",
@@ -1034,7 +1106,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919719",
@@ -1102,7 +1179,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919313",
@@ -1170,7 +1252,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914167",
@@ -1238,7 +1325,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915975",
@@ -1306,7 +1398,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919084",
@@ -1374,7 +1471,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911325",
@@ -1442,7 +1544,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912536",
@@ -1510,7 +1617,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920039",
@@ -1578,7 +1690,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916536",
@@ -1646,7 +1763,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920018",
@@ -1714,7 +1836,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916922",
@@ -1782,7 +1909,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914926",
@@ -1851,7 +1983,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911344",
@@ -1919,7 +2056,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914949",
@@ -1987,7 +2129,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919932",
@@ -2055,7 +2202,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919617",
@@ -2123,7 +2275,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918003",
@@ -2191,7 +2348,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920053",
@@ -2259,7 +2421,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922391",
@@ -2327,7 +2494,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915347",
@@ -2396,7 +2568,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919894",
@@ -2464,7 +2641,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918070",
@@ -2532,7 +2714,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914379",
@@ -2601,7 +2788,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912705",
@@ -2670,7 +2862,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918121",
@@ -2738,7 +2935,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919605",
@@ -2807,7 +3009,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919643",
@@ -2875,7 +3082,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R912300",
@@ -2943,7 +3155,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912520",
@@ -3011,7 +3228,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917929",
@@ -3080,7 +3302,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911180",
@@ -3148,7 +3375,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911570",
@@ -3217,7 +3449,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911112",
@@ -3285,7 +3522,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917718",
@@ -3353,7 +3595,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912102",
@@ -3421,7 +3668,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919109",
@@ -3489,7 +3741,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Movistar",
     "cadenas_slugs": [
       "movistar"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915743",
@@ -3557,7 +3814,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919601",
@@ -3626,7 +3888,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "movistar",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913766",
@@ -3694,7 +3961,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916591",
@@ -3762,7 +4034,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919974",
@@ -3830,7 +4107,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916987",
@@ -3898,7 +4180,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921378",
@@ -3967,7 +4254,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919698",
@@ -4035,7 +4327,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919686",
@@ -4104,7 +4401,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919895",
@@ -4173,7 +4475,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912916",
@@ -4241,7 +4548,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919416",
@@ -4310,7 +4622,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918738",
@@ -4379,7 +4696,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917405",
@@ -4448,7 +4770,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913297",
@@ -4517,7 +4844,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921538",
@@ -4586,7 +4918,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919353",
@@ -4654,7 +4991,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Walmart",
     "cadenas_slugs": [
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922100",
@@ -4723,7 +5065,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919440",
@@ -4792,7 +5139,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "att",
       "walmart"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917586",
@@ -4861,7 +5213,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "walmart",
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919337",
@@ -4929,7 +5286,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919878",
@@ -4997,7 +5359,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919492",
@@ -5065,7 +5432,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920963",
@@ -5133,7 +5505,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911159",
@@ -5201,7 +5578,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920017",
@@ -5269,7 +5651,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923103",
@@ -5337,7 +5724,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911762",
@@ -5405,7 +5797,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919896",
@@ -5473,7 +5870,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R913151",
@@ -5541,7 +5943,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912756",
@@ -5609,7 +6016,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918801",
@@ -5677,7 +6089,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919049",
@@ -5745,7 +6162,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919633",
@@ -5813,7 +6235,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918802",
@@ -5881,7 +6308,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919902",
@@ -5949,7 +6381,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910048",
@@ -6017,7 +6454,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916894",
@@ -6085,7 +6527,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918685",
@@ -6153,7 +6600,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910470",
@@ -6221,7 +6673,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917982",
@@ -6289,7 +6746,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "8605",
@@ -6357,7 +6819,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919230",
@@ -6425,7 +6892,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918208",
@@ -6493,7 +6965,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919558",
@@ -6561,7 +7038,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920068",
@@ -6629,7 +7111,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918357",
@@ -6697,7 +7184,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918710",
@@ -6765,7 +7257,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911728",
@@ -6833,7 +7330,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919133",
@@ -6901,7 +7403,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917103",
@@ -6969,7 +7476,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914457",
@@ -7037,7 +7549,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918384",
@@ -7105,7 +7622,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915032",
@@ -7173,7 +7695,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917431",
@@ -7241,7 +7768,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919514",
@@ -7309,7 +7841,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913835",
@@ -7377,7 +7914,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919731",
@@ -7445,7 +7987,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914871",
@@ -7513,7 +8060,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918007",
@@ -7581,7 +8133,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917306",
@@ -7649,7 +8206,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912592",
@@ -7717,7 +8279,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913870",
@@ -7785,7 +8352,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918271",
@@ -7853,7 +8425,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917161",
@@ -7921,7 +8498,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919838",
@@ -7989,7 +8571,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910399",
@@ -8057,7 +8644,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920738",
@@ -8125,7 +8717,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919574",
@@ -8193,7 +8790,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918708",
@@ -8261,7 +8863,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916215",
@@ -8329,7 +8936,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913643",
@@ -8397,7 +9009,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918420",
@@ -8465,7 +9082,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914917",
@@ -8533,7 +9155,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920012",
@@ -8601,7 +9228,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912786",
@@ -8669,7 +9301,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919837",
@@ -8737,7 +9374,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919467",
@@ -8805,7 +9447,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R915441",
@@ -8873,7 +9520,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919624",
@@ -8941,7 +9593,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917553",
@@ -9009,7 +9666,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919839",
@@ -9077,7 +9739,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912434",
@@ -9145,7 +9812,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920689",
@@ -9213,7 +9885,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918815",
@@ -9281,7 +9958,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917931",
@@ -9349,7 +10031,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915123",
@@ -9417,7 +10104,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916901",
@@ -9485,7 +10177,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913836",
@@ -9553,7 +10250,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922238",
@@ -9621,7 +10323,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915729",
@@ -9689,7 +10396,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919280",
@@ -9757,7 +10469,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "9734",
@@ -9825,7 +10542,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919552",
@@ -9893,7 +10615,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916389",
@@ -9961,7 +10688,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919925",
@@ -10029,7 +10761,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919553",
@@ -10097,7 +10834,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910335",
@@ -10165,7 +10907,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911161",
@@ -10233,7 +10980,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912625",
@@ -10301,7 +11053,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914521",
@@ -10369,7 +11126,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920067",
@@ -10437,7 +11199,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917970",
@@ -10505,7 +11272,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918892",
@@ -10573,7 +11345,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910896",
@@ -10641,7 +11418,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919959",
@@ -10709,7 +11491,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918009",
@@ -10777,7 +11564,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915293",
@@ -10845,7 +11637,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919800",
@@ -10913,7 +11710,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920050",
@@ -10981,7 +11783,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914403",
@@ -11049,7 +11856,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912910",
@@ -11117,7 +11929,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918324",
@@ -11185,7 +12002,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919121",
@@ -11253,7 +12075,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918347",
@@ -11321,7 +12148,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915582",
@@ -11389,7 +12221,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918705",
@@ -11457,7 +12294,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919964",
@@ -11525,7 +12367,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919048",
@@ -11593,7 +12440,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918640",
@@ -11661,7 +12513,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915056",
@@ -11729,7 +12586,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918813",
@@ -11797,7 +12659,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919488",
@@ -11865,7 +12732,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913814",
@@ -11933,7 +12805,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911011",
@@ -12001,7 +12878,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919960",
@@ -12069,7 +12951,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917109",
@@ -12137,7 +13024,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917967",
@@ -12205,7 +13097,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918664",
@@ -12273,7 +13170,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918454",
@@ -12341,7 +13243,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910770",
@@ -12409,7 +13316,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918752",
@@ -12477,7 +13389,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911517",
@@ -12545,7 +13462,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919840",
@@ -12613,7 +13535,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913851",
@@ -12681,7 +13608,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913806",
@@ -12749,7 +13681,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910580",
@@ -12817,7 +13754,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918876",
@@ -12885,7 +13827,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915664",
@@ -12953,7 +13900,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919799",
@@ -13021,7 +13973,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917965",
@@ -13089,7 +14046,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917694",
@@ -13157,7 +14119,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910126",
@@ -13225,7 +14192,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "9065",
@@ -13293,7 +14265,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910346",
@@ -13361,7 +14338,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914434",
@@ -13429,7 +14411,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921128",
@@ -13497,7 +14484,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919279",
@@ -13565,7 +14557,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916072",
@@ -13633,7 +14630,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918418",
@@ -13701,7 +14703,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917383",
@@ -13769,7 +14776,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918224",
@@ -13837,7 +14849,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914266",
@@ -13905,7 +14922,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912006",
@@ -13973,7 +14995,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912256",
@@ -14041,7 +15068,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920070",
@@ -14109,7 +15141,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918251",
@@ -14177,7 +15214,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918933",
@@ -14245,7 +15287,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917423",
@@ -14313,7 +15360,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913576",
@@ -14381,7 +15433,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915656",
@@ -14449,7 +15506,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922335",
@@ -14517,7 +15579,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918225",
@@ -14585,7 +15652,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921640",
@@ -14653,7 +15725,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918915",
@@ -14721,7 +15798,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917880",
@@ -14789,7 +15871,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916792",
@@ -14857,7 +15944,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918896",
@@ -14925,7 +16017,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917651",
@@ -14993,7 +16090,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923104",
@@ -15061,7 +16163,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922706",
@@ -15129,7 +16236,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918417",
@@ -15197,7 +16309,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918680",
@@ -15265,7 +16382,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R916863",
@@ -15333,7 +16455,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916216",
@@ -15401,7 +16528,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911113",
@@ -15469,7 +16601,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "8977",
@@ -15537,7 +16674,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914240",
@@ -15605,7 +16747,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919899",
@@ -15673,7 +16820,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916060",
@@ -15741,7 +16893,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912747",
@@ -15809,7 +16966,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "8084",
@@ -15877,7 +17039,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919722",
@@ -15945,7 +17112,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R916946",
@@ -16013,7 +17185,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919985",
@@ -16081,7 +17258,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922075",
@@ -16149,7 +17331,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916706",
@@ -16217,7 +17404,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922713",
@@ -16285,7 +17477,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917372",
@@ -16353,7 +17550,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915348",
@@ -16421,7 +17623,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919550",
@@ -16489,7 +17696,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919823",
@@ -16557,7 +17769,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915170",
@@ -16625,7 +17842,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917413",
@@ -16693,7 +17915,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918731",
@@ -16761,7 +17988,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919810",
@@ -16829,7 +18061,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914141",
@@ -16897,7 +18134,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916897",
@@ -16965,7 +18207,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912707",
@@ -17033,7 +18280,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919414",
@@ -17101,7 +18353,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920052",
@@ -17169,7 +18426,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918894",
@@ -17237,7 +18499,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919711",
@@ -17305,7 +18572,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918636",
@@ -17373,7 +18645,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920060",
@@ -17441,7 +18718,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918821",
@@ -17509,7 +18791,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920004",
@@ -17577,7 +18864,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920005",
@@ -17645,7 +18937,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920069",
@@ -17713,7 +19010,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915699",
@@ -17781,7 +19083,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911206",
@@ -17849,7 +19156,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913805",
@@ -17917,7 +19229,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919764",
@@ -17985,7 +19302,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918916",
@@ -18053,7 +19375,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919821",
@@ -18121,7 +19448,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919395",
@@ -18189,7 +19521,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911481",
@@ -18257,7 +19594,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918223",
@@ -18325,7 +19667,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911272",
@@ -18393,7 +19740,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910692",
@@ -18461,7 +19813,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R915038",
@@ -18529,7 +19886,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918650",
@@ -18597,7 +19959,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911937",
@@ -18665,7 +20032,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916726",
@@ -18733,7 +20105,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915782",
@@ -18801,7 +20178,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913919",
@@ -18869,7 +20251,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913220",
@@ -18937,7 +20324,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917465",
@@ -19005,7 +20397,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917165",
@@ -19073,7 +20470,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919095",
@@ -19141,7 +20543,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918278",
@@ -19209,7 +20616,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918726",
@@ -19277,7 +20689,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913260",
@@ -19345,7 +20762,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912854",
@@ -19413,7 +20835,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910288",
@@ -19481,7 +20908,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913449",
@@ -19549,7 +20981,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919836",
@@ -19617,7 +21054,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918291",
@@ -19685,7 +21127,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916300",
@@ -19753,7 +21200,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919831",
@@ -19821,7 +21273,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917450",
@@ -19889,7 +21346,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918985",
@@ -19957,7 +21419,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914791",
@@ -20025,7 +21492,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922392",
@@ -20093,7 +21565,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919032",
@@ -20161,7 +21638,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918153",
@@ -20229,7 +21711,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918214",
@@ -20297,7 +21784,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910009",
@@ -20365,7 +21857,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922684",
@@ -20433,7 +21930,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917548",
@@ -20501,7 +22003,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914079",
@@ -20569,7 +22076,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910441",
@@ -20637,7 +22149,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915311",
@@ -20705,7 +22222,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918195",
@@ -20773,7 +22295,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919814",
@@ -20841,7 +22368,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919717",
@@ -20909,7 +22441,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918803",
@@ -20977,7 +22514,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919868",
@@ -21045,7 +22587,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913849",
@@ -21113,7 +22660,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922131",
@@ -21181,7 +22733,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918849",
@@ -21249,7 +22806,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920450",
@@ -21317,7 +22879,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917806",
@@ -21385,7 +22952,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919407",
@@ -21453,7 +23025,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919528",
@@ -21521,7 +23098,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910366",
@@ -21589,7 +23171,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919168",
@@ -21657,7 +23244,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916707",
@@ -21725,7 +23317,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918953",
@@ -21793,7 +23390,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918729",
@@ -21861,7 +23463,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918590",
@@ -21929,7 +23536,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912170",
@@ -21997,7 +23609,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919714",
@@ -22065,7 +23682,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919260",
@@ -22133,7 +23755,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918907",
@@ -22201,7 +23828,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916798",
@@ -22269,7 +23901,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916160",
@@ -22337,7 +23974,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922119",
@@ -22405,7 +24047,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914203",
@@ -22473,7 +24120,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919486",
@@ -22541,7 +24193,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912291",
@@ -22609,7 +24266,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914280",
@@ -22677,7 +24339,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911820",
@@ -22745,7 +24412,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921790",
@@ -22813,7 +24485,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917925",
@@ -22881,7 +24558,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920288",
@@ -22949,7 +24631,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922273",
@@ -23017,7 +24704,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918355",
@@ -23085,7 +24777,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917074",
@@ -23153,7 +24850,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912271",
@@ -23221,7 +24923,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919995",
@@ -23289,7 +24996,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917036",
@@ -23357,7 +25069,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919136",
@@ -23425,7 +25142,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918749",
@@ -23493,7 +25215,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919773",
@@ -23561,7 +25288,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916704",
@@ -23629,7 +25361,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916326",
@@ -23697,7 +25434,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919750",
@@ -23765,7 +25507,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919144",
@@ -23833,7 +25580,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919789",
@@ -23901,7 +25653,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918124",
@@ -23969,7 +25726,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918127",
@@ -24037,7 +25799,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913636",
@@ -24105,7 +25872,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914978",
@@ -24173,7 +25945,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919851",
@@ -24241,7 +26018,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919718",
@@ -24309,7 +26091,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911793",
@@ -24377,7 +26164,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919866",
@@ -24445,7 +26237,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R93625",
@@ -24513,7 +26310,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919881",
@@ -24581,7 +26383,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917371",
@@ -24649,7 +26456,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919677",
@@ -24717,7 +26529,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917871",
@@ -24785,7 +26602,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914751",
@@ -24853,7 +26675,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919573",
@@ -24921,7 +26748,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918676",
@@ -24989,7 +26821,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914301",
@@ -25057,7 +26894,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919771",
@@ -25125,7 +26967,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910803",
@@ -25193,7 +27040,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918927",
@@ -25261,7 +27113,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916517",
@@ -25329,7 +27186,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918097",
@@ -25397,7 +27259,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916519",
@@ -25465,7 +27332,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918923",
@@ -25533,7 +27405,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919632",
@@ -25601,7 +27478,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919357",
@@ -25669,7 +27551,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911864",
@@ -25737,7 +27624,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919965",
@@ -25805,7 +27697,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918725",
@@ -25873,7 +27770,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919867",
@@ -25941,7 +27843,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919356",
@@ -26009,7 +27916,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916456",
@@ -26077,7 +27989,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919697",
@@ -26145,7 +28062,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914281",
@@ -26213,7 +28135,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914088",
@@ -26281,7 +28208,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916155",
@@ -26349,7 +28281,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922586",
@@ -26417,7 +28354,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919427",
@@ -26485,7 +28427,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918959",
@@ -26553,7 +28500,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912575",
@@ -26621,7 +28573,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912304",
@@ -26689,7 +28646,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911165",
@@ -26757,7 +28719,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915580",
@@ -26825,7 +28792,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919769",
@@ -26893,7 +28865,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917816",
@@ -26961,7 +28938,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919661",
@@ -27029,7 +29011,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918484",
@@ -27097,7 +29084,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917519",
@@ -27165,7 +29157,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919485",
@@ -27233,7 +29230,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912207",
@@ -27301,7 +29303,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920049",
@@ -27369,7 +29376,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918152",
@@ -27437,7 +29449,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920641",
@@ -27505,7 +29522,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R912158",
@@ -27573,7 +29595,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920062",
@@ -27641,7 +29668,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918270",
@@ -27709,7 +29741,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920041",
@@ -27777,7 +29814,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918845",
@@ -27845,7 +29887,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922765",
@@ -27913,7 +29960,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918987",
@@ -27981,7 +30033,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918196",
@@ -28049,7 +30106,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919215",
@@ -28117,7 +30179,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919918",
@@ -28185,7 +30252,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919581",
@@ -28253,7 +30325,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919833",
@@ -28321,7 +30398,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919169",
@@ -28389,7 +30471,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911485",
@@ -28457,7 +30544,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919915",
@@ -28525,7 +30617,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919214",
@@ -28593,7 +30690,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911124",
@@ -28661,7 +30763,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919490",
@@ -28729,7 +30836,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919083",
@@ -28797,7 +30909,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R916848",
@@ -28865,7 +30982,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914377",
@@ -28933,7 +31055,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R913164",
@@ -29001,7 +31128,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917570",
@@ -29069,7 +31201,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915059",
@@ -29137,7 +31274,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919190",
@@ -29205,7 +31347,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 6,
+      "comision": 500.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3",
+          "qty": 5,
+          "rate": 60.0,
+          "subtotal": 300.0
+        },
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 1,
+          "rate": 200.0,
+          "subtotal": 200.0
+        }
+      ]
+    }
   },
   {
     "id": "MR917472",
@@ -29273,7 +31433,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 75.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        }
+      ]
+    }
   },
   {
     "id": "MR917273",
@@ -29341,7 +31513,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919914",
@@ -29409,7 +31586,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 400.0,
+      "detalle": [
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 2,
+          "rate": 200.0,
+          "subtotal": 400.0
+        }
+      ]
+    }
   },
   {
     "id": "R918305",
@@ -29477,7 +31666,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 400.0,
+      "detalle": [
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 2,
+          "rate": 200.0,
+          "subtotal": 400.0
+        }
+      ]
+    }
   },
   {
     "id": "R912119",
@@ -29545,7 +31746,31 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 3,
+      "comision": 360.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 1,
+          "rate": 85.0,
+          "subtotal": 85.0
+        },
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        },
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 1,
+          "rate": 200.0,
+          "subtotal": 200.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919976",
@@ -29613,7 +31838,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911340",
@@ -29681,7 +31911,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918750",
@@ -29749,7 +31984,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913845",
@@ -29817,7 +32057,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919122",
@@ -29885,7 +32130,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919900",
@@ -29953,7 +32203,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919907",
@@ -30021,7 +32276,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920035",
@@ -30089,7 +32349,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917585",
@@ -30157,7 +32422,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917620",
@@ -30225,7 +32495,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918459",
@@ -30293,7 +32568,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920030",
@@ -30361,7 +32641,31 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 3,
+      "comision": 500.0,
+      "detalle": [
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        },
+        {
+          "modelo": "OPPO WATCH X2 MINI",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        },
+        {
+          "modelo": "WATCH X3",
+          "qty": 1,
+          "rate": 200.0,
+          "subtotal": 200.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919081",
@@ -30429,7 +32733,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917968",
@@ -30497,7 +32806,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921714",
@@ -30565,7 +32879,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918412",
@@ -30633,7 +32952,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919979",
@@ -30701,7 +33025,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920709",
@@ -30769,7 +33098,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919755",
@@ -30837,7 +33171,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915971",
@@ -30905,7 +33244,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 100.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 4 PRO",
+          "qty": 1,
+          "rate": 100.0,
+          "subtotal": 100.0
+        }
+      ]
+    }
   },
   {
     "id": "MR917903",
@@ -30973,7 +33324,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918425",
@@ -31041,7 +33397,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922005",
@@ -31109,7 +33470,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917985",
@@ -31177,7 +33543,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918912",
@@ -31245,7 +33616,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912091",
@@ -31313,7 +33689,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 300.0,
+      "detalle": [
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 2,
+          "rate": 150.0,
+          "subtotal": 300.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919060",
@@ -31381,7 +33769,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918925",
@@ -31449,7 +33842,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919828",
@@ -31517,7 +33915,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 150.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 2,
+          "rate": 75.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919971",
@@ -31585,7 +33995,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919756",
@@ -31653,7 +34068,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918743",
@@ -31721,7 +34141,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919188",
@@ -31789,7 +34214,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 100.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5 PRO",
+          "qty": 1,
+          "rate": 100.0,
+          "subtotal": 100.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919270",
@@ -31857,7 +34294,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910913",
@@ -31925,7 +34367,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912159",
@@ -31993,7 +34440,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919418",
@@ -32061,7 +34513,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910583",
@@ -32129,7 +34586,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917213",
@@ -32197,7 +34659,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918634",
@@ -32265,7 +34732,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916079",
@@ -32333,7 +34805,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918558",
@@ -32401,7 +34878,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917640",
@@ -32469,7 +34951,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917611",
@@ -32537,7 +35024,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 160.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 1,
+          "rate": 85.0,
+          "subtotal": 85.0
+        },
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        }
+      ]
+    }
   },
   {
     "id": "R914214",
@@ -32605,7 +35110,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920965",
@@ -32673,7 +35183,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R916050",
@@ -32741,7 +35256,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910977",
@@ -32809,7 +35329,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 300.0,
+      "detalle": [
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        },
+        {
+          "modelo": "OPPO WATCH X2 MINI",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR915137",
@@ -32877,7 +35415,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 150.0,
+      "detalle": [
+        {
+          "modelo": "OPPO PAD SE",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919335",
@@ -32945,7 +35495,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915074",
@@ -33013,7 +35568,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919331",
@@ -33081,7 +35641,31 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 3,
+      "comision": 435.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 1,
+          "rate": 85.0,
+          "subtotal": 85.0
+        },
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 1,
+          "rate": 200.0,
+          "subtotal": 200.0
+        },
+        {
+          "modelo": "OPPO PAD SE",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR916737",
@@ -33149,7 +35733,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 300.0,
+      "detalle": [
+        {
+          "modelo": "OPPO PAD SE",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        },
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR910347",
@@ -33217,7 +35819,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 150.0,
+      "detalle": [
+        {
+          "modelo": "OPPO PAD SE",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR918212",
@@ -33285,7 +35899,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918773",
@@ -33353,7 +35972,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918954",
@@ -33421,7 +36045,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 150.0,
+      "detalle": [
+        {
+          "modelo": "OPPO PAD SE",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919723",
@@ -33489,7 +36125,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918344",
@@ -33557,7 +36198,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915339",
@@ -33625,7 +36271,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919349",
@@ -33693,7 +36344,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918306",
@@ -33761,7 +36417,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918581",
@@ -33829,7 +36490,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914740",
@@ -33897,7 +36563,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919017",
@@ -33965,7 +36636,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920044",
@@ -34033,7 +36709,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919651",
@@ -34101,7 +36782,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919358",
@@ -34169,7 +36855,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919112",
@@ -34237,7 +36928,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912919",
@@ -34305,7 +37001,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 250.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5 PRO",
+          "qty": 1,
+          "rate": 100.0,
+          "subtotal": 100.0
+        },
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR918829",
@@ -34373,7 +37087,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914411",
@@ -34441,7 +37160,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916078",
@@ -34509,7 +37233,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 3,
+      "comision": 180.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3",
+          "qty": 3,
+          "rate": 60.0,
+          "subtotal": 180.0
+        }
+      ]
+    }
   },
   {
     "id": "MR918616",
@@ -34577,7 +37313,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911845",
@@ -34645,7 +37386,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919887",
@@ -34713,7 +37459,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920038",
@@ -34781,7 +37532,31 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 5,
+      "comision": 470.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 2,
+          "rate": 85.0,
+          "subtotal": 170.0
+        },
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 2,
+          "rate": 75.0,
+          "subtotal": 150.0
+        },
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919797",
@@ -34849,7 +37624,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910726",
@@ -34917,7 +37697,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 150.0,
+      "detalle": [
+        {
+          "modelo": "OPPO WATCH S",
+          "qty": 1,
+          "rate": 150.0,
+          "subtotal": 150.0
+        }
+      ]
+    }
   },
   {
     "id": "MR912838",
@@ -34985,7 +37777,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 85.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 1,
+          "rate": 85.0,
+          "subtotal": 85.0
+        }
+      ]
+    }
   },
   {
     "id": "MR915553",
@@ -35053,7 +37857,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 60.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3",
+          "qty": 1,
+          "rate": 60.0,
+          "subtotal": 60.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919320",
@@ -35121,7 +37937,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912050",
@@ -35189,7 +38010,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R913065",
@@ -35257,7 +38083,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 160.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 5S",
+          "qty": 1,
+          "rate": 85.0,
+          "subtotal": 85.0
+        },
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        }
+      ]
+    }
   },
   {
     "id": "R921486",
@@ -35325,7 +38169,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 4,
+      "comision": 300.0,
+      "detalle": [
+        {
+          "modelo": "ENCO AIR 4",
+          "qty": 3,
+          "rate": 75.0,
+          "subtotal": 225.0
+        },
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919553",
@@ -35393,7 +38255,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914824",
@@ -35461,7 +38328,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916668",
@@ -35529,7 +38401,19 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 1,
+      "comision": 60.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3",
+          "qty": 1,
+          "rate": 60.0,
+          "subtotal": 60.0
+        }
+      ]
+    }
   },
   {
     "id": "MR919834",
@@ -35597,7 +38481,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911297",
@@ -35666,7 +38555,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "palacio-hierro",
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916781",
@@ -35734,7 +38628,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917949",
@@ -35802,7 +38701,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920066",
@@ -35870,7 +38774,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922331",
@@ -35939,7 +38848,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "suburbia",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916611",
@@ -36007,7 +38921,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923057",
@@ -36075,7 +38994,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916763",
@@ -36143,7 +39067,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "9492",
@@ -36213,7 +39142,12 @@ window.PORTAL_COMISIONES_DATA = [
       "liverpool",
       "suburbia",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918732",
@@ -36282,7 +39216,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917783",
@@ -36351,7 +39290,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915507",
@@ -36419,7 +39363,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918776",
@@ -36487,7 +39436,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919040",
@@ -36555,7 +39509,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916592",
@@ -36623,7 +39582,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921603",
@@ -36693,7 +39657,12 @@ window.PORTAL_COMISIONES_DATA = [
       "sears",
       "palacio-hierro",
       "sanborns"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919819",
@@ -36761,7 +39730,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916183",
@@ -36831,7 +39805,12 @@ window.PORTAL_COMISIONES_DATA = [
       "suburbia",
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919715",
@@ -36899,7 +39878,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916202",
@@ -36967,7 +39951,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916491",
@@ -37035,7 +40024,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919521",
@@ -37104,7 +40098,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916663",
@@ -37172,7 +40171,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918990",
@@ -37240,7 +40244,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911136",
@@ -37308,7 +40317,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914438",
@@ -37376,7 +40390,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913349",
@@ -37444,7 +40463,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915786",
@@ -37512,7 +40536,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917662",
@@ -37580,7 +40609,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919629",
@@ -37648,7 +40682,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916684",
@@ -37716,7 +40755,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914118",
@@ -37784,7 +40828,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919825",
@@ -37853,7 +40902,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "sanborns",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918724",
@@ -37921,7 +40975,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916197",
@@ -37989,7 +41048,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911270",
@@ -38057,7 +41121,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921409",
@@ -38125,7 +41194,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921348",
@@ -38194,7 +41268,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "sears",
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919656",
@@ -38262,7 +41341,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919011",
@@ -38330,7 +41414,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919657",
@@ -38399,7 +41488,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "suburbia",
       "palacio-hierro"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916158",
@@ -38467,7 +41561,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915524",
@@ -38535,7 +41634,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915523",
@@ -38603,7 +41707,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910582",
@@ -38671,7 +41780,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919058",
@@ -38740,7 +41854,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "suburbia",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919601",
@@ -38808,7 +41927,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919208",
@@ -38876,7 +42000,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911049",
@@ -38944,7 +42073,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915151",
@@ -39014,7 +42148,12 @@ window.PORTAL_COMISIONES_DATA = [
       "sears",
       "liverpool",
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911468",
@@ -39082,7 +42221,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912667",
@@ -39150,7 +42294,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919286",
@@ -39218,7 +42367,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917494",
@@ -39286,7 +42440,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916758",
@@ -39355,7 +42514,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917543",
@@ -39423,7 +42587,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913255",
@@ -39491,7 +42660,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913681",
@@ -39559,7 +42733,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920693",
@@ -39627,7 +42806,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910721",
@@ -39697,7 +42881,12 @@ window.PORTAL_COMISIONES_DATA = [
       "suburbia",
       "liverpool",
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918428",
@@ -39765,7 +42954,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916658",
@@ -39833,7 +43027,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922200",
@@ -39901,7 +43100,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916647",
@@ -39969,7 +43173,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918654",
@@ -40038,7 +43247,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "sears",
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918820",
@@ -40106,7 +43320,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911954",
@@ -40175,7 +43394,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "telcel-cac",
       "palacio-hierro"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913424",
@@ -40243,7 +43467,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917396",
@@ -40311,7 +43540,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sears",
     "cadenas_slugs": [
       "sears"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919564",
@@ -40379,7 +43613,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Liverpool",
     "cadenas_slugs": [
       "liverpool"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918162",
@@ -40447,7 +43686,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919394",
@@ -40515,7 +43759,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Suburbia",
     "cadenas_slugs": [
       "suburbia"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916829",
@@ -40583,7 +43832,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919037",
@@ -40651,7 +43905,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917066",
@@ -40719,7 +43978,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915508",
@@ -40787,7 +44051,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919113",
@@ -40855,7 +44124,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914981",
@@ -40923,7 +44197,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "8085",
@@ -40991,7 +44270,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910179",
@@ -41059,7 +44343,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919074",
@@ -41127,7 +44416,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920150",
@@ -41195,7 +44489,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910330",
@@ -41263,7 +44562,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910931",
@@ -41331,7 +44635,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915829",
@@ -41399,7 +44708,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922635",
@@ -41467,7 +44781,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919989",
@@ -41535,7 +44854,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919832",
@@ -41603,7 +44927,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910369",
@@ -41671,7 +45000,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910366",
@@ -41739,7 +45073,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR911370",
@@ -41807,7 +45146,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912093",
@@ -41875,7 +45219,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920530",
@@ -41943,7 +45292,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "8077",
@@ -42011,7 +45365,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910947",
@@ -42079,7 +45438,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919226",
@@ -42147,7 +45511,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919668",
@@ -42215,7 +45584,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920213",
@@ -42283,7 +45657,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913976",
@@ -42351,7 +45730,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915653",
@@ -42419,7 +45803,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917451",
@@ -42487,7 +45876,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918735",
@@ -42555,7 +45949,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917447",
@@ -42623,7 +46022,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920431",
@@ -42691,7 +46095,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910550",
@@ -42759,7 +46168,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919637",
@@ -42827,7 +46241,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910888",
@@ -42895,7 +46314,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919911",
@@ -42963,7 +46387,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915018",
@@ -43031,7 +46460,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918294",
@@ -43099,7 +46533,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R914085",
@@ -43168,7 +46607,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadenas_slugs": [
       "elektra",
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910887",
@@ -43236,7 +46680,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R96290",
@@ -43304,7 +46753,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910664",
@@ -43372,7 +46826,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923230",
@@ -43440,7 +46899,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919068",
@@ -43508,7 +46972,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919317",
@@ -43576,7 +47045,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R912748",
@@ -43644,7 +47118,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "9741",
@@ -43712,7 +47191,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917735",
@@ -43780,7 +47264,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918594",
@@ -43848,7 +47337,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914107",
@@ -43916,7 +47410,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919318",
@@ -43984,7 +47483,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R910768",
@@ -44052,7 +47556,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R916227",
@@ -44120,7 +47629,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922384",
@@ -44188,7 +47702,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918004",
@@ -44256,7 +47775,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918398",
@@ -44324,7 +47848,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R911477",
@@ -44392,7 +47921,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919038",
@@ -44460,7 +47994,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923135",
@@ -44528,7 +48067,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R913729",
@@ -44596,7 +48140,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918235",
@@ -44664,7 +48213,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919305",
@@ -44732,7 +48286,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919642",
@@ -44800,7 +48359,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R913142",
@@ -44868,7 +48432,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918348",
@@ -44936,7 +48505,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R922099",
@@ -45004,7 +48578,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912504",
@@ -45072,7 +48651,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918704",
@@ -45140,7 +48724,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921850",
@@ -45208,7 +48797,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916098",
@@ -45276,7 +48870,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R96151",
@@ -45344,7 +48943,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918253",
@@ -45412,7 +49016,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917828",
@@ -45480,7 +49089,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918995",
@@ -45548,7 +49162,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910180",
@@ -45616,7 +49235,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR915795",
@@ -45684,7 +49308,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914190",
@@ -45752,7 +49381,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917752",
@@ -45820,7 +49454,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R912296",
@@ -45888,7 +49527,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910842",
@@ -45956,7 +49600,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919316",
@@ -46024,7 +49673,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919341",
@@ -46092,7 +49746,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R919037",
@@ -46160,7 +49819,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R713019",
@@ -46228,7 +49892,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914555",
@@ -46296,7 +49965,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R918459",
@@ -46364,7 +50038,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910318",
@@ -46432,7 +50111,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R920760",
@@ -46500,7 +50184,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR912101",
@@ -46568,7 +50257,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R923030",
@@ -46636,7 +50330,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R921230",
@@ -46704,7 +50403,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R917530",
@@ -46772,7 +50476,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918499",
@@ -46840,7 +50549,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919721",
@@ -46908,7 +50622,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914600",
@@ -46976,7 +50695,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920033",
@@ -47044,7 +50768,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917841",
@@ -47112,7 +50841,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914144",
@@ -47180,7 +50914,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916200",
@@ -47248,7 +50987,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917843",
@@ -47316,7 +51060,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914733",
@@ -47384,7 +51133,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R96703",
@@ -47452,7 +51206,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR917728",
@@ -47520,7 +51279,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Telcel",
     "cadenas_slugs": [
       "telcel-cac"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR910199",
@@ -47588,7 +51352,25 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 2,
+      "comision": 275.0,
+      "detalle": [
+        {
+          "modelo": "ENCO BUDS 3 PRO",
+          "qty": 1,
+          "rate": 75.0,
+          "subtotal": 75.0
+        },
+        {
+          "modelo": "OPPO BUBBLE",
+          "qty": 1,
+          "rate": 200.0,
+          "subtotal": 200.0
+        }
+      ]
+    }
   },
   {
     "id": "MR911612",
@@ -47656,7 +51438,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR913580",
@@ -47724,7 +51511,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914272",
@@ -47792,7 +51584,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914460",
@@ -47860,7 +51657,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR914803",
@@ -47928,7 +51730,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Sam's Club",
     "cadenas_slugs": [
       "sams"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR916841",
@@ -47996,7 +51803,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR918399",
@@ -48064,7 +51876,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR919858",
@@ -48132,7 +51949,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "AT&T",
     "cadenas_slugs": [
       "att"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920084",
@@ -48200,7 +52022,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Coppel",
     "cadenas_slugs": [
       "coppel"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "MR920087",
@@ -48268,7 +52095,12 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   },
   {
     "id": "R96731",
@@ -48336,6 +52168,11 @@ window.PORTAL_COMISIONES_DATA = [
     "cadena_oficial": "Elektra",
     "cadenas_slugs": [
       "elektra"
-    ]
+    ],
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
   }
 ];

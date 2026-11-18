@@ -320,11 +320,12 @@
                     </div>
                 </div>
 
-                <!-- Filtro rápido de categoría para móvil (evita deslizarse entre 8 filas) -->
-                <div class="grid grid-cols-3 gap-1.5 pt-1 border-t border-gray-100">
-                    <button id="simFilter_all" onclick="filterSimBlock('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todos (8)</button>
-                    <button id="simFilter_foco" onclick="filterSimBlock('foco')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Modelos Foco (3)</button>
+                <!-- Filtro rápido de categoría para móvil (evita deslizarse entre bloques) -->
+                <div class="grid grid-cols-4 gap-1.5 pt-1 border-t border-gray-100">
+                    <button id="simFilter_all" onclick="filterSimBlock('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todos</button>
+                    <button id="simFilter_foco" onclick="filterSimBlock('foco')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Foco (3)</button>
                     <button id="simFilter_vol" onclick="filterSimBlock('vol')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">Volumen (5)</button>
+                    <button id="simFilter_iot" onclick="filterSimBlock('iot')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 hover:bg-gray-200 transition">IoT</button>
                 </div>
             </div>
 
@@ -468,6 +469,28 @@
                             <div id="sub_A_LOW" class="w-14 sm:w-20 text-right font-black text-xs sm:text-sm text-gray-800 shrink-0">$0</div>
                         </div>
                     </div>
+
+                    <!-- Bloque C: IoT & Accesorios -->
+                    <div id="simBlockIot" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2.5">
+                        <div class="flex items-center justify-between border-b border-gray-100 pb-2 gap-2">
+                            <span class="text-[11px] sm:text-xs font-black uppercase text-indigo-700 dark:text-indigo-300">
+                                <i class="fas fa-headphones text-indigo-500 mr-1"></i> IoT &amp; Accesorios (Extra)
+                            </span>
+                            <span id="simIotBadge" class="text-[10px] sm:text-[11px] font-black px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 shrink-0">
+                                0 uds &bull; $0
+                            </span>
+                        </div>
+                        <p class="text-[10px] sm:text-[11px] text-gray-500">
+                            Comisi&oacute;n adicional por pieza (no altera escal&oacute;n ni cuota de smartphones). <em>OPPO Bubble aparece en reporte como E-Badge.</em>
+                        </p>
+                        <div id="simIotList" class="space-y-1.5"></div>
+                        <div class="flex items-center gap-2 pt-1 border-t border-gray-100">
+                            <select id="iotSimSelect" class="flex-1 min-w-0 text-xs font-bold bg-gray-50 border border-gray-200 rounded-xl px-2.5 py-2 outline-none focus:border-indigo-500"></select>
+                            <button type="button" onclick="addSimIotModel()" class="px-3 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-black shrink-0 transition">
+                                <i class="fas fa-plus mr-1"></i>Agregar
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Columna Derecha: Tarjeta Ejecutiva de Liquidación (5 Cols) -->
@@ -507,6 +530,14 @@
                                     <div id="simBonusUnitsDesc" class="text-[10px] text-gray-400">Faltan 56 uds</div>
                                 </div>
                                 <div id="simBonusMoney" class="text-lg font-black text-amber-300">$0</div>
+                            </div>
+
+                            <div class="bg-white/10 rounded-2xl p-3 flex justify-between items-center">
+                                <div>
+                                    <div class="text-[11px] font-bold text-indigo-300">4. IoT &amp; Accesorios</div>
+                                    <div id="simIotUnitsDesc" class="text-[10px] text-gray-400">0 piezas</div>
+                                </div>
+                                <div id="simIotMoney" class="text-lg font-black text-indigo-300">$0</div>
                             </div>
                         </div>
 
@@ -921,6 +952,28 @@
                 </div>
             </div>
 
+            <!-- Tabulador Oficial IoT Promotor Noviembre -->
+            <div class="bg-white rounded-3xl p-5 sm:p-6 shadow-xl border border-gray-100 space-y-3">
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                    <div>
+                        <span class="text-[10px] font-black uppercase tracking-wider text-indigo-600">Ecosistema y Accesorios</span>
+                        <h3 class="text-base font-black text-gray-800"><i class="fas fa-headphones text-indigo-500 mr-2"></i> Tabulador Oficial IoT Promotor (Noviembre 2026)</h3>
+                    </div>
+                    <span class="text-[11px] font-bold text-gray-500">Comisi&oacute;n fija adicional por unidad</span>
+                </div>
+                <div class="overflow-x-auto rounded-2xl border border-gray-200">
+                    <table class="w-full text-xs text-left border-collapse">
+                        <thead>
+                            <tr class="bg-oppodarkgreen text-white">
+                                <th class="py-2.5 px-3">Modelo IoT</th>
+                                <th class="py-2.5 px-3 text-right">Comisi&oacute;n Promotor</th>
+                            </tr>
+                        </thead>
+                        <tbody id="officialIotTableBody" class="divide-y divide-gray-200 font-semibold"></tbody>
+                    </table>
+                </div>
+            </div>
+
             <!-- Láminas Oficiales -->
             <div class="bg-white rounded-3xl p-6 shadow-xl border border-gray-100 space-y-4">
                 <div class="flex items-center justify-between">
@@ -1078,10 +1131,11 @@
                             </button>
                         </div>
                     </div>
-                    <div class="grid grid-cols-3 gap-1.5 pt-1 border-t border-gray-100">
-                        <button id="supFilter_all" onclick="filterSupSim('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todas (8)</button>
+                    <div class="grid grid-cols-4 gap-1.5 pt-1 border-t border-gray-100">
+                        <button id="supFilter_all" onclick="filterSupSim('all')" class="py-1.5 px-2 rounded-xl text-[11px] font-black bg-emerald-600 text-white transition">Todas</button>
                         <button id="supFilter_foco" onclick="filterSupSim('foco')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Foco (3)</button>
-                        <button id="supFilter_otras" onclick="filterSupSim('otras')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Otras Series (5)</button>
+                        <button id="supFilter_otras" onclick="filterSupSim('otras')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">Otras (5)</button>
+                        <button id="supFilter_iot" onclick="filterSupSim('iot')" class="py-1.5 px-2 rounded-xl text-[11px] font-bold bg-gray-100 text-gray-600 transition">IoT</button>
                     </div>
                 </div>
 
@@ -1104,6 +1158,22 @@
                                 <span id="supSimOtrasBadge" class="text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">--</span>
                             </div>
                             <div id="supSteppersOtras" class="space-y-2"></div>
+                        </div>
+                        <div id="supBlockIot" class="bg-white rounded-2xl sm:rounded-3xl p-3.5 sm:p-5 shadow-lg border border-gray-100 space-y-2.5">
+                            <div class="flex items-center justify-between border-b border-gray-100 pb-2 gap-2">
+                                <span class="text-[11px] sm:text-xs font-black uppercase text-indigo-700 dark:text-indigo-300">
+                                    <i class="fas fa-headphones text-indigo-500 mr-1"></i> IoT &amp; Accesorios
+                                </span>
+                                <span id="supSimIotBadge" class="text-[10px] font-black px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800">0 uds &bull; $0</span>
+                            </div>
+                            <p id="supIotRuleHint" class="text-[10px] sm:text-[11px] text-gray-500">Comisi&oacute;n adicional IoT seg&uacute;n reporte oficial.</p>
+                            <div id="supIotList" class="space-y-1.5"></div>
+                            <div class="flex items-center gap-2 pt-1 border-t border-gray-100">
+                                <select id="supIotSimSelect" class="flex-1 min-w-0 text-xs font-bold bg-gray-50 border border-gray-200 rounded-xl px-2.5 py-2 outline-none focus:border-indigo-500"></select>
+                                <button type="button" onclick="addSupSimIotModel()" class="px-3 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-black shrink-0 transition">
+                                    <i class="fas fa-plus mr-1"></i>Agregar
+                                </button>
+                            </div>
                         </div>
                     </div>
 
@@ -1128,6 +1198,13 @@
                                         <div id="supOtrasUnitsDesc" class="text-[10px] text-gray-400">0 equipos</div>
                                     </div>
                                     <div id="supOtrasMoney" class="text-lg font-black text-white">$0</div>
+                                </div>
+                                <div class="bg-white/10 rounded-2xl p-3 flex justify-between items-center">
+                                    <div>
+                                        <div class="text-[11px] font-bold text-indigo-300">3. IoT &amp; Accesorios</div>
+                                        <div id="supIotUnitsDesc" class="text-[10px] text-gray-400">0 piezas</div>
+                                    </div>
+                                    <div id="supIotMoney" class="text-lg font-black text-indigo-300">$0</div>
                                 </div>
                             </div>
                             <div class="pt-3 border-t border-white/10 grid grid-cols-2 gap-2 text-center">
@@ -1363,11 +1440,135 @@
     </div>
 
     <!-- BASE DE DATOS DE TARGETS Y VENTAS AL CORTE -->
-    <script src="comisiones-data.js?v=20261113"></script>
-    <script src="supervisores-data.js?v=20261113"></script>
-    <script src="portal-auth.js?v=20261113"></script>
+    <script src="comisiones-data.js?v=20261118"></script>
+    <script src="supervisores-data.js?v=20261118"></script>
+    <script src="portal-auth.js?v=20261118"></script>
     <script>
         let currentSelectedPromoter = null;
+
+        // Tabulador Oficial IoT Noviembre 2026 (Promotor / Hunter col AS/AW, Farmer col AV)
+        const IOT_MODELS_CATALOG = [
+            { modelo: 'OPPO BUBBLE', rate: 200, farmerRate: 20, note: 'En reporte: OPPO E-BADGE VBG06' },
+            { modelo: 'WATCH X3', rate: 200, farmerRate: 30 },
+            { modelo: 'OPPO WATCH S', rate: 150, farmerRate: 20 },
+            { modelo: 'OPPO WATCH X', rate: 150, farmerRate: 20 },
+            { modelo: 'OPPO WATCH X2 MINI', rate: 150, farmerRate: 20 },
+            { modelo: 'OPPO PAD NEO', rate: 150, farmerRate: 20 },
+            { modelo: 'OPPO PAD SE', rate: 150, farmerRate: 20 },
+            { modelo: 'ENCO CLIP 2', rate: 125, farmerRate: 12.5 },
+            { modelo: 'OPPO BAND 2', rate: 100, farmerRate: 10 },
+            { modelo: 'ENCO AIR 2 PRO', rate: 100, farmerRate: 10 },
+            { modelo: 'ENCO AIR 4 PRO', rate: 100, farmerRate: 10 },
+            { modelo: 'ENCO AIR 5 PRO', rate: 100, farmerRate: 10 },
+            { modelo: 'ENCO AIR 5S', rate: 85, farmerRate: 7.5 },
+            { modelo: 'ENCO BUDS 3 PRO', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO BUDS 2 PRO', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO AIR 2', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO AIR 3', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO AIR 4', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO AIR 5', rate: 75, farmerRate: 7.5 },
+            { modelo: 'ENCO BUDS 3', rate: 60, farmerRate: 5 },
+            { modelo: 'ENCO BUDS 2', rate: 60, farmerRate: 5 },
+            { modelo: 'ENCO AIR', rate: 50, farmerRate: 5 },
+            { modelo: 'ENCO X', rate: 50, farmerRate: 5 },
+            { modelo: 'CARGADOR 45W', rate: 20, farmerRate: 2 }
+        ];
+
+        let simIotItems = [];
+        let supIotItems = [];
+
+        function getIotRateForModel(modelo, role) {
+            const found = IOT_MODELS_CATALOG.find(m => m.modelo === modelo);
+            if (!found) return 0;
+            return role === 'farmer' ? found.farmerRate : found.rate;
+        }
+
+        function computeIotTotals(items) {
+            let units = 0;
+            let money = 0;
+            (items || []).forEach(it => {
+                const q = Math.max(0, parseInt(it.qty, 10) || 0);
+                const r = Number(it.rate) || 0;
+                units += q;
+                money += q * r;
+            });
+            return { units, money: Math.round(money * 100) / 100 };
+        }
+
+        function populateIotSelect(selectId, role) {
+            const sel = document.getElementById(selectId);
+            if (!sel) return;
+            sel.innerHTML = IOT_MODELS_CATALOG.map(m => {
+                const r = role === 'farmer' ? m.farmerRate : m.rate;
+                return `<option value="${m.modelo}">${m.modelo} — $${r}</option>`;
+            }).join('');
+        }
+
+        function renderIotRows(containerId, items, ctxName) {
+            const box = document.getElementById(containerId);
+            if (!box) return;
+            if (!items || items.length === 0) {
+                box.innerHTML = '<div class="text-xs text-gray-400 italic py-2 text-center bg-gray-50 rounded-xl border border-dashed border-gray-200">0 unidades IoT registradas. Usa el selector de abajo para simular.</div>';
+                return;
+            }
+            box.innerHTML = items.map((it, idx) => {
+                const sub = (Number(it.qty) || 0) * (Number(it.rate) || 0);
+                return `
+                    <div class="flex items-center justify-between gap-2 p-2 rounded-xl bg-indigo-50/60 border border-indigo-100">
+                        <div class="min-w-0 flex-1">
+                            <div class="font-black text-xs text-gray-800 truncate">${it.modelo}</div>
+                            <div class="text-[10px] text-indigo-700 font-bold">$${it.rate} c/u</div>
+                        </div>
+                        <div class="flex items-center gap-1 shrink-0">
+                            <button type="button" onclick="stepIotItem('${ctxName}', ${idx}, -1)" class="w-7 h-7 rounded-lg bg-white border border-gray-200 font-black text-gray-700 hover:bg-gray-100">-</button>
+                            <span class="w-7 text-center font-black text-xs text-gray-800">${it.qty}</span>
+                            <button type="button" onclick="stepIotItem('${ctxName}', ${idx}, 1)" class="w-7 h-7 rounded-lg bg-indigo-100 border border-indigo-200 font-black text-indigo-800 hover:bg-indigo-200">+</button>
+                        </div>
+                        <div class="w-16 text-right font-black text-xs text-indigo-900 shrink-0">${formatMXN(sub)}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function stepIotItem(ctxName, idx, delta) {
+            const list = ctxName === 'sup' ? supIotItems : simIotItems;
+            if (!list[idx]) return;
+            list[idx].qty = Math.max(0, (parseInt(list[idx].qty, 10) || 0) + delta);
+            if (list[idx].qty === 0) list.splice(idx, 1);
+            if (ctxName === 'sup') recalcSupSim();
+            else recalculateCommissions();
+        }
+
+        function addIotModelToList(selectId, list, role, onDone) {
+            const sel = document.getElementById(selectId);
+            if (!sel || !sel.value) return;
+            const modelo = sel.value;
+            const rate = getIotRateForModel(modelo, role);
+            const existing = list.find(x => x.modelo === modelo && Number(x.rate) === Number(rate));
+            if (existing) existing.qty += 1;
+            else list.push({ modelo, qty: 1, rate });
+            onDone();
+        }
+
+        function addSimIotModel() {
+            addIotModelToList('iotSimSelect', simIotItems, 'promoter', recalculateCommissions);
+        }
+
+        function addSupSimIotModel() {
+            const role = currentSup ? currentSup.role : 'hunter';
+            addIotModelToList('supIotSimSelect', supIotItems, role, recalcSupSim);
+        }
+
+        function renderOfficialIotTable() {
+            const tb = document.getElementById('officialIotTableBody');
+            if (!tb) return;
+            tb.innerHTML = IOT_MODELS_CATALOG.map(m => `
+                <tr class="hover:bg-gray-50">
+                    <td class="py-2 px-3 font-bold text-gray-800">${m.modelo}${m.note ? ` <span class="text-[10px] font-normal text-gray-500">(${m.note})</span>` : ''}</td>
+                    <td class="py-2 px-3 text-right font-black text-oppogreen">$${m.rate.toFixed(2)}</td>
+                </tr>
+            `).join('');
+        }
 
         const VOLUME_RATES = {
             FIND:        [300, 500, 800],
@@ -1454,9 +1655,11 @@
         function filterSimBlock(mode) {
             const focoEl = document.getElementById('simBlockFoco');
             const volEl = document.getElementById('simBlockVolumen');
-            if (focoEl) focoEl.classList.toggle('hidden', mode === 'vol');
-            if (volEl) volEl.classList.toggle('hidden', mode === 'foco');
-            ['all', 'foco', 'vol'].forEach(m => {
+            const iotEl = document.getElementById('simBlockIot');
+            if (focoEl) focoEl.classList.toggle('hidden', mode !== 'all' && mode !== 'foco');
+            if (volEl) volEl.classList.toggle('hidden', mode !== 'all' && mode !== 'vol');
+            if (iotEl) iotEl.classList.toggle('hidden', mode !== 'all' && mode !== 'iot');
+            ['all', 'foco', 'vol', 'iot'].forEach(m => {
                 const b = document.getElementById('simFilter_' + m);
                 if (!b) return;
                 b.className = (m === mode)
@@ -1630,9 +1833,21 @@
             const tierNames = ['0 – 30 uds', '31 – 49 uds', '≥ 50 uds'];
             document.getElementById('simVolumeBadge').textContent = 'Escalón: ' + tierNames[res.tierIdx];
 
+            const iotTot = computeIotTotals(simIotItems);
+            const grandTotalWithIot = res.grandTotal + iotTot.money;
+
+            renderIotRows('simIotList', simIotItems, 'sim');
+            const simIotBadge = document.getElementById('simIotBadge');
+            if (simIotBadge) simIotBadge.textContent = `${iotTot.units} ${iotTot.units === 1 ? 'ud' : 'uds'} • ${formatMXN(iotTot.money)}`;
+
+            const simIotMoneyEl = document.getElementById('simIotMoney');
+            const simIotDescEl = document.getElementById('simIotUnitsDesc');
+            if (simIotMoneyEl) simIotMoneyEl.textContent = formatMXN(iotTot.money);
+            if (simIotDescEl) simIotDescEl.textContent = `${iotTot.units} ${iotTot.units === 1 ? 'pieza' : 'piezas'}`;
+
             // Actualizar Tarjeta de Liquidación de la Pestaña 1 (Simulador de Dinero)
-            document.getElementById('simGrandTotalMoney').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
-            document.getElementById('simAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por equipo activado`;
+            document.getElementById('simGrandTotalMoney').innerHTML = formatMXN(grandTotalWithIot) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
+            document.getElementById('simAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por smartphone activado`;
             document.getElementById('simFocusMoney').textContent    = formatMXN(res.focusTotalMoney);
             document.getElementById('simFocusUnitsDesc').textContent = `${res.focusUnits} ${res.focusUnits === 1 ? 'equipo' : 'equipos'} (${res.reachedFocus100 ? 'Tarifa ≥100%' : 'Tarifa <100%'})`;
             document.getElementById('simVolumeMoney').textContent   = formatMXN(res.volumeTotalMoney);
@@ -1661,7 +1876,7 @@
             const stFoco  = document.getElementById('simStickyFoco');
             const stVol   = document.getElementById('simStickyVol');
             const stBonus = document.getElementById('simStickyBonus');
-            if (stTotal) stTotal.innerHTML = formatMXN(res.grandTotal) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
+            if (stTotal) stTotal.innerHTML = formatMXN(grandTotalWithIot) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
             if (stUnits) stUnits.textContent = `${res.totalUnits} uds (Foco: ${res.focusUnits})`;
             if (stFoco)  stFoco.textContent  = formatMXN(res.focusTotalMoney);
             if (stVol)   stVol.textContent   = formatMXN(res.volumeTotalMoney);
@@ -2282,6 +2497,8 @@
         }
 
         function loadRealCutoffSales() {
+            populateIotSelect('iotSimSelect', 'promoter');
+            renderOfficialIotTable();
             if (currentSelectedPromoter && currentSelectedPromoter.ventas_corte) {
                 const vc = currentSelectedPromoter.ventas_corte;
                 document.getElementById('qty_RENO_16_5G').value  = vc.RENO_16_5G || 0;
@@ -2292,6 +2509,10 @@
                 document.getElementById('qty_A_HIGH').value      = vc.A_HIGH || 0;
                 document.getElementById('qty_A_MIDDLE').value    = vc.A_MIDDLE || 0;
                 document.getElementById('qty_A_LOW').value       = vc.A_LOW || 0;
+                const ic = currentSelectedPromoter.iot_corte;
+                simIotItems = (ic && Array.isArray(ic.detalle))
+                    ? ic.detalle.map(d => ({ modelo: d.modelo, qty: d.qty, rate: d.rate }))
+                    : [];
             } else {
                 document.getElementById('qty_RENO_16_5G').value  = 0;
                 document.getElementById('qty_RENO_16F').value    = 0;
@@ -2301,6 +2522,7 @@
                 document.getElementById('qty_A_HIGH').value      = 0;
                 document.getElementById('qty_A_MIDDLE').value    = 0;
                 document.getElementById('qty_A_LOW').value       = 0;
+                simIotItems = [];
             }
             recalculateCommissions();
         }
@@ -2366,6 +2588,7 @@
                 const el = document.getElementById(id);
                 if (el) el.value = 0;
             });
+            simIotItems = [];
             recalculateCommissions();
         }
 
@@ -2634,9 +2857,11 @@
         function filterSupSim(mode) {
             const fEl = document.getElementById('supBlockFoco');
             const oEl = document.getElementById('supBlockOtras');
-            if (fEl) fEl.classList.toggle('hidden', mode === 'otras');
-            if (oEl) oEl.classList.toggle('hidden', mode === 'foco');
-            ['all', 'foco', 'otras'].forEach(m => {
+            const iEl = document.getElementById('supBlockIot');
+            if (fEl) fEl.classList.toggle('hidden', mode !== 'all' && mode !== 'foco');
+            if (oEl) oEl.classList.toggle('hidden', mode !== 'all' && mode !== 'otras');
+            if (iEl) iEl.classList.toggle('hidden', mode !== 'all' && mode !== 'iot');
+            ['all', 'foco', 'otras', 'iot'].forEach(m => {
                 const b = document.getElementById('supFilter_' + m);
                 if (!b) return;
                 b.className = (m === mode)
@@ -2687,6 +2912,13 @@
                 }).join('');
                 document.getElementById('supOtrasTitle').innerHTML = '<i class="fas fa-layer-group text-oppogreen mr-1"></i> Dem&aacute;s Series (Seg&uacute;n Target Gral)';
                 document.getElementById('supOtrasCardLabel').textContent = '2. Demás Series';
+            }
+            populateIotSelect('supIotSimSelect', role);
+            const hintEl = document.getElementById('supIotRuleHint');
+            if (hintEl) {
+                hintEl.textContent = role === 'farmer'
+                    ? 'Tarifa IoT Supervisor Farmer (Col. AV del reporte oficial).'
+                    : 'Tarifa IoT Supervisor Hunter (Col. AW del reporte oficial, igual a Promotor).';
             }
         }
 
@@ -2764,12 +2996,23 @@
                 q[k] = Math.max(0, parseInt(el ? el.value : 0, 10) || 0);
             });
             const res = computeSupPayout(currentSup.role, q, currentSup.tgt_gral, currentSup.tgt_foco);
+            const supIotTot = computeIotTotals(supIotItems);
+            const supGrandTotalWithIot = res.grandTotal + supIotTot.money;
+
+            renderIotRows('supIotList', supIotItems, 'sup');
+            const supIotBadge = document.getElementById('supSimIotBadge');
+            if (supIotBadge) supIotBadge.textContent = `${supIotTot.units} ${supIotTot.units === 1 ? 'ud' : 'uds'} • ${formatMXN(supIotTot.money)}`;
+            const supIotMoneyEl = document.getElementById('supIotMoney');
+            const supIotDescEl = document.getElementById('supIotUnitsDesc');
+            if (supIotMoneyEl) supIotMoneyEl.textContent = formatMXN(supIotTot.money);
+            if (supIotDescEl) supIotDescEl.textContent = `${supIotTot.units} ${supIotTot.units === 1 ? 'pieza' : 'piezas'}`;
+
             SUP_ALL_KEYS.forEach(k => {
                 const subEl = document.getElementById('supSub_' + k);
                 if (subEl) subEl.textContent = formatMXN(res.subs[k]);
             });
-            document.getElementById('supGrandTotalMoney').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
-            document.getElementById('supAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por equipo`;
+            document.getElementById('supGrandTotalMoney').innerHTML = formatMXN(supGrandTotalWithIot) + ' <span class="text-base font-bold text-emerald-300">MXN</span>';
+            document.getElementById('supAvgMoneyPerUnit').innerHTML = `Promedio: <strong>$${res.avgPerUnit.toFixed(2)} MXN</strong> por smartphone`;
             document.getElementById('supFocusMoney').textContent = formatMXN(res.focusMoney);
             document.getElementById('supFocusUnitsDesc').textContent = `${res.focusUnits} equipos`;
             document.getElementById('supOtrasMoney').textContent = formatMXN(res.otrasMoney);
@@ -2785,7 +3028,7 @@
                 : 'text-[10px] font-black px-2 py-0.5 rounded-full bg-amber-100 text-amber-800';
             otrasBadge.textContent = currentSup.role === 'farmer' ? 'Comisión Fija' : `${res.tierLabel} (${Math.round(res.pctMetric)}%)`;
 
-            document.getElementById('supStickyTotal').innerHTML = formatMXN(res.grandTotal) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
+            document.getElementById('supStickyTotal').innerHTML = formatMXN(supGrandTotalWithIot) + ' <span class="text-[11px] text-emerald-300">MXN</span>';
             document.getElementById('supStickyUnits').textContent = `${res.totalUnits} uds (Foco: ${res.focusUnits})`;
             document.getElementById('supStickyStatus').textContent = res.tierLabel;
             renderOfficialSchemeTable(currentSup.role, res.isHighTier);
@@ -2798,6 +3041,10 @@
                 const el = document.getElementById('supQty_' + k);
                 if (el) el.value = vc[k] || 0;
             });
+            const ic = currentSup.iot_corte;
+            supIotItems = (ic && Array.isArray(ic.detalle))
+                ? ic.detalle.map(d => ({ modelo: d.modelo, qty: d.qty, rate: d.rate }))
+                : [];
             recalcSupSim();
         }
 
@@ -2822,6 +3069,7 @@
                 const el = document.getElementById('supQty_' + k);
                 if (el) el.value = 0;
             });
+            supIotItems = [];
             recalcSupSim();
         }
 

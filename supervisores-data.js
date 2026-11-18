@@ -84,6 +84,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 400.0,
+            "detalle": [
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 2,
+                "rate": 200.0,
+                "subtotal": 400.0
+              }
+            ]
           }
         },
         {
@@ -147,6 +159,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 400.0,
+            "detalle": [
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 2,
+                "rate": 200.0,
+                "subtotal": 400.0
+              }
+            ]
           }
         },
         {
@@ -210,6 +234,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 10,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 360.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 85.0,
+                "subtotal": 85.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 75.0,
+                "subtotal": 75.0
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 200.0,
+                "subtotal": 200.0
+              }
+            ]
           }
         },
         {
@@ -273,6 +321,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -336,6 +389,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -399,6 +457,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 75.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 75.0,
+                "subtotal": 75.0
+              }
+            ]
           }
         },
         {
@@ -462,6 +532,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 9,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -525,6 +600,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 6,
+            "comision": 500.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 5,
+                "rate": 60.0,
+                "subtotal": 300.0
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 200.0,
+                "subtotal": 200.0
+              }
+            ]
           }
         },
         {
@@ -588,6 +681,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -651,6 +749,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -715,6 +818,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 16,
               "17": 13
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 27.5,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -777,6 +898,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 40.0,
+            "detalle": [
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 2,
+                "rate": 20.0,
+                "subtotal": 40.0
+              }
+            ]
           }
         },
         {
@@ -839,6 +972,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 40.0,
+            "detalle": [
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 2,
+                "rate": 20.0,
+                "subtotal": 40.0
+              }
+            ]
           }
         },
         {
@@ -901,6 +1046,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 10,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 35.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -963,6 +1132,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1025,6 +1199,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 7.5,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              }
+            ]
           }
         },
         {
@@ -1087,6 +1273,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 6,
+            "comision": 45.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 5,
+                "rate": 5.0,
+                "subtotal": 25.0
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -1149,6 +1353,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1211,6 +1420,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -1265,6 +1479,36 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 60,
           "17": 31
         }
+      },
+      "iot_corte": {
+        "unidades": 16,
+        "comision": 195.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5S",
+            "qty": 1,
+            "rate": 7.5,
+            "subtotal": 7.5
+          },
+          {
+            "modelo": "ENCO BUDS 3",
+            "qty": 5,
+            "rate": 5.0,
+            "subtotal": 25.0
+          },
+          {
+            "modelo": "ENCO BUDS 3 PRO",
+            "qty": 3,
+            "rate": 7.5,
+            "subtotal": 22.5
+          },
+          {
+            "modelo": "OPPO BUBBLE",
+            "qty": 7,
+            "rate": 20.0,
+            "subtotal": 140.0
+          }
+        ]
       }
     },
     {
@@ -1340,6 +1584,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1403,6 +1652,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1466,6 +1720,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 500.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              },
+              {
+                "modelo": "OPPO WATCH X2 MINI",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              },
+              {
+                "modelo": "WATCH X3",
+                "qty": 1,
+                "rate": 200.0,
+                "subtotal": 200.0
+              }
+            ]
           }
         },
         {
@@ -1529,6 +1807,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1592,6 +1875,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1655,6 +1943,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1718,6 +2011,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1781,6 +2079,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1844,6 +2147,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -1908,6 +2216,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -1970,6 +2283,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2032,6 +2350,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 70.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              },
+              {
+                "modelo": "OPPO WATCH X2 MINI",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              },
+              {
+                "modelo": "WATCH X3",
+                "qty": 1,
+                "rate": 30.0,
+                "subtotal": 30.0
+              }
+            ]
           }
         },
         {
@@ -2094,6 +2436,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2156,6 +2503,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2218,6 +2570,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2280,6 +2637,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2342,6 +2704,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2404,6 +2771,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2466,6 +2838,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2528,6 +2905,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2590,6 +2972,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2652,6 +3039,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2714,6 +3106,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2776,6 +3173,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2838,6 +3240,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2900,6 +3307,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -2962,6 +3374,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -3016,6 +3433,30 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 23,
           "17": 13
         }
+      },
+      "iot_corte": {
+        "unidades": 3,
+        "comision": 70.0,
+        "detalle": [
+          {
+            "modelo": "OPPO WATCH S",
+            "qty": 1,
+            "rate": 20.0,
+            "subtotal": 20.0
+          },
+          {
+            "modelo": "OPPO WATCH X2 MINI",
+            "qty": 1,
+            "rate": 20.0,
+            "subtotal": 20.0
+          },
+          {
+            "modelo": "WATCH X3",
+            "qty": 1,
+            "rate": 30.0,
+            "subtotal": 30.0
+          }
+        ]
       }
     },
     {
@@ -3091,6 +3532,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 11,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3154,6 +3600,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3217,6 +3668,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 300.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 2,
+                "rate": 150.0,
+                "subtotal": 300.0
+              }
+            ]
           }
         },
         {
@@ -3280,6 +3743,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3343,6 +3811,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3406,6 +3879,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 10,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3469,6 +3947,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3532,6 +4015,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3595,6 +4083,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 150.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 2,
+                "rate": 75.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -3658,6 +4158,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 100.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 4 PRO",
+                "qty": 1,
+                "rate": 100.0,
+                "subtotal": 100.0
+              }
+            ]
           }
         },
         {
@@ -3721,6 +4233,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3784,6 +4301,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3847,6 +4369,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3910,6 +4437,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 11,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -3973,6 +4505,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4036,6 +4573,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -4100,6 +4642,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 19,
               "17": 16
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 40.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 2,
+                "rate": 20.0,
+                "subtotal": 40.0
+              }
+            ]
           }
         },
         {
@@ -4162,6 +4716,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 19,
               "17": 9
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4224,6 +4783,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 16,
               "17": 10
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 15.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 2,
+                "rate": 7.5,
+                "subtotal": 15.0
+              }
+            ]
           }
         },
         {
@@ -4286,6 +4857,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 17,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4348,6 +4924,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4410,6 +4991,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4472,6 +5058,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 10.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 4 PRO",
+                "qty": 1,
+                "rate": 10.0,
+                "subtotal": 10.0
+              }
+            ]
           }
         },
         {
@@ -4534,6 +5132,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4596,6 +5199,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 11,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4658,6 +5266,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -4712,6 +5325,30 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 112,
           "17": 58
         }
+      },
+      "iot_corte": {
+        "unidades": 5,
+        "comision": 65.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 4 PRO",
+            "qty": 1,
+            "rate": 10.0,
+            "subtotal": 10.0
+          },
+          {
+            "modelo": "ENCO BUDS 3 PRO",
+            "qty": 2,
+            "rate": 7.5,
+            "subtotal": 15.0
+          },
+          {
+            "modelo": "OPPO WATCH S",
+            "qty": 2,
+            "rate": 20.0,
+            "subtotal": 40.0
+          }
+        ]
       }
     },
     {
@@ -4787,6 +5424,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 100.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5 PRO",
+                "qty": 1,
+                "rate": 100.0,
+                "subtotal": 100.0
+              }
+            ]
           }
         },
         {
@@ -4850,6 +5499,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4913,6 +5567,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 13,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -4976,6 +5635,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5039,6 +5703,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5102,6 +5771,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5165,6 +5839,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5228,6 +5907,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5291,6 +5975,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5354,6 +6043,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5417,6 +6111,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -5481,6 +6180,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5543,6 +6247,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 11,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5605,6 +6314,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 17,
               "17": 10
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5667,6 +6381,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 10.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5 PRO",
+                "qty": 1,
+                "rate": 10.0,
+                "subtotal": 10.0
+              }
+            ]
           }
         },
         {
@@ -5729,6 +6455,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5791,6 +6522,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5853,6 +6589,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -5915,6 +6656,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -5969,6 +6715,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 58,
           "17": 33
         }
+      },
+      "iot_corte": {
+        "unidades": 1,
+        "comision": 10.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5 PRO",
+            "qty": 1,
+            "rate": 10.0,
+            "subtotal": 10.0
+          }
+        ]
       }
     },
     {
@@ -6044,6 +6802,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6107,6 +6870,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 14,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6170,6 +6938,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6233,6 +7006,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6296,6 +7074,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 160.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 85.0,
+                "subtotal": 85.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 75.0,
+                "subtotal": 75.0
+              }
+            ]
           }
         },
         {
@@ -6359,6 +7155,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 10,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6422,6 +7223,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -6486,6 +7292,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 14,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6548,6 +7359,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 16,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 15.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              }
+            ]
           }
         },
         {
@@ -6610,6 +7439,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 14,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6672,6 +7506,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6734,6 +7573,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -6788,6 +7632,24 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 50,
           "17": 22
         }
+      },
+      "iot_corte": {
+        "unidades": 2,
+        "comision": 15.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5S",
+            "qty": 1,
+            "rate": 7.5,
+            "subtotal": 7.5
+          },
+          {
+            "modelo": "ENCO BUDS 3 PRO",
+            "qty": 1,
+            "rate": 7.5,
+            "subtotal": 7.5
+          }
+        ]
       }
     },
     {
@@ -6863,6 +7725,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6926,6 +7793,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -6989,6 +7861,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 300.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              },
+              {
+                "modelo": "OPPO WATCH X2 MINI",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7052,6 +7942,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 300.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7115,6 +8023,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 150.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7178,6 +8098,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 150.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7241,6 +8173,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 435.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 85.0,
+                "subtotal": 85.0
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 200.0,
+                "subtotal": 200.0
+              },
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7304,6 +8260,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 7
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 150.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -7367,6 +8335,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7430,6 +8403,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -7494,6 +8472,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 14
             }
+          },
+          "iot_corte": {
+            "unidades": 4,
+            "comision": 80.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 2,
+                "rate": 20.0,
+                "subtotal": 40.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              },
+              {
+                "modelo": "OPPO WATCH X2 MINI",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -7556,6 +8558,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 10,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 60.0,
+            "detalle": [
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 2,
+                "rate": 20.0,
+                "subtotal": 40.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -7618,6 +8638,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7680,6 +8705,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7742,6 +8772,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 47.5,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "OPPO BUBBLE",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              },
+              {
+                "modelo": "OPPO PAD SE",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -7804,6 +8858,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7866,6 +8925,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7928,6 +8992,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -7990,6 +9059,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8052,6 +9126,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -8106,6 +9185,42 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 38,
           "17": 26
         }
+      },
+      "iot_corte": {
+        "unidades": 10,
+        "comision": 187.5,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5S",
+            "qty": 1,
+            "rate": 7.5,
+            "subtotal": 7.5
+          },
+          {
+            "modelo": "OPPO BUBBLE",
+            "qty": 1,
+            "rate": 20.0,
+            "subtotal": 20.0
+          },
+          {
+            "modelo": "OPPO PAD SE",
+            "qty": 5,
+            "rate": 20.0,
+            "subtotal": 100.0
+          },
+          {
+            "modelo": "OPPO WATCH S",
+            "qty": 2,
+            "rate": 20.0,
+            "subtotal": 40.0
+          },
+          {
+            "modelo": "OPPO WATCH X2 MINI",
+            "qty": 1,
+            "rate": 20.0,
+            "subtotal": 20.0
+          }
+        ]
       }
     },
     {
@@ -8181,6 +9296,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8244,6 +9364,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 250.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5 PRO",
+                "qty": 1,
+                "rate": 100.0,
+                "subtotal": 100.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -8307,6 +9445,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8370,6 +9513,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8433,6 +9581,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8496,6 +9649,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8559,6 +9717,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8622,6 +9785,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8685,6 +9853,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8748,6 +9921,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8811,6 +9989,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8874,6 +10057,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -8937,6 +10125,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9000,6 +10193,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -9064,6 +10262,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 11,
               "17": 10
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 30.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5 PRO",
+                "qty": 1,
+                "rate": 10.0,
+                "subtotal": 10.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -9126,6 +10342,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 8,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9188,6 +10409,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9250,6 +10476,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9312,6 +10543,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9374,6 +10610,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9436,6 +10677,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9498,6 +10744,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9560,6 +10811,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9622,6 +10878,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 3,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9684,6 +10945,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9746,6 +11012,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -9808,6 +11079,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -9862,6 +11138,24 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 69,
           "17": 47
         }
+      },
+      "iot_corte": {
+        "unidades": 2,
+        "comision": 30.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5 PRO",
+            "qty": 1,
+            "rate": 10.0,
+            "subtotal": 10.0
+          },
+          {
+            "modelo": "OPPO WATCH S",
+            "qty": 1,
+            "rate": 20.0,
+            "subtotal": 20.0
+          }
+        ]
       }
     },
     {
@@ -9937,6 +11231,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 180.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 3,
+                "rate": 60.0,
+                "subtotal": 180.0
+              }
+            ]
           }
         },
         {
@@ -10000,6 +11306,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 85.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 85.0,
+                "subtotal": 85.0
+              }
+            ]
           }
         },
         {
@@ -10063,6 +11381,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10126,6 +11449,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10189,6 +11517,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10252,6 +11585,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 150.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -10315,6 +11660,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 5,
+            "comision": 470.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 2,
+                "rate": 85.0,
+                "subtotal": 170.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 2,
+                "rate": 75.0,
+                "subtotal": 150.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 150.0,
+                "subtotal": 150.0
+              }
+            ]
           }
         },
         {
@@ -10378,6 +11747,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10441,6 +11815,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -10505,6 +11884,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 5
             }
+          },
+          "iot_corte": {
+            "unidades": 3,
+            "comision": 15.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 3,
+                "rate": 5.0,
+                "subtotal": 15.0
+              }
+            ]
           }
         },
         {
@@ -10567,6 +11958,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 7.5,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              }
+            ]
           }
         },
         {
@@ -10629,6 +12032,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10691,6 +12099,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10753,6 +12166,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -10815,6 +12233,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 20.0,
+            "detalle": [
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -10877,6 +12307,30 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 5,
+            "comision": 50.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 2,
+                "rate": 7.5,
+                "subtotal": 15.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 2,
+                "rate": 7.5,
+                "subtotal": 15.0
+              },
+              {
+                "modelo": "OPPO WATCH S",
+                "qty": 1,
+                "rate": 20.0,
+                "subtotal": 20.0
+              }
+            ]
           }
         },
         {
@@ -10939,6 +12393,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11001,6 +12460,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 2,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -11055,6 +12519,36 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 38,
           "17": 30
         }
+      },
+      "iot_corte": {
+        "unidades": 10,
+        "comision": 92.5,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 5S",
+            "qty": 3,
+            "rate": 7.5,
+            "subtotal": 22.5
+          },
+          {
+            "modelo": "ENCO BUDS 3",
+            "qty": 3,
+            "rate": 5.0,
+            "subtotal": 15.0
+          },
+          {
+            "modelo": "ENCO BUDS 3 PRO",
+            "qty": 2,
+            "rate": 7.5,
+            "subtotal": 15.0
+          },
+          {
+            "modelo": "OPPO WATCH S",
+            "qty": 2,
+            "rate": 20.0,
+            "subtotal": 40.0
+          }
+        ]
       }
     },
     {
@@ -11130,6 +12624,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 4,
+            "comision": 300.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 4",
+                "qty": 3,
+                "rate": 75.0,
+                "subtotal": 225.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 75.0,
+                "subtotal": 75.0
+              }
+            ]
           }
         },
         {
@@ -11193,6 +12705,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 160.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 85.0,
+                "subtotal": 85.0
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 75.0,
+                "subtotal": 75.0
+              }
+            ]
           }
         },
         {
@@ -11256,6 +12786,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11319,6 +12854,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11382,6 +12922,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11445,6 +12990,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 60.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 1,
+                "rate": 60.0,
+                "subtotal": 60.0
+              }
+            ]
           }
         },
         {
@@ -11508,6 +13065,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11571,6 +13133,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 8
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 60.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 1,
+                "rate": 60.0,
+                "subtotal": 60.0
+              }
+            ]
           }
         },
         {
@@ -11634,6 +13208,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -11698,6 +13277,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 4
             }
+          },
+          "iot_corte": {
+            "unidades": 4,
+            "comision": 30.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 4",
+                "qty": 3,
+                "rate": 7.5,
+                "subtotal": 22.5
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              }
+            ]
           }
         },
         {
@@ -11760,6 +13357,24 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 12,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 2,
+            "comision": 15.0,
+            "detalle": [
+              {
+                "modelo": "ENCO AIR 5S",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              },
+              {
+                "modelo": "ENCO BUDS 3 PRO",
+                "qty": 1,
+                "rate": 7.5,
+                "subtotal": 7.5
+              }
+            ]
           }
         },
         {
@@ -11822,6 +13437,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11884,6 +13504,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -11946,6 +13571,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 3
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12008,6 +13638,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 5.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 1,
+                "rate": 5.0,
+                "subtotal": 5.0
+              }
+            ]
           }
         },
         {
@@ -12070,6 +13712,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12132,6 +13779,18 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 7,
               "17": 8
             }
+          },
+          "iot_corte": {
+            "unidades": 1,
+            "comision": 5.0,
+            "detalle": [
+              {
+                "modelo": "ENCO BUDS 3",
+                "qty": 1,
+                "rate": 5.0,
+                "subtotal": 5.0
+              }
+            ]
           }
         },
         {
@@ -12194,6 +13853,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -12248,6 +13912,36 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 43,
           "17": 30
         }
+      },
+      "iot_corte": {
+        "unidades": 8,
+        "comision": 55.0,
+        "detalle": [
+          {
+            "modelo": "ENCO AIR 4",
+            "qty": 3,
+            "rate": 7.5,
+            "subtotal": 22.5
+          },
+          {
+            "modelo": "ENCO AIR 5S",
+            "qty": 1,
+            "rate": 7.5,
+            "subtotal": 7.5
+          },
+          {
+            "modelo": "ENCO BUDS 3",
+            "qty": 2,
+            "rate": 5.0,
+            "subtotal": 10.0
+          },
+          {
+            "modelo": "ENCO BUDS 3 PRO",
+            "qty": 2,
+            "rate": 7.5,
+            "subtotal": 15.0
+          }
+        ]
       }
     }
   ],
@@ -12323,6 +14017,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12385,6 +14084,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12447,6 +14151,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12509,6 +14218,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12571,6 +14285,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12633,6 +14352,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12695,6 +14419,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12757,6 +14486,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12819,6 +14553,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12881,6 +14620,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -12943,6 +14687,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13005,6 +14754,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13067,6 +14821,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13129,6 +14888,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13191,6 +14955,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13253,6 +15022,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13315,6 +15089,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13377,6 +15156,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13439,6 +15223,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13501,6 +15290,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13563,6 +15357,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13625,6 +15424,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -13679,6 +15483,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 3,
           "17": 1
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -13752,6 +15561,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13814,6 +15628,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13876,6 +15695,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 6,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -13938,6 +15762,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14000,6 +15829,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -14054,6 +15888,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 10,
           "17": 7
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -14127,6 +15966,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14189,6 +16033,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 6
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14251,6 +16100,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14313,6 +16167,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 5,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14375,6 +16234,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14437,6 +16301,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14499,6 +16368,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14561,6 +16435,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -14615,6 +16494,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 8,
           "17": 6
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -14688,6 +16572,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14750,6 +16639,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14812,6 +16706,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14874,6 +16773,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14936,6 +16840,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -14998,6 +16907,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15060,6 +16974,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15122,6 +17041,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15184,6 +17108,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -15238,6 +17167,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 0,
           "17": 0
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -15311,6 +17245,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15373,6 +17312,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15435,6 +17379,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15497,6 +17446,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15559,6 +17513,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15621,6 +17580,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15683,6 +17647,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15745,6 +17714,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15807,6 +17781,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15869,6 +17848,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15931,6 +17915,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -15993,6 +17982,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16055,6 +18049,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16117,6 +18116,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16179,6 +18183,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16241,6 +18250,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16303,6 +18317,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16365,6 +18384,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -16419,6 +18443,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 1,
           "17": 0
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -16492,6 +18521,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16554,6 +18588,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16616,6 +18655,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16678,6 +18722,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 4,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16740,6 +18789,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16802,6 +18856,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16864,6 +18923,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16926,6 +18990,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -16988,6 +19057,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17050,6 +19124,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17112,6 +19191,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17174,6 +19258,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17236,6 +19325,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -17290,6 +19384,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 4,
           "17": 2
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     },
     {
@@ -17363,6 +19462,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 2
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17425,6 +19529,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17487,6 +19596,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17549,6 +19663,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 0,
               "17": 0
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         },
         {
@@ -17611,6 +19730,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "16": 1,
               "17": 1
             }
+          },
+          "iot_corte": {
+            "unidades": 0,
+            "comision": 0,
+            "detalle": []
           }
         }
       ],
@@ -17665,6 +19789,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "16": 4,
           "17": 3
         }
+      },
+      "iot_corte": {
+        "unidades": 0,
+        "comision": 0,
+        "detalle": []
       }
     }
   ]
