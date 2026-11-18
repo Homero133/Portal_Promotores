@@ -1,11 +1,11 @@
 /**
  * Base de Datos Oficial de Supervisores (Farmers & Hunters)
- * Corte al Día 13 (Cerrado a 13/11/2026 23:59:59)
+ * Corte al Día 17 (Cerrado a 17/11/2026 23:59:59)
  */
 window.PORTAL_SUPERVISORES_DATA = {
   "meta": {
-    "cutoffDay": 13,
-    "cutoffDate": "2026-11-13",
+    "cutoffDay": 17,
+    "cutoffDate": "2026-11-17",
     "toleranceDays": 10,
     "totalFarmers": 9,
     "totalHunters": 7
@@ -34,18 +34,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 32,
-            "netas": 30,
-            "no_activadas": 2,
+            "brutas": 60,
+            "netas": 57,
+            "no_activadas": 3,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 9,
-            "A7_PRO": 0,
+            "RENO_16_5G": 5,
+            "RENO_16F": 19,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 10,
-            "A_LOW": 4,
+            "A_HIGH": 7,
+            "A_MIDDLE": 17,
+            "A_LOW": 7,
             "daily_netas": {
               "1": 1,
               "2": 6,
@@ -56,10 +56,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 0,
               "8": 1,
               "9": 8,
-              "10": 2,
+              "10": 3,
               "11": 2,
               "12": 1,
-              "13": 2
+              "13": 3,
+              "14": 7,
+              "15": 10,
+              "16": 3,
+              "17": 5
             },
             "daily_brutas": {
               "1": 1,
@@ -74,7 +78,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 7,
+              "15": 12,
+              "16": 3,
+              "17": 6
             }
           }
         },
@@ -89,18 +97,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 33,
-            "netas": 31,
+            "brutas": 54,
+            "netas": 50,
             "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 15,
-            "A7_PRO": 0,
+            "desfasadas": 3,
+            "RENO_16_5G": 3,
+            "RENO_16F": 22,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 7,
-            "A_LOW": 4,
+            "A_HIGH": 5,
+            "A_MIDDLE": 11,
+            "A_LOW": 6,
             "daily_netas": {
               "1": 1,
               "2": 5,
@@ -113,8 +121,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 4,
               "10": 0,
               "11": 5,
-              "12": 3,
-              "13": 4
+              "12": 4,
+              "13": 4,
+              "14": 7,
+              "15": 5,
+              "16": 4,
+              "17": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -129,7 +141,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 6,
               "12": 4,
-              "13": 4
+              "13": 4,
+              "14": 8,
+              "15": 7,
+              "16": 4,
+              "17": 2
             }
           }
         },
@@ -144,18 +160,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 32,
           "ventas_corte": {
-            "brutas": 34,
-            "netas": 28,
-            "no_activadas": 2,
-            "desfasadas": 4,
+            "brutas": 68,
+            "netas": 56,
+            "no_activadas": 5,
+            "desfasadas": 7,
             "RENO_16_5G": 0,
-            "RENO_16F": 13,
-            "A7_PRO": 1,
+            "RENO_16F": 22,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 7,
-            "A_MIDDLE": 4,
-            "A_LOW": 2,
+            "A_HIGH": 14,
+            "A_MIDDLE": 8,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 2,
               "2": 6,
@@ -169,7 +185,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 5,
+              "14": 9,
+              "15": 5,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -184,7 +204,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 5
+              "13": 5,
+              "14": 10,
+              "15": 10,
+              "16": 10,
+              "17": 4
             }
           }
         },
@@ -199,18 +223,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 17,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 22,
-            "no_activadas": 0,
-            "desfasadas": 3,
+            "brutas": 52,
+            "netas": 46,
+            "no_activadas": 1,
+            "desfasadas": 5,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
+            "RENO_16F": 15,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 4,
-            "A_MIDDLE": 2,
-            "A_LOW": 9,
+            "RENO_OTHERS": 5,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
+            "A_LOW": 12,
             "daily_netas": {
               "1": 7,
               "2": 4,
@@ -224,7 +248,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 9,
+              "15": 8,
+              "16": 7,
+              "17": 0
             },
             "daily_brutas": {
               "1": 8,
@@ -239,7 +267,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 12,
+              "15": 8,
+              "16": 7,
+              "17": 0
             }
           }
         },
@@ -254,17 +286,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 11,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 21,
-            "no_activadas": 2,
+            "brutas": 38,
+            "netas": 36,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
-            "A_MIDDLE": 6,
+            "A_HIGH": 11,
+            "A_MIDDLE": 15,
             "A_LOW": 1,
             "daily_netas": {
               "1": 3,
@@ -277,9 +309,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 1,
               "9": 5,
               "10": 2,
-              "11": 1,
+              "11": 2,
               "12": 0,
-              "13": 3
+              "13": 4,
+              "14": 3,
+              "15": 5,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -294,7 +330,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 3,
+              "15": 5,
+              "16": 5,
+              "17": 1
             }
           }
         },
@@ -309,18 +349,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 22,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 18,
+            "brutas": 36,
+            "netas": 31,
             "no_activadas": 2,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 13,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 5,
-            "A_LOW": 0,
+            "A_HIGH": 9,
+            "A_MIDDLE": 8,
+            "A_LOW": 1,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -334,7 +374,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 6,
+              "16": 3,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -349,7 +393,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 5,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 6,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -364,18 +412,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 19,
+            "brutas": 45,
+            "netas": 40,
             "no_activadas": 5,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "RENO_16F": 15,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 5,
-            "A_LOW": 3,
+            "A_HIGH": 8,
+            "A_MIDDLE": 9,
+            "A_LOW": 5,
             "daily_netas": {
               "1": 4,
               "2": 1,
@@ -383,13 +431,17 @@ window.PORTAL_SUPERVISORES_DATA = {
               "4": 0,
               "5": 0,
               "6": 0,
-              "7": 4,
+              "7": 5,
               "8": 2,
               "9": 2,
               "10": 2,
-              "11": 0,
+              "11": 1,
               "12": 0,
-              "13": 3
+              "13": 4,
+              "14": 5,
+              "15": 4,
+              "16": 8,
+              "17": 1
             },
             "daily_brutas": {
               "1": 4,
@@ -404,7 +456,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 5,
+              "16": 9,
+              "17": 1
             }
           }
         },
@@ -419,18 +475,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 12,
+            "brutas": 28,
+            "netas": 27,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 0,
+            "A_HIGH": 2,
             "A_MIDDLE": 2,
-            "A_LOW": 5,
+            "A_LOW": 10,
             "daily_netas": {
               "1": 0,
               "2": 1,
@@ -444,7 +500,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 10,
+              "16": 2,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -459,7 +519,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 10,
+              "16": 2,
+              "17": 3
             }
           }
         },
@@ -474,17 +538,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 11,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 8,
-            "no_activadas": 1,
+            "brutas": 19,
+            "netas": 17,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
-            "A7_PRO": 0,
+            "RENO_16F": 7,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 1,
-            "A_MIDDLE": 4,
+            "A_MIDDLE": 6,
             "A_LOW": 2,
             "daily_netas": {
               "1": 1,
@@ -499,7 +563,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 4,
+              "16": 1,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -514,7 +582,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 4,
+              "16": 1,
+              "17": 3
             }
           }
         },
@@ -529,17 +601,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 15,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 10,
-            "netas": 10,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 25,
+            "netas": 23,
+            "no_activadas": 1,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 4,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 10,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -554,7 +626,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 1,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -569,7 +645,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 6,
+              "15": 2,
+              "16": 6,
+              "17": 1
             }
           }
         }
@@ -585,18 +665,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 162,
           "tgt_foco": 57,
           "ventas_corte": {
-            "brutas": 54,
-            "netas": 47,
-            "no_activadas": 6,
-            "desfasadas": 1,
+            "brutas": 112,
+            "netas": 105,
+            "no_activadas": 4,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 15,
-            "A7_PRO": 2,
+            "RENO_16F": 42,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 12,
-            "A_MIDDLE": 13,
-            "A_LOW": 5,
+            "A_HIGH": 20,
+            "A_MIDDLE": 34,
+            "A_LOW": 6,
             "daily_netas": {
               "1": 4,
               "2": 3,
@@ -607,10 +687,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 4,
               "8": 6,
               "9": 12,
-              "10": 2,
-              "11": 3,
+              "10": 3,
+              "11": 4,
               "12": 1,
-              "13": 4
+              "13": 6,
+              "14": 10,
+              "15": 18,
+              "16": 15,
+              "17": 11
             },
             "daily_brutas": {
               "1": 4,
@@ -625,7 +709,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 1,
-              "13": 7
+              "13": 7,
+              "14": 11,
+              "15": 18,
+              "16": 16,
+              "17": 13
             }
           }
         },
@@ -639,18 +727,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 156,
           "tgt_foco": 26,
           "ventas_corte": {
-            "brutas": 56,
-            "netas": 49,
-            "no_activadas": 7,
+            "brutas": 105,
+            "netas": 97,
+            "no_activadas": 8,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 13,
-            "A7_PRO": 0,
+            "RENO_16_5G": 5,
+            "RENO_16F": 34,
+            "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 12,
-            "A_MIDDLE": 15,
-            "A_LOW": 7,
+            "A_HIGH": 15,
+            "A_MIDDLE": 26,
+            "A_LOW": 12,
             "daily_netas": {
               "1": 5,
               "2": 7,
@@ -658,13 +746,17 @@ window.PORTAL_SUPERVISORES_DATA = {
               "4": 0,
               "5": 3,
               "6": 3,
-              "7": 4,
+              "7": 5,
               "8": 3,
               "9": 10,
-              "10": 4,
-              "11": 2,
+              "10": 5,
+              "11": 3,
               "12": 1,
-              "13": 5
+              "13": 7,
+              "14": 12,
+              "15": 14,
+              "16": 11,
+              "17": 6
             },
             "daily_brutas": {
               "1": 5,
@@ -679,7 +771,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 4,
               "12": 1,
-              "13": 7
+              "13": 7,
+              "14": 13,
+              "15": 17,
+              "16": 12,
+              "17": 7
             }
           }
         },
@@ -693,18 +789,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 106,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 33,
-            "netas": 31,
+            "brutas": 54,
+            "netas": 50,
             "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 15,
-            "A7_PRO": 0,
+            "desfasadas": 3,
+            "RENO_16_5G": 3,
+            "RENO_16F": 22,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 7,
-            "A_LOW": 4,
+            "A_HIGH": 5,
+            "A_MIDDLE": 11,
+            "A_LOW": 6,
             "daily_netas": {
               "1": 1,
               "2": 5,
@@ -717,8 +813,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 4,
               "10": 0,
               "11": 5,
-              "12": 3,
-              "13": 4
+              "12": 4,
+              "13": 4,
+              "14": 7,
+              "15": 5,
+              "16": 4,
+              "17": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -733,7 +833,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 6,
               "12": 4,
-              "13": 4
+              "13": 4,
+              "14": 8,
+              "15": 7,
+              "16": 4,
+              "17": 2
             }
           }
         },
@@ -747,18 +851,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 96,
           "tgt_foco": 32,
           "ventas_corte": {
-            "brutas": 34,
-            "netas": 28,
-            "no_activadas": 2,
-            "desfasadas": 4,
+            "brutas": 68,
+            "netas": 56,
+            "no_activadas": 5,
+            "desfasadas": 7,
             "RENO_16_5G": 0,
-            "RENO_16F": 13,
-            "A7_PRO": 1,
+            "RENO_16F": 22,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 7,
-            "A_MIDDLE": 4,
-            "A_LOW": 2,
+            "A_HIGH": 14,
+            "A_MIDDLE": 8,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 2,
               "2": 6,
@@ -772,7 +876,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 5,
+              "14": 9,
+              "15": 5,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -787,7 +895,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 5
+              "13": 5,
+              "14": 10,
+              "15": 10,
+              "16": 10,
+              "17": 4
             }
           }
         },
@@ -801,18 +913,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 89,
           "tgt_foco": 17,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 22,
-            "no_activadas": 0,
-            "desfasadas": 3,
+            "brutas": 52,
+            "netas": 46,
+            "no_activadas": 1,
+            "desfasadas": 5,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
+            "RENO_16F": 15,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 4,
-            "A_MIDDLE": 2,
-            "A_LOW": 9,
+            "RENO_OTHERS": 5,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
+            "A_LOW": 12,
             "daily_netas": {
               "1": 7,
               "2": 4,
@@ -826,7 +938,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 9,
+              "15": 8,
+              "16": 7,
+              "17": 0
             },
             "daily_brutas": {
               "1": 8,
@@ -841,7 +957,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 12,
+              "15": 8,
+              "16": 7,
+              "17": 0
             }
           }
         },
@@ -855,18 +975,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 84,
           "tgt_foco": 22,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 18,
+            "brutas": 36,
+            "netas": 31,
             "no_activadas": 2,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 13,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 5,
-            "A_LOW": 0,
+            "A_HIGH": 9,
+            "A_MIDDLE": 8,
+            "A_LOW": 1,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -880,7 +1000,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 6,
+              "16": 3,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -895,7 +1019,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 5,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 6,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -909,18 +1037,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 52,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 12,
+            "brutas": 28,
+            "netas": 27,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 0,
+            "A_HIGH": 2,
             "A_MIDDLE": 2,
-            "A_LOW": 5,
+            "A_LOW": 10,
             "daily_netas": {
               "1": 0,
               "2": 1,
@@ -934,7 +1062,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 10,
+              "16": 2,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -949,7 +1081,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 10,
+              "16": 2,
+              "17": 3
             }
           }
         },
@@ -963,17 +1099,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 53,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 10,
-            "netas": 10,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 25,
+            "netas": 23,
+            "no_activadas": 1,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 4,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 10,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -988,7 +1124,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 1,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -1003,7 +1143,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 6,
+              "15": 2,
+              "16": 6,
+              "17": 1
             }
           }
         },
@@ -1042,7 +1186,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1057,24 +1205,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 247,
-        "netas": 217,
-        "no_activadas": 18,
-        "desfasadas": 12,
-        "RENO_16_5G": 4,
-        "RENO_16F": 71,
-        "A7_PRO": 3,
+        "brutas": 480,
+        "netas": 435,
+        "no_activadas": 22,
+        "desfasadas": 23,
+        "RENO_16_5G": 8,
+        "RENO_16F": 163,
+        "A7_PRO": 14,
         "FIND": 0,
-        "RENO_OTHERS": 4,
-        "A_HIGH": 51,
-        "A_MIDDLE": 52,
-        "A_LOW": 32,
+        "RENO_OTHERS": 8,
+        "A_HIGH": 83,
+        "A_MIDDLE": 104,
+        "A_LOW": 55,
         "daily_netas": {
           "1": 22,
           "2": 29,
@@ -1082,13 +1234,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "4": 0,
           "5": 11,
           "6": 9,
-          "7": 17,
+          "7": 18,
           "8": 27,
           "9": 39,
-          "10": 9,
-          "11": 14,
-          "12": 8,
-          "13": 21
+          "10": 11,
+          "11": 16,
+          "12": 9,
+          "13": 26,
+          "14": 56,
+          "15": 67,
+          "16": 58,
+          "17": 26
         },
         "daily_brutas": {
           "1": 23,
@@ -1103,7 +1259,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 11,
           "11": 21,
           "12": 9,
-          "13": 28
+          "13": 28,
+          "14": 64,
+          "15": 78,
+          "16": 60,
+          "17": 31
         }
       }
     },
@@ -1130,17 +1290,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 4,
           "ventas_corte": {
-            "brutas": 15,
-            "netas": 12,
+            "brutas": 28,
+            "netas": 25,
             "no_activadas": 3,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 3,
+            "A_HIGH": 12,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -1155,7 +1315,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 0
+              "13": 2,
+              "14": 2,
+              "15": 5,
+              "16": 1,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -1170,7 +1334,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 5,
+              "16": 3,
+              "17": 3
             }
           }
         },
@@ -1185,17 +1353,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 2,
+            "brutas": 16,
+            "netas": 15,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 3,
-            "A_MIDDLE": 2,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -1210,7 +1378,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 6,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 0,
+              "15": 1,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1225,7 +1397,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 7,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 0,
+              "15": 1,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -1240,18 +1416,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 8,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 12,
-            "no_activadas": 5,
+            "brutas": 34,
+            "netas": 26,
+            "no_activadas": 8,
             "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16_5G": 2,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 4,
+            "A_HIGH": 9,
             "A_MIDDLE": 0,
-            "A_LOW": 3,
+            "A_LOW": 6,
             "daily_netas": {
               "1": 1,
               "2": 1,
@@ -1262,10 +1438,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 2,
               "8": 3,
               "9": 0,
-              "10": 1,
+              "10": 2,
               "11": 0,
               "12": 3,
-              "13": 1
+              "13": 2,
+              "14": 3,
+              "15": 3,
+              "16": 1,
+              "17": 5
             },
             "daily_brutas": {
               "1": 1,
@@ -1280,7 +1460,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 5,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 4,
+              "16": 2,
+              "17": 5
             }
           }
         },
@@ -1295,17 +1479,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
-            "no_activadas": 0,
+            "brutas": 14,
+            "netas": 13,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 2,
             "RENO_16F": 0,
             "A7_PRO": 0,
-            "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
+            "FIND": 1,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 3,
+            "A_MIDDLE": 2,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -1320,7 +1504,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -1335,7 +1523,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -1375,7 +1567,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -1390,7 +1586,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -1405,17 +1605,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 11,
-            "netas": 9,
-            "no_activadas": 2,
+            "brutas": 21,
+            "netas": 18,
+            "no_activadas": 3,
             "desfasadas": 0,
-            "RENO_16_5G": 4,
+            "RENO_16_5G": 10,
             "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 0,
+            "A_HIGH": 5,
+            "A_MIDDLE": 1,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -1430,7 +1630,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 3,
+              "14": 2,
+              "15": 2,
+              "16": 3,
+              "17": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -1445,7 +1649,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 2,
+              "15": 2,
+              "16": 4,
+              "17": 2
             }
           }
         },
@@ -1460,15 +1668,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 4,
+            "brutas": 8,
+            "netas": 8,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 0,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 1,
+            "RENO_OTHERS": 3,
             "A_HIGH": 2,
             "A_MIDDLE": 0,
             "A_LOW": 0,
@@ -1485,7 +1693,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1500,7 +1712,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -1540,7 +1756,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1555,7 +1775,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -1570,17 +1794,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 0,
-            "no_activadas": 3,
+            "brutas": 6,
+            "netas": 4,
+            "no_activadas": 2,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16_5G": 1,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -1595,7 +1819,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 2,
+              "14": 1,
+              "15": 1,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1610,7 +1838,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         }
@@ -1626,17 +1858,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 5,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 2,
+            "brutas": 16,
+            "netas": 15,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 3,
-            "A_MIDDLE": 2,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -1651,7 +1883,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 6,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 0,
+              "15": 1,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1666,7 +1902,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 7,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 0,
+              "15": 1,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -1680,17 +1920,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 24,
           "tgt_foco": 4,
           "ventas_corte": {
-            "brutas": 11,
-            "netas": 8,
+            "brutas": 24,
+            "netas": 21,
             "no_activadas": 3,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 2,
-            "A_MIDDLE": 2,
+            "A_HIGH": 11,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -1705,7 +1945,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 0
+              "13": 2,
+              "14": 2,
+              "15": 5,
+              "16": 1,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -1720,7 +1964,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 5,
+              "16": 3,
+              "17": 3
             }
           }
         },
@@ -1734,18 +1982,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 18,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 12,
-            "no_activadas": 5,
+            "brutas": 34,
+            "netas": 26,
+            "no_activadas": 8,
             "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16_5G": 2,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 4,
+            "A_HIGH": 9,
             "A_MIDDLE": 0,
-            "A_LOW": 3,
+            "A_LOW": 6,
             "daily_netas": {
               "1": 1,
               "2": 1,
@@ -1756,10 +2004,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 2,
               "8": 3,
               "9": 0,
-              "10": 1,
+              "10": 2,
               "11": 0,
               "12": 3,
-              "13": 1
+              "13": 2,
+              "14": 3,
+              "15": 3,
+              "16": 1,
+              "17": 5
             },
             "daily_brutas": {
               "1": 1,
@@ -1774,7 +2026,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 5,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 4,
+              "16": 2,
+              "17": 5
             }
           }
         },
@@ -1788,17 +2044,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 31,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
-            "no_activadas": 0,
+            "brutas": 14,
+            "netas": 13,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 2,
             "RENO_16F": 0,
             "A7_PRO": 0,
-            "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
+            "FIND": 1,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 3,
+            "A_MIDDLE": 2,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -1813,7 +2069,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -1828,7 +2088,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -1867,7 +2131,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -1882,7 +2150,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -1896,11 +2168,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 22,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 7,
-            "no_activadas": 2,
+            "brutas": 14,
+            "netas": 13,
+            "no_activadas": 1,
             "desfasadas": 0,
-            "RENO_16_5G": 3,
+            "RENO_16_5G": 9,
             "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
@@ -1921,7 +2193,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 2,
+              "14": 2,
+              "15": 2,
+              "16": 0,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -1936,7 +2212,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 2,
+              "16": 0,
+              "17": 1
             }
           }
         },
@@ -1950,15 +2230,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 2,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 4,
+            "brutas": 8,
+            "netas": 8,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 0,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 1,
+            "RENO_OTHERS": 3,
             "A_HIGH": 2,
             "A_MIDDLE": 0,
             "A_LOW": 0,
@@ -1975,7 +2255,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1990,7 +2274,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -2004,14 +2292,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 16,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 5,
-            "netas": 3,
-            "no_activadas": 2,
+            "brutas": 13,
+            "netas": 12,
+            "no_activadas": 1,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16_5G": 2,
+            "RENO_16F": 8,
             "A7_PRO": 0,
-            "FIND": 0,
+            "FIND": 1,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
             "A_MIDDLE": 1,
@@ -2029,7 +2317,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 3,
+              "14": 1,
+              "15": 3,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -2044,7 +2336,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 1,
+              "15": 3,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -2058,17 +2354,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 4,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 6,
-            "netas": 2,
-            "no_activadas": 4,
+            "brutas": 17,
+            "netas": 14,
+            "no_activadas": 3,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 0,
+            "A_HIGH": 6,
+            "A_MIDDLE": 8,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -2083,7 +2379,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 4,
+              "14": 3,
+              "15": 3,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2098,7 +2398,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 3,
+              "15": 4,
+              "16": 3,
+              "17": 1
             }
           }
         },
@@ -2137,7 +2441,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2152,7 +2460,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -2166,17 +2478,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 8,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 1,
-            "netas": 1,
+            "brutas": 4,
+            "netas": 4,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
-            "A_MIDDLE": 1,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -2191,7 +2503,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2206,7 +2522,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 2,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -2220,17 +2540,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 14,
           "tgt_foco": 4,
           "ventas_corte": {
-            "brutas": 2,
-            "netas": 2,
-            "no_activadas": 0,
+            "brutas": 7,
+            "netas": 5,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 1,
             "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_HIGH": 2,
+            "A_MIDDLE": 1,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -2245,7 +2565,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 3,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2260,7 +2584,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 4,
+              "17": 1
             }
           }
         },
@@ -2299,7 +2627,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2314,7 +2646,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -2353,7 +2689,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2368,7 +2708,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -2407,7 +2751,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2422,7 +2770,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -2461,7 +2813,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2476,7 +2832,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -2490,17 +2850,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 9,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 0,
-            "no_activadas": 3,
+            "brutas": 6,
+            "netas": 4,
+            "no_activadas": 2,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16_5G": 1,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -2515,7 +2875,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 2,
+              "14": 1,
+              "15": 1,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2530,7 +2894,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -2544,14 +2912,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 9,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
-            "FIND": 0,
+            "FIND": 1,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
             "A_MIDDLE": 0,
@@ -2569,7 +2937,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2584,24 +2956,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 87,
-        "netas": 65,
-        "no_activadas": 22,
+        "brutas": 166,
+        "netas": 143,
+        "no_activadas": 23,
         "desfasadas": 0,
-        "RENO_16_5G": 10,
-        "RENO_16F": 15,
+        "RENO_16_5G": 20,
+        "RENO_16F": 35,
         "A7_PRO": 0,
-        "FIND": 0,
-        "RENO_OTHERS": 7,
-        "A_HIGH": 20,
-        "A_MIDDLE": 9,
-        "A_LOW": 4,
+        "FIND": 3,
+        "RENO_OTHERS": 10,
+        "A_HIGH": 42,
+        "A_MIDDLE": 26,
+        "A_LOW": 7,
         "daily_netas": {
           "1": 5,
           "2": 8,
@@ -2612,10 +2988,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "7": 8,
           "8": 9,
           "9": 5,
-          "10": 2,
+          "10": 3,
           "11": 10,
           "12": 5,
-          "13": 5
+          "13": 18,
+          "14": 13,
+          "15": 25,
+          "16": 15,
+          "17": 11
         },
         "daily_brutas": {
           "1": 5,
@@ -2630,7 +3010,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 3,
           "11": 11,
           "12": 7,
-          "13": 18
+          "13": 18,
+          "14": 16,
+          "15": 27,
+          "16": 23,
+          "17": 13
         }
       }
     },
@@ -2657,17 +3041,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 32,
-            "netas": 31,
-            "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "brutas": 72,
+            "netas": 66,
+            "no_activadas": 4,
+            "desfasadas": 2,
+            "RENO_16_5G": 3,
+            "RENO_16F": 13,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
-            "A_MIDDLE": 17,
+            "A_HIGH": 16,
+            "A_MIDDLE": 33,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -2682,7 +3066,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 9,
+              "15": 15,
+              "16": 8,
+              "17": 3
             },
             "daily_brutas": {
               "1": 6,
@@ -2697,7 +3085,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 9,
+              "15": 17,
+              "16": 11,
+              "17": 3
             }
           }
         },
@@ -2712,17 +3104,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 6,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 27,
+            "brutas": 46,
+            "netas": 43,
             "no_activadas": 1,
-            "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 6,
+            "desfasadas": 2,
+            "RENO_16_5G": 4,
+            "RENO_16F": 12,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 17,
+            "A_HIGH": 4,
+            "A_MIDDLE": 22,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -2737,7 +3129,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 0
+              "13": 1,
+              "14": 3,
+              "15": 5,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -2752,7 +3148,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 7,
+              "16": 4,
+              "17": 4
             }
           }
         },
@@ -2767,17 +3167,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 7,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 28,
-            "no_activadas": 0,
-            "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 8,
-            "A7_PRO": 2,
+            "brutas": 66,
+            "netas": 62,
+            "no_activadas": 3,
+            "desfasadas": 1,
+            "RENO_16_5G": 3,
+            "RENO_16F": 19,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 11,
+            "A_HIGH": 19,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -2792,7 +3192,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 9,
+              "15": 12,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -2807,7 +3211,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 9,
+              "15": 12,
+              "16": 12,
+              "17": 5
             }
           }
         },
@@ -2822,17 +3230,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 26,
-            "netas": 26,
-            "no_activadas": 0,
+            "brutas": 55,
+            "netas": 53,
+            "no_activadas": 2,
             "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 6,
-            "A7_PRO": 0,
+            "RENO_16_5G": 2,
+            "RENO_16F": 14,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 14,
+            "A_HIGH": 8,
+            "A_MIDDLE": 27,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -2847,7 +3255,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 7,
+              "15": 8,
+              "16": 7,
+              "17": 5
             },
             "daily_brutas": {
               "1": 7,
@@ -2862,7 +3274,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 7,
+              "15": 8,
+              "16": 8,
+              "17": 6
             }
           }
         },
@@ -2877,17 +3293,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 24,
+            "brutas": 31,
+            "netas": 30,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 6,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 11,
+            "A_HIGH": 8,
+            "A_MIDDLE": 14,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -2902,7 +3318,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 2,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -2917,7 +3337,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 3,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -2932,17 +3356,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 31,
-            "netas": 28,
-            "no_activadas": 0,
-            "desfasadas": 3,
+            "brutas": 53,
+            "netas": 45,
+            "no_activadas": 2,
+            "desfasadas": 6,
             "RENO_16_5G": 1,
             "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 19,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 12,
+            "A_MIDDLE": 30,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -2957,7 +3381,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 3,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 5,
+              "16": 7,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2972,7 +3400,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 3,
-              "13": 3
+              "13": 3,
+              "14": 6,
+              "15": 6,
+              "16": 10,
+              "17": 0
             }
           }
         },
@@ -2987,17 +3419,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 23,
-            "no_activadas": 1,
-            "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 0,
+            "brutas": 50,
+            "netas": 45,
+            "no_activadas": 2,
+            "desfasadas": 3,
+            "RENO_16_5G": 1,
+            "RENO_16F": 12,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 13,
+            "A_HIGH": 13,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3012,7 +3444,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 5,
+              "16": 6,
+              "17": 5
             },
             "daily_brutas": {
               "1": 2,
@@ -3027,7 +3463,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 6,
+              "16": 8,
+              "17": 6
             }
           }
         },
@@ -3042,17 +3482,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 23,
-            "no_activadas": 2,
+            "brutas": 44,
+            "netas": 43,
+            "no_activadas": 1,
             "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16_5G": 2,
+            "RENO_16F": 7,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 12,
+            "A_HIGH": 12,
+            "A_MIDDLE": 21,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3067,7 +3507,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 2,
-              "13": 1
+              "13": 3,
+              "14": 5,
+              "15": 6,
+              "16": 5,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -3082,7 +3526,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 6,
+              "16": 5,
+              "17": 3
             }
           }
         },
@@ -3097,17 +3545,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 26,
-            "netas": 24,
-            "no_activadas": 0,
-            "desfasadas": 2,
-            "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 0,
+            "brutas": 43,
+            "netas": 38,
+            "no_activadas": 1,
+            "desfasadas": 4,
+            "RENO_16_5G": 1,
+            "RENO_16F": 6,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 16,
+            "A_HIGH": 10,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3122,7 +3570,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 6,
+              "16": 2,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -3137,7 +3589,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 3,
-              "13": 3
+              "13": 3,
+              "14": 3,
+              "15": 6,
+              "16": 4,
+              "17": 4
             }
           }
         },
@@ -3152,17 +3608,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 23,
+            "brutas": 42,
+            "netas": 39,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 5,
+            "desfasadas": 3,
+            "RENO_16_5G": 1,
+            "RENO_16F": 8,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 12,
+            "A_HIGH": 13,
+            "A_MIDDLE": 17,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3177,7 +3633,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -3192,7 +3652,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 5,
+              "17": 5
             }
           }
         },
@@ -3207,17 +3671,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 19,
-            "no_activadas": 3,
-            "desfasadas": 0,
+            "brutas": 48,
+            "netas": 45,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
-            "A_MIDDLE": 9,
+            "A_HIGH": 20,
+            "A_MIDDLE": 16,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -3228,11 +3692,15 @@ window.PORTAL_SUPERVISORES_DATA = {
               "6": 0,
               "7": 4,
               "8": 4,
-              "9": 3,
+              "9": 4,
               "10": 1,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 1,
+              "14": 8,
+              "15": 6,
+              "16": 6,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -3247,7 +3715,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 1,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 8,
+              "15": 6,
+              "16": 7,
+              "17": 5
             }
           }
         },
@@ -3262,17 +3734,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 7,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 22,
-            "no_activadas": 0,
+            "brutas": 47,
+            "netas": 46,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 10,
+            "RENO_16F": 18,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 7,
+            "A_HIGH": 8,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3287,7 +3759,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 9,
+              "16": 3,
+              "17": 6
             },
             "daily_brutas": {
               "1": 1,
@@ -3302,7 +3778,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 9,
+              "16": 3,
+              "17": 7
             }
           }
         },
@@ -3317,17 +3797,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 18,
-            "netas": 17,
-            "no_activadas": 1,
+            "brutas": 29,
+            "netas": 27,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 1,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 2,
-            "A_MIDDLE": 8,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 9,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3340,9 +3820,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 7,
               "9": 1,
               "10": 1,
-              "11": 0,
+              "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 3,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -3357,7 +3841,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 4,
+              "16": 5,
+              "17": 1
             }
           }
         },
@@ -3372,17 +3860,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 13,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 28,
+            "netas": 27,
+            "no_activadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 3,
+            "A_HIGH": 7,
+            "A_MIDDLE": 10,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3396,8 +3884,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 0,
               "10": 1,
               "11": 0,
-              "12": 1,
-              "13": 0
+              "12": 2,
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -3412,7 +3904,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 11,
+              "17": 3
             }
           }
         },
@@ -3427,17 +3923,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 13,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 26,
+            "netas": 23,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
-            "A7_PRO": 1,
+            "RENO_16F": 3,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 6,
+            "A_HIGH": 6,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3452,7 +3948,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 3,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -3467,7 +3967,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 4,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -3482,17 +3986,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 8,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 0,
-            "desfasadas": 2,
+            "brutas": 30,
+            "netas": 26,
+            "no_activadas": 1,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 0,
+            "RENO_16F": 6,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 4,
+            "A_HIGH": 10,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3507,7 +4011,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 5,
+              "15": 5,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -3522,7 +4030,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 5,
+              "15": 7,
+              "16": 4,
+              "17": 1
             }
           }
         }
@@ -3538,17 +4050,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 278,
           "tgt_foco": 68,
           "ventas_corte": {
-            "brutas": 78,
-            "netas": 77,
-            "no_activadas": 1,
-            "desfasadas": 0,
-            "RENO_16_5G": 3,
-            "RENO_16F": 24,
-            "A7_PRO": 3,
+            "brutas": 159,
+            "netas": 151,
+            "no_activadas": 5,
+            "desfasadas": 3,
+            "RENO_16_5G": 8,
+            "RENO_16F": 49,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 12,
-            "A_MIDDLE": 35,
+            "A_HIGH": 31,
+            "A_MIDDLE": 59,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -3563,7 +4075,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 2,
               "12": 3,
-              "13": 7
+              "13": 8,
+              "14": 18,
+              "15": 26,
+              "16": 17,
+              "17": 12
             },
             "daily_brutas": {
               "1": 3,
@@ -3578,7 +4094,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 2,
               "12": 3,
-              "13": 8
+              "13": 8,
+              "14": 18,
+              "15": 28,
+              "16": 19,
+              "17": 16
             }
           }
         },
@@ -3592,17 +4112,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 178,
           "tgt_foco": 25,
           "ventas_corte": {
-            "brutas": 58,
-            "netas": 57,
-            "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 1,
-            "RENO_16F": 10,
-            "A7_PRO": 0,
+            "brutas": 127,
+            "netas": 119,
+            "no_activadas": 6,
+            "desfasadas": 2,
+            "RENO_16_5G": 5,
+            "RENO_16F": 27,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 15,
-            "A_MIDDLE": 31,
+            "A_HIGH": 24,
+            "A_MIDDLE": 60,
             "A_LOW": 0,
             "daily_netas": {
               "1": 13,
@@ -3617,7 +4137,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 16,
+              "15": 23,
+              "16": 15,
+              "17": 8
             },
             "daily_brutas": {
               "1": 13,
@@ -3632,7 +4156,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 16,
+              "15": 25,
+              "16": 19,
+              "17": 9
             }
           }
         },
@@ -3646,17 +4174,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 129,
           "tgt_foco": 31,
           "ventas_corte": {
-            "brutas": 65,
-            "netas": 58,
-            "no_activadas": 5,
-            "desfasadas": 2,
-            "RENO_16_5G": 1,
-            "RENO_16F": 11,
-            "A7_PRO": 1,
+            "brutas": 121,
+            "netas": 110,
+            "no_activadas": 4,
+            "desfasadas": 7,
+            "RENO_16_5G": 3,
+            "RENO_16F": 18,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 9,
-            "A_MIDDLE": 36,
+            "A_HIGH": 28,
+            "A_MIDDLE": 57,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -3669,9 +4197,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 10,
               "9": 3,
               "10": 2,
-              "11": 10,
+              "11": 11,
               "12": 7,
-              "13": 4
+              "13": 8,
+              "14": 10,
+              "15": 17,
+              "16": 13,
+              "17": 7
             },
             "daily_brutas": {
               "1": 4,
@@ -3686,7 +4218,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 11,
               "12": 8,
-              "13": 9
+              "13": 9,
+              "14": 12,
+              "15": 18,
+              "16": 16,
+              "17": 10
             }
           }
         },
@@ -3700,17 +4236,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 116,
           "tgt_foco": 25,
           "ventas_corte": {
-            "brutas": 53,
-            "netas": 47,
+            "brutas": 101,
+            "netas": 90,
             "no_activadas": 3,
-            "desfasadas": 3,
+            "desfasadas": 8,
             "RENO_16_5G": 1,
-            "RENO_16F": 3,
+            "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 15,
-            "A_MIDDLE": 28,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 32,
+            "A_MIDDLE": 46,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3721,11 +4257,15 @@ window.PORTAL_SUPERVISORES_DATA = {
               "6": 2,
               "7": 9,
               "8": 7,
-              "9": 3,
+              "9": 4,
               "10": 1,
               "11": 4,
               "12": 4,
-              "13": 3
+              "13": 4,
+              "14": 13,
+              "15": 11,
+              "16": 13,
+              "17": 4
             },
             "daily_brutas": {
               "1": 1,
@@ -3740,7 +4280,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 5,
               "12": 4,
-              "13": 4
+              "13": 4,
+              "14": 14,
+              "15": 12,
+              "16": 17,
+              "17": 5
             }
           }
         },
@@ -3754,17 +4298,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 93,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 37,
-            "netas": 34,
-            "no_activadas": 1,
-            "desfasadas": 2,
-            "RENO_16_5G": 0,
-            "RENO_16F": 8,
-            "A7_PRO": 0,
+            "brutas": 80,
+            "netas": 71,
+            "no_activadas": 3,
+            "desfasadas": 6,
+            "RENO_16_5G": 1,
+            "RENO_16F": 18,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 9,
-            "A_MIDDLE": 17,
+            "A_HIGH": 23,
+            "A_MIDDLE": 27,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -3779,7 +4323,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 11,
+              "15": 10,
+              "16": 10,
+              "17": 6
             },
             "daily_brutas": {
               "1": 4,
@@ -3794,7 +4342,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 11,
+              "15": 13,
+              "16": 12,
+              "17": 7
             }
           }
         },
@@ -3808,17 +4360,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 49,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 24,
+            "brutas": 31,
+            "netas": 30,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 6,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 11,
+            "A_HIGH": 8,
+            "A_MIDDLE": 14,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -3833,7 +4385,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 2,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -3848,7 +4404,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 3,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -3862,17 +4422,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 81,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 23,
+            "brutas": 42,
+            "netas": 39,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 5,
+            "desfasadas": 3,
+            "RENO_16_5G": 1,
+            "RENO_16F": 8,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 12,
+            "A_HIGH": 13,
+            "A_MIDDLE": 17,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3887,7 +4447,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -3902,7 +4466,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 5,
+              "17": 5
             }
           }
         },
@@ -3916,17 +4484,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 17,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 18,
-            "netas": 17,
-            "no_activadas": 1,
+            "brutas": 29,
+            "netas": 27,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 1,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 2,
-            "A_MIDDLE": 8,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 9,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3939,9 +4507,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 7,
               "9": 1,
               "10": 1,
-              "11": 0,
+              "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 3,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -3956,7 +4528,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 4,
+              "16": 5,
+              "17": 1
             }
           }
         },
@@ -3970,17 +4546,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 58,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 13,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 28,
+            "netas": 27,
+            "no_activadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 3,
+            "A_HIGH": 7,
+            "A_MIDDLE": 10,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3994,8 +4570,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 0,
               "10": 1,
               "11": 0,
-              "12": 1,
-              "13": 0
+              "12": 2,
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -4010,7 +4590,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 11,
+              "17": 3
             }
           }
         },
@@ -4024,17 +4608,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 40,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 13,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 26,
+            "netas": 23,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
-            "A7_PRO": 1,
+            "RENO_16F": 3,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 6,
+            "A_HIGH": 6,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -4049,7 +4633,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 3,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -4064,23 +4652,27 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 4,
+              "16": 6,
+              "17": 2
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 384,
-        "netas": 363,
-        "no_activadas": 12,
-        "desfasadas": 9,
-        "RENO_16_5G": 8,
-        "RENO_16F": 77,
-        "A7_PRO": 7,
+        "brutas": 744,
+        "netas": 687,
+        "no_activadas": 24,
+        "desfasadas": 33,
+        "RENO_16_5G": 21,
+        "RENO_16F": 152,
+        "A7_PRO": 17,
         "FIND": 0,
-        "RENO_OTHERS": 4,
-        "A_HIGH": 80,
-        "A_MIDDLE": 187,
+        "RENO_OTHERS": 6,
+        "A_HIGH": 181,
+        "A_MIDDLE": 310,
         "A_LOW": 0,
         "daily_netas": {
           "1": 33,
@@ -4091,11 +4683,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "6": 22,
           "7": 48,
           "8": 67,
-          "9": 18,
+          "9": 19,
           "10": 18,
-          "11": 30,
-          "12": 20,
-          "13": 28
+          "11": 32,
+          "12": 21,
+          "13": 34,
+          "14": 75,
+          "15": 99,
+          "16": 95,
+          "17": 45
         },
         "daily_brutas": {
           "1": 33,
@@ -4110,7 +4706,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 19,
           "11": 33,
           "12": 23,
-          "13": 36
+          "13": 36,
+          "14": 79,
+          "15": 111,
+          "16": 112,
+          "17": 58
         }
       }
     },
@@ -4137,17 +4737,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 11,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 27,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 52,
+            "netas": 51,
+            "no_activadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 17,
+            "A_HIGH": 12,
+            "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -4161,8 +4761,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 3,
               "10": 1,
               "11": 2,
-              "12": 3,
-              "13": 2
+              "12": 4,
+              "13": 2,
+              "14": 2,
+              "15": 9,
+              "16": 8,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -4177,7 +4781,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 4,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 9,
+              "16": 8,
+              "17": 4
             }
           }
         },
@@ -4192,17 +4800,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 25,
+            "brutas": 39,
+            "netas": 39,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 5,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 9,
-            "A_MIDDLE": 11,
+            "A_HIGH": 16,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -4217,7 +4825,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 5,
+              "15": 4,
+              "16": 3,
+              "17": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -4232,7 +4844,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 5,
+              "15": 4,
+              "16": 3,
+              "17": 2
             }
           }
         },
@@ -4247,17 +4863,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 18,
           "ventas_corte": {
-            "brutas": 23,
-            "netas": 22,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 54,
+            "netas": 51,
+            "no_activadas": 0,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 2,
+            "RENO_16F": 9,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 10,
+            "A_HIGH": 13,
+            "A_MIDDLE": 25,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -4272,7 +4888,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 4,
+              "14": 3,
+              "15": 8,
+              "16": 12,
+              "17": 5
             },
             "daily_brutas": {
               "1": 4,
@@ -4287,7 +4907,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 3,
+              "15": 8,
+              "16": 13,
+              "17": 7
             }
           }
         },
@@ -4302,17 +4926,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 23,
-            "no_activadas": 1,
+            "brutas": 39,
+            "netas": 39,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 1,
+            "RENO_16F": 4,
+            "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 13,
+            "A_HIGH": 11,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 5,
@@ -4327,7 +4951,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 3
+              "13": 4,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 5,
@@ -4342,7 +4970,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 3
             }
           }
         },
@@ -4357,17 +4989,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 20,
-            "no_activadas": 2,
-            "desfasadas": 0,
+            "brutas": 38,
+            "netas": 37,
+            "no_activadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 8,
+            "A_HIGH": 15,
+            "A_MIDDLE": 13,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -4382,7 +5014,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -4397,7 +5033,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 5,
+              "16": 6,
+              "17": 1
             }
           }
         },
@@ -4412,17 +5052,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 23,
-            "no_activadas": 2,
+            "brutas": 45,
+            "netas": 45,
+            "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16_5G": 2,
+            "RENO_16F": 6,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
-            "A_MIDDLE": 11,
+            "A_HIGH": 15,
+            "A_MIDDLE": 22,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -4437,7 +5077,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 2,
-              "13": 4
+              "13": 6,
+              "14": 6,
+              "15": 5,
+              "16": 5,
+              "17": 4
             },
             "daily_brutas": {
               "1": 1,
@@ -4452,7 +5096,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 2,
-              "13": 6
+              "13": 6,
+              "14": 6,
+              "15": 5,
+              "16": 5,
+              "17": 4
             }
           }
         },
@@ -4467,17 +5115,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 19,
-            "netas": 16,
-            "no_activadas": 1,
-            "desfasadas": 2,
-            "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 0,
+            "brutas": 37,
+            "netas": 34,
+            "no_activadas": 0,
+            "desfasadas": 3,
+            "RENO_16_5G": 4,
+            "RENO_16F": 6,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 8,
+            "A_HIGH": 6,
+            "A_MIDDLE": 17,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -4492,7 +5140,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 5,
+              "15": 5,
+              "16": 5,
+              "17": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -4507,7 +5159,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 4,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 5,
+              "16": 5,
+              "17": 2
             }
           }
         },
@@ -4522,17 +5178,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 17,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
-            "no_activadas": 0,
-            "desfasadas": 1,
+            "brutas": 29,
+            "netas": 25,
+            "no_activadas": 1,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
-            "A7_PRO": 1,
+            "RENO_16F": 3,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 10,
+            "A_HIGH": 6,
+            "A_MIDDLE": 14,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4547,7 +5203,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 3,
+              "16": 3,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -4562,7 +5222,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 4,
+              "16": 4,
+              "17": 3
             }
           }
         },
@@ -4577,17 +5241,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 8,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
+            "brutas": 37,
+            "netas": 34,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
-            "A7_PRO": 0,
+            "RENO_16F": 4,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 10,
+            "A_HIGH": 11,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -4602,7 +5266,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 4,
+              "15": 5,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -4617,7 +5285,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 6,
+              "15": 5,
+              "16": 6,
+              "17": 3
             }
           }
         },
@@ -4632,17 +5304,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 1,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 7,
-            "no_activadas": 0,
-            "desfasadas": 7,
+            "brutas": 25,
+            "netas": 14,
+            "no_activadas": 2,
+            "desfasadas": 9,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 4,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 4,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4657,7 +5329,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 3,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -4672,7 +5348,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 6,
+              "16": 2,
+              "17": 1
             }
           }
         },
@@ -4687,17 +5367,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 15,
+            "netas": 15,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 5,
+            "A_HIGH": 6,
+            "A_MIDDLE": 8,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -4712,7 +5392,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 2,
+              "16": 2,
+              "17": 2
             },
             "daily_brutas": {
               "1": 3,
@@ -4727,7 +5411,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 2,
+              "16": 2,
+              "17": 2
             }
           }
         }
@@ -4743,17 +5431,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 105,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 50,
-            "netas": 48,
-            "no_activadas": 2,
+            "brutas": 84,
+            "netas": 84,
+            "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 6,
+            "RENO_16_5G": 2,
+            "RENO_16F": 11,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 17,
-            "A_MIDDLE": 22,
+            "A_HIGH": 31,
+            "A_MIDDLE": 37,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4768,7 +5456,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 2,
-              "13": 8
+              "13": 10,
+              "14": 11,
+              "15": 9,
+              "16": 8,
+              "17": 6
             },
             "daily_brutas": {
               "1": 2,
@@ -4783,7 +5475,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 4,
               "12": 2,
-              "13": 10
+              "13": 10,
+              "14": 11,
+              "15": 9,
+              "16": 8,
+              "17": 6
             }
           }
         },
@@ -4797,17 +5493,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 100,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 45,
-            "netas": 38,
-            "no_activadas": 3,
-            "desfasadas": 4,
-            "RENO_16_5G": 0,
-            "RENO_16F": 10,
-            "A7_PRO": 0,
+            "brutas": 79,
+            "netas": 73,
+            "no_activadas": 0,
+            "desfasadas": 6,
+            "RENO_16_5G": 4,
+            "RENO_16F": 16,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 11,
-            "A_MIDDLE": 17,
+            "A_HIGH": 21,
+            "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4822,7 +5518,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 5,
               "12": 2,
-              "13": 3
+              "13": 6,
+              "14": 9,
+              "15": 9,
+              "16": 11,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -4837,7 +5537,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 6,
               "12": 2,
-              "13": 6
+              "13": 6,
+              "14": 10,
+              "15": 10,
+              "16": 11,
+              "17": 3
             }
           }
         },
@@ -4851,17 +5555,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 122,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 40,
-            "netas": 38,
+            "brutas": 83,
+            "netas": 76,
             "no_activadas": 1,
-            "desfasadas": 1,
+            "desfasadas": 6,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 3,
+            "RENO_16F": 12,
+            "A7_PRO": 6,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
-            "A_MIDDLE": 20,
+            "A_HIGH": 19,
+            "A_MIDDLE": 39,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -4876,7 +5580,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 5
+              "13": 6,
+              "14": 4,
+              "15": 11,
+              "16": 15,
+              "17": 7
             },
             "daily_brutas": {
               "1": 6,
@@ -4891,7 +5599,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 6
+              "13": 6,
+              "14": 4,
+              "15": 12,
+              "16": 17,
+              "17": 10
             }
           }
         },
@@ -4905,17 +5617,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 90,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 27,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 52,
+            "netas": 51,
+            "no_activadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 17,
+            "A_HIGH": 12,
+            "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -4929,8 +5641,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 3,
               "10": 1,
               "11": 2,
-              "12": 3,
-              "13": 2
+              "12": 4,
+              "13": 2,
+              "14": 2,
+              "15": 9,
+              "16": 8,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -4945,7 +5661,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 2,
               "12": 4,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 9,
+              "16": 8,
+              "17": 4
             }
           }
         },
@@ -4959,17 +5679,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 65,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 23,
-            "no_activadas": 1,
+            "brutas": 39,
+            "netas": 39,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 1,
+            "RENO_16F": 4,
+            "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 13,
+            "A_HIGH": 11,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 5,
@@ -4984,7 +5704,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 3
+              "13": 4,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 5,
@@ -4999,7 +5723,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 3
             }
           }
         },
@@ -5013,17 +5741,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 20,
-            "netas": 19,
+            "brutas": 30,
+            "netas": 28,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 1,
+            "RENO_16F": 8,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 6,
+            "A_HIGH": 11,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -5038,7 +5766,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 4,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -5053,7 +5785,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 4,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -5067,17 +5803,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
+            "brutas": 37,
+            "netas": 34,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
-            "A7_PRO": 0,
+            "RENO_16F": 4,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 4,
-            "A_MIDDLE": 10,
+            "A_HIGH": 11,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -5092,7 +5828,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 4,
+              "15": 5,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -5107,7 +5847,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 6,
+              "15": 5,
+              "16": 6,
+              "17": 3
             }
           }
         },
@@ -5121,17 +5865,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 28,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 15,
+            "netas": 15,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 5,
+            "A_HIGH": 6,
+            "A_MIDDLE": 8,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -5146,7 +5890,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 2,
+              "16": 2,
+              "17": 2
             },
             "daily_brutas": {
               "1": 3,
@@ -5161,23 +5909,27 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 1,
+              "15": 2,
+              "16": 2,
+              "17": 2
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 232,
-        "netas": 217,
-        "no_activadas": 8,
-        "desfasadas": 7,
-        "RENO_16_5G": 0,
-        "RENO_16F": 35,
-        "A7_PRO": 10,
+        "brutas": 419,
+        "netas": 400,
+        "no_activadas": 1,
+        "desfasadas": 18,
+        "RENO_16_5G": 6,
+        "RENO_16F": 62,
+        "A7_PRO": 20,
         "FIND": 0,
         "RENO_OTHERS": 0,
-        "A_HIGH": 62,
-        "A_MIDDLE": 110,
+        "A_HIGH": 122,
+        "A_MIDDLE": 190,
         "A_LOW": 0,
         "daily_netas": {
           "1": 23,
@@ -5191,8 +5943,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "9": 27,
           "10": 8,
           "11": 15,
-          "12": 13,
-          "13": 30
+          "12": 14,
+          "13": 37,
+          "14": 35,
+          "15": 55,
+          "16": 56,
+          "17": 29
         },
         "daily_brutas": {
           "1": 23,
@@ -5207,7 +5963,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 9,
           "11": 16,
           "12": 14,
-          "13": 37
+          "13": 37,
+          "14": 39,
+          "15": 57,
+          "16": 58,
+          "17": 33
         }
       }
     },
@@ -5234,17 +5994,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 41,
-            "netas": 40,
+            "brutas": 65,
+            "netas": 63,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 7,
-            "A7_PRO": 4,
+            "desfasadas": 2,
+            "RENO_16_5G": 6,
+            "RENO_16F": 11,
+            "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 11,
-            "A_MIDDLE": 16,
+            "A_HIGH": 16,
+            "A_MIDDLE": 25,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -5259,7 +6019,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 1,
-              "13": 5
+              "13": 5,
+              "14": 7,
+              "15": 7,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -5274,7 +6038,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 3,
               "12": 1,
-              "13": 5
+              "13": 5,
+              "14": 7,
+              "15": 7,
+              "16": 7,
+              "17": 3
             }
           }
         },
@@ -5289,17 +6057,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 34,
-            "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 1,
-            "RENO_16F": 11,
+            "brutas": 73,
+            "netas": 66,
+            "no_activadas": 4,
+            "desfasadas": 3,
+            "RENO_16_5G": 2,
+            "RENO_16F": 20,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 16,
+            "A_HIGH": 14,
+            "A_MIDDLE": 29,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -5311,10 +6079,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 4,
               "8": 7,
               "9": 5,
-              "10": 0,
+              "10": 1,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 14,
+              "16": 12,
+              "17": 2
             },
             "daily_brutas": {
               "1": 8,
@@ -5329,7 +6101,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 16,
+              "16": 14,
+              "17": 3
             }
           }
         },
@@ -5344,17 +6120,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 38,
-            "netas": 38,
+            "brutas": 62,
+            "netas": 61,
             "no_activadas": 0,
-            "desfasadas": 0,
-            "RENO_16_5G": 4,
-            "RENO_16F": 5,
+            "desfasadas": 1,
+            "RENO_16_5G": 5,
+            "RENO_16F": 12,
             "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
-            "A_MIDDLE": 15,
+            "A_HIGH": 15,
+            "A_MIDDLE": 25,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -5369,7 +6145,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 1,
-              "13": 4
+              "13": 4,
+              "14": 7,
+              "15": 7,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -5384,7 +6164,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 1,
-              "13": 4
+              "13": 4,
+              "14": 7,
+              "15": 7,
+              "16": 7,
+              "17": 3
             }
           }
         },
@@ -5399,17 +6183,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 32,
-            "netas": 30,
-            "no_activadas": 1,
-            "desfasadas": 1,
+            "brutas": 67,
+            "netas": 59,
+            "no_activadas": 2,
+            "desfasadas": 6,
             "RENO_16_5G": 3,
-            "RENO_16F": 7,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 5,
-            "A_MIDDLE": 11,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 16,
+            "A_MIDDLE": 23,
             "A_LOW": 1,
             "daily_netas": {
               "1": 4,
@@ -5424,7 +6208,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 12,
+              "15": 9,
+              "16": 4,
+              "17": 4
             },
             "daily_brutas": {
               "1": 4,
@@ -5439,7 +6227,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 12,
+              "15": 13,
+              "16": 4,
+              "17": 6
             }
           }
         },
@@ -5454,17 +6246,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 30,
-            "netas": 29,
+            "brutas": 50,
+            "netas": 47,
             "no_activadas": 1,
-            "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 8,
-            "A7_PRO": 1,
+            "desfasadas": 2,
+            "RENO_16_5G": 2,
+            "RENO_16F": 12,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 6,
-            "A_MIDDLE": 12,
+            "A_HIGH": 10,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -5479,7 +6271,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 3,
-              "13": 2
+              "13": 2,
+              "14": 4,
+              "15": 7,
+              "16": 6,
+              "17": 1
             },
             "daily_brutas": {
               "1": 6,
@@ -5494,7 +6290,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 0,
               "12": 3,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 7,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -5509,17 +6309,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 26,
-            "netas": 24,
-            "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 9,
-            "A7_PRO": 1,
+            "brutas": 67,
+            "netas": 60,
+            "no_activadas": 5,
+            "desfasadas": 2,
+            "RENO_16_5G": 4,
+            "RENO_16F": 18,
+            "A7_PRO": 4,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 8,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 18,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 5,
@@ -5534,7 +6334,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 9,
+              "15": 15,
+              "16": 9,
+              "17": 3
             },
             "daily_brutas": {
               "1": 7,
@@ -5549,7 +6353,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 10,
+              "15": 17,
+              "16": 10,
+              "17": 4
             }
           }
         },
@@ -5564,17 +6372,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 16,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 18,
-            "no_activadas": 1,
-            "desfasadas": 6,
+            "brutas": 40,
+            "netas": 29,
+            "no_activadas": 3,
+            "desfasadas": 8,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 6,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 9,
+            "A_HIGH": 6,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -5587,9 +6395,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 2,
               "9": 2,
               "10": 0,
-              "11": 0,
+              "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 4,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 9,
@@ -5604,7 +6416,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 6,
+              "16": 2,
+              "17": 1
             }
           }
         }
@@ -5620,17 +6436,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 217,
           "tgt_foco": 41,
           "ventas_corte": {
-            "brutas": 79,
-            "netas": 78,
+            "brutas": 127,
+            "netas": 124,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 6,
-            "RENO_16F": 12,
-            "A7_PRO": 8,
+            "desfasadas": 3,
+            "RENO_16_5G": 11,
+            "RENO_16F": 23,
+            "A7_PRO": 9,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 21,
-            "A_MIDDLE": 31,
+            "A_HIGH": 31,
+            "A_MIDDLE": 50,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -5645,7 +6461,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 5,
               "12": 2,
-              "13": 9
+              "13": 9,
+              "14": 14,
+              "15": 14,
+              "16": 12,
+              "17": 6
             },
             "daily_brutas": {
               "1": 6,
@@ -5660,7 +6480,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 6,
               "12": 2,
-              "13": 9
+              "13": 9,
+              "14": 14,
+              "15": 14,
+              "16": 14,
+              "17": 6
             }
           }
         },
@@ -5674,17 +6498,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 166,
           "tgt_foco": 42,
           "ventas_corte": {
-            "brutas": 56,
-            "netas": 53,
-            "no_activadas": 2,
-            "desfasadas": 1,
-            "RENO_16_5G": 1,
-            "RENO_16F": 17,
-            "A7_PRO": 2,
+            "brutas": 117,
+            "netas": 107,
+            "no_activadas": 6,
+            "desfasadas": 4,
+            "RENO_16_5G": 6,
+            "RENO_16F": 30,
+            "A7_PRO": 7,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 12,
-            "A_MIDDLE": 20,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 28,
+            "A_MIDDLE": 34,
             "A_LOW": 0,
             "daily_netas": {
               "1": 11,
@@ -5699,7 +6523,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 3,
-              "13": 4
+              "13": 4,
+              "14": 13,
+              "15": 22,
+              "16": 15,
+              "17": 4
             },
             "daily_brutas": {
               "1": 13,
@@ -5714,7 +6542,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 4,
               "11": 2,
               "12": 3,
-              "13": 4
+              "13": 4,
+              "14": 15,
+              "15": 24,
+              "16": 16,
+              "17": 6
             }
           }
         },
@@ -5728,17 +6560,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 107,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 34,
-            "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 1,
-            "RENO_16F": 11,
+            "brutas": 73,
+            "netas": 66,
+            "no_activadas": 4,
+            "desfasadas": 3,
+            "RENO_16_5G": 2,
+            "RENO_16F": 20,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 16,
+            "A_HIGH": 14,
+            "A_MIDDLE": 29,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -5750,10 +6582,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "7": 4,
               "8": 7,
               "9": 5,
-              "10": 0,
+              "10": 1,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 14,
+              "16": 12,
+              "17": 2
             },
             "daily_brutas": {
               "1": 8,
@@ -5768,7 +6604,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 3,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 16,
+              "16": 14,
+              "17": 3
             }
           }
         },
@@ -5782,17 +6622,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 119,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 32,
-            "netas": 30,
-            "no_activadas": 1,
-            "desfasadas": 1,
+            "brutas": 67,
+            "netas": 59,
+            "no_activadas": 2,
+            "desfasadas": 6,
             "RENO_16_5G": 3,
-            "RENO_16F": 7,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 5,
-            "A_MIDDLE": 11,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 16,
+            "A_MIDDLE": 23,
             "A_LOW": 1,
             "daily_netas": {
               "1": 4,
@@ -5807,7 +6647,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 12,
+              "15": 9,
+              "16": 4,
+              "17": 4
             },
             "daily_brutas": {
               "1": 4,
@@ -5822,7 +6666,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 12,
+              "15": 13,
+              "16": 4,
+              "17": 6
             }
           }
         },
@@ -5836,17 +6684,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 64,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 18,
-            "no_activadas": 1,
-            "desfasadas": 6,
+            "brutas": 40,
+            "netas": 29,
+            "no_activadas": 3,
+            "desfasadas": 8,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 6,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 9,
+            "A_HIGH": 6,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -5859,9 +6707,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 2,
               "9": 2,
               "10": 0,
-              "11": 0,
+              "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 4,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 9,
@@ -5876,23 +6728,27 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 6,
+              "16": 2,
+              "17": 1
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 228,
-        "netas": 213,
-        "no_activadas": 5,
-        "desfasadas": 10,
-        "RENO_16_5G": 12,
-        "RENO_16F": 52,
-        "A7_PRO": 12,
+        "brutas": 424,
+        "netas": 385,
+        "no_activadas": 15,
+        "desfasadas": 24,
+        "RENO_16_5G": 23,
+        "RENO_16F": 91,
+        "A7_PRO": 18,
         "FIND": 0,
-        "RENO_OTHERS": 4,
-        "A_HIGH": 45,
-        "A_MIDDLE": 87,
+        "RENO_OTHERS": 6,
+        "A_HIGH": 95,
+        "A_MIDDLE": 151,
         "A_LOW": 1,
         "daily_netas": {
           "1": 34,
@@ -5904,10 +6760,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "7": 19,
           "8": 32,
           "9": 19,
-          "10": 6,
-          "11": 11,
+          "10": 7,
+          "11": 12,
           "12": 7,
-          "13": 17
+          "13": 17,
+          "14": 46,
+          "15": 63,
+          "16": 44,
+          "17": 17
         },
         "daily_brutas": {
           "1": 40,
@@ -5922,7 +6782,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 8,
           "11": 13,
           "12": 7,
-          "13": 18
+          "13": 18,
+          "14": 51,
+          "15": 73,
+          "16": 50,
+          "17": 22
         }
       }
     },
@@ -5949,17 +6813,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 26,
-            "no_activadas": 2,
+            "brutas": 44,
+            "netas": 41,
+            "no_activadas": 3,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 11,
             "A7_PRO": 0,
-            "FIND": 2,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 8,
-            "A_MIDDLE": 7,
+            "FIND": 4,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 9,
+            "A_MIDDLE": 10,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -5974,7 +6838,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 3,
               "12": 3,
-              "13": 3
+              "13": 4,
+              "14": 0,
+              "15": 4,
+              "16": 5,
+              "17": 5
             },
             "daily_brutas": {
               "1": 0,
@@ -5989,7 +6857,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 6,
               "11": 3,
               "12": 3,
-              "13": 4
+              "13": 4,
+              "14": 0,
+              "15": 6,
+              "16": 5,
+              "17": 5
             }
           }
         },
@@ -6004,18 +6876,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 21,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 34,
+            "netas": 28,
+            "no_activadas": 4,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 1,
-            "RENO_OTHERS": 9,
-            "A_HIGH": 2,
+            "RENO_OTHERS": 10,
+            "A_HIGH": 3,
             "A_MIDDLE": 2,
-            "A_LOW": 6,
+            "A_LOW": 9,
             "daily_netas": {
               "1": 7,
               "2": 0,
@@ -6029,7 +6901,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 0,
+              "15": 3,
+              "16": 4,
+              "17": 0
             },
             "daily_brutas": {
               "1": 7,
@@ -6044,7 +6920,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 4,
+              "16": 7,
+              "17": 1
             }
           }
         },
@@ -6084,7 +6964,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -6099,7 +6983,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -6114,17 +7002,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
-            "no_activadas": 1,
+            "brutas": 34,
+            "netas": 34,
+            "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "RENO_16_5G": 4,
+            "RENO_16F": 6,
             "A7_PRO": 0,
-            "FIND": 1,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 6,
-            "A_MIDDLE": 2,
+            "FIND": 3,
+            "RENO_OTHERS": 5,
+            "A_HIGH": 10,
+            "A_MIDDLE": 6,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -6139,7 +7027,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 1
+              "13": 2,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 5
             },
             "daily_brutas": {
               "1": 2,
@@ -6154,7 +7046,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 5
             }
           }
         },
@@ -6169,17 +7065,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 20,
-            "netas": 17,
-            "no_activadas": 3,
+            "brutas": 43,
+            "netas": 39,
+            "no_activadas": 4,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 5,
+            "RENO_16_5G": 3,
+            "RENO_16F": 15,
             "A7_PRO": 1,
-            "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 4,
-            "A_MIDDLE": 3,
+            "FIND": 1,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 8,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -6194,7 +7090,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 2
+              "13": 4,
+              "14": 8,
+              "15": 3,
+              "16": 3,
+              "17": 6
             },
             "daily_brutas": {
               "1": 1,
@@ -6209,7 +7109,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 9,
+              "15": 3,
+              "16": 4,
+              "17": 7
             }
           }
         },
@@ -6224,17 +7128,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 19,
-            "netas": 16,
-            "no_activadas": 3,
+            "brutas": 31,
+            "netas": 25,
+            "no_activadas": 6,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 1,
-            "A7_PRO": 2,
+            "RENO_16_5G": 1,
+            "RENO_16F": 3,
+            "A7_PRO": 3,
             "FIND": 1,
-            "RENO_OTHERS": 5,
-            "A_HIGH": 4,
-            "A_MIDDLE": 3,
+            "RENO_OTHERS": 7,
+            "A_HIGH": 5,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -6249,7 +7153,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 5,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -6264,7 +7172,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 2,
+              "15": 6,
+              "16": 4,
+              "17": 0
             }
           }
         },
@@ -6279,17 +7191,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 14,
+            "brutas": 38,
+            "netas": 35,
             "no_activadas": 3,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 2,
-            "A7_PRO": 0,
-            "FIND": 1,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 5,
-            "A_MIDDLE": 2,
+            "RENO_16_5G": 4,
+            "RENO_16F": 4,
+            "A7_PRO": 1,
+            "FIND": 5,
+            "RENO_OTHERS": 10,
+            "A_HIGH": 7,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -6298,13 +7210,17 @@ window.PORTAL_SUPERVISORES_DATA = {
               "4": 0,
               "5": 1,
               "6": 3,
-              "7": 1,
+              "7": 2,
               "8": 0,
               "9": 0,
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 5,
+              "14": 4,
+              "15": 9,
+              "16": 5,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -6319,7 +7235,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 5
+              "13": 5,
+              "14": 4,
+              "15": 10,
+              "16": 6,
+              "17": 1
             }
           }
         },
@@ -6334,17 +7254,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
+            "brutas": 33,
+            "netas": 31,
             "no_activadas": 2,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 4,
-            "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 3,
-            "A_MIDDLE": 0,
+            "RENO_16_5G": 2,
+            "RENO_16F": 10,
+            "A7_PRO": 5,
+            "FIND": 1,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 6,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -6359,7 +7279,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 4,
+              "14": 6,
+              "15": 3,
+              "16": 4,
+              "17": 6
             },
             "daily_brutas": {
               "1": 0,
@@ -6374,7 +7298,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 5
+              "13": 5,
+              "14": 6,
+              "15": 3,
+              "16": 4,
+              "17": 7
             }
           }
         },
@@ -6389,17 +7317,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 16,
+            "netas": 16,
             "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16_5G": 2,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 2,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 3,
+            "A_MIDDLE": 3,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -6414,7 +7342,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 4,
+              "15": 2,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -6429,7 +7361,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 4,
+              "15": 2,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -6444,11 +7380,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 2,
-            "netas": 1,
+            "brutas": 3,
+            "netas": 2,
             "no_activadas": 1,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
+            "RENO_16_5G": 1,
             "RENO_16F": 0,
             "A7_PRO": 1,
             "FIND": 0,
@@ -6469,7 +7405,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -6484,7 +7424,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
@@ -6500,17 +7444,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 109,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 46,
-            "netas": 40,
-            "no_activadas": 6,
+            "brutas": 83,
+            "netas": 76,
+            "no_activadas": 7,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 15,
-            "A7_PRO": 1,
-            "FIND": 1,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 11,
-            "A_MIDDLE": 8,
+            "RENO_16_5G": 5,
+            "RENO_16F": 30,
+            "A7_PRO": 2,
+            "FIND": 3,
+            "RENO_OTHERS": 9,
+            "A_HIGH": 15,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -6525,7 +7469,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 4,
-              "13": 5
+              "13": 8,
+              "14": 8,
+              "15": 6,
+              "16": 7,
+              "17": 12
             },
             "daily_brutas": {
               "1": 4,
@@ -6540,7 +7488,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 4,
-              "13": 9
+              "13": 9,
+              "14": 9,
+              "15": 6,
+              "16": 8,
+              "17": 14
             }
           }
         },
@@ -6554,17 +7506,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 106,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 32,
-            "no_activadas": 4,
+            "brutas": 65,
+            "netas": 59,
+            "no_activadas": 6,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 5,
-            "A7_PRO": 2,
-            "FIND": 2,
-            "RENO_OTHERS": 6,
-            "A_HIGH": 10,
-            "A_MIDDLE": 5,
+            "RENO_16_5G": 5,
+            "RENO_16F": 9,
+            "A7_PRO": 3,
+            "FIND": 4,
+            "RENO_OTHERS": 12,
+            "A_HIGH": 15,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -6579,7 +7531,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 3,
               "12": 4,
-              "13": 3
+              "13": 4,
+              "14": 4,
+              "15": 9,
+              "16": 8,
+              "17": 5
             },
             "daily_brutas": {
               "1": 3,
@@ -6594,7 +7550,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 3,
               "12": 4,
-              "13": 5
+              "13": 5,
+              "14": 4,
+              "15": 10,
+              "16": 10,
+              "17": 5
             }
           }
         },
@@ -6608,18 +7568,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 29,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 21,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 34,
+            "netas": 28,
+            "no_activadas": 4,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 1,
-            "RENO_OTHERS": 9,
-            "A_HIGH": 2,
+            "RENO_OTHERS": 10,
+            "A_HIGH": 3,
             "A_MIDDLE": 2,
-            "A_LOW": 6,
+            "A_LOW": 9,
             "daily_netas": {
               "1": 7,
               "2": 0,
@@ -6633,7 +7593,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 0,
+              "15": 3,
+              "16": 4,
+              "17": 0
             },
             "daily_brutas": {
               "1": 7,
@@ -6648,7 +7612,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 4,
+              "16": 7,
+              "17": 1
             }
           }
         },
@@ -6662,17 +7630,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 39,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 27,
-            "netas": 25,
-            "no_activadas": 2,
+            "brutas": 49,
+            "netas": 46,
+            "no_activadas": 3,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 12,
             "A7_PRO": 0,
-            "FIND": 2,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 8,
-            "A_MIDDLE": 6,
+            "FIND": 4,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 12,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -6687,7 +7655,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 3,
               "12": 3,
-              "13": 3
+              "13": 4,
+              "14": 6,
+              "15": 4,
+              "16": 5,
+              "17": 5
             },
             "daily_brutas": {
               "1": 0,
@@ -6702,7 +7674,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 6,
               "11": 3,
               "12": 3,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 6,
+              "16": 5,
+              "17": 5
             }
           }
         },
@@ -6716,17 +7692,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 71,
           "tgt_foco": 22,
           "ventas_corte": {
-            "brutas": 23,
-            "netas": 20,
+            "brutas": 44,
+            "netas": 41,
             "no_activadas": 3,
             "desfasadas": 0,
-            "RENO_16_5G": 2,
-            "RENO_16F": 3,
-            "A7_PRO": 4,
-            "FIND": 1,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 6,
-            "A_MIDDLE": 2,
+            "RENO_16_5G": 4,
+            "RENO_16F": 5,
+            "A7_PRO": 5,
+            "FIND": 5,
+            "RENO_OTHERS": 10,
+            "A_HIGH": 8,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -6735,13 +7711,17 @@ window.PORTAL_SUPERVISORES_DATA = {
               "4": 0,
               "5": 1,
               "6": 4,
-              "7": 1,
+              "7": 2,
               "8": 2,
               "9": 0,
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 5,
+              "14": 4,
+              "15": 9,
+              "16": 5,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -6756,7 +7736,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 5
+              "13": 5,
+              "14": 4,
+              "15": 10,
+              "16": 6,
+              "17": 1
             }
           }
         },
@@ -6770,17 +7754,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 17,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 16,
+            "netas": 16,
             "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16_5G": 2,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 2,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 3,
+            "A_MIDDLE": 3,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -6795,7 +7779,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 4,
+              "15": 2,
+              "16": 2,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -6810,7 +7798,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 4,
+              "15": 2,
+              "16": 2,
+              "17": 0
             }
           }
         },
@@ -6849,7 +7841,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -6864,7 +7860,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -6878,11 +7878,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 14,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 2,
-            "netas": 1,
+            "brutas": 3,
+            "netas": 2,
             "no_activadas": 1,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
+            "RENO_16_5G": 1,
             "RENO_16F": 0,
             "A7_PRO": 1,
             "FIND": 0,
@@ -6903,7 +7903,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -6918,7 +7922,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -6957,7 +7965,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -6972,7 +7984,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -7011,7 +8027,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -7026,24 +8046,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 169,
-        "netas": 152,
-        "no_activadas": 17,
-        "desfasadas": 0,
-        "RENO_16_5G": 7,
-        "RENO_16F": 32,
-        "A7_PRO": 8,
-        "FIND": 7,
-        "RENO_OTHERS": 25,
-        "A_HIGH": 40,
-        "A_MIDDLE": 27,
-        "A_LOW": 6,
+        "brutas": 299,
+        "netas": 273,
+        "no_activadas": 24,
+        "desfasadas": 2,
+        "RENO_16_5G": 18,
+        "RENO_16F": 63,
+        "A7_PRO": 11,
+        "FIND": 17,
+        "RENO_OTHERS": 53,
+        "A_HIGH": 57,
+        "A_MIDDLE": 45,
+        "A_LOW": 9,
         "daily_netas": {
           "1": 15,
           "2": 6,
@@ -7051,13 +8075,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "4": 6,
           "5": 12,
           "6": 15,
-          "7": 13,
+          "7": 14,
           "8": 11,
           "9": 13,
           "10": 11,
           "11": 6,
           "12": 14,
-          "13": 18
+          "13": 25,
+          "14": 27,
+          "15": 33,
+          "16": 31,
+          "17": 22
         },
         "daily_brutas": {
           "1": 16,
@@ -7072,7 +8100,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 13,
           "11": 6,
           "12": 14,
-          "13": 28
+          "13": 28,
+          "14": 28,
+          "15": 38,
+          "16": 38,
+          "17": 26
         }
       }
     },
@@ -7099,17 +8131,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 31,
-            "netas": 27,
-            "no_activadas": 4,
-            "desfasadas": 0,
+            "brutas": 52,
+            "netas": 48,
+            "no_activadas": 3,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 8,
-            "A7_PRO": 0,
+            "RENO_16F": 17,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 12,
+            "A_HIGH": 15,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -7124,7 +8156,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 7,
+              "14": 2,
+              "15": 7,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -7139,7 +8175,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 7
+              "13": 7,
+              "14": 2,
+              "15": 8,
+              "16": 6,
+              "17": 5
             }
           }
         },
@@ -7154,17 +8194,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 18,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 22,
-            "no_activadas": 1,
-            "desfasadas": 2,
+            "brutas": 42,
+            "netas": 37,
+            "no_activadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 1,
-            "RENO_16F": 5,
+            "RENO_16F": 12,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 10,
+            "A_HIGH": 7,
+            "A_MIDDLE": 14,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -7179,7 +8219,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 1,
+              "14": 3,
+              "15": 2,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -7194,7 +8238,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 4,
+              "16": 6,
+              "17": 4
             }
           }
         },
@@ -7209,17 +8257,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 12,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 23,
-            "no_activadas": 0,
-            "desfasadas": 2,
+            "brutas": 44,
+            "netas": 38,
+            "no_activadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 1,
+            "RENO_16F": 8,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 11,
-            "A_MIDDLE": 8,
+            "A_HIGH": 16,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -7234,7 +8282,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 2,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 4,
+              "15": 6,
+              "16": 3,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -7249,7 +8301,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 3,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 4,
+              "15": 7,
+              "16": 5,
+              "17": 3
             }
           }
         },
@@ -7264,17 +8320,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 17,
           "ventas_corte": {
-            "brutas": 23,
-            "netas": 21,
-            "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "brutas": 42,
+            "netas": 36,
+            "no_activadas": 4,
+            "desfasadas": 2,
+            "RENO_16_5G": 4,
+            "RENO_16F": 9,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 9,
+            "A_HIGH": 10,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -7289,7 +8345,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 4,
+              "16": 2,
+              "17": 6
             },
             "daily_brutas": {
               "1": 1,
@@ -7304,7 +8364,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 5,
+              "16": 5,
+              "17": 6
             }
           }
         },
@@ -7319,17 +8383,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 23,
-            "netas": 21,
-            "no_activadas": 2,
-            "desfasadas": 0,
+            "brutas": 48,
+            "netas": 43,
+            "no_activadas": 1,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 9,
+            "RENO_16F": 18,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 5,
+            "A_HIGH": 14,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -7342,9 +8406,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 7,
               "9": 1,
               "10": 2,
-              "11": 3,
+              "11": 4,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 3,
+              "15": 10,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -7359,7 +8427,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 5,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 10,
+              "16": 7,
+              "17": 3
             }
           }
         },
@@ -7374,17 +8446,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 24,
-            "netas": 19,
+            "brutas": 40,
+            "netas": 33,
             "no_activadas": 3,
-            "desfasadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 6,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
-            "A_HIGH": 3,
-            "A_MIDDLE": 7,
+            "A_HIGH": 9,
+            "A_MIDDLE": 11,
             "A_LOW": 4,
             "daily_netas": {
               "1": 0,
@@ -7395,11 +8467,15 @@ window.PORTAL_SUPERVISORES_DATA = {
               "6": 3,
               "7": 2,
               "8": 1,
-              "9": 1,
+              "9": 2,
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 1
+              "13": 2,
+              "14": 1,
+              "15": 5,
+              "16": 3,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -7414,7 +8490,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 6,
+              "16": 3,
+              "17": 5
             }
           }
         },
@@ -7429,17 +8509,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 20,
-            "netas": 17,
-            "no_activadas": 1,
-            "desfasadas": 2,
+            "brutas": 38,
+            "netas": 35,
+            "no_activadas": 0,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 10,
+            "A_HIGH": 11,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -7454,7 +8534,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 5,
+              "15": 5,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -7469,7 +8553,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 6,
+              "16": 4,
+              "17": 3
             }
           }
         },
@@ -7484,17 +8572,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 8,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 18,
-            "netas": 16,
-            "no_activadas": 2,
-            "desfasadas": 0,
-            "RENO_16_5G": 1,
-            "RENO_16F": 3,
+            "brutas": 31,
+            "netas": 27,
+            "no_activadas": 1,
+            "desfasadas": 3,
+            "RENO_16_5G": 3,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 7,
+            "A_HIGH": 8,
+            "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -7509,7 +8597,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 4,
+              "14": 3,
+              "15": 3,
+              "16": 3,
+              "17": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -7524,7 +8616,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 4,
+              "15": 4,
+              "16": 3,
+              "17": 2
             }
           }
         },
@@ -7539,17 +8635,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 13,
+            "brutas": 32,
+            "netas": 31,
             "no_activadas": 0,
-            "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 2,
+            "desfasadas": 1,
+            "RENO_16_5G": 1,
+            "RENO_16F": 8,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
-            "A_MIDDLE": 8,
+            "A_HIGH": 4,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -7564,7 +8660,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 4,
+              "15": 7,
+              "16": 5,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -7579,7 +8679,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 4,
+              "15": 8,
+              "16": 5,
+              "17": 2
             }
           }
         },
@@ -7594,17 +8698,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 7,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 15,
-            "netas": 14,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 33,
+            "netas": 30,
+            "no_activadas": 2,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 4,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 12,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -7619,7 +8723,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 8,
+              "15": 4,
+              "16": 2,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -7634,7 +8742,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 8,
+              "15": 4,
+              "16": 4,
+              "17": 2
             }
           }
         },
@@ -7649,17 +8761,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 15,
-            "netas": 13,
-            "no_activadas": 0,
-            "desfasadas": 2,
+            "brutas": 32,
+            "netas": 26,
+            "no_activadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
-            "A7_PRO": 0,
+            "RENO_16F": 5,
+            "A7_PRO": 1,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 7,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 9,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -7674,7 +8786,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 3,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 4,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -7689,7 +8805,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 5,
+              "16": 6,
+              "17": 4
             }
           }
         },
@@ -7704,18 +8824,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 9,
+            "brutas": 25,
+            "netas": 15,
             "no_activadas": 0,
-            "desfasadas": 5,
+            "desfasadas": 10,
             "RENO_16_5G": 0,
             "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
-            "A_LOW": 2,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 4,
+            "A_MIDDLE": 2,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 4,
               "2": 0,
@@ -7729,7 +8849,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 2,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 4,
@@ -7744,7 +8868,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 4,
+              "16": 2,
+              "17": 2
             }
           }
         },
@@ -7759,16 +8887,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 8,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 7,
+            "brutas": 11,
+            "netas": 9,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 0,
+            "A_HIGH": 2,
             "A_MIDDLE": 3,
             "A_LOW": 0,
             "daily_netas": {
@@ -7784,7 +8912,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 4,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -7799,7 +8931,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 4,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 1
             }
           }
         },
@@ -7814,17 +8950,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 8,
-            "no_activadas": 0,
+            "brutas": 18,
+            "netas": 16,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 3,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -7839,7 +8975,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 1,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -7854,7 +8994,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 1,
+              "16": 5,
+              "17": 1
             }
           }
         }
@@ -7870,17 +9014,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 131,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 48,
-            "netas": 43,
-            "no_activadas": 2,
-            "desfasadas": 3,
-            "RENO_16_5G": 3,
-            "RENO_16F": 9,
+            "brutas": 84,
+            "netas": 73,
+            "no_activadas": 6,
+            "desfasadas": 5,
+            "RENO_16_5G": 5,
+            "RENO_16F": 21,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 8,
-            "A_MIDDLE": 19,
+            "A_HIGH": 17,
+            "A_MIDDLE": 26,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -7895,7 +9039,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 3,
               "12": 1,
-              "13": 1
+              "13": 2,
+              "14": 6,
+              "15": 6,
+              "16": 8,
+              "17": 9
             },
             "daily_brutas": {
               "1": 3,
@@ -7910,7 +9058,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 4,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 6,
+              "15": 9,
+              "16": 11,
+              "17": 10
             }
           }
         },
@@ -7924,17 +9076,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 117,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 42,
-            "netas": 37,
-            "no_activadas": 2,
-            "desfasadas": 3,
-            "RENO_16_5G": 1,
-            "RENO_16F": 5,
-            "A7_PRO": 1,
+            "brutas": 74,
+            "netas": 63,
+            "no_activadas": 3,
+            "desfasadas": 8,
+            "RENO_16_5G": 3,
+            "RENO_16F": 12,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 16,
-            "A_MIDDLE": 14,
+            "A_HIGH": 24,
+            "A_MIDDLE": 22,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -7949,7 +9101,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 2,
               "12": 0,
-              "13": 6
+              "13": 7,
+              "14": 7,
+              "15": 9,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -7964,7 +9120,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 5,
               "11": 3,
               "12": 0,
-              "13": 7
+              "13": 7,
+              "14": 8,
+              "15": 11,
+              "16": 8,
+              "17": 5
             }
           }
         },
@@ -7978,17 +9138,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 139,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 34,
-            "no_activadas": 2,
-            "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 12,
-            "A7_PRO": 2,
+            "brutas": 80,
+            "netas": 74,
+            "no_activadas": 1,
+            "desfasadas": 5,
+            "RENO_16_5G": 1,
+            "RENO_16F": 26,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 13,
+            "A_HIGH": 18,
+            "A_MIDDLE": 26,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -8001,9 +9161,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 11,
               "9": 2,
               "10": 2,
-              "11": 5,
+              "11": 6,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 7,
+              "15": 17,
+              "16": 11,
+              "17": 4
             },
             "daily_brutas": {
               "1": 3,
@@ -8018,7 +9182,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 2,
               "11": 7,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 9,
+              "15": 18,
+              "16": 12,
+              "17": 5
             }
           }
         },
@@ -8032,17 +9200,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 31,
-            "netas": 27,
-            "no_activadas": 4,
-            "desfasadas": 0,
+            "brutas": 52,
+            "netas": 48,
+            "no_activadas": 3,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 8,
-            "A7_PRO": 0,
+            "RENO_16F": 17,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 12,
+            "A_HIGH": 15,
+            "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -8057,7 +9225,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 4
+              "13": 7,
+              "14": 2,
+              "15": 7,
+              "16": 6,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -8072,7 +9244,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 7
+              "13": 7,
+              "14": 2,
+              "15": 8,
+              "16": 6,
+              "17": 5
             }
           }
         },
@@ -8086,17 +9262,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 43,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 20,
-            "netas": 17,
-            "no_activadas": 1,
-            "desfasadas": 2,
+            "brutas": 38,
+            "netas": 35,
+            "no_activadas": 0,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 10,
+            "A_HIGH": 11,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -8111,7 +9287,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 5,
+              "15": 5,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -8126,7 +9306,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 6,
+              "16": 4,
+              "17": 3
             }
           }
         },
@@ -8140,17 +9324,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 16,
-            "netas": 14,
-            "no_activadas": 2,
+            "brutas": 41,
+            "netas": 40,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
-            "A7_PRO": 3,
+            "RENO_16F": 6,
+            "A7_PRO": 6,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 7,
+            "A_HIGH": 9,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -8165,7 +9349,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 2
+              "13": 4,
+              "14": 5,
+              "15": 9,
+              "16": 7,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -8180,7 +9368,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 4
+              "13": 4,
+              "14": 5,
+              "15": 9,
+              "16": 7,
+              "17": 4
             }
           }
         },
@@ -8194,17 +9386,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 31,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 15,
-            "netas": 14,
-            "no_activadas": 1,
-            "desfasadas": 0,
+            "brutas": 33,
+            "netas": 30,
+            "no_activadas": 2,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 4,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 12,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -8219,7 +9411,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 8,
+              "15": 4,
+              "16": 2,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -8234,7 +9430,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 2
+              "13": 2,
+              "14": 8,
+              "15": 4,
+              "16": 4,
+              "17": 2
             }
           }
         },
@@ -8248,17 +9448,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 55,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 15,
-            "netas": 13,
-            "no_activadas": 0,
-            "desfasadas": 2,
+            "brutas": 32,
+            "netas": 26,
+            "no_activadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
-            "A7_PRO": 0,
+            "RENO_16F": 5,
+            "A7_PRO": 1,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 3,
-            "A_MIDDLE": 7,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 9,
+            "A_MIDDLE": 9,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -8273,7 +9473,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 3,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 4,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -8288,7 +9492,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 5,
+              "16": 6,
+              "17": 4
             }
           }
         },
@@ -8302,18 +9510,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 48,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 9,
+            "brutas": 25,
+            "netas": 15,
             "no_activadas": 0,
-            "desfasadas": 5,
+            "desfasadas": 10,
             "RENO_16_5G": 0,
             "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
-            "A_LOW": 2,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 4,
+            "A_MIDDLE": 2,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 4,
               "2": 0,
@@ -8327,7 +9535,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 2,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 4,
@@ -8342,7 +9554,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 4,
+              "16": 2,
+              "17": 2
             }
           }
         },
@@ -8356,17 +9572,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 32,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 2,
-            "desfasadas": 0,
+            "brutas": 29,
+            "netas": 24,
+            "no_activadas": 3,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 1,
-            "A_MIDDLE": 6,
+            "A_HIGH": 7,
+            "A_MIDDLE": 10,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -8381,7 +9597,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 1
+              "13": 2,
+              "14": 1,
+              "15": 5,
+              "16": 3,
+              "17": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -8396,7 +9616,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 6,
+              "16": 3,
+              "17": 5
             }
           }
         },
@@ -8411,11 +9635,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 3,
           "ventas_corte": {
             "brutas": 11,
-            "netas": 8,
-            "no_activadas": 1,
+            "netas": 9,
+            "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
@@ -8431,11 +9655,15 @@ window.PORTAL_SUPERVISORES_DATA = {
               "6": 0,
               "7": 0,
               "8": 0,
-              "9": 1,
+              "9": 2,
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -8450,7 +9678,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -8464,16 +9696,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 48,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 7,
+            "brutas": 11,
+            "netas": 9,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 0,
+            "A_HIGH": 2,
             "A_MIDDLE": 3,
             "A_LOW": 0,
             "daily_netas": {
@@ -8489,7 +9721,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 4,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -8504,7 +9740,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 4,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 1
             }
           }
         },
@@ -8518,17 +9758,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 43,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 8,
-            "no_activadas": 0,
+            "brutas": 18,
+            "netas": 16,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 3,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -8543,7 +9783,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 1,
+              "16": 4,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -8558,24 +9802,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 1,
+              "16": 5,
+              "17": 1
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 278,
-        "netas": 242,
-        "no_activadas": 17,
-        "desfasadas": 19,
-        "RENO_16_5G": 4,
-        "RENO_16F": 53,
-        "A7_PRO": 12,
+        "brutas": 528,
+        "netas": 462,
+        "no_activadas": 22,
+        "desfasadas": 44,
+        "RENO_16_5G": 9,
+        "RENO_16F": 112,
+        "A7_PRO": 19,
         "FIND": 0,
-        "RENO_OTHERS": 9,
-        "A_HIGH": 60,
-        "A_MIDDLE": 98,
-        "A_LOW": 6,
+        "RENO_OTHERS": 12,
+        "A_HIGH": 138,
+        "A_MIDDLE": 165,
+        "A_LOW": 7,
         "daily_netas": {
           "1": 16,
           "2": 15,
@@ -8585,11 +9833,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "6": 27,
           "7": 24,
           "8": 47,
-          "9": 22,
+          "9": 23,
           "10": 16,
-          "11": 13,
+          "11": 14,
           "12": 8,
-          "13": 20
+          "13": 29,
+          "14": 47,
+          "15": 69,
+          "16": 57,
+          "17": 36
         },
         "daily_brutas": {
           "1": 18,
@@ -8604,7 +9856,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 16,
           "11": 18,
           "12": 14,
-          "13": 29
+          "13": 29,
+          "14": 52,
+          "15": 82,
+          "16": 69,
+          "17": 47
         }
       }
     },
@@ -8631,18 +9887,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 13,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 40,
-            "netas": 34,
-            "no_activadas": 5,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 5,
-            "A7_PRO": 1,
+            "brutas": 72,
+            "netas": 61,
+            "no_activadas": 9,
+            "desfasadas": 2,
+            "RENO_16_5G": 3,
+            "RENO_16F": 13,
+            "A7_PRO": 4,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 13,
-            "A_MIDDLE": 3,
-            "A_LOW": 7,
+            "RENO_OTHERS": 5,
+            "A_HIGH": 15,
+            "A_MIDDLE": 7,
+            "A_LOW": 14,
             "daily_netas": {
               "1": 2,
               "2": 1,
@@ -8655,8 +9911,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 5,
               "10": 3,
               "11": 4,
-              "12": 2,
-              "13": 2
+              "12": 3,
+              "13": 2,
+              "14": 4,
+              "15": 9,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -8671,7 +9931,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 3,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 10,
+              "16": 12,
+              "17": 5
             }
           }
         },
@@ -8686,18 +9950,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 31,
-            "netas": 28,
-            "no_activadas": 0,
-            "desfasadas": 3,
+            "brutas": 45,
+            "netas": 38,
+            "no_activadas": 1,
+            "desfasadas": 6,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "RENO_16F": 9,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 6,
+            "A_HIGH": 9,
             "A_MIDDLE": 6,
-            "A_LOW": 10,
+            "A_LOW": 11,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -8711,7 +9975,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 4,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 6,
+              "16": 0,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -8726,7 +9994,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 4,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 8,
+              "16": 0,
+              "17": 4
             }
           }
         },
@@ -8741,17 +10013,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 18,
-            "netas": 17,
-            "no_activadas": 1,
+            "brutas": 37,
+            "netas": 35,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "RENO_16F": 8,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 11,
+            "A_HIGH": 7,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -8766,7 +10038,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 14,
+              "16": 0,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -8781,7 +10057,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 15,
+              "16": 0,
+              "17": 4
             }
           }
         },
@@ -8796,17 +10076,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 6,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 17,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 33,
+            "netas": 31,
+            "no_activadas": 1,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 2,
+            "RENO_16F": 10,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 1,
+            "A_HIGH": 8,
+            "A_MIDDLE": 4,
             "A_LOW": 5,
             "daily_netas": {
               "1": 2,
@@ -8821,7 +10101,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -8836,7 +10120,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 5,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -8851,18 +10139,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 21,
+            "brutas": 52,
+            "netas": 49,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 9,
-            "A7_PRO": 0,
+            "desfasadas": 3,
+            "RENO_16_5G": 1,
+            "RENO_16F": 11,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
-            "A_MIDDLE": 4,
-            "A_LOW": 0,
+            "A_HIGH": 18,
+            "A_MIDDLE": 14,
+            "A_LOW": 2,
             "daily_netas": {
               "1": 2,
               "2": 1,
@@ -8876,7 +10164,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 10,
+              "15": 11,
+              "16": 5,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -8891,7 +10183,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 11,
+              "15": 11,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -8906,18 +10202,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 12,
-            "no_activadas": 0,
-            "desfasadas": 1,
+            "brutas": 27,
+            "netas": 24,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 2,
-            "A_MIDDLE": 1,
-            "A_LOW": 4,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 3,
+            "A_MIDDLE": 4,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 3,
               "2": 2,
@@ -8931,7 +10227,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 5,
+              "16": 4,
+              "17": 2
             },
             "daily_brutas": {
               "1": 3,
@@ -8946,7 +10246,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 2
             }
           }
         },
@@ -8961,18 +10265,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 8,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 13,
-            "no_activadas": 2,
-            "desfasadas": 2,
+            "brutas": 35,
+            "netas": 30,
+            "no_activadas": 1,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 5,
-            "A_MIDDLE": 3,
-            "A_LOW": 1,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 2,
               "2": 0,
@@ -8986,7 +10290,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 2
+              "13": 3,
+              "14": 3,
+              "15": 4,
+              "16": 5,
+              "17": 4
             },
             "daily_brutas": {
               "1": 2,
@@ -9001,7 +10309,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 3,
+              "15": 6,
+              "16": 5,
+              "17": 4
             }
           }
         },
@@ -9016,18 +10328,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 1,
-            "desfasadas": 1,
+            "brutas": 30,
+            "netas": 24,
+            "no_activadas": 3,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 2,
-            "A_LOW": 1,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 11,
+            "A_MIDDLE": 3,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 1,
               "2": 0,
@@ -9041,7 +10353,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 4,
+              "16": 2,
+              "17": 4
             },
             "daily_brutas": {
               "1": 1,
@@ -9056,7 +10372,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 6,
+              "16": 2,
+              "17": 6
             }
           }
         },
@@ -9071,17 +10391,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 6,
+            "brutas": 16,
+            "netas": 13,
             "no_activadas": 0,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 3,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -9096,7 +10416,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 3,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -9111,7 +10435,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 4,
+              "16": 2,
+              "17": 1
             }
           }
         }
@@ -9127,18 +10455,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 109,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 40,
-            "netas": 34,
-            "no_activadas": 5,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 5,
-            "A7_PRO": 1,
+            "brutas": 72,
+            "netas": 61,
+            "no_activadas": 9,
+            "desfasadas": 2,
+            "RENO_16_5G": 3,
+            "RENO_16F": 13,
+            "A7_PRO": 4,
             "FIND": 0,
-            "RENO_OTHERS": 3,
-            "A_HIGH": 13,
-            "A_MIDDLE": 3,
-            "A_LOW": 7,
+            "RENO_OTHERS": 5,
+            "A_HIGH": 15,
+            "A_MIDDLE": 7,
+            "A_LOW": 14,
             "daily_netas": {
               "1": 2,
               "2": 1,
@@ -9151,8 +10479,12 @@ window.PORTAL_SUPERVISORES_DATA = {
               "9": 5,
               "10": 3,
               "11": 4,
-              "12": 2,
-              "13": 2
+              "12": 3,
+              "13": 2,
+              "14": 4,
+              "15": 9,
+              "16": 10,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -9167,7 +10499,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 4,
               "12": 3,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 10,
+              "16": 12,
+              "17": 5
             }
           }
         },
@@ -9181,18 +10517,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 65,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 31,
-            "netas": 28,
-            "no_activadas": 0,
-            "desfasadas": 3,
+            "brutas": 45,
+            "netas": 38,
+            "no_activadas": 1,
+            "desfasadas": 6,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "RENO_16F": 9,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 6,
+            "A_HIGH": 9,
             "A_MIDDLE": 6,
-            "A_LOW": 10,
+            "A_LOW": 11,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -9206,7 +10542,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 4,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 6,
+              "16": 0,
+              "17": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -9221,7 +10561,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 2,
               "12": 4,
-              "13": 2
+              "13": 2,
+              "14": 2,
+              "15": 8,
+              "16": 0,
+              "17": 4
             }
           }
         },
@@ -9235,17 +10579,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 56,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 18,
-            "netas": 17,
-            "no_activadas": 1,
+            "brutas": 37,
+            "netas": 35,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 0,
+            "RENO_16F": 8,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 11,
+            "A_HIGH": 7,
+            "A_MIDDLE": 18,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -9260,7 +10604,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 14,
+              "16": 0,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -9275,7 +10623,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 15,
+              "16": 0,
+              "17": 4
             }
           }
         },
@@ -9289,18 +10641,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 128,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 22,
-            "netas": 21,
+            "brutas": 52,
+            "netas": 49,
             "no_activadas": 0,
-            "desfasadas": 1,
-            "RENO_16_5G": 0,
-            "RENO_16F": 9,
-            "A7_PRO": 0,
+            "desfasadas": 3,
+            "RENO_16_5G": 1,
+            "RENO_16F": 11,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
-            "A_MIDDLE": 4,
-            "A_LOW": 0,
+            "A_HIGH": 18,
+            "A_MIDDLE": 14,
+            "A_LOW": 2,
             "daily_netas": {
               "1": 2,
               "2": 1,
@@ -9314,7 +10666,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 10,
+              "15": 11,
+              "16": 5,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -9329,7 +10685,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 1,
               "12": 4,
-              "13": 0
+              "13": 0,
+              "14": 11,
+              "15": 11,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -9343,17 +10703,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 56,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 17,
-            "no_activadas": 0,
-            "desfasadas": 0,
+            "brutas": 33,
+            "netas": 31,
+            "no_activadas": 1,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
-            "A7_PRO": 2,
+            "RENO_16F": 10,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
-            "A_MIDDLE": 1,
+            "A_HIGH": 8,
+            "A_MIDDLE": 4,
             "A_LOW": 5,
             "daily_netas": {
               "1": 2,
@@ -9368,7 +10728,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -9383,7 +10747,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 4,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 5,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -9397,18 +10765,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 64,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 12,
-            "no_activadas": 0,
-            "desfasadas": 1,
+            "brutas": 27,
+            "netas": 24,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 2,
-            "A_MIDDLE": 1,
-            "A_LOW": 4,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 3,
+            "A_MIDDLE": 4,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 3,
               "2": 2,
@@ -9422,7 +10790,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 5,
+              "16": 4,
+              "17": 2
             },
             "daily_brutas": {
               "1": 3,
@@ -9437,7 +10809,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 6,
+              "16": 5,
+              "17": 2
             }
           }
         },
@@ -9451,18 +10827,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 62,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 13,
-            "no_activadas": 2,
-            "desfasadas": 2,
+            "brutas": 35,
+            "netas": 30,
+            "no_activadas": 1,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 5,
-            "A_MIDDLE": 3,
-            "A_LOW": 1,
+            "A_HIGH": 8,
+            "A_MIDDLE": 6,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 2,
               "2": 0,
@@ -9476,7 +10852,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 2
+              "13": 3,
+              "14": 3,
+              "15": 4,
+              "16": 5,
+              "17": 4
             },
             "daily_brutas": {
               "1": 2,
@@ -9491,7 +10871,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 1,
-              "13": 3
+              "13": 3,
+              "14": 3,
+              "15": 6,
+              "16": 5,
+              "17": 4
             }
           }
         },
@@ -9505,18 +10889,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 69,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 13,
-            "netas": 11,
-            "no_activadas": 1,
-            "desfasadas": 1,
+            "brutas": 30,
+            "netas": 24,
+            "no_activadas": 3,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 6,
-            "A_MIDDLE": 2,
-            "A_LOW": 1,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 11,
+            "A_MIDDLE": 3,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 1,
               "2": 0,
@@ -9530,7 +10914,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 4,
+              "16": 2,
+              "17": 4
             },
             "daily_brutas": {
               "1": 1,
@@ -9545,7 +10933,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 2,
-              "13": 1
+              "13": 1,
+              "14": 3,
+              "15": 6,
+              "16": 2,
+              "17": 6
             }
           }
         },
@@ -9559,17 +10951,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 27,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 6,
+            "brutas": 16,
+            "netas": 13,
             "no_activadas": 0,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 2,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 3,
+            "A_MIDDLE": 5,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -9584,7 +10976,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 3,
+              "16": 2,
+              "17": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -9599,24 +10995,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 4,
+              "16": 2,
+              "17": 1
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 179,
-        "netas": 159,
-        "no_activadas": 9,
-        "desfasadas": 11,
-        "RENO_16_5G": 3,
-        "RENO_16F": 36,
-        "A7_PRO": 3,
+        "brutas": 347,
+        "netas": 305,
+        "no_activadas": 18,
+        "desfasadas": 24,
+        "RENO_16_5G": 5,
+        "RENO_16F": 75,
+        "A7_PRO": 14,
         "FIND": 0,
-        "RENO_OTHERS": 8,
-        "A_HIGH": 48,
-        "A_MIDDLE": 33,
-        "A_LOW": 28,
+        "RENO_OTHERS": 16,
+        "A_HIGH": 82,
+        "A_MIDDLE": 67,
+        "A_LOW": 46,
         "daily_netas": {
           "1": 17,
           "2": 16,
@@ -9629,8 +11029,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "9": 16,
           "10": 11,
           "11": 14,
-          "12": 13,
-          "13": 6
+          "12": 14,
+          "13": 7,
+          "14": 25,
+          "15": 60,
+          "16": 34,
+          "17": 25
         },
         "daily_brutas": {
           "1": 18,
@@ -9645,7 +11049,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 11,
           "11": 14,
           "12": 14,
-          "13": 10
+          "13": 10,
+          "14": 29,
+          "15": 71,
+          "16": 38,
+          "17": 30
         }
       }
     },
@@ -9672,18 +11080,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 39,
-            "netas": 36,
-            "no_activadas": 3,
-            "desfasadas": 0,
+            "brutas": 58,
+            "netas": 55,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
-            "A_MIDDLE": 11,
-            "A_LOW": 13,
+            "A_HIGH": 13,
+            "A_MIDDLE": 19,
+            "A_LOW": 14,
             "daily_netas": {
               "1": 4,
               "2": 5,
@@ -9692,12 +11100,16 @@ window.PORTAL_SUPERVISORES_DATA = {
               "5": 0,
               "6": 3,
               "7": 1,
-              "8": 11,
+              "8": 12,
               "9": 5,
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 1,
+              "14": 1,
+              "15": 8,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 5,
@@ -9712,7 +11124,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 8,
+              "16": 6,
+              "17": 4
             }
           }
         },
@@ -9727,17 +11143,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 42,
-            "netas": 34,
+            "brutas": 75,
+            "netas": 62,
             "no_activadas": 1,
-            "desfasadas": 7,
-            "RENO_16_5G": 0,
-            "RENO_16F": 10,
-            "A7_PRO": 1,
+            "desfasadas": 12,
+            "RENO_16_5G": 1,
+            "RENO_16F": 23,
+            "A7_PRO": 4,
             "FIND": 0,
-            "RENO_OTHERS": 4,
-            "A_HIGH": 9,
-            "A_MIDDLE": 4,
+            "RENO_OTHERS": 7,
+            "A_HIGH": 13,
+            "A_MIDDLE": 8,
             "A_LOW": 6,
             "daily_netas": {
               "1": 0,
@@ -9752,7 +11168,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 6,
               "11": 0,
               "12": 1,
-              "13": 5
+              "13": 6,
+              "14": 5,
+              "15": 7,
+              "16": 11,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -9767,7 +11187,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 7,
               "11": 0,
               "12": 1,
-              "13": 7
+              "13": 7,
+              "14": 7,
+              "15": 8,
+              "16": 12,
+              "17": 6
             }
           }
         },
@@ -9782,18 +11206,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 19,
-            "netas": 16,
-            "no_activadas": 2,
-            "desfasadas": 1,
+            "brutas": 42,
+            "netas": 37,
+            "no_activadas": 1,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 2,
+            "RENO_16F": 12,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 3,
-            "A_HIGH": 2,
-            "A_MIDDLE": 1,
-            "A_LOW": 3,
+            "A_HIGH": 6,
+            "A_MIDDLE": 5,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 0,
               "2": 2,
@@ -9805,9 +11229,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 4,
               "9": 2,
               "10": 0,
-              "11": 1,
+              "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 9,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -9822,7 +11250,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 9,
+              "16": 6,
+              "17": 3
             }
           }
         },
@@ -9837,18 +11269,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 19,
-            "netas": 17,
+            "brutas": 37,
+            "netas": 33,
             "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "desfasadas": 3,
+            "RENO_16_5G": 3,
+            "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 3,
-            "A_LOW": 6,
+            "A_HIGH": 3,
+            "A_MIDDLE": 10,
+            "A_LOW": 7,
             "daily_netas": {
               "1": 1,
               "2": 2,
@@ -9862,7 +11294,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 3,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -9877,7 +11313,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 4,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -9892,18 +11332,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 19,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 11,
-            "no_activadas": 6,
-            "desfasadas": 0,
+            "brutas": 30,
+            "netas": 25,
+            "no_activadas": 3,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
-            "A7_PRO": 1,
+            "A7_PRO": 6,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
-            "A_LOW": 6,
+            "A_HIGH": 7,
+            "A_MIDDLE": 2,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 2,
               "2": 2,
@@ -9917,7 +11357,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 5,
+              "14": 1,
+              "15": 4,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -9932,7 +11376,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 5
+              "13": 5,
+              "14": 2,
+              "15": 4,
+              "16": 4,
+              "17": 3
             }
           }
         },
@@ -9947,8 +11395,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 10,
-            "netas": 9,
+            "brutas": 17,
+            "netas": 16,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -9956,8 +11404,8 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 2,
+            "A_HIGH": 7,
+            "A_MIDDLE": 4,
             "A_LOW": 2,
             "daily_netas": {
               "1": 2,
@@ -9972,7 +11420,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 2
+              "13": 3,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -9987,7 +11439,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 4,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -10002,17 +11458,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 6,
-            "no_activadas": 1,
+            "brutas": 12,
+            "netas": 10,
+            "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 1,
-            "A_MIDDLE": 2,
+            "A_HIGH": 3,
+            "A_MIDDLE": 3,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -10027,7 +11483,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -10042,7 +11502,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -10057,17 +11521,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 7,
-            "netas": 5,
+            "brutas": 29,
+            "netas": 26,
             "no_activadas": 1,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 11,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 5,
+            "A_MIDDLE": 5,
             "A_LOW": 2,
             "daily_netas": {
               "1": 0,
@@ -10082,7 +11546,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 8
             },
             "daily_brutas": {
               "1": 0,
@@ -10097,7 +11565,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 2,
+              "15": 5,
+              "16": 7,
+              "17": 8
             }
           }
         },
@@ -10137,7 +11609,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10152,7 +11628,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
@@ -10168,18 +11648,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 93,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 39,
-            "netas": 36,
-            "no_activadas": 3,
-            "desfasadas": 0,
+            "brutas": 58,
+            "netas": 55,
+            "no_activadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
-            "A_MIDDLE": 11,
-            "A_LOW": 13,
+            "A_HIGH": 13,
+            "A_MIDDLE": 19,
+            "A_LOW": 14,
             "daily_netas": {
               "1": 4,
               "2": 5,
@@ -10188,12 +11668,16 @@ window.PORTAL_SUPERVISORES_DATA = {
               "5": 0,
               "6": 3,
               "7": 1,
-              "8": 11,
+              "8": 12,
               "9": 5,
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 1,
+              "14": 1,
+              "15": 8,
+              "16": 5,
+              "17": 3
             },
             "daily_brutas": {
               "1": 5,
@@ -10208,7 +11692,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 3,
               "11": 0,
               "12": 1,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 8,
+              "16": 6,
+              "17": 4
             }
           }
         },
@@ -10222,17 +11710,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 82,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 47,
-            "netas": 39,
+            "brutas": 80,
+            "netas": 67,
             "no_activadas": 1,
-            "desfasadas": 7,
-            "RENO_16_5G": 0,
-            "RENO_16F": 10,
-            "A7_PRO": 1,
+            "desfasadas": 12,
+            "RENO_16_5G": 1,
+            "RENO_16F": 23,
+            "A7_PRO": 4,
             "FIND": 0,
-            "RENO_OTHERS": 4,
-            "A_HIGH": 11,
-            "A_MIDDLE": 4,
+            "RENO_OTHERS": 7,
+            "A_HIGH": 15,
+            "A_MIDDLE": 8,
             "A_LOW": 9,
             "daily_netas": {
               "1": 0,
@@ -10247,7 +11735,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 6,
               "11": 0,
               "12": 1,
-              "13": 5
+              "13": 6,
+              "14": 5,
+              "15": 7,
+              "16": 11,
+              "17": 4
             },
             "daily_brutas": {
               "1": 0,
@@ -10262,7 +11754,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 7,
               "11": 0,
               "12": 1,
-              "13": 7
+              "13": 7,
+              "14": 7,
+              "15": 8,
+              "16": 12,
+              "17": 6
             }
           }
         },
@@ -10276,18 +11772,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 51,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 19,
-            "netas": 17,
+            "brutas": 37,
+            "netas": 33,
             "no_activadas": 1,
-            "desfasadas": 1,
-            "RENO_16_5G": 2,
-            "RENO_16F": 4,
+            "desfasadas": 3,
+            "RENO_16_5G": 3,
+            "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 3,
-            "A_LOW": 6,
+            "A_HIGH": 3,
+            "A_MIDDLE": 10,
+            "A_LOW": 7,
             "daily_netas": {
               "1": 1,
               "2": 2,
@@ -10301,7 +11797,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 5,
+              "15": 3,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -10316,7 +11816,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 2,
-              "13": 4
+              "13": 4,
+              "14": 6,
+              "15": 4,
+              "16": 6,
+              "17": 2
             }
           }
         },
@@ -10330,18 +11834,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 36,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 14,
-            "netas": 11,
-            "no_activadas": 2,
-            "desfasadas": 1,
+            "brutas": 37,
+            "netas": 32,
+            "no_activadas": 1,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 5,
-            "A7_PRO": 2,
+            "RENO_16F": 12,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 3,
-            "A_HIGH": 0,
-            "A_MIDDLE": 1,
-            "A_LOW": 0,
+            "A_HIGH": 4,
+            "A_MIDDLE": 5,
+            "A_LOW": 5,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -10353,9 +11857,13 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 4,
               "9": 2,
               "10": 0,
-              "11": 1,
+              "11": 2,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 3,
+              "15": 9,
+              "16": 6,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -10370,7 +11878,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 3,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 5,
+              "15": 9,
+              "16": 6,
+              "17": 3
             }
           }
         },
@@ -10384,18 +11896,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 66,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 11,
-            "no_activadas": 6,
-            "desfasadas": 0,
+            "brutas": 30,
+            "netas": 25,
+            "no_activadas": 3,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
-            "A7_PRO": 1,
+            "A7_PRO": 6,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
-            "A_LOW": 6,
+            "A_HIGH": 7,
+            "A_MIDDLE": 2,
+            "A_LOW": 8,
             "daily_netas": {
               "1": 2,
               "2": 2,
@@ -10409,7 +11921,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 5,
+              "14": 1,
+              "15": 4,
+              "16": 4,
+              "17": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -10424,7 +11940,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 5
+              "13": 5,
+              "14": 2,
+              "15": 4,
+              "16": 4,
+              "17": 3
             }
           }
         },
@@ -10438,8 +11958,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 28,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 10,
-            "netas": 9,
+            "brutas": 17,
+            "netas": 16,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -10447,8 +11967,8 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 2,
+            "A_HIGH": 7,
+            "A_MIDDLE": 4,
             "A_LOW": 2,
             "daily_netas": {
               "1": 2,
@@ -10463,7 +11983,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 2
+              "13": 3,
+              "14": 0,
+              "15": 3,
+              "16": 1,
+              "17": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -10478,7 +12002,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 2,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 4,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -10492,17 +12020,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 30,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 9,
-            "netas": 6,
-            "no_activadas": 1,
+            "brutas": 12,
+            "netas": 10,
+            "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 2,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 1,
-            "A_MIDDLE": 2,
+            "A_HIGH": 3,
+            "A_MIDDLE": 3,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -10517,7 +12045,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -10532,7 +12064,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -10546,17 +12082,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 63,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 7,
-            "netas": 5,
+            "brutas": 29,
+            "netas": 26,
             "no_activadas": 1,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 11,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 1,
+            "RENO_OTHERS": 3,
+            "A_HIGH": 5,
+            "A_MIDDLE": 5,
             "A_LOW": 2,
             "daily_netas": {
               "1": 0,
@@ -10571,7 +12107,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 2,
+              "14": 2,
+              "15": 4,
+              "16": 6,
+              "17": 8
             },
             "daily_brutas": {
               "1": 0,
@@ -10586,7 +12126,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 2,
+              "15": 5,
+              "16": 7,
+              "17": 8
             }
           }
         },
@@ -10625,7 +12169,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10640,24 +12188,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 162,
-        "netas": 134,
-        "no_activadas": 16,
-        "desfasadas": 12,
-        "RENO_16_5G": 2,
-        "RENO_16F": 28,
-        "A7_PRO": 4,
+        "brutas": 300,
+        "netas": 264,
+        "no_activadas": 9,
+        "desfasadas": 27,
+        "RENO_16_5G": 4,
+        "RENO_16F": 72,
+        "A7_PRO": 13,
         "FIND": 0,
-        "RENO_OTHERS": 8,
-        "A_HIGH": 28,
-        "A_MIDDLE": 25,
-        "A_LOW": 39,
+        "RENO_OTHERS": 14,
+        "A_HIGH": 57,
+        "A_MIDDLE": 56,
+        "A_LOW": 48,
         "daily_netas": {
           "1": 9,
           "2": 13,
@@ -10666,12 +12218,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "5": 3,
           "6": 13,
           "7": 10,
-          "8": 21,
+          "8": 22,
           "9": 13,
           "10": 9,
-          "11": 4,
+          "11": 5,
           "12": 6,
-          "13": 17
+          "13": 24,
+          "14": 17,
+          "15": 38,
+          "16": 40,
+          "17": 26
         },
         "daily_brutas": {
           "1": 11,
@@ -10686,7 +12242,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 10,
           "11": 6,
           "12": 8,
-          "13": 28
+          "13": 28,
+          "14": 23,
+          "15": 42,
+          "16": 43,
+          "17": 30
         }
       }
     }
@@ -10713,16 +12273,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 7,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 6,
-            "netas": 6,
+            "brutas": 9,
+            "netas": 9,
             "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
+            "RENO_16_5G": 1,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
+            "A_HIGH": 7,
             "A_MIDDLE": 1,
             "A_LOW": 0,
             "daily_netas": {
@@ -10738,7 +12298,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -10753,7 +12317,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -10767,9 +12335,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 3,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 3,
+            "brutas": 4,
             "netas": 3,
-            "no_activadas": 0,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 1,
             "RENO_16F": 2,
@@ -10792,7 +12360,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10807,7 +12379,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 1
             }
           }
         },
@@ -10846,7 +12422,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10861,7 +12441,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -10900,7 +12484,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10915,7 +12503,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -10954,7 +12546,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10969,7 +12565,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11008,7 +12608,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -11023,7 +12627,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11037,12 +12645,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 8,
           "tgt_foco": 4,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 3,
-            "no_activadas": 1,
+            "brutas": 5,
+            "netas": 5,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
@@ -11054,7 +12662,7 @@ window.PORTAL_SUPERVISORES_DATA = {
               "2": 0,
               "3": 0,
               "4": 0,
-              "5": 0,
+              "5": 1,
               "6": 1,
               "7": 0,
               "8": 0,
@@ -11062,7 +12670,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11077,7 +12689,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11116,7 +12732,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11131,7 +12751,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11170,7 +12794,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11185,7 +12813,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11224,7 +12856,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11239,7 +12875,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11278,7 +12918,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11293,7 +12937,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11307,8 +12955,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 6,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -11316,7 +12964,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
+            "A_HIGH": 1,
             "A_MIDDLE": 0,
             "A_LOW": 0,
             "daily_netas": {
@@ -11332,7 +12980,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11347,7 +12999,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -11386,7 +13042,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11401,7 +13061,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11415,8 +13079,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 6,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -11424,7 +13088,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
+            "A_HIGH": 1,
             "A_MIDDLE": 0,
             "A_LOW": 0,
             "daily_netas": {
@@ -11440,7 +13104,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11455,7 +13123,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11494,7 +13166,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11509,7 +13185,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11548,7 +13228,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11563,7 +13247,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11602,7 +13290,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11617,7 +13309,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11656,7 +13352,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11671,7 +13371,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11685,12 +13389,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 3,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -11710,7 +13414,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11725,7 +13433,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -11764,7 +13476,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11779,7 +13495,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11818,7 +13538,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11833,7 +13557,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -11872,7 +13600,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11887,22 +13619,26 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 19,
-        "netas": 17,
+        "brutas": 27,
+        "netas": 25,
         "no_activadas": 2,
         "desfasadas": 0,
-        "RENO_16_5G": 1,
-        "RENO_16F": 3,
+        "RENO_16_5G": 2,
+        "RENO_16F": 6,
         "A7_PRO": 0,
         "FIND": 1,
         "RENO_OTHERS": 1,
-        "A_HIGH": 8,
+        "A_HIGH": 12,
         "A_MIDDLE": 3,
         "A_LOW": 0,
         "daily_netas": {
@@ -11910,7 +13646,7 @@ window.PORTAL_SUPERVISORES_DATA = {
           "2": 1,
           "3": 0,
           "4": 0,
-          "5": 4,
+          "5": 5,
           "6": 2,
           "7": 0,
           "8": 0,
@@ -11918,7 +13654,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 3,
           "12": 3,
-          "13": 2
+          "13": 2,
+          "14": 3,
+          "15": 1,
+          "16": 3,
+          "17": 0
         },
         "daily_brutas": {
           "1": 2,
@@ -11933,7 +13673,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 3,
           "12": 4,
-          "13": 2
+          "13": 2,
+          "14": 3,
+          "15": 1,
+          "16": 3,
+          "17": 1
         }
       }
     },
@@ -11958,17 +13702,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 42,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 10,
-            "netas": 8,
+            "brutas": 27,
+            "netas": 25,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 8,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 2,
-            "A_MIDDLE": 3,
+            "A_HIGH": 4,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -11983,7 +13727,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 3,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 3,
+              "16": 4,
+              "17": 6
             },
             "daily_brutas": {
               "1": 0,
@@ -11998,7 +13746,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 2,
               "12": 3,
-              "13": 1
+              "13": 1,
+              "14": 4,
+              "15": 3,
+              "16": 4,
+              "17": 6
             }
           }
         },
@@ -12037,7 +13789,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12052,7 +13808,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12066,17 +13826,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 3,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 3,
+            "brutas": 9,
+            "netas": 8,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -12091,7 +13851,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 5,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12106,7 +13870,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 6,
+              "17": 0
             }
           }
         },
@@ -12120,17 +13888,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 8,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 2,
+            "brutas": 8,
+            "netas": 6,
             "no_activadas": 0,
-            "desfasadas": 1,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 2,
+            "A_MIDDLE": 1,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -12145,7 +13913,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 3,
+              "16": 0,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -12160,7 +13932,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 4,
+              "16": 0,
+              "17": 1
             }
           }
         },
@@ -12199,7 +13975,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12214,23 +13994,27 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 21,
-        "netas": 17,
+        "brutas": 49,
+        "netas": 43,
         "no_activadas": 0,
-        "desfasadas": 4,
+        "desfasadas": 6,
         "RENO_16_5G": 0,
-        "RENO_16F": 9,
+        "RENO_16F": 16,
         "A7_PRO": 1,
         "FIND": 0,
-        "RENO_OTHERS": 1,
-        "A_HIGH": 2,
-        "A_MIDDLE": 3,
+        "RENO_OTHERS": 2,
+        "A_HIGH": 6,
+        "A_MIDDLE": 17,
         "A_LOW": 1,
         "daily_netas": {
           "1": 0,
@@ -12245,7 +14029,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 0,
           "12": 3,
-          "13": 1
+          "13": 1,
+          "14": 4,
+          "15": 6,
+          "16": 9,
+          "17": 7
         },
         "daily_brutas": {
           "1": 0,
@@ -12260,7 +14048,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 2,
           "12": 3,
-          "13": 1
+          "13": 1,
+          "14": 4,
+          "15": 7,
+          "16": 10,
+          "17": 7
         }
       }
     },
@@ -12285,17 +14077,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 14,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 11,
-            "netas": 9,
+            "brutas": 13,
+            "netas": 11,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
+            "RENO_OTHERS": 1,
             "A_HIGH": 3,
-            "A_MIDDLE": 5,
+            "A_MIDDLE": 6,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -12310,7 +14102,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -12325,7 +14121,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -12339,17 +14139,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 18,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 6,
-            "netas": 6,
+            "brutas": 14,
+            "netas": 13,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 2,
-            "A_HIGH": 0,
-            "A_MIDDLE": 3,
+            "RENO_OTHERS": 4,
+            "A_HIGH": 1,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -12364,7 +14164,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 5
             },
             "daily_brutas": {
               "1": 0,
@@ -12379,7 +14183,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 6
             }
           }
         },
@@ -12393,10 +14201,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 16,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 5,
+            "brutas": 6,
             "netas": 5,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
             "A7_PRO": 0,
@@ -12418,7 +14226,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -12433,7 +14245,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 1,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12447,18 +14263,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 21,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 5,
-            "netas": 4,
+            "brutas": 10,
+            "netas": 9,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 1,
             "A_MIDDLE": 0,
-            "A_LOW": 1,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -12472,7 +14288,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 2
+              "13": 2,
+              "14": 0,
+              "15": 0,
+              "16": 5,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12487,7 +14307,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 3
+              "13": 3,
+              "14": 0,
+              "15": 0,
+              "16": 5,
+              "17": 0
             }
           }
         },
@@ -12501,8 +14325,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 10,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 1,
-            "netas": 1,
+            "brutas": 3,
+            "netas": 3,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -12511,7 +14335,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -12526,7 +14350,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12541,7 +14369,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 2,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12555,8 +14387,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 5,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 2,
-            "netas": 1,
+            "brutas": 5,
+            "netas": 4,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
@@ -12564,9 +14396,9 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
+            "A_HIGH": 2,
             "A_MIDDLE": 1,
-            "A_LOW": 0,
+            "A_LOW": 1,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -12580,7 +14412,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12595,7 +14431,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -12634,7 +14474,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12649,7 +14493,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12688,7 +14536,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12703,24 +14555,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 31,
-        "netas": 27,
+        "brutas": 52,
+        "netas": 46,
         "no_activadas": 1,
-        "desfasadas": 3,
+        "desfasadas": 5,
         "RENO_16_5G": 0,
-        "RENO_16F": 7,
+        "RENO_16F": 13,
         "A7_PRO": 0,
         "FIND": 0,
-        "RENO_OTHERS": 3,
-        "A_HIGH": 5,
-        "A_MIDDLE": 11,
-        "A_LOW": 1,
+        "RENO_OTHERS": 6,
+        "A_HIGH": 8,
+        "A_MIDDLE": 15,
+        "A_LOW": 4,
         "daily_netas": {
           "1": 4,
           "2": 3,
@@ -12734,7 +14590,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 0,
           "12": 1,
-          "13": 4
+          "13": 4,
+          "14": 3,
+          "15": 3,
+          "16": 8,
+          "17": 5
         },
         "daily_brutas": {
           "1": 4,
@@ -12749,7 +14609,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 1,
           "11": 0,
           "12": 1,
-          "13": 5
+          "13": 5,
+          "14": 3,
+          "15": 4,
+          "16": 8,
+          "17": 6
         }
       }
     },
@@ -12799,7 +14663,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12814,7 +14682,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12853,7 +14725,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12868,7 +14744,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12907,7 +14787,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12922,7 +14806,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -12961,7 +14849,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12976,7 +14868,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13015,7 +14911,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13030,7 +14930,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13069,7 +14973,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13084,7 +14992,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13123,7 +15035,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13138,7 +15054,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13177,7 +15097,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13192,7 +15116,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13231,7 +15159,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13246,7 +15178,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
@@ -13277,7 +15213,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 0,
           "12": 0,
-          "13": 0
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0
         },
         "daily_brutas": {
           "1": 0,
@@ -13292,7 +15232,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 0,
           "12": 0,
-          "13": 0
+          "13": 0,
+          "14": 0,
+          "15": 0,
+          "16": 0,
+          "17": 0
         }
       }
     },
@@ -13342,7 +15286,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13357,7 +15305,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13371,17 +15323,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 4,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 3,
-            "no_activadas": 1,
+            "brutas": 6,
+            "netas": 6,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 2,
-            "A_MIDDLE": 0,
+            "A_MIDDLE": 1,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -13392,11 +15344,15 @@ window.PORTAL_SUPERVISORES_DATA = {
               "6": 1,
               "7": 0,
               "8": 0,
-              "9": 0,
+              "9": 1,
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 2,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13411,7 +15367,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 2,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13450,7 +15410,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -13465,7 +15429,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13504,7 +15472,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13519,7 +15491,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13558,7 +15534,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13573,7 +15553,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13612,7 +15596,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13627,7 +15615,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13666,7 +15658,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13681,7 +15677,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13720,7 +15720,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13735,7 +15739,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13774,7 +15782,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13789,7 +15801,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13828,7 +15844,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13843,7 +15863,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13882,7 +15906,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13897,7 +15925,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13936,7 +15968,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13951,7 +15987,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -13990,7 +16030,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14005,7 +16049,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14044,7 +16092,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14059,7 +16111,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14098,7 +16154,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14113,7 +16173,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14127,12 +16191,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 8,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 2,
+            "netas": 2,
             "no_activadas": 0,
             "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16_5G": 1,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -14152,7 +16216,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14167,7 +16235,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -14206,7 +16278,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14221,7 +16297,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14235,8 +16315,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 4,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -14244,7 +16324,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
+            "A_HIGH": 1,
             "A_MIDDLE": 0,
             "A_LOW": 0,
             "daily_netas": {
@@ -14260,7 +16340,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14275,23 +16359,27 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 10,
-        "netas": 9,
-        "no_activadas": 1,
+        "brutas": 15,
+        "netas": 15,
+        "no_activadas": 0,
         "desfasadas": 0,
-        "RENO_16_5G": 1,
-        "RENO_16F": 1,
+        "RENO_16_5G": 2,
+        "RENO_16F": 4,
         "A7_PRO": 0,
         "FIND": 0,
         "RENO_OTHERS": 0,
-        "A_HIGH": 7,
-        "A_MIDDLE": 0,
+        "A_HIGH": 8,
+        "A_MIDDLE": 1,
         "A_LOW": 0,
         "daily_netas": {
           "1": 1,
@@ -14302,11 +16390,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "6": 1,
           "7": 0,
           "8": 3,
-          "9": 0,
+          "9": 1,
           "10": 0,
           "11": 0,
           "12": 0,
-          "13": 2
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 0
         },
         "daily_brutas": {
           "1": 1,
@@ -14321,7 +16413,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 0,
           "11": 0,
           "12": 0,
-          "13": 2
+          "13": 2,
+          "14": 2,
+          "15": 2,
+          "16": 1,
+          "17": 0
         }
       }
     },
@@ -14346,15 +16442,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 1,
           "tgt_foco": 0,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 4,
+            "brutas": 5,
+            "netas": 5,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
+            "RENO_OTHERS": 1,
             "A_HIGH": 4,
             "A_MIDDLE": 0,
             "A_LOW": 0,
@@ -14371,7 +16467,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14386,7 +16486,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14425,7 +16529,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14440,7 +16548,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14454,18 +16566,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 5,
           "tgt_foco": 0,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 2,
-            "no_activadas": 1,
+            "brutas": 5,
+            "netas": 5,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 1,
+            "A_HIGH": 2,
             "A_MIDDLE": 1,
-            "A_LOW": 0,
+            "A_LOW": 2,
             "daily_netas": {
               "1": 1,
               "2": 0,
@@ -14479,7 +16591,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 1,
+              "14": 2,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -14494,7 +16610,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 2,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14506,6 +16626,130 @@ window.PORTAL_SUPERVISORES_DATA = {
           "supervisor": "SANCHEZ BARAJAS JOSE DE JESUS",
           "promoters_count": 0,
           "tgt_gral": 12,
+          "tgt_foco": 0,
+          "ventas_corte": {
+            "brutas": 12,
+            "netas": 10,
+            "no_activadas": 2,
+            "desfasadas": 0,
+            "RENO_16_5G": 0,
+            "RENO_16F": 0,
+            "A7_PRO": 0,
+            "FIND": 0,
+            "RENO_OTHERS": 0,
+            "A_HIGH": 9,
+            "A_MIDDLE": 1,
+            "A_LOW": 0,
+            "daily_netas": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 2,
+              "8": 0,
+              "9": 0,
+              "10": 0,
+              "11": 0,
+              "12": 0,
+              "13": 0,
+              "14": 3,
+              "15": 3,
+              "16": 2,
+              "17": 0
+            },
+            "daily_brutas": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 0,
+              "7": 2,
+              "8": 0,
+              "9": 0,
+              "10": 0,
+              "11": 0,
+              "12": 0,
+              "13": 0,
+              "14": 3,
+              "15": 3,
+              "16": 4,
+              "17": 0
+            }
+          }
+        },
+        {
+          "store_id": "6753",
+          "store_name": "BA TOTOLTEPEC 1142",
+          "market": "AURRERA",
+          "fh": "H",
+          "supervisor": "SANCHEZ BARAJAS JOSE DE JESUS",
+          "promoters_count": 0,
+          "tgt_gral": 5,
+          "tgt_foco": 0,
+          "ventas_corte": {
+            "brutas": 3,
+            "netas": 3,
+            "no_activadas": 0,
+            "desfasadas": 0,
+            "RENO_16_5G": 0,
+            "RENO_16F": 0,
+            "A7_PRO": 0,
+            "FIND": 0,
+            "RENO_OTHERS": 0,
+            "A_HIGH": 3,
+            "A_MIDDLE": 0,
+            "A_LOW": 0,
+            "daily_netas": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "10": 0,
+              "11": 0,
+              "12": 0,
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 2
+            },
+            "daily_brutas": {
+              "1": 0,
+              "2": 0,
+              "3": 0,
+              "4": 0,
+              "5": 0,
+              "6": 1,
+              "7": 0,
+              "8": 0,
+              "9": 0,
+              "10": 0,
+              "11": 0,
+              "12": 0,
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 2
+            }
+          }
+        },
+        {
+          "store_id": "10142",
+          "store_name": "SC LERMA TOLUCA 1462",
+          "market": "WALMART",
+          "fh": "H",
+          "supervisor": "SANCHEZ BARAJAS JOSE DE JESUS",
+          "promoters_count": 0,
+          "tgt_gral": 5,
           "tgt_foco": 0,
           "ventas_corte": {
             "brutas": 2,
@@ -14527,121 +16771,17 @@ window.PORTAL_SUPERVISORES_DATA = {
               "4": 0,
               "5": 0,
               "6": 0,
-              "7": 2,
-              "8": 0,
-              "9": 0,
-              "10": 0,
-              "11": 0,
-              "12": 0,
-              "13": 0
-            },
-            "daily_brutas": {
-              "1": 0,
-              "2": 0,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 0,
-              "7": 2,
-              "8": 0,
-              "9": 0,
-              "10": 0,
-              "11": 0,
-              "12": 0,
-              "13": 0
-            }
-          }
-        },
-        {
-          "store_id": "6753",
-          "store_name": "BA TOTOLTEPEC 1142",
-          "market": "AURRERA",
-          "fh": "H",
-          "supervisor": "SANCHEZ BARAJAS JOSE DE JESUS",
-          "promoters_count": 0,
-          "tgt_gral": 5,
-          "tgt_foco": 0,
-          "ventas_corte": {
-            "brutas": 1,
-            "netas": 1,
-            "no_activadas": 0,
-            "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 0,
-            "A7_PRO": 0,
-            "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 0,
-            "A_LOW": 0,
-            "daily_netas": {
-              "1": 0,
-              "2": 0,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 1,
-              "7": 0,
-              "8": 0,
-              "9": 0,
-              "10": 0,
-              "11": 0,
-              "12": 0,
-              "13": 0
-            },
-            "daily_brutas": {
-              "1": 0,
-              "2": 0,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 1,
-              "7": 0,
-              "8": 0,
-              "9": 0,
-              "10": 0,
-              "11": 0,
-              "12": 0,
-              "13": 0
-            }
-          }
-        },
-        {
-          "store_id": "10142",
-          "store_name": "SC LERMA TOLUCA 1462",
-          "market": "WALMART",
-          "fh": "H",
-          "supervisor": "SANCHEZ BARAJAS JOSE DE JESUS",
-          "promoters_count": 0,
-          "tgt_gral": 5,
-          "tgt_foco": 0,
-          "ventas_corte": {
-            "brutas": 1,
-            "netas": 1,
-            "no_activadas": 0,
-            "desfasadas": 0,
-            "RENO_16_5G": 0,
-            "RENO_16F": 0,
-            "A7_PRO": 0,
-            "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 1,
-            "A_MIDDLE": 0,
-            "A_LOW": 0,
-            "daily_netas": {
-              "1": 0,
-              "2": 0,
-              "3": 0,
-              "4": 0,
-              "5": 0,
-              "6": 0,
               "7": 0,
               "8": 1,
               "9": 0,
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14656,7 +16796,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14695,7 +16839,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14710,7 +16858,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14749,7 +16901,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14764,7 +16920,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14778,8 +16938,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 4,
           "tgt_foco": 0,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 1,
+            "netas": 1,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -14787,7 +16947,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
+            "A_HIGH": 1,
             "A_MIDDLE": 0,
             "A_LOW": 0,
             "daily_netas": {
@@ -14803,7 +16963,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14818,7 +16982,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14857,7 +17025,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14872,7 +17044,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14911,7 +17087,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14926,7 +17106,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -14965,7 +17149,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14980,7 +17168,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -15019,7 +17211,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15034,24 +17230,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 17,
-        "netas": 15,
-        "no_activadas": 1,
+        "brutas": 34,
+        "netas": 31,
+        "no_activadas": 2,
         "desfasadas": 1,
         "RENO_16_5G": 0,
         "RENO_16F": 0,
         "A7_PRO": 0,
         "FIND": 0,
-        "RENO_OTHERS": 0,
-        "A_HIGH": 11,
-        "A_MIDDLE": 3,
-        "A_LOW": 1,
+        "RENO_OTHERS": 1,
+        "A_HIGH": 23,
+        "A_MIDDLE": 4,
+        "A_LOW": 3,
         "daily_netas": {
           "1": 1,
           "2": 1,
@@ -15065,7 +17265,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 1,
           "11": 0,
           "12": 0,
-          "13": 1
+          "13": 2,
+          "14": 7,
+          "15": 4,
+          "16": 2,
+          "17": 2
         },
         "daily_brutas": {
           "1": 1,
@@ -15080,7 +17284,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 1,
           "11": 0,
           "12": 0,
-          "13": 2
+          "13": 2,
+          "14": 7,
+          "15": 4,
+          "16": 4,
+          "17": 2
         }
       }
     },
@@ -15105,18 +17313,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 14,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 6,
-            "netas": 4,
-            "no_activadas": 1,
-            "desfasadas": 1,
+            "brutas": 16,
+            "netas": 12,
+            "no_activadas": 2,
+            "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 1,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 1,
-            "A_MIDDLE": 1,
-            "A_LOW": 1,
+            "A_MIDDLE": 5,
+            "A_LOW": 2,
             "daily_netas": {
               "1": 1,
               "2": 0,
@@ -15130,7 +17338,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 3,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -15145,7 +17357,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 3,
+              "15": 4,
+              "16": 1,
+              "17": 2
             }
           }
         },
@@ -15159,15 +17375,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 13,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 3,
-            "netas": 2,
+            "brutas": 5,
+            "netas": 4,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
+            "RENO_OTHERS": 1,
             "A_HIGH": 0,
             "A_MIDDLE": 0,
             "A_LOW": 0,
@@ -15184,7 +17400,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15199,7 +17419,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 1,
               "11": 0,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 0,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -15213,18 +17437,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 25,
           "tgt_foco": 4,
           "ventas_corte": {
-            "brutas": 4,
-            "netas": 3,
+            "brutas": 7,
+            "netas": 6,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
-            "RENO_16F": 0,
+            "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 1,
+            "A_HIGH": 2,
             "A_MIDDLE": 0,
-            "A_LOW": 0,
+            "A_LOW": 1,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -15238,7 +17462,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15253,7 +17481,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 1,
               "12": 0,
-              "13": 1
+              "13": 1,
+              "14": 1,
+              "15": 1,
+              "16": 1,
+              "17": 0
             }
           }
         },
@@ -15292,7 +17524,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15307,7 +17543,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 0,
+              "15": 0,
+              "16": 0,
+              "17": 0
             }
           }
         },
@@ -15321,17 +17561,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 15,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 0,
-            "netas": 0,
+            "brutas": 6,
+            "netas": 5,
             "no_activadas": 0,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 0,
-            "A_MIDDLE": 0,
+            "A_HIGH": 1,
+            "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -15346,7 +17586,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 2,
+              "16": 1,
+              "17": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -15361,24 +17605,28 @@ window.PORTAL_SUPERVISORES_DATA = {
               "10": 0,
               "11": 0,
               "12": 0,
-              "13": 0
+              "13": 0,
+              "14": 1,
+              "15": 3,
+              "16": 1,
+              "17": 1
             }
           }
         }
       ],
       "ventas_corte": {
-        "brutas": 13,
-        "netas": 9,
-        "no_activadas": 3,
-        "desfasadas": 1,
+        "brutas": 34,
+        "netas": 27,
+        "no_activadas": 4,
+        "desfasadas": 3,
         "RENO_16_5G": 0,
-        "RENO_16F": 3,
+        "RENO_16F": 8,
         "A7_PRO": 0,
         "FIND": 0,
-        "RENO_OTHERS": 2,
-        "A_HIGH": 2,
-        "A_MIDDLE": 1,
-        "A_LOW": 1,
+        "RENO_OTHERS": 3,
+        "A_HIGH": 4,
+        "A_MIDDLE": 9,
+        "A_LOW": 3,
         "daily_netas": {
           "1": 1,
           "2": 0,
@@ -15392,7 +17640,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 1,
           "11": 1,
           "12": 0,
-          "13": 1
+          "13": 1,
+          "14": 5,
+          "15": 7,
+          "16": 4,
+          "17": 2
         },
         "daily_brutas": {
           "1": 1,
@@ -15407,7 +17659,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "10": 1,
           "11": 1,
           "12": 0,
-          "13": 2
+          "13": 2,
+          "14": 5,
+          "15": 9,
+          "16": 4,
+          "17": 3
         }
       }
     }
