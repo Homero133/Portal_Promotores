@@ -1,11 +1,11 @@
 /**
  * Base de Datos Oficial de Supervisores (Farmers & Hunters)
- * Corte al Día 17 (Cerrado a 17/11/2026 23:59:59)
+ * Corte al Día 18 (Cerrado a 18/11/2026 23:59:59)
  */
 window.PORTAL_SUPERVISORES_DATA = {
   "meta": {
-    "cutoffDay": 17,
-    "cutoffDate": "2026-11-17",
+    "cutoffDay": 18,
+    "cutoffDate": "2026-11-18",
     "toleranceDays": 10,
     "totalFarmers": 9,
     "totalHunters": 8
@@ -63,7 +63,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 10,
               "16": 3,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -82,7 +83,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 12,
               "16": 3,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -109,8 +111,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 54,
-            "netas": 50,
+            "brutas": 55,
+            "netas": 51,
             "no_activadas": 1,
             "desfasadas": 3,
             "RENO_16_5G": 3,
@@ -118,7 +120,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
+            "A_HIGH": 6,
             "A_MIDDLE": 11,
             "A_LOW": 6,
             "daily_netas": {
@@ -138,7 +140,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 5,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -157,7 +160,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 7,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -184,17 +188,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 32,
           "ventas_corte": {
-            "brutas": 68,
-            "netas": 56,
+            "brutas": 70,
+            "netas": 57,
             "no_activadas": 5,
-            "desfasadas": 7,
+            "desfasadas": 8,
             "RENO_16_5G": 0,
             "RENO_16F": 22,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 14,
-            "A_MIDDLE": 8,
+            "A_MIDDLE": 9,
             "A_LOW": 8,
             "daily_netas": {
               "1": 2,
@@ -213,7 +217,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 5,
               "16": 10,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -232,7 +237,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 10,
               "16": 10,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -300,7 +306,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 8,
               "16": 7,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 8,
@@ -319,7 +326,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 8,
               "16": 7,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -368,7 +376,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -387,7 +396,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 5,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -407,18 +417,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 22,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 31,
+            "brutas": 39,
+            "netas": 34,
             "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 13,
+            "RENO_16F": 14,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 9,
             "A_MIDDLE": 8,
-            "A_LOW": 1,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -436,7 +446,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 3,
-              "17": 0
+              "17": 0,
+              "18": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -455,7 +466,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -483,8 +495,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 11,
           "ventas_corte": {
             "brutas": 45,
-            "netas": 40,
-            "no_activadas": 5,
+            "netas": 41,
+            "no_activadas": 4,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 15,
@@ -492,7 +504,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 8,
-            "A_MIDDLE": 9,
+            "A_MIDDLE": 10,
             "A_LOW": 5,
             "daily_netas": {
               "1": 4,
@@ -508,10 +520,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "11": 1,
               "12": 0,
               "13": 4,
-              "14": 5,
+              "14": 6,
               "15": 4,
               "16": 8,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 4,
@@ -530,7 +543,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 9,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -579,7 +593,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 10,
               "16": 2,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -598,7 +613,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 10,
               "16": 2,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -660,7 +676,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -679,7 +696,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -728,7 +746,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 1,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -747,7 +766,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 2,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -796,7 +816,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 9,
               "16": 10,
-              "17": 7
+              "17": 7,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -815,7 +836,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 9,
               "16": 10,
-              "17": 9
+              "17": 9,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -878,7 +900,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 18,
               "16": 15,
-              "17": 11
+              "17": 11,
+              "18": 0
             },
             "daily_brutas": {
               "1": 4,
@@ -897,7 +920,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 18,
               "16": 16,
-              "17": 13
+              "17": 13,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -930,8 +954,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 26,
           "ventas_corte": {
             "brutas": 105,
-            "netas": 97,
-            "no_activadas": 8,
+            "netas": 98,
+            "no_activadas": 7,
             "desfasadas": 0,
             "RENO_16_5G": 5,
             "RENO_16F": 34,
@@ -939,7 +963,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 15,
-            "A_MIDDLE": 26,
+            "A_MIDDLE": 27,
             "A_LOW": 12,
             "daily_netas": {
               "1": 5,
@@ -955,10 +979,11 @@ window.PORTAL_SUPERVISORES_DATA = {
               "11": 3,
               "12": 1,
               "13": 7,
-              "14": 12,
+              "14": 13,
               "15": 14,
               "16": 11,
-              "17": 6
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 5,
@@ -977,7 +1002,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 13,
               "15": 17,
               "16": 12,
-              "17": 7
+              "17": 7,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1003,8 +1029,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 106,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 54,
-            "netas": 50,
+            "brutas": 55,
+            "netas": 51,
             "no_activadas": 1,
             "desfasadas": 3,
             "RENO_16_5G": 3,
@@ -1012,7 +1038,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 5,
+            "A_HIGH": 6,
             "A_MIDDLE": 11,
             "A_LOW": 6,
             "daily_netas": {
@@ -1032,7 +1058,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 5,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -1051,7 +1078,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 7,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -1077,17 +1105,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 96,
           "tgt_foco": 32,
           "ventas_corte": {
-            "brutas": 68,
-            "netas": 56,
+            "brutas": 70,
+            "netas": 57,
             "no_activadas": 5,
-            "desfasadas": 7,
+            "desfasadas": 8,
             "RENO_16_5G": 0,
             "RENO_16F": 22,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 14,
-            "A_MIDDLE": 8,
+            "A_MIDDLE": 9,
             "A_LOW": 8,
             "daily_netas": {
               "1": 2,
@@ -1106,7 +1134,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 5,
               "16": 10,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -1125,7 +1154,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 10,
               "16": 10,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -1192,7 +1222,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 8,
               "16": 7,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 8,
@@ -1211,7 +1242,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 8,
               "16": 7,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1230,18 +1262,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 84,
           "tgt_foco": 22,
           "ventas_corte": {
-            "brutas": 36,
-            "netas": 31,
+            "brutas": 39,
+            "netas": 34,
             "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 13,
+            "RENO_16F": 14,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 9,
             "A_MIDDLE": 8,
-            "A_LOW": 1,
+            "A_LOW": 3,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -1259,7 +1291,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 3,
-              "17": 0
+              "17": 0,
+              "18": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -1278,7 +1311,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -1333,7 +1367,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 10,
               "16": 2,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1352,7 +1387,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 10,
               "16": 2,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1413,7 +1449,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 1,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1432,7 +1469,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 2,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1480,7 +1518,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1499,7 +1538,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1510,18 +1550,18 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 480,
-        "netas": 435,
-        "no_activadas": 22,
-        "desfasadas": 23,
+        "brutas": 486,
+        "netas": 441,
+        "no_activadas": 21,
+        "desfasadas": 24,
         "RENO_16_5G": 8,
-        "RENO_16F": 163,
+        "RENO_16F": 164,
         "A7_PRO": 14,
         "FIND": 0,
         "RENO_OTHERS": 8,
-        "A_HIGH": 83,
-        "A_MIDDLE": 104,
-        "A_LOW": 55,
+        "A_HIGH": 84,
+        "A_MIDDLE": 106,
+        "A_LOW": 57,
         "daily_netas": {
           "1": 22,
           "2": 29,
@@ -1536,10 +1576,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "11": 16,
           "12": 9,
           "13": 26,
-          "14": 56,
+          "14": 57,
           "15": 67,
           "16": 58,
-          "17": 26
+          "17": 26,
+          "18": 5
         },
         "daily_brutas": {
           "1": 23,
@@ -1558,7 +1599,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 64,
           "15": 78,
           "16": 60,
-          "17": 31
+          "17": 31,
+          "18": 6
         }
       },
       "iot_corte": {
@@ -1644,7 +1686,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -1663,7 +1706,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1684,11 +1728,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 1,
           "ventas_corte": {
             "brutas": 16,
-            "netas": 15,
-            "no_activadas": 1,
+            "netas": 16,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 2,
-            "RENO_16F": 6,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -1706,13 +1750,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 0,
               "9": 0,
               "10": 0,
-              "11": 6,
+              "11": 7,
               "12": 0,
               "13": 2,
               "14": 0,
               "15": 1,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1731,7 +1776,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1780,7 +1826,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 1,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -1799,7 +1846,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 2,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1867,7 +1915,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -1886,7 +1935,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1935,7 +1985,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -1954,7 +2005,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -1975,8 +2027,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 11,
           "ventas_corte": {
             "brutas": 21,
-            "netas": 18,
-            "no_activadas": 3,
+            "netas": 19,
+            "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 10,
             "RENO_16F": 2,
@@ -1984,7 +2036,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 5,
-            "A_MIDDLE": 1,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -2003,7 +2055,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 3,
-              "17": 1
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -2022,7 +2075,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2042,12 +2096,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 9,
+            "netas": 9,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -2071,7 +2125,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -2090,7 +2145,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -2139,7 +2195,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2158,7 +2215,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2207,7 +2265,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2226,7 +2285,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2275,7 +2335,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2294,7 +2355,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2343,7 +2405,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2362,7 +2425,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2411,7 +2475,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2430,7 +2495,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2452,11 +2518,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 1,
           "ventas_corte": {
             "brutas": 16,
-            "netas": 15,
-            "no_activadas": 1,
+            "netas": 16,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 2,
-            "RENO_16F": 6,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -2474,13 +2540,14 @@ window.PORTAL_SUPERVISORES_DATA = {
               "8": 0,
               "9": 0,
               "10": 0,
-              "11": 6,
+              "11": 7,
               "12": 0,
               "13": 2,
               "14": 0,
               "15": 1,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2499,7 +2566,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2547,7 +2615,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2566,7 +2635,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2614,7 +2684,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 1,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2633,7 +2704,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 2,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2700,7 +2772,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2719,7 +2792,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2767,7 +2841,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2786,7 +2861,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2834,7 +2910,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 0,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -2853,7 +2930,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 0,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -2872,12 +2950,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 2,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 8,
-            "netas": 8,
+            "brutas": 9,
+            "netas": 9,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 2,
+            "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -2901,7 +2979,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -2920,7 +2999,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -2968,7 +3048,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -2987,7 +3068,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3035,7 +3117,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3054,7 +3137,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3102,7 +3186,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3121,7 +3206,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3169,7 +3255,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3188,7 +3275,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3208,8 +3296,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 4,
           "ventas_corte": {
             "brutas": 7,
-            "netas": 5,
-            "no_activadas": 2,
+            "netas": 6,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 1,
             "RENO_16F": 1,
@@ -3217,7 +3305,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 2,
-            "A_MIDDLE": 1,
+            "A_MIDDLE": 2,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -3236,7 +3324,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 3,
-              "17": 0
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -3255,7 +3344,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3303,7 +3393,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3322,7 +3413,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3370,7 +3462,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3389,7 +3482,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3437,7 +3531,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3456,7 +3551,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3504,7 +3600,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3523,7 +3620,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3571,7 +3669,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3590,7 +3689,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3638,7 +3738,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3657,7 +3758,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3705,7 +3807,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3724,7 +3827,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3735,17 +3839,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 171,
-        "netas": 148,
-        "no_activadas": 23,
+        "brutas": 172,
+        "netas": 151,
+        "no_activadas": 21,
         "desfasadas": 0,
         "RENO_16_5G": 20,
-        "RENO_16F": 35,
+        "RENO_16F": 37,
         "A7_PRO": 0,
         "FIND": 3,
         "RENO_OTHERS": 11,
         "A_HIGH": 46,
-        "A_MIDDLE": 26,
+        "A_MIDDLE": 27,
         "A_LOW": 7,
         "daily_netas": {
           "1": 5,
@@ -3758,13 +3862,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "8": 11,
           "9": 7,
           "10": 3,
-          "11": 10,
+          "11": 11,
           "12": 5,
           "13": 18,
           "14": 13,
           "15": 26,
           "16": 15,
-          "17": 11
+          "17": 12,
+          "18": 1
         },
         "daily_brutas": {
           "1": 5,
@@ -3783,7 +3888,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 16,
           "15": 28,
           "16": 23,
-          "17": 13
+          "17": 13,
+          "18": 1
         }
       },
       "iot_corte": {
@@ -3863,7 +3969,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 15,
               "16": 8,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 6,
@@ -3882,7 +3989,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 17,
               "16": 11,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3931,7 +4039,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -3950,7 +4059,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 7,
               "16": 4,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -3970,17 +4080,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 7,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 66,
-            "netas": 62,
-            "no_activadas": 3,
+            "brutas": 69,
+            "netas": 68,
+            "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 3,
-            "RENO_16F": 19,
-            "A7_PRO": 3,
+            "RENO_16F": 21,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 19,
-            "A_MIDDLE": 18,
+            "A_HIGH": 21,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -3998,8 +4108,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 3,
               "14": 9,
               "15": 12,
-              "16": 10,
-              "17": 3
+              "16": 12,
+              "17": 4,
+              "18": 3
             },
             "daily_brutas": {
               "1": 2,
@@ -4018,7 +4129,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 12,
               "16": 12,
-              "17": 5
+              "17": 5,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -4045,17 +4157,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 55,
-            "netas": 53,
+            "brutas": 57,
+            "netas": 54,
             "no_activadas": 2,
-            "desfasadas": 0,
+            "desfasadas": 1,
             "RENO_16_5G": 2,
             "RENO_16F": 14,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 8,
-            "A_MIDDLE": 27,
+            "A_MIDDLE": 28,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -4074,7 +4186,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 8,
               "16": 7,
-              "17": 5
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 7,
@@ -4093,7 +4206,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 8,
               "16": 8,
-              "17": 6
+              "17": 6,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -4142,7 +4256,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -4161,7 +4276,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 3,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4210,7 +4326,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 5,
               "16": 7,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -4229,7 +4346,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 6,
               "16": 10,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4278,7 +4396,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 6,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -4297,7 +4416,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 6,
               "16": 8,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4317,17 +4437,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 44,
-            "netas": 43,
-            "no_activadas": 1,
+            "brutas": 45,
+            "netas": 45,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 2,
-            "RENO_16F": 7,
+            "RENO_16F": 8,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 12,
-            "A_MIDDLE": 21,
+            "A_MIDDLE": 22,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4346,7 +4466,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 6,
               "16": 5,
-              "17": 2
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -4365,7 +4486,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 6,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -4385,9 +4507,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 43,
-            "netas": 38,
-            "no_activadas": 1,
+            "brutas": 45,
+            "netas": 41,
+            "no_activadas": 0,
             "desfasadas": 4,
             "RENO_16_5G": 1,
             "RENO_16F": 6,
@@ -4395,7 +4517,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 10,
-            "A_MIDDLE": 18,
+            "A_MIDDLE": 21,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4414,7 +4536,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 2,
-              "17": 3
+              "17": 4,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -4433,7 +4556,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 4,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -4489,7 +4613,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -4508,7 +4633,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4535,17 +4661,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 48,
-            "netas": 45,
+            "brutas": 50,
+            "netas": 47,
             "no_activadas": 1,
             "desfasadas": 2,
-            "RENO_16_5G": 0,
+            "RENO_16_5G": 1,
             "RENO_16F": 9,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 20,
-            "A_MIDDLE": 16,
+            "A_MIDDLE": 17,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -4564,7 +4690,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 6,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -4583,7 +4710,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 6,
               "16": 7,
-              "17": 5
+              "17": 5,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -4603,12 +4731,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 7,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 47,
-            "netas": 46,
+            "brutas": 48,
+            "netas": 47,
             "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 1,
-            "RENO_16F": 18,
+            "RENO_16F": 19,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -4632,7 +4760,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 9,
               "16": 3,
-              "17": 6
+              "17": 6,
+              "18": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -4651,7 +4780,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 9,
               "16": 3,
-              "17": 7
+              "17": 7,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -4700,7 +4830,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -4719,7 +4850,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 5,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4739,8 +4871,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 27,
+            "brutas": 30,
+            "netas": 29,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
@@ -4749,7 +4881,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 7,
-            "A_MIDDLE": 10,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -4768,7 +4900,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 10,
-              "17": 3
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -4787,7 +4920,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 11,
-              "17": 3
+              "17": 3,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -4836,7 +4970,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -4855,7 +4990,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4904,7 +5040,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 5,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -4923,7 +5060,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -4944,8 +5082,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 12,
           "ventas_corte": {
             "brutas": 34,
-            "netas": 29,
-            "no_activadas": 2,
+            "netas": 31,
+            "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
             "RENO_16F": 5,
@@ -4953,7 +5091,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 6,
-            "A_MIDDLE": 18,
+            "A_MIDDLE": 20,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -4971,8 +5109,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 3,
               "14": 2,
               "15": 5,
-              "16": 6,
-              "17": 2
+              "16": 7,
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -4991,7 +5130,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 7,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5012,17 +5152,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 278,
           "tgt_foco": 68,
           "ventas_corte": {
-            "brutas": 159,
-            "netas": 151,
-            "no_activadas": 5,
+            "brutas": 163,
+            "netas": 158,
+            "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 8,
-            "RENO_16F": 49,
-            "A7_PRO": 4,
+            "RENO_16F": 52,
+            "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 31,
-            "A_MIDDLE": 59,
+            "A_HIGH": 33,
+            "A_MIDDLE": 60,
             "A_LOW": 0,
             "daily_netas": {
               "1": 3,
@@ -5040,8 +5180,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 8,
               "14": 18,
               "15": 26,
-              "16": 17,
-              "17": 12
+              "16": 19,
+              "17": 13,
+              "18": 4
             },
             "daily_brutas": {
               "1": 3,
@@ -5060,7 +5201,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 18,
               "15": 28,
               "16": 19,
-              "17": 16
+              "17": 16,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -5086,17 +5228,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 178,
           "tgt_foco": 25,
           "ventas_corte": {
-            "brutas": 127,
-            "netas": 119,
+            "brutas": 129,
+            "netas": 120,
             "no_activadas": 6,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 5,
             "RENO_16F": 27,
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 24,
-            "A_MIDDLE": 60,
+            "A_MIDDLE": 61,
             "A_LOW": 0,
             "daily_netas": {
               "1": 13,
@@ -5115,7 +5257,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 16,
               "15": 23,
               "16": 15,
-              "17": 8
+              "17": 9,
+              "18": 0
             },
             "daily_brutas": {
               "1": 13,
@@ -5134,7 +5277,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 16,
               "15": 25,
               "16": 19,
-              "17": 9
+              "17": 9,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -5153,17 +5297,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 129,
           "tgt_foco": 31,
           "ventas_corte": {
-            "brutas": 121,
-            "netas": 110,
-            "no_activadas": 4,
+            "brutas": 124,
+            "netas": 117,
+            "no_activadas": 0,
             "desfasadas": 7,
             "RENO_16_5G": 3,
-            "RENO_16F": 18,
+            "RENO_16F": 19,
             "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 28,
-            "A_MIDDLE": 57,
+            "A_MIDDLE": 63,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -5181,8 +5325,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 8,
               "14": 10,
               "15": 17,
-              "16": 13,
-              "17": 7
+              "16": 14,
+              "17": 10,
+              "18": 3
             },
             "daily_brutas": {
               "1": 4,
@@ -5201,7 +5346,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 18,
               "16": 16,
-              "17": 10
+              "17": 10,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -5227,17 +5373,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 116,
           "tgt_foco": 25,
           "ventas_corte": {
-            "brutas": 101,
-            "netas": 90,
+            "brutas": 103,
+            "netas": 92,
             "no_activadas": 3,
             "desfasadas": 8,
-            "RENO_16_5G": 1,
+            "RENO_16_5G": 2,
             "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 32,
-            "A_MIDDLE": 46,
+            "A_MIDDLE": 47,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -5256,7 +5402,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 13,
               "15": 11,
               "16": 13,
-              "17": 4
+              "17": 4,
+              "18": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -5275,7 +5422,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 14,
               "15": 12,
               "16": 17,
-              "17": 5
+              "17": 5,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -5323,7 +5471,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 10,
               "16": 10,
-              "17": 6
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 4,
@@ -5342,7 +5491,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 13,
               "16": 12,
-              "17": 7
+              "17": 7,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5390,7 +5540,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -5409,7 +5560,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 3,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5457,7 +5609,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -5476,7 +5629,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5531,7 +5685,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 4,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -5550,7 +5705,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 5,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5569,8 +5725,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 58,
           "tgt_foco": 24,
           "ventas_corte": {
-            "brutas": 28,
-            "netas": 27,
+            "brutas": 30,
+            "netas": 29,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
@@ -5579,7 +5735,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 7,
-            "A_MIDDLE": 10,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -5598,7 +5754,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 10,
-              "17": 3
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -5617,7 +5774,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 11,
-              "17": 3
+              "17": 3,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -5665,7 +5823,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -5684,7 +5843,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -5695,17 +5855,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 744,
-        "netas": 687,
-        "no_activadas": 24,
-        "desfasadas": 33,
-        "RENO_16_5G": 21,
-        "RENO_16F": 152,
-        "A7_PRO": 17,
+        "brutas": 757,
+        "netas": 706,
+        "no_activadas": 17,
+        "desfasadas": 34,
+        "RENO_16_5G": 22,
+        "RENO_16F": 156,
+        "A7_PRO": 18,
         "FIND": 0,
         "RENO_OTHERS": 6,
-        "A_HIGH": 181,
-        "A_MIDDLE": 310,
+        "A_HIGH": 183,
+        "A_MIDDLE": 321,
         "A_LOW": 0,
         "daily_netas": {
           "1": 33,
@@ -5723,8 +5883,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "13": 34,
           "14": 75,
           "15": 99,
-          "16": 95,
-          "17": 45
+          "16": 98,
+          "17": 50,
+          "18": 11
         },
         "daily_brutas": {
           "1": 33,
@@ -5743,7 +5904,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 79,
           "15": 111,
           "16": 112,
-          "17": 58
+          "17": 58,
+          "18": 13
         }
       },
       "iot_corte": {
@@ -5794,16 +5956,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 11,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 52,
-            "netas": 51,
-            "no_activadas": 0,
+            "brutas": 54,
+            "netas": 52,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 12,
+            "A_HIGH": 13,
             "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
@@ -5823,7 +5985,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 9,
               "16": 8,
-              "17": 4
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -5842,7 +6005,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 9,
               "16": 8,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -5869,8 +6033,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 39,
-            "netas": 39,
+            "brutas": 40,
+            "netas": 40,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -5878,7 +6042,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 16,
+            "A_HIGH": 17,
             "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
@@ -5898,7 +6062,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 4,
               "16": 3,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -5917,7 +6082,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 4,
               "16": 3,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -5937,8 +6103,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 18,
           "ventas_corte": {
-            "brutas": 54,
-            "netas": 51,
+            "brutas": 56,
+            "netas": 53,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
@@ -5947,7 +6113,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 13,
-            "A_MIDDLE": 25,
+            "A_MIDDLE": 27,
             "A_LOW": 0,
             "daily_netas": {
               "1": 4,
@@ -5966,7 +6132,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 8,
               "16": 12,
-              "17": 5
+              "17": 5,
+              "18": 2
             },
             "daily_brutas": {
               "1": 4,
@@ -5985,7 +6152,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 8,
               "16": 13,
-              "17": 7
+              "17": 7,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6005,8 +6173,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 39,
-            "netas": 39,
+            "brutas": 40,
+            "netas": 40,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -6015,7 +6183,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 11,
-            "A_MIDDLE": 19,
+            "A_MIDDLE": 20,
             "A_LOW": 0,
             "daily_netas": {
               "1": 5,
@@ -6034,7 +6202,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 5,
@@ -6053,7 +6222,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -6102,7 +6272,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -6121,7 +6292,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 5,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -6141,8 +6313,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 45,
-            "netas": 45,
+            "brutas": 46,
+            "netas": 46,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 2,
@@ -6150,7 +6322,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 15,
+            "A_HIGH": 16,
             "A_MIDDLE": 22,
             "A_LOW": 0,
             "daily_netas": {
@@ -6170,7 +6342,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 1,
@@ -6189,7 +6362,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -6209,17 +6383,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 15,
           "ventas_corte": {
-            "brutas": 37,
-            "netas": 34,
+            "brutas": 40,
+            "netas": 37,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 4,
-            "RENO_16F": 6,
+            "RENO_16F": 7,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 6,
-            "A_MIDDLE": 17,
+            "A_MIDDLE": 19,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -6238,7 +6412,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 5,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -6257,7 +6432,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -6306,7 +6482,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 3,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -6325,7 +6502,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -6374,7 +6552,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 5,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -6393,7 +6572,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -6413,17 +6593,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 1,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 14,
+            "brutas": 27,
+            "netas": 16,
             "no_activadas": 2,
             "desfasadas": 9,
-            "RENO_16_5G": 0,
+            "RENO_16_5G": 1,
             "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 4,
-            "A_MIDDLE": 5,
+            "A_MIDDLE": 6,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -6442,7 +6622,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -6461,7 +6642,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 6,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6510,7 +6692,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -6529,7 +6712,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -6549,16 +6733,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 0,
           "ventas_corte": {
-            "brutas": 25,
-            "netas": 24,
+            "brutas": 27,
+            "netas": 26,
             "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 8,
-            "A7_PRO": 2,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 10,
+            "A_HIGH": 11,
             "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
@@ -6578,7 +6762,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 2
             },
             "daily_brutas": {
               "1": 0,
@@ -6597,7 +6782,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6618,8 +6804,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 105,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 84,
-            "netas": 84,
+            "brutas": 86,
+            "netas": 86,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 2,
@@ -6627,7 +6813,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 31,
+            "A_HIGH": 33,
             "A_MIDDLE": 37,
             "A_LOW": 0,
             "daily_netas": {
@@ -6647,7 +6833,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 9,
               "16": 8,
-              "17": 6
+              "17": 6,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -6666,7 +6853,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 9,
               "16": 8,
-              "17": 6
+              "17": 6,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6685,17 +6873,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 100,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 79,
-            "netas": 73,
+            "brutas": 84,
+            "netas": 78,
             "no_activadas": 0,
             "desfasadas": 6,
-            "RENO_16_5G": 4,
-            "RENO_16F": 16,
+            "RENO_16_5G": 5,
+            "RENO_16F": 17,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 21,
-            "A_MIDDLE": 31,
+            "A_MIDDLE": 34,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -6714,7 +6902,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 9,
               "16": 11,
-              "17": 3
+              "17": 3,
+              "18": 5
             },
             "daily_brutas": {
               "1": 2,
@@ -6733,7 +6922,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 10,
               "16": 11,
-              "17": 3
+              "17": 3,
+              "18": 5
             }
           },
           "iot_corte": {
@@ -6752,8 +6942,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 122,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 83,
-            "netas": 76,
+            "brutas": 85,
+            "netas": 78,
             "no_activadas": 1,
             "desfasadas": 6,
             "RENO_16_5G": 0,
@@ -6762,7 +6952,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 19,
-            "A_MIDDLE": 39,
+            "A_MIDDLE": 41,
             "A_LOW": 0,
             "daily_netas": {
               "1": 6,
@@ -6781,7 +6971,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 11,
               "16": 15,
-              "17": 7
+              "17": 7,
+              "18": 2
             },
             "daily_brutas": {
               "1": 6,
@@ -6800,7 +6991,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 12,
               "16": 17,
-              "17": 10
+              "17": 10,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6819,16 +7011,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 90,
           "tgt_foco": 19,
           "ventas_corte": {
-            "brutas": 52,
-            "netas": 51,
-            "no_activadas": 0,
+            "brutas": 54,
+            "netas": 52,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 6,
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 12,
+            "A_HIGH": 13,
             "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
@@ -6848,7 +7040,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 9,
               "16": 8,
-              "17": 4
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -6867,7 +7060,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 9,
               "16": 8,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -6893,8 +7087,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 65,
           "tgt_foco": 14,
           "ventas_corte": {
-            "brutas": 39,
-            "netas": 39,
+            "brutas": 40,
+            "netas": 40,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
@@ -6903,7 +7097,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 11,
-            "A_MIDDLE": 19,
+            "A_MIDDLE": 20,
             "A_LOW": 0,
             "daily_netas": {
               "1": 5,
@@ -6922,7 +7116,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 5,
@@ -6941,7 +7136,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -6960,16 +7156,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 7,
           "ventas_corte": {
-            "brutas": 30,
-            "netas": 28,
+            "brutas": 32,
+            "netas": 30,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
             "RENO_16F": 8,
-            "A7_PRO": 2,
+            "A7_PRO": 3,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 11,
+            "A_HIGH": 12,
             "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
@@ -6989,7 +7185,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 2
             },
             "daily_brutas": {
               "1": 2,
@@ -7008,7 +7205,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -7056,7 +7254,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 5,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -7075,7 +7274,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 5,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7123,7 +7323,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -7142,7 +7343,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7190,7 +7392,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -7209,7 +7412,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 6,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7220,17 +7424,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 435,
-        "netas": 408,
-        "no_activadas": 3,
+        "brutas": 449,
+        "netas": 421,
+        "no_activadas": 4,
         "desfasadas": 24,
-        "RENO_16_5G": 6,
-        "RENO_16F": 65,
-        "A7_PRO": 20,
+        "RENO_16_5G": 7,
+        "RENO_16F": 66,
+        "A7_PRO": 21,
         "FIND": 0,
         "RENO_OTHERS": 1,
-        "A_HIGH": 125,
-        "A_MIDDLE": 191,
+        "A_HIGH": 129,
+        "A_MIDDLE": 197,
         "A_LOW": 0,
         "daily_netas": {
           "1": 23,
@@ -7249,7 +7453,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 36,
           "15": 58,
           "16": 58,
-          "17": 30
+          "17": 30,
+          "18": 13
         },
         "daily_brutas": {
           "1": 23,
@@ -7268,7 +7473,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 41,
           "15": 63,
           "16": 60,
-          "17": 34
+          "17": 34,
+          "18": 14
         }
       },
       "iot_corte": {
@@ -7307,12 +7513,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 65,
-            "netas": 63,
+            "brutas": 68,
+            "netas": 66,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 6,
-            "RENO_16F": 11,
+            "RENO_16F": 14,
             "A7_PRO": 5,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -7336,7 +7542,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 7,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 3
             },
             "daily_brutas": {
               "1": 3,
@@ -7355,7 +7562,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 7,
               "16": 7,
-              "17": 3
+              "17": 3,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -7375,17 +7583,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 73,
-            "netas": 66,
-            "no_activadas": 4,
+            "brutas": 75,
+            "netas": 70,
+            "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 2,
             "RENO_16F": 20,
-            "A7_PRO": 1,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 14,
-            "A_MIDDLE": 29,
+            "A_HIGH": 15,
+            "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -7402,9 +7610,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 0,
               "13": 1,
               "14": 3,
-              "15": 14,
+              "15": 15,
               "16": 12,
-              "17": 2
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 8,
@@ -7423,7 +7632,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 16,
               "16": 14,
-              "17": 3
+              "17": 3,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -7472,7 +7682,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 7,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -7491,7 +7702,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 7,
               "16": 7,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7511,8 +7723,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 67,
-            "netas": 59,
+            "brutas": 69,
+            "netas": 61,
             "no_activadas": 2,
             "desfasadas": 6,
             "RENO_16_5G": 3,
@@ -7520,8 +7732,8 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 4,
-            "A_HIGH": 16,
-            "A_MIDDLE": 23,
+            "A_HIGH": 17,
+            "A_MIDDLE": 24,
             "A_LOW": 1,
             "daily_netas": {
               "1": 4,
@@ -7540,7 +7752,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 9,
               "16": 4,
-              "17": 4
+              "17": 4,
+              "18": 2
             },
             "daily_brutas": {
               "1": 4,
@@ -7559,7 +7772,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 13,
               "16": 4,
-              "17": 6
+              "17": 6,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -7608,7 +7822,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 7,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 6,
@@ -7627,7 +7842,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7660,16 +7876,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 67,
-            "netas": 60,
+            "brutas": 69,
+            "netas": 62,
             "no_activadas": 5,
             "desfasadas": 2,
             "RENO_16_5G": 4,
-            "RENO_16F": 18,
+            "RENO_16F": 19,
             "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 18,
+            "A_HIGH": 19,
             "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
@@ -7689,7 +7905,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 15,
               "16": 9,
-              "17": 3
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 7,
@@ -7708,7 +7925,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 17,
               "16": 10,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -7757,7 +7975,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 9,
@@ -7776,7 +7995,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 6,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -7797,12 +8017,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 217,
           "tgt_foco": 41,
           "ventas_corte": {
-            "brutas": 127,
-            "netas": 124,
+            "brutas": 130,
+            "netas": 127,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 11,
-            "RENO_16F": 23,
+            "RENO_16F": 26,
             "A7_PRO": 9,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -7826,7 +8046,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 14,
               "15": 14,
               "16": 12,
-              "17": 6
+              "17": 6,
+              "18": 3
             },
             "daily_brutas": {
               "1": 6,
@@ -7845,7 +8066,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 14,
               "15": 14,
               "16": 14,
-              "17": 6
+              "17": 6,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -7864,16 +8086,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 166,
           "tgt_foco": 42,
           "ventas_corte": {
-            "brutas": 117,
-            "netas": 107,
+            "brutas": 119,
+            "netas": 109,
             "no_activadas": 6,
             "desfasadas": 4,
             "RENO_16_5G": 6,
-            "RENO_16F": 30,
+            "RENO_16F": 31,
             "A7_PRO": 7,
             "FIND": 0,
             "RENO_OTHERS": 2,
-            "A_HIGH": 28,
+            "A_HIGH": 29,
             "A_MIDDLE": 34,
             "A_LOW": 0,
             "daily_netas": {
@@ -7893,7 +8115,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 13,
               "15": 22,
               "16": 15,
-              "17": 4
+              "17": 5,
+              "18": 1
             },
             "daily_brutas": {
               "1": 13,
@@ -7912,7 +8135,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 15,
               "15": 24,
               "16": 16,
-              "17": 6
+              "17": 6,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -7944,17 +8168,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 107,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 73,
-            "netas": 66,
-            "no_activadas": 4,
+            "brutas": 75,
+            "netas": 70,
+            "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 2,
             "RENO_16F": 20,
-            "A7_PRO": 1,
+            "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 14,
-            "A_MIDDLE": 29,
+            "A_HIGH": 15,
+            "A_MIDDLE": 31,
             "A_LOW": 0,
             "daily_netas": {
               "1": 7,
@@ -7971,9 +8195,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 0,
               "13": 1,
               "14": 3,
-              "15": 14,
+              "15": 15,
               "16": 12,
-              "17": 2
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 8,
@@ -7992,7 +8217,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 16,
               "16": 14,
-              "17": 3
+              "17": 3,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -8011,8 +8237,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 119,
           "tgt_foco": 23,
           "ventas_corte": {
-            "brutas": 67,
-            "netas": 59,
+            "brutas": 69,
+            "netas": 61,
             "no_activadas": 2,
             "desfasadas": 6,
             "RENO_16_5G": 3,
@@ -8020,8 +8246,8 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 4,
-            "A_HIGH": 16,
-            "A_MIDDLE": 23,
+            "A_HIGH": 17,
+            "A_MIDDLE": 24,
             "A_LOW": 1,
             "daily_netas": {
               "1": 4,
@@ -8040,7 +8266,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 9,
               "16": 4,
-              "17": 4
+              "17": 4,
+              "18": 2
             },
             "daily_brutas": {
               "1": 4,
@@ -8059,7 +8286,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 12,
               "15": 13,
               "16": 4,
-              "17": 6
+              "17": 6,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -8107,7 +8335,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 9,
@@ -8126,7 +8355,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 6,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8137,17 +8367,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 424,
-        "netas": 385,
-        "no_activadas": 15,
+        "brutas": 433,
+        "netas": 396,
+        "no_activadas": 13,
         "desfasadas": 24,
         "RENO_16_5G": 23,
-        "RENO_16F": 91,
-        "A7_PRO": 18,
+        "RENO_16F": 95,
+        "A7_PRO": 19,
         "FIND": 0,
         "RENO_OTHERS": 6,
-        "A_HIGH": 95,
-        "A_MIDDLE": 151,
+        "A_HIGH": 98,
+        "A_MIDDLE": 154,
         "A_LOW": 1,
         "daily_netas": {
           "1": 34,
@@ -8164,9 +8394,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "12": 7,
           "13": 17,
           "14": 46,
-          "15": 63,
+          "15": 64,
           "16": 44,
-          "17": 17
+          "17": 19,
+          "18": 8
         },
         "daily_brutas": {
           "1": 40,
@@ -8185,7 +8416,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 51,
           "15": 73,
           "16": 50,
-          "17": 22
+          "17": 22,
+          "18": 9
         }
       },
       "iot_corte": {
@@ -8259,7 +8491,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -8278,7 +8511,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 6,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8299,11 +8533,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 48,
           "ventas_corte": {
             "brutas": 34,
-            "netas": 28,
-            "no_activadas": 4,
+            "netas": 29,
+            "no_activadas": 3,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 1,
             "RENO_OTHERS": 10,
@@ -8327,7 +8561,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 4,
-              "17": 0
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 7,
@@ -8346,7 +8581,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 7,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8395,7 +8631,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -8414,7 +8651,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8447,17 +8685,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 34,
-            "netas": 34,
+            "brutas": 39,
+            "netas": 39,
             "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 4,
-            "RENO_16F": 6,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 3,
-            "RENO_OTHERS": 5,
-            "A_HIGH": 10,
-            "A_MIDDLE": 6,
+            "RENO_OTHERS": 6,
+            "A_HIGH": 12,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -8476,7 +8714,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 5
+              "17": 5,
+              "18": 5
             },
             "daily_brutas": {
               "1": 2,
@@ -8495,7 +8734,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 5
+              "17": 5,
+              "18": 5
             }
           },
           "iot_corte": {
@@ -8557,7 +8797,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 3,
               "16": 3,
-              "17": 6
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -8576,7 +8817,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 3,
               "16": 4,
-              "17": 7
+              "17": 7,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8604,10 +8846,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 48,
           "ventas_corte": {
             "brutas": 31,
-            "netas": 25,
-            "no_activadas": 6,
+            "netas": 26,
+            "no_activadas": 5,
             "desfasadas": 0,
-            "RENO_16_5G": 1,
+            "RENO_16_5G": 2,
             "RENO_16F": 3,
             "A7_PRO": 3,
             "FIND": 1,
@@ -8631,8 +8873,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 2,
               "14": 2,
               "15": 5,
-              "16": 2,
-              "17": 0
+              "16": 3,
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -8651,7 +8894,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 6,
               "16": 4,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8707,7 +8951,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 9,
               "16": 5,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -8726,7 +8971,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 10,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8765,8 +9011,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 24,
           "tgt_foco": 48,
           "ventas_corte": {
-            "brutas": 33,
-            "netas": 31,
+            "brutas": 34,
+            "netas": 32,
             "no_activadas": 2,
             "desfasadas": 0,
             "RENO_16_5G": 2,
@@ -8774,7 +9020,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 5,
             "FIND": 1,
             "RENO_OTHERS": 3,
-            "A_HIGH": 6,
+            "A_HIGH": 7,
             "A_MIDDLE": 4,
             "A_LOW": 0,
             "daily_netas": {
@@ -8794,7 +9040,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 3,
               "16": 4,
-              "17": 6
+              "17": 6,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -8813,7 +9060,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 3,
               "16": 4,
-              "17": 7
+              "17": 7,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -8869,7 +9117,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -8888,7 +9137,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -8937,7 +9187,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -8956,7 +9207,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9005,7 +9257,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -9024,7 +9277,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9073,7 +9327,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 1,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -9092,7 +9347,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 2,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9132,8 +9388,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 109,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 83,
-            "netas": 76,
+            "brutas": 84,
+            "netas": 77,
             "no_activadas": 7,
             "desfasadas": 0,
             "RENO_16_5G": 5,
@@ -9141,7 +9397,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 2,
             "FIND": 3,
             "RENO_OTHERS": 9,
-            "A_HIGH": 15,
+            "A_HIGH": 16,
             "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
@@ -9161,7 +9417,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 6,
               "16": 7,
-              "17": 12
+              "17": 12,
+              "18": 1
             },
             "daily_brutas": {
               "1": 4,
@@ -9180,7 +9437,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 6,
               "16": 8,
-              "17": 14
+              "17": 14,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -9218,17 +9476,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 106,
           "tgt_foco": 28,
           "ventas_corte": {
-            "brutas": 65,
-            "netas": 59,
-            "no_activadas": 6,
+            "brutas": 70,
+            "netas": 65,
+            "no_activadas": 5,
             "desfasadas": 0,
-            "RENO_16_5G": 5,
-            "RENO_16F": 9,
+            "RENO_16_5G": 6,
+            "RENO_16F": 10,
             "A7_PRO": 3,
             "FIND": 4,
-            "RENO_OTHERS": 12,
-            "A_HIGH": 15,
-            "A_MIDDLE": 11,
+            "RENO_OTHERS": 13,
+            "A_HIGH": 17,
+            "A_MIDDLE": 12,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -9246,8 +9504,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 4,
               "14": 4,
               "15": 9,
-              "16": 8,
-              "17": 5
+              "16": 9,
+              "17": 5,
+              "18": 5
             },
             "daily_brutas": {
               "1": 3,
@@ -9266,7 +9525,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 10,
               "16": 10,
-              "17": 5
+              "17": 5,
+              "18": 5
             }
           },
           "iot_corte": {
@@ -9299,11 +9559,11 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 7,
           "ventas_corte": {
             "brutas": 34,
-            "netas": 28,
-            "no_activadas": 4,
+            "netas": 29,
+            "no_activadas": 3,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 3,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 1,
             "RENO_OTHERS": 10,
@@ -9327,7 +9587,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 4,
-              "17": 0
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 7,
@@ -9346,7 +9607,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 7,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9394,7 +9656,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -9413,7 +9676,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 6,
               "16": 5,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9461,7 +9725,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 9,
               "16": 5,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -9480,7 +9745,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 10,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9547,7 +9813,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -9566,7 +9833,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 2,
               "16": 2,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9614,7 +9882,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -9633,7 +9902,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9681,7 +9951,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -9700,7 +9971,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9748,7 +10020,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -9767,7 +10040,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9815,7 +10089,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -9834,7 +10109,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9882,7 +10158,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 1,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -9901,7 +10178,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9949,7 +10227,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 1,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -9968,7 +10247,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 2,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -9998,17 +10278,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 357,
-        "netas": 320,
-        "no_activadas": 35,
+        "brutas": 363,
+        "netas": 328,
+        "no_activadas": 33,
         "desfasadas": 2,
-        "RENO_16_5G": 20,
-        "RENO_16F": 75,
+        "RENO_16_5G": 21,
+        "RENO_16F": 77,
         "A7_PRO": 11,
         "FIND": 17,
-        "RENO_OTHERS": 56,
-        "A_HIGH": 77,
-        "A_MIDDLE": 49,
+        "RENO_OTHERS": 57,
+        "A_HIGH": 80,
+        "A_MIDDLE": 50,
         "A_LOW": 15,
         "daily_netas": {
           "1": 17,
@@ -10026,8 +10306,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "13": 29,
           "14": 32,
           "15": 41,
-          "16": 33,
-          "17": 30
+          "16": 34,
+          "17": 31,
+          "18": 6
         },
         "daily_brutas": {
           "1": 18,
@@ -10046,7 +10327,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 36,
           "15": 47,
           "16": 43,
-          "17": 34
+          "17": 34,
+          "18": 6
         }
       },
       "iot_corte": {
@@ -10115,16 +10397,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 52,
-            "netas": 48,
-            "no_activadas": 3,
+            "brutas": 53,
+            "netas": 50,
+            "no_activadas": 2,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 17,
+            "RENO_16F": 18,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 15,
+            "A_HIGH": 16,
             "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
@@ -10144,7 +10426,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 7,
               "16": 6,
-              "17": 3
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -10163,7 +10446,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 8,
               "16": 6,
-              "17": 5
+              "17": 5,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -10183,8 +10467,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 4,
           "tgt_foco": 18,
           "ventas_corte": {
-            "brutas": 42,
-            "netas": 37,
+            "brutas": 43,
+            "netas": 38,
             "no_activadas": 2,
             "desfasadas": 3,
             "RENO_16_5G": 1,
@@ -10192,7 +10476,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "A7_PRO": 2,
             "FIND": 0,
             "RENO_OTHERS": 1,
-            "A_HIGH": 7,
+            "A_HIGH": 8,
             "A_MIDDLE": 14,
             "A_LOW": 0,
             "daily_netas": {
@@ -10212,7 +10496,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 2,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -10231,7 +10516,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -10264,17 +10550,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 12,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 44,
-            "netas": 38,
-            "no_activadas": 2,
-            "desfasadas": 4,
+            "brutas": 48,
+            "netas": 42,
+            "no_activadas": 1,
+            "desfasadas": 5,
             "RENO_16_5G": 0,
-            "RENO_16F": 8,
+            "RENO_16F": 9,
             "A7_PRO": 2,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 16,
-            "A_MIDDLE": 12,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 17,
+            "A_MIDDLE": 13,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -10293,7 +10579,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 6,
               "16": 3,
-              "17": 2
+              "17": 3,
+              "18": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -10312,7 +10599,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 7,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -10333,14 +10621,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 17,
           "ventas_corte": {
             "brutas": 42,
-            "netas": 36,
-            "no_activadas": 4,
+            "netas": 38,
+            "no_activadas": 2,
             "desfasadas": 2,
             "RENO_16_5G": 4,
-            "RENO_16F": 9,
+            "RENO_16F": 10,
             "A7_PRO": 1,
             "FIND": 0,
-            "RENO_OTHERS": 0,
+            "RENO_OTHERS": 1,
             "A_HIGH": 10,
             "A_MIDDLE": 12,
             "A_LOW": 0,
@@ -10359,9 +10647,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 1,
               "13": 1,
               "14": 3,
-              "15": 4,
-              "16": 2,
-              "17": 6
+              "15": 5,
+              "16": 3,
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -10380,7 +10669,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 5,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10400,16 +10690,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 20,
           "ventas_corte": {
-            "brutas": 48,
-            "netas": 43,
+            "brutas": 52,
+            "netas": 47,
             "no_activadas": 1,
             "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 18,
-            "A7_PRO": 0,
+            "RENO_16F": 19,
+            "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 14,
+            "A_HIGH": 16,
             "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
@@ -10429,7 +10719,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 10,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 4
             },
             "daily_brutas": {
               "1": 1,
@@ -10448,7 +10739,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 10,
               "16": 7,
-              "17": 3
+              "17": 3,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -10468,18 +10760,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 10,
           "ventas_corte": {
-            "brutas": 40,
-            "netas": 33,
+            "brutas": 44,
+            "netas": 36,
             "no_activadas": 3,
-            "desfasadas": 4,
+            "desfasadas": 5,
             "RENO_16_5G": 0,
             "RENO_16F": 6,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
             "A_HIGH": 9,
-            "A_MIDDLE": 11,
-            "A_LOW": 4,
+            "A_MIDDLE": 13,
+            "A_LOW": 5,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -10497,7 +10789,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -10516,7 +10809,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 6,
               "16": 3,
-              "17": 5
+              "17": 5,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -10536,8 +10830,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 38,
-            "netas": 35,
+            "brutas": 39,
+            "netas": 36,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
@@ -10546,7 +10840,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 11,
-            "A_MIDDLE": 19,
+            "A_MIDDLE": 20,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -10565,7 +10859,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 5,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -10584,7 +10879,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 6,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -10605,15 +10901,15 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 14,
           "ventas_corte": {
             "brutas": 31,
-            "netas": 27,
-            "no_activadas": 1,
+            "netas": 28,
+            "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 3,
             "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 8,
+            "A_HIGH": 9,
             "A_MIDDLE": 11,
             "A_LOW": 0,
             "daily_netas": {
@@ -10624,7 +10920,7 @@ window.PORTAL_SUPERVISORES_DATA = {
               "5": 1,
               "6": 2,
               "7": 2,
-              "8": 3,
+              "8": 4,
               "9": 0,
               "10": 3,
               "11": 0,
@@ -10633,7 +10929,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 3,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -10652,7 +10949,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 4,
               "16": 3,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10701,7 +10999,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 7,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -10720,7 +11019,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 8,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10769,7 +11069,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 4,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -10788,7 +11089,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 4,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10837,7 +11139,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -10856,7 +11159,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10905,7 +11209,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 4,
@@ -10924,7 +11229,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -10973,7 +11279,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -10992,7 +11299,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11013,8 +11321,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 7,
           "ventas_corte": {
             "brutas": 18,
-            "netas": 16,
-            "no_activadas": 1,
+            "netas": 17,
+            "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
@@ -11022,7 +11330,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 8,
-            "A_MIDDLE": 6,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -11040,8 +11348,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 0,
               "14": 2,
               "15": 1,
-              "16": 4,
-              "17": 1
+              "16": 5,
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -11060,7 +11369,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 1,
               "16": 5,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11081,12 +11391,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 0,
           "ventas_corte": {
             "brutas": 39,
-            "netas": 38,
-            "no_activadas": 1,
+            "netas": 39,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 5,
-            "A7_PRO": 6,
+            "A7_PRO": 7,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 9,
@@ -11109,7 +11419,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 7,
-              "17": 3
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11128,7 +11439,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 7,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11177,7 +11489,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -11196,7 +11509,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11217,16 +11531,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 131,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 84,
-            "netas": 73,
-            "no_activadas": 6,
+            "brutas": 85,
+            "netas": 76,
+            "no_activadas": 4,
             "desfasadas": 5,
             "RENO_16_5G": 5,
-            "RENO_16F": 21,
+            "RENO_16F": 22,
             "A7_PRO": 3,
             "FIND": 0,
-            "RENO_OTHERS": 1,
-            "A_HIGH": 17,
+            "RENO_OTHERS": 2,
+            "A_HIGH": 18,
             "A_MIDDLE": 26,
             "A_LOW": 0,
             "daily_netas": {
@@ -11244,9 +11558,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 1,
               "13": 2,
               "14": 6,
-              "15": 6,
-              "16": 8,
-              "17": 9
+              "15": 7,
+              "16": 9,
+              "17": 9,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -11265,7 +11580,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 9,
               "16": 11,
-              "17": 10
+              "17": 10,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -11297,17 +11613,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 117,
           "tgt_foco": 29,
           "ventas_corte": {
-            "brutas": 74,
-            "netas": 63,
-            "no_activadas": 3,
-            "desfasadas": 8,
+            "brutas": 78,
+            "netas": 68,
+            "no_activadas": 1,
+            "desfasadas": 9,
             "RENO_16_5G": 3,
-            "RENO_16F": 12,
+            "RENO_16F": 13,
             "A7_PRO": 2,
             "FIND": 0,
-            "RENO_OTHERS": 0,
-            "A_HIGH": 24,
-            "A_MIDDLE": 22,
+            "RENO_OTHERS": 1,
+            "A_HIGH": 26,
+            "A_MIDDLE": 23,
             "A_LOW": 0,
             "daily_netas": {
               "1": 0,
@@ -11317,7 +11633,7 @@ window.PORTAL_SUPERVISORES_DATA = {
               "5": 1,
               "6": 4,
               "7": 4,
-              "8": 7,
+              "8": 8,
               "9": 2,
               "10": 5,
               "11": 2,
@@ -11326,7 +11642,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 9,
               "16": 6,
-              "17": 3
+              "17": 4,
+              "18": 3
             },
             "daily_brutas": {
               "1": 1,
@@ -11345,7 +11662,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 11,
               "16": 8,
-              "17": 5
+              "17": 5,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -11364,16 +11682,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 139,
           "tgt_foco": 35,
           "ventas_corte": {
-            "brutas": 80,
-            "netas": 74,
+            "brutas": 84,
+            "netas": 78,
             "no_activadas": 1,
             "desfasadas": 5,
             "RENO_16_5G": 1,
-            "RENO_16F": 26,
-            "A7_PRO": 3,
+            "RENO_16F": 27,
+            "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 18,
+            "A_HIGH": 20,
             "A_MIDDLE": 26,
             "A_LOW": 0,
             "daily_netas": {
@@ -11393,7 +11711,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 17,
               "16": 11,
-              "17": 4
+              "17": 4,
+              "18": 4
             },
             "daily_brutas": {
               "1": 3,
@@ -11412,7 +11731,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 9,
               "15": 18,
               "16": 12,
-              "17": 5
+              "17": 5,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -11431,16 +11751,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 54,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 52,
-            "netas": 48,
-            "no_activadas": 3,
+            "brutas": 53,
+            "netas": 50,
+            "no_activadas": 2,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 17,
+            "RENO_16F": 18,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 15,
+            "A_HIGH": 16,
             "A_MIDDLE": 15,
             "A_LOW": 0,
             "daily_netas": {
@@ -11460,7 +11780,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 7,
               "16": 6,
-              "17": 3
+              "17": 4,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -11479,7 +11800,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 8,
               "16": 6,
-              "17": 5
+              "17": 5,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -11498,8 +11820,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 43,
           "tgt_foco": 9,
           "ventas_corte": {
-            "brutas": 38,
-            "netas": 35,
+            "brutas": 39,
+            "netas": 36,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
@@ -11508,7 +11830,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 11,
-            "A_MIDDLE": 19,
+            "A_MIDDLE": 20,
             "A_LOW": 0,
             "daily_netas": {
               "1": 2,
@@ -11527,7 +11849,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 5,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -11546,7 +11869,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 6,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -11566,12 +11890,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 14,
           "ventas_corte": {
             "brutas": 41,
-            "netas": 40,
-            "no_activadas": 1,
+            "netas": 41,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 6,
-            "A7_PRO": 6,
+            "A7_PRO": 7,
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 9,
@@ -11594,7 +11918,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 7,
-              "17": 3
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -11613,7 +11938,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 7,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11661,7 +11987,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 4,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11680,7 +12007,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 8,
               "15": 4,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11728,7 +12056,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -11747,7 +12076,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11795,7 +12125,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 2,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 4,
@@ -11814,7 +12145,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 2,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11862,7 +12194,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 5,
               "16": 3,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -11881,7 +12214,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 6,
               "16": 3,
-              "17": 5
+              "17": 5,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -11900,18 +12234,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 32,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 11,
-            "netas": 9,
+            "brutas": 15,
+            "netas": 12,
             "no_activadas": 0,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
             "RENO_16F": 1,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 2,
-            "A_MIDDLE": 1,
-            "A_LOW": 4,
+            "A_MIDDLE": 3,
+            "A_LOW": 5,
             "daily_netas": {
               "1": 0,
               "2": 0,
@@ -11929,7 +12263,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 3
             },
             "daily_brutas": {
               "1": 0,
@@ -11948,7 +12283,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -11996,7 +12332,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -12015,7 +12352,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12035,8 +12373,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 7,
           "ventas_corte": {
             "brutas": 18,
-            "netas": 16,
-            "no_activadas": 1,
+            "netas": 17,
+            "no_activadas": 0,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 2,
@@ -12044,7 +12382,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 0,
             "A_HIGH": 8,
-            "A_MIDDLE": 6,
+            "A_MIDDLE": 7,
             "A_LOW": 0,
             "daily_netas": {
               "1": 1,
@@ -12062,8 +12400,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 0,
               "14": 2,
               "15": 1,
-              "16": 4,
-              "17": 1
+              "16": 5,
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -12082,7 +12421,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 1,
               "16": 5,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12093,18 +12433,18 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 528,
-        "netas": 462,
-        "no_activadas": 22,
-        "desfasadas": 44,
+        "brutas": 543,
+        "netas": 482,
+        "no_activadas": 15,
+        "desfasadas": 46,
         "RENO_16_5G": 9,
-        "RENO_16F": 112,
-        "A7_PRO": 19,
+        "RENO_16F": 116,
+        "A7_PRO": 21,
         "FIND": 0,
-        "RENO_OTHERS": 12,
-        "A_HIGH": 138,
-        "A_MIDDLE": 165,
-        "A_LOW": 7,
+        "RENO_OTHERS": 14,
+        "A_HIGH": 144,
+        "A_MIDDLE": 170,
+        "A_LOW": 8,
         "daily_netas": {
           "1": 16,
           "2": 15,
@@ -12113,16 +12453,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "5": 14,
           "6": 27,
           "7": 24,
-          "8": 47,
+          "8": 48,
           "9": 23,
           "10": 16,
           "11": 14,
           "12": 8,
           "13": 29,
           "14": 47,
-          "15": 69,
-          "16": 57,
-          "17": 36
+          "15": 70,
+          "16": 59,
+          "17": 39,
+          "18": 13
         },
         "daily_brutas": {
           "1": 18,
@@ -12141,7 +12482,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 52,
           "15": 82,
           "16": 69,
-          "17": 47
+          "17": 47,
+          "18": 15
         }
       },
       "iot_corte": {
@@ -12186,12 +12528,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 13,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 72,
-            "netas": 61,
-            "no_activadas": 9,
+            "brutas": 73,
+            "netas": 63,
+            "no_activadas": 8,
             "desfasadas": 2,
             "RENO_16_5G": 3,
-            "RENO_16F": 13,
+            "RENO_16F": 15,
             "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 5,
@@ -12214,8 +12556,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 2,
               "14": 4,
               "15": 9,
-              "16": 10,
-              "17": 3
+              "16": 11,
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -12234,7 +12577,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 10,
               "16": 12,
-              "17": 5
+              "17": 5,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -12261,18 +12605,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 45,
-            "netas": 38,
+            "brutas": 48,
+            "netas": 40,
             "no_activadas": 1,
-            "desfasadas": 6,
+            "desfasadas": 7,
             "RENO_16_5G": 0,
-            "RENO_16F": 9,
+            "RENO_16F": 10,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 2,
             "A_HIGH": 9,
             "A_MIDDLE": 6,
-            "A_LOW": 11,
+            "A_LOW": 12,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -12288,9 +12632,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 4,
               "13": 1,
               "14": 1,
-              "15": 6,
+              "15": 7,
               "16": 0,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -12309,7 +12654,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 8,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -12365,7 +12711,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 14,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -12384,7 +12731,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 15,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12433,7 +12781,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -12452,7 +12801,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12501,7 +12851,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 11,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -12520,7 +12871,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 11,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12540,9 +12892,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 27,
-            "netas": 24,
-            "no_activadas": 1,
+            "brutas": 28,
+            "netas": 26,
+            "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 1,
             "RENO_16F": 4,
@@ -12551,7 +12903,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "RENO_OTHERS": 4,
             "A_HIGH": 3,
             "A_MIDDLE": 4,
-            "A_LOW": 8,
+            "A_LOW": 10,
             "daily_netas": {
               "1": 3,
               "2": 2,
@@ -12567,9 +12919,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 0,
               "13": 0,
               "14": 1,
-              "15": 5,
+              "15": 6,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -12588,7 +12941,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -12644,7 +12998,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -12663,7 +13018,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -12702,12 +13058,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 30,
-            "netas": 24,
-            "no_activadas": 3,
-            "desfasadas": 3,
+            "brutas": 33,
+            "netas": 27,
+            "no_activadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -12731,7 +13087,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 2,
-              "17": 4
+              "17": 5,
+              "18": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -12750,7 +13107,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 2,
-              "17": 6
+              "17": 6,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -12770,12 +13128,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 16,
-            "netas": 13,
+            "brutas": 17,
+            "netas": 14,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
@@ -12799,7 +13157,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -12818,7 +13177,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -12839,12 +13199,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 109,
           "tgt_foco": 27,
           "ventas_corte": {
-            "brutas": 72,
-            "netas": 61,
-            "no_activadas": 9,
+            "brutas": 73,
+            "netas": 63,
+            "no_activadas": 8,
             "desfasadas": 2,
             "RENO_16_5G": 3,
-            "RENO_16F": 13,
+            "RENO_16F": 15,
             "A7_PRO": 4,
             "FIND": 0,
             "RENO_OTHERS": 5,
@@ -12867,8 +13227,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 2,
               "14": 4,
               "15": 9,
-              "16": 10,
-              "17": 3
+              "16": 11,
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -12887,7 +13248,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 10,
               "16": 12,
-              "17": 5
+              "17": 5,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -12913,18 +13275,18 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 65,
           "tgt_foco": 11,
           "ventas_corte": {
-            "brutas": 45,
-            "netas": 38,
+            "brutas": 48,
+            "netas": 40,
             "no_activadas": 1,
-            "desfasadas": 6,
+            "desfasadas": 7,
             "RENO_16_5G": 0,
-            "RENO_16F": 9,
+            "RENO_16F": 10,
             "A7_PRO": 1,
             "FIND": 0,
             "RENO_OTHERS": 2,
             "A_HIGH": 9,
             "A_MIDDLE": 6,
-            "A_LOW": 11,
+            "A_LOW": 12,
             "daily_netas": {
               "1": 3,
               "2": 1,
@@ -12940,9 +13302,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 4,
               "13": 1,
               "14": 1,
-              "15": 6,
+              "15": 7,
               "16": 0,
-              "17": 3
+              "17": 3,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -12961,7 +13324,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 8,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -13016,7 +13380,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 14,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13035,7 +13400,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 15,
               "16": 0,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13083,7 +13449,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 10,
               "15": 11,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -13102,7 +13469,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 11,
               "15": 11,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13150,7 +13518,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -13169,7 +13538,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 5,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13188,9 +13558,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 64,
           "tgt_foco": 12,
           "ventas_corte": {
-            "brutas": 27,
-            "netas": 24,
-            "no_activadas": 1,
+            "brutas": 28,
+            "netas": 26,
+            "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 1,
             "RENO_16F": 4,
@@ -13199,7 +13569,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "RENO_OTHERS": 4,
             "A_HIGH": 3,
             "A_MIDDLE": 4,
-            "A_LOW": 8,
+            "A_LOW": 10,
             "daily_netas": {
               "1": 3,
               "2": 2,
@@ -13215,9 +13585,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 0,
               "13": 0,
               "14": 1,
-              "15": 5,
+              "15": 6,
               "16": 4,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -13236,7 +13607,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 6,
               "16": 5,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -13291,7 +13663,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -13310,7 +13683,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 5,
-              "17": 4
+              "17": 4,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13348,12 +13722,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 69,
           "tgt_foco": 16,
           "ventas_corte": {
-            "brutas": 30,
-            "netas": 24,
-            "no_activadas": 3,
-            "desfasadas": 3,
+            "brutas": 33,
+            "netas": 27,
+            "no_activadas": 2,
+            "desfasadas": 4,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 7,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -13377,7 +13751,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 2,
-              "17": 4
+              "17": 5,
+              "18": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -13396,7 +13771,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 6,
               "16": 2,
-              "17": 6
+              "17": 6,
+              "18": 3
             }
           },
           "iot_corte": {
@@ -13415,12 +13791,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 27,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 16,
-            "netas": 13,
+            "brutas": 17,
+            "netas": 14,
             "no_activadas": 0,
             "desfasadas": 3,
             "RENO_16_5G": 0,
-            "RENO_16F": 4,
+            "RENO_16F": 5,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 1,
@@ -13444,7 +13820,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 1
             },
             "daily_brutas": {
               "1": 3,
@@ -13463,7 +13840,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 2,
-              "17": 1
+              "17": 1,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -13474,18 +13852,18 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 347,
-        "netas": 305,
-        "no_activadas": 18,
-        "desfasadas": 24,
+        "brutas": 356,
+        "netas": 315,
+        "no_activadas": 15,
+        "desfasadas": 26,
         "RENO_16_5G": 5,
-        "RENO_16F": 75,
+        "RENO_16F": 82,
         "A7_PRO": 14,
         "FIND": 0,
         "RENO_OTHERS": 16,
         "A_HIGH": 82,
         "A_MIDDLE": 67,
-        "A_LOW": 46,
+        "A_LOW": 49,
         "daily_netas": {
           "1": 17,
           "2": 16,
@@ -13501,9 +13879,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "12": 14,
           "13": 7,
           "14": 25,
-          "15": 60,
-          "16": 34,
-          "17": 25
+          "15": 62,
+          "16": 35,
+          "17": 26,
+          "18": 6
         },
         "daily_brutas": {
           "1": 18,
@@ -13522,7 +13901,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 29,
           "15": 71,
           "16": 38,
-          "17": 30
+          "17": 30,
+          "18": 9
         }
       },
       "iot_corte": {
@@ -13579,16 +13959,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 0,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 58,
-            "netas": 55,
+            "brutas": 60,
+            "netas": 57,
             "no_activadas": 1,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 9,
+            "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 13,
+            "A_HIGH": 14,
             "A_MIDDLE": 19,
             "A_LOW": 14,
             "daily_netas": {
@@ -13608,7 +13988,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 8,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 5,
@@ -13627,7 +14008,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 8,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -13661,8 +14043,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 11,
           "ventas_corte": {
             "brutas": 75,
-            "netas": 62,
-            "no_activadas": 1,
+            "netas": 63,
+            "no_activadas": 0,
             "desfasadas": 12,
             "RENO_16_5G": 1,
             "RENO_16F": 23,
@@ -13670,7 +14052,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 7,
             "A_HIGH": 13,
-            "A_MIDDLE": 8,
+            "A_MIDDLE": 9,
             "A_LOW": 6,
             "daily_netas": {
               "1": 0,
@@ -13689,7 +14071,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 11,
-              "17": 4
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13708,7 +14091,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 8,
               "16": 12,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13770,7 +14154,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 9,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -13789,7 +14174,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13838,7 +14224,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 3,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -13857,7 +14244,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13906,7 +14294,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -13925,7 +14314,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -13945,17 +14335,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 3,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
-            "no_activadas": 1,
+            "brutas": 18,
+            "netas": 18,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 4,
+            "A_HIGH": 8,
+            "A_MIDDLE": 5,
             "A_LOW": 2,
             "daily_netas": {
               "1": 2,
@@ -13972,9 +14362,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 2,
               "13": 3,
               "14": 0,
-              "15": 3,
+              "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -13993,7 +14384,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14020,8 +14412,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 2,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 12,
-            "netas": 10,
+            "brutas": 13,
+            "netas": 11,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
@@ -14030,7 +14422,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 3,
-            "A_MIDDLE": 3,
+            "A_MIDDLE": 4,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -14049,7 +14441,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -14068,7 +14461,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14088,12 +14482,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_a7pro": 5,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 29,
-            "netas": 26,
+            "brutas": 30,
+            "netas": 27,
             "no_activadas": 1,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 11,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -14117,7 +14511,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 8
+              "17": 8,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -14136,7 +14531,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 7,
-              "17": 8
+              "17": 8,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14192,7 +14588,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14211,7 +14608,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14260,7 +14658,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14279,7 +14678,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14300,16 +14700,16 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 93,
           "tgt_foco": 21,
           "ventas_corte": {
-            "brutas": 58,
-            "netas": 55,
+            "brutas": 60,
+            "netas": 57,
             "no_activadas": 1,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 9,
+            "RENO_16F": 10,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 13,
+            "A_HIGH": 14,
             "A_MIDDLE": 19,
             "A_LOW": 14,
             "daily_netas": {
@@ -14329,7 +14729,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 8,
               "16": 5,
-              "17": 3
+              "17": 3,
+              "18": 2
             },
             "daily_brutas": {
               "1": 5,
@@ -14348,7 +14749,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 8,
               "16": 6,
-              "17": 4
+              "17": 4,
+              "18": 2
             }
           },
           "iot_corte": {
@@ -14381,8 +14783,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 21,
           "ventas_corte": {
             "brutas": 80,
-            "netas": 67,
-            "no_activadas": 1,
+            "netas": 68,
+            "no_activadas": 0,
             "desfasadas": 12,
             "RENO_16_5G": 1,
             "RENO_16F": 23,
@@ -14390,7 +14792,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 7,
             "A_HIGH": 15,
-            "A_MIDDLE": 8,
+            "A_MIDDLE": 9,
             "A_LOW": 9,
             "daily_netas": {
               "1": 0,
@@ -14409,7 +14811,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 11,
-              "17": 4
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14428,7 +14831,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 7,
               "15": 8,
               "16": 12,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14489,7 +14893,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 3,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -14508,7 +14913,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 6,
               "15": 4,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14556,7 +14962,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 9,
               "16": 6,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14575,7 +14982,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 9,
               "16": 6,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14623,7 +15031,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             },
             "daily_brutas": {
               "1": 2,
@@ -14642,7 +15051,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 4,
-              "17": 3
+              "17": 3,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14661,17 +15071,17 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 28,
           "tgt_foco": 3,
           "ventas_corte": {
-            "brutas": 17,
-            "netas": 16,
-            "no_activadas": 1,
+            "brutas": 18,
+            "netas": 18,
+            "no_activadas": 0,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 3,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
-            "A_HIGH": 7,
-            "A_MIDDLE": 4,
+            "A_HIGH": 8,
+            "A_MIDDLE": 5,
             "A_LOW": 2,
             "daily_netas": {
               "1": 2,
@@ -14688,9 +15098,10 @@ window.PORTAL_SUPERVISORES_DATA = {
               "12": 2,
               "13": 3,
               "14": 0,
-              "15": 3,
+              "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 2,
@@ -14709,7 +15120,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14735,8 +15147,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 30,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 12,
-            "netas": 10,
+            "brutas": 13,
+            "netas": 11,
             "no_activadas": 0,
             "desfasadas": 2,
             "RENO_16_5G": 0,
@@ -14745,7 +15157,7 @@ window.PORTAL_SUPERVISORES_DATA = {
             "FIND": 0,
             "RENO_OTHERS": 1,
             "A_HIGH": 3,
-            "A_MIDDLE": 3,
+            "A_MIDDLE": 4,
             "A_LOW": 1,
             "daily_netas": {
               "1": 0,
@@ -14764,7 +15176,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -14783,7 +15196,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14802,12 +15216,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 63,
           "tgt_foco": 13,
           "ventas_corte": {
-            "brutas": 29,
-            "netas": 26,
+            "brutas": 30,
+            "netas": 27,
             "no_activadas": 1,
             "desfasadas": 2,
             "RENO_16_5G": 0,
-            "RENO_16F": 11,
+            "RENO_16F": 12,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 3,
@@ -14831,7 +15245,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 4,
               "16": 6,
-              "17": 8
+              "17": 8,
+              "18": 1
             },
             "daily_brutas": {
               "1": 0,
@@ -14850,7 +15265,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 5,
               "16": 7,
-              "17": 8
+              "17": 8,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -14905,7 +15321,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14924,7 +15341,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -14972,7 +15390,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -14991,7 +15410,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 5,
               "15": 7,
               "16": 6,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15002,17 +15422,17 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 337,
-        "netas": 296,
-        "no_activadas": 11,
+        "brutas": 342,
+        "netas": 303,
+        "no_activadas": 9,
         "desfasadas": 30,
         "RENO_16_5G": 4,
-        "RENO_16F": 80,
+        "RENO_16F": 82,
         "A7_PRO": 13,
         "FIND": 0,
         "RENO_OTHERS": 15,
-        "A_HIGH": 62,
-        "A_MIDDLE": 67,
+        "A_HIGH": 64,
+        "A_MIDDLE": 70,
         "A_LOW": 55,
         "daily_netas": {
           "1": 9,
@@ -15029,9 +15449,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "12": 8,
           "13": 26,
           "14": 22,
-          "15": 45,
+          "15": 46,
           "16": 46,
-          "17": 27
+          "17": 28,
+          "18": 5
         },
         "daily_brutas": {
           "1": 11,
@@ -15050,7 +15471,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 28,
           "15": 49,
           "16": 49,
-          "17": 31
+          "17": 31,
+          "18": 5
         }
       },
       "iot_corte": {
@@ -15136,7 +15558,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -15155,7 +15578,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15203,7 +15627,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15222,7 +15647,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15270,7 +15696,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15289,7 +15716,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15337,7 +15765,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15356,7 +15785,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15404,7 +15834,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15423,7 +15854,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15471,7 +15903,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -15490,7 +15923,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15538,7 +15972,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15557,7 +15992,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15605,7 +16041,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15624,7 +16061,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15672,7 +16110,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15691,7 +16130,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15739,7 +16179,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15758,7 +16199,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15806,7 +16248,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15825,7 +16268,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15873,7 +16317,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15892,7 +16337,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -15940,7 +16386,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -15959,7 +16406,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16007,7 +16455,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16026,7 +16475,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16074,7 +16524,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16093,7 +16544,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16141,7 +16593,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16160,7 +16613,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16208,7 +16662,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16227,7 +16682,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16275,7 +16731,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16294,7 +16751,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16342,7 +16800,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16361,7 +16820,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16409,7 +16869,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16428,7 +16889,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16476,7 +16938,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16495,7 +16958,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16543,7 +17007,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16562,7 +17027,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16602,7 +17068,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 3,
           "15": 1,
           "16": 3,
-          "17": 0
+          "17": 0,
+          "18": 0
         },
         "daily_brutas": {
           "1": 2,
@@ -16621,7 +17088,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 3,
           "15": 1,
           "16": 3,
-          "17": 1
+          "17": 1,
+          "18": 0
         }
       },
       "iot_corte": {
@@ -16680,7 +17148,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 3,
               "16": 4,
-              "17": 6
+              "17": 6,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16699,7 +17168,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 4,
               "15": 3,
               "16": 4,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16747,7 +17217,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16766,7 +17237,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16814,7 +17286,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 5,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16833,7 +17306,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 6,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16852,10 +17326,10 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 8,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 8,
+            "brutas": 9,
             "netas": 6,
             "no_activadas": 0,
-            "desfasadas": 2,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
@@ -16881,7 +17355,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 3,
               "16": 0,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16900,7 +17375,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 4,
               "16": 0,
-              "17": 1
+              "17": 1,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -16948,7 +17424,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -16967,7 +17444,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -16978,10 +17456,10 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 49,
+        "brutas": 50,
         "netas": 43,
         "no_activadas": 0,
-        "desfasadas": 6,
+        "desfasadas": 7,
         "RENO_16_5G": 0,
         "RENO_16F": 16,
         "A7_PRO": 1,
@@ -17007,7 +17485,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 4,
           "15": 6,
           "16": 9,
-          "17": 7
+          "17": 7,
+          "18": 0
         },
         "daily_brutas": {
           "1": 0,
@@ -17026,7 +17505,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 4,
           "15": 7,
           "16": 10,
-          "17": 7
+          "17": 7,
+          "18": 1
         }
       },
       "iot_corte": {
@@ -17085,7 +17565,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 3,
@@ -17104,7 +17585,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17152,7 +17634,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 5
+              "17": 5,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17171,7 +17654,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 6
+              "17": 6,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17190,12 +17674,12 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 16,
           "tgt_foco": 2,
           "ventas_corte": {
-            "brutas": 6,
-            "netas": 5,
-            "no_activadas": 0,
+            "brutas": 10,
+            "netas": 7,
+            "no_activadas": 2,
             "desfasadas": 1,
             "RENO_16_5G": 0,
-            "RENO_16F": 2,
+            "RENO_16F": 4,
             "A7_PRO": 0,
             "FIND": 0,
             "RENO_OTHERS": 0,
@@ -17219,7 +17703,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 2
             },
             "daily_brutas": {
               "1": 1,
@@ -17238,7 +17723,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 4
             }
           },
           "iot_corte": {
@@ -17286,7 +17772,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 5,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17305,7 +17792,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 5,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17353,7 +17841,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17372,7 +17861,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17391,9 +17881,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_gral": 5,
           "tgt_foco": 1,
           "ventas_corte": {
-            "brutas": 5,
+            "brutas": 6,
             "netas": 4,
-            "no_activadas": 0,
+            "no_activadas": 1,
             "desfasadas": 1,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
@@ -17420,7 +17910,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17439,7 +17930,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 1
             }
           },
           "iot_corte": {
@@ -17487,7 +17979,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17506,7 +17999,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17554,7 +18048,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17573,7 +18068,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17584,12 +18080,12 @@ window.PORTAL_SUPERVISORES_DATA = {
         }
       ],
       "ventas_corte": {
-        "brutas": 52,
-        "netas": 46,
-        "no_activadas": 1,
+        "brutas": 57,
+        "netas": 48,
+        "no_activadas": 4,
         "desfasadas": 5,
         "RENO_16_5G": 0,
-        "RENO_16F": 13,
+        "RENO_16F": 15,
         "A7_PRO": 0,
         "FIND": 0,
         "RENO_OTHERS": 6,
@@ -17613,7 +18109,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 3,
           "15": 3,
           "16": 8,
-          "17": 5
+          "17": 5,
+          "18": 2
         },
         "daily_brutas": {
           "1": 4,
@@ -17632,7 +18129,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 3,
           "15": 4,
           "16": 8,
-          "17": 6
+          "17": 6,
+          "18": 5
         }
       },
       "iot_corte": {
@@ -17691,7 +18189,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17710,7 +18209,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17758,7 +18258,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17777,7 +18278,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17825,7 +18327,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17844,7 +18347,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17892,7 +18396,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17911,7 +18416,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -17959,7 +18465,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -17978,7 +18485,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18026,7 +18534,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18045,7 +18554,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18093,7 +18603,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18112,7 +18623,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18160,7 +18672,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18179,7 +18692,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18227,7 +18741,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18246,7 +18761,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18286,7 +18802,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 0,
           "15": 0,
           "16": 0,
-          "17": 0
+          "17": 0,
+          "18": 0
         },
         "daily_brutas": {
           "1": 0,
@@ -18305,7 +18822,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 0,
           "15": 0,
           "16": 0,
-          "17": 0
+          "17": 0,
+          "18": 0
         }
       },
       "iot_corte": {
@@ -18364,7 +18882,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18383,7 +18902,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18431,7 +18951,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18450,7 +18971,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18498,7 +19020,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -18517,7 +19040,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18565,7 +19089,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18584,7 +19109,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18632,7 +19158,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18651,7 +19178,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18699,7 +19227,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18718,7 +19247,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18766,7 +19296,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18785,7 +19316,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18833,7 +19365,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18852,7 +19385,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18900,7 +19434,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18919,7 +19454,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -18967,7 +19503,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -18986,7 +19523,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19034,7 +19572,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19053,7 +19592,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19101,7 +19641,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19120,7 +19661,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19168,7 +19710,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19187,7 +19730,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19235,7 +19779,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19254,7 +19799,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19302,7 +19848,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19321,7 +19868,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19369,7 +19917,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19388,7 +19937,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19436,7 +19986,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19455,7 +20006,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19503,7 +20055,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19522,7 +20075,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19562,7 +20116,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 2,
           "15": 2,
           "16": 1,
-          "17": 0
+          "17": 0,
+          "18": 0
         },
         "daily_brutas": {
           "1": 1,
@@ -19581,7 +20136,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 2,
           "15": 2,
           "16": 1,
-          "17": 0
+          "17": 0,
+          "18": 0
         }
       },
       "iot_corte": {
@@ -19640,7 +20196,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19659,7 +20216,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19707,7 +20265,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19726,7 +20285,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19774,7 +20334,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -19793,7 +20354,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 2,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19813,14 +20375,14 @@ window.PORTAL_SUPERVISORES_DATA = {
           "tgt_foco": 0,
           "ventas_corte": {
             "brutas": 12,
-            "netas": 10,
-            "no_activadas": 2,
+            "netas": 11,
+            "no_activadas": 1,
             "desfasadas": 0,
             "RENO_16_5G": 0,
             "RENO_16F": 0,
             "A7_PRO": 0,
             "FIND": 0,
-            "RENO_OTHERS": 0,
+            "RENO_OTHERS": 1,
             "A_HIGH": 9,
             "A_MIDDLE": 1,
             "A_LOW": 0,
@@ -19840,8 +20402,9 @@ window.PORTAL_SUPERVISORES_DATA = {
               "13": 0,
               "14": 3,
               "15": 3,
-              "16": 2,
-              "17": 0
+              "16": 3,
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19860,7 +20423,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 4,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19908,7 +20472,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 2
+              "17": 2,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19927,7 +20492,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -19975,7 +20541,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -19994,7 +20561,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20042,7 +20610,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20061,7 +20630,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20109,7 +20679,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20128,7 +20699,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20176,7 +20748,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20195,7 +20768,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20243,7 +20817,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20262,7 +20837,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20310,7 +20886,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20329,7 +20906,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20377,7 +20955,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20396,7 +20975,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20444,7 +21024,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20463,7 +21044,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20475,14 +21057,14 @@ window.PORTAL_SUPERVISORES_DATA = {
       ],
       "ventas_corte": {
         "brutas": 34,
-        "netas": 31,
-        "no_activadas": 2,
+        "netas": 32,
+        "no_activadas": 1,
         "desfasadas": 1,
         "RENO_16_5G": 0,
         "RENO_16F": 0,
         "A7_PRO": 0,
         "FIND": 0,
-        "RENO_OTHERS": 1,
+        "RENO_OTHERS": 2,
         "A_HIGH": 23,
         "A_MIDDLE": 4,
         "A_LOW": 3,
@@ -20502,8 +21084,9 @@ window.PORTAL_SUPERVISORES_DATA = {
           "13": 2,
           "14": 7,
           "15": 4,
-          "16": 2,
-          "17": 2
+          "16": 3,
+          "17": 2,
+          "18": 0
         },
         "daily_brutas": {
           "1": 1,
@@ -20522,7 +21105,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 7,
           "15": 4,
           "16": 4,
-          "17": 2
+          "17": 2,
+          "18": 0
         }
       },
       "iot_corte": {
@@ -20554,8 +21138,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "ventas_corte": {
             "brutas": 16,
             "netas": 12,
-            "no_activadas": 2,
-            "desfasadas": 2,
+            "no_activadas": 1,
+            "desfasadas": 3,
             "RENO_16_5G": 0,
             "RENO_16F": 4,
             "A7_PRO": 0,
@@ -20581,7 +21165,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 3,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 1,
@@ -20600,7 +21185,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 3,
               "15": 4,
               "16": 1,
-              "17": 2
+              "17": 2,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20648,7 +21234,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20667,7 +21254,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20715,7 +21303,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20734,7 +21323,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 1,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20782,7 +21372,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20801,7 +21392,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20849,7 +21441,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 2,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -20868,7 +21461,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 1,
               "15": 3,
               "16": 1,
-              "17": 1
+              "17": 1,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -20881,8 +21475,8 @@ window.PORTAL_SUPERVISORES_DATA = {
       "ventas_corte": {
         "brutas": 34,
         "netas": 27,
-        "no_activadas": 4,
-        "desfasadas": 3,
+        "no_activadas": 3,
+        "desfasadas": 4,
         "RENO_16_5G": 0,
         "RENO_16F": 8,
         "A7_PRO": 0,
@@ -20908,7 +21502,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 5,
           "15": 7,
           "16": 4,
-          "17": 2
+          "17": 2,
+          "18": 0
         },
         "daily_brutas": {
           "1": 1,
@@ -20927,7 +21522,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 5,
           "15": 9,
           "16": 4,
-          "17": 3
+          "17": 3,
+          "18": 0
         }
       },
       "iot_corte": {
@@ -20987,7 +21583,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -21006,7 +21603,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -21054,7 +21652,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -21073,7 +21672,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 0,
               "16": 1,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -21121,7 +21721,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 1,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             },
             "daily_brutas": {
               "1": 0,
@@ -21140,7 +21741,8 @@ window.PORTAL_SUPERVISORES_DATA = {
               "14": 0,
               "15": 2,
               "16": 0,
-              "17": 0
+              "17": 0,
+              "18": 0
             }
           },
           "iot_corte": {
@@ -21180,7 +21782,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 0,
           "15": 2,
           "16": 1,
-          "17": 0
+          "17": 0,
+          "18": 0
         },
         "daily_brutas": {
           "1": 0,
@@ -21199,7 +21802,8 @@ window.PORTAL_SUPERVISORES_DATA = {
           "14": 0,
           "15": 3,
           "16": 1,
-          "17": 0
+          "17": 0,
+          "18": 0
         }
       },
       "iot_corte": {
