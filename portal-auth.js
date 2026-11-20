@@ -167,7 +167,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'supervisores-data.js?v=20261120';
+            sc.src = 'supervisores-data.js?v=20261120c';
             sc.onload = function () { resolve(getSupervisorsList()); };
             sc.onerror = function () { resolve([]); };
             document.head.appendChild(sc);
