@@ -197,7 +197,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'comisiones-data.js?v=20261120';
+            sc.src = 'comisiones-data.js?v=20261120c';
             sc.onload = function () { resolve(getPromoterList()); };
             sc.onerror = function () { reject(new Error('No se pudo cargar el padrón de promotores.')); };
             document.head.appendChild(sc);

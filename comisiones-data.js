@@ -2,13 +2,13 @@
  * Base de Datos Oficial de Promotores y Ventas Validadas al Corte
  * Corte al Día 19 (Cerrado a 19/11/2026 23:59:59)
  * Tolerancia de Activación: +-10 Días Naturales
- * Total Promotores: 713 | Ventas Netas Validadas: 3773 | IoT: 57 uds ($6,520.00)
+ * Total Promotores: 714 | Ventas Netas Validadas: 3773 | IoT: 57 uds ($6,520.00)
  */
 window.PORTAL_COMISIONES_META = {
   "cutoffDay": 19,
   "cutoffDate": "2026-11-19",
   "toleranceDays": 10,
-  "totalPromoters": 713,
+  "totalPromoters": 714,
   "netSales": 3773,
   "iotUnits": 57,
   "iotCommission": 6520.0
@@ -55228,6 +55228,83 @@ window.PORTAL_COMISIONES_DATA = [
         "19": 0
       }
     },
+    "iot_corte": {
+      "unidades": 0,
+      "comision": 0,
+      "detalle": []
+    }
+  },
+  {
+    "id": "MR920081",
+    "nombre": "CORTEZ KEVIN",
+    "cadena": "AT&T",
+    "tienda": "SENDERO",
+    "region": "R9-E",
+    "ciudad": "TOLUCA",
+    "tgt_gral": 0,
+    "tgt_reno16": 0,
+    "tgt_a7pro": 0,
+    "tgt_foco": 0,
+    "ventas_corte": {
+      "brutas": 0,
+      "netas": 0,
+      "no_activadas": 0,
+      "desfasadas": 0,
+      "RENO_16_5G": 0,
+      "RENO_16F": 0,
+      "A7_PRO": 0,
+      "FIND": 0,
+      "RENO_OTHERS": 0,
+      "A_HIGH": 0,
+      "A_MIDDLE": 0,
+      "A_LOW": 0,
+      "daily_netas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0
+      },
+      "daily_brutas": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0,
+        "10": 0,
+        "11": 0,
+        "12": 0,
+        "13": 0,
+        "14": 0,
+        "15": 0,
+        "16": 0,
+        "17": 0,
+        "18": 0,
+        "19": 0
+      }
+    },
+    "cadena_oficial": "AT&T",
+    "cadenas_slugs": [
+      "att"
+    ],
     "iot_corte": {
       "unidades": 0,
       "comision": 0,
