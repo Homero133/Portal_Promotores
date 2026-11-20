@@ -167,7 +167,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'supervisores-data.js?v=20261113';
+            sc.src = 'supervisores-data.js?v=20261120';
             sc.onload = function () { resolve(getSupervisorsList()); };
             sc.onerror = function () { resolve([]); };
             document.head.appendChild(sc);
@@ -197,7 +197,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'comisiones-data.js?v=20261113';
+            sc.src = 'comisiones-data.js?v=20261120';
             sc.onload = function () { resolve(getPromoterList()); };
             sc.onerror = function () { reject(new Error('No se pudo cargar el padrón de promotores.')); };
             document.head.appendChild(sc);
@@ -243,9 +243,11 @@
         localStorage.setItem(STORAGE_REG_VER_KEY, PORTAL_REG_VERSION);
     }
 
-    function isAuditor() {
-        const prof = getStoredProfile();
-        return !!(prof && (prof.role === 'auditor' || prof.isAuditor));
+    function isAuditor(profileOpt) {
+        const prof = profileOpt || getStoredProfile();
+        if (!prof) return false;
+        const normId = normalizeId(prof.idEmpleado || prof.id || '');
+        return !!((prof.role === 'auditor' || prof.isAuditor) && isAuditorId(normId));
     }
 
     function isSupervisor() {
@@ -481,6 +483,11 @@
             if (window.oppoProgress && typeof window.oppoProgress.syncGA4UserIdentity === 'function') {
                 window.oppoProgress.syncGA4UserIdentity(true);
             }
+            if (isAuditor(profile)) {
+                ensureOliAssistantLoaded();
+            } else if (window.oliAssistant && typeof window.oliAssistant.refreshUser === 'function') {
+                window.oliAssistant.refreshUser();
+            }
             const cbs = readyCallbacks.slice();
             readyCallbacks = [];
             cbs.forEach(function (fn) {
@@ -550,8 +557,28 @@
         return null;
     }
 
+    function ensureOliAssistantLoaded() {
+        const prof = getStoredProfile();
+        if (!isAuditor(prof)) {
+            if (window.oliAssistant && typeof window.oliAssistant.refreshUser === 'function') {
+                window.oliAssistant.refreshUser();
+            }
+            return;
+        }
+        if (window.oliAssistant) {
+            if (typeof window.oliAssistant.refreshUser === 'function') window.oliAssistant.refreshUser();
+            return;
+        }
+        if (document.querySelector('script[src*="oli-assistant.js"]')) return;
+        const sc = document.createElement('script');
+        sc.src = 'oli-assistant.js?v=20261120b';
+        sc.async = true;
+        document.head.appendChild(sc);
+    }
+
     document.addEventListener('DOMContentLoaded', function () {
         requireAuth();
+        ensureOliAssistantLoaded();
     });
 
     window.portalAuth = {
