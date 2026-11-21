@@ -1,15 +1,15 @@
 /**
  * Base de Datos Oficial de Promotores y Ventas Validadas al Corte
- * Corte al Día 19 (Cerrado a 19/11/2026 23:59:59)
+ * Corte al Día 20 (Cerrado a 20/11/2026 23:59:59)
  * Tolerancia de Activación: +-10 Días Naturales
- * Total Promotores: 714 | Ventas Netas Validadas: 3773 | IoT: 57 uds ($6,520.00)
+ * Total Promotores: 714 | Ventas Netas Validadas: 3864 | IoT: 57 uds ($6,520.00)
  */
 window.PORTAL_COMISIONES_META = {
-  "cutoffDay": 19,
-  "cutoffDate": "2026-11-19",
+  "cutoffDay": 20,
+  "cutoffDate": "2026-11-20",
   "toleranceDays": 10,
   "totalPromoters": 714,
-  "netSales": 3773,
+  "netSales": 3864,
   "iotUnits": 57,
   "iotCommission": 6520.0
 };
@@ -57,7 +57,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -78,7 +79,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -134,7 +136,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -155,7 +158,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -211,7 +215,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -232,7 +237,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -289,7 +295,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -310,7 +317,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -366,7 +374,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -387,7 +396,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -443,7 +453,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -464,7 +475,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -520,7 +532,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -541,7 +554,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -598,7 +612,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -619,7 +634,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -675,7 +691,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -696,7 +713,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -752,7 +770,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -773,7 +792,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -830,7 +850,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -851,7 +872,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -907,7 +929,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -928,7 +951,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -984,7 +1008,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1005,7 +1030,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1061,7 +1087,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1082,7 +1109,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1138,7 +1166,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1159,7 +1188,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -1216,7 +1246,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1237,7 +1268,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1293,7 +1325,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1314,7 +1347,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1370,7 +1404,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1391,7 +1426,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1447,7 +1483,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1468,7 +1505,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1524,7 +1562,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1545,7 +1584,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1601,7 +1641,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1622,7 +1663,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1678,7 +1720,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1699,7 +1742,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -1755,7 +1799,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1776,7 +1821,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1832,7 +1878,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1853,7 +1900,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -1909,7 +1957,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -1930,7 +1979,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -1986,7 +2036,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2007,7 +2058,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -2063,7 +2115,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2084,7 +2137,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -2141,7 +2195,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2162,7 +2217,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2218,7 +2274,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2239,7 +2296,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2295,7 +2353,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2316,7 +2375,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2372,7 +2432,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2393,7 +2454,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2449,7 +2511,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2470,7 +2533,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2526,7 +2590,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2547,7 +2612,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2603,7 +2669,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2624,7 +2691,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2680,7 +2748,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2701,7 +2770,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -2758,7 +2828,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2779,7 +2850,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -2835,7 +2907,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2856,7 +2929,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -2912,7 +2986,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -2933,7 +3008,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -2990,7 +3066,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3011,7 +3088,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3068,7 +3146,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3089,7 +3168,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3145,7 +3225,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3166,7 +3247,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3223,7 +3305,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3244,7 +3327,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3300,7 +3384,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3321,7 +3406,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3377,7 +3463,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3398,7 +3485,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3454,7 +3542,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3475,7 +3564,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3532,7 +3622,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3553,7 +3644,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3609,7 +3701,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3630,7 +3723,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3687,7 +3781,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3708,7 +3803,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3764,7 +3860,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3785,7 +3882,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3841,7 +3939,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3862,7 +3961,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -3918,7 +4018,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -3939,7 +4040,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -3995,7 +4097,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4016,7 +4119,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -4072,7 +4176,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4093,7 +4198,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Movistar",
@@ -4150,7 +4256,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4171,7 +4278,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4227,7 +4335,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4248,7 +4357,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4304,7 +4414,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4325,7 +4436,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4381,7 +4493,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4402,7 +4515,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4458,7 +4572,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4479,7 +4594,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4536,7 +4652,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4557,7 +4674,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4613,7 +4731,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4634,7 +4753,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4691,7 +4811,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4712,7 +4833,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4769,7 +4891,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4790,7 +4913,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -4846,7 +4970,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4867,7 +4992,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -4924,7 +5050,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -4945,7 +5072,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -5002,7 +5130,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5023,7 +5152,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -5080,7 +5210,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5101,7 +5232,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -5158,7 +5290,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5179,7 +5312,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -5236,7 +5370,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5257,7 +5392,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -5313,7 +5449,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5334,7 +5471,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -5391,7 +5529,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5412,7 +5551,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -5469,7 +5609,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5490,7 +5631,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Walmart",
@@ -5547,7 +5689,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5568,7 +5711,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -5624,7 +5768,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5645,7 +5790,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -5701,7 +5847,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5722,7 +5869,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -5778,7 +5926,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5799,7 +5948,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -5855,7 +6005,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5876,7 +6027,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -5932,7 +6084,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -5953,7 +6106,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6009,7 +6163,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6030,7 +6185,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6086,7 +6242,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6107,7 +6264,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6163,7 +6321,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6184,7 +6343,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6240,7 +6400,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6261,7 +6422,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6317,7 +6479,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6338,7 +6501,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6394,7 +6558,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6415,7 +6580,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6471,7 +6637,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6492,7 +6659,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6548,7 +6716,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6569,7 +6738,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6625,7 +6795,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6646,7 +6817,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6702,7 +6874,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6723,7 +6896,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6779,7 +6953,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6800,7 +6975,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6856,7 +7032,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6877,7 +7054,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -6933,7 +7111,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -6954,7 +7133,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7010,7 +7190,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7031,7 +7212,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7087,7 +7269,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7108,7 +7291,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7164,7 +7348,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7185,7 +7370,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7241,7 +7427,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7262,7 +7449,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7318,7 +7506,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7339,7 +7528,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7395,7 +7585,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7416,7 +7607,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7472,7 +7664,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7493,7 +7686,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7549,7 +7743,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7570,7 +7765,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7626,7 +7822,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7647,7 +7844,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7703,7 +7901,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7724,7 +7923,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7780,7 +7980,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7801,7 +8002,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7857,7 +8059,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7878,7 +8081,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -7934,7 +8138,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -7955,7 +8160,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8011,7 +8217,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8032,7 +8239,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8088,7 +8296,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8109,7 +8318,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8165,7 +8375,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8186,7 +8397,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8242,7 +8454,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8263,7 +8476,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8319,7 +8533,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8340,7 +8555,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8396,7 +8612,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8417,7 +8634,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8473,7 +8691,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8494,7 +8713,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8550,7 +8770,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8571,7 +8792,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8627,7 +8849,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8648,7 +8871,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8704,7 +8928,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8725,7 +8950,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8781,7 +9007,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8802,7 +9029,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8858,7 +9086,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8879,7 +9108,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -8935,7 +9165,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -8956,7 +9187,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9012,7 +9244,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9033,7 +9266,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9089,7 +9323,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9110,7 +9345,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9166,7 +9402,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9187,7 +9424,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9243,7 +9481,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9264,7 +9503,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9320,7 +9560,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9341,7 +9582,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9397,7 +9639,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9418,7 +9661,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9474,7 +9718,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9495,7 +9740,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9551,7 +9797,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9572,7 +9819,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9628,7 +9876,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9649,7 +9898,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9705,7 +9955,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9726,7 +9977,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9782,7 +10034,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9803,7 +10056,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9859,7 +10113,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9880,7 +10135,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -9936,7 +10192,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -9957,7 +10214,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10013,7 +10271,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10034,7 +10293,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10090,7 +10350,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10111,7 +10372,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10167,7 +10429,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10188,7 +10451,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10244,7 +10508,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10265,7 +10530,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10321,7 +10587,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10342,7 +10609,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10398,7 +10666,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10419,7 +10688,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10475,7 +10745,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10496,7 +10767,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10552,7 +10824,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10573,7 +10846,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10629,7 +10903,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10650,7 +10925,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10706,7 +10982,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10727,7 +11004,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10783,7 +11061,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10804,7 +11083,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10860,7 +11140,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10881,7 +11162,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -10937,7 +11219,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -10958,7 +11241,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11014,7 +11298,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11035,7 +11320,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11091,7 +11377,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11112,7 +11399,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11168,7 +11456,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11189,7 +11478,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11245,7 +11535,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11266,7 +11557,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11322,7 +11614,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11343,7 +11636,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11399,7 +11693,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11420,7 +11715,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11476,7 +11772,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11497,7 +11794,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11553,7 +11851,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11574,7 +11873,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11630,7 +11930,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11651,7 +11952,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11707,7 +12009,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11728,7 +12031,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11784,7 +12088,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11805,7 +12110,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11861,7 +12167,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11882,7 +12189,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -11938,7 +12246,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -11959,7 +12268,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12015,7 +12325,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12036,7 +12347,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12092,7 +12404,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12113,7 +12426,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12169,7 +12483,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12190,7 +12505,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12246,7 +12562,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12267,7 +12584,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12323,7 +12641,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12344,7 +12663,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12400,7 +12720,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12421,7 +12742,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12477,7 +12799,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12498,7 +12821,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12554,7 +12878,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12575,7 +12900,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12631,7 +12957,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12652,7 +12979,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12708,7 +13036,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12729,7 +13058,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12785,7 +13115,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12806,7 +13137,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12862,7 +13194,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12883,7 +13216,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -12939,7 +13273,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -12960,7 +13295,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13016,7 +13352,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13037,7 +13374,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13093,7 +13431,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13114,7 +13453,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13170,7 +13510,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13191,7 +13532,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13247,7 +13589,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13268,7 +13611,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13324,7 +13668,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13345,7 +13690,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13401,7 +13747,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13422,7 +13769,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13478,7 +13826,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13499,7 +13848,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13555,7 +13905,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13576,7 +13927,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13632,7 +13984,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13653,7 +14006,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13709,7 +14063,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13730,7 +14085,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13786,7 +14142,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13807,7 +14164,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13863,7 +14221,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13884,7 +14243,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -13940,7 +14300,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -13961,7 +14322,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14017,7 +14379,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14038,7 +14401,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14094,7 +14458,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14115,7 +14480,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14171,7 +14537,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14192,7 +14559,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14248,7 +14616,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14269,7 +14638,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14325,7 +14695,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14346,7 +14717,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14402,7 +14774,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14423,7 +14796,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14479,7 +14853,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14500,7 +14875,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14556,7 +14932,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14577,7 +14954,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14633,7 +15011,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14654,7 +15033,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14710,7 +15090,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14731,7 +15112,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14787,7 +15169,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14808,7 +15191,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14864,7 +15248,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14885,7 +15270,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -14941,7 +15327,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -14962,7 +15349,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15018,7 +15406,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15039,7 +15428,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15095,7 +15485,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15116,7 +15507,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15172,7 +15564,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15193,7 +15586,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15249,7 +15643,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15270,7 +15665,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15326,7 +15722,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15347,7 +15744,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15403,7 +15801,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15424,7 +15823,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15480,7 +15880,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15501,7 +15902,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15557,7 +15959,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15578,7 +15981,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15634,7 +16038,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15655,7 +16060,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15711,7 +16117,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15732,7 +16139,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15788,7 +16196,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15809,7 +16218,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15865,7 +16275,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15886,7 +16297,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -15942,7 +16354,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -15963,7 +16376,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16019,7 +16433,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16040,7 +16455,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16096,7 +16512,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16117,7 +16534,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16173,7 +16591,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16194,7 +16613,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16250,7 +16670,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16271,7 +16692,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16327,7 +16749,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16348,7 +16771,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16404,7 +16828,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16425,7 +16850,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16481,7 +16907,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16502,7 +16929,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16558,7 +16986,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16579,7 +17008,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16635,7 +17065,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16656,7 +17087,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16712,7 +17144,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16733,7 +17166,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16789,7 +17223,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16810,7 +17245,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16866,7 +17302,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16887,7 +17324,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -16943,7 +17381,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -16964,7 +17403,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17020,7 +17460,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17041,7 +17482,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17097,7 +17539,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17118,7 +17561,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17174,7 +17618,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17195,7 +17640,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17251,7 +17697,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17272,7 +17719,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17328,7 +17776,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17349,7 +17798,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17405,7 +17855,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17426,7 +17877,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17482,7 +17934,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17503,7 +17956,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17559,7 +18013,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17580,7 +18035,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17636,7 +18092,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17657,7 +18114,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17713,7 +18171,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17734,7 +18193,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17790,7 +18250,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17811,7 +18272,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17867,7 +18329,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17888,7 +18351,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -17944,7 +18408,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -17965,7 +18430,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18021,7 +18487,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18042,7 +18509,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18098,7 +18566,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18119,7 +18588,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18175,7 +18645,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18196,7 +18667,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18252,7 +18724,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18273,7 +18746,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18329,7 +18803,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18350,7 +18825,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18406,7 +18882,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18427,7 +18904,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18483,7 +18961,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18504,7 +18983,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18560,7 +19040,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18581,7 +19062,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -18637,7 +19119,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18658,7 +19141,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -18714,7 +19198,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18735,7 +19220,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -18791,7 +19277,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18812,7 +19299,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -18868,7 +19356,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18889,7 +19378,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -18945,7 +19435,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -18966,7 +19457,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19022,7 +19514,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19043,7 +19536,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19099,7 +19593,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19120,7 +19615,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19176,7 +19672,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19197,7 +19694,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19253,7 +19751,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19274,7 +19773,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19330,7 +19830,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19351,7 +19852,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19407,7 +19909,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19428,7 +19931,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19484,7 +19988,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19505,7 +20010,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19561,7 +20067,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19582,7 +20089,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19638,7 +20146,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19659,7 +20168,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19715,7 +20225,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19736,7 +20247,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19792,7 +20304,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19813,7 +20326,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19869,7 +20383,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19890,7 +20405,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -19946,7 +20462,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -19967,7 +20484,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20023,7 +20541,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20044,7 +20563,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20100,7 +20620,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20121,7 +20642,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20177,7 +20699,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20198,7 +20721,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20254,7 +20778,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20275,7 +20800,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20331,7 +20857,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20352,7 +20879,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20408,7 +20936,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20429,7 +20958,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20485,7 +21015,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20506,7 +21037,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20562,7 +21094,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20583,7 +21116,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20639,7 +21173,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20660,7 +21195,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20716,7 +21252,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20737,7 +21274,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20793,7 +21331,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20814,7 +21353,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20870,7 +21410,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20891,7 +21432,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -20947,7 +21489,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -20968,7 +21511,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21024,7 +21568,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21045,7 +21590,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21101,7 +21647,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21122,7 +21669,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21178,7 +21726,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21199,7 +21748,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21255,7 +21805,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21276,7 +21827,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21332,7 +21884,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21353,7 +21906,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21409,7 +21963,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21430,7 +21985,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21486,7 +22042,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21507,7 +22064,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21563,7 +22121,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21584,7 +22143,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21640,7 +22200,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21661,7 +22222,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21717,7 +22279,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21738,7 +22301,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21794,7 +22358,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21815,7 +22380,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21871,7 +22437,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21892,7 +22459,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -21948,7 +22516,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -21969,7 +22538,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22025,7 +22595,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22046,7 +22617,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22102,7 +22674,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22123,7 +22696,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22179,7 +22753,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22200,7 +22775,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22256,7 +22832,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22277,7 +22854,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22333,7 +22911,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22354,7 +22933,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22410,7 +22990,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22431,7 +23012,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22487,7 +23069,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22508,7 +23091,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22564,7 +23148,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22585,7 +23170,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22641,7 +23227,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22662,7 +23249,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22718,7 +23306,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22739,7 +23328,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22795,7 +23385,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22816,7 +23407,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22872,7 +23464,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22893,7 +23486,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -22949,7 +23543,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -22970,7 +23565,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23026,7 +23622,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23047,7 +23644,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23103,7 +23701,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23124,7 +23723,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23180,7 +23780,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23201,7 +23802,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23257,7 +23859,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23278,7 +23881,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23334,7 +23938,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23355,7 +23960,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23411,7 +24017,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23432,7 +24039,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23488,7 +24096,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23509,7 +24118,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23565,7 +24175,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23586,7 +24197,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23642,7 +24254,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23663,7 +24276,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23719,7 +24333,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23740,7 +24355,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23796,7 +24412,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23817,7 +24434,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23873,7 +24491,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23894,7 +24513,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -23950,7 +24570,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -23971,7 +24592,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24027,7 +24649,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24048,7 +24671,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24104,7 +24728,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24125,7 +24750,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24181,7 +24807,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24202,7 +24829,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24258,7 +24886,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24279,7 +24908,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24335,7 +24965,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24356,7 +24987,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24412,7 +25044,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24433,7 +25066,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24489,7 +25123,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24510,7 +25145,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24566,7 +25202,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24587,7 +25224,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24643,7 +25281,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24664,7 +25303,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24720,7 +25360,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24741,7 +25382,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24797,7 +25439,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24818,7 +25461,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24874,7 +25518,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24895,7 +25540,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -24951,7 +25597,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -24972,7 +25619,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25028,7 +25676,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25049,7 +25698,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25105,7 +25755,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25126,7 +25777,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25182,7 +25834,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25203,7 +25856,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25259,7 +25913,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25280,7 +25935,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25336,7 +25992,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25357,7 +26014,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25413,7 +26071,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25434,7 +26093,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25490,7 +26150,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25511,7 +26172,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25567,7 +26229,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25588,7 +26251,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25644,7 +26308,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25665,7 +26330,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25721,7 +26387,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25742,7 +26409,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25798,7 +26466,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25819,7 +26488,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25875,7 +26545,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25896,7 +26567,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -25952,7 +26624,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -25973,7 +26646,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26029,7 +26703,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26050,7 +26725,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26106,7 +26782,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26127,7 +26804,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26183,7 +26861,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26204,7 +26883,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26260,7 +26940,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26281,7 +26962,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26337,7 +27019,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26358,7 +27041,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26414,7 +27098,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26435,7 +27120,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26491,7 +27177,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26512,7 +27199,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26568,7 +27256,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26589,7 +27278,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26645,7 +27335,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26666,7 +27357,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26722,7 +27414,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26743,7 +27436,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26799,7 +27493,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26820,7 +27515,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26876,7 +27572,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26897,7 +27594,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -26953,7 +27651,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -26974,7 +27673,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27030,7 +27730,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27051,7 +27752,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27107,7 +27809,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27128,7 +27831,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27184,7 +27888,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27205,7 +27910,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27261,7 +27967,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27282,7 +27989,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27338,7 +28046,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27359,7 +28068,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27415,7 +28125,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27436,7 +28147,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27492,7 +28204,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27513,7 +28226,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27569,7 +28283,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27590,7 +28305,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27646,7 +28362,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27667,7 +28384,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27723,7 +28441,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27744,7 +28463,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27800,7 +28520,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27821,7 +28542,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27877,7 +28599,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27898,7 +28621,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -27954,7 +28678,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -27975,7 +28700,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28031,7 +28757,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28052,7 +28779,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28108,7 +28836,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28129,7 +28858,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28185,7 +28915,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28206,7 +28937,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28262,7 +28994,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28283,7 +29016,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28339,7 +29073,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28360,7 +29095,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28416,7 +29152,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28437,7 +29174,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28493,7 +29231,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28514,7 +29253,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28570,7 +29310,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28591,7 +29332,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28647,7 +29389,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28668,7 +29411,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28724,7 +29468,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28745,7 +29490,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28801,7 +29547,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28822,7 +29569,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28878,7 +29626,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28899,7 +29648,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -28955,7 +29705,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -28976,7 +29727,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29032,7 +29784,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29053,7 +29806,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29109,7 +29863,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29130,7 +29885,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29186,7 +29942,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29207,7 +29964,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29263,7 +30021,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29284,7 +30043,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29340,7 +30100,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29361,7 +30122,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29417,7 +30179,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29438,7 +30201,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29494,7 +30258,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29515,7 +30280,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29571,7 +30337,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29592,7 +30359,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29648,7 +30416,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29669,7 +30438,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29725,7 +30495,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29746,7 +30517,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29802,7 +30574,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29823,7 +30596,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29879,7 +30653,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29900,7 +30675,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -29956,7 +30732,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -29977,7 +30754,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30033,7 +30811,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30054,7 +30833,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30110,7 +30890,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30131,7 +30912,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30187,7 +30969,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30208,7 +30991,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30264,7 +31048,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30285,7 +31070,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30341,7 +31127,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30362,7 +31149,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30418,7 +31206,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30439,7 +31228,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30495,7 +31285,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30516,7 +31307,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30572,7 +31364,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30593,7 +31386,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30649,7 +31443,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30670,7 +31465,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30726,7 +31522,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30747,7 +31544,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30803,7 +31601,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30824,7 +31623,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30880,7 +31680,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30901,7 +31702,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -30957,7 +31759,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -30978,7 +31781,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31034,7 +31838,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31055,7 +31860,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31111,7 +31917,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31132,7 +31939,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31188,7 +31996,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31209,7 +32018,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31265,7 +32075,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31286,7 +32097,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31342,7 +32154,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31363,7 +32176,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31419,7 +32233,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31440,7 +32255,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31496,7 +32312,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31517,7 +32334,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31573,7 +32391,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31594,7 +32413,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31650,7 +32470,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31671,7 +32492,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31727,7 +32549,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31748,7 +32571,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31804,7 +32628,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31825,7 +32650,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31881,7 +32707,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31902,7 +32729,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -31958,7 +32786,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -31979,7 +32808,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32035,7 +32865,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32056,7 +32887,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32112,7 +32944,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32133,7 +32966,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32189,7 +33023,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32210,7 +33045,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32266,7 +33102,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32287,7 +33124,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32343,7 +33181,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32364,7 +33203,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32420,7 +33260,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32441,7 +33282,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32497,7 +33339,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32518,7 +33361,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32574,7 +33418,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32595,7 +33440,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32651,7 +33497,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32672,7 +33519,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32728,7 +33576,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32749,7 +33598,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32805,7 +33655,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32826,7 +33677,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32882,7 +33734,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32903,7 +33756,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -32959,7 +33813,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -32980,7 +33835,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -33005,12 +33861,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 31,
-      "netas": 30,
+      "brutas": 33,
+      "netas": 32,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 13,
+      "RENO_16F": 15,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
@@ -33036,7 +33892,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 3,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 2
       },
       "daily_brutas": {
         "1": 0,
@@ -33057,7 +33914,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 3,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -33095,9 +33953,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 22,
     "ventas_corte": {
-      "brutas": 39,
+      "brutas": 40,
       "netas": 34,
-      "no_activadas": 2,
+      "no_activadas": 3,
       "desfasadas": 3,
       "RENO_16_5G": 0,
       "RENO_16F": 14,
@@ -33126,7 +33984,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 0,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -33147,7 +34006,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 1,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -33210,7 +34070,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -33231,7 +34092,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -33256,12 +34118,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 64,
-      "netas": 60,
-      "no_activadas": 3,
+      "brutas": 66,
+      "netas": 61,
+      "no_activadas": 4,
       "desfasadas": 1,
       "RENO_16_5G": 5,
-      "RENO_16F": 19,
+      "RENO_16F": 20,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -33287,7 +34149,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 5,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 1
       },
       "daily_brutas": {
         "1": 1,
@@ -33308,7 +34171,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 6,
         "18": 0,
-        "19": 4
+        "19": 4,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -33340,17 +34204,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 28,
     "ventas_corte": {
-      "brutas": 55,
-      "netas": 51,
+      "brutas": 58,
+      "netas": 53,
       "no_activadas": 1,
-      "desfasadas": 3,
+      "desfasadas": 4,
       "RENO_16_5G": 3,
       "RENO_16F": 22,
       "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
-      "A_MIDDLE": 11,
+      "A_MIDDLE": 13,
       "A_LOW": 6,
       "daily_netas": {
         "1": 1,
@@ -33371,7 +34235,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 1,
@@ -33392,7 +34257,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 3
       }
     },
     "cadena_oficial": "Elektra",
@@ -33424,12 +34290,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 32,
     "ventas_corte": {
-      "brutas": 70,
-      "netas": 57,
-      "no_activadas": 5,
+      "brutas": 72,
+      "netas": 58,
+      "no_activadas": 6,
       "desfasadas": 8,
       "RENO_16_5G": 0,
-      "RENO_16F": 22,
+      "RENO_16F": 23,
       "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 1,
@@ -33455,7 +34321,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 3,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -33476,7 +34343,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -33551,7 +34419,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 8,
@@ -33572,7 +34441,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 0,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -33628,7 +34498,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -33649,7 +34520,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -33674,10 +34546,10 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 45,
-      "netas": 41,
-      "no_activadas": 4,
-      "desfasadas": 0,
+      "brutas": 46,
+      "netas": 42,
+      "no_activadas": 3,
+      "desfasadas": 1,
       "RENO_16_5G": 0,
       "RENO_16F": 15,
       "A7_PRO": 3,
@@ -33685,7 +34557,7 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 0,
       "A_HIGH": 8,
       "A_MIDDLE": 10,
-      "A_LOW": 5,
+      "A_LOW": 6,
       "daily_netas": {
         "1": 4,
         "2": 1,
@@ -33702,10 +34574,11 @@ window.PORTAL_COMISIONES_DATA = [
         "13": 4,
         "14": 6,
         "15": 4,
-        "16": 8,
+        "16": 9,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 4,
@@ -33726,7 +34599,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 9,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -33782,7 +34656,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -33803,7 +34678,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -33828,8 +34704,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 14,
-      "netas": 13,
+      "brutas": 15,
+      "netas": 14,
       "no_activadas": 1,
       "desfasadas": 0,
       "RENO_16_5G": 2,
@@ -33837,7 +34713,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 1,
       "RENO_OTHERS": 4,
-      "A_HIGH": 3,
+      "A_HIGH": 4,
       "A_MIDDLE": 2,
       "A_LOW": 1,
       "daily_netas": {
@@ -33859,7 +34735,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -33880,7 +34757,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "AT&T",
@@ -33905,8 +34783,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 1,
     "ventas_corte": {
-      "brutas": 9,
-      "netas": 9,
+      "brutas": 10,
+      "netas": 10,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
@@ -33914,7 +34792,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
-      "A_HIGH": 2,
+      "A_HIGH": 3,
       "A_MIDDLE": 0,
       "A_LOW": 0,
       "daily_netas": {
@@ -33936,7 +34814,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -33957,7 +34836,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "AT&T",
@@ -34013,7 +34893,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -34034,7 +34915,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -34090,7 +34972,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -34111,7 +34994,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -34167,7 +35051,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -34188,7 +35073,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -34213,12 +35099,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 1,
     "ventas_corte": {
-      "brutas": 16,
-      "netas": 16,
+      "brutas": 18,
+      "netas": 18,
       "no_activadas": 0,
       "desfasadas": 0,
-      "RENO_16_5G": 2,
-      "RENO_16F": 7,
+      "RENO_16_5G": 3,
+      "RENO_16F": 8,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -34244,7 +35130,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 0,
@@ -34265,7 +35152,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "AT&T",
@@ -34290,12 +35178,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 22,
-      "netas": 20,
+      "brutas": 23,
+      "netas": 21,
       "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 10,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -34321,7 +35209,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -34342,7 +35231,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       }
     },
     "cadena_oficial": "AT&T",
@@ -34368,12 +35258,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 13,
     "ventas_corte": {
       "brutas": 34,
-      "netas": 26,
-      "no_activadas": 8,
-      "desfasadas": 0,
+      "netas": 27,
+      "no_activadas": 6,
+      "desfasadas": 1,
       "RENO_16_5G": 2,
       "RENO_16F": 7,
-      "A7_PRO": 0,
+      "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 2,
       "A_HIGH": 9,
@@ -34395,10 +35285,11 @@ window.PORTAL_COMISIONES_DATA = [
         "13": 2,
         "14": 3,
         "15": 3,
-        "16": 1,
+        "16": 2,
         "17": 5,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -34419,7 +35310,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 5,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -34494,7 +35386,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 3,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -34515,7 +35408,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 3,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -34541,8 +35435,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 16,
     "ventas_corte": {
       "brutas": 48,
-      "netas": 46,
-      "no_activadas": 1,
+      "netas": 47,
+      "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 2,
       "RENO_16F": 8,
@@ -34550,7 +35444,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 12,
-      "A_MIDDLE": 23,
+      "A_MIDDLE": 24,
       "A_LOW": 0,
       "daily_netas": {
         "1": 2,
@@ -34571,7 +35465,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 1,
-        "19": 1
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -34592,7 +35487,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 1,
-        "19": 3
+        "19": 3,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -34617,17 +35513,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 72,
-      "netas": 66,
-      "no_activadas": 4,
+      "brutas": 73,
+      "netas": 69,
+      "no_activadas": 2,
       "desfasadas": 2,
       "RENO_16_5G": 3,
-      "RENO_16F": 13,
+      "RENO_16F": 14,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 16,
-      "A_MIDDLE": 33,
+      "A_MIDDLE": 35,
       "A_LOW": 0,
       "daily_netas": {
         "1": 6,
@@ -34644,11 +35540,12 @@ window.PORTAL_COMISIONES_DATA = [
         "12": 0,
         "13": 2,
         "14": 9,
-        "15": 15,
-        "16": 8,
+        "15": 16,
+        "16": 9,
         "17": 3,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 6,
@@ -34669,7 +35566,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 11,
         "17": 3,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -34694,8 +35592,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 27,
-      "netas": 24,
+      "brutas": 28,
+      "netas": 25,
       "no_activadas": 1,
       "desfasadas": 2,
       "RENO_16_5G": 1,
@@ -34703,7 +35601,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 7,
+      "A_HIGH": 8,
       "A_MIDDLE": 11,
       "A_LOW": 0,
       "daily_netas": {
@@ -34725,7 +35623,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 1,
@@ -34746,7 +35645,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -34802,7 +35702,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -34823,7 +35724,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -34848,13 +35750,13 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 50,
-      "netas": 47,
+      "brutas": 51,
+      "netas": 48,
       "no_activadas": 1,
       "desfasadas": 2,
       "RENO_16_5G": 1,
       "RENO_16F": 9,
-      "A7_PRO": 0,
+      "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 20,
@@ -34879,7 +35781,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -34900,7 +35803,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 5,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -34926,11 +35830,11 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 23,
     "ventas_corte": {
       "brutas": 48,
-      "netas": 47,
-      "no_activadas": 1,
+      "netas": 48,
+      "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 1,
-      "RENO_16F": 19,
+      "RENO_16F": 20,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -34954,9 +35858,10 @@ window.PORTAL_COMISIONES_DATA = [
         "14": 6,
         "15": 9,
         "16": 3,
-        "17": 6,
+        "17": 7,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -34977,7 +35882,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 7,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35002,9 +35908,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 19,
     "ventas_corte": {
-      "brutas": 43,
-      "netas": 40,
-      "no_activadas": 0,
+      "brutas": 49,
+      "netas": 44,
+      "no_activadas": 2,
       "desfasadas": 3,
       "RENO_16_5G": 1,
       "RENO_16F": 8,
@@ -35012,7 +35918,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 13,
-      "A_MIDDLE": 18,
+      "A_MIDDLE": 22,
       "A_LOW": 0,
       "daily_netas": {
         "1": 1,
@@ -35033,7 +35939,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 4
       },
       "daily_brutas": {
         "1": 1,
@@ -35054,7 +35961,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 5,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 6
       }
     },
     "cadena_oficial": "Coppel",
@@ -35117,7 +36025,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 6,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 7,
@@ -35138,7 +36047,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 8,
         "17": 6,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35194,7 +36104,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -35215,7 +36126,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35271,7 +36183,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -35292,7 +36205,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 0,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35348,7 +36262,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 5,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -35369,7 +36284,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 8,
         "17": 6,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35394,16 +36310,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 6,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 48,
-      "netas": 45,
-      "no_activadas": 1,
-      "desfasadas": 2,
+      "brutas": 51,
+      "netas": 46,
+      "no_activadas": 2,
+      "desfasadas": 3,
       "RENO_16_5G": 5,
       "RENO_16F": 12,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 4,
+      "A_HIGH": 5,
       "A_MIDDLE": 23,
       "A_LOW": 0,
       "daily_netas": {
@@ -35425,7 +36341,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -35446,7 +36363,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -35502,7 +36420,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 4,
         "18": 3,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -35523,7 +36442,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 5,
         "18": 3,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35586,7 +36506,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -35607,7 +36528,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 1,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35632,8 +36554,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 24,
     "ventas_corte": {
-      "brutas": 30,
-      "netas": 29,
+      "brutas": 31,
+      "netas": 30,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -35642,7 +36564,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 7,
-      "A_MIDDLE": 12,
+      "A_MIDDLE": 13,
       "A_LOW": 0,
       "daily_netas": {
         "1": 2,
@@ -35663,7 +36585,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 3,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -35684,7 +36607,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 11,
         "17": 3,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -35709,17 +36633,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 45,
-      "netas": 41,
-      "no_activadas": 0,
+      "brutas": 48,
+      "netas": 43,
+      "no_activadas": 1,
       "desfasadas": 4,
       "RENO_16_5G": 1,
       "RENO_16F": 6,
-      "A7_PRO": 3,
+      "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 10,
-      "A_MIDDLE": 21,
+      "A_MIDDLE": 22,
       "A_LOW": 0,
       "daily_netas": {
         "1": 2,
@@ -35740,7 +36664,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 2,
@@ -35761,7 +36686,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -35793,8 +36719,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 15,
-      "netas": 15,
+      "brutas": 16,
+      "netas": 16,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 0,
@@ -35802,7 +36728,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 6,
+      "A_HIGH": 7,
       "A_MIDDLE": 8,
       "A_LOW": 0,
       "daily_netas": {
@@ -35824,7 +36750,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 3,
@@ -35845,7 +36772,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -35901,7 +36829,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 2,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -35922,7 +36851,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 2,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -35947,9 +36877,9 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 38,
-      "netas": 35,
-      "no_activadas": 0,
+      "brutas": 41,
+      "netas": 37,
+      "no_activadas": 1,
       "desfasadas": 3,
       "RENO_16_5G": 0,
       "RENO_16F": 4,
@@ -35957,7 +36887,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 11,
-      "A_MIDDLE": 19,
+      "A_MIDDLE": 21,
       "A_LOW": 0,
       "daily_netas": {
         "1": 3,
@@ -35978,7 +36908,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 3,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 2
       },
       "daily_brutas": {
         "1": 3,
@@ -35999,7 +36930,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 3,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -36055,7 +36987,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 8,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -36076,7 +37009,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 8,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36139,7 +37073,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 1,
-        "19": 2
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 5,
@@ -36160,7 +37095,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 1,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36185,16 +37121,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 40,
-      "netas": 37,
+      "brutas": 43,
+      "netas": 39,
       "no_activadas": 0,
-      "desfasadas": 3,
+      "desfasadas": 4,
       "RENO_16_5G": 4,
       "RENO_16F": 7,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 6,
+      "A_HIGH": 8,
       "A_MIDDLE": 19,
       "A_LOW": 0,
       "daily_netas": {
@@ -36216,7 +37152,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 1,
@@ -36237,7 +37174,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -36293,7 +37231,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 5,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 4,
@@ -36314,7 +37253,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 13,
         "17": 7,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36339,8 +37279,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 14,
     "ventas_corte": {
-      "brutas": 38,
-      "netas": 37,
+      "brutas": 40,
+      "netas": 39,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
@@ -36348,8 +37288,8 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 15,
-      "A_MIDDLE": 13,
+      "A_HIGH": 16,
+      "A_MIDDLE": 14,
       "A_LOW": 0,
       "daily_netas": {
         "1": 1,
@@ -36370,7 +37310,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 1,
@@ -36391,7 +37332,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -36416,8 +37358,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 9,
     "ventas_corte": {
-      "brutas": 46,
-      "netas": 46,
+      "brutas": 47,
+      "netas": 47,
       "no_activadas": 0,
       "desfasadas": 0,
       "RENO_16_5G": 2,
@@ -36426,7 +37368,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 16,
-      "A_MIDDLE": 22,
+      "A_MIDDLE": 23,
       "A_LOW": 0,
       "daily_netas": {
         "1": 1,
@@ -36447,7 +37389,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 1,
@@ -36468,7 +37411,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -36524,7 +37468,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -36545,7 +37490,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36601,7 +37547,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -36622,7 +37569,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36647,17 +37595,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 23,
     "ventas_corte": {
-      "brutas": 75,
-      "netas": 70,
+      "brutas": 78,
+      "netas": 73,
       "no_activadas": 2,
       "desfasadas": 3,
       "RENO_16_5G": 2,
-      "RENO_16F": 20,
+      "RENO_16F": 21,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 15,
-      "A_MIDDLE": 31,
+      "A_MIDDLE": 33,
       "A_LOW": 0,
       "daily_netas": {
         "1": 7,
@@ -36678,7 +37626,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 3,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 3
       },
       "daily_brutas": {
         "1": 8,
@@ -36699,7 +37648,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 14,
         "17": 3,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -36755,7 +37705,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 9,
@@ -36776,7 +37727,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -36801,8 +37753,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 64,
-      "netas": 63,
+      "brutas": 65,
+      "netas": 64,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 5,
@@ -36810,7 +37762,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 16,
+      "A_HIGH": 17,
       "A_MIDDLE": 26,
       "A_LOW": 0,
       "daily_netas": {
@@ -36832,7 +37784,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       },
       "daily_brutas": {
         "1": 3,
@@ -36853,7 +37806,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -36878,16 +37832,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 52,
-      "netas": 49,
-      "no_activadas": 1,
+      "brutas": 55,
+      "netas": 51,
+      "no_activadas": 2,
       "desfasadas": 2,
       "RENO_16_5G": 2,
       "RENO_16F": 12,
       "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 11,
+      "A_HIGH": 13,
       "A_MIDDLE": 20,
       "A_LOW": 0,
       "daily_netas": {
@@ -36909,7 +37863,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 2
       },
       "daily_brutas": {
         "1": 6,
@@ -36930,7 +37885,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -36968,11 +37924,11 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 68,
-      "netas": 66,
+      "brutas": 70,
+      "netas": 67,
       "no_activadas": 0,
-      "desfasadas": 2,
-      "RENO_16_5G": 6,
+      "desfasadas": 3,
+      "RENO_16_5G": 7,
       "RENO_16F": 14,
       "A7_PRO": 5,
       "FIND": 0,
@@ -36999,7 +37955,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 3,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 3,
@@ -37020,7 +37977,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 3,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -37045,8 +38003,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 69,
-      "netas": 64,
+      "brutas": 71,
+      "netas": 66,
       "no_activadas": 3,
       "desfasadas": 2,
       "RENO_16_5G": 4,
@@ -37054,8 +38012,8 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 5,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 20,
-      "A_MIDDLE": 15,
+      "A_HIGH": 21,
+      "A_MIDDLE": 16,
       "A_LOW": 0,
       "daily_netas": {
         "1": 5,
@@ -37076,7 +38034,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 7,
@@ -37097,7 +38056,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -37153,7 +38113,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 4,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 4,
@@ -37174,7 +38135,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 6,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -37230,7 +38192,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -37251,7 +38214,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37320,7 +38284,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -37341,7 +38306,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37404,7 +38370,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 5,
         "18": 0,
-        "19": 5
+        "19": 5,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -37425,7 +38392,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 5,
         "18": 0,
-        "19": 6
+        "19": 6,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37481,7 +38449,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -37502,7 +38471,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37558,7 +38528,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 0,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -37579,7 +38550,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 4
+        "19": 4,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37654,7 +38626,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 5,
         "18": 5,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -37675,7 +38648,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 5,
         "18": 5,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37744,7 +38718,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 6,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -37765,7 +38740,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 7,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37828,7 +38804,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 1,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 7,
@@ -37849,7 +38826,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 1,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37905,7 +38883,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -37926,7 +38905,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -37951,11 +38931,11 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 24,
     "tgt_foco": 48,
     "ventas_corte": {
-      "brutas": 34,
-      "netas": 33,
+      "brutas": 35,
+      "netas": 34,
       "no_activadas": 1,
       "desfasadas": 0,
-      "RENO_16_5G": 2,
+      "RENO_16_5G": 3,
       "RENO_16F": 11,
       "A7_PRO": 5,
       "FIND": 1,
@@ -37982,7 +38962,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 7,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -38003,7 +38984,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 7,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Telcel",
@@ -38035,16 +39017,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 3,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 47,
-      "netas": 37,
-      "no_activadas": 4,
+      "brutas": 49,
+      "netas": 40,
+      "no_activadas": 3,
       "desfasadas": 6,
       "RENO_16_5G": 0,
-      "RENO_16F": 6,
+      "RENO_16F": 7,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
-      "A_HIGH": 10,
+      "A_HIGH": 12,
       "A_MIDDLE": 13,
       "A_LOW": 5,
       "daily_netas": {
@@ -38064,9 +39046,10 @@ window.PORTAL_COMISIONES_DATA = [
         "14": 1,
         "15": 5,
         "16": 3,
-        "17": 3,
+        "17": 5,
         "18": 3,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -38087,7 +39070,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 5,
         "18": 4,
-        "19": 3
+        "19": 3,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -38112,16 +39096,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 34,
-      "netas": 28,
+      "brutas": 36,
+      "netas": 30,
       "no_activadas": 2,
       "desfasadas": 4,
       "RENO_16_5G": 0,
       "RENO_16F": 5,
-      "A7_PRO": 1,
+      "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 2,
-      "A_HIGH": 9,
+      "A_HIGH": 10,
       "A_MIDDLE": 11,
       "A_LOW": 0,
       "daily_netas": {
@@ -38143,7 +39127,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 2
       },
       "daily_brutas": {
         "1": 1,
@@ -38164,7 +39149,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -38189,8 +39175,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 12,
     "tgt_foco": 29,
     "ventas_corte": {
-      "brutas": 48,
-      "netas": 42,
+      "brutas": 53,
+      "netas": 47,
       "no_activadas": 1,
       "desfasadas": 5,
       "RENO_16_5G": 0,
@@ -38198,8 +39184,8 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 17,
-      "A_MIDDLE": 13,
+      "A_HIGH": 19,
+      "A_MIDDLE": 16,
       "A_LOW": 0,
       "daily_netas": {
         "1": 0,
@@ -38220,7 +39206,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 3,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 5
       },
       "daily_brutas": {
         "1": 0,
@@ -38241,7 +39228,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 4,
-        "19": 0
+        "19": 0,
+        "20": 5
       }
     },
     "cadena_oficial": "Coppel",
@@ -38266,16 +39254,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 52,
-      "netas": 47,
+      "brutas": 54,
+      "netas": 49,
       "no_activadas": 1,
       "desfasadas": 4,
       "RENO_16_5G": 0,
       "RENO_16F": 19,
-      "A7_PRO": 1,
+      "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 16,
+      "A_HIGH": 17,
       "A_MIDDLE": 11,
       "A_LOW": 0,
       "daily_netas": {
@@ -38297,7 +39285,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 4,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 1,
@@ -38318,7 +39307,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 3,
         "18": 4,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Coppel",
@@ -38374,7 +39364,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 4,
@@ -38395,7 +39386,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -38420,8 +39412,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 15,
     "ventas_corte": {
-      "brutas": 34,
-      "netas": 33,
+      "brutas": 35,
+      "netas": 34,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 1,
@@ -38430,7 +39422,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 4,
-      "A_MIDDLE": 17,
+      "A_MIDDLE": 18,
       "A_LOW": 0,
       "daily_netas": {
         "1": 2,
@@ -38451,7 +39443,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -38472,7 +39465,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -38528,7 +39522,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -38549,7 +39544,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -38605,7 +39601,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -38626,7 +39623,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -38682,7 +39680,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -38703,7 +39702,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -38759,7 +39759,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -38780,7 +39781,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 5,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -38805,12 +39807,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 17,
     "ventas_corte": {
-      "brutas": 43,
-      "netas": 39,
+      "brutas": 44,
+      "netas": 40,
       "no_activadas": 2,
       "desfasadas": 2,
       "RENO_16_5G": 4,
-      "RENO_16F": 10,
+      "RENO_16F": 11,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 1,
@@ -38836,7 +39838,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 6,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 1,
@@ -38857,7 +39860,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 6,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -38882,12 +39886,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 7,
     "ventas_corte": {
-      "brutas": 18,
-      "netas": 17,
+      "brutas": 19,
+      "netas": 18,
       "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -38913,7 +39917,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 1,
@@ -38934,7 +39939,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -38959,17 +39965,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 18,
     "ventas_corte": {
-      "brutas": 43,
-      "netas": 38,
-      "no_activadas": 2,
+      "brutas": 44,
+      "netas": 40,
+      "no_activadas": 1,
       "desfasadas": 3,
       "RENO_16_5G": 1,
-      "RENO_16F": 12,
+      "RENO_16F": 13,
       "A7_PRO": 2,
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 8,
-      "A_MIDDLE": 14,
+      "A_MIDDLE": 15,
       "A_LOW": 0,
       "daily_netas": {
         "1": 2,
@@ -38986,11 +39992,12 @@ window.PORTAL_COMISIONES_DATA = [
         "12": 0,
         "13": 1,
         "14": 3,
-        "15": 2,
+        "15": 3,
         "16": 6,
         "17": 3,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -39011,7 +40018,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -39080,7 +40088,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -39101,7 +40110,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -39157,7 +40167,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -39178,7 +40189,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -39203,17 +40215,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 13,
     "tgt_foco": 27,
     "ventas_corte": {
-      "brutas": 73,
-      "netas": 65,
-      "no_activadas": 6,
+      "brutas": 77,
+      "netas": 68,
+      "no_activadas": 7,
       "desfasadas": 2,
       "RENO_16_5G": 3,
-      "RENO_16F": 15,
+      "RENO_16F": 17,
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 5,
       "A_HIGH": 15,
-      "A_MIDDLE": 7,
+      "A_MIDDLE": 8,
       "A_LOW": 16,
       "daily_netas": {
         "1": 2,
@@ -39234,7 +40246,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 4,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 3
       },
       "daily_brutas": {
         "1": 2,
@@ -39255,7 +40268,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 5,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 4
       }
     },
     "cadena_oficial": "Elektra",
@@ -39288,15 +40302,15 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 14,
     "ventas_corte": {
       "brutas": 33,
-      "netas": 31,
-      "no_activadas": 1,
+      "netas": 32,
+      "no_activadas": 0,
       "desfasadas": 1,
       "RENO_16_5G": 0,
       "RENO_16F": 10,
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 8,
+      "A_HIGH": 9,
       "A_MIDDLE": 4,
       "A_LOW": 5,
       "daily_netas": {
@@ -39313,12 +40327,13 @@ window.PORTAL_COMISIONES_DATA = [
         "11": 4,
         "12": 0,
         "13": 1,
-        "14": 2,
+        "14": 3,
         "15": 4,
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -39339,7 +40354,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -39364,17 +40380,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 20,
     "ventas_corte": {
-      "brutas": 58,
-      "netas": 55,
-      "no_activadas": 0,
+      "brutas": 61,
+      "netas": 57,
+      "no_activadas": 1,
       "desfasadas": 3,
       "RENO_16_5G": 1,
-      "RENO_16F": 13,
+      "RENO_16F": 14,
       "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 19,
-      "A_MIDDLE": 17,
+      "A_MIDDLE": 18,
       "A_LOW": 2,
       "daily_netas": {
         "1": 2,
@@ -39395,7 +40411,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 0,
-        "19": 6
+        "19": 6,
+        "20": 2
       },
       "daily_brutas": {
         "1": 2,
@@ -39416,7 +40433,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 6
+        "19": 6,
+        "20": 3
       }
     },
     "cadena_oficial": "Elektra",
@@ -39472,7 +40490,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 4,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -39493,7 +40512,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 4,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -39518,8 +40538,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 8,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 37,
-      "netas": 32,
+      "brutas": 38,
+      "netas": 33,
       "no_activadas": 1,
       "desfasadas": 4,
       "RENO_16_5G": 0,
@@ -39527,7 +40547,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 8,
+      "A_HIGH": 9,
       "A_MIDDLE": 6,
       "A_LOW": 3,
       "daily_netas": {
@@ -39549,7 +40569,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       },
       "daily_brutas": {
         "1": 2,
@@ -39570,7 +40591,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -39645,7 +40667,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 5,
         "18": 2,
-        "19": 1
+        "19": 1,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -39666,7 +40689,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 6,
         "18": 3,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -39691,16 +40715,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 28,
-      "netas": 26,
+      "brutas": 30,
+      "netas": 27,
       "no_activadas": 0,
-      "desfasadas": 2,
+      "desfasadas": 3,
       "RENO_16_5G": 1,
       "RENO_16F": 4,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 4,
-      "A_HIGH": 3,
+      "A_HIGH": 4,
       "A_MIDDLE": 4,
       "A_LOW": 10,
       "daily_netas": {
@@ -39722,7 +40746,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 3,
@@ -39743,7 +40768,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -39806,7 +40832,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 3,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 3,
@@ -39827,7 +40854,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 4,
         "18": 3,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -39859,12 +40887,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 5,
     "tgt_foco": 13,
     "ventas_corte": {
-      "brutas": 30,
-      "netas": 27,
+      "brutas": 31,
+      "netas": 28,
       "no_activadas": 1,
       "desfasadas": 2,
       "RENO_16_5G": 0,
-      "RENO_16F": 12,
+      "RENO_16F": 13,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
@@ -39890,7 +40918,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 8,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -39911,7 +40940,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 8,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -39974,7 +41004,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -39995,7 +41026,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -40051,7 +41083,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 4
+        "19": 4,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -40072,7 +41105,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 6
+        "19": 6,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -40097,8 +41131,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 11,
     "ventas_corte": {
-      "brutas": 76,
-      "netas": 64,
+      "brutas": 77,
+      "netas": 65,
       "no_activadas": 0,
       "desfasadas": 12,
       "RENO_16_5G": 1,
@@ -40106,7 +41140,7 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 4,
       "FIND": 0,
       "RENO_OTHERS": 7,
-      "A_HIGH": 13,
+      "A_HIGH": 14,
       "A_MIDDLE": 9,
       "A_LOW": 6,
       "daily_netas": {
@@ -40128,7 +41162,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 11,
         "17": 5,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -40149,7 +41184,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 12,
         "17": 6,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -40187,8 +41223,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 21,
     "ventas_corte": {
-      "brutas": 63,
-      "netas": 59,
+      "brutas": 65,
+      "netas": 61,
       "no_activadas": 1,
       "desfasadas": 3,
       "RENO_16_5G": 0,
@@ -40196,8 +41232,8 @@ window.PORTAL_COMISIONES_DATA = [
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 14,
-      "A_MIDDLE": 20,
+      "A_HIGH": 15,
+      "A_MIDDLE": 21,
       "A_LOW": 14,
       "daily_netas": {
         "1": 4,
@@ -40218,7 +41254,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 5,
         "17": 3,
         "18": 2,
-        "19": 2
+        "19": 2,
+        "20": 2
       },
       "daily_brutas": {
         "1": 5,
@@ -40239,7 +41276,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 4,
         "18": 2,
-        "19": 3
+        "19": 3,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -40278,11 +41316,11 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 27,
     "ventas_corte": {
       "brutas": 32,
-      "netas": 27,
-      "no_activadas": 3,
+      "netas": 28,
+      "no_activadas": 2,
       "desfasadas": 2,
       "RENO_16_5G": 0,
-      "RENO_16F": 2,
+      "RENO_16F": 3,
       "A7_PRO": 6,
       "FIND": 0,
       "RENO_OTHERS": 0,
@@ -40301,14 +41339,15 @@ window.PORTAL_COMISIONES_DATA = [
         "9": 2,
         "10": 0,
         "11": 0,
-        "12": 0,
+        "12": 1,
         "13": 5,
         "14": 1,
         "15": 4,
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -40329,7 +41368,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -40354,12 +41394,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 10,
     "ventas_corte": {
-      "brutas": 42,
-      "netas": 37,
+      "brutas": 44,
+      "netas": 39,
       "no_activadas": 1,
       "desfasadas": 4,
       "RENO_16_5G": 0,
-      "RENO_16F": 12,
+      "RENO_16F": 14,
       "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 3,
@@ -40385,7 +41425,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 0,
@@ -40406,7 +41447,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 3,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -40462,7 +41504,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 2,
@@ -40483,7 +41526,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -40515,8 +41559,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 2,
     "tgt_foco": 2,
     "ventas_corte": {
-      "brutas": 13,
-      "netas": 11,
+      "brutas": 14,
+      "netas": 12,
       "no_activadas": 0,
       "desfasadas": 2,
       "RENO_16_5G": 0,
@@ -40526,7 +41570,7 @@ window.PORTAL_COMISIONES_DATA = [
       "RENO_OTHERS": 1,
       "A_HIGH": 3,
       "A_MIDDLE": 4,
-      "A_LOW": 1,
+      "A_LOW": 2,
       "daily_netas": {
         "1": 0,
         "2": 0,
@@ -40546,7 +41590,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -40567,7 +41612,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 2,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -40623,7 +41669,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -40644,7 +41691,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "El Palacio de Hierro",
@@ -40701,7 +41749,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -40722,7 +41771,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -40778,7 +41828,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -40799,7 +41850,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -40855,7 +41907,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -40876,7 +41929,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -40932,7 +41986,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -40953,7 +42008,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41010,7 +42066,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41031,7 +42088,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -41087,7 +42145,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41108,7 +42167,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41164,7 +42224,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41185,7 +42246,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41241,7 +42303,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41262,7 +42325,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -41320,7 +42384,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41341,7 +42406,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -41398,7 +42464,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41419,7 +42486,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -41476,7 +42544,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41497,7 +42566,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41553,7 +42623,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41574,7 +42645,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41630,7 +42702,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41651,7 +42724,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -41707,7 +42781,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41728,7 +42803,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -41784,7 +42860,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41805,7 +42882,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -41863,7 +42941,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41884,7 +42963,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -41940,7 +43020,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -41961,7 +43042,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -42019,7 +43101,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42040,7 +43123,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -42096,7 +43180,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42117,7 +43202,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42173,7 +43259,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42194,7 +43281,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -42250,7 +43338,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42271,7 +43360,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42328,7 +43418,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42349,7 +43440,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -42405,7 +43497,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42426,7 +43519,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42482,7 +43576,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42503,7 +43598,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -42559,7 +43655,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42580,7 +43677,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -42636,7 +43734,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42657,7 +43756,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42713,7 +43813,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42734,7 +43835,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42790,7 +43892,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42811,7 +43914,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -42867,7 +43971,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42888,7 +43993,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -42944,7 +44050,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -42965,7 +44072,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -43021,7 +44129,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43042,7 +44151,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43098,7 +44208,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43119,7 +44230,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sanborns",
@@ -43176,7 +44288,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43197,7 +44310,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -43253,7 +44367,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43274,7 +44389,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43330,7 +44446,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43351,7 +44468,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -43407,7 +44525,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43428,7 +44547,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43484,7 +44604,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43505,7 +44626,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -43562,7 +44684,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43583,7 +44706,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -43639,7 +44763,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43660,7 +44785,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43716,7 +44842,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43737,7 +44864,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43794,7 +44922,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43815,7 +44944,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -43871,7 +45001,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43892,7 +45023,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -43948,7 +45080,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -43969,7 +45102,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44025,7 +45159,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44046,7 +45181,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44102,7 +45238,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44123,7 +45260,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44180,7 +45318,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44201,7 +45340,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -44257,7 +45397,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44278,7 +45419,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44334,7 +45476,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44355,7 +45498,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -44411,7 +45555,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44432,7 +45577,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -44490,7 +45636,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44511,7 +45658,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -44567,7 +45715,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44588,7 +45737,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -44644,7 +45794,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44665,7 +45816,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44721,7 +45873,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44742,7 +45895,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -44798,7 +45952,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44819,7 +45974,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -44876,7 +46032,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44897,7 +46054,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -44953,7 +46111,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -44974,7 +46133,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45030,7 +46190,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45051,7 +46212,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45107,7 +46269,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45128,7 +46291,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45184,7 +46348,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45205,7 +46370,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45263,7 +46429,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45284,7 +46451,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -45340,7 +46508,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45361,7 +46530,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -45417,7 +46587,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45438,7 +46609,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45494,7 +46666,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45515,7 +46688,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -45571,7 +46745,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45592,7 +46767,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -45649,7 +46825,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45670,7 +46847,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -45726,7 +46904,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45747,7 +46926,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -45804,7 +46984,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45825,7 +47006,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -45881,7 +47063,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45902,7 +47085,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Sears",
@@ -45958,7 +47142,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -45979,7 +47164,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Liverpool",
@@ -46035,7 +47221,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46056,7 +47243,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -46112,7 +47300,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46133,7 +47322,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Suburbia",
@@ -46189,7 +47379,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46210,7 +47401,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46266,7 +47458,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46287,7 +47480,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46343,7 +47537,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46364,7 +47559,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46420,7 +47616,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46441,7 +47638,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46497,7 +47695,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46518,7 +47717,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46574,7 +47774,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46595,7 +47796,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46651,7 +47853,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46672,7 +47875,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46728,7 +47932,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46749,7 +47954,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46805,7 +48011,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46826,7 +48033,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46882,7 +48090,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46903,7 +48112,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -46959,7 +48169,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -46980,7 +48191,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47036,7 +48248,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47057,7 +48270,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47113,7 +48327,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47134,7 +48349,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47190,7 +48406,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47211,7 +48428,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47267,7 +48485,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47288,7 +48507,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47344,7 +48564,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47365,7 +48586,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47421,7 +48643,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47442,7 +48665,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47498,7 +48722,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47519,7 +48744,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47575,7 +48801,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47596,7 +48823,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47652,7 +48880,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47673,7 +48902,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47729,7 +48959,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47750,7 +48981,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47806,7 +49038,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47827,7 +49060,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47883,7 +49117,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47904,7 +49139,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -47960,7 +49196,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -47981,7 +49218,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48037,7 +49275,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48058,7 +49297,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48114,7 +49354,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48135,7 +49376,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48191,7 +49433,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48212,7 +49455,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48268,7 +49512,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48289,7 +49534,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48345,7 +49591,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48366,7 +49613,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48422,7 +49670,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48443,7 +49692,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48499,7 +49749,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48520,7 +49771,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48576,7 +49828,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48597,7 +49850,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48653,7 +49907,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48674,7 +49929,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48730,7 +49986,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48751,7 +50008,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48807,7 +50065,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48828,7 +50087,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48884,7 +50144,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48905,7 +50166,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -48961,7 +50223,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -48982,7 +50245,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49038,7 +50302,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49059,7 +50324,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49115,7 +50381,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49136,7 +50403,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -49193,7 +50461,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49214,7 +50483,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49270,7 +50540,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49291,7 +50562,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49347,7 +50619,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49368,7 +50641,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49424,7 +50698,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49445,7 +50720,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49501,7 +50777,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49522,7 +50799,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49578,7 +50856,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49599,7 +50878,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49655,7 +50935,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49676,7 +50957,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49732,7 +51014,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49753,7 +51036,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49809,7 +51093,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49830,7 +51115,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49886,7 +51172,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49907,7 +51194,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -49963,7 +51251,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -49984,7 +51273,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50040,7 +51330,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50061,7 +51352,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50117,7 +51409,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50138,7 +51431,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50194,7 +51488,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50215,7 +51510,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50271,7 +51567,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50292,7 +51589,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50348,7 +51646,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50369,7 +51668,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50425,7 +51725,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50446,7 +51747,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50502,7 +51804,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50523,7 +51826,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50579,7 +51883,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50600,7 +51905,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50656,7 +51962,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50677,7 +51984,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50733,7 +52041,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50754,7 +52063,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50810,7 +52120,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50831,7 +52142,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50887,7 +52199,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50908,7 +52221,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -50964,7 +52278,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -50985,7 +52300,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51041,7 +52357,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51062,7 +52379,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51118,7 +52436,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51139,7 +52458,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51195,7 +52515,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51216,7 +52537,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51272,7 +52594,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51293,7 +52616,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51349,7 +52673,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51370,7 +52695,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51426,7 +52752,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51447,7 +52774,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51503,7 +52831,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51524,7 +52853,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51580,7 +52910,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51601,7 +52932,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51657,7 +52989,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51678,7 +53011,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51734,7 +53068,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51755,7 +53090,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51811,7 +53147,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51832,7 +53169,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51888,7 +53226,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51909,7 +53248,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -51965,7 +53305,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -51986,7 +53327,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52042,7 +53384,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52063,7 +53406,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52119,7 +53463,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52140,7 +53485,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52196,7 +53542,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52217,7 +53564,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52273,7 +53621,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52294,7 +53643,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52350,7 +53700,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52371,7 +53722,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52427,7 +53779,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52448,7 +53801,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52504,7 +53858,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52525,7 +53880,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52581,7 +53937,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52602,7 +53959,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52658,7 +54016,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52679,7 +54038,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52735,7 +54095,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52756,7 +54117,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52812,7 +54174,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52833,7 +54196,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52889,7 +54253,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52910,7 +54275,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -52966,7 +54332,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -52987,7 +54354,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53043,7 +54411,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53064,7 +54433,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53120,7 +54490,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53141,7 +54512,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53197,7 +54569,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53218,7 +54591,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53274,7 +54648,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53295,7 +54670,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53351,7 +54727,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53372,7 +54749,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53428,7 +54806,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53449,7 +54828,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53505,7 +54885,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53526,7 +54907,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53582,7 +54964,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53603,7 +54986,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53659,7 +55043,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53680,7 +55065,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53736,7 +55122,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53757,7 +55144,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53813,7 +55201,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53834,7 +55223,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53890,7 +55280,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53911,7 +55302,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -53967,7 +55359,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -53988,7 +55381,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -54044,7 +55438,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -54065,7 +55460,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Telcel",
@@ -54090,17 +55486,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 58,
-      "netas": 55,
+      "brutas": 60,
+      "netas": 57,
       "no_activadas": 1,
       "desfasadas": 2,
       "RENO_16_5G": 0,
       "RENO_16F": 27,
-      "A7_PRO": 2,
+      "A7_PRO": 3,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 9,
-      "A_MIDDLE": 14,
+      "A_MIDDLE": 15,
       "A_LOW": 3,
       "daily_netas": {
         "1": 0,
@@ -54121,7 +55517,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 7,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 2
       },
       "daily_brutas": {
         "1": 0,
@@ -54142,7 +55539,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 9,
         "18": 0,
-        "19": 3
+        "19": 3,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -54180,10 +55578,10 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 50,
+      "brutas": 51,
       "netas": 43,
       "no_activadas": 0,
-      "desfasadas": 7,
+      "desfasadas": 8,
       "RENO_16_5G": 0,
       "RENO_16F": 16,
       "A7_PRO": 1,
@@ -54211,7 +55609,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 9,
         "17": 7,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -54232,7 +55631,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 10,
         "17": 7,
         "18": 1,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Coppel",
@@ -54258,11 +55658,11 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 0,
     "ventas_corte": {
       "brutas": 38,
-      "netas": 28,
-      "no_activadas": 5,
+      "netas": 29,
+      "no_activadas": 4,
       "desfasadas": 5,
       "RENO_16_5G": 0,
-      "RENO_16F": 8,
+      "RENO_16F": 9,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 3,
@@ -54288,7 +55688,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 0,
-        "19": 1
+        "19": 2,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -54309,7 +55710,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 3,
         "18": 0,
-        "19": 4
+        "19": 4,
+        "20": 0
       }
     },
     "cadena_oficial": "Elektra",
@@ -54334,16 +55736,16 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 41,
-      "netas": 41,
-      "no_activadas": 0,
+      "brutas": 44,
+      "netas": 42,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 5,
       "A7_PRO": 7,
       "FIND": 0,
       "RENO_OTHERS": 0,
-      "A_HIGH": 10,
+      "A_HIGH": 11,
       "A_MIDDLE": 19,
       "A_LOW": 0,
       "daily_netas": {
@@ -54365,7 +55767,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -54386,7 +55789,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 4,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 3
       }
     },
     "cadena_oficial": "Coppel",
@@ -54442,7 +55846,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -54463,7 +55868,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -54488,10 +55894,10 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 33,
+      "brutas": 34,
       "netas": 31,
       "no_activadas": 1,
-      "desfasadas": 1,
+      "desfasadas": 2,
       "RENO_16_5G": 0,
       "RENO_16F": 0,
       "A7_PRO": 0,
@@ -54519,7 +55925,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -54540,7 +55947,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 4,
         "17": 2,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 1
       }
     },
     "cadena_oficial": "Sam's Club",
@@ -54596,7 +56004,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -54617,7 +56026,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -54673,7 +56083,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 1,
@@ -54694,7 +56105,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",
@@ -54719,12 +56131,12 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 26,
-      "netas": 24,
+      "brutas": 28,
+      "netas": 26,
       "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 2,
-      "RENO_16F": 5,
+      "RENO_16F": 7,
       "A7_PRO": 0,
       "FIND": 1,
       "RENO_OTHERS": 1,
@@ -54750,7 +56162,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 2,
@@ -54771,7 +56184,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "AT&T",
@@ -54827,7 +56241,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 1,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -54848,7 +56263,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 1,
         "17": 2,
         "18": 2,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "Coppel",
@@ -54873,8 +56289,8 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 39,
-      "netas": 33,
+      "brutas": 40,
+      "netas": 34,
       "no_activadas": 2,
       "desfasadas": 4,
       "RENO_16_5G": 0,
@@ -54883,7 +56299,7 @@ window.PORTAL_COMISIONES_DATA = [
       "FIND": 0,
       "RENO_OTHERS": 1,
       "A_HIGH": 5,
-      "A_MIDDLE": 12,
+      "A_MIDDLE": 13,
       "A_LOW": 7,
       "daily_netas": {
         "1": 0,
@@ -54904,7 +56320,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -54925,7 +56342,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 6,
         "17": 1,
         "18": 0,
-        "19": 2
+        "19": 2,
+        "20": 1
       }
     },
     "cadena_oficial": "Elektra",
@@ -54950,17 +56368,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 0,
     "tgt_foco": 0,
     "ventas_corte": {
-      "brutas": 57,
-      "netas": 48,
-      "no_activadas": 4,
+      "brutas": 59,
+      "netas": 51,
+      "no_activadas": 3,
       "desfasadas": 5,
       "RENO_16_5G": 0,
-      "RENO_16F": 15,
+      "RENO_16F": 17,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 6,
       "A_HIGH": 8,
-      "A_MIDDLE": 15,
+      "A_MIDDLE": 16,
       "A_LOW": 4,
       "daily_netas": {
         "1": 4,
@@ -54980,8 +56398,9 @@ window.PORTAL_COMISIONES_DATA = [
         "15": 3,
         "16": 8,
         "17": 5,
-        "18": 2,
-        "19": 0
+        "18": 3,
+        "19": 0,
+        "20": 2
       },
       "daily_brutas": {
         "1": 4,
@@ -55002,7 +56421,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 8,
         "17": 6,
         "18": 5,
-        "19": 0
+        "19": 0,
+        "20": 2
       }
     },
     "cadena_oficial": "Elektra",
@@ -55027,17 +56447,17 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_a7pro": 4,
     "tgt_foco": 12,
     "ventas_corte": {
-      "brutas": 35,
-      "netas": 32,
-      "no_activadas": 0,
-      "desfasadas": 3,
+      "brutas": 38,
+      "netas": 33,
+      "no_activadas": 1,
+      "desfasadas": 4,
       "RENO_16_5G": 0,
       "RENO_16F": 5,
       "A7_PRO": 1,
       "FIND": 0,
       "RENO_OTHERS": 0,
       "A_HIGH": 6,
-      "A_MIDDLE": 20,
+      "A_MIDDLE": 21,
       "A_LOW": 0,
       "daily_netas": {
         "1": 0,
@@ -55058,7 +56478,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 3,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 1
       },
       "daily_brutas": {
         "1": 0,
@@ -55079,7 +56500,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 7,
         "17": 3,
         "18": 0,
-        "19": 1
+        "19": 1,
+        "20": 3
       }
     },
     "iot_corte": {
@@ -55131,7 +56553,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 2,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -55152,7 +56575,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "iot_corte": {
@@ -55174,15 +56598,15 @@ window.PORTAL_COMISIONES_DATA = [
     "tgt_foco": 12,
     "ventas_corte": {
       "brutas": 16,
-      "netas": 13,
-      "no_activadas": 3,
+      "netas": 14,
+      "no_activadas": 2,
       "desfasadas": 0,
       "RENO_16_5G": 0,
       "RENO_16F": 0,
       "A7_PRO": 0,
       "FIND": 0,
       "RENO_OTHERS": 1,
-      "A_HIGH": 4,
+      "A_HIGH": 5,
       "A_MIDDLE": 8,
       "A_LOW": 0,
       "daily_netas": {
@@ -55200,11 +56624,12 @@ window.PORTAL_COMISIONES_DATA = [
         "12": 0,
         "13": 4,
         "14": 3,
-        "15": 4,
+        "15": 5,
         "16": 2,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -55225,7 +56650,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 3,
         "17": 1,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "iot_corte": {
@@ -55277,7 +56703,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       },
       "daily_brutas": {
         "1": 0,
@@ -55298,7 +56725,8 @@ window.PORTAL_COMISIONES_DATA = [
         "16": 0,
         "17": 0,
         "18": 0,
-        "19": 0
+        "19": 0,
+        "20": 0
       }
     },
     "cadena_oficial": "AT&T",

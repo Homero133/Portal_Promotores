@@ -8,7 +8,7 @@
     if (window.oliAssistant && window.oliAssistant._initialized) return;
 
     const ASSET_AVATAR = 'Recursos/ola/oli-avatar.png';
-    const DATA_VERSION = '20261120';
+    const DATA_VERSION = '20261121';
 
     const FOCUS_RATES = {
         RENO_16_5G: { low: 400, high: 550 },

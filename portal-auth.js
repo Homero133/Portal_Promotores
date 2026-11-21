@@ -167,7 +167,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'supervisores-data.js?v=20261120c';
+            sc.src = 'supervisores-data.js?v=20261121';
             sc.onload = function () { resolve(getSupervisorsList()); };
             sc.onerror = function () { resolve([]); };
             document.head.appendChild(sc);
@@ -197,7 +197,7 @@
                 return;
             }
             const sc = document.createElement('script');
-            sc.src = 'comisiones-data.js?v=20261120c';
+            sc.src = 'comisiones-data.js?v=20261121';
             sc.onload = function () { resolve(getPromoterList()); };
             sc.onerror = function () { reject(new Error('No se pudo cargar el padrón de promotores.')); };
             document.head.appendChild(sc);
@@ -571,7 +571,7 @@
         }
         if (document.querySelector('script[src*="oli-assistant.js"]')) return;
         const sc = document.createElement('script');
-        sc.src = 'oli-assistant.js?v=20261120b';
+        sc.src = 'oli-assistant.js?v=20261121';
         sc.async = true;
         document.head.appendChild(sc);
     }
